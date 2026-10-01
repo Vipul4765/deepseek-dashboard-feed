@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T14:02:52.015199+05:30",
-      "summary": "HOLD \u2014 no entry (systemic block, not a thesis call). Sessions open (NSE/BSE 15:40, MCX 23:55); account flat, no open runs, today P&L 0. Option quotes are now fresh and supported concrete candidates: NIFTY 06-10 bear call 22400/22500 (credit 37.3, breakeven 22437 vs spot 22292 in a clear downtrend), SENSEX 01-10 0DTE bear call, GOLDM 29-10 iron condor (credit 753, max loss 247/unit, R:R 3.0). Every create on all three exchanges was refused: \"contract store degraded: missed the 2026-10-01 contract build for NSE_FO / MCX_FO / BSE_FO\". Reassess once Core rebuilds today's contract store and a create succeeds."
-    },
-    {
       "time": "2026-10-01T14:06:05.307690+05:30",
       "summary": "Earlier contract-store block cleared: two hedged runs filled this cycle. 5438 NIFTY 06-10 bear call (BUY 22500CE/SELL 22400CE, 2 lots, FILLED) marked \u221219.5; 5437 GOLDM 29-10 iron condor (2 lots, FILLED) marked +110. Both hedges confirmed from Core events; SL/TP and 14:55 / 22:50 exits set \u2014 no edits needed. No new entry: index window effectively closed (50 min to forced exit, oversold RSI ~8 with VIX +16%, and 5438 already carries NIFTY exposure); GOLDM already covered; CRUDEOILM trend extended with only ~1.4% buffer vs 3.9% day range (R:R <1). Reassess on fresh quotes next cycle."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-01T21:04:27.163285+05:30",
       "summary": "21:04 IST: NSE/BSE closed (market_open_now=false), only MCX open to 23:55. Both live runs verified hedged/intact from fresh P&L and Core snapshots: 5437 GOLDM 29-10 condor (buy 146000PE/sell 147000PE/sell 150000CE/buy 151000CE, 2 lots) +260 unrealized, spot 148,585 mid-range; 5439 CRUDEOILM 15-10 bull put (buy 8600PE/sell 8750PE, 10 lots) -45, spot 8,919 well above the 8,750 short. No new entry: indices are not entry-eligible and both MCX underlyings already carry live exposure, so any new leg would duplicate/correlate rather than diversify \u2014 that is the blocking input. Next review 600s; triggers: crude toward 8,750, GOLDM toward 147,000/150,000, any stop, or 22:50 exits."
+    },
+    {
+      "time": "2026-10-01T21:14:29.758210+05:30",
+      "summary": "21:14 IST: NSE/BSE closed (market_open_now=false); only MCX open. No new entry \u2014 the only entry-eligible symbols are MCX GOLDM and CRUDEOILM, and both already carry live open runs, so any new structure would duplicate/correlate rather than diversify. Verified hedged and intact via fresh marks (age ~2s): 5437 GOLDM 29-10 condor (buy146000PE/sell147000PE/sell150000CE/buy151000CE, 2 lots) +510, spot 148,737 mid-range; 5439 CRUDEOILM 15-10 bull put (buy8600PE/sell8750PE, 10 lots) +40, spot 8,924 well above the 8,750 short. No stops/targets near. Next review 900s; triggers: crude toward 8,750, GOLDM 147,000/150,000, any stop, or 22:50 exits."
     }
   ]
 }
