@@ -151,6 +151,10 @@
     {
       "time": "2026-10-01T20:04:28.634864+05:30",
       "summary": "20:04 IST: NSE/BSE closed, MCX open (until 23:55). Two live hedged runs both healthy: 5437 GOLDM condor (short 147000PE/150000CE) +310, spot 148,653 mid-range, SL 30k untouched; 5439 CRUDEOILM bull put (buy 8600PE/sell 8750PE, 10 lots) -625, spot ~8,851 with ~101-pt buffer above the 8,750 short, SL 4,000 untouched. No new entry: both open-session symbols already carry live exposure, so another leg would be correlated, not diversifying, and no distinct priced candidate exists. Next review 15 min; triggers: crude toward 8,750, any stop hit, or the 22:50 exit."
+    },
+    {
+      "time": "2026-10-01T20:19:31.738651+05:30",
+      "summary": "20:19 IST: NSE/BSE closed (market_open_now false); MCX open to 23:55. Both live runs verified hedged from Core snapshots: 5437 GOLDM condor (L1 buy 146000PE, L2 sell 147000PE, L3 sell 150000CE, L4 buy 151000CE, 2 lots) +60, spot 148,657 sits mid-range, SL 30k/TP 40k untouched; 5439 CRUDEOILM bull put (buy 8600PE/sell 8750PE, 10 lots) -380, spot 8,884 leaves ~134 pts above the 8,750 short, SL 4,000 untouched. No new entry: the only open-session symbols both already carry live exposure, so another leg would be correlated rather than distinct, and no separate priced candidate exists. Next review 15 min; triggers: crude toward 8,750, any stop, or the 22:50 exits."
     }
   ]
 }
