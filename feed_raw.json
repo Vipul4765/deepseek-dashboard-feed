@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T16:00:16.812073+05:30",
-      "summary": "15:59 IST, MCX open; NSE/BSE closed (entry window over). Both open MCX runs hedge-verified via Core margin: 5437 GOLDM short 150000CE/147000PE fully covered by long 151000CE/146000PE (20=20); 5439 CRUDEOILM short 8750PE covered by long 8600PE (100=100). Margins ~\u20b9158k/\u20b966k, scan risk \u20b92.9k/\u20b96.3k. No new distinct setup: GOLDM's neutral thesis is already held (RSI 70.7, TimesFM band 0.48%), and CRUDEOILM's 59% IV puts every strike near-ATM, so no attractive non-duplicative spread exists. HOLD. Next: manage 22:50 MCX time exits and configured SLs (GOLDM 30k, CRUDEOILM 4k); reassess if a short strike is approached."
-    },
-    {
       "time": "2026-10-01T16:05:28.792010+05:30",
       "summary": "16:05 IST: NSE/BSE closed (entry windows over); MCX open. Both open runs hedge-verified via Core margin and fresh P&L: 5437 GOLDM condor (short 150000CE/147000PE, long 151000CE/146000PE, 20=20) +1120 unrealized, spot 148844 inside strikes; 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 100=100) -505, spot 8842 just above strike. No new entry: both MCX underlyings already carry their thesis (GOLDM neutral, crude bullish), so any addition duplicates/correlates exposure, and adding crude to recover would breach size-to-recover discipline. HOLD. Next: MCX 22:50 time exits and configured SLs (GOLDM 30k, crude 4k); reassess if crude short put 8750 or GOLDM shorts 147000/150000 are approached."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-01T23:05:51.442515+05:30",
       "summary": "Flat and no entry: all 13 owned strategies are unstarted, open_runs empty, backend snapshots show 0 open legs. NSE/BSE market_open_now=false (closed 15:40) and MCX is past our 22:50 exit / 23:00 entry cutoff, so no eligible underlying is enterable now. Today P&L -3235 on 3 settled trades (GOLDM +1240, CRUDEOILM -1881.5, NIFTY bear call -2593.5). No orders placed. Next review in 1800s; reassess fresh index quotes from 09:30 IST tomorrow before considering a priced, hedged setup."
+    },
+    {
+      "time": "2026-10-01T23:20:50.573037+05:30",
+      "summary": "Flat, no action. No open runs; all 13 owned strategies unstarted; backend snapshots show 0 open legs. Entry windows are closed: NSE/BSE market_open_now=false (close 15:40) and MCX is past our 23:00 entry / 22:50 exit cutoff (now 23:20 IST), so no eligible underlying. Today's settled P&L: -3235 from 3 trades. Next review in 1800s; reassess fresh index quotes from 09:30 IST before pricing a hedged setup."
     }
   ]
 }
