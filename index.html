@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DeepSeek Live Decisions</title>
+<meta name="description" content="DeepSeek's own reasoning, trade by trade, on a live paper trading account.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#0a0c0b; --panel:#131715; --panel-border:#242b27; --panel-raised:#1a211d;
+  --fg:#e7ece8; --fg-dim:#8b948f; --fg-faint:#5b645f;
+  --accent:#e8a33d; --accent-dim:#5c4420;
+  --loss:#f87171; --loss-dim:#3a1e1e;
+  --live:#4ade80;
+  --font-data:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --font-body:'IBM Plex Sans',system-ui,-apple-system,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg)}
+body{color:var(--fg);font-family:var(--font-body);
+  padding-inline:16px;padding-block:28px;max-width:760px;margin-inline:auto}
+h1{text-wrap:balance;margin:0}
+
+.header{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  flex-wrap:wrap;padding-bottom:18px;border-bottom:1px solid var(--panel-border);margin-bottom:24px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand-mark{width:36px;height:36px;border-radius:8px;background:linear-gradient(160deg,var(--accent),#b97a1f);
+  display:flex;align-items:center;justify-content:center;font-family:var(--font-data);font-weight:700;
+  color:#1a1206;font-size:16px;flex:none}
+.brand-text h1{font-size:18px;font-weight:600;letter-spacing:.2px}
+.brand-text .sub{font-size:11.5px;color:var(--fg-dim);font-family:var(--font-data);letter-spacing:.3px;margin-top:2px}
+.status-cluster{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.live-dot{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-data);font-size:11.5px;
+  color:var(--live);letter-spacing:.4px;text-transform:uppercase}
+.live-dot::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--live);
+  box-shadow:0 0 0 0 var(--live);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(74,222,128,.5)}70%{box-shadow:0 0 0 7px rgba(74,222,128,0)}100%{box-shadow:0 0 0 0 rgba(74,222,128,0)}}
+.disclosure{font-size:11px;color:var(--fg-faint);font-family:var(--font-data);letter-spacing:.2px;
+  padding:7px 11px;border:1px solid var(--panel-border);border-radius:6px;background:var(--panel)}
+
+.feed{display:flex;flex-direction:column;gap:12px}
+.feed-item{background:var(--panel);border:1px solid var(--panel-border);border-left:4px solid var(--panel-border);
+  border-radius:10px;padding:16px 18px}
+.feed-item.trade{border-left-color:var(--accent)}
+.feed-item.stop{border-left-color:var(--loss)}
+.feed-row{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap}
+.feed-time{font-family:var(--font-data);font-size:11.5px;color:var(--fg-faint);white-space:nowrap;
+  font-variant-numeric:tabular-nums}
+.feed-tag{font-family:var(--font-data);font-size:10px;text-transform:uppercase;letter-spacing:.6px;
+  padding:2px 8px;border-radius:5px;background:var(--panel-raised);color:var(--fg-dim)}
+.feed-tag.trade{background:var(--accent-dim);color:var(--accent)}
+.feed-tag.stop{background:var(--loss-dim);color:var(--loss)}
+.feed-text{font-size:15px;line-height:1.6;color:var(--fg);overflow-wrap:break-word}
+.empty{text-align:center;padding:40px 16px;color:var(--fg-faint);font-size:14px;
+  border:1px dashed var(--panel-border);border-radius:10px}
+
+footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--panel-border);
+  font-size:11px;color:var(--fg-faint);font-family:var(--font-data);text-align:center}
+footer a{color:var(--fg-dim)}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="brand">
+    <div class="brand-mark">DS</div>
+    <div class="brand-text">
+      <h1>DeepSeek Live Decisions</h1>
+      <div class="sub">WHY, IN ITS OWN WORDS</div>
+    </div>
+  </div>
+  <div class="status-cluster">
+    <span class="live-dot" id="live-indicator">live</span>
+    <span class="disclosure">paper account &middot; no real money</span>
+  </div>
+</div>
+
+<div class="feed" id="feed"><div class="empty">Loading...</div></div>
+
+<footer>Updated automatically every ~2 minutes straight from the trading server &middot; <a href="https://github.com/Vipul4765/deepseek-dashboard-feed">source</a></footer>
+
+<script>
+var FEED_URL = "feed_raw.json";
+
+function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g, function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];
+}); }
+
+function timeLabel(iso){
+  if(!iso) return "";
+  var d = new Date(iso);
+  if(isNaN(d)) return "";
+  return d.toLocaleTimeString("en-IN", {hour:"2-digit",minute:"2-digit",hour12:false,timeZone:"Asia/Kolkata"}) + " IST";
+}
+
+function classify(summary){
+  var s = (summary || "").toLowerCase();
+  if(/\bstop\b|stopped out|forced exit|stop-loss hit|sl hit/.test(s)) return "stop";
+  if(/\bopened\b|^opened|new entry:|entered |created strategy|started strategy/.test(s)) return "trade";
+  return "note";
+}
+
+function render(data){
+  var el = document.getElementById("feed");
+  var items = (data.feed || []).slice().reverse();
+  if(!items.length){ el.innerHTML = '<div class="empty">Waiting for the first update</div>'; return; }
+  el.innerHTML = items.map(function(f){
+    var cls = classify(f.summary);
+    return '<div class="feed-item ' + cls + '">' +
+      '<div class="feed-row"><span class="feed-time">' + esc(timeLabel(f.time)) + '</span>' +
+      '<span class="feed-tag ' + cls + '">' + cls + '</span></div>' +
+      '<div class="feed-text">' + esc(f.summary) + '</div></div>';
+  }).join("");
+}
+
+function load(){
+  fetch(FEED_URL + "?t=" + Date.now())
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      render(data);
+      document.getElementById("live-indicator").textContent = "live";
+      document.getElementById("live-indicator").style.color = "var(--live)";
+    })
+    .catch(function(){
+      document.getElementById("live-indicator").textContent = "offline";
+      document.getElementById("live-indicator").style.color = "var(--fg-faint)";
+    });
+}
+
+load();
+setInterval(load, 120000);
+</script>
+</body>
+</html>
