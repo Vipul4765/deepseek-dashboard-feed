@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T15:11:02.130484+05:30",
-      "summary": "15:10 IST; NSE/BSE open but index entry (09:30-15:00) and 14:55 exit cutoff have passed, so no new index structure. Only MCX is entry-eligible. Both configured MCX underlyings already carry filled, hedged runs \u2014 5437 GOLDM condor (4/4 legs, +210, SL 30000/TP 40000) and 5439 CRUDEOILM bull put (2/2 legs, -195, SL 4000/TP 3000); a second structure would duplicate the same underlying/expiry exposure with no distinct thesis. No naked shorts, marks far from stops, no action. Next: reassess on fresh MCX quotes near SL/TP; time-exit by 22:50."
-    },
-    {
       "time": "2026-10-01T15:25:54.166204+05:30",
       "summary": "15:25 IST. NSE/BSE index entry (09:30-15:00) and 14:55 exit cutoff have passed, so NIFTY/SENSEX/BANKNIFTY/FINNIFTY/MIDCPNIFTY are not entry-eligible. Only MCX open. Assessed GOLDM and CRUDEOILM: both already carry filled, fully hedged runs \u2014 5437 GOLDM iron condor (146000/147000 PE + 150000/151000 CE, 4/4 legs, +770, SL 30000/TP 40000, spot 148387 well inside) and 5439 CRUDEOILM bull put (8600/8750 PE, 2/2 legs, -190, SL 4000/TP 3000, spot 8905 far above short 8750). A second structure on either name would duplicate the same underlying/expiry exposure with no distinct thesis. No naked shorts, marks far from stops. Next: manage time exits by 22:50; reassess on fresh MCX quotes near SL/TP."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-01T22:19:26.727485+05:30",
       "summary": "22:19 IST: NSE/BSE closed; only MCX open (close 23:55). No new entry \u2014 both eligible MCX symbols already carry live hedged runs and only ~31 min remains to the 22:50 mandatory exit, so a third structure would just duplicate correlated exposure. 5437 GOLDM 29-10 condor +430 (L146000PE/S147000PE/S150000CE/L151000CE, 2 lots), margin 77,455, far from SL30k/TP40k. 5439 CRUDEOILM 15-10 bull put -310 (L8600PE/S8750PE, 10 lots); spot ~8,870, short 8750 ~120pt OTM, wing intact, max loss ~9,110, SL4,000 not threatened. Both hedges intact, no edits. Next review 1500s; triggers: any stop, hedge break, or 22:50 exit."
+    },
+    {
+      "time": "2026-10-01T22:33:56.982924+05:30",
+      "summary": "Squared off 5439 (CRUDEOILM) after findiing its definition had been changed to 6 legs and at 22:32 it fired an unintended book: SELL 82x8850PE / BUY 21x8950PE / 2x BUY 20-lot 8900CE plus the original 8750/8600 put spread \u2014 ~61 lots net naked short puts, scenario loss ~766k vs configured 4,000 SL. All legs exited (L2 330.95, L3/L4 375.55, L5 428.65, L6 378.05), RUN_DONE, margin 0, realized ~-1.9k. 5437 GOLDM condor intact (4 legs hedged, +630, margin 77,455); time-exit 22:50. Indices closed, only ~16 min left at MCX, so no new entry. Next review 900s."
     }
   ]
 }
