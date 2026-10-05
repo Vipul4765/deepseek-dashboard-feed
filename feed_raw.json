@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T09:47:37.326402+05:30",
-      "summary": "HOLD. 5441 NIFTY 06-10 iron condor live, 4 legs filled, unrealized +136.50, margin ~\u20b9185k, SL 3200/TP 3000 \u2014 healthy, no action. 5446 SENSEX 08-10 bull put spread confirmed SCHEDULED, enters 09:49. No new trade: only NIFTY and SENSEX have fresh executable option quotes and both are already committed; a second index bullish bet would duplicate 5446's thesis. MCX option entries are blocked this session \u2014 5442/5443/5444/5445 all failed NO_EXECUTABLE_QUOTE (stale prior-session quote) despite fresh chain LTPs, so not retrying. Next: verify 5446 fill/hedge in ~150s."
-    },
-    {
       "time": "2026-10-05T09:50:15.614003+05:30",
       "summary": "No new entry. 5441 NIFTY 06-10 condor (4 legs filled, +\u20b9224 unrealized, margin ~\u20b9185k) and 5446 SENSEX 08-10 bull put 72200/72700 (both legs filled, hedge intact, -\u20b975, margin ~\u20b9192k) are healthy; stops/targets software-managed, no edit. New entries blocked: MCX option legs fail \"no executable quote within 5s\" (run events 5442/5445) so GOLDM/CRUDEOILM are unexecutable; BANKNIFTY/FINNIFTY/MIDCPNIFTY have no recorder chain; another bullish NIFTY/SENSEX vertical would duplicate 5446's thesis. Reassess marks and MCX feed in 5 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T13:56:08.318776+05:30",
       "summary": "HOLD, no new entry. Assessed NIFTY/SENSEX: ~60 min to 14:55 index exit, both at 120-bar highs (RSI 65/66), so a fresh leg only adds correlated short-gamma into the close. GOLDM and CRUDEOILM already each carry a hedged iron condor (5453 +320, 5454 +90) with no fresh directional edge (RSI 60/47, mixed forecasts). BANKNIFTY/FINNIFTY/MIDCPNIFTY lack a fresh chain. Five hedged runs intact, no hedge failure, no SL breached; NIFTY put legs combine to a 22550 butterfly. Next: 300s, or any SL/time exit."
+    },
+    {
+      "time": "2026-10-05T14:01:02.858509+05:30",
+      "summary": "HOLD, no new entry. Assessed NIFTY/SENSEX (~55 min to the 14:55 index exit; both at 120-bar highs after a strong intraday rally with TimesFM p50 flat, so no positive-expectancy vertical into the close) and CRUDEOILM/GOLDM (both already carry hedged iron condors; forecasts mildly negative, no fresh distinct edge; adding another structure only doubles correlated exposure). Existing runs intact: 5441 +117, 5451 -1033, 5453 -80, 5454 -210, 5456 -114; no hedge failure, no SL breached. Next: 600s, or any SL/time exit."
     }
   ]
 }
