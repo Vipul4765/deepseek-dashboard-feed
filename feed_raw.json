@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T16:20:26.879250+05:30",
-      "summary": "16:20 IST: NSE/BSE closed; MCX open. Only GOLDM and CRUDEOILM eligible, and both already carry their thesis. 5437 GOLDM condor (short 147000PE/150000CE, hedges 20=20) +450, spot 148947 mid-range, near delta-neutral. 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 100=100) -730, spot 8812 just above strike after a down-move. No distinct non-duplicative setup: a new crude bearish vertical would offset the existing bullish leg, and a GOLDM vertical duplicates correlated risk. HOLD. Next: reassess if crude nears 8750 or GOLDM nears 147000/150000, and the 22:50 commodity time exits."
-    },
-    {
       "time": "2026-10-01T16:29:08.861709+05:30",
       "summary": "16:28 IST: NSE/BSE closed; only MCX open and both eligible underlyings already carry positioned theses. Verified from Core margin \u2014 5439 CRUDEOILM short 8750PE/long 8600PE (100=100) and 5437 GOLDM short 147000PE+150000CE with 146000PE/151000CE hedges (20=20). Crude spot 8,808 sits just above its 8,750 short strike, ~\u22122,800 unrealized, still inside the spread and under its 4,000 SL; GOLDM ~flat, spot 148,838 mid-range. No distinct non-duplicative setup (new gold = correlated double-up, new crude bearish = offsets live bull put). HOLD. Next: reassess if crude nears 8,750 or GOLDM nears 147000/150000, and the 22:50 commodity time exits."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-05T09:20:27.957311+05:30",
+      "summary": "No trade. It is 09:20 IST and no entry window is open (NSE/BSE indices 09:30-15:00, MCX 09:30-23:00), so no eligible underlying. Flat: no open runs, no trades today. Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, GOLDM, CRUDEOILM \u2014 all gapping up hard with RSI 80+ (NIFTY +135, SENSEX +470) on only 5 candles. Next review 09:30 to confirm expiries and price a hedged structure (neutral condor or directional vertical) on fresh post-open quotes."
+    },
+    {
+      "time": "2026-10-05T09:33:01.167093+05:30",
       "summary": "No trade. It is 09:20 IST and no entry window is open (NSE/BSE indices 09:30-15:00, MCX 09:30-23:00), so no eligible underlying. Flat: no open runs, no trades today. Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, GOLDM, CRUDEOILM \u2014 all gapping up hard with RSI 80+ (NIFTY +135, SENSEX +470) on only 5 candles. Next review 09:30 to confirm expiries and price a hedged structure (neutral condor or directional vertical) on fresh post-open quotes."
     }
   ]
