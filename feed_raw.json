@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T09:42:36.073756+05:30",
-      "summary": "NIFTY 5441 live/hedged (+\u20b929, margin \u20b9185k). Last cycle's GOLDM 5442 and CRUDEOILM 5443 FAILED at entry (stale prior-session quotes on commodity legs), \u20b90 P&L, no naked legs. Both MCX chains are now fresh with deep OI, so I created+started 5444: CRUDEOILM 15-10 iron condor, 20 lots, BUY 8200PE/SELL 8400PE/SELL 9100CE/BUY 9300CE (~110pt credit, defined max loss ~\u20b918k, delta-neutral, short strikes outside the recent 8,655-9,031 range). SL \u20b912k/TP \u20b99k, exit 22:50. Next review 90s to confirm fills and hedge integrity."
-    },
-    {
       "time": "2026-10-05T09:44:57.926143+05:30",
       "summary": "5441 NIFTY 06-10 condor live/hedged, +\u20b978, margin \u20b9185k \u2014 hold. 5444 CRUDEOILM condor fired 09:44 but all 4 legs failed NO_EXECUTABLE_QUOTE (prior-session option quotes), run DONE, \u20b90, no naked legs \u2014 same failure mode as 5442/5443, not retrying CRUDEOILM. Created+started 5445 GOLDM 29-10 iron condor: 2 lots, SELL 147000PE/BUY 146000PE, SELL 149000CE/BUY 150000CE (~809pt credit, delta-neutral, defined max loss \u20b938.2k), SL \u20b925k/TP \u20b918k, exit 22:50, entry 09:47. Next review 150s to confirm 5445 fills; if MCX quotes stay stale, switch to an NSE candidate."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T13:41:13.158236+05:30",
       "summary": "HOLD. Five defined-risk runs open, all shorts hedged same type/expiry: 5441 NIFTY IC -546, 5451 NIFTY bear put -1326, 5456 SENSEX IC -206, 5453 GOLDM IC +300, 5454 CRUDEOILM IC -265. No hedge failure; SLs intact. Assessed NIFTY/SENSEX/GOLDM/CRUDEOILM: each already carries an active run, so a new same-symbol structure only adds correlated short-gamma (rules forbid duplicating a thesis). NIFTY/SENSEX/BANKNIFTY RSI 75-78 at intraday highs \u2014 chasing a bull vertical is unattractive. Blocker: no distinct, non-correlated setup. Next: 300s, or 14:55 index exit / any SL hit (commodities 22:50)."
+    },
+    {
+      "time": "2026-10-05T13:45:58.747549+05:30",
+      "summary": "HOLD. Five hedged runs open, all shorts covered (5441 NIFTY IC -39, 5451 NIFTY bear put -1911, 5456 SENSEX IC -280, 5453 GOLDM IC -100, 5454 CRUDEOILM IC -235); no hedge failure, SLs intact. Every configured underlying (NIFTY, SENSEX, GOLDM, CRUDEOILM) already carries a run, so a new same-symbol structure only adds correlated short-gamma. Indices are extended at intraday highs (RSI 89-93) with only ~70 min to the 14:55 index exit, so a fresh vertical would be chasing. Blocker: no distinct, non-correlated priced setup. Next: 300s, or any SL hit / 14:55 index exit (commodities 22:50)."
     }
   ]
 }
