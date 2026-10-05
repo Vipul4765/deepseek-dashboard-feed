@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T12:25:58.644809+05:30",
-      "summary": "Verified 5 live runs all hedged and filled: 5441 NIFTY IC -1531 (SL 3200, not near), 5451 NIFTY bear put +2165, 5453 GOLDM IC +550, 5454 CRUDEOILM IC -140, 5456 SENSEX IC +46. No new entry: every streamed underlying (NIFTY, SENSEX, GOLDM, CRUDEOILM) already carries a defined-risk book and TimesFM is flat (-0.0% to -0.09%), so another structure would duplicate thesis/correlated exposure with no priced edge. Blocker: absent distinct thesis; no fresh BANKNIFTY/FINNIFTY chain. Next: 300s, or 5441 SL, NIFTY out of 22397-22560."
-    },
-    {
       "time": "2026-10-05T12:30:54.400522+05:30",
       "summary": "Reassessed all four enabled underlyings with fresh quotes (NIFTY 22458, SENSEX 72010, GOLDM 148355, CRUDEOILM 8670) \u2014 all inside their existing defined-risk books: 5441 NIFTY IC (SL 3200, now -1248), 5451 NIFTY bear put (+1823), 5456 SENSEX IC (+4), 5453 GOLDM IC (-320), 5454 CRUDEOILM IC (-195). All 18 legs FILLED and hedged; nothing near a stop or exit (index exit 14:55, MCX 22:50). TimesFM is flat (-0.05% to +0.07%) and any new structure would duplicate correlated thesis, so HOLD; blocker is absence of a distinct priced edge. Next: 300s, or if NIFTY leaves 22397-22560."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T18:30:12.177852+05:30",
       "summary": "HOLD. NSE/BSE closed (15:40); only MCX open. Two active 1:1-hedged condors, fresh marks: 5453 GOLDM (short 146500P/149500C, long 146000P/150000C, 2 lots) -110, spot 148567 inside range; 5454 CRUDEOILM (short 8500P/8900C, long 8450P/8950C, 10 lots) -230, spot 8680 inside range. No new entry: both MCX underlyings already carry the same neutral thesis and TimesFM is flat (GOLDM +0.02%, CRUDEOILM +0.06%); adding would duplicate correlated exposure. Next trigger: GOLDM break 148313/148895 or CRUDEOILM break 8637/8757, or stop approach."
+    },
+    {
+      "time": "2026-10-05T18:45:18.397358+05:30",
+      "summary": "HOLD. NSE/BSE closed; only MCX open (18:45 IST). Two active 1:1-hedged condors both safe: 5453 GOLDM short 146500P/149500C, spot 148487, +680; 5454 CRUDEOILM short 8500P/8900C, spot 8633, -125. No new entry: no distinct edge \u2014 GOLDM flat, CRUDEOILM RSI 11 oversold with flat TimesFM; a third MCX condor duplicates correlated neutral exposure. Next review ~15 min or on GOLDM break 148313/148895 or CRUDEOILM break 8500/8900."
     }
   ]
 }
