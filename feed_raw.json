@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T10:33:50.313711+05:30",
-      "summary": "HOLD, no new entry. Assessed all streamed underlyings: NIFTY already carries 3 structures (5449 bear call +487, 5451 bear put -546, 5441 condor -429) so a 4th is duplicate/correlated; SENSEX already carries 5446 bull put (-4,920, short 72700PE ITM, within its 12,000 SL); BANKNIFTY/FINNIFTY returned \"no chain data\" (not streamed); GOLDM/CRUDEOILM streamed grids only reach ~0.37-0.43 delta at the edges with no safe wing strikes, and all 6 MCX entries today failed \"no executable quote\". All 4 open runs hedged and verified. Next trigger: 5446 SL or SENSEX>72700 recovery; review 180s."
-    },
-    {
       "time": "2026-10-05T10:36:24.215359+05:30",
       "summary": "HOLD, no new entry. 4 active hedged runs: NIFTY 5449 bear call +741, 5451 bear put +322, 5441 condor -419, SENSEX 5446 bull put -5,665 (short 72700PE ITM vs spot ~72,238, within 12,000 SL, long 72200PE verified). All inside stops; no exit events. Blockers: NIFTY already carries 3 correlated structures and indices are choppy/flat (no clean vertical); GOLDM/CRUDEOILM had all 6 starts today FAILED with no fill, so MCX offers no executable quote. Next trigger: 5446 approaches -12,000 SL or SENSEX reclaims 72,700; review 180s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T16:10:16.729742+05:30",
       "summary": "16:10 IST \u2014 HOLD. NSE/BSE closed; only MCX open. No management needed: 5453 GOLDM condor +280 (SL 20000/TP 25000) and 5454 CRUDEOILM condor \u2212215 (SL 1500) are fresh, both 1:1 hedged, far from triggers. Eligible MCX assessed: GOLDM 148650 (RSI 59.6, ATR 32.5) mid-range and CRUDEOILM 8756 (RSI 75.9) flat, both with flat TimesFM paths \u2014 no directional move, and a new condor would duplicate existing correlated MCX exposure with no distinct thesis. Reassess on GOLDM break of 148500/149000, CRUDEOILM break of 8717/8795, or stop proximity. Next review 900s."
+    },
+    {
+      "time": "2026-10-05T16:25:24.558672+05:30",
+      "summary": "16:25 IST \u2014 HOLD. NSE/BSE closed (only MCX open). No management needed: 5453 GOLDM condor +500 (SL 20000) and 5454 CRUDEOILM condor \u2212140 (SL 1500), both 1:1 hedged, fresh, far from triggers. Both underlyings assessed with fresh quotes: GOLDM 148745 (RSI 73.6, ATR 22.8) is dead-flat inside a 443-pt 120-bar range and CRUDEOILM 8717 (RSI 41.5) sits mid-range \u2014 no clear directional move, so only neutral structures fit, and those would duplicate the existing GOLDM/CRUDEOILM condor strikes with no distinct thesis. Blocker: absent edge. Reassess on GOLDM break of 148500/149500, CRUDEOILM break of 8500/8900, or stop proximity. Next review 900s."
     }
   ]
 }
