@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T18:59:29.968037+05:30",
-      "summary": "18:59 IST: NSE/BSE closed (next open tomorrow), only MCX open. No new trade: both MCX names already carry live hedged theses \u2014 5437 GOLDM condor (short 147000PE/150000CE, long 146000PE/151000CE) +260, spot 148,737 mid-range, SL 30k/TP 40k; 5439 CRUDEOILM bull put (long 8600PE/short 8750PE) -1,240 after crude slid to 8,745, short strike barely ITM but ~2.7k inside the 4,000 SL, exit 22:50. Another crude or gold leg would duplicate/offset existing exposure, so HOLD. Next review 5 min; triggers: crude toward 8,650 (SL approach), GOLDM toward 150,000, or any stop hit."
-    },
-    {
       "time": "2026-10-01T19:04:30.169611+05:30",
       "summary": "19:04 IST: NSE/BSE closed; only MCX open (NIFTY/SENSEX etc. not tradable). Two live hedged MCX theses, no new trade: 5437 GOLDM condor (short 147000PE/150000CE, long 146000PE/151000CE) -110, spot ~148,760 mid-range, SL 30k/TP 40k; 5439 CRUDEOILM bull put (long 8600PE/short 8750PE, 10 lots) -1040, spot ~8741 with the 8750 short barely ITM, ~2.9k inside its 4,000 SL, exit 22:50. No distinct non-duplicating candidate: any new crude leg would offset the existing bull put, gold is already covered by the condor. Next review 5 min; triggers: crude slip toward 8,650 (SL) or a stop hit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T10:15:34.487565+05:30",
       "summary": "HOLD, no new entry. Bank NIFTY lists options but has no streamed chain (recorder error), so it is not tradeable; only NIFTY/SENSEX have live chains and both already carry positions (5449 bear call +\u20b9234, 5441 condor \u2212\u20b9244), and MCX stayed non-executable (6 FAILED runs, 0 fills today). All three live runs are hedged and within limits. 5446 SENSEX bull put is the weakest at \u2212\u20b94,090 vs its \u20b912,000 SL with the short 72700PE ITM; left to its software stop. Next review 300s to recheck 5446 and expiring-tomorrow NIFTY legs."
+    },
+    {
+      "time": "2026-10-05T10:20:44.556863+05:30",
+      "summary": "HOLD, no new entry. Tradeable set is only NIFTY/SENSEX (both already carry hedged positions) \u2014 their tails/direction are already covered and no distinct fresh thesis exists. MCX blocked: 6/6 runs today failed \"No executable quote for MCX_FO|<id> within 5s\"; BANKNIFTY/FINNIFTY/MIDCPNIFTY return no chain data. Live runs all hedged/within limits: 5449 +\u20b9146, 5441 \u2212\u20b9185, 5446 SENSEX bull put \u2212\u20b93,945 vs its \u20b912,000 SL (short 72700PE ITM) left to its software stop. Next review 300s."
     }
   ]
 }
