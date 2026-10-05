@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T16:29:08.861709+05:30",
-      "summary": "16:28 IST: NSE/BSE closed; only MCX open and both eligible underlyings already carry positioned theses. Verified from Core margin \u2014 5439 CRUDEOILM short 8750PE/long 8600PE (100=100) and 5437 GOLDM short 147000PE+150000CE with 146000PE/151000CE hedges (20=20). Crude spot 8,808 sits just above its 8,750 short strike, ~\u22122,800 unrealized, still inside the spread and under its 4,000 SL; GOLDM ~flat, spot 148,838 mid-range. No distinct non-duplicative setup (new gold = correlated double-up, new crude bearish = offsets live bull put). HOLD. Next: reassess if crude nears 8,750 or GOLDM nears 147000/150000, and the 22:50 commodity time exits."
-    },
-    {
       "time": "2026-10-01T16:39:46.594614+05:30",
       "summary": "16:39 IST: NSE/BSE closed, only MCX open. Verified live marks via Core margin \u2014 5439 CRUDEOILM short 8750PE/long 8600PE (100=100), spot 8,880 above the short strike, spread mark slightly negative but well inside its 4,000 SL; 5437 GOLDM condor short 147000PE+150000CE with 146000PE/151000CE hedges (20=20), spot 148,740 mid-range, ~flat. No trigger hit. Assessed both MCX symbols for new risk; each already carries a live thesis and any addition would duplicate or offset it, so HOLD. Next review 15 min; exits 22:50."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T09:33:01.167093+05:30",
       "summary": "No trade. It is 09:20 IST and no entry window is open (NSE/BSE indices 09:30-15:00, MCX 09:30-23:00), so no eligible underlying. Flat: no open runs, no trades today. Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, GOLDM, CRUDEOILM \u2014 all gapping up hard with RSI 80+ (NIFTY +135, SENSEX +470) on only 5 candles. Next review 09:30 to confirm expiries and price a hedged structure (neutral condor or directional vertical) on fresh post-open quotes."
+    },
+    {
+      "time": "2026-10-05T09:33:56.983300+05:30",
+      "summary": "No new trade this cycle. Strategy 5441 (NIFTY 1DTE 06-10-2026 iron condor, hedged, defined risk) is confirmed started and SCHEDULED with entry 09:36 / exit 14:55 \u2014 my opportunity is already queued; no runs filled yet. Market: NIFTY 22588 (+166 gap, RSI 63.9) and SENSEX 72506 (+596, RSI 66.5) trending up, so I avoided adding correlated index exposure. MCX GOLDM 148145 (RSI 27.9) and CRUDEOILM 8677 are open but no extra priced setup forced. Next review 09:38 to confirm 5441 entry fills and resolved strikes."
     }
   ]
 }
