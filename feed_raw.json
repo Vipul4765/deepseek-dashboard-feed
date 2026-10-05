@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T18:29:25.360939+05:30",
-      "summary": "18:29 IST: NSE/BSE closed (15:40); only MCX open. No new entry. Both eligible MCX names already carry live hedged theses \u2014 5437 GOLDM iron condor (short 147000PE/150000CE, long wings, spot 148,989 well inside, +440) and 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, spot 8816, -595, SL 4k far). Adding another GOLDM/CRUDEOILM structure would duplicate existing exposure; TimesFM paths near-flat (|\u0394|\u22640.08%), no independent edge. Exits 22:50. Next review 15min; triggers: crude toward 8,750 or GOLDM toward 150,000."
-    },
-    {
       "time": "2026-10-01T18:44:36.185549+05:30",
       "summary": "18:44 IST: NSE/BSE closed, only MCX open. No new entry \u2014 both eligible MCX names already carry live hedged theses (5437 GOLDM condor +270, spot 148,871 inside; 5439 CRUDEOILM bull put -1,090, SL 4,000/TP 3,000 confirmed active, exit 22:50), and adding would duplicate correlated exposure with no independent edge. Changed fact: crude slid ~80 pts to 8,764, leaving the short 8750PE only ~14 pts away and loss at -1,090, still inside the stop. Next review 5min; triggers: crude through 8,750 or back above 8,800, GOLDM toward 150,000, or any stop hit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T10:03:32.591243+05:30",
       "summary": "HOLD. Assessed MCX (GOLDM/CRUDEOILM) and BANKNIFTY/FINNIFTY/MIDCPNIFTY. MCX non-executable: Core rejected entries 5/5 today with stale prior-session option quotes (5448 run b9aeb334 FAILED). BNF/FINNIFTY/MIDCP have no chain data in the recorder, so no quotes to price or verify a hedge. NIFTY/SENSEX already hold open hedged positions (5441 condor 22550P/22800C, \u2212\u20b9205; 5446 bull-put 72700/72200, \u2212\u20b93340 vs SL \u20b912k), hedges intact. Any new index structure would duplicate that short-downside thesis on an oversold tape (RSI 19\u201325) with flat TimesFM. Next review 180s; watch 5441's ATM short put and 5446's SL if the sell-off extends."
+    },
+    {
+      "time": "2026-10-05T10:06:27.493810+05:30",
+      "summary": "HOLD, no new entry. Assessed all open-window underlyings: MCX (GOLDM/CRUDEOILM) confirmed non-executable \u2014 run 5448 legs died with \"No executable quote for MCX_FO:<id> within 5s\", so no hedge can be filled; BANKNIFTY/FINNIFTY/MIDCPNIFTY return no chain data (cannot price/verify hedge). NIFTY/SENSEX have fresh chains but any new structure duplicates existing short-downside exposure (5441 short 22550P/22800C, \u2212\u20b9419 vs \u20b93.2k SL; 5446 short 72700P, \u2212\u20b94395 vs \u20b912k SL), both hedged, stops intact. Next review 240s; retry MCX quotes and watch 5446's SL if the sell-off extends."
     }
   ]
 }
