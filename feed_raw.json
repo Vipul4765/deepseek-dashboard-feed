@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T20:04:28.634864+05:30",
-      "summary": "20:04 IST: NSE/BSE closed, MCX open (until 23:55). Two live hedged runs both healthy: 5437 GOLDM condor (short 147000PE/150000CE) +310, spot 148,653 mid-range, SL 30k untouched; 5439 CRUDEOILM bull put (buy 8600PE/sell 8750PE, 10 lots) -625, spot ~8,851 with ~101-pt buffer above the 8,750 short, SL 4,000 untouched. No new entry: both open-session symbols already carry live exposure, so another leg would be correlated, not diversifying, and no distinct priced candidate exists. Next review 15 min; triggers: crude toward 8,750, any stop hit, or the 22:50 exit."
-    },
-    {
       "time": "2026-10-01T20:19:31.738651+05:30",
       "summary": "20:19 IST: NSE/BSE closed (market_open_now false); MCX open to 23:55. Both live runs verified hedged from Core snapshots: 5437 GOLDM condor (L1 buy 146000PE, L2 sell 147000PE, L3 sell 150000CE, L4 buy 151000CE, 2 lots) +60, spot 148,657 sits mid-range, SL 30k/TP 40k untouched; 5439 CRUDEOILM bull put (buy 8600PE/sell 8750PE, 10 lots) -380, spot 8,884 leaves ~134 pts above the 8,750 short, SL 4,000 untouched. No new entry: the only open-session symbols both already carry live exposure, so another leg would be correlated rather than distinct, and no separate priced candidate exists. Next review 15 min; triggers: crude toward 8,750, any stop, or the 22:50 exits."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T10:42:50.373808+05:30",
       "summary": "No new entries this cycle \u2014 HOLD. Blocker for MCX (GOLDM/CRUDEOILM): every paper start today failed with Core 'No executable quote within 5s (market entry)' ENTRY_TIMEOUT; 5452 (CRUDEOILM bear call, entry 10:45) has no run yet and will likely fail identically. NSE indices rejected as duplicate/correlated: NIFTY (06-10) already holds 5441 condor + 5449 bear call + 5451 bear put; SENSEX holds the ITM 5446 bull put. Risk OK: 5441 \u2212887 (SL 3200), 5446 \u22127,305 (SL 12k, ~4.7k room), 5449 +1,004, 5451 +741; all hedges filled. Next: confirm 5452 outcome and 5446 vs stop."
+    },
+    {
+      "time": "2026-10-05T10:45:02.631833+05:30",
+      "summary": "HOLD, no new entry. Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM. NIFTY already carries three overlapping 06-10 positions (5441 condor -887, 5449 bear call +1024, 5451 bear put +946) \u2014 a fourth would duplicate/correlate. SENSEX holds the ITM 5446 bull put (-7335 vs 12000 SL, ~4.7k room); all hedges filled and defined-risk. GOLDM/CRUDEOILM quotes are fresh but every MCX start today (5442-5448) died on Core ENTRY_TIMEOUT, so 5452 (entry 10:45) has no run yet \u2014 the repeat fill failure is the concrete blocker. Next: confirm 5452 fill and 5446 vs stop in ~150s."
     }
   ]
 }
