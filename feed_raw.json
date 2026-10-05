@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T19:29:32.929074+05:30",
-      "summary": "19:29 IST: only MCX open (NSE/BSE shut). Two live hedged MCX runs, both fresh: 5437 GOLDM condor (short 147000PE/150000CE, long 146000PE/151000CE) ~-50, spot 148,700 mid-range, SL 30k; 5439 CRUDEOILM bull put (long 8600PE/short 8750PE, 10L) ~-855, spot 8,788 holding 38 pts above the short, SL 4,000, exit 22:50. No new entry: GOLDM and CRUDEOILM are the only fresh MCX underlyings and both already carry live exposure \u2014 a new leg would duplicate/correlate. Next review 10 min; triggers: crude toward 8,750 or any stop hit."
-    },
-    {
       "time": "2026-10-01T19:39:34.709469+05:30",
       "summary": "19:39 IST: only MCX open. Two live hedged runs, both fresh and inside stops: 5437 GOLDM condor (short 147000PE/150000CE, long 146000PE/151000CE), P&L \u221280, spot 148,538 mid-range, SL 30k; 5439 CRUDEOILM bull put (long 8600PE/short 8750PE, 10L), P&L \u2212635, spot 8,798 holding ~48 pts above short, SL 4,000, exit 22:50. No new entry: GOLDM and CRUDEOILM are the only open-session underlyings and both already carry live non-duplicative exposure; a further leg would correlate. Next review 15 min; triggers: crude toward 8,750 or any stop hit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T10:31:43.113660+05:30",
       "summary": "HOLD, no new entry. All 4 runs hedged/verified: NIFTY 5451 bear put -\u20b9137, 5449 bear call +\u20b9614, 5441 condor -\u20b9605; SENSEX 5446 bull put -\u20b95,420 held under its \u20b912,000 overall SL (short 72700PE ITM, ~0.62 ITM prob; SENSEX +347 on day, net delta ~0). Blockers named: NIFTY/SENSEX already carry 3 NIFTY + 1 SENSEX correlated structures (no duplicate thesis); MCX entries today all failed \"no executable quote\" on unstreamed strikes, and streamed GOLDM/CRUDEOILM strikes sit at ~0.4 delta (coin-flip condors). Review 150s to watch 5446's SL."
+    },
+    {
+      "time": "2026-10-05T10:33:50.313711+05:30",
+      "summary": "HOLD, no new entry. Assessed all streamed underlyings: NIFTY already carries 3 structures (5449 bear call +487, 5451 bear put -546, 5441 condor -429) so a 4th is duplicate/correlated; SENSEX already carries 5446 bull put (-4,920, short 72700PE ITM, within its 12,000 SL); BANKNIFTY/FINNIFTY returned \"no chain data\" (not streamed); GOLDM/CRUDEOILM streamed grids only reach ~0.37-0.43 delta at the edges with no safe wing strikes, and all 6 MCX entries today failed \"no executable quote\". All 4 open runs hedged and verified. Next trigger: 5446 SL or SENSEX>72700 recovery; review 180s."
     }
   ]
 }
