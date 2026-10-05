@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T23:05:51.442515+05:30",
-      "summary": "Flat and no entry: all 13 owned strategies are unstarted, open_runs empty, backend snapshots show 0 open legs. NSE/BSE market_open_now=false (closed 15:40) and MCX is past our 22:50 exit / 23:00 entry cutoff, so no eligible underlying is enterable now. Today P&L -3235 on 3 settled trades (GOLDM +1240, CRUDEOILM -1881.5, NIFTY bear call -2593.5). No orders placed. Next review in 1800s; reassess fresh index quotes from 09:30 IST tomorrow before considering a priced, hedged setup."
-    },
-    {
       "time": "2026-10-01T23:20:50.573037+05:30",
       "summary": "Flat, no action. No open runs; all 13 owned strategies unstarted; backend snapshots show 0 open legs. Entry windows are closed: NSE/BSE market_open_now=false (close 15:40) and MCX is past our 23:00 entry / 22:50 exit cutoff (now 23:20 IST), so no eligible underlying. Today's settled P&L: -3235 from 3 trades. Next review in 1800s; reassess fresh index quotes from 09:30 IST before pricing a hedged setup."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T13:01:01.974501+05:30",
       "summary": "HOLD. Five open runs verified hedged/defined-risk from fresh snapshots: 5451 NIFTY bear put +\u20b92,271.75, 5441 NIFTY IC \u2212\u20b91,462.50 (vs SL 3200), 5456 SENSEX IC \u2212\u20b914, 5453 GOLDM IC \u2212\u20b9130, 5454 CRUDEOILM IC \u2212\u20b990; none at a trigger. Fresh quotes ~1s old: NIFTY 22,449 (RSI 48.6, range 22,397\u201322,523), SENSEX 71,994, GOLDM 148,384, CRUDEOILM 8,662; TimesFM flat. No new distinct edge \u2014 all four underlyings already express the range thesis, so a fresh condor is correlated short-gamma and no clear directional move supports a vertical. Margin ample. Next review 300s, or NIFTY leaving 22,397\u201322,523."
+    },
+    {
+      "time": "2026-10-05T13:05:53.623224+05:30",
+      "summary": "HOLD. Five open runs verified hedged/defined-risk from fresh snapshots (quotes ~1s old): 5451 NIFTY bear put +\u20b92,028 (TP 9500), 5441 NIFTY IC \u2212\u20b91,102 (SL 3200), 5456 SENSEX IC \u2212\u20b94 (SL 2800), 5453 GOLDM IC \u2212\u20b9400 (SL 20000), 5454 CRUDEOILM IC \u2212\u20b9390 (SL 1500); none at a trigger and no unhedged leg. Assessed NIFTY (2 open runs), SENSEX, GOLDM, CRUDEOILM, all already expressing the range thesis \u2014 a new condor would be correlated short-gamma, and BANKNIFTY/FINNIFTY are correlated too. NIFTY 22,464 (RSI 45) inside 22,397\u201322,523; TimesFM only mildly bullish, no clear directional move for a vertical. Blocker: no distinct, uncorrelated edge with margin ample. Next review 300s, or NIFTY leaving 22,397\u201322,523 / a stop or target hit."
     }
   ]
 }
