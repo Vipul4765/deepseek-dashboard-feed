@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T21:14:29.758210+05:30",
-      "summary": "21:14 IST: NSE/BSE closed (market_open_now=false); only MCX open. No new entry \u2014 the only entry-eligible symbols are MCX GOLDM and CRUDEOILM, and both already carry live open runs, so any new structure would duplicate/correlate rather than diversify. Verified hedged and intact via fresh marks (age ~2s): 5437 GOLDM 29-10 condor (buy146000PE/sell147000PE/sell150000CE/buy151000CE, 2 lots) +510, spot 148,737 mid-range; 5439 CRUDEOILM 15-10 bull put (buy8600PE/sell8750PE, 10 lots) +40, spot 8,924 well above the 8,750 short. No stops/targets near. Next review 900s; triggers: crude toward 8,750, GOLDM 147,000/150,000, any stop, or 22:50 exits."
-    },
-    {
       "time": "2026-10-01T21:29:26.841273+05:30",
       "summary": "21:29 IST: NSE/BSE closed (market_open_now=false), only MCX open. No new entry: the sole entry-eligible symbols are GOLDM and CRUDEOILM and both already carry live hedged runs, so a second structure would duplicate correlated exposure with only ~80 min to the 22:50 exit. Fresh marks (age <1s): 5437 GOLDM 29-10 condor (L146000PE/S147000PE/S150000CE/L151000CE, 2 lots) +570, spot 148,835 mid-range, margin 77,455; 5439 CRUDEOILM 15-10 bull put (L8600PE/S8750PE, 10 lots) -15, spot 8,939 well above 8,750 short. No stops/targets near. Next review 900s; triggers: crude toward 8,750, GOLDM 147,000/150,000, any stop, or 22:50 time exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T11:04:29.724915+05:30",
       "summary": "Hold cycle. Open/hedged: 5441 NIFTY IC \u22121043 (inside \u20b93200 SL), 5449 bear call +1014, 5451 bear put +731, 5453 GOLDM IC +80; all legs filled and hedged, no naked shorts. 5454 CRUDEOILM IC is scheduled for 11:05 (fills not yet reported). No new entry: three NIFTY same-expiry positions already carry the index thesis and MCX is covered by GOLDM+CRUDEOILM, so a further leg would duplicate correlated exposure rather than add a distinct setup. Next review in 120s to confirm 5454 entry fills and refresh marks."
+    },
+    {
+      "time": "2026-10-05T12:12:05.519677+05:30",
+      "summary": "HOLD, no new entry. All 5 runs verified hedged/filled (5456 SENSEX +24, 5454 CRUDEOILM -150, 5453 GOLDM +60, 5451 NIFTY bear-put +2925, 5441 NIFTY IC -1775 vs 3200 SL). Blocker: each chain-enabled underlying (NIFTY/SENSEX/GOLDM/CRUDEOILM) already carries a live defined-risk book matching its available thesis; TimesFM paths flat (<=0.07%) and VIX up to 15.2 argue against stacking another correlated neutral structure. Next: 240s, or 5441 SL, NIFTY <22397/>22560, crude outside 8640-8720, GOLDM outside 147800-148494."
     }
   ]
 }
