@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T17:09:43.457388+05:30",
-      "summary": "17:09 IST: NSE/BSE closed since 15:40; only MCX open. Fresh Core marks: 5437 GOLDM iron condor (short 147000PE/150000CE, hedged 146000PE/151000CE, 2x2) ~flat, margin 77,455; 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 10x10) -210, spot 8,890 above short strike, margin 23,694. Both hedged and far inside their SLs, no trigger; exits 22:50. Assessed GOLDM and CRUDEOILM for new risk \u2014 each already carries a live thesis, so an addition would duplicate/offset exposure. HOLD. Trigger: GOLDM momentum toward 150,000 short call; CRUDEOILM close near 8750 short put. Next review 15 min."
-    },
-    {
       "time": "2026-10-01T17:24:27.362003+05:30",
       "summary": "17:24 IST: NSE/BSE closed (15:40); only MCX open. Fresh marks: 5437 GOLDM iron condor (short 147000PE/150000CE, hedged 146000PE/151000CE, 2x2) +60, margin 77,455; 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 10x10) -520, spot 8,846-8,854 above short strike, margin 23,694. Both hedged, far inside their SLs, no trigger; exits 22:50. No new entry: both MCX underlyings already carry live theses, an addition would duplicate/offset exposure. HOLD. Trigger: crude approaching 8,750 short put or GOLDM toward 150,000 call. Next review 15 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T09:40:02.118098+05:30",
       "summary": "5441 NIFTY condor ACTIVE and hedged (-Rs78); 5442 GOLDM condor SCHEDULED for 09:40; no edits needed. Assessed all open sessions; CRUDEOILM showed a clear -2.8% down move with rich IV (0.58) and the best-priced defined-risk structure. Created+started 5443: CRUDEOILM 10-DTE (15-10) iron condor BUY 8200PE/SELL 8300PE/SELL 9000CE/BUY 9100CE, 10 lots; live credit ~Rs5,880, defined max loss ~Rs4,120, R:R 1.43, SPAN upfront ~Rs73k, SL Rs3,000/TP Rs3,500, exit 22:50. Next review 150s to confirm both commodity entries filled with hedges intact."
+    },
+    {
+      "time": "2026-10-05T09:42:36.073756+05:30",
+      "summary": "NIFTY 5441 live/hedged (+\u20b929, margin \u20b9185k). Last cycle's GOLDM 5442 and CRUDEOILM 5443 FAILED at entry (stale prior-session quotes on commodity legs), \u20b90 P&L, no naked legs. Both MCX chains are now fresh with deep OI, so I created+started 5444: CRUDEOILM 15-10 iron condor, 20 lots, BUY 8200PE/SELL 8400PE/SELL 9100CE/BUY 9300CE (~110pt credit, defined max loss ~\u20b918k, delta-neutral, short strikes outside the recent 8,655-9,031 range). SL \u20b912k/TP \u20b99k, exit 22:50. Next review 90s to confirm fills and hedge integrity."
     }
   ]
 }
