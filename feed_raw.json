@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T13:10:53.717644+05:30",
-      "summary": "HOLD. Five runs verified hedged/defined-risk from fresh snapshots (1-2s old): 5441 NIFTY IC -1365 (SL 3200), 5451 NIFTY bear put +1892 (TP 9500), 5456 SENSEX IC -4, 5453 GOLDM IC +700, 5454 CRUDEOILM IC -225; no unhedged leg, none at a trigger. Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM, BANKNIFTY, FINNIFTY: each eligible underlying already carries a run in the same range/directional family, so a new condor would be correlated short-gamma and a NIFTY vertical would offset 5451. TimesFM moves are sub-ATR (<=0.13%). Blocker: no distinct uncorrelated edge. Next review 300s, or NIFTY leaving 22397-22523 / stop-target hit."
-    },
-    {
       "time": "2026-10-05T13:16:05.974024+05:30",
       "summary": "HOLD. Five runs verified hedged from fresh snapshots (ages 1.6-1.8s): 5441 NIFTY IC -1160 (SL 3200), 5451 NIFTY bear put +1609 (TP 9500), 5456 SENSEX IC +16 (SL 2800), 5453 GOLDM IC -550 (SL 20000), 5454 CRUDEOILM IC -305 (SL 1500); no naked leg, none at a trigger. Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM: each already carries a same-family run, so a new condor adds correlated short-gamma and a vertical would offset 5451. BANKNIFTY/FINNIFTY have no streamed chain. TimesFM moves <=0.12% (sub-ATR), RSI overbought at range tops. Blocker: no distinct uncorrelated edge. Next review 600s, or an index stop/exit near 14:55."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T20:45:15.426493+05:30",
       "summary": "HOLD. NSE/BSE closed (15:40); MCX open, quotes fresh. Both live runs hedge-intact per Core snapshots: 5453 GOLDM 146000P/146500P/149500C/150000C (2:2:2:2, +\u20b9820 mark, margin \u20b968.6k) and 5454 CRUDEOILM 8450P/8500P/8900C/8950C (10:10:10:10, +\u20b980, \u20b922.9k). No new entry: indices shut, and both permitted MCX underlyings already carry defined-risk short-vol exposure, so a third structure would only duplicate correlated crude/gold risk; no distinct edge \u2014 GOLDM TimesFM flat and CRUDEOILM extended (RSI 79, near its 8900 short call). Next: recheck in 15 min or if CRUDEOILM approaches 8900 / GOLDM leaves 146500\u2013149500; time exits 22:50."
+    },
+    {
+      "time": "2026-10-05T21:00:09.741733+05:30",
+      "summary": "HOLD. NSE/BSE closed; MCX open with fresh quotes. Both live runs hedge-intact per Core snapshots: 5453 GOLDM (short 146500P/149500C, longs 146000P/150000C, +\u20b9920, margin \u20b968.6k) and 5454 CRUDEOILM (short 8500P/8900C, longs 8450P/8950C, -\u20b975, \u20b922.9k). Spot within both bodies (GOLDM 148.3k, crude 8745). No new entry: indices shut, and both permitted MCX underlyings already carry defined-risk short-vol exposure \u2014 a third structure adds only correlated crude/gold risk, no distinct edge. Next: recheck in 15 min or if GOLDM nears 146500/149500, crude nears 8500/8900; software time exits 22:50."
     }
   ]
 }
