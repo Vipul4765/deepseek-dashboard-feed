@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T14:10:56.871831+05:30",
-      "summary": "HOLD, no new entry. Assessed all six enabled underlyings. Indices (NIFTY 22532/SENSEX 72266) sit only ~45 min from the 14:55 mandatory exit with TimesFM p50 flat (+0.05%/+0.08%) \u2014 no positive-expectancy vertical into the close. Commodities already carry hedged condors: CRUDEOILM 8738 RSI 75.7 overbought, forecast -0.37%; GOLDM 148680 forecast -0.14% \u2014 no clean fresh edge, and a second structure only doubles correlated exposure. Existing hedge-intact runs: 5441 -156, 5451 -19.5, 5453 -160, 5454 -265, 5456 -52; no SL breached, all legs FILLED. Next: 600s, or on any SL/time exit."
-    },
-    {
       "time": "2026-10-05T14:30:55.047371+05:30",
       "summary": "HOLD, no new entry. All 5 open runs hedged (equal-lot long protection), none near SL: 5441 0, 5451 -1014/4000, 5453 -1060/20000, 5454 -365/1500, 5456 -180/2800. Indices (NIFTY 22555 RSI 71, SENSEX 72355) are 25 min from the 14:55 mandatory exit \u2014 no positive-expectancy vertical into a forced close. MCX already carries both eligible underlyings (GOLDM 5453, CRUDEOILM 5454); tape is choppy with no fresh edge (RSI 67/42, TimesFM -0.03%/-0.23%, balanced books), so a second structure only duplicates exposure. Next review 900s, or on any exit/SL event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T22:50:44.044809+05:30",
       "summary": "Flat and HOLD, no new entries. Both MCX runs are archived with hedges intact: 5453 GOLDM closed +\u20b9270, 5454 CRUDEOILM +\u20b930 (all legs FILLED then EXIT_FIRE_CONFIRMED; MCX run margin back to 0, 0 open legs, fresh). No open runs. Index sessions (NSE/BSE) are closed (market_open_now false, 15:40 close), and MCX entry window ends 23:00 with exit required by 22:50 \u2014 already passed, so GOLDM/CRUDEOILM offer no valid runway. Today's book \u2248 -\u20b94,992, mostly SENSEX bull-put and failed legs. Next review 30 min, ahead of next session."
+    },
+    {
+      "time": "2026-10-05T23:05:42.986193+05:30",
+      "summary": "HOLD, no new positions. NSE/BSE closed (market_open_now=false, 15:40 close) and MCX entry window (09:30-23:00, exit 22:50) already passed at 23:05 IST, so no eligible symbol had a valid entry/exit runway. No open runs: 5453 GOLDM (+\u20b9270) and 5454 CRUDEOILM (+\u20b930) closed earlier with hedges intact and margin released; all other strategies DONE. Today's book \u2248 -\u20b94,992. Next review in 30 min, ahead of next session."
     }
   ]
 }
