@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T10:20:44.556863+05:30",
-      "summary": "HOLD, no new entry. Tradeable set is only NIFTY/SENSEX (both already carry hedged positions) \u2014 their tails/direction are already covered and no distinct fresh thesis exists. MCX blocked: 6/6 runs today failed \"No executable quote for MCX_FO|<id> within 5s\"; BANKNIFTY/FINNIFTY/MIDCPNIFTY return no chain data. Live runs all hedged/within limits: 5449 +\u20b9146, 5441 \u2212\u20b9185, 5446 SENSEX bull put \u2212\u20b93,945 vs its \u20b912,000 SL (short 72700PE ITM) left to its software stop. Next review 300s."
-    },
-    {
       "time": "2026-10-05T10:26:52.891086+05:30",
       "summary": "Opened a fresh defined-risk trade. Broad indices in a clear intraday downtrend (NIFTY 22614\u219222499, RSI 32; SENSEX \u2212300). Created+started strategy 5451: NIFTY 1DTE (06-10-2026) bear put spread, BUY 3x 22500PE / SELL 3x 22400PE; net debit \u20b96,610, max loss \u20b96,610, max profit \u20b912,890, breakeven 22,466, R:R 1.95, upfront margin ~\u20b9105.7k \u2014 distinct structure, short put fully hedged. Held existing: 5449 +\u20b9829 (bear call, safe), 5441 \u2212\u20b9575 (condor, within \u20b93,200 SL), 5446 \u2212\u20b96,380 (bull put, left to its \u20b912,000 SL). MCX skipped: 6/6 runs today failed on no executable MCX quote. Next review 240s to confirm 5451 fills."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T15:20:51.469975+05:30",
       "summary": "15:20 IST \u2014 HOLD, no new entry. NSE/BSE index entry windows (09:30\u201315:00) have closed; only MCX open. Both open positions are fully-hedged 4-leg condors and healthy: GOLDM 5453 +170 (SL 20000), CRUDEOILM 5454 +280 (SL 1500), neither near stop, hedges intact. GOLDM RSI 47 and CRUDEOILM RSI 70 are range-bound with flat TimesFM forecasts; a third MCX neutral condor would only duplicate correlated exposure with no distinct thesis. Blockers: no fresh directional move, duplicate exposure. Next review 900s or on fill/SL/hedge event."
+    },
+    {
+      "time": "2026-10-05T15:35:51.021673+05:30",
+      "summary": "15:35 IST \u2014 HOLD, no new entry. Index entry windows closed; only MCX open. Both open positions are fully-hedged 4-leg condors with fresh marks: GOLDM 5453 +190 (SL 20000), CRUDEOILM 5454 -195 (SL 1500); neither near stop and both shorts 1:1 covered. GOLDM (RSI 50.8) and CRUDEOILM (RSI 63) are range-bound with flat TimesFM forecasts; a third MCX neutral condor would duplicate correlated exposure with no distinct thesis. Blockers: no fresh directional move, duplicate exposure. Next review 900s or on fill/SL/hedge event."
     }
   ]
 }
