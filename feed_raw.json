@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T13:41:13.158236+05:30",
-      "summary": "HOLD. Five defined-risk runs open, all shorts hedged same type/expiry: 5441 NIFTY IC -546, 5451 NIFTY bear put -1326, 5456 SENSEX IC -206, 5453 GOLDM IC +300, 5454 CRUDEOILM IC -265. No hedge failure; SLs intact. Assessed NIFTY/SENSEX/GOLDM/CRUDEOILM: each already carries an active run, so a new same-symbol structure only adds correlated short-gamma (rules forbid duplicating a thesis). NIFTY/SENSEX/BANKNIFTY RSI 75-78 at intraday highs \u2014 chasing a bull vertical is unattractive. Blocker: no distinct, non-correlated setup. Next: 300s, or 14:55 index exit / any SL hit (commodities 22:50)."
-    },
-    {
       "time": "2026-10-05T13:45:58.747549+05:30",
       "summary": "HOLD. Five hedged runs open, all shorts covered (5441 NIFTY IC -39, 5451 NIFTY bear put -1911, 5456 SENSEX IC -280, 5453 GOLDM IC -100, 5454 CRUDEOILM IC -235); no hedge failure, SLs intact. Every configured underlying (NIFTY, SENSEX, GOLDM, CRUDEOILM) already carries a run, so a new same-symbol structure only adds correlated short-gamma. Indices are extended at intraday highs (RSI 89-93) with only ~70 min to the 14:55 index exit, so a fresh vertical would be chasing. Blocker: no distinct, non-correlated priced setup. Next: 300s, or any SL hit / 14:55 index exit (commodities 22:50)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T22:00:09.902296+05:30",
       "summary": "HOLD, no new entries. NSE/BSE closed; MCX open but ~50 min to the 22:50 commodity exit, too little runway for a new defined-risk structure. Both live runs verified hedge-intact via fills: 5453 GOLDM IC short 146500P/149500C vs longs 146000P/150000C, +\u20b9140, margin \u20b968.6k; 5454 CRUDEOILM IC short 8500P/8900C vs longs 8450P/8950C, +\u20b9120, margin \u20b922.9k. Spots (148039 / 8693) sit inside both bodies; SL/TP far off, so the 22:50 time exit manages them. Next: recheck in 10 min, or sooner if crude nears 8500/8900 or GOLDM 146500/149500."
+    },
+    {
+      "time": "2026-10-05T22:10:10.472018+05:30",
+      "summary": "HOLD, no new entries. NSE/BSE closed (market_open_now=false); MCX open but only ~40 min to the 22:50 commodity exit \u2014 too little runway for a new defined-risk structure. Both live runs hedge-intact (4 legs filled each): 5453 GOLDM IC short 146500P/149500C vs long 146000P/150000C, +\u20b9470, margin \u20b968.6k; 5454 CRUDEOILM IC short 8500P/8900C vs long 8450P/8950C, \u2212\u20b9200, margin \u20b922.9k. Spots 148147/8704 sit inside both bodies; SL/TP far off, so the 22:50 time exit manages them. Next check ~25 min / on exit event."
     }
   ]
 }
