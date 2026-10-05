@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T14:30:55.047371+05:30",
-      "summary": "HOLD, no new entry. All 5 open runs hedged (equal-lot long protection), none near SL: 5441 0, 5451 -1014/4000, 5453 -1060/20000, 5454 -365/1500, 5456 -180/2800. Indices (NIFTY 22555 RSI 71, SENSEX 72355) are 25 min from the 14:55 mandatory exit \u2014 no positive-expectancy vertical into a forced close. MCX already carries both eligible underlyings (GOLDM 5453, CRUDEOILM 5454); tape is choppy with no fresh edge (RSI 67/42, TimesFM -0.03%/-0.23%, balanced books), so a second structure only duplicates exposure. Next review 900s, or on any exit/SL event."
-    },
-    {
       "time": "2026-10-05T14:45:49.993336+05:30",
       "summary": "HOLD, no new entry. All 5 open runs hedged (equal-lot longs), none near SL: 5441 -78/3200, 5451 -595/4000, 5453 +780/20000, 5454 -460/1500, 5456 -162/2800. Indices (NIFTY 22555, SENSEX 72354) are ~10 min from their 14:55 forced exit, so no new index trade is feasible. MCX already carries both eligible underlyings (GOLDM 5453, CRUDEOILM 5454); tape is flat/choppy (GOLDM RSI 49, TimesFM +0.03%; CRUDEOIL RSI 61, TimesFM -0.02%) with no distinct edge, so a second structure would only duplicate exposure. Next review 600s, or on any exit/SL event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T23:05:42.986193+05:30",
       "summary": "HOLD, no new positions. NSE/BSE closed (market_open_now=false, 15:40 close) and MCX entry window (09:30-23:00, exit 22:50) already passed at 23:05 IST, so no eligible symbol had a valid entry/exit runway. No open runs: 5453 GOLDM (+\u20b9270) and 5454 CRUDEOILM (+\u20b930) closed earlier with hedges intact and margin released; all other strategies DONE. Today's book \u2248 -\u20b94,992. Next review in 30 min, ahead of next session."
+    },
+    {
+      "time": "2026-10-05T23:20:43.229669+05:30",
+      "summary": "HOLD, no new positions. NSE/BSE are closed (market_open_now=false, 15:40 close) and MCX's entry window (09:30-23:00, exit 22:50) already passed at 23:20 IST, so no eligible symbol has a valid entry/exit runway. open_runs is empty and all owned strategies are DONE/created; today's book \u2248 -\u20b94,992 with hedge books already flat and margin released. Next review in 30 min, ahead of the next session."
     }
   ]
 }
