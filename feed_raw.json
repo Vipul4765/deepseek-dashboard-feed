@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T17:39:28.974983+05:30",
-      "summary": "17:39 IST: NSE/BSE closed (15:40); only MCX open. Fresh marks \u2014 5437 GOLDM iron condor (short 147000PE/150000CE, long 146000PE/151000CE, 2x2 lot) +570, spot 148,900 mid-condor, margin 77,455. 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 10x10) -665, spot 8,836 \u224886 pts above short strike, margin 23,694. Both hedged, far inside SL/TP, exits 22:50, no trigger. No new entry: both MCX underlyings already carry live theses; no other market open. HOLD. Trigger: crude toward 8,750 or GOLDM toward 150,000. Next review 10 min."
-    },
-    {
-      "time": "2026-10-01T17:49:31.687651+05:30",
-      "summary": "17:49 IST: NSE/BSE closed (15:40); only MCX open. No new entry \u2014 both MCX underlyings already carry live hedged theses and no distinct setup is priced. 5437 GOLDM iron condor (short 147000PE/150000CE, long 146000PE/151000CE, 2x2) +440, spot 149,013 well inside wings, margin ~77.5k. 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 10x10) -695, spot 8,814 ~64 pts above short strike, max loss capped ~9.1k, SL 4k far off (delta near-neutral). Both exits 22:50, no trigger. HOLD. Trigger: crude toward 8,750 or GOLDM toward 150,000. Next review 10 min."
-    },
-    {
       "time": "2026-10-01T17:59:25.816438+05:30",
       "summary": "17:59 IST: NSE/BSE closed (15:40); only MCX open. No new entry. 5437 GOLDM iron condor (short 147000PE/150000CE, long 146000PE/151000CE, 2x2) +170, spot 148,950 well inside wings, margin ~74.6k. 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 10x10) -565, spot 8,839 (~89 pts above short strike), max loss ~9.1k, SL 4k far off. Both hedged/defined-risk, exits 22:50, no trigger hit. Eligible MCX symbols assessed (GOLDM, CRUDEOILM) already carry live theses and near-neutral forecasts give no distinct priced setup. Next review 10 min; trigger: crude toward 8,750 or GOLDM toward 150,000."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-05T09:44:57.926143+05:30",
       "summary": "5441 NIFTY 06-10 condor live/hedged, +\u20b978, margin \u20b9185k \u2014 hold. 5444 CRUDEOILM condor fired 09:44 but all 4 legs failed NO_EXECUTABLE_QUOTE (prior-session option quotes), run DONE, \u20b90, no naked legs \u2014 same failure mode as 5442/5443, not retrying CRUDEOILM. Created+started 5445 GOLDM 29-10 iron condor: 2 lots, SELL 147000PE/BUY 146000PE, SELL 149000CE/BUY 150000CE (~809pt credit, delta-neutral, defined max loss \u20b938.2k), SL \u20b925k/TP \u20b918k, exit 22:50, entry 09:47. Next review 150s to confirm 5445 fills; if MCX quotes stay stale, switch to an NSE candidate."
+    },
+    {
+      "time": "2026-10-05T09:46:54.957698+05:30",
+      "summary": "5441 NIFTY 06-10 condor live/hedged, +\u20b9107 unrealized, margin \u20b9185k \u2014 hold. 5445 GOLDM condor started, no run yet (entry 09:47). Created+started 5446 SENSEX 08-10 bull put spread (SELL otm_3\u224872200PE / BUY otm_8\u224871700PE, 5 lots, ~130pt credit, defined max loss ~\u20b937k, SL \u20b912k/TP \u20b99k), entry 09:49, exit 14:55 \u2014 distinct bullish/positive-theta vs neutral condors. Did not retry CRUDEOILM (three NO_EXECUTABLE_QUOTE stale-quote failures). Next: verify 5445/5446 fills in 120s; if GOLDM repeats the MCX stale-quote failure, treat MCX options as blocked."
+    },
+    {
+      "time": "2026-10-05T09:47:37.326402+05:30",
+      "summary": "HOLD. 5441 NIFTY 06-10 iron condor live, 4 legs filled, unrealized +136.50, margin ~\u20b9185k, SL 3200/TP 3000 \u2014 healthy, no action. 5446 SENSEX 08-10 bull put spread confirmed SCHEDULED, enters 09:49. No new trade: only NIFTY and SENSEX have fresh executable option quotes and both are already committed; a second index bullish bet would duplicate 5446's thesis. MCX option entries are blocked this session \u2014 5442/5443/5444/5445 all failed NO_EXECUTABLE_QUOTE (stale prior-session quote) despite fresh chain LTPs, so not retrying. Next: verify 5446 fill/hedge in ~150s."
     }
   ]
 }
