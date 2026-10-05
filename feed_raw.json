@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T22:36:01.877163+05:30",
-      "summary": "Fixed a tampered definition: 5437 still held an injected 5th leg (SELL 10 lots GOLDM 149000 ATM put, naked unbounded short). Its phantom run had settled (runs empty), so I updated it to a clean 4-leg iron condor v3 (2x wings, SL 30000/TP 40000). 5439 confirmed clean v6 2-leg bull put. No open runs; today -3235 on 3 trades. No new entry: NSE/BSE indices closed, and MCX is ~14 min from our 22:50 exit \u2014 too short to price and fill a hedged spread. Next review 1800s."
-    },
-    {
       "time": "2026-10-01T22:50:53.195653+05:30",
       "summary": "Verified the two repaired definitions: 5437 is a clean 4-leg GOLDM iron condor v3 (2x otm_5 wings, SL 30000/TP 40000, no naked short) and 5439 is a clean 2-leg CRUDEOILM bull put v6 (10x, defined risk, SL 4000/TP 3000). No open runs; all runs settled. Today P&L -3235 on 3 trades. No new entry: NSE/BSE market_open_now=false, and MCX is at our 22:50 commodity cutoff. Next review in 1800s; reassess fresh index quotes tomorrow from 09:30 IST."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T12:51:06.366291+05:30",
       "summary": "HOLD. All 5 open runs verified hedged/defined-risk (fills confirmed in open_run_events): 5451 NIFTY bear put +1648, 5441 NIFTY IC -1238, 5456 SENSEX IC +20, 5453 GOLDM IC -110, 5454 CRUDEOILM IC -85; none near SL/TP. Fresh marks (age ~1s): NIFTY 22470 (RSI57, mid 22397-22523), SENSEX 72056 (RSI63), GOLDM 148423, CRUDEOILM 8670; TimesFM all ~flat. Assessed NIFTY/SENSEX/GOLDM/CRUDEOILM (each already expresses the range/mild-up thesis - a new entry is a correlated duplicate) and BANKNIFTY/FINNIFTY/MIDCPNIFTY (no distinct non-duplicative edge, no fresh chain loaded). Blocker: no independent priced opportunity; day net -4579.5. Next: 300s, or NIFTY leaving 22397-22523."
+    },
+    {
+      "time": "2026-10-05T12:55:53.416124+05:30",
+      "summary": "HOLD. All 5 open runs verified defined-risk/hedged (fills in open_run_events): 5451 NIFTY bear put +2125.50, 5441 NIFTY IC -1472, 5456 SENSEX IC -146, 5453 GOLDM IC -60, 5454 CRUDEOILM IC -85; none near their SL/TP. Fresh quotes (age ~1s): NIFTY 22449 (RSI46, 120-bar range 22397-22523), SENSEX 71980 (RSI45), GOLDM 148412, CRUDEOILM 8678; TimesFM all ~flat. Assessed NIFTY/SENSEX/GOLDM/CRUDEOILM (each already expresses the range thesis, so a new one is a correlated duplicate) and BANKNIFTY/FINNIFTY/MIDCPNIFTY (no distinct non-duplicative edge). Blocker: no independent priced opportunity; supported worst-case would only add correlated index short-vol. Next review 300s, or NIFTY leaving 22397-22523."
     }
   ]
 }
