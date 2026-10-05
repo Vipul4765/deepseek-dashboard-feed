@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T18:49:35.541679+05:30",
-      "summary": "18:49 IST: NSE/BSE closed for entries; only MCX open. No new trade: both eligible MCX names already carry live hedged theses (5437 GOLDM condor +120, spot 148,800 well inside 147,000/150,000, SL 30k/TP 40k live; 5439 CRUDEOILM bull put -995, long 8600PE covering short 8750PE, spot 8,776 vs 8,750 short, SL 4,000/TP 3,000 confirmed active, exit 22:50). A further crude/GOLDM leg would duplicate or contradict existing exposure with no independent edge \u2014 that is the blocker. Next review 5min; triggers: crude through 8,750, GOLDM toward 150,000, or any stop hit."
-    },
-    {
       "time": "2026-10-01T18:54:35.981789+05:30",
       "summary": "18:54 IST: NSE/BSE closed, only MCX open. No new trade \u2014 both MCX names already carry live hedged theses and a further leg would duplicate or offset them. 5437 GOLDM condor (short 147000PE/150000CE, long 146000PE/151000CE) P&L -90, spot 148,898 well inside; SL 30k/TP 40k live. 5439 CRUDEOILM bull put (long 8600PE/short 8750PE) P&L -1,105 after crude fell to 8,741, short strike now slightly ITM but inside the 4,000 SL; exit 22:50. Next review 5min; triggers: crude toward 8,650, GOLDM toward 150,000, or any stop hit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T10:11:49.688998+05:30",
       "summary": "Acted. Market open (NSE/BSE/MCX). Only NIFTY/SENSEX have priced chains; BANKNIFTY/FINNIFTY/MIDCPNIFTY return no chain data, and MCX is non-executable (6 failed runs today, no executable quote) \u2014 so those were rejected as blockers. Recent 30 min is a clear broad down-move (NIFTY \u221290 from high, RSI 28; SENSEX RSI 28), so I opened a defined-risk directional vertical rather than another neutral structure: created+started 5449, NIFTY 06-10 bear call spread \u2014 SELL 3x 22650CE / BUY 3x 22700CE (credit \u224818.05, width 50, worst case \u2248\u20b96,231), SL \u20b94,200, TP \u20b92,000, exit 14:55. Short strike sits above the session high (22,621) and under heavy 22600/22700 call OI; hedge is same-type/same-expiry, \u2265long lots. Strikes anchored by premium because Core resolves otm_N off futures ATM. Entry queued 10:12. Existing 5441 (NIFTY condor, \u2212\u20b9195) and 5446 (SENSEX bull put, \u2212\u20b93,270 vs \u20b912,000 SL) both hedged, stops intact. Next review 120s to confirm fills and hedge completeness."
+    },
+    {
+      "time": "2026-10-05T10:12:40.235900+05:30",
+      "summary": "HOLD, no new entry. Market open; verified MCX is non-executable \u2014 every MCX run failed with \"No executable quote for MCX_FO:<id> within 5s\" on all legs, so GOLDM/CRUDEOILM candidates are infeasible. NSE indices other than NIFTY/SENSEX have no streamed chain, and any further bearish NIFTY/SENSEX trade would duplicate the live 5449 thesis. Live, hedged runs: 5449 NIFTY bear call +\u20b978 (strikes 22650/22700CE confirmed), 5441 NIFTY condor \u2212\u20b9331, 5446 SENSEX bull put \u2212\u20b93,675 vs \u20b912,000 SL (short 72700PE ITM on pullback but day still up). All hedges intact. Next review 180s; recheck 5446 vs its SL and 5449 fills/target."
     }
   ]
 }
