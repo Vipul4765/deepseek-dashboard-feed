@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T12:40:55.313843+05:30",
-      "summary": "HOLD. All five open books verified hedged/defined-risk (18 legs FILLED): NIFTY 5441 IC -1277, NIFTY 5451 bear put +2018, SENSEX 5456 IC -24, GOLDM 5453 IC +400, CRUDEOILM 5454 IC -535; none near SL/TP. Fresh quotes (age <1s): NIFTY 22446 mid-range 22397-22532 RSI48, SENSEX 71979, BANKNIFTY 54607 RSI57, GOLDM 148494 RSI72 near short call, CRUDEOILM 8684 RSI39; TimesFM all ~flat. Eligible symbols assessed: NIFTY/SENSEX/GOLDM/CRUDEOILM already express the range thesis (new entry = correlated duplicate); BANKNIFTY/FINNIFTY/MIDCPNIFTY show no distinct non-duplicative edge. Blocker: no independent priced opportunity. Next: 300s, or GOLDM testing 149500 / NIFTY breaking 22397-22532."
-    },
-    {
       "time": "2026-10-05T12:45:52.212920+05:30",
       "summary": "HOLD. All 5 open runs verified hedged/defined-risk (18 legs FILLED): NIFTY 5441 IC -1414, NIFTY 5451 bear put +1892, SENSEX 5456 IC -20, GOLDM 5453 IC -140, CRUDEOILM 5454 IC +10; none near SL/TP. Fresh quotes (age <1s): NIFTY 22454 RSI44 mid of 22397-22523, SENSEX 72009, BANKNIFTY 54631, GOLDM 148446, CRUDEOILM 8668; TimesFM all ~flat. Eligible symbols assessed: the four traded underlyings already express the range thesis (new entry = correlated duplicate); BANKNIFTY/FINNIFTY/MIDCPNIFTY show no distinct non-duplicative edge. Blocker: no independent priced opportunity. Next: 300s, or NIFTY leaving 22397-22523."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T19:15:16.204731+05:30",
       "summary": "HOLD. NSE/BSE closed (19:15 IST); only MCX open. Assessed NIFTY/SENSEX/BANKNIFTY/FINNIFTY (closed), GOLDM and CRUDEOILM (data fresh, quotes age ~5s). Both active runs healthy and fully 1:1 hedged of same type/expiry: 5453 GOLDM SELL 146500P / BUY 146000P + SELL 149500C / BUY 150000C (fresh +\u20b9830); 5454 CRUDEOILM SELL 8500P / BUY 8450P + SELL 8900C / BUY 8950C (fresh +\u20b975). No new entry: a third MCX structure duplicates existing correlated neutral exposure, and neither name shows a distinct directional edge (GOLDM TimesFM flat +0.02%, RSI 21.5 unconfirmed; CRUDEOILM range-bound, TimesFM +0.12%). Next trigger: break outside GOLDM 146500\u2013149500 / CRUDEOILM 8500\u20138900, or a clear directional move; review 15 min."
+    },
+    {
+      "time": "2026-10-05T19:30:23.972156+05:30",
+      "summary": "HOLD. NSE/BSE closed (19:30 IST); only MCX open. Assessed GOLDM and CRUDEOILM (fresh candles and 1s depth, spread 27/3). Both live runs remain 1:1 hedged, same type/expiry: 5453 GOLDM short 146500P/149500C vs long 146000P/150000C, mark +\u20b9100; 5454 CRUDEOILM short 8500P/8900C vs long 8450P/8950C, mark \u2212\u20b9225. No new entry: both remain range-bound (GOLDM 148030\u2013148842; CRUDEOILM 8602\u20138729), TimesFM flat (+0.01%/+0.08%), price mid-range with no breakout, so neither a directional vertical nor a third neutral MCX condor adds a distinct thesis \u2014 it would only duplicate correlated short-vol exposure. Next trigger: GOLDM outside 146500\u2013149500 or CRUDEOILM outside 8500\u20138900, or a clear directional break; review 15 min."
     }
   ]
 }
