@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T13:56:08.318776+05:30",
-      "summary": "HOLD, no new entry. Assessed NIFTY/SENSEX: ~60 min to 14:55 index exit, both at 120-bar highs (RSI 65/66), so a fresh leg only adds correlated short-gamma into the close. GOLDM and CRUDEOILM already each carry a hedged iron condor (5453 +320, 5454 +90) with no fresh directional edge (RSI 60/47, mixed forecasts). BANKNIFTY/FINNIFTY/MIDCPNIFTY lack a fresh chain. Five hedged runs intact, no hedge failure, no SL breached; NIFTY put legs combine to a 22550 butterfly. Next: 300s, or any SL/time exit."
-    },
-    {
-      "time": "2026-10-05T14:01:02.858509+05:30",
-      "summary": "HOLD, no new entry. Assessed NIFTY/SENSEX (~55 min to the 14:55 index exit; both at 120-bar highs after a strong intraday rally with TimesFM p50 flat, so no positive-expectancy vertical into the close) and CRUDEOILM/GOLDM (both already carry hedged iron condors; forecasts mildly negative, no fresh distinct edge; adding another structure only doubles correlated exposure). Existing runs intact: 5441 +117, 5451 -1033, 5453 -80, 5454 -210, 5456 -114; no hedge failure, no SL breached. Next: 600s, or any SL/time exit."
-    },
-    {
       "time": "2026-10-05T14:10:56.871831+05:30",
       "summary": "HOLD, no new entry. Assessed all six enabled underlyings. Indices (NIFTY 22532/SENSEX 72266) sit only ~45 min from the 14:55 mandatory exit with TimesFM p50 flat (+0.05%/+0.08%) \u2014 no positive-expectancy vertical into the close. Commodities already carry hedged condors: CRUDEOILM 8738 RSI 75.7 overbought, forecast -0.37%; GOLDM 148680 forecast -0.14% \u2014 no clean fresh edge, and a second structure only doubles correlated exposure. Existing hedge-intact runs: 5441 -156, 5451 -19.5, 5453 -160, 5454 -265, 5456 -52; no SL breached, all legs FILLED. Next: 600s, or on any SL/time exit."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-05T22:40:10.089406+05:30",
       "summary": "HOLD, no new entries. NSE/BSE closed (market_open_now=false); MCX open but only ~10 min to the 22:50 commodity exit \u2014 no runway for a new defined-risk structure. Both live runs hedge-intact, 4 legs filled each: 5453 GOLDM IC short 146500P/149500C vs long 146000P/150000C, +\u20b9370 unrealized, margin \u20b968.6k; 5454 CRUDEOILM IC short 8500P/8900C vs long 8450P/8950C, \u2212\u20b9440 unrealized, margin \u20b922.9k. Spots ~148070/8694 inside both bodies; SL/TP far off, so the 22:50 time exit manages them. Next review 22:50 for exit confirmation."
+    },
+    {
+      "time": "2026-10-05T22:50:15.534412+05:30",
+      "summary": "Flat and HOLD, no new entries. Both live MCX runs reached their 22:50 exit with hedges intact: 5453 GOLDM iron condor closed +\u20b9270, 5454 CRUDEOILM iron condor closed +\u20b930 (all legs EXIT_FIRE_CONFIRMED FILLED, RUN_ARCHIVED); MCX run margin back to 0, no open legs. NSE/BSE sessions closed and MCX commodity exit time (22:50) already passed with entry window closing 23:00, so no runway for a new defined-risk structure. Next review 30 min, ahead of the next session."
+    },
+    {
+      "time": "2026-10-05T22:50:44.044809+05:30",
+      "summary": "Flat and HOLD, no new entries. Both MCX runs are archived with hedges intact: 5453 GOLDM closed +\u20b9270, 5454 CRUDEOILM +\u20b930 (all legs FILLED then EXIT_FIRE_CONFIRMED; MCX run margin back to 0, 0 open legs, fresh). No open runs. Index sessions (NSE/BSE) are closed (market_open_now false, 15:40 close), and MCX entry window ends 23:00 with exit required by 22:50 \u2014 already passed, so GOLDM/CRUDEOILM offer no valid runway. Today's book \u2248 -\u20b94,992, mostly SENSEX bull-put and failed legs. Next review 30 min, ahead of next session."
     }
   ]
 }
