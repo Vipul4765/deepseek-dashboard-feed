@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T10:06:27.493810+05:30",
-      "summary": "HOLD, no new entry. Assessed all open-window underlyings: MCX (GOLDM/CRUDEOILM) confirmed non-executable \u2014 run 5448 legs died with \"No executable quote for MCX_FO:<id> within 5s\", so no hedge can be filled; BANKNIFTY/FINNIFTY/MIDCPNIFTY return no chain data (cannot price/verify hedge). NIFTY/SENSEX have fresh chains but any new structure duplicates existing short-downside exposure (5441 short 22550P/22800C, \u2212\u20b9419 vs \u20b93.2k SL; 5446 short 72700P, \u2212\u20b94395 vs \u20b912k SL), both hedged, stops intact. Next review 240s; retry MCX quotes and watch 5446's SL if the sell-off extends."
-    },
-    {
-      "time": "2026-10-05T10:11:49.688998+05:30",
-      "summary": "Acted. Market open (NSE/BSE/MCX). Only NIFTY/SENSEX have priced chains; BANKNIFTY/FINNIFTY/MIDCPNIFTY return no chain data, and MCX is non-executable (6 failed runs today, no executable quote) \u2014 so those were rejected as blockers. Recent 30 min is a clear broad down-move (NIFTY \u221290 from high, RSI 28; SENSEX RSI 28), so I opened a defined-risk directional vertical rather than another neutral structure: created+started 5449, NIFTY 06-10 bear call spread \u2014 SELL 3x 22650CE / BUY 3x 22700CE (credit \u224818.05, width 50, worst case \u2248\u20b96,231), SL \u20b94,200, TP \u20b92,000, exit 14:55. Short strike sits above the session high (22,621) and under heavy 22600/22700 call OI; hedge is same-type/same-expiry, \u2265long lots. Strikes anchored by premium because Core resolves otm_N off futures ATM. Entry queued 10:12. Existing 5441 (NIFTY condor, \u2212\u20b9195) and 5446 (SENSEX bull put, \u2212\u20b93,270 vs \u20b912,000 SL) both hedged, stops intact. Next review 120s to confirm fills and hedge completeness."
-    },
-    {
       "time": "2026-10-05T10:12:40.235900+05:30",
       "summary": "HOLD, no new entry. Market open; verified MCX is non-executable \u2014 every MCX run failed with \"No executable quote for MCX_FO:<id> within 5s\" on all legs, so GOLDM/CRUDEOILM candidates are infeasible. NSE indices other than NIFTY/SENSEX have no streamed chain, and any further bearish NIFTY/SENSEX trade would duplicate the live 5449 thesis. Live, hedged runs: 5449 NIFTY bear call +\u20b978 (strikes 22650/22700CE confirmed), 5441 NIFTY condor \u2212\u20b9331, 5446 SENSEX bull put \u2212\u20b93,675 vs \u20b912,000 SL (short 72700PE ITM on pullback but day still up). All hedges intact. Next review 180s; recheck 5446 vs its SL and 5449 fills/target."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-05T14:45:49.993336+05:30",
       "summary": "HOLD, no new entry. All 5 open runs hedged (equal-lot longs), none near SL: 5441 -78/3200, 5451 -595/4000, 5453 +780/20000, 5454 -460/1500, 5456 -162/2800. Indices (NIFTY 22555, SENSEX 72354) are ~10 min from their 14:55 forced exit, so no new index trade is feasible. MCX already carries both eligible underlyings (GOLDM 5453, CRUDEOILM 5454); tape is flat/choppy (GOLDM RSI 49, TimesFM +0.03%; CRUDEOIL RSI 61, TimesFM -0.02%) with no distinct edge, so a second structure would only duplicate exposure. Next review 600s, or on any exit/SL event."
+    },
+    {
+      "time": "2026-10-05T14:55:14.085914+05:30",
+      "summary": "HOLD, no new entry. At 14:55 IST the NIFTY (5441, 5451) and SENSEX (5456) runs hit their forced index exits; only MCX positions remain open: GOLDM 5453 (+400, SL 20000) and CRUDEOILM 5454 (-480, SL 1500), both fully hedged with equal-lot long wings, neither near stop. Both eligible MCX underlyings already carry defined-risk condors, so a further structure would only duplicate correlated exposure; GOLDM (RSI 36, TimesFM +0.02%) and CRUDEOILM (RSI 26, TimesFM +0.07%) offer no distinct fresh edge. Next review 300s, or on any exit/SL/hedge event."
+    },
+    {
+      "time": "2026-10-05T14:55:44.036171+05:30",
+      "summary": "HOLD, no new entry. 14:55:34 IST \u2014 NSE/BSE index exit time passed and all index runs (5441/5451/5456) already closed; NIFTY/SENSEX can't be entered now. Only MCX runs remain open: GOLDM 5453 (+530, SL 20000) and CRUDEOILM 5454 (-130, SL 1500), both fully hedged 4-leg condors, neither near stop; CRUDEOILM oversold RSI 21 but TimesFM flat. GOLDM/CRUDEOILM already carry condors, so another structure would duplicate correlated exposure. Next review 600s or on fill/SL/hedge event."
     }
   ]
 }
