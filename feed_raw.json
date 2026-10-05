@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T21:04:27.163285+05:30",
-      "summary": "21:04 IST: NSE/BSE closed (market_open_now=false), only MCX open to 23:55. Both live runs verified hedged/intact from fresh P&L and Core snapshots: 5437 GOLDM 29-10 condor (buy 146000PE/sell 147000PE/sell 150000CE/buy 151000CE, 2 lots) +260 unrealized, spot 148,585 mid-range; 5439 CRUDEOILM 15-10 bull put (buy 8600PE/sell 8750PE, 10 lots) -45, spot 8,919 well above the 8,750 short. No new entry: indices are not entry-eligible and both MCX underlyings already carry live exposure, so any new leg would duplicate/correlate rather than diversify \u2014 that is the blocking input. Next review 600s; triggers: crude toward 8,750, GOLDM toward 147,000/150,000, any stop, or 22:50 exits."
-    },
-    {
       "time": "2026-10-01T21:14:29.758210+05:30",
       "summary": "21:14 IST: NSE/BSE closed (market_open_now=false); only MCX open. No new entry \u2014 the only entry-eligible symbols are MCX GOLDM and CRUDEOILM, and both already carry live open runs, so any new structure would duplicate/correlate rather than diversify. Verified hedged and intact via fresh marks (age ~2s): 5437 GOLDM 29-10 condor (buy146000PE/sell147000PE/sell150000CE/buy151000CE, 2 lots) +510, spot 148,737 mid-range; 5439 CRUDEOILM 15-10 bull put (buy8600PE/sell8750PE, 10 lots) +40, spot 8,924 well above the 8,750 short. No stops/targets near. Next review 900s; triggers: crude toward 8,750, GOLDM 147,000/150,000, any stop, or 22:50 exits."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T10:59:27.595020+05:30",
       "summary": "Hold cycle. Open: 5441 NIFTY IC \u2212985 (spot 22506 sits in its 22550/22500 put spread, inside defined SL 3200, 1DTE \u2014 let SL/exit handle), 5449 bear call +839, 5451 bear put +98, 5453 GOLDM IC +300, all hedged with confirmed fills. 5454 CRUDEOILM IC (sell 8500P/8900C, buy 8450P/8950C, 10 lots) is scheduled for 11:05; fresh MCX chain quoted. No new entry added this cycle: NIFTY already carries three correlated positions and commodity exposure is pending. Next review in 300s to confirm 5454's fills."
+    },
+    {
+      "time": "2026-10-05T11:04:29.724915+05:30",
+      "summary": "Hold cycle. Open/hedged: 5441 NIFTY IC \u22121043 (inside \u20b93200 SL), 5449 bear call +1014, 5451 bear put +731, 5453 GOLDM IC +80; all legs filled and hedged, no naked shorts. 5454 CRUDEOILM IC is scheduled for 11:05 (fills not yet reported). No new entry: three NIFTY same-expiry positions already carry the index thesis and MCX is covered by GOLDM+CRUDEOILM, so a further leg would duplicate correlated exposure rather than add a distinct setup. Next review in 120s to confirm 5454 entry fills and refresh marks."
     }
   ]
 }
