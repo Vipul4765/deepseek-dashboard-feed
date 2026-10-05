@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T09:37:47.000713+05:30",
-      "summary": "NIFTY condor 5441 (06-10 expiry) confirmed ACTIVE with all 4 legs filled (SELL 22550PE/22800CE, BUY 22500PE/22850CE, 3 lots), margin Rs1.85L, hedged, +Rs9.75; no edit. Opened a distinct, non-index play: GOLDM 24-DTE iron condor (BUY 146500PE / SELL 147000PE / SELL 149500CE / BUY 150000CE, 2 lots, 29-10-2026) \u2014 live-quote credit Rs78,500, defined max loss Rs21,500, R:R 3.65, spur strikes outside today's 148.1-148.4k range; SPAN/ELM reservation ~Rs15.6L is affordable. Strategy 5442 created+started, entry 09:40. Next review 150s to confirm hedged fills."
-    },
-    {
       "time": "2026-10-05T09:40:02.118098+05:30",
       "summary": "5441 NIFTY condor ACTIVE and hedged (-Rs78); 5442 GOLDM condor SCHEDULED for 09:40; no edits needed. Assessed all open sessions; CRUDEOILM showed a clear -2.8% down move with rich IV (0.58) and the best-priced defined-risk structure. Created+started 5443: CRUDEOILM 10-DTE (15-10) iron condor BUY 8200PE/SELL 8300PE/SELL 9000CE/BUY 9100CE, 10 lots; live credit ~Rs5,880, defined max loss ~Rs4,120, R:R 1.43, SPAN upfront ~Rs73k, SL Rs3,000/TP Rs3,500, exit 22:50. Next review 150s to confirm both commodity entries filled with hedges intact."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T13:30:56.116686+05:30",
       "summary": "HOLD. Five hedged runs, no naked leg: 5451 NIFTY bear put +2028, 5456 SENSEX IC +22, 5453 GOLDM IC +200, 5454 CRUDEOILM IC -280, 5441 NIFTY IC -1228 (short 22550PE now ITM; Core overall SL 3200 intact, no breach). Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM \u2014 each already carries an active defined-risk run, so a new same-family structure only adds correlated short-gamma/delta; BANKNIFTY/FINNIFTY/MIDCPNIFTY have no streamed chain to price or hedge. Blocker: no distinct uncorrelated edge. Next: 300s, or a 5441 SL hit / 14:55 index exit; commodity exits 22:50."
+    },
+    {
+      "time": "2026-10-05T13:36:00.533149+05:30",
+      "summary": "HOLD. Five defined-risk runs open, every short hedged: 5451 NIFTY bear put +1443, 5456 SENSEX IC +26, 5453 GOLDM IC -70, 5454 CRUDEOILM IC -220, 5441 NIFTY IC -1043 (short 22550PE slightly ITM; combined NIFTY put book is offset by the 22650PE/22500PE longs, overall SL 3200 intact). Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM: each already carries an active run, so a new same-symbol structure adds correlated short-gamma with no distinct edge; BANKNIFTY/FINNIFTY/MIDCPNIFTY have no streamed chain. Blocker: no fresh directional conviction (flat, TimesFM only mildly bullish). Next: 300s, or 14:55 index exit / 5441 SL hit; commodities 22:50."
     }
   ]
 }
