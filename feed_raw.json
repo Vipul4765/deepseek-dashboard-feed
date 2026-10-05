@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T10:12:40.235900+05:30",
-      "summary": "HOLD, no new entry. Market open; verified MCX is non-executable \u2014 every MCX run failed with \"No executable quote for MCX_FO:<id> within 5s\" on all legs, so GOLDM/CRUDEOILM candidates are infeasible. NSE indices other than NIFTY/SENSEX have no streamed chain, and any further bearish NIFTY/SENSEX trade would duplicate the live 5449 thesis. Live, hedged runs: 5449 NIFTY bear call +\u20b978 (strikes 22650/22700CE confirmed), 5441 NIFTY condor \u2212\u20b9331, 5446 SENSEX bull put \u2212\u20b93,675 vs \u20b912,000 SL (short 72700PE ITM on pullback but day still up). All hedges intact. Next review 180s; recheck 5446 vs its SL and 5449 fills/target."
-    },
-    {
       "time": "2026-10-05T10:15:34.487565+05:30",
       "summary": "HOLD, no new entry. Bank NIFTY lists options but has no streamed chain (recorder error), so it is not tradeable; only NIFTY/SENSEX have live chains and both already carry positions (5449 bear call +\u20b9234, 5441 condor \u2212\u20b9244), and MCX stayed non-executable (6 FAILED runs, 0 fills today). All three live runs are hedged and within limits. 5446 SENSEX bull put is the weakest at \u2212\u20b94,090 vs its \u20b912,000 SL with the short 72700PE ITM; left to its software stop. Next review 300s to recheck 5446 and expiring-tomorrow NIFTY legs."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T14:55:44.036171+05:30",
       "summary": "HOLD, no new entry. 14:55:34 IST \u2014 NSE/BSE index exit time passed and all index runs (5441/5451/5456) already closed; NIFTY/SENSEX can't be entered now. Only MCX runs remain open: GOLDM 5453 (+530, SL 20000) and CRUDEOILM 5454 (-130, SL 1500), both fully hedged 4-leg condors, neither near stop; CRUDEOILM oversold RSI 21 but TimesFM flat. GOLDM/CRUDEOILM already carry condors, so another structure would duplicate correlated exposure. Next review 600s or on fill/SL/hedge event."
+    },
+    {
+      "time": "2026-10-05T15:05:48.802402+05:30",
+      "summary": "15:05 IST \u2014 HOLD, no new entry. NSE/BSE index entry window (09:30\u201315:00) has passed and index exits are done; only MCX is open. Existing positions are both fully-hedged 4-leg condors and healthy: GOLDM 5453 +1620 (SL 20000), CRUDEOILM 5454 \u2212440 (SL 1500), neither near stop. GOLDM RSI 31.5 and CRUDEOILM RSI 40.6 are range-bound with flat TimesFM; a third MCX condor would duplicate correlated neutral exposure with no distinct thesis. Blockers: no fresh directional move, duplicate exposure. Next review 900s or on fill/SL/hedge event."
     }
   ]
 }
