@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T18:09:30.062338+05:30",
-      "summary": "18:09 IST: NSE/BSE closed (15:40); only MCX open. No new entry \u2014 both eligible MCX names already carry live theses, so another would duplicate correlated exposure. 5437 GOLDM iron condor -140, spot 149,027 between short 147000PE/150000CE, well inside wings, margin ~77k. 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 10x10) -480, spot 8,821 ~71pts above short strike, max loss ~9.1k, SL 4k far. Both hedged, exits 22:50. Next review 10min; triggers: crude toward 8,750 or GOLDM toward 150,000."
-    },
-    {
       "time": "2026-10-01T18:19:33.910299+05:30",
       "summary": "18:19 IST: NSE/BSE closed (15:40); only MCX open. No new entry. Both eligible MCX names already carry live, hedged theses \u2014 5437 GOLDM iron condor (short 147000PE/150000CE, spot 149,100 well inside) and 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 10x10, spot ~8,825, ~75pts above short). Adding another GOLDM/CRUDEOILM structure would duplicate or cancel existing exposure, and all TimesFM paths are near-flat (|\u0394|\u22640.16%), so no independent edge. P&L: 5437 +20, 5439 -525 (SL 4k far). Exits 22:50. Next review 10min; triggers: crude toward 8,750 or GOLDM toward 150,000."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T09:50:15.614003+05:30",
       "summary": "No new entry. 5441 NIFTY 06-10 condor (4 legs filled, +\u20b9224 unrealized, margin ~\u20b9185k) and 5446 SENSEX 08-10 bull put 72200/72700 (both legs filled, hedge intact, -\u20b975, margin ~\u20b9192k) are healthy; stops/targets software-managed, no edit. New entries blocked: MCX option legs fail \"no executable quote within 5s\" (run events 5442/5445) so GOLDM/CRUDEOILM are unexecutable; BANKNIFTY/FINNIFTY/MIDCPNIFTY have no recorder chain; another bullish NIFTY/SENSEX vertical would duplicate 5446's thesis. Reassess marks and MCX feed in 5 min."
+    },
+    {
+      "time": "2026-10-05T09:57:07.273354+05:30",
+      "summary": "No new entry. Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, CRUDEOILM, GOLDM. Blockers: BANKNIFTY/FINNIFTY/MIDCPNIFTY return \"no chain data\" (unpricable); CRUDEOILM/GOLDM recorder chains are fresh but Core's execution feed still serves prior-session MCX option quotes - 5 NO_EXECUTABLE_QUOTE failures today, last 09:55, so MCX options are unexecutable this cycle. NIFTY/SENSEX chains are fresh but any vertical would duplicate/correlate the open 5441 NIFTY condor (+\\u20b997) and 5446 SENSEX bull put (\\u2013\\u20b9255); the 1DTE NIFTY bull call spread prices ~1:1 with no edge after a +0.85% gap. Both open runs hedged and under software SL/TP. Reassess MCX quote freshness in ~4 min."
     }
   ]
 }
