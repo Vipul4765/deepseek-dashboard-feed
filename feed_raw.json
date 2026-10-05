@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-01T16:54:25.624582+05:30",
-      "summary": "16:54 IST: NSE/BSE closed (15:40), only MCX open. Fresh Core marks: 5437 GOLDM condor (short 147000PE/150000CE, hedged 146000PE/151000CE, 2x2) +540 unrealized, spot 148,656 mid-range, margin 77,455; 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 10x10) -290 unrealized, spot 8,889 above short strike, margin 23,694 \u2014 both verified, well inside their 30,000/4,000 SLs, no trigger. Assessed GOLDM and CRUDEOILM for new risk; each already carries a live thesis, so an addition would duplicate/offset exposure \u2014 HOLD. Next review 15 min; exits 22:50."
-    },
-    {
       "time": "2026-10-01T17:09:43.457388+05:30",
       "summary": "17:09 IST: NSE/BSE closed since 15:40; only MCX open. Fresh Core marks: 5437 GOLDM iron condor (short 147000PE/150000CE, hedged 146000PE/151000CE, 2x2) ~flat, margin 77,455; 5439 CRUDEOILM bull put (short 8750PE, long 8600PE, 10x10) -210, spot 8,890 above short strike, margin 23,694. Both hedged and far inside their SLs, no trigger; exits 22:50. Assessed GOLDM and CRUDEOILM for new risk \u2014 each already carries a live thesis, so an addition would duplicate/offset exposure. HOLD. Trigger: GOLDM momentum toward 150,000 short call; CRUDEOILM close near 8750 short put. Next review 15 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T09:37:47.000713+05:30",
       "summary": "NIFTY condor 5441 (06-10 expiry) confirmed ACTIVE with all 4 legs filled (SELL 22550PE/22800CE, BUY 22500PE/22850CE, 3 lots), margin Rs1.85L, hedged, +Rs9.75; no edit. Opened a distinct, non-index play: GOLDM 24-DTE iron condor (BUY 146500PE / SELL 147000PE / SELL 149500CE / BUY 150000CE, 2 lots, 29-10-2026) \u2014 live-quote credit Rs78,500, defined max loss Rs21,500, R:R 3.65, spur strikes outside today's 148.1-148.4k range; SPAN/ELM reservation ~Rs15.6L is affordable. Strategy 5442 created+started, entry 09:40. Next review 150s to confirm hedged fills."
+    },
+    {
+      "time": "2026-10-05T09:40:02.118098+05:30",
+      "summary": "5441 NIFTY condor ACTIVE and hedged (-Rs78); 5442 GOLDM condor SCHEDULED for 09:40; no edits needed. Assessed all open sessions; CRUDEOILM showed a clear -2.8% down move with rich IV (0.58) and the best-priced defined-risk structure. Created+started 5443: CRUDEOILM 10-DTE (15-10) iron condor BUY 8200PE/SELL 8300PE/SELL 9000CE/BUY 9100CE, 10 lots; live credit ~Rs5,880, defined max loss ~Rs4,120, R:R 1.43, SPAN upfront ~Rs73k, SL Rs3,000/TP Rs3,500, exit 22:50. Next review 150s to confirm both commodity entries filled with hedges intact."
     }
   ]
 }
