@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T12:30:54.400522+05:30",
-      "summary": "Reassessed all four enabled underlyings with fresh quotes (NIFTY 22458, SENSEX 72010, GOLDM 148355, CRUDEOILM 8670) \u2014 all inside their existing defined-risk books: 5441 NIFTY IC (SL 3200, now -1248), 5451 NIFTY bear put (+1823), 5456 SENSEX IC (+4), 5453 GOLDM IC (-320), 5454 CRUDEOILM IC (-195). All 18 legs FILLED and hedged; nothing near a stop or exit (index exit 14:55, MCX 22:50). TimesFM is flat (-0.05% to +0.07%) and any new structure would duplicate correlated thesis, so HOLD; blocker is absence of a distinct priced edge. Next: 300s, or if NIFTY leaves 22397-22560."
-    },
-    {
       "time": "2026-10-05T12:36:04.498322+05:30",
       "summary": "HOLD. All five open books defined-risk and hedged (18 legs FILLED): NIFTY 5441 IC \u22121472, NIFTY 5451 bear put +2330, SENSEX 5456 IC \u22126, GOLDM 5453 IC +240, CRUDEOILM 5454 IC +170; none near SL/TP or exit. Fresh quotes: NIFTY 22444 mid-range 22397\u201322532, SENSEX 71965, GOLDM/CRUDEOILM flat; TimesFM all \u2248flat. No distinct priced edge \u2014 any new structure only duplicates existing NIFTY/SENSEX/MCX thesis (correlated). Day P&L \u22124579. Next: 300s, or if NIFTY breaks 22397/22532."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-05T18:45:18.397358+05:30",
       "summary": "HOLD. NSE/BSE closed; only MCX open (18:45 IST). Two active 1:1-hedged condors both safe: 5453 GOLDM short 146500P/149500C, spot 148487, +680; 5454 CRUDEOILM short 8500P/8900C, spot 8633, -125. No new entry: no distinct edge \u2014 GOLDM flat, CRUDEOILM RSI 11 oversold with flat TimesFM; a third MCX condor duplicates correlated neutral exposure. Next review ~15 min or on GOLDM break 148313/148895 or CRUDEOILM break 8500/8900."
+    },
+    {
+      "time": "2026-10-05T19:00:18.192980+05:30",
+      "summary": "HOLD. NSE/BSE closed; only MCX open (19:00 IST). Both active 1:1-hedged condors healthy and fresh: 5453 GOLDM short 146500P/149500C (spot 148541) +190; 5454 CRUDEOILM short 8500P/8900C (spot 8644) +140. No new entry: indices past window, and a third MCX condor would duplicate correlated neutral exposure \u2014 GOLDM TimesFM flat, CRUDEOILM only mild +0.30% bias, no distinct directional edge. Hedges verified intact. Next review ~15 min or on breaks outside GOLDM 146500\u2013149500 / CRUDEOILM 8500\u20138900."
     }
   ]
 }
