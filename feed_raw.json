@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T11:46:51.994520+05:30",
-      "summary": "HOLD, no new positions. Context: NSE/BSE/MCX all open (verified), flat book (no open runs, today's journal empty). Assessed eligible first expiries \u2014 NIFTY 06-10-2026 (0DTE), SENSEX 08-10-2026, CRUDEOILM 15-10-2026, GOLDM 29-10-2026. Blocker: get_option_chain returned 'no chain data' for every underlying and market.option_chains is empty, so no option bid/ask exists to price a spread, verify a hedge, or compute worst-case payoff/margin. NIFTY/SENSEX show overbought upward momentum and CRUDEOILM is oversold, but without quotes no defined-risk trade is valid. Next review in 5 min to catch feed recovery."
-    },
-    {
       "time": "2026-10-06T11:53:48.630718+05:30",
       "summary": "Market open (NSE/BSE/MCX verified). Chains fresh this cycle, enabling a trade. Priced candidates across all four underlyings; NIFTY 0DTE credit spreads had poor R:R (0.3-0.4), so chose a SENSEX 2DTE (08-10) iron condor: sell 72600PE/73100CE, buy 72400PE/73300CE, 10 lots. Net credit \u20b927,500, defined worst-case loss \u20b912,500 (R:R 2.2), breakevens 72462/73237, hedged SPAN ~\u20b940k. Overall SL \u20b910k / TP \u20b912k, complete square-off, exit 14:55. Created (5603) and started; status waiting \u2014 fills/strikes unverified. Next review 120s to confirm execution. No open runs otherwise; flat day (\u20b90)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T15:32:02.288946+05:30",
       "summary": "HOLD, no new entry. 15:31 IST: NSE/BSE entry window (\u226415:00) closed, so only MCX eligible; both MCX underlyings already hold live, fully hedged neutral condors (5633 GOLDM unrealized +40, SL 12000; 5634 CRUDEOILM unrealized -430, short 8500PE near money, spot 8483, SL 3000). A new MCX structure would duplicate correlated exposure, so no distinct edge; hedges intact, quotes fresh. Next trigger: reassess MCX quotes/CRUDEOILM drift in ~10 min, or an SL/fill event."
+    },
+    {
+      "time": "2026-10-06T15:40:11.066307+05:30",
+      "summary": "HOLD, no new entry. 15:40 IST: NSE/BSE closed (only MCX open to 23:55). Both MCX underlyings already carry live, fully hedged neutral condors \u2014 5633 GOLDM (4/4 filled, unrealized +510, margin 68.4k, SL 12000) and 5634 CRUDEOILM (4/4 filled, unrealized -230, short 8500PE ~23pts ITM vs spot 8477, margin 54.4k, SL 3000). A third MCX structure would duplicate correlated exposure with no distinct edge; index windows shut. No leg at stop/target, hedges verified intact. Next: reassess MCX quotes/drift in ~15 min or on an SL/fill event."
     }
   ]
 }
