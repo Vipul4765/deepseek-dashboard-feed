@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T23:05:42.986193+05:30",
-      "summary": "HOLD, no new positions. NSE/BSE closed (market_open_now=false, 15:40 close) and MCX entry window (09:30-23:00, exit 22:50) already passed at 23:05 IST, so no eligible symbol had a valid entry/exit runway. No open runs: 5453 GOLDM (+\u20b9270) and 5454 CRUDEOILM (+\u20b930) closed earlier with hedges intact and margin released; all other strategies DONE. Today's book \u2248 -\u20b94,992. Next review in 30 min, ahead of next session."
-    },
-    {
       "time": "2026-10-05T23:20:43.229669+05:30",
       "summary": "HOLD, no new positions. NSE/BSE are closed (market_open_now=false, 15:40 close) and MCX's entry window (09:30-23:00, exit 22:50) already passed at 23:20 IST, so no eligible symbol has a valid entry/exit runway. open_runs is empty and all owned strategies are DONE/created; today's book \u2248 -\u20b94,992 with hedge books already flat and margin released. Next review in 30 min, ahead of the next session."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T15:22:17.455974+05:30",
       "summary": "HOLD, no new entry. Time 15:21 IST: NSE/BSE entry window (<=15:00) closed, so indices blocked; only MCX eligible. Both MCX underlyings already carry live, fully hedged condors: GOLDM 5633 +360 (short 146500PE/149500CE vs long 146000PE/150000CE, margin ~68k, SL 12000) and CRUDEOILM 5634 +80 (short 8500PE/8700CE vs long 8400PE/8800CE, margin ~54k, SL 3000). Hedges intact; marks fresh. New MCX trades would duplicate/correlate with these neutral condors and CRUDEOILM's clear down-move already feeds the existing short call wing, so no distinct edge. Watching CRUDEOILM short 8500PE (~58 pts above spot = 58 below strike) and overall SLs; recheck 5 min."
+    },
+    {
+      "time": "2026-10-06T15:27:04.699145+05:30",
+      "summary": "HOLD, no new entry. 15:26 IST: NSE/BSE entry window (<=15:00) closed, so indices are blocked; only MCX eligible. Both MCX underlyings already carry live, fully hedged condors (5633 GOLDM, 4 legs filled, unrealized +90, margin ~68k, SL 12000; 5634 CRUDEOILM, 4 legs filled, unrealized -670, margin ~54k, SL 3000). A new MCX structure would duplicate/correlate with these neutral condors, so no distinct edge. Hedges intact, quotes fresh. Watching CRUDEOILM short 8500PE near money; recheck 5 min."
     }
   ]
 }
