@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T13:13:34.279357+05:30",
-      "summary": "HOLD, no new entry. Four hedged 4-leg runs, all legs FILLED with matched hedges, inside Core stops/targets: SENSEX 5603 +\u20b91,050, NIFTY 0DTE fly 5635 +\u20b9422.50, GOLDM 5633 +\u20b9110, CRUDEOILM 5634 \u2212\u20b9240. Assessed all four chain-enabled underlyings; each already holds a correlated neutral position and none shows a fresh directional edge (all pinned near SMA, TimesFM flat). BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain data to price/hedge. Watch item: SENSEX short put 73000 is ~82 pts ITM (spot 72918, SL 10,000). Index exits 14:55, MCX 22:50. Next review 600s."
-    },
-    {
       "time": "2026-10-06T13:23:28.271161+05:30",
       "summary": "HOLD, no new entry. Four hedged 4-leg runs, all legs FILLED with matched hedges and inside Core stops: SENSEX 5603 +\u20b91,030, NIFTY 0DTE fly 5635 +\u20b9513.50, GOLDM 5633 +\u20b9370, CRUDEOILM 5634 \u2212\u20b9460. No fresh directional edge \u2014 all four chain-enabled underlyings pinned near SMA with flat TimesFM, and each already carries a correlated neutral position; BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain data. Watch: SENSEX short 73000 put ~98 pts ITM (SL \u20b910,000); index exit 14:55, MCX 22:50. Next review 600s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T20:09:19.216113+05:30",
       "summary": "20:09 IST: NSE/BSE closed, MCX open (exit 22:50). Two hedged condors live: 5633 GOLDM +\u20b9270 (spot 148710 between shorts 146500P/149500C) and 5634 CRUDEOILM \u2212\u20b9120 (spot 8505 hugging short 8500P, wing 8400P intact). 4/4 legs each, no naked shorts, SLs 12000/3000 intact. No new entry: only GOLDM/CRUDEOILM eligible and both already carry distinct hedged theses; TimesFM flat, so any add is duplicate correlated risk. HOLD; next review 15 min or on SL/time-exit."
+    },
+    {
+      "time": "2026-10-06T20:24:17.972404+05:30",
+      "summary": "20:24 IST: NSE/BSE closed, MCX open (exit 22:50). Two hedged condors live, both improved: 5633 GOLDM +\u20b9260 (spot ~148800 between shorts 146500P/149500C, wings intact, SL12000) and 5634 CRUDEOILM +\u20b9230 (spot 8485 vs short 8500P, 8400P hedge filled, SL3000). 4/4 legs each, no naked shorts. No new entry: only GOLDM/CRUDEOILM eligible, both already carry distinct hedged theses and TimesFM flat, so any add is duplicate correlated risk. HOLD; next review 15 min or on SL/time exit."
     }
   ]
 }
