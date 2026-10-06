@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T12:17:47.250038+05:30",
-      "summary": "Acted/monitored. Live hedged ICs all 4/4 legs filled, inside stops, fresh marks: SENSEX 5603 +200, GOLDM 5633 +250, CRUDEOILM 5634 -230 (spot 8547 near short put 8500; SL 3000 not threatened). NIFTY 0DTE fly 5635 is SCHEDULED (durable run ae0e6e0f), entry 12:18 \u2014 not yet filled, so strikes unverified. No new entry: all four tradable underlyings already carry defined-risk intraday exposure, so a new leg would be correlated, not diversifying. Next: 120s review to confirm 5635 4/4 hedged fills and recheck 5634 if CRUDEOILM breaks 8500."
-    },
-    {
       "time": "2026-10-06T12:18:34.226173+05:30",
       "summary": "HOLD, no new entry. All four active runs confirmed 4/4 legs filled and hedged: 5635 NIFTY 0DTE fly (SELL 22700CE/PE, BUY 22800CE/22600PE), 5603 SENSEX IC, 5633 GOLDM IC, 5634 CRUDEOILM IC. Fresh marks: 5603 +100, 5633 +390, 5634 -250 (spot 8548, short put 8500, breakeven ~8418, SL 3000 clear), 5635 +19.5. No new trade because all four tradable underlyings already carry defined-risk intraday exposure; a new leg would duplicate a thesis, not diversify. Both fleets well within capital (NSE ~902k, MCX ~289k). Next review 180s; watch CRUDEOILM below 8500 and 5635 0DTE into 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T17:29:19.343811+05:30",
       "summary": "HOLD, no new trade. 17:29 IST: NSE/BSE closed (indices ineligible); MCX open. Both live condors hedged and inside stops: 5633 GOLDM -10 (spot 149115, shorts 146500P/149500C, SL 12000), 5634 CRUDEOILM -40 (spot ~8424, shorts 8500P near money/8700C, 8400P/8800C wings intact, SL 3000). No stop/target near, no hedge gap. Only entry-eligible symbols are GOLDM/CRUDEOILM, both already carrying neutral condors with flat forecasts; a second position would duplicate correlated exposure with no distinct thesis. Next review ~20 min or on any fill/exit/stop event."
+    },
+    {
+      "time": "2026-10-06T17:44:28.733706+05:30",
+      "summary": "17:44 IST: NSE/BSE closed, MCX open. Both live condors are hedged and defined-risk: 5633 GOLDM +730 (spot 149234, shorts 146500P/149500C, wings 146000P/150000C, SL 12000) and 5634 CRUDEOILM +190 (spot 8415, shorts 8500P/8700C, wings 8400P/8800C, SL 3000). Neither stop nor target is near; no hedge gap. Only GOLDM/CRUDEOILM are entry-eligible and each already carries a neutral condor, so an extra position would be correlated exposure without a distinct edge \u2014 HOLD. Reassess in ~10 min or on any fill/exit/stop event."
     }
   ]
 }
