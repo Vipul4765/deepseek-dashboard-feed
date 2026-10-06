@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T14:55:14.085914+05:30",
-      "summary": "HOLD, no new entry. At 14:55 IST the NIFTY (5441, 5451) and SENSEX (5456) runs hit their forced index exits; only MCX positions remain open: GOLDM 5453 (+400, SL 20000) and CRUDEOILM 5454 (-480, SL 1500), both fully hedged with equal-lot long wings, neither near stop. Both eligible MCX underlyings already carry defined-risk condors, so a further structure would only duplicate correlated exposure; GOLDM (RSI 36, TimesFM +0.02%) and CRUDEOILM (RSI 26, TimesFM +0.07%) offer no distinct fresh edge. Next review 300s, or on any exit/SL/hedge event."
-    },
-    {
-      "time": "2026-10-05T14:55:44.036171+05:30",
-      "summary": "HOLD, no new entry. 14:55:34 IST \u2014 NSE/BSE index exit time passed and all index runs (5441/5451/5456) already closed; NIFTY/SENSEX can't be entered now. Only MCX runs remain open: GOLDM 5453 (+530, SL 20000) and CRUDEOILM 5454 (-130, SL 1500), both fully hedged 4-leg condors, neither near stop; CRUDEOILM oversold RSI 21 but TimesFM flat. GOLDM/CRUDEOILM already carry condors, so another structure would duplicate correlated exposure. Next review 600s or on fill/SL/hedge event."
-    },
-    {
       "time": "2026-10-05T15:05:48.802402+05:30",
       "summary": "15:05 IST \u2014 HOLD, no new entry. NSE/BSE index entry window (09:30\u201315:00) has passed and index exits are done; only MCX is open. Existing positions are both fully-hedged 4-leg condors and healthy: GOLDM 5453 +1620 (SL 20000), CRUDEOILM 5454 \u2212440 (SL 1500), neither near stop. GOLDM RSI 31.5 and CRUDEOILM RSI 40.6 are range-bound with flat TimesFM; a third MCX condor would duplicate correlated neutral exposure with no distinct thesis. Blockers: no fresh directional move, duplicate exposure. Next review 900s or on fill/SL/hedge event."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-06T11:46:51.994520+05:30",
       "summary": "HOLD, no new positions. Context: NSE/BSE/MCX all open (verified), flat book (no open runs, today's journal empty). Assessed eligible first expiries \u2014 NIFTY 06-10-2026 (0DTE), SENSEX 08-10-2026, CRUDEOILM 15-10-2026, GOLDM 29-10-2026. Blocker: get_option_chain returned 'no chain data' for every underlying and market.option_chains is empty, so no option bid/ask exists to price a spread, verify a hedge, or compute worst-case payoff/margin. NIFTY/SENSEX show overbought upward momentum and CRUDEOILM is oversold, but without quotes no defined-risk trade is valid. Next review in 5 min to catch feed recovery."
+    },
+    {
+      "time": "2026-10-06T11:53:48.630718+05:30",
+      "summary": "Market open (NSE/BSE/MCX verified). Chains fresh this cycle, enabling a trade. Priced candidates across all four underlyings; NIFTY 0DTE credit spreads had poor R:R (0.3-0.4), so chose a SENSEX 2DTE (08-10) iron condor: sell 72600PE/73100CE, buy 72400PE/73300CE, 10 lots. Net credit \u20b927,500, defined worst-case loss \u20b912,500 (R:R 2.2), breakevens 72462/73237, hedged SPAN ~\u20b940k. Overall SL \u20b910k / TP \u20b912k, complete square-off, exit 14:55. Created (5603) and started; status waiting \u2014 fills/strikes unverified. Next review 120s to confirm execution. No open runs otherwise; flat day (\u20b90)."
+    },
+    {
+      "time": "2026-10-06T11:54:30.615637+05:30",
+      "summary": "Market open (NSE/BSE/MCX verified). No open runs yet. SENSEX 2DTE condor 5603 is a scheduled durable run (entry 11:55, exit 14:55) with 4 hedged legs, complete square-off, SL \u20b910k / TP \u20b912k. Re-priced against live 08-10 quotes (spot 72813): net credit \u2248\u20b927,520, worst case \u2248\u20b912,480 (R:R 2.2), breakevens 72462/73238; left in place for the imminent entry. Strikes still relative selectors \u2014 unverified until fills. NIFTY 0DTE R:R poor, GOLDM overbought/rich, CRUDEOILM just spiked -1.2% with a flat forecast, so no second entry forced. Next review 120s to confirm 5603 fills."
     }
   ]
 }
