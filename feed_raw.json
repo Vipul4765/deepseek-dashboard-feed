@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T16:55:16.573423+05:30",
-      "summary": "16:55 IST \u2014 HOLD. NSE/BSE closed; only MCX open. Existing runs verified healthy and 1:1 hedged: 5453 GOLDM condor +190 (SL 20000, short 146500P/149500C) and 5454 CRUDEOILM condor -270 (SL 1500, short 8500P/8900C), both far from triggers \u2014 no management needed. Assessed both open MCX underlyings on fresh quotes: GOLDM 148735 choppy mid-range (120-bar 148500\u2013148866), CRUDEOILM 8695 near range low after a sharp fall (RSI 26); no distinct directional edge, and another neutral structure would only duplicate the two open condors' thesis/correlated exposure. Blocker: absent distinct edge. Reassess on GOLDM break of 148500/149500 or CRUDEOILM break of 8500/8900. Next review 1200s."
-    },
-    {
       "time": "2026-10-05T17:10:15.133733+05:30",
       "summary": "17:10 IST \u2014 HOLD. NSE/BSE closed; only MCX open. Two open runs verified healthy and 1:1 hedged from fresh marks: 5453 GOLDM condor +240 (SL 20000, short 146500P/149500C) and 5454 CRUDEOILM condor +250 (SL 1500, short 8500P/8900C) \u2014 both mid-range, far from triggers, no management needed. Assessed both open MCX underlyings: GOLDM 148673 choppy (range 148500\u2013148895), CRUDEOILM 8701 V-recovered to mid-range; neither gives a distinct directional edge, and a new neutral structure would only duplicate the two open condors' thesis/correlated exposure. Blocker: absent distinct edge. Next review 1200s; reassess on GOLDM break of 148500/149000 or CRUDEOILM break of 8637/8770."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T12:18:34.226173+05:30",
       "summary": "HOLD, no new entry. All four active runs confirmed 4/4 legs filled and hedged: 5635 NIFTY 0DTE fly (SELL 22700CE/PE, BUY 22800CE/22600PE), 5603 SENSEX IC, 5633 GOLDM IC, 5634 CRUDEOILM IC. Fresh marks: 5603 +100, 5633 +390, 5634 -250 (spot 8548, short put 8500, breakeven ~8418, SL 3000 clear), 5635 +19.5. No new trade because all four tradable underlyings already carry defined-risk intraday exposure; a new leg would duplicate a thesis, not diversify. Both fleets well within capital (NSE ~902k, MCX ~289k). Next review 180s; watch CRUDEOILM below 8500 and 5635 0DTE into 14:55 exit."
+    },
+    {
+      "time": "2026-10-06T12:21:23.356142+05:30",
+      "summary": "HOLD, no new entry. Four active runs verified hedged 4/4: 5635 NIFTY 0DTE fly (+39, spot 22685 inside 22637/22763 BE, exit 14:55), 5603 SENSEX IC (+120), 5633 GOLDM IC (+950), 5634 CRUDEOILM IC (-360; spot 8550, short put 8500, BE ~8418, SL 3000 clear). No new trade because all four tradable underlyings already carry defined-risk intraday exposure \u2014 a new leg duplicates thesis, not diversifies. Triggers: CRUDEOILM below ~8500 or 0DTE fly into 14:55 exit. Next review 180s."
     }
   ]
 }
