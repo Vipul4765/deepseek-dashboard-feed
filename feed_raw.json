@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T12:18:34.226173+05:30",
-      "summary": "HOLD, no new entry. All four active runs confirmed 4/4 legs filled and hedged: 5635 NIFTY 0DTE fly (SELL 22700CE/PE, BUY 22800CE/22600PE), 5603 SENSEX IC, 5633 GOLDM IC, 5634 CRUDEOILM IC. Fresh marks: 5603 +100, 5633 +390, 5634 -250 (spot 8548, short put 8500, breakeven ~8418, SL 3000 clear), 5635 +19.5. No new trade because all four tradable underlyings already carry defined-risk intraday exposure; a new leg would duplicate a thesis, not diversify. Both fleets well within capital (NSE ~902k, MCX ~289k). Next review 180s; watch CRUDEOILM below 8500 and 5635 0DTE into 14:55 exit."
-    },
-    {
       "time": "2026-10-06T12:21:23.356142+05:30",
       "summary": "HOLD, no new entry. Four active runs verified hedged 4/4: 5635 NIFTY 0DTE fly (+39, spot 22685 inside 22637/22763 BE, exit 14:55), 5603 SENSEX IC (+120), 5633 GOLDM IC (+950), 5634 CRUDEOILM IC (-360; spot 8550, short put 8500, BE ~8418, SL 3000 clear). No new trade because all four tradable underlyings already carry defined-risk intraday exposure \u2014 a new leg duplicates thesis, not diversifies. Triggers: CRUDEOILM below ~8500 or 0DTE fly into 14:55 exit. Next review 180s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T17:44:28.733706+05:30",
       "summary": "17:44 IST: NSE/BSE closed, MCX open. Both live condors are hedged and defined-risk: 5633 GOLDM +730 (spot 149234, shorts 146500P/149500C, wings 146000P/150000C, SL 12000) and 5634 CRUDEOILM +190 (spot 8415, shorts 8500P/8700C, wings 8400P/8800C, SL 3000). Neither stop nor target is near; no hedge gap. Only GOLDM/CRUDEOILM are entry-eligible and each already carries a neutral condor, so an extra position would be correlated exposure without a distinct edge \u2014 HOLD. Reassess in ~10 min or on any fill/exit/stop event."
+    },
+    {
+      "time": "2026-10-06T17:54:17.155762+05:30",
+      "summary": "17:54 IST: NSE/BSE closed, MCX open. Both live runs hedged and defined-risk: 5633 GOLDM condor (short 146500P/149500C, wings 146000P/150000C, +\u20b9210) and 5634 CRUDEOILM condor (short 8500P/8700C, wings 8400P/8800C, +\u20b9260). No naked legs; neither near SL (12000/3000) or TP (8000/5000). Only GOLDM/CRUDEOILM are entry-eligible, but each already carries a neutral condor, so a further position would be correlated exposure without a distinct edge. HOLD; reassess in ~10 min or on any fill/exit/stop event."
     }
   ]
 }
