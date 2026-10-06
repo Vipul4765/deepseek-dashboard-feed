@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T22:50:15.534412+05:30",
-      "summary": "Flat and HOLD, no new entries. Both live MCX runs reached their 22:50 exit with hedges intact: 5453 GOLDM iron condor closed +\u20b9270, 5454 CRUDEOILM iron condor closed +\u20b930 (all legs EXIT_FIRE_CONFIRMED FILLED, RUN_ARCHIVED); MCX run margin back to 0, no open legs. NSE/BSE sessions closed and MCX commodity exit time (22:50) already passed with entry window closing 23:00, so no runway for a new defined-risk structure. Next review 30 min, ahead of the next session."
-    },
-    {
       "time": "2026-10-05T22:50:44.044809+05:30",
       "summary": "Flat and HOLD, no new entries. Both MCX runs are archived with hedges intact: 5453 GOLDM closed +\u20b9270, 5454 CRUDEOILM +\u20b930 (all legs FILLED then EXIT_FIRE_CONFIRMED; MCX run margin back to 0, 0 open legs, fresh). No open runs. Index sessions (NSE/BSE) are closed (market_open_now false, 15:40 close), and MCX entry window ends 23:00 with exit required by 22:50 \u2014 already passed, so GOLDM/CRUDEOILM offer no valid runway. Today's book \u2248 -\u20b94,992, mostly SENSEX bull-put and failed legs. Next review 30 min, ahead of next session."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T15:11:12.204707+05:30",
       "summary": "HOLD, no new entry. Index entry window closed (15:10 > 15:00), only MCX eligible. Two hedged MCX condors live and fresh: GOLDM 5633 +150 (short 146500PE/149500CE vs 146000PE/150000CE), CRUDEOILM 5634 -400 (short 8500PE/8700CE vs 8400PE/8800CE) \u2014 both defined-risk, hedges intact, SLs (12000/3000) far. CRUDEOILM dropped sharply (8562\u21928427, RSI 18), pulling its short 8500PE slightly ITM; TimesFM only mildly corrective, so no fresh distinct edge. GOLDM flat. New structures would merely duplicate existing range theses. Recheck MCX marks in 6 min."
+    },
+    {
+      "time": "2026-10-06T15:17:07.069709+05:30",
+      "summary": "HOLD, no new entry. Index window closed (15:16>15:00); only MCX eligible. Two hedged MCX condors live and fresh: GOLDM 5633 +260 (short 146500PE/149500CE vs long 146000PE/150000CE, SL 12000) and CRUDEOILM 5634 -150 (short 8500PE/8700CE vs long 8400PE/8800CE, SL 3000). Both defined-risk, hedges intact. No distinct new edge: GOLDM flat (TimesFM 148609, RSI 39), CRUDEOILM drop only offsets existing put wing (correlated). Monitor 5634 short 8500PE near breakeven ~8458. Recheck in 5 min."
     }
   ]
 }
