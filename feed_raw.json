@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T16:10:16.729742+05:30",
-      "summary": "16:10 IST \u2014 HOLD. NSE/BSE closed; only MCX open. No management needed: 5453 GOLDM condor +280 (SL 20000/TP 25000) and 5454 CRUDEOILM condor \u2212215 (SL 1500) are fresh, both 1:1 hedged, far from triggers. Eligible MCX assessed: GOLDM 148650 (RSI 59.6, ATR 32.5) mid-range and CRUDEOILM 8756 (RSI 75.9) flat, both with flat TimesFM paths \u2014 no directional move, and a new condor would duplicate existing correlated MCX exposure with no distinct thesis. Reassess on GOLDM break of 148500/149000, CRUDEOILM break of 8717/8795, or stop proximity. Next review 900s."
-    },
-    {
-      "time": "2026-10-05T16:25:24.558672+05:30",
-      "summary": "16:25 IST \u2014 HOLD. NSE/BSE closed (only MCX open). No management needed: 5453 GOLDM condor +500 (SL 20000) and 5454 CRUDEOILM condor \u2212140 (SL 1500), both 1:1 hedged, fresh, far from triggers. Both underlyings assessed with fresh quotes: GOLDM 148745 (RSI 73.6, ATR 22.8) is dead-flat inside a 443-pt 120-bar range and CRUDEOILM 8717 (RSI 41.5) sits mid-range \u2014 no clear directional move, so only neutral structures fit, and those would duplicate the existing GOLDM/CRUDEOILM condor strikes with no distinct thesis. Blocker: absent edge. Reassess on GOLDM break of 148500/149500, CRUDEOILM break of 8500/8900, or stop proximity. Next review 900s."
-    },
-    {
       "time": "2026-10-05T16:40:18.412758+05:30",
       "summary": "16:40 IST \u2014 HOLD. NSE/BSE closed; only MCX open. Existing runs healthy and 1:1 hedged: 5453 GOLDM condor +380 (SL 20000, short 146500P/149500C) and 5454 CRUDEOILM condor +40 (SL 1500, short 8500P/8900C), both fresh and far from triggers \u2014 no management needed. Assessed both open MCX underlyings with fresh quotes: GOLDM 148826 choppy in a 442-pt range (ATR 53) and CRUDEOILM 8731 mid-range (ATR 15), neither yielding a distinct directional edge; another neutral structure would only duplicate the existing condors' strikes/thesis. Blocker: absent distinct edge. Reassess on GOLDM break of 148500/149500 or CRUDEOILM break of 8500/8900. Next review 900s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-06T12:11:18.105534+05:30",
       "summary": "Held three fully-hedged Iron Condors (4/4 legs filled, no naked shorts): SENSEX 5603, GOLDM 5633, CRUDEOILM 5634. Fresh P&L +280/+370/\u2212410 (net \u2248 +240), all well inside their overall SLs. No new entry: only NIFTY/SENSEX/GOLDM/CRUDEOILM have fresh chains \u2014 the last three already carry live neutral ICs, so a NIFTY 0DTE IC (spot 22675 mid-range, RSI 48, TimesFM flat) would only duplicate the short-vol thesis and stack downside correlation. BANKNIFTY/FINNIFTY/MIDCPNIFTY have no chain data (unpriceable). Blockers named. Next review 300s; reassess on an NIFTY break of 22616\u201322700 with follow-through, or fresh commodity/MCX quotes. Indices exit 14:55, commodities 22:50."
+    },
+    {
+      "time": "2026-10-06T12:17:07.858305+05:30",
+      "summary": "Acted. Live hedged ICs unchanged: SENSEX 5603 +60, GOLDM 5633 +110, CRUDEOILM 5634 \u2212280 (net \u2248 \u2212110, 4/4 legs filled, inside SLs). New: NIFTY 0DTE is tightly range-bound (22640\u201322700, RSI 41, TimesFM flat), so I created and started strategy 5635 \u2014 a 2-lot ATM iron fly (sell 22650 CE/PE, buy 22750 CE/22550 PE, cash underlying), expiry 06-10-2026, credit \u2248\u20b98.3k, max loss \u2248\u20b94.6k, R:R \u22481.8, overall SL 4000/TP 5000, exit 14:55. Status waiting (entry 12:18). Next review 110s to confirm 4/4 hedged fills and strikes."
+    },
+    {
+      "time": "2026-10-06T12:17:47.250038+05:30",
+      "summary": "Acted/monitored. Live hedged ICs all 4/4 legs filled, inside stops, fresh marks: SENSEX 5603 +200, GOLDM 5633 +250, CRUDEOILM 5634 -230 (spot 8547 near short put 8500; SL 3000 not threatened). NIFTY 0DTE fly 5635 is SCHEDULED (durable run ae0e6e0f), entry 12:18 \u2014 not yet filled, so strikes unverified. No new entry: all four tradable underlyings already carry defined-risk intraday exposure, so a new leg would be correlated, not diversifying. Next: 120s review to confirm 5635 4/4 hedged fills and recheck 5634 if CRUDEOILM breaks 8500."
     }
   ]
 }
