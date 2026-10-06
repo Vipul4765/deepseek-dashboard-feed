@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T13:23:28.271161+05:30",
-      "summary": "HOLD, no new entry. Four hedged 4-leg runs, all legs FILLED with matched hedges and inside Core stops: SENSEX 5603 +\u20b91,030, NIFTY 0DTE fly 5635 +\u20b9513.50, GOLDM 5633 +\u20b9370, CRUDEOILM 5634 \u2212\u20b9460. No fresh directional edge \u2014 all four chain-enabled underlyings pinned near SMA with flat TimesFM, and each already carries a correlated neutral position; BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain data. Watch: SENSEX short 73000 put ~98 pts ITM (SL \u20b910,000); index exit 14:55, MCX 22:50. Next review 600s."
-    },
-    {
       "time": "2026-10-06T13:33:25.427555+05:30",
       "summary": "HOLD, no new entry. Four hedged 4-leg runs all FILLED with matched hedges inside stops: SENSEX 5603 +\u20b9610, NIFTY 0DTE fly 5635 +\u20b9682.50, GOLDM 5633 \u2212\u20b960, CRUDEOILM 5634 \u2212\u20b9510. Eligible chains (NIFTY 0DTE, SENSEX 08Oct, GOLDM 29Oct, CRUDEOILM 15Oct) all pinned near SMA with flat TimesFM and VIX 13.88 \u2014 no distinct directional or fresh range thesis; a fifth neutral leg would only duplicate correlated exposure. BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain data. Watch: SENSEX short 73000 PE ~100pts ITM vs \u20b910k SL; index exits 14:55, MCX 22:50. Next review 600s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T20:24:17.972404+05:30",
       "summary": "20:24 IST: NSE/BSE closed, MCX open (exit 22:50). Two hedged condors live, both improved: 5633 GOLDM +\u20b9260 (spot ~148800 between shorts 146500P/149500C, wings intact, SL12000) and 5634 CRUDEOILM +\u20b9230 (spot 8485 vs short 8500P, 8400P hedge filled, SL3000). 4/4 legs each, no naked shorts. No new entry: only GOLDM/CRUDEOILM eligible, both already carry distinct hedged theses and TimesFM flat, so any add is duplicate correlated risk. HOLD; next review 15 min or on SL/time exit."
+    },
+    {
+      "time": "2026-10-06T20:39:22.221789+05:30",
+      "summary": "20:39 IST: NSE/BSE closed; MCX open (exit 22:50). No new entry: only GOLDM/CRUDEOILM eligible and both already carry distinct live hedged condors, so a fresh condor would duplicate the same thesis. 5633 GOLDM +\u20b9400 (spot 148865 between shorts 146500P/149500C, wings intact, SL12000); 5634 CRUDEOILM -\u20b9310 (spot 8478, short 8500P ~22 pts ITM but 8400P hedge filled, SL3000). 4/4 legs each, no naked shorts, both within stops. HOLD; next review 10 min or on SL/fill."
     }
   ]
 }
