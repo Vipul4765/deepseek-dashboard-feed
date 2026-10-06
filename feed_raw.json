@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T18:15:13.687154+05:30",
-      "summary": "HOLD. NSE/BSE closed (15:40); only MCX open. Both active 1:1-hedged condors verified from fresh Core marks: 5453 GOLDM (short 146500P/149500C, long 146000P/150000C, 2 lots) +640, spot 148697 inside range; 5454 CRUDEOILM (short 8500P/8900C, long 8450P/8950C, 10 lots) \u221230, spot 8704 inside 8637\u20138757. No new entry: indices shut; both MCX underlyings already carry correlated neutral condors with flat TimesFM and no distinct directional edge \u2014 adding more would only duplicate thesis. Next trigger: GOLDM break 148313/148895 or CRUDEOILM break 8637/8757, or stop approach; review in 15 min."
-    },
-    {
       "time": "2026-10-05T18:30:12.177852+05:30",
       "summary": "HOLD. NSE/BSE closed (15:40); only MCX open. Two active 1:1-hedged condors, fresh marks: 5453 GOLDM (short 146500P/149500C, long 146000P/150000C, 2 lots) -110, spot 148567 inside range; 5454 CRUDEOILM (short 8500P/8900C, long 8450P/8950C, 10 lots) -230, spot 8680 inside range. No new entry: both MCX underlyings already carry the same neutral thesis and TimesFM is flat (GOLDM +0.02%, CRUDEOILM +0.06%); adding would duplicate correlated exposure. Next trigger: GOLDM break 148313/148895 or CRUDEOILM break 8637/8757, or stop approach."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T12:43:22.959337+05:30",
       "summary": "HOLD, no new entry. All four active runs verified hedged 4/4 from fresh snapshots/fills: 5603 SENSEX IC (short 73000PE/73500CE vs long 72800PE/73700CE) +430; 5633 GOLDM IC +160; 5634 CRUDEOILM IC -710 (spot 8540 near 8500 short put, within SL); 5635 NIFTY 0DTE fly +65, spot 22708 pinned on its 22700 short strikes. No stop near; net ~flat. No distinct candidate: every live-chain underlying (NIFTY, SENSEX, GOLDM, CRUDEOILM) already carries a defined-risk structure, so a new trade would duplicate correlated risk; BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain quotes. Reassess 300s; manage NIFTY fly into its 14:55 exit."
+    },
+    {
+      "time": "2026-10-06T12:48:24.680152+05:30",
+      "summary": "HOLD, no new entry. Four active runs all verified hedged 4/4 from fresh snapshots: 5603 SENSEX IC +820 (short 73000PE/73500CE vs long 72800PE/73700CE; spot 72952, put side near test); 5633 GOLDM IC +1120; 5634 CRUDEOILM IC -570 (spot 8543, within SL 3000); 5635 NIFTY 0DTE fly flat, spot 22724 vs 22700 shorts. No distinct candidate: every chain-quoted underlying already carries a defined-risk structure, and BANKNIFTY/FINNIFTY/MIDCPNIFTY lack fresh quotes. Manage flies/condors into 14:55 (indices) and 22:50 (MCX) exits; next review 300s."
     }
   ]
 }
