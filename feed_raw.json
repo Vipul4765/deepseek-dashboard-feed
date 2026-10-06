@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T18:30:12.177852+05:30",
-      "summary": "HOLD. NSE/BSE closed (15:40); only MCX open. Two active 1:1-hedged condors, fresh marks: 5453 GOLDM (short 146500P/149500C, long 146000P/150000C, 2 lots) -110, spot 148567 inside range; 5454 CRUDEOILM (short 8500P/8900C, long 8450P/8950C, 10 lots) -230, spot 8680 inside range. No new entry: both MCX underlyings already carry the same neutral thesis and TimesFM is flat (GOLDM +0.02%, CRUDEOILM +0.06%); adding would duplicate correlated exposure. Next trigger: GOLDM break 148313/148895 or CRUDEOILM break 8637/8757, or stop approach."
-    },
-    {
       "time": "2026-10-05T18:45:18.397358+05:30",
       "summary": "HOLD. NSE/BSE closed; only MCX open (18:45 IST). Two active 1:1-hedged condors both safe: 5453 GOLDM short 146500P/149500C, spot 148487, +680; 5454 CRUDEOILM short 8500P/8900C, spot 8633, -125. No new entry: no distinct edge \u2014 GOLDM flat, CRUDEOILM RSI 11 oversold with flat TimesFM; a third MCX condor duplicates correlated neutral exposure. Next review ~15 min or on GOLDM break 148313/148895 or CRUDEOILM break 8500/8900."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T12:48:24.680152+05:30",
       "summary": "HOLD, no new entry. Four active runs all verified hedged 4/4 from fresh snapshots: 5603 SENSEX IC +820 (short 73000PE/73500CE vs long 72800PE/73700CE; spot 72952, put side near test); 5633 GOLDM IC +1120; 5634 CRUDEOILM IC -570 (spot 8543, within SL 3000); 5635 NIFTY 0DTE fly flat, spot 22724 vs 22700 shorts. No distinct candidate: every chain-quoted underlying already carries a defined-risk structure, and BANKNIFTY/FINNIFTY/MIDCPNIFTY lack fresh quotes. Manage flies/condors into 14:55 (indices) and 22:50 (MCX) exits; next review 300s."
+    },
+    {
+      "time": "2026-10-06T12:53:30.345099+05:30",
+      "summary": "HOLD, no new entry. All four fresh, hedged 4/4 runs are inside stops/targets: SENSEX 5603 +760 (SL10k/TP12k), GOLDM 5633 +40, CRUDEOILM 5634 \u2212370 (SL3k), NIFTY 0DTE fly 5635 +149.5 (spot 22717 vs 22700 shorts). Blockers: BANKNIFTY/FINNIFTY/MIDCPNIFTY return no chain data (cannot price/hedge); the four quoted underlyings already carry defined-risk positions, so added legs would net into correlated exposure, not a distinct thesis. Managing exits 14:55 IST indices, 22:50 MCX. Next review 300s."
     }
   ]
 }
