@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T14:48:23.245204+05:30",
-      "summary": "HOLD, no new entry. Four hedged runs live and fresh: NIFTY fly 5635 +1820, SENSEX condor 5603 +1130, GOLDM condor 5633 +320, CRUDEOILM condor 5634 -510; every short matched by same-type/expiry longs, no SL/TP hit. Blockers: index exit is 14:55 (~7 min) so NIFTY/SENSEX not entry-viable; MCX is open but both GOLDM and CRUDEOILM already carry hedged condors, so another structure would duplicate the same neutral thesis/correlated exposure. Next: 5-min review over the 14:55 index exits and MCX marks."
-    },
-    {
       "time": "2026-10-06T14:53:26.358667+05:30",
       "summary": "HOLD, no new entry. Four hedged runs live/fresh: NIFTY fly 5635 +1969, SENSEX condor 5603 +1040, GOLDM condor 5633 +380, CRUDEOILM condor 5634 -190; all shorts matched same-type/expiry, no SL/TP hit. Index entries not viable (exit 14:55, ~2 min away). MCX open, but GOLDM and CRUDEOILM already hold neutral condors, so a new structure would duplicate the same correlated thesis; no distinct slot. Next: 150s review over the 14:55 index time-exits and MCX marks."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T22:04:09.645109+05:30",
       "summary": "22:04 IST: NSE/BSE closed, MCX open (exit 22:50). HOLD. Both permitted MCX symbols already carry distinct, fully-hedged condors: 5633 GOLDM short 146500P/149500C, wings 146000P/150000C, 4/4 legs FILLED, P&L +\u20b9190; 5634 CRUDEOILM short 8500P/8700C, wings 8400P/8800C, 4/4 FILLED, P&L -\u20b9260. Both within overall stops (\u20b912,000/\u20b93,000) and hedges intact. GOLDM 148,818 and CRUDEOILM 8,640 sit inside short strikes. No new MCX trade \u2014 would only duplicate correlated exposure for a ~45-min hold. Day realized +\u20b92,681. Next review 15 min."
+    },
+    {
+      "time": "2026-10-06T22:19:10.959942+05:30",
+      "summary": "22:19 IST: NSE/BSE closed, MCX open (exit 22:50). HOLD. Both permitted MCX symbols already carry distinct, fully-hedged condors: 5633 GOLDM short 146500P/149500C, wings 146000P/150000C, 4/4 FILLED, P&L +&#8377;10; 5634 CRUDEOILM short 8500P/8700C, wings 8400P/8800C, 4/4 FILLED, P&L &#8377;-230. Both inside short strikes (GOLDM 148,773; CRUDEOILM 8,624), hedges intact, within overall stops. No new MCX trade &#8212; ~30 min left would only duplicate correlated exposure. Day realized +&#8377;2,681. Next review 20 min, near the 22:50 square-off."
     }
   ]
 }
