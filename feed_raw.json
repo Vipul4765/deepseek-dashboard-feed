@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T22:10:10.472018+05:30",
-      "summary": "HOLD, no new entries. NSE/BSE closed (market_open_now=false); MCX open but only ~40 min to the 22:50 commodity exit \u2014 too little runway for a new defined-risk structure. Both live runs hedge-intact (4 legs filled each): 5453 GOLDM IC short 146500P/149500C vs long 146000P/150000C, +\u20b9470, margin \u20b968.6k; 5454 CRUDEOILM IC short 8500P/8900C vs long 8450P/8950C, \u2212\u20b9200, margin \u20b922.9k. Spots 148147/8704 sit inside both bodies; SL/TP far off, so the 22:50 time exit manages them. Next check ~25 min / on exit event."
-    },
-    {
       "time": "2026-10-05T22:25:09.135666+05:30",
       "summary": "HOLD, no new entries. NSE/BSE closed (market_open_now=false). MCX open but only ~25 min to the 22:50 commodity exit \u2014 no runway for a new defined-risk structure. Both live runs hedge-intact, 4 legs filled each: 5453 GOLDM IC short 146500P/149500C vs long 146000P/150000C, \u2212\u20b960, margin \u20b968.6k; 5454 CRUDEOILM IC short 8500P/8900C vs long 8450P/8950C, \u2212\u20b9200, margin \u20b922.9k. Spots 148170/8692 inside both bodies; SL/TP far off, so the 22:50 time exit manages them. Next review ~22:50 for exit confirmation."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T14:53:26.358667+05:30",
       "summary": "HOLD, no new entry. Four hedged runs live/fresh: NIFTY fly 5635 +1969, SENSEX condor 5603 +1040, GOLDM condor 5633 +380, CRUDEOILM condor 5634 -190; all shorts matched same-type/expiry, no SL/TP hit. Index entries not viable (exit 14:55, ~2 min away). MCX open, but GOLDM and CRUDEOILM already hold neutral condors, so a new structure would duplicate the same correlated thesis; no distinct slot. Next: 150s review over the 14:55 index time-exits and MCX marks."
+    },
+    {
+      "time": "2026-10-06T14:55:29.716512+05:30",
+      "summary": "HOLD, no new entry. Index entry window closed (14:55 exit); NIFTY fly 5635 DONE +2041 and SENSEX condor 5603 DONE +640 realized, both fully exited and hedged. Two hedged MCX condors live: GOLDM 5633 +460, CRUDEOILM 5634 -210; all shorts matched same-type/expiry, no SL/TP near. Eligible symbols assessed: GOLDM and CRUDEOILM (MCX open). Blocker: both already carry neutral condors, so a new structure duplicates the same correlated thesis \u2014 no distinct slot. Next: review MCX marks in 15 min."
     }
   ]
 }
