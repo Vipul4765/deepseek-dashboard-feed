@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T20:00:15.510168+05:30",
-      "summary": "HOLD. NSE/BSE closed (15:40); only MCX open (until 23:55). Both live runs verified hedge-intact from Core: 5453 GOLDM short 146500P/149500C vs long 146000P/150000C (2:2, mark +\u20b9920); 5454 CRUDEOILM short 8500P/8900C vs long 8450P/8950C (10:10, mark +\u20b965). MCX quotes fresh. No new entry: GOLDM 148218 and CRUDEOILM 8662 both mid-range/choppy with flat TimesFM (\u22480%), no directional edge, so a third MCX condor would only duplicate correlated short-vol exposure. Next: GOLDM outside 146500\u2013149500 or CRUDEOILM outside 8500\u20138900; review 15 min."
-    },
-    {
       "time": "2026-10-05T20:15:22.915411+05:30",
       "summary": "HOLD. NSE/BSE closed (15:40); only MCX open (to 23:55), quotes fresh. Both live runs hedge-intact from Core: 5453 GOLDM short 146500P/149500C vs long 146000P/150000C (2:2, mark +\u20b9640, margin \u20b968.6k); 5454 CRUDEOILM short 8500P/8900C vs long 8450P/8950C (10:10, mark +\u20b955, \u20b922.9k). No new entry assessed: GOLDM 148256 flat/chop and CRUDEOILM 8706 extended to its 120-bar high (RSI 72), both TimesFM \u2248flat; a third MCX short-vol condor would only duplicate correlated exposure. Next: recheck in 15 min, or if CRUDEOILM nears 8500/8900 or GOLDM leaves 146500\u2013149500."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T13:23:28.271161+05:30",
       "summary": "HOLD, no new entry. Four hedged 4-leg runs, all legs FILLED with matched hedges and inside Core stops: SENSEX 5603 +\u20b91,030, NIFTY 0DTE fly 5635 +\u20b9513.50, GOLDM 5633 +\u20b9370, CRUDEOILM 5634 \u2212\u20b9460. No fresh directional edge \u2014 all four chain-enabled underlyings pinned near SMA with flat TimesFM, and each already carries a correlated neutral position; BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain data. Watch: SENSEX short 73000 put ~98 pts ITM (SL \u20b910,000); index exit 14:55, MCX 22:50. Next review 600s."
+    },
+    {
+      "time": "2026-10-06T13:33:25.427555+05:30",
+      "summary": "HOLD, no new entry. Four hedged 4-leg runs all FILLED with matched hedges inside stops: SENSEX 5603 +\u20b9610, NIFTY 0DTE fly 5635 +\u20b9682.50, GOLDM 5633 \u2212\u20b960, CRUDEOILM 5634 \u2212\u20b9510. Eligible chains (NIFTY 0DTE, SENSEX 08Oct, GOLDM 29Oct, CRUDEOILM 15Oct) all pinned near SMA with flat TimesFM and VIX 13.88 \u2014 no distinct directional or fresh range thesis; a fifth neutral leg would only duplicate correlated exposure. BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain data. Watch: SENSEX short 73000 PE ~100pts ITM vs \u20b910k SL; index exits 14:55, MCX 22:50. Next review 600s."
     }
   ]
 }
