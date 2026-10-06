@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T14:03:39.251751+05:30",
-      "summary": "HOLD, no new entry. Four hedged runs live and fresh: NIFTY fly 5635 +819, SENSEX condor 5603 +590, GOLDM condor 5633 +700, CRUDEOILM condor 5634 \u2212310; every short matched by same-type/expiry longs, no naked risk. Index entries give only ~52 min to the 14:55 forced exit and no underlying shows a distinct fresh edge (TimesFM ~flat \u00b10.02%; GOLDM RSI 74 overbought, CRUDEOILM RSI 33 oversold), while MCX already carries two correlated condors. No edits needed. Next: reassess after index auto-exit and on GOLDM 149500 / CRUDEOILM 8500 breaks; review 900s."
-    },
-    {
       "time": "2026-10-06T14:18:24.892974+05:30",
       "summary": "HOLD, no new entry. Four hedged runs live and fresh: NIFTY fly 5635 +1111, SENSEX condor 5603 +740, GOLDM condor 5633 +630, CRUDEOILM condor 5634 -730; every short matched by same-type/expiry longs, no naked risk. Indices are effectively closed to new risk: 14:20 now vs the 14:55 forced exit leaves ~35 min, and all underlyings are flat (TimesFM \u00b10.03%, NIFTY RSI 32, GOLDM RSI 62 at range high). MCX already carries two hedged condors, so no distinct uncorrelated candidate. Next: reassess near the 14:55 index exits and on CRUDEOILM 8500/GOLDM 149500 breaks."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T21:14:17.867843+05:30",
       "summary": "21:14 IST: NSE/BSE closed; MCX open (exit 22:50). No new entry \u2014 only GOLDM/CRUDEOILM are entry-eligible and both already hold distinct live 4-leg hedged condors, so another would duplicate the same thesis/correlated exposure. 5633 GOLDM -\u20b9100 (shorts 146500P/149500C, wings 146000P/150000C), 5634 CRUDEOILM -\u20b910 (shorts 8500P/8700C, wings 8400P/8800C); all 4 legs filled, no naked shorts, no exit_pending, stops intact. Day realized +\u20b92681. HOLD; next review 5 min or on stop/fill."
+    },
+    {
+      "time": "2026-10-06T21:19:26.721371+05:30",
+      "summary": "21:19 IST: NSE/BSE closed; MCX open (exit 22:50). Eligible: GOLDM, CRUDEOILM. HOLD \u2014 both already carry distinct live 4-leg hedged condors: 5633 GOLDM shorts 146500P/149500C wings 146000P/150000C (P&L ~\u20b90), 5634 CRUDEOILM shorts 8500P/8700C wings 8400P/8800C (P&L -\u20b930); all 4 legs filled, hedges and stops intact. No distinct edge for the ~90 remaining minutes (CRUDEOILM RSI 75.8 overbought, TimesFM flat; GOLDM range-bound). Day realized +\u20b92681. Next review 15 min or on stop/time-exit."
     }
   ]
 }
