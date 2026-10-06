@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T15:55:13.718337+05:30",
-      "summary": "15:55 IST \u2014 HOLD. NSE/BSE closed (market_open_now=false); only MCX open. Two active hedged condors, 1:1 longs, fresh marks: GOLDM 5453 -30 (SL 20000), CRUDEOILM 5454 -275 (SL 1500); both far from stops, no leg unhedged, no management needed. Eligible MCX assessed: GOLDM (RSI 39, 148592, 33-pt ATR) and CRUDEOILM (RSI 58, 8746, 9.5-pt ATR) \u2014 both range-bound with flat TimesFM paths and no fresh directional move. Blocker: a new spread would duplicate existing correlated MCX exposure with no distinct thesis. Reassess on a break of GOLDM 148500/148943 or CRUDEOILM 8623/8795, or stop proximity. Next review 900s."
-    },
-    {
       "time": "2026-10-05T16:10:16.729742+05:30",
       "summary": "16:10 IST \u2014 HOLD. NSE/BSE closed; only MCX open. No management needed: 5453 GOLDM condor +280 (SL 20000/TP 25000) and 5454 CRUDEOILM condor \u2212215 (SL 1500) are fresh, both 1:1 hedged, far from triggers. Eligible MCX assessed: GOLDM 148650 (RSI 59.6, ATR 32.5) mid-range and CRUDEOILM 8756 (RSI 75.9) flat, both with flat TimesFM paths \u2014 no directional move, and a new condor would duplicate existing correlated MCX exposure with no distinct thesis. Reassess on GOLDM break of 148500/149000, CRUDEOILM break of 8717/8795, or stop proximity. Next review 900s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T12:05:47.696653+05:30",
       "summary": "Held three defined-risk Iron Condors, all fully hedged (4/4 legs filled, no naked shorts): SENSEX 5603 (10-lot 72800/73000PE + 73500/73700CE), GOLDM 5633 (2-lot 146500/146000PE + 149500/150000CE), CRUDEOILM 5634 (20-lot 8500/8400PE + 8700/8800CE, 15-10-2026). Fresh marks +340/+630/-460 (net ~+510), all well inside overall SLs; margin ~\u20b9743k vs \u20b910m capital. No new entry: the only entry-eligible underlyings left are equity indices correlated to the live SENSEX IC, and the tape is flat (TimesFM ~0%), so a fourth neutral structure would only duplicate exposure. Next review 300s; indices exit 14:55, commodities 22:50."
+    },
+    {
+      "time": "2026-10-06T12:11:18.105534+05:30",
+      "summary": "Held three fully-hedged Iron Condors (4/4 legs filled, no naked shorts): SENSEX 5603, GOLDM 5633, CRUDEOILM 5634. Fresh P&L +280/+370/\u2212410 (net \u2248 +240), all well inside their overall SLs. No new entry: only NIFTY/SENSEX/GOLDM/CRUDEOILM have fresh chains \u2014 the last three already carry live neutral ICs, so a NIFTY 0DTE IC (spot 22675 mid-range, RSI 48, TimesFM flat) would only duplicate the short-vol thesis and stack downside correlation. BANKNIFTY/FINNIFTY/MIDCPNIFTY have no chain data (unpriceable). Blockers named. Next review 300s; reassess on an NIFTY break of 22616\u201322700 with follow-through, or fresh commodity/MCX quotes. Indices exit 14:55, commodities 22:50."
     }
   ]
 }
