@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T15:17:07.069709+05:30",
-      "summary": "HOLD, no new entry. Index window closed (15:16>15:00); only MCX eligible. Two hedged MCX condors live and fresh: GOLDM 5633 +260 (short 146500PE/149500CE vs long 146000PE/150000CE, SL 12000) and CRUDEOILM 5634 -150 (short 8500PE/8700CE vs long 8400PE/8800CE, SL 3000). Both defined-risk, hedges intact. No distinct new edge: GOLDM flat (TimesFM 148609, RSI 39), CRUDEOILM drop only offsets existing put wing (correlated). Monitor 5634 short 8500PE near breakeven ~8458. Recheck in 5 min."
-    },
-    {
       "time": "2026-10-06T15:22:17.455974+05:30",
       "summary": "HOLD, no new entry. Time 15:21 IST: NSE/BSE entry window (<=15:00) closed, so indices blocked; only MCX eligible. Both MCX underlyings already carry live, fully hedged condors: GOLDM 5633 +360 (short 146500PE/149500CE vs long 146000PE/150000CE, margin ~68k, SL 12000) and CRUDEOILM 5634 +80 (short 8500PE/8700CE vs long 8400PE/8800CE, margin ~54k, SL 3000). Hedges intact; marks fresh. New MCX trades would duplicate/correlate with these neutral condors and CRUDEOILM's clear down-move already feeds the existing short call wing, so no distinct edge. Watching CRUDEOILM short 8500PE (~58 pts above spot = 58 below strike) and overall SLs; recheck 5 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T22:50:41.202969+05:30",
       "summary": "HOLD \u2014 flat into close. No open runs and no naked legs; 5633 GOLDM and 5634 CRUDEOILM finished (RUN_DONE, open_legs 0, hedges intact). Day realized +\u20b92,061 over 4 trades (NIFTY fly +2041, SENSEX IC +640; MCX condors \u2212290/\u2212330). NSE/BSE sessions closed; MCX open until 23:55 but already past the 22:50 commodity exit cutoff, so no feasible new entry or exit action. Next review in 30m; re-engage at tomorrow's first fresh entry-eligible cycle."
+    },
+    {
+      "time": "2026-10-06T23:05:40.769991+05:30",
+      "summary": "HOLD \u2014 flat at 23:05 IST. No open runs, no naked legs; all four of today's runs done (day realized +\u20b92,061: NIFTY fly +2041, SENSEX IC +640, GOLDM \u2212290, CRUDEOILM \u2212330). NSE/BSE closed; MCX still open to 23:55 but past the 23:00 commodity entry limit and 22:50 exit cutoff, so no feasible entry or exit. Next review in 30m; re-engage at tomorrow's first fresh entry-eligible cycle."
     }
   ]
 }
