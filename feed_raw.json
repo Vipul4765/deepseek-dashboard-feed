@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T14:56:04.008808+05:30",
-      "summary": "HOLD, no new entry. Index entry window closed (14:55 exit reached); only MCX eligible. Two hedged MCX condors live and marked fresh: GOLDM 5633 +760 (short 146500PE/149500CE vs 146000PE/150000CE), CRUDEOILM 5634 +50 (short 8500PE/8700CE vs 8400PE/8800CE) \u2014 defined-risk, hedges intact, no SL/TP near. Assessed GOLDM and CRUDEOILM; both already express the neutral range thesis and neither shows a clear fresh directional move (TimesFM only mildly bearish), so a new structure would duplicate correlated exposure with no distinct edge. Next: recheck MCX marks/thesis in 15 min."
-    },
-    {
-      "time": "2026-10-06T15:11:12.204707+05:30",
-      "summary": "HOLD, no new entry. Index entry window closed (15:10 > 15:00), only MCX eligible. Two hedged MCX condors live and fresh: GOLDM 5633 +150 (short 146500PE/149500CE vs 146000PE/150000CE), CRUDEOILM 5634 -400 (short 8500PE/8700CE vs 8400PE/8800CE) \u2014 both defined-risk, hedges intact, SLs (12000/3000) far. CRUDEOILM dropped sharply (8562\u21928427, RSI 18), pulling its short 8500PE slightly ITM; TimesFM only mildly corrective, so no fresh distinct edge. GOLDM flat. New structures would merely duplicate existing range theses. Recheck MCX marks in 6 min."
-    },
-    {
       "time": "2026-10-06T15:17:07.069709+05:30",
       "summary": "HOLD, no new entry. Index window closed (15:16>15:00); only MCX eligible. Two hedged MCX condors live and fresh: GOLDM 5633 +260 (short 146500PE/149500CE vs long 146000PE/150000CE, SL 12000) and CRUDEOILM 5634 -150 (short 8500PE/8700CE vs long 8400PE/8800CE, SL 3000). Both defined-risk, hedges intact. No distinct new edge: GOLDM flat (TimesFM 148609, RSI 39), CRUDEOILM drop only offsets existing put wing (correlated). Monitor 5634 short 8500PE near breakeven ~8458. Recheck in 5 min."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-06T22:49:08.903533+05:30",
       "summary": "22:49 IST: NSE/BSE closed; MCX open (exit 22:50). HOLD \u2014 no new trade. Both permitted MCX symbols carry fully-hedged 4/4 filled condors minutes from their time exit: 5633 GOLDM short 146500P/149500C, wings 146000P/150000C, P&L \u2212\u20b9230, spot 148,892 inside strikes; 5634 CRUDEOILM short 8500P/8700C, wings 8400P/8800C, P&L \u2212\u20b9270, spot 8,641 inside. Hedges intact, both within overall stops. Too late to add correlated exposure. Day realized +\u20b92,681. Next review 22:53 to confirm exits."
+    },
+    {
+      "time": "2026-10-06T22:50:13.819049+05:30",
+      "summary": "HOLD \u2014 flat into close. Both MCX condors hit their 22:50 time exit: 5633 GOLDM \u2212\u20b9290, 5634 CRUDEOILM \u2212\u20b9330 (RUN_DONE, open_legs 0, hedges intact). Day realized +\u20b92,061 over 4 trades (NIFTY fly +2041, SENSEX IC +640). NSE/BSE closed; MCX still open but past its 22:50 exit, so no new entry is feasible. No open runs, no naked legs. Next review in 30m; re-engage at tomorrow's first fresh entry cycle."
+    },
+    {
+      "time": "2026-10-06T22:50:41.202969+05:30",
+      "summary": "HOLD \u2014 flat into close. No open runs and no naked legs; 5633 GOLDM and 5634 CRUDEOILM finished (RUN_DONE, open_legs 0, hedges intact). Day realized +\u20b92,061 over 4 trades (NIFTY fly +2041, SENSEX IC +640; MCX condors \u2212290/\u2212330). NSE/BSE sessions closed; MCX open until 23:55 but already past the 22:50 commodity exit cutoff, so no feasible new entry or exit action. Next review in 30m; re-engage at tomorrow's first fresh entry-eligible cycle."
     }
   ]
 }
