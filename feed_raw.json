@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T12:00:59.454385+05:30",
-      "summary": "Held both open runs fine (SENSEX 5603 +\u20b9870; GOLDM 5633 +\u20b970), hedged. Declined NIFTY 0DTE as it duplicates the existing neutral index thesis (correlated with SENSEX). CRUDEOILM had fresh quotes and a clear down-move, so I created and started 5634: protected iron condor SELL 8500PE/BUY 8400PE + SELL 8700CE/BUY 8800CE, 20 lots (15-10-2026), credit \u20b916,780, worst case \u2212\u20b93,220, margin ~\u20b91.44L, breakevens 8416/8783, SL3000/TP5000, exit 22:50. Waiting entry at 12:05. Next review 300s to confirm fills/hedge."
-    },
-    {
       "time": "2026-10-06T12:05:08.321457+05:30",
       "summary": "Held three defined-risk structures. SENSEX 5603 (10-lot 72800/73000PE + 73500/73700CE IC) and GOLDM 5633 (2-lot 146500/146000PE + 149500/150000CE IC) are ACTIVE, fully hedged with 4 filled legs each, fresh marks +\u20b9660 and +\u20b9580. CRUDEOILM 5634 (20-lot 8500/8400PE + 8700/8800CE IC, expiry 15-10-2026 confirmed nearest monthly) is stage running, entry 12:05, about to fill. No new entry: flat, low-VIX tape, adding a fourth neutral index/oil structure would duplicate thesis. Next review 120s to verify 5634 fills and hedge integrity."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T16:15:36.338406+05:30",
       "summary": "HOLD, no new trade. 16:15 IST: NSE/BSE closed (indices ineligible); only MCX open. Both live condors fully hedged and green \u2014 5633 GOLDM +720 (spot 148850 inside 146500/149500 shorts, SL 12000), 5634 CRUDEOILM +210 (short 8500PE ~70pt ITM, covered by 8400PE, SL 3000). No stop/target hit, no hedge gap. GOLDM RSI 83.8 overbought; CRUDEOILM down day but momentum stalled flat last 15 min; new legs would duplicate correlated MCX exposure. Next: recheck MCX marks in ~7 min or on any stop/fill event."
+    },
+    {
+      "time": "2026-10-06T16:22:14.668252+05:30",
+      "summary": "HOLD, no new trade. 16:22 IST: NSE/BSE closed so indices ineligible; only MCX open. Both live condors fully hedged and ~flat \u2014 5633 GOLDM +200 (spot 148870 inside 146500/149500 shorts, SL 12000), 5634 CRUDEOILM \u2212140 (short 8500PE covered by 8400PE, SL 3000). No stop/target hit, no hedge gap. Both available MCX underlyings already carry open neutral positions, so a new leg would duplicate correlated exposure, not a distinct thesis. Next: recheck MCX marks/stops in ~7 min or on any fill/exit event."
     }
   ]
 }
