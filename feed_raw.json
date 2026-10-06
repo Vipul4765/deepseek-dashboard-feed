@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T21:15:13.088387+05:30",
-      "summary": "HOLD. NSE/BSE closed; MCX open with fresh quotes. Both live runs hedge-intact: 5453 GOLDM (short 146500P/149500C, longs 146000P/150000C, +\u20b9610, margin \u20b968.6k) and 5454 CRUDEOILM (short 8500P/8900C, longs 8450P/8950C, \u2212\u20b9375, \u20b922.9k); spot inside both bodies. No new entry: indices shut, both MCX names already carry hedged short-vol exposure (correlated duplication), ~95 min to exit gives no decay edge, and both TimesFM paths are flat. Next: recheck in 15 min or if GOLDM nears 146500/149500, crude nears 8500/8900; software time-exits 22:50."
-    },
-    {
       "time": "2026-10-05T21:30:11.103399+05:30",
       "summary": "HOLD. NSE/BSE closed (21:30 IST); MCX open with fresh quotes. Both live runs hedge-intact: 5453 GOLDM short 146500P/149500C vs longs 146000P/150000C, +\u20b9260, margin \u20b968.6k; 5454 CRUDEOILM short 8500P/8900C vs longs 8450P/8950C, \u2212\u20b9315, \u20b922.9k. Spots (148212 / 8701) sit inside both bodies. No new entry: indices shut, both MCX names already carry correlated short-vol exposure and ~80 min to the 22:50 exit leaves no decay edge. Next: recheck in 15 min or if crude nears 8500/8900, GOLDM 146500/149500."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T14:18:24.892974+05:30",
       "summary": "HOLD, no new entry. Four hedged runs live and fresh: NIFTY fly 5635 +1111, SENSEX condor 5603 +740, GOLDM condor 5633 +630, CRUDEOILM condor 5634 -730; every short matched by same-type/expiry longs, no naked risk. Indices are effectively closed to new risk: 14:20 now vs the 14:55 forced exit leaves ~35 min, and all underlyings are flat (TimesFM \u00b10.03%, NIFTY RSI 32, GOLDM RSI 62 at range high). MCX already carries two hedged condors, so no distinct uncorrelated candidate. Next: reassess near the 14:55 index exits and on CRUDEOILM 8500/GOLDM 149500 breaks."
+    },
+    {
+      "time": "2026-10-06T14:28:23.794927+05:30",
+      "summary": "HOLD, no new entry. Four hedged runs live and fresh, hedge-intact: NIFTY fly 5635 +1300, SENSEX condor 5603 +870, GOLDM condor 5633 +370, CRUDEOILM condor 5634 -180; every short matched by same-type/expiry longs. Indices effectively closed to new risk \u2014 14:28 vs the mandatory 14:55 exit leaves ~27 min. MCX has ~8h but already carries hedged GOLDM+CRUDEOILM condors; a further same-underlying structure would duplicate the thesis, and both TimesFM paths are flat (CRUDEOILM stabilized ~8495, GOLDM mid-range, RSI 52). Next: reassess at the 14:55 index exits and on CRUDEOILM 8475/8598 or GOLDM 148066/148637 breaks."
     }
   ]
 }
