@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T17:25:12.624615+05:30",
-      "summary": "17:25 IST \u2014 HOLD. NSE/BSE closed; only MCX open. Two open runs verified hedged 1:1 from fresh marks: 5453 GOLDM condor +60 (short 146500P/149500C, SL 20000) and 5454 CRUDEOILM condor -140 (short 8500P/8900C, SL 1500) \u2014 both mid-range, far from triggers, no management needed. Assessed open MCX underlyings: GOLDM 148471 choppy/downtrending, CRUDEOILM 8704 mid-range; neither shows a distinct directional edge, and a new neutral structure would only duplicate the two open condors' correlated thesis. Blocker: absent distinct edge. Next review 1200s; reassess on GOLDM break of 148313/148895 or CRUDEOILM break of 8637/8770."
-    },
-    {
       "time": "2026-10-05T17:40:17.874225+05:30",
       "summary": "17:40 IST HOLD. NSE/BSE closed (market_open_now=false); only MCX open. Both open runs verified hedged 1:1 from fresh STRATEGY_SNAPSHOT: 5453 GOLDM condor (short 146500P/149500C, long 146000P/150000C, 2 lots) +240 unrealized, spot 148631 mid-range 148313-148895; 5454 CRUDEOILM condor (short 8500P/8900C, long 8450P/8950C, 10 lots) -80, spot 8699 mid-range 8637-8770. Both far from SL (20000 / 1500), no management needed. Any new MCX structure would duplicate the two condors' correlated neutral thesis; indices closed. Blocker: no distinct non-duplicative edge. Next trigger: GOLDM break 148313/148895, CRUDEOILM break 8637/8770, or stop approach."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T12:24:30.211453+05:30",
       "summary": "HOLD, no new entry. Four active runs verified hedged 4/4 with fresh marks: 5603 SENSEX IC +900, 5633 GOLDM IC +400, 5634 CRUDEOILM IC -580 (spot 8559 vs shorts 8500/8700, SL 3000 clear), 5635 NIFTY 0DTE fly -19.5 (spot 22688 inside 22600/22700 wings, exit 14:55). Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM: all TimesFM paths ~flat, RSI mid-range, no fresh directional edge, and each underlying already carries a fresh defined-risk run \u2014 a new leg would duplicate thesis rather than diversify. Blocker: absent thesis. Reassess on NIFTY break of 22700 or CRUDEOILM below 8500; next review 240s."
+    },
+    {
+      "time": "2026-10-06T12:28:42.369529+05:30",
+      "summary": "HOLD, no new entry. Four active runs verified 4/4 hedged with fresh marks: 5603 SENSEX IC +330, 5633 GOLDM IC +60, 5634 CRUDEOILM IC -880 (spot 8572, shorts 8500/8700, SL clear), 5635 NIFTY 0DTE fly +39 (spot 22686.95, short straddle 22700, exit 14:55). Blockers: BANKNIFTY/FINNIFTY/MIDCPNIFTY have no option-chain data, so no hedgeable structure can be priced; NIFTY/SENSEX/GOLDM/CRUDEOILM already carry the same neutral thesis. All indices RSI 68-73, VIX 14, TimesFM flat - no distinct edge. Reassess on NIFTY break of 22700 or chain availability; next review 300s."
     }
   ]
 }
