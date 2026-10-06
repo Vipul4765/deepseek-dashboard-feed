@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-05T19:15:16.204731+05:30",
-      "summary": "HOLD. NSE/BSE closed (19:15 IST); only MCX open. Assessed NIFTY/SENSEX/BANKNIFTY/FINNIFTY (closed), GOLDM and CRUDEOILM (data fresh, quotes age ~5s). Both active runs healthy and fully 1:1 hedged of same type/expiry: 5453 GOLDM SELL 146500P / BUY 146000P + SELL 149500C / BUY 150000C (fresh +\u20b9830); 5454 CRUDEOILM SELL 8500P / BUY 8450P + SELL 8900C / BUY 8950C (fresh +\u20b975). No new entry: a third MCX structure duplicates existing correlated neutral exposure, and neither name shows a distinct directional edge (GOLDM TimesFM flat +0.02%, RSI 21.5 unconfirmed; CRUDEOILM range-bound, TimesFM +0.12%). Next trigger: break outside GOLDM 146500\u2013149500 / CRUDEOILM 8500\u20138900, or a clear directional move; review 15 min."
-    },
-    {
       "time": "2026-10-05T19:30:23.972156+05:30",
       "summary": "HOLD. NSE/BSE closed (19:30 IST); only MCX open. Assessed GOLDM and CRUDEOILM (fresh candles and 1s depth, spread 27/3). Both live runs remain 1:1 hedged, same type/expiry: 5453 GOLDM short 146500P/149500C vs long 146000P/150000C, mark +\u20b9100; 5454 CRUDEOILM short 8500P/8900C vs long 8450P/8950C, mark \u2212\u20b9225. No new entry: both remain range-bound (GOLDM 148030\u2013148842; CRUDEOILM 8602\u20138729), TimesFM flat (+0.01%/+0.08%), price mid-range with no breakout, so neither a directional vertical nor a third neutral MCX condor adds a distinct thesis \u2014 it would only duplicate correlated short-vol exposure. Next trigger: GOLDM outside 146500\u2013149500 or CRUDEOILM outside 8500\u20138900, or a clear directional break; review 15 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T13:03:27.455239+05:30",
       "summary": "HOLD, no new entry. Four fresh hedged 4-leg runs, all inside stops/targets: SENSEX 5603 +840, NIFTY 0DTE fly 5635 +468 (spot 22707 vs 22700), GOLDM 5633 -60, CRUDEOILM 5634 -640. All legs FILLED, hedges intact, quotes <1s, no thesis failure. New risk blocked: BANKNIFTY/FINNIFTY/MIDCPNIFTY have no chain data to price/hedge, and the four priced underlyings already carry correlated defined-risk positions \u2014 no distinct setup to add. Exits 14:55 indices, 22:50 MCX. Next review 300s, watching the 0DTE fly and index time exits."
+    },
+    {
+      "time": "2026-10-06T13:08:26.494601+05:30",
+      "summary": "HOLD, no new entry. Four fresh hedged 4-leg runs, all inside Core stops/targets: SENSEX 5603 +410, NIFTY 0DTE fly 5635 +409.5, GOLDM 5633 +160, CRUDEOILM 5634 \u2212340. All legs FILLED, hedge quantities matched, live margin for 5635 shows full spread benefit (\u20b912.8k SPAN/\u20b9176.8k ELM), account limits disabled, capital ample. No distinct setup: indices flat at SMA (no directional edge), BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain data to price/hedge, and existing underlyings would duplicate correlated thesis. Exits 14:55 indices, 22:50 MCX. Next review 300s."
     }
   ]
 }
