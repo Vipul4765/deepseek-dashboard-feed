@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T10:07:43.783005+05:30",
-      "summary": "HOLD. Three hedged condors live: 5749 NIFTY +169, 5750 CRUDEOILM +40, 5751 GOLDM -600; all 4 legs filled, defined risk intact, spots inside short strikes. Assessed NIFTY/SENSEX/GOLDM/CRUDEOILM plus BANKNIFTY/FINNIFTY/MIDCPNIFTY: only SENSEX (1dte) is non-duplicative and it prices thin (~R:R 0.36) with a weak 1/5 record; others chop (NIFTY RSI 50, TimesFM flat) or lack chain data. Blocking input: no distinct, well-priced thesis. Reassess on NIFTY break of 22585/22675, GOLDM range break, or richer SENSEX credit; review in 5 min."
-    },
-    {
       "time": "2026-10-07T10:14:19.729571+05:30",
       "summary": "Opened SENSEX 1dte iron condor 5753 (bse_fo, 08-10-2026): SELL 73100CE/BUY 73300CE, SELL 72400PE/BUY 72200PE, 1 lot. Credit ~107/unit; defined worst case ~\u20b91,854; margin ~\u20b967k; R:R ~1.16; shorts outside today's range. Overall SL 1800/TP 2000, exit 14:55. Started, entry pending next scheduler tick \u2014 strikes unverified until fill. Live: 5749 +234, 5750 \u2212310, 5751 \u2212840, all hedged. BANKNIFTY blocked (no chain data). Next check in 120s to confirm fills and NIFTY 22550 short."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T13:22:02.617248+05:30",
       "summary": "HOLD, no new entry. Four hedged condors live and intact: 5749 NIFTY \u221252, 5753 SENSEX +77, 5750 CRUDEOILM +60, 5751 GOLDM +170 (net ~+255); all shorts matched by same-type/expiry longs, no leg stops hit. Reviewed NIFTY, SENSEX, GOLDM, CRUDEOILM \u2014 each already carries a live condor, TimesFM p50 near spot and RSI neutral, so no distinct non-duplicate edge; NIFTY bear put would offset the existing 22550 short put rather than add a thesis. Trigger: NIFTY <22530 or 5749 nearing its 4500 SL. Review 180s."
+    },
+    {
+      "time": "2026-10-07T13:24:58.964187+05:30",
+      "summary": "HOLD, no new entry. All four hedged condors live and intact: 5749 NIFTY +78, 5753 SENSEX +59, 5750 CRUDEOILM 0, 5751 GOLDM -420 (net ~-283); every short matched by same-type/expiry longs, no stop hits. NIFTY, SENSEX, GOLDM, CRUDEOILM each already carries a live condor and all show neutral RSI with TimesFM p50 ~flat, so a second structure would duplicate/offset existing risk, not add a distinct thesis; ~1.5h left in the index window. Trigger: NIFTY <22530 or any leg stop. Next check 300s."
     }
   ]
 }
