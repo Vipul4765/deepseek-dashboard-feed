@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T10:57:52.452998+05:30",
-      "summary": "HOLD. Four hedged iron condors active, all with verified equal-lot same-type/expiry longs and none near SL/TP: NIFTY 5749 +468, SENSEX 5753 -192, CRUDEOILM 5750 +20, GOLDM 5751 +540. No new entry: indices choppy/overbought with flat TimesFM, so any new neutral trade would duplicate existing correlated exposure; no directional edge. Watch SENSEX short call 73000 (~48pts from 72952, 1DTE). Next review 300s."
-    },
-    {
       "time": "2026-10-07T11:02:51.780002+05:30",
       "summary": "HOLD. Four hedged iron condors active, all equal-lot same-type/expiry longs verified and none near SL/TP: NIFTY 5749 +481, SENSEX 5753 -216, CRUDEOILM 5750 -230, GOLDM 5751 -70. No new entry: indices are overbought/choppy with flat TimesFM paths, so a fresh neutral condor would only duplicate existing correlated index exposure and there is no directional edge. Watch SENSEX short call 73000 (~55pts above spot 72945, 1DTE). Next review 240s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T14:50:47.921602+05:30",
       "summary": "HOLD, no new entry. All four hedged condors live and intact (every short covered same-type/expiry, equal lots): 5749 NIFTY +819, 5753 SENSEX +422, 5750 CRUDEOILM +80, 5751 GOLDM +280; no stop/target/hedge trigger. Blockers to a new trade: indices (NIFTY/SENSEX) have ~5 min to the 14:55 forced exit, no runway to price/start a spread; GOLDM flat and CRUDEOILM lacking a fresh directional edge (TimesFM ~0) while both already carry live neutral condors, so a second structure only duplicates correlated risk. Next review 300s, just after the index exit."
+    },
+    {
+      "time": "2026-10-07T14:55:18.226982+05:30",
+      "summary": "HOLD, no new entry. Events confirm the 14:55 index exits: 5749 NIFTY closed +858, 5753 SENSEX closed +433 (both flat, no naked legs). Remaining live: 5750 CRUDEOILM condor +350 (8400/8300PE, 9000/9100CE) and 5751 GOLDM condor +640 (146000/146500PE, 150500/151000CE) \u2014 all shorts covered same-type/expiry, equal lots, spots well inside wings. No new trade: indices past forced exit; both MCX underlyings already hold neutral condors with no directional edge (TimesFM ~flat), so a second structure only duplicates correlated risk. Next review 900s on MCX marks/hedges."
     }
   ]
 }
