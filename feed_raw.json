@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T13:14:37.156329+05:30",
-      "summary": "HOLD, no new entry. Four hedged condors live and intact (5749 NIFTY -182, 5753 SENSEX +48, 5750 CRUDEOILM +170, 5751 GOLDM +500; net ~+536). Every short matched by same-type/expiry longs; no stops hit. Fresh: indices deeply oversold (NIFTY RSI 30.7 at 22580, SENSEX 28.5, BANKNIFTY 27.8), VIX 14.0. Blocker: all four eligible underlyings already carry a hedged condor, and a new index vertical would duplicate 5749's stressed short put 22550, ~30pts below spot. Trigger: spot <22530 or 5749 nearing SL 4500 \u2192 reassess. Review 150s."
-    },
-    {
       "time": "2026-10-07T13:17:14.024673+05:30",
       "summary": "HOLD, no new entry. Four hedged condors live and intact (5749 NIFTY +325, 5753 SENSEX +86, 5750 CRUDEOILM +40, 5751 GOLDM -370; net ~+81); every short matched same-type/expiry, no leg stops hit. Fresh selloff (NIFTY 22577, RSI 27.4; SENSEX 72569, RSI 28.7), but all quote-verified underlyings already carry a condor and BANKNIFTY/FINNIFTY/MIDCPNIFTY have no chain data, so no priceable, non-duplicative candidate. Trigger: NIFTY <22530 or 5749 near SL 4500. Review 150s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T19:35:23.676802+05:30",
       "summary": "HOLD, no new entry. NSE/BSE closed (market_open_now false); only MCX open. Both active condors verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +1110 (short 8400PE/9000CE, spot 8732, strikes 332/268 away) and 5751 GOLDM +440 (short 146500PE/150500CE, spot 147430, ~930/3070 away); Core SL/TP and 22:50 exit standing, neither near a trigger. New entry blocked: both MCX symbols already carry neutral condors, and CRUDEOILM's sharp drop is deeply oversold (RSI 18), so a fresh correlated short-call continuation is poor timing; GOLDM flat. Next review 900s."
+    },
+    {
+      "time": "2026-10-07T19:50:12.551263+05:30",
+      "summary": "HOLD, no new entry. NSE/BSE closed (market_open_now false); only MCX open until 23:55. Active positions verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +1070 (short 8400PE/9000CE, spot 8715, ~315/285 OTM) and 5751 GOLDM +210 (short 146500PE/150500CE, spot 147530, ~1030/2970 OTM); Core SL/TP and 22:50 exits standing, neither near trigger. Fresh MCX condors on both symbols already express the neutral thesis, so a second correlated structure adds no edge; CRUDEOILM deeply oversold (RSI 31.9) makes a fresh short-call continuation poor timing. Next review 900s."
     }
   ]
 }
