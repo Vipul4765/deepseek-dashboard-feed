@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T17:29:19.343811+05:30",
-      "summary": "HOLD, no new trade. 17:29 IST: NSE/BSE closed (indices ineligible); MCX open. Both live condors hedged and inside stops: 5633 GOLDM -10 (spot 149115, shorts 146500P/149500C, SL 12000), 5634 CRUDEOILM -40 (spot ~8424, shorts 8500P near money/8700C, 8400P/8800C wings intact, SL 3000). No stop/target near, no hedge gap. Only entry-eligible symbols are GOLDM/CRUDEOILM, both already carrying neutral condors with flat forecasts; a second position would duplicate correlated exposure with no distinct thesis. Next review ~20 min or on any fill/exit/stop event."
-    },
-    {
-      "time": "2026-10-06T17:44:28.733706+05:30",
-      "summary": "17:44 IST: NSE/BSE closed, MCX open. Both live condors are hedged and defined-risk: 5633 GOLDM +730 (spot 149234, shorts 146500P/149500C, wings 146000P/150000C, SL 12000) and 5634 CRUDEOILM +190 (spot 8415, shorts 8500P/8700C, wings 8400P/8800C, SL 3000). Neither stop nor target is near; no hedge gap. Only GOLDM/CRUDEOILM are entry-eligible and each already carries a neutral condor, so an extra position would be correlated exposure without a distinct edge \u2014 HOLD. Reassess in ~10 min or on any fill/exit/stop event."
-    },
-    {
       "time": "2026-10-06T17:54:17.155762+05:30",
       "summary": "17:54 IST: NSE/BSE closed, MCX open. Both live runs hedged and defined-risk: 5633 GOLDM condor (short 146500P/149500C, wings 146000P/150000C, +\u20b9210) and 5634 CRUDEOILM condor (short 8500P/8700C, wings 8400P/8800C, +\u20b9260). No naked legs; neither near SL (12000/3000) or TP (8000/5000). Only GOLDM/CRUDEOILM are entry-eligible, but each already carries a neutral condor, so a further position would be correlated exposure without a distinct edge. HOLD; reassess in ~10 min or on any fill/exit/stop event."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-07T10:07:43.783005+05:30",
       "summary": "HOLD. Three hedged condors live: 5749 NIFTY +169, 5750 CRUDEOILM +40, 5751 GOLDM -600; all 4 legs filled, defined risk intact, spots inside short strikes. Assessed NIFTY/SENSEX/GOLDM/CRUDEOILM plus BANKNIFTY/FINNIFTY/MIDCPNIFTY: only SENSEX (1dte) is non-duplicative and it prices thin (~R:R 0.36) with a weak 1/5 record; others chop (NIFTY RSI 50, TimesFM flat) or lack chain data. Blocking input: no distinct, well-priced thesis. Reassess on NIFTY break of 22585/22675, GOLDM range break, or richer SENSEX credit; review in 5 min."
+    },
+    {
+      "time": "2026-10-07T10:14:19.729571+05:30",
+      "summary": "Opened SENSEX 1dte iron condor 5753 (bse_fo, 08-10-2026): SELL 73100CE/BUY 73300CE, SELL 72400PE/BUY 72200PE, 1 lot. Credit ~107/unit; defined worst case ~\u20b91,854; margin ~\u20b967k; R:R ~1.16; shorts outside today's range. Overall SL 1800/TP 2000, exit 14:55. Started, entry pending next scheduler tick \u2014 strikes unverified until fill. Live: 5749 +234, 5750 \u2212310, 5751 \u2212840, all hedged. BANKNIFTY blocked (no chain data). Next check in 120s to confirm fills and NIFTY 22550 short."
+    },
+    {
+      "time": "2026-10-07T10:15:03.851557+05:30",
+      "summary": "Managed, no new entries. Live: 5749 NIFTY condor +299 (22900/22950CE, 22550/22500PE), 5750 CRUDEOILM -80 (8400/8300PE, 9000/9100CE), 5751 GOLDM +100 (146500/146000PE, 150500/151000CE) \u2014 all 4-leg hedged, none near SL/TP. SENSEX 5753 (entry 10:15, 1dte 08-10) has no run yet; strikes unverified until fill. Skipped new risk: NIFTY/SENSEX/GOLDM/CRUDEOILM already hold active condors (duplicate thesis), BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain data. Next check 120s to confirm 5753 fills and hedge coverage."
     }
   ]
 }
