@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T19:09:15.315700+05:30",
-      "summary": "19:09 IST: NSE/BSE closed (market_open_now=false), MCX open. Only entry-eligible symbols are GOLDM/CRUDEOILM, and both already carry hedged defined-risk condors: 5633 GOLDM (short 146500P/149500C, wings 146000P/150000C) +\u20b9510, margin \u20b968.4k; 5634 CRUDEOILM (short 8500P/8700C, wings 8400P/8800C) \u2212\u20b9430, margin \u20b954.4k. Four filled legs each, no naked shorts, within overall SL/TP. A third MCX condor would be correlated duplicate exposure with no distinct edge (TimesFM flat), so HOLD. Note: CRUDEOILM short put 8500 is ~20 pts ITM vs spot 8480; its overall SL 3000 is software-managed. Next review 10 min."
-    },
-    {
       "time": "2026-10-06T19:19:09.421747+05:30",
       "summary": "19:19 IST: NSE/BSE closed (market_open_now=false), MCX open. Entry-eligible underlyings are only GOLDM and CRUDEOILM, and both already carry filled, hedged defined-risk iron condors: 5633 GOLDM (short 146500P/149500C, wings 146000P/150000C) +\u20b9140 vs \u20b968.4k margin; 5634 CRUDEOILM (short 8500P/8700C, wings 8400P/8800C) \u2212\u20b9310 vs \u20b954.4k margin. Four filled legs each, no naked shorts. Blocker for a new trade: no eligible underlying without existing correlated exposure and no distinct edge. CRUDEOILM short 8500P is ~30pt ITM (spot ~8468); monitored by software overall SL 3000 and 22:50 time exit. Next review 10 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T10:36:01.905645+05:30",
       "summary": "HOLD. All four eligible underlyings carry verified hedged short-vol condors, fresh marks ~1s: NIFTY 5749 +468 (22658; 22550PE/22900CE vs 22500/22950), CRUDEOILM 5750 \u2212110 (8692; 8400/9000 vs 8300/9100), GOLDM 5751 +120 (148233; 146500/150500 vs 146000/151000), SENSEX 5753 \u221295 (72832; 72300/73000 vs 72100/73200). Every short has an equal-lot same-type/expiry long; none near SL/TP. No distinct new thesis: prices are mid-range with flat TimesFM (VIX 13.7), so no directional edge, and another structure on any covered symbol or its correlated indices duplicates the neutral thesis. Next: review in 180s, watching SENSEX short 73000CE (1DTE)."
+    },
+    {
+      "time": "2026-10-07T10:38:52.110271+05:30",
+      "summary": "HOLD. All four underlyings carry verified hedged iron condors, fresh marks ~0.5-1s: NIFTY 5749 +533 (22644; 22550PE/22900CE vs 22500/22950), SENSEX 5753 -129 (72775; 72300PE/73000CE vs 72100/73200), CRUDEOILM 5750 +30 (8702; 8400PE/9000CE vs 8300/9100), GOLDM 5751 -710 (148295; 146500PE/150500CE vs 146000/151000). Every short has an equal-lot same-type/expiry long; none near SL/TP. No distinct thesis: mid-range choppy prices, VIX 13.85, flat TimesFM; another structure would duplicate the correlated neutral book. Next review 240s, watching SENSEX 1DTE short 73000CE."
     }
   ]
 }
