@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T16:22:14.668252+05:30",
-      "summary": "HOLD, no new trade. 16:22 IST: NSE/BSE closed so indices ineligible; only MCX open. Both live condors fully hedged and ~flat \u2014 5633 GOLDM +200 (spot 148870 inside 146500/149500 shorts, SL 12000), 5634 CRUDEOILM \u2212140 (short 8500PE covered by 8400PE, SL 3000). No stop/target hit, no hedge gap. Both available MCX underlyings already carry open neutral positions, so a new leg would duplicate correlated exposure, not a distinct thesis. Next: recheck MCX marks/stops in ~7 min or on any fill/exit event."
-    },
-    {
       "time": "2026-10-06T16:44:11.357431+05:30",
       "summary": "HOLD, no new trade. 16:44 IST: NSE/BSE closed (indices ineligible); only MCX open. Both live condors fully hedged and near flat \u2014 5633 GOLDM \u2212190 (spot ~148840 inside 146500/149500 shorts, SL 12000), 5634 CRUDEOILM +150 (spot ~8465 inside 8500/8700 shorts, SL 3000). No stop/target hit, no hedge gap. Both MCX underlyings already carry open neutral positions, so a new leg duplicates correlated exposure with no distinct thesis. Next: recheck MCX marks/stops in ~15 min or on any fill/exit event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T09:41:32.328543+05:30",
       "summary": "HOLD. Both runs live and fully hedged: NIFTY 5749 (sell 22550PE/22900CE, buy 22500PE/22950CE, 4 lots) PnL +91; CRUDEOILM 5750 (sell 8400PE/9000CE, buy 8300PE/9100CE, 20 lots) PnL -100; no naked legs. Assessed all underlyings: indices gapped/trended down ~0.8% with VIX +4.8% (risk-off) \u2014 index direction would duplicate/correlate with 5749 and entries are post-move at oversold RSI (NIFTY 35, BANKNIFTY 25); GOLDM (-0.3%, near range low, TimesFM flat) and MIDCP/FINNIFTY only support more short-vol with near-zero 22-DTE intraday theta. No distinct edge. Next: NIFTY 22550 put test / SL 4500."
+    },
+    {
+      "time": "2026-10-07T09:48:15.318971+05:30",
+      "summary": "HOLD, no new entry. Three live, fully hedged iron condors: 5749 NIFTY (sell 22550PE/22900CE) +65; 5750 CRUDEOILM (sell 8400PE/9000CE) -410; 5751 GOLDM (sell 146500PE/150500CE) +230; no naked legs. Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, GOLDM, CRUDEOILM. Blocker: post-gap-down chop with VIX up; priced NIFTY verticals and SENSEX 1-DTE condors show ~zero EV after costs, and any fresh neutral structure only adds correlated short-vol to the existing book. Reassess on NIFTY break of 22585 low or reclaim of 22700 with momentum, or a VIX spike."
     }
   ]
 }
