@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T12:08:20.289460+05:30",
-      "summary": "HOLD. Four hedged condors live and verifying from Core snapshots with matching long legs on every short: NIFTY 5749 +533, GOLDM 5751 +190, CRUDEOILM 5750 -260, SENSEX 5753 -156 (net ~+307). No new entry: all four enabled underlyings already carry a condor, index complex is range-bound with low VIX (13.72) and flat TimesFM paths, so a fifth position would be correlated duplication without a distinct edge. SENSEX 1DTE short 73000 CE (spot 72988) is the nearest trigger, its 1800 overall SL is software-managed. Next review in 4 min."
-    },
-    {
       "time": "2026-10-07T12:12:20.409739+05:30",
       "summary": "HOLD. Four hedged condors live, all fills confirmed with matching long legs on every short: NIFTY 5749 +546, GOLDM 5751 +570, CRUDEOILM 5750 -170, SENSEX 5753 -75 (net ~+871). No stop hit, no naked leg. No new entry: all four enabled underlyings already carry a condor, VIX 13.7, TimesFM flat, index range-bound \u2014 a fifth position would duplicate an existing thesis, not diversify. SENSEX 1DTE short 73000 CE (spot 72912) is nearest trigger, 1800 overall SL software-managed. Next review 5 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T17:25:11.533129+05:30",
       "summary": "HOLD. NSE/BSE closed; MCX open. Both active condors verified hedged 4/4 and mid-range: 5750 CRUDEOILM +400 (SELL 8400PE/9000CE, BUY 8300PE/9100CE; spot ~8718), 5751 GOLDM +510 (SELL 146500PE/150500CE, BUY 146000PE/151000CE; spot ~148229). No new start: both MCX underlyings flat (TimesFM +0.02%/+0.01%), no decisive break of 8770 or 148325, and a third MCX neutral would duplicate correlated exposure. Blockers named. SL/TP and 22:50 exits stand. Next review 900s."
+    },
+    {
+      "time": "2026-10-07T17:40:11.596082+05:30",
+      "summary": "HOLD. NSE/BSE closed; MCX open. Both active condors verified fully hedged 4/4 and mid-range: 5750 CRUDEOILM +550 (SELL 8400PE/9000CE, BUY 8300PE/9100CE; spot 8714), 5751 GOLDM -100 (SELL 146500PE/150500CE, BUY 146000PE/151000CE; spot 148350). No new start: both MCX underlyings are flat/choppy (TimesFM ~flat) and already carry a neutral condor, so a third MCX neutral only duplicates correlated exposure. SL/TP and 22:50 exits stand. Next review 1500s."
     }
   ]
 }
