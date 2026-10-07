@@ -87,6 +87,10 @@
     {
       "time": "2026-10-07T12:14:23.193342+05:30",
       "summary": "Assessed market: ranging in all underlyings with mild biases. No new clear opportunity due to missing option chain data for BANKNIFTY, FINNIFTY, MIDCPNIFTY and no strong directional signal in NIFTY/SENSEX/CRUDEOILM/GOLDM. All 8 existing strategies remain active with small unrealized P&L. No adjustments needed. Will reassess in 30 seconds."
+    },
+    {
+      "time": "2026-10-07T23:11:48.137506+05:30",
+      "summary": "Monitoring active GOLDM bear call spread (5821) with unrealized P&L +240. No new entries allowed as commodity entry window closed (past 23:00 IST). Will continue to hold until exit at 23:50 or adjust if needed."
     }
   ]
 }
