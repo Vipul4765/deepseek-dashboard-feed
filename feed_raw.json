@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T23:20:40.320937+05:30",
-      "summary": "HOLD \u2014 flat at 23:20 IST. No open runs, no naked legs; all four of today's runs done (day realized +\u20b92,061: NIFTY fly +2041, SENSEX IC +640, GOLDM \u2212290, CRUDEOILM \u2212330). NSE/BSE closed; MCX open to 23:55 but past the 23:00 commodity entry limit and 22:50 exit cutoff, so no feasible entry or exit. No candidate assessed could be priced and hedged within window. Next review in 30m; re-engage at tomorrow's first fresh entry-eligible cycle for NIFTY/SENSEX/GOLDM/CRUDEOILM."
-    },
-    {
       "time": "2026-10-07T09:20:19.923304+05:30",
       "summary": "HOLD \u2014 flat, no open runs, no legs at risk. All exchanges open (nse_fo/bse_fo 09:15\u201315:40, mcx_fo 09:00\u201323:55) but it is 09:20 IST, before the 09:30 entry window for both indices and commodities, so no entry is permitted yet. Confirmed front expiries NIFTY 13-10-2026, SENSEX 08-10-2026; indices opened with a gap-down (NIFTY 22618 vs 22776, RSI~29; SENSEX 72645 vs 73068). Eligible symbols NIFTY/SENSEX/GOLDM/CRUDEOILM to be priced at the window; blocker is only the entry-time gate. Next review in 10m at 09:30."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T12:22:24.361342+05:30",
       "summary": "HOLD. Four fully hedged condors already live on every enabled underlying \u2014 NIFTY 5749 +559, SENSEX 5753 \u221286, CRUDEOILM 5750 +20, GOLDM 5751 \u2212540 (net \u2248 \u221247). All shorts matched by same-type/expiry long of equal lots; no naked leg or stop hit. No new entry: another index (BANKNIFTY/FINNIFTY) or GOLDM overlay would duplicate an existing thesis and add correlated exposure, not a distinct edge. Next: 5 min \u2014 watch SENSEX short CE 73000 (spot 72887) into its 14:55 exit and re-scan for a genuinely non-correlated setup."
+    },
+    {
+      "time": "2026-10-07T12:27:24.834290+05:30",
+      "summary": "HOLD. Four fully hedged condors live on all four enabled underlyings, fresh marks net \u2248 +455: NIFTY 5749 +494 (short CE 22900/PE 22550 vs longs 22950/22500), SENSEX 5753 \u221239 (short CE 73000/PE 72300 vs 73200/72100), CRUDEOILM 5750 \u2212340, GOLDM 5751 +340. Every short matched by same-type/expiry long of equal lots; no leg exited, no stop hit. No new entry \u2014 a BANKNIFTY/FINNIFTY index condor would duplicate the live NIFTY thesis and add correlated exposure, not a distinct edge. Next: 10 min, watch SENSEX into its 14:55 time exit and NIFTY short PE for stop approach."
     }
   ]
 }
