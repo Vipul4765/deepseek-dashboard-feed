@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T13:36:00.217321+05:30",
-      "summary": "HOLD, no new entry. Four hedged condors live and intact (all shorts matched by same-type/expiry longs, no stop hits): 5749 NIFTY +351, 5753 SENSEX +166, 5750 CRUDEOILM +140, 5751 GOLDM -200 \u2014 every spot inside its short strikes, far from TP. Fresh data shows choppy/flat indices (RSI 61\u201377, TimesFM p50 ~flat, VIX 14) and flat commodities (GOLDM RSI 50; CRUDEOILM RSI 38.7 but forecast flat). Each underlying already carries a condor, so a second structure would duplicate correlated exposure with no clean directional edge. Triggers: index 14:55 exit, commodity 22:50 exit, any leg stop. Next check 600s."
-    },
-    {
       "time": "2026-10-07T13:46:00.372154+05:30",
       "summary": "HOLD, no new entry. Four hedged condors live and intact (all shorts covered by same-type/expiry longs): 5749 NIFTY +351, 5753 SENSEX +199, 5750 CRUDEOILM +120, 5751 GOLDM +10. No stop/target/hedge trigger. Fresh data is uniformly choppy/flat (indices RSI 50-61, TimesFM p50 flat; commodities RSI 45-47 flat), so no distinct directional edge; each underlying already carries a range condor, so a second is only duplicated correlated risk. Triggers: NIFTY/SENSEX exit 14:55, MCX 22:50, any leg stop. Next check 600s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T21:05:14.358912+05:30",
       "summary": "HOLD, no new entry. NSE/BSE closed; only MCX open (~1h45m to 22:50 auto-exit). Reconciled both active MCX condors as complete and hedged: 5750 CRUDEOILM short 8400PE/9000CE + longs, +860 unrealized (spot ~8659); 5751 GOLDM short 146500PE/150500CE + longs, +100 unrealized (spot ~147700). Neither near SL/TP; no edit needed. Declined a third MCX structure as duplicating the same neutral, correlated thesis with no runway. Next review 1800s, into the exit window."
+    },
+    {
+      "time": "2026-10-07T21:20:11.882289+05:30",
+      "summary": "HOLD, no new entry. NSE/BSE closed; only MCX open (~1h30m to 22:50 auto-exit). Both active hedged MCX condors healthy: 5750 CRUDEOILM (short 8400PE/9000CE + longs, 20 lots) +870 unrealized, spot 8639 inside strikes; 5751 GOLDM (short 146500PE/150500CE + longs, 2 lots) +230 unrealized, spot ~147650. Neither near SL/TP; no edit needed, all shorts covered. Declined a third MCX structure as duplicating the same correlated neutral thesis with no runway. Next review 1800s, into the exit window."
     }
   ]
 }
