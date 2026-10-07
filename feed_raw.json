@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T20:24:17.972404+05:30",
-      "summary": "20:24 IST: NSE/BSE closed, MCX open (exit 22:50). Two hedged condors live, both improved: 5633 GOLDM +\u20b9260 (spot ~148800 between shorts 146500P/149500C, wings intact, SL12000) and 5634 CRUDEOILM +\u20b9230 (spot 8485 vs short 8500P, 8400P hedge filled, SL3000). 4/4 legs each, no naked shorts. No new entry: only GOLDM/CRUDEOILM eligible, both already carry distinct hedged theses and TimesFM flat, so any add is duplicate correlated risk. HOLD; next review 15 min or on SL/time exit."
-    },
-    {
       "time": "2026-10-06T20:39:22.221789+05:30",
       "summary": "20:39 IST: NSE/BSE closed; MCX open (exit 22:50). No new entry: only GOLDM/CRUDEOILM eligible and both already carry distinct live hedged condors, so a fresh condor would duplicate the same thesis. 5633 GOLDM +\u20b9400 (spot 148865 between shorts 146500P/149500C, wings intact, SL12000); 5634 CRUDEOILM -\u20b9310 (spot 8478, short 8500P ~22 pts ITM but 8400P hedge filled, SL3000). 4/4 legs each, no naked shorts, both within stops. HOLD; next review 10 min or on SL/fill."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T11:02:51.780002+05:30",
       "summary": "HOLD. Four hedged iron condors active, all equal-lot same-type/expiry longs verified and none near SL/TP: NIFTY 5749 +481, SENSEX 5753 -216, CRUDEOILM 5750 -230, GOLDM 5751 -70. No new entry: indices are overbought/choppy with flat TimesFM paths, so a fresh neutral condor would only duplicate existing correlated index exposure and there is no directional edge. Watch SENSEX short call 73000 (~55pts above spot 72945, 1DTE). Next review 240s."
+    },
+    {
+      "time": "2026-10-07T11:06:54.434263+05:30",
+      "summary": "HOLD. Four hedged iron condors active, all equal-lot same-type/expiry longs verified, none near SL/TP: NIFTY 5749 +377, SENSEX 5753 -224, CRUDEOILM 5750 +120, GOLDM 5751 +250. No new entry: NIFTY/SENSEX/BANKNIFTY RSI 74-78 overbought with flat TimesFM paths, so a fresh neutral condor would only duplicate existing correlated index exposure and there is no clean directional edge. Watch SENSEX short CE 73000 (1DTE, ~25pts above spot 72975). Reassess at 210s or on a break above 73000/below 72300."
     }
   ]
 }
