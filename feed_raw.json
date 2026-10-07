@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T10:42:47.060018+05:30",
-      "summary": "HOLD. All four underlyings carry verified hedged iron condors with fresh marks: NIFTY 5749 +468 (22655; 22550PE/22900CE vs 22500/22950), SENSEX 5753 -104 (72817; 72300PE/73000CE vs 72100/73200), CRUDEOILM 5750 +20 (8702; 8400PE/9000CE vs 8300/9100), GOLDM 5751 +80 (148241; 146500PE/150500CE vs 146000/151000). None near SL/TP; every short has an equal-lot same-type/expiry long. No distinct thesis: prices mid-range/choppy, TimesFM flat; a fifth neutral structure would duplicate correlated exposure. Next review 300s."
-    },
-    {
       "time": "2026-10-07T10:47:53.545968+05:30",
       "summary": "HOLD. All four hedged iron condors active with fresh marks and verified equal-lot same-type/expiry longs: NIFTY 5749 +416 (22654; short 22900CE/22550PE vs 22950/22500), SENSEX 5753 -75 (72823; short 73000CE/72300PE vs 73200/72100), CRUDEOILM 5750 +40 (8709; short 9000CE/8400PE vs 9100/8300), GOLDM 5751 -220 (148204; short 150500CE/146500PE vs 151000/146000). None near SL/TP; margin fresh (NSE 354515, MCX 244752). No distinct new thesis: indices mid-range/choppy with RSI ~35-36 and flat TimesFM; CRUDEOILM +1% but rich IV and would duplicate 5750 exposure. Next review 300s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T14:25:56.997569+05:30",
       "summary": "HOLD, no new entry. All four hedged condors live and intact (every short covered same-type/expiry, equal lots): 5749 NIFTY +494, 5753 SENSEX +293, 5750 CRUDEOILM +400, 5751 GOLDM +30. No stop/target/hedge trigger; index exit 14:55, MCX 22:50 software-managed. Blockers: indices have only ~30 min to forced exit (no runway to price a coherent trade); both MCX underlyings already carry a live neutral condor and their tape is choppy/flat (CRUDEOILM 8658-8756, GOLDM 148270-148728, TimesFM flat), so a second neutral duplicates correlated risk and no clear directional move supports a spread. Next review 300s, near the index exit and the near-ATM NIFTY 22550 short put."
+    },
+    {
+      "time": "2026-10-07T14:30:47.350941+05:30",
+      "summary": "HOLD, no new entry. All four hedged condors live and intact (every short covered same-type/expiry, equal lots): 5749 NIFTY +845, 5753 SENSEX +217, 5750 CRUDEOILM +600, 5751 GOLDM +720. No stop/target/hedge trigger; index exit 14:55, MCX 22:50 software-managed. Blockers: indices have only ~25 min to forced exit, no runway to build a priced trade; both MCX underlyings already carry a live neutral condor and their tape is choppy/flat, so a second neutral duplicates correlated risk with no directional edge. Next review 600s, near the index exit."
     }
   ]
 }
