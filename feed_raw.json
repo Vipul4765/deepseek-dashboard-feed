@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T22:50:13.819049+05:30",
-      "summary": "HOLD \u2014 flat into close. Both MCX condors hit their 22:50 time exit: 5633 GOLDM \u2212\u20b9290, 5634 CRUDEOILM \u2212\u20b9330 (RUN_DONE, open_legs 0, hedges intact). Day realized +\u20b92,061 over 4 trades (NIFTY fly +2041, SENSEX IC +640). NSE/BSE closed; MCX still open but past its 22:50 exit, so no new entry is feasible. No open runs, no naked legs. Next review in 30m; re-engage at tomorrow's first fresh entry cycle."
-    },
-    {
       "time": "2026-10-06T22:50:41.202969+05:30",
       "summary": "HOLD \u2014 flat into close. No open runs and no naked legs; 5633 GOLDM and 5634 CRUDEOILM finished (RUN_DONE, open_legs 0, hedges intact). Day realized +\u20b92,061 over 4 trades (NIFTY fly +2041, SENSEX IC +640; MCX condors \u2212290/\u2212330). NSE/BSE sessions closed; MCX open until 23:55 but already past the 22:50 commodity exit cutoff, so no feasible new entry or exit action. Next review in 30m; re-engage at tomorrow's first fresh entry-eligible cycle."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T12:08:20.289460+05:30",
       "summary": "HOLD. Four hedged condors live and verifying from Core snapshots with matching long legs on every short: NIFTY 5749 +533, GOLDM 5751 +190, CRUDEOILM 5750 -260, SENSEX 5753 -156 (net ~+307). No new entry: all four enabled underlyings already carry a condor, index complex is range-bound with low VIX (13.72) and flat TimesFM paths, so a fifth position would be correlated duplication without a distinct edge. SENSEX 1DTE short 73000 CE (spot 72988) is the nearest trigger, its 1800 overall SL is software-managed. Next review in 4 min."
+    },
+    {
+      "time": "2026-10-07T12:12:20.409739+05:30",
+      "summary": "HOLD. Four hedged condors live, all fills confirmed with matching long legs on every short: NIFTY 5749 +546, GOLDM 5751 +570, CRUDEOILM 5750 -170, SENSEX 5753 -75 (net ~+871). No stop hit, no naked leg. No new entry: all four enabled underlyings already carry a condor, VIX 13.7, TimesFM flat, index range-bound \u2014 a fifth position would duplicate an existing thesis, not diversify. SENSEX 1DTE short 73000 CE (spot 72912) is nearest trigger, 1800 overall SL software-managed. Next review 5 min."
     }
   ]
 }
