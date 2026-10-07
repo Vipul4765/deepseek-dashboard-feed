@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T12:37:27.223963+05:30",
-      "summary": "HOLD. Four fully hedged condors live, fresh marks net \u2248 +779: NIFTY 5749 +468 (short CE 22900/PE 22550 vs longs 22950/22500), SENSEX 5753 +1 (short CE 73000/PE 72300 vs 73200/72100, 1DTE), CRUDEOILM 5750 \u2212200, GOLDM 5751 +510. All shorts matched by same-type/expiry longs of equal lots; no leg exited, no stop hit. No new entry: every enabled underlying already carries a live neutral condor and price action is choppy/flat with no distinct directional edge \u2014 a fifth condor would duplicate correlated risk. Next: 10 min, watch SENSEX into its 14:55 exit and NIFTY/SENSEX short strikes."
-    },
-    {
       "time": "2026-10-07T12:47:26.411718+05:30",
       "summary": "HOLD, no new entry. Four fully hedged condors live and healthy: NIFTY 5749 +728, SENSEX 5753 +38, CRUDEOILM 5750 -90, GOLDM 5751 +610 (net \u2248 +1286). Every short is matched by same-type/expiry long of equal lots; no stop hit, no leg exited. Blocker on new risk: all four enabled underlyings (NIFTY/SENSEX/GOLDM/CRUDEOILM) already carry a live neutral condor, and price action is flat/rangebound (NIFTY ~70pt band, RSI ~61, VIX 13.8, TimesFM near-flat) with no distinct directional move, so an added spread would duplicate correlated exposure. Next: 10 min, watch SENSEX short CE 73000 into its 14:55 exit and NIFTY shorts."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T18:35:17.379125+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now false); only MCX open. Both running condors verified fully hedged 4/4 from Core snapshots: 5750 CRUDEOILM +860 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8722, well inside), 5751 GOLDM -170 (BUY 146000PE/SELL 146500PE, SELL 150500CE/BUY 151000CE; spot ~147302, short put 802 away). Assessed GOLDM/CRUDEOILM for a new start: both are range-bound (CRUDE 8693-8771, GOLDM choppy 146805-148380 after opening drop), no clean directional move, and both already carry fresh neutral condors \u2014 a third adds correlated, not distinct, exposure. No qualifying candidate, so no entry. Existing SL/TP and 22:50 exit stand. Next review 600s."
+    },
+    {
+      "time": "2026-10-07T18:45:14.922206+05:30",
+      "summary": "HOLD. NSE/BSE closed (market_open_now false); only MCX open. Both running condors verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +730 (short 8400PE/9000CE, spot 8726 well inside), 5751 GOLDM -210 (short 146500PE/150500CE, spot ~147385; put 885 away, no stop threat). Assessed eligible MCX names: GOLDM choppy 146805-148380 and CRUDEOILM range-bound 8693-8771 \u2014 no directional move, and both already carry fresh neutral condors, so a new condor would duplicate correlated exposure, not a distinct thesis. No qualifying candidate. Existing SL/TP and 22:50 exit stand. Next review 600s; reassess on a GOLDM break outside its range."
     }
   ]
 }
