@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T10:15:03.851557+05:30",
-      "summary": "Managed, no new entries. Live: 5749 NIFTY condor +299 (22900/22950CE, 22550/22500PE), 5750 CRUDEOILM -80 (8400/8300PE, 9000/9100CE), 5751 GOLDM +100 (146500/146000PE, 150500/151000CE) \u2014 all 4-leg hedged, none near SL/TP. SENSEX 5753 (entry 10:15, 1dte 08-10) has no run yet; strikes unverified until fill. Skipped new risk: NIFTY/SENSEX/GOLDM/CRUDEOILM already hold active condors (duplicate thesis), BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain data. Next check 120s to confirm 5753 fills and hedge coverage."
-    },
-    {
       "time": "2026-10-07T10:15:33.860324+05:30",
       "summary": "Managed, no new entries. SENSEX 5753 condor now filled (73000/73200CE, 72300/72100PE, 1 lot) and hedged -27; live condors 5749 NIFTY +390, 5750 CRUDEOILM -200, 5751 GOLDM -390 \u2014 all 4-leg, hedged, none near SL/TP. Skipped new risk: all four traded underlyings already hold a condor (duplicate thesis), BANKNIFTY/FINNIFTY/MIDCPNIFTY lack chain data, NIFTY tape flat with no directional edge. Next check 300s for marks and hedge integrity."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T13:29:57.179360+05:30",
       "summary": "HOLD, no new entry. Four hedged condors live and intact (all shorts matched by same-type/expiry longs, no stop hits): 5749 NIFTY +312, 5753 SENSEX +126, 5750 CRUDEOILM -190, 5751 GOLDM +340 \u2014 all spot inside short strikes, far from TP. Fresh data shows neutral/choppy indices (RSI 53-59, TimesFM p50 ~flat) and flat commodities; no directional move to support a vertical, and each underlying already carries a live condor, so a second structure would duplicate exposure. Index exit 14:55. Trigger: any leg stop or NIFTY above 22850 / below 22600. Next check 360s."
+    },
+    {
+      "time": "2026-10-07T13:36:00.217321+05:30",
+      "summary": "HOLD, no new entry. Four hedged condors live and intact (all shorts matched by same-type/expiry longs, no stop hits): 5749 NIFTY +351, 5753 SENSEX +166, 5750 CRUDEOILM +140, 5751 GOLDM -200 \u2014 every spot inside its short strikes, far from TP. Fresh data shows choppy/flat indices (RSI 61\u201377, TimesFM p50 ~flat, VIX 14) and flat commodities (GOLDM RSI 50; CRUDEOILM RSI 38.7 but forecast flat). Each underlying already carries a condor, so a second structure would duplicate correlated exposure with no clean directional edge. Triggers: index 14:55 exit, commodity 22:50 exit, any leg stop. Next check 600s."
     }
   ]
 }
