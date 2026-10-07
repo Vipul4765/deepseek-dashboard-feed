@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T16:15:36.338406+05:30",
-      "summary": "HOLD, no new trade. 16:15 IST: NSE/BSE closed (indices ineligible); only MCX open. Both live condors fully hedged and green \u2014 5633 GOLDM +720 (spot 148850 inside 146500/149500 shorts, SL 12000), 5634 CRUDEOILM +210 (short 8500PE ~70pt ITM, covered by 8400PE, SL 3000). No stop/target hit, no hedge gap. GOLDM RSI 83.8 overbought; CRUDEOILM down day but momentum stalled flat last 15 min; new legs would duplicate correlated MCX exposure. Next: recheck MCX marks in ~7 min or on any stop/fill event."
-    },
-    {
       "time": "2026-10-06T16:22:14.668252+05:30",
       "summary": "HOLD, no new trade. 16:22 IST: NSE/BSE closed so indices ineligible; only MCX open. Both live condors fully hedged and ~flat \u2014 5633 GOLDM +200 (spot 148870 inside 146500/149500 shorts, SL 12000), 5634 CRUDEOILM \u2212140 (short 8500PE covered by 8400PE, SL 3000). No stop/target hit, no hedge gap. Both available MCX underlyings already carry open neutral positions, so a new leg would duplicate correlated exposure, not a distinct thesis. Next: recheck MCX marks/stops in ~7 min or on any fill/exit event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T09:35:34.963375+05:30",
       "summary": "Both condors are now live and fully hedged. NIFTY 5749 filled: sell 22900CE/22550PE, buy 22950CE/22500PE (4 lots, net credit ~7,904, worst-case ~5,100, SL4,500/TP3,500); PnL +13, margin ~249.6k. CRUDEOILM 5750 filled: sell 8400PE/9000CE, buy 8300PE/9100CE (20 lots, net credit ~12,270, worst-case ~7,730, SL7,000/TP6,000); PnL +90, margin ~54.6k. No naked legs. Held: tape choppy/flat (NIFTY RSI52, SENSEX, BANKNIFTY soft, GOLDM RSI33 down-move but TimesFM flat), so a third neutral entry would duplicate existing short-vol thesis; no distinct edge. Next review 300s to track marks/hedges."
+    },
+    {
+      "time": "2026-10-07T09:41:32.328543+05:30",
+      "summary": "HOLD. Both runs live and fully hedged: NIFTY 5749 (sell 22550PE/22900CE, buy 22500PE/22950CE, 4 lots) PnL +91; CRUDEOILM 5750 (sell 8400PE/9000CE, buy 8300PE/9100CE, 20 lots) PnL -100; no naked legs. Assessed all underlyings: indices gapped/trended down ~0.8% with VIX +4.8% (risk-off) \u2014 index direction would duplicate/correlate with 5749 and entries are post-move at oversold RSI (NIFTY 35, BANKNIFTY 25); GOLDM (-0.3%, near range low, TimesFM flat) and MIDCP/FINNIFTY only support more short-vol with near-zero 22-DTE intraday theta. No distinct edge. Next: NIFTY 22550 put test / SL 4500."
     }
   ]
 }
