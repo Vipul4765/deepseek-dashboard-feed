@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T13:55:51.771291+05:30",
-      "summary": "HOLD, no new entry. Four hedged condors live and intact (shorts covered by same-type/expiry longs): 5749 NIFTY +351, 5753 SENSEX +190, 5750 CRUDEOILM +170, 5751 GOLDM +1330. No stop/target/hedge trigger; index time-exit 14:55, MCX 22:50 are software-managed. Fresh data choppy: indices fell ~30\u2013110 pts in the last minutes (RSI 24\u201331) but TimesFM p50s flat, and every underlying already carries a range condor, so a new trade would be duplicated correlated risk with <60 min to index exit. Triggers: 14:55 index exits, any leg stop, NIFTY short put 22550 ~25 pts from spot. Next check 600s."
-    },
-    {
       "time": "2026-10-07T14:05:50.846959+05:30",
       "summary": "HOLD, no new entry. Four hedged condors live and intact (all shorts covered same-type/expiry longs): 5749 NIFTY +351, 5753 SENSEX +196, 5750 CRUDEOILM +440, 5751 GOLDM +130. No stop/target/hedge trigger; index time-exit 14:55, MCX 22:50 software-managed. Every underlying already carries a range condor and index exit is <50 min away, so a new trade would duplicate correlated risk. Watch: NIFTY spot 22572 vs short put 22550 (~22 pts), RSI 33. Next check 300s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T21:35:11.438819+05:30",
       "summary": "HOLD. NSE/BSE closed; only MCX open, ~75 min to 22:50 auto-exit. Both active hedged condors healthy and all shorts covered: 5750 CRUDEOILM (short 8400PE/9000CE + 8300PE/9100CE longs, 20 lots) +950 unrealized, spot 8626 well inside; 5751 GOLDM (short 146500PE/150500CE + 146000PE/151000CE longs, 2 lots) +130 unrealized, spot ~147794 inside. Neither near SL/TP; no edit. Declined new MCX entry: no fresh directional edge (TimesFM flat) and would duplicate the same correlated neutral thesis this late. Next review 1500s, into exit window."
+    },
+    {
+      "time": "2026-10-07T21:50:09.998693+05:30",
+      "summary": "HOLD. NSE/BSE closed; only MCX open with ~60 min to the 22:50 forced exit. Both active condors hedged and healthy: 5750 CRUDEOILM (short 8400PE/9000CE, long 8300PE/9100CE, 20 lots) +1160, spot 8615 well inside; 5751 GOLDM (short 146500PE/150500CE, long 146000PE/151000CE, 2 lots) +60, spot 147832 inside. No SL/TP near; no edit needed. Declined a new MCX entry: TimesFM flat (no directional edge), a fresh entry+exit inside ~1h is negative after costs, and it would triple correlated neutral MCX exposure. Next review 1200s, into the exit window."
     }
   ]
 }
