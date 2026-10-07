@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T13:22:02.617248+05:30",
-      "summary": "HOLD, no new entry. Four hedged condors live and intact: 5749 NIFTY \u221252, 5753 SENSEX +77, 5750 CRUDEOILM +60, 5751 GOLDM +170 (net ~+255); all shorts matched by same-type/expiry longs, no leg stops hit. Reviewed NIFTY, SENSEX, GOLDM, CRUDEOILM \u2014 each already carries a live condor, TimesFM p50 near spot and RSI neutral, so no distinct non-duplicate edge; NIFTY bear put would offset the existing 22550 short put rather than add a thesis. Trigger: NIFTY <22530 or 5749 nearing its 4500 SL. Review 180s."
-    },
-    {
       "time": "2026-10-07T13:24:58.964187+05:30",
       "summary": "HOLD, no new entry. All four hedged condors live and intact: 5749 NIFTY +78, 5753 SENSEX +59, 5750 CRUDEOILM 0, 5751 GOLDM -420 (net ~-283); every short matched by same-type/expiry longs, no stop hits. NIFTY, SENSEX, GOLDM, CRUDEOILM each already carries a live condor and all show neutral RSI with TimesFM p50 ~flat, so a second structure would duplicate/offset existing risk, not add a distinct thesis; ~1.5h left in the index window. Trigger: NIFTY <22530 or any leg stop. Next check 300s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T20:20:10.878961+05:30",
       "summary": "HOLD, no new entry. NSE/BSE are closed (market_open_now false); only MCX is open to 23:55. Both active MCX condors verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +880 (short 8400PE/9000CE, spot ~8705, ~300 OTM each) and 5751 GOLDM +430 (short 146500PE/150500CE, spot ~147600, ~1100/2900 OTM). Core SL/TP and 22:50 time exits remain far from trigger. A third MCX structure would only duplicate the same neutral thesis and add correlated exposure, so I declined. Next review in 900s into the 22:50 exit window."
+    },
+    {
+      "time": "2026-10-07T20:35:11.979046+05:30",
+      "summary": "HOLD, no new entry. NSE/BSE closed (market_open_now false); only MCX open to 23:55. Both active condors verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +640 (short 8400PE/9000CE vs spot ~8684, ~285/315 OTM) and 5751 GOLDM -30 (short 146500PE/150500CE vs spot ~147524, ~1024/2976 OTM). Core SL/TP and 22:50 time exits not near trigger. A third MCX structure would only duplicate the same neutral thesis and add correlated exposure, so declined. Next review in 1500s into the 22:50 exit window."
     }
   ]
 }
