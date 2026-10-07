@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OpenRouter Live Decisions</title>
+<meta name="description" content="OpenRouter model reasoning, trade by trade, on a live paper trading account.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#f7f5f0; --panel:#ffffff; --panel-border:#e7e2d8; --panel-raised:#fbfaf6;
+  --fg:#1c1b17; --fg-dim:#6b6558; --fg-faint:#a39c8c;
+  --accent:#b9770e; --accent-soft:#d6940f; --accent-bg:#fdf1dc; --accent-border:#f0d49c;
+  --profit:#15803d; --profit-bg:#e9f8ee; --profit-border:#bfe8cd;
+  --loss:#c0392b; --loss-bg:#fdecea; --loss-border:#f3c3bc;
+  --live:#15803d;
+  --shadow:0 1px 2px rgba(28,27,23,.04), 0 6px 20px -8px rgba(28,27,23,.08);
+  --font-data:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --font-body:'IBM Plex Sans',system-ui,-apple-system,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);
+  padding-inline:18px;padding-block:32px;max-width:780px;margin-inline:auto;
+  font-variant-numeric:tabular-nums}
+h1{text-wrap:balance;margin:0}
+
+.header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;
+  flex-wrap:wrap;padding-bottom:22px;margin-bottom:20px;border-bottom:1px solid var(--panel-border)}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-mark{width:40px;height:40px;border-radius:10px;background:linear-gradient(155deg,var(--accent-soft),var(--accent));
+  display:flex;align-items:center;justify-content:center;font-family:var(--font-data);font-weight:700;
+  color:#fff;font-size:17px;flex:none;box-shadow:0 6px 16px -4px rgba(185,119,14,.45)}
+.brand-text h1{font-size:19px;font-weight:700;letter-spacing:.1px;color:var(--fg)}
+.brand-text .sub{font-size:11px;color:var(--fg-dim);font-family:var(--font-data);letter-spacing:.8px;margin-top:3px;text-transform:uppercase}
+.disclosure{font-size:10.5px;color:var(--fg-dim);font-family:var(--font-data);letter-spacing:.3px;
+  padding:6px 10px;border:1px solid var(--panel-border);border-radius:20px;background:var(--panel);white-space:nowrap}
+
+.livebar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  background:var(--panel);border:1px solid var(--panel-border);border-radius:12px;padding:13px 16px;margin-bottom:18px;box-shadow:var(--shadow)}
+.livebar-left{display:flex;align-items:center;gap:10px}
+.live-dot{display:inline-flex;align-items:center;gap:7px;font-family:var(--font-data);font-size:11.5px;
+  color:var(--live);letter-spacing:.5px;text-transform:uppercase;font-weight:600}
+.live-dot::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--live);
+  box-shadow:0 0 0 0 var(--live);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(21,128,61,.4)}70%{box-shadow:0 0 0 8px rgba(21,128,61,0)}100%{box-shadow:0 0 0 0 rgba(21,128,61,0)}}
+.live-dot.offline{color:var(--fg-faint)}
+.live-dot.offline::before{background:var(--fg-faint);animation:none;box-shadow:none}
+.updated-ago{font-family:var(--font-data);font-size:11.5px;color:var(--fg-dim)}
+.updated-ago b{color:var(--fg);font-weight:600}
+.refresh-track{width:64px;height:4px;border-radius:2px;background:var(--panel-border);overflow:hidden;flex:none}
+.refresh-fill{height:100%;width:0%;background:var(--accent);transition:width 1s linear}
+
+.glance-label{font-family:var(--font-data);font-size:10.5px;color:var(--fg-faint);letter-spacing:.8px;
+  text-transform:uppercase;margin:0 0 9px 2px}
+.glance{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.chip{display:flex;align-items:baseline;gap:7px;background:var(--panel);border:1px solid var(--panel-border);
+  border-radius:10px;padding:9px 14px;box-shadow:var(--shadow)}
+.chip .sym{font-family:var(--font-data);font-size:12px;font-weight:600;color:var(--fg-dim);letter-spacing:.3px}
+.chip .val{font-family:var(--font-data);font-size:14.5px;font-weight:700}
+.chip.profit .val{color:var(--profit)}
+.chip.loss .val{color:var(--loss)}
+
+.feed{display:flex;flex-direction:column;gap:13px}
+.feed-item{position:relative;background:var(--panel);border:1px solid var(--panel-border);
+  border-radius:12px;padding:17px 19px 17px 22px;box-shadow:var(--shadow)}
+.feed-item::before{content:'';position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:2px;background:var(--panel-border)}
+.feed-item.trade::before{background:linear-gradient(var(--accent-soft),var(--accent))}
+.feed-item.stop::before{background:var(--loss)}
+.feed-item:first-child{border-color:var(--accent-border)}
+.feed-row{display:flex;align-items:center;gap:8px;margin-bottom:9px;flex-wrap:wrap}
+.feed-time{font-family:var(--font-data);font-size:11.5px;color:var(--fg-faint);white-space:nowrap}
+.feed-tag{font-family:var(--font-data);font-size:9.5px;text-transform:uppercase;letter-spacing:.7px;
+  font-weight:600;padding:3px 9px;border-radius:5px;background:var(--panel-raised);color:var(--fg-dim);border:1px solid var(--panel-border)}
+.feed-tag.trade{background:var(--accent-bg);color:var(--accent);border-color:var(--accent-border)}
+.feed-tag.stop{background:var(--loss-bg);color:var(--loss);border-color:var(--loss-border)}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.badge{font-family:var(--font-data);font-size:11.5px;font-weight:600;padding:3px 9px;border-radius:6px}
+.badge.profit{background:var(--profit-bg);color:var(--profit);border:1px solid var(--profit-border)}
+.badge.loss{background:var(--loss-bg);color:var(--loss);border:1px solid var(--loss-border)}
+.feed-text{font-size:15.5px;line-height:1.65;color:var(--fg);overflow-wrap:break-word;letter-spacing:.1px}
+.empty{text-align:center;padding:48px 16px;color:var(--fg-faint);font-size:14px;
+  border:1px dashed var(--panel-border);border-radius:12px;background:var(--panel)}
+
+footer{margin-top:32px;padding-top:16px;border-top:1px solid var(--panel-border);
+  display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;
+  font-size:11px;color:var(--fg-faint);font-family:var(--font-data)}
+footer a{color:var(--fg-dim);text-decoration:none;border-bottom:1px solid var(--panel-border)}
+footer a:hover{color:var(--accent);border-color:var(--accent-border)}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="brand">
+    <div class="brand-mark">OR</div>
+    <div class="brand-text">
+      <h1>OpenRouter Live Decisions</h1>
+      <div class="sub">Why, in its own words</div>
+    </div>
+  </div>
+  <span class="disclosure">paper account &middot; no real money</span>
+</div>
+
+<div class="livebar">
+  <div class="livebar-left">
+    <span class="live-dot" id="live-indicator">live</span>
+    <span class="updated-ago" id="updated-ago">loading&hellip;</span>
+  </div>
+  <div class="refresh-track"><div class="refresh-fill" id="refresh-fill"></div></div>
+</div>
+
+<div class="glance-label">Right now</div>
+<div class="glance" id="glance"></div>
+
+<div class="feed" id="feed"><div class="empty">Loading the live feed&hellip;</div></div>
+
+<footer>
+  <span>Pushed straight from the trading server, no middle step</span>
+  <a href="https://github.com/Vipul4765/deepseek-dashboard-feed">view source</a>
+</footer>
+
+<script>
+var FEED_URL = "feed_raw.json";
+var POLL_MS = 60000;
+var lastFetchAt = null;
+var SYMBOLS = ["GOLDM","CRUDEOILM","BANKNIFTY","FINNIFTY","MIDCPNIFTY","NIFTY","SENSEX"];
+
+function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g, function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];
+}); }
+
+function timeLabel(iso){
+  if(!iso) return "";
+  var d = new Date(iso);
+  if(isNaN(d)) return "";
+  return d.toLocaleTimeString("en-IN", {hour:"2-digit",minute:"2-digit",hour12:false,timeZone:"Asia/Kolkata"}) + " IST";
+}
+
+function classify(summary){
+  var s = (summary || "").toLowerCase();
+  if(/\bstop\b|stopped out|forced exit|stop-loss hit|sl hit/.test(s)) return "stop";
+  if(/\bopened\b|^opened|new entry:|entered |created strategy|started strategy/.test(s)) return "trade";
+  return "note";
+}
+
+// Pull "SYMBOL ... +1,234" / "SYMBOL ... -345" style figures out of DeepSeek's own prose
+function extractBadges(text){
+  if(!text) return [];
+  var found = [];
+  var seen = {};
+  SYMBOLS.forEach(function(sym){
+    var idx = text.indexOf(sym);
+    if(idx === -1 || seen[sym]) return;
+    var window = text.slice(idx, idx + 90);
+    var m = window.match(/([+−-]\s?[\d,]+(?:\.\d+)?)/);
+    if(m){
+      var raw = m[1].replace(/−/g, "-").replace(/\s/g, "");
+      var neg = raw.startsWith("-");
+      seen[sym] = true;
+      found.push({sym: sym, val: (neg ? "-" : "+") + "₹" + raw.replace(/[+-]/g, ""), profit: !neg});
+    }
+  });
+  return found;
+}
+
+function renderGlance(latestText){
+  var el = document.getElementById("glance");
+  var badges = extractBadges(latestText);
+  if(!badges.length){ el.innerHTML = '<span style="color:var(--fg-faint);font-size:13px">No open positions right now</span>'; return; }
+  el.innerHTML = badges.map(function(b){
+    return '<div class="chip ' + (b.profit ? "profit" : "loss") + '"><span class="sym">' + esc(b.sym) + '</span><span class="val">' + esc(b.val) + '</span></div>';
+  }).join("");
+}
+
+function render(data){
+  var el = document.getElementById("feed");
+  var items = (data.feed || []).slice().reverse();
+  if(!items.length){ el.innerHTML = '<div class="empty">Waiting for the first update</div>'; renderGlance(""); return; }
+  renderGlance(items[0].summary);
+  el.innerHTML = items.map(function(f, i){
+    var cls = classify(f.summary);
+    var badges = extractBadges(f.summary);
+    var badgeHtml = badges.length ? '<div class="badges">' + badges.map(function(b){
+      return '<span class="badge ' + (b.profit ? "profit" : "loss") + '">' + esc(b.sym) + " " + esc(b.val) + '</span>';
+    }).join("") + '</div>' : '';
+    return '<div class="feed-item ' + cls + '">' +
+      '<div class="feed-row"><span class="feed-time">' + esc(timeLabel(f.time)) + '</span>' +
+      '<span class="feed-tag ' + cls + '">' + (i===0 ? "latest" : cls) + '</span></div>' +
+      badgeHtml +
+      '<div class="feed-text">' + esc(f.summary) + '</div></div>';
+  }).join("");
+}
+
+function tickAgo(){
+  var elAgo = document.getElementById("updated-ago");
+  if(!lastFetchAt){ return; }
+  var secs = Math.round((Date.now() - lastFetchAt) / 1000);
+  var label = secs < 5 ? "just now" : secs < 60 ? secs + "s ago" : Math.round(secs/60) + "m ago";
+  elAgo.innerHTML = "updated <b>" + label + "</b>";
+  var pct = Math.min(100, (secs * 1000 / POLL_MS) * 100);
+  document.getElementById("refresh-fill").style.width = pct + "%";
+}
+
+function load(){
+  fetch(FEED_URL + "?t=" + Date.now())
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      render(data);
+      lastFetchAt = Date.now();
+      var dot = document.getElementById("live-indicator");
+      dot.textContent = "live";
+      dot.className = "live-dot";
+      document.getElementById("refresh-fill").style.width = "0%";
+    })
+    .catch(function(){
+      var dot = document.getElementById("live-indicator");
+      dot.textContent = "offline";
+      dot.className = "live-dot offline";
+    });
+}
+
+load();
+setInterval(load, POLL_MS);
+setInterval(tickAgo, 1000);
+</script>
+</body>
+</html>
