@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T11:06:54.434263+05:30",
-      "summary": "HOLD. Four hedged iron condors active, all equal-lot same-type/expiry longs verified, none near SL/TP: NIFTY 5749 +377, SENSEX 5753 -224, CRUDEOILM 5750 +120, GOLDM 5751 +250. No new entry: NIFTY/SENSEX/BANKNIFTY RSI 74-78 overbought with flat TimesFM paths, so a fresh neutral condor would only duplicate existing correlated index exposure and there is no clean directional edge. Watch SENSEX short CE 73000 (1DTE, ~25pts above spot 72975). Reassess at 210s or on a break above 73000/below 72300."
-    },
-    {
       "time": "2026-10-07T11:10:35.672526+05:30",
       "summary": "HOLD. Four hedged iron condors active, all equal-lot same-type/expiry longs verified, none near SL: NIFTY 5749 +403, SENSEX 5753 -214, CRUDEOILM 5750 +20, GOLDM 5751 +70. No new entry: every eligible underlying (NIFTY/SENSEX/CRUDEOILM/GOLDM) already carries a neutral position, TimesFM paths are flat and index RSI is extended (62-73), so a fresh condor/vertical would only duplicate correlated exposure. Blocker: no distinct uncorrelated edge. Watch SENSEX short CE 73000 (spot 72958); its SL 1800 is Core-managed. Reassess in 240s or on a break of 73000/72300."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T14:55:52.610123+05:30",
       "summary": "HOLD. Index window closed (14:55): 5749 NIFTY +858 and 5753 SENSEX +433 both flat, no naked legs. Live MCX condors hedged, inside wings: 5750 CRUDEOILM +500 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8688), 5751 GOLDM +530 (BUY 146000PE/SELL 146500PE, SELL 150500CE/BUY 151000CE; spot 148258). No new trade: both MCX underlyings already hold neutral condors, TimesFM flat, so another structure only duplicates correlated risk. Next review 900s on MCX marks/hedges."
+    },
+    {
+      "time": "2026-10-07T15:10:48.346505+05:30",
+      "summary": "HOLD. Index entry windows closed (14:55 exit / 15:00 cutoff; now 15:10), 5749 NIFTY +858 and 5753 SENSEX +433 already flat. Live MCX condors both hedged and inside wings per fresh 15:10 marks: 5750 CRUDEOILM +110 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8707), 5751 GOLDM +70 (BUY 146000PE/SELL 146500PE, SELL 150500CE/BUY 151000CE; spot 148160). No new trade: TimesFM flat on both commodities and only correlated neutral exposure available. Next review 900s on MCX marks/hedges."
     }
   ]
 }
