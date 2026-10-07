@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T09:48:15.318971+05:30",
-      "summary": "HOLD, no new entry. Three live, fully hedged iron condors: 5749 NIFTY (sell 22550PE/22900CE) +65; 5750 CRUDEOILM (sell 8400PE/9000CE) -410; 5751 GOLDM (sell 146500PE/150500CE) +230; no naked legs. Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, GOLDM, CRUDEOILM. Blocker: post-gap-down chop with VIX up; priced NIFTY verticals and SENSEX 1-DTE condors show ~zero EV after costs, and any fresh neutral structure only adds correlated short-vol to the existing book. Reassess on NIFTY break of 22585 low or reclaim of 22700 with momentum, or a VIX spike."
-    },
-    {
       "time": "2026-10-07T09:57:38.653042+05:30",
       "summary": "Hold. Three live hedged condors: 5749 NIFTY +312, 5750 CRUDEOILM -200, 5751 GOLDM +430; all 4 legs filled, defined risk intact. Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, GOLDM, CRUDEOILM. No entry: NIFTY chopping 22585-22635 with ~50/50 TimesFM and IV ~13%; near-strike verticals duplicate 5749's shorts, fresh condors only add correlated short-vol. Next review in 5 min; reassess on NIFTY break of 22585 or reclaim of 22650, or a VIX spike."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T13:14:37.156329+05:30",
       "summary": "HOLD, no new entry. Four hedged condors live and intact (5749 NIFTY -182, 5753 SENSEX +48, 5750 CRUDEOILM +170, 5751 GOLDM +500; net ~+536). Every short matched by same-type/expiry longs; no stops hit. Fresh: indices deeply oversold (NIFTY RSI 30.7 at 22580, SENSEX 28.5, BANKNIFTY 27.8), VIX 14.0. Blocker: all four eligible underlyings already carry a hedged condor, and a new index vertical would duplicate 5749's stressed short put 22550, ~30pts below spot. Trigger: spot <22530 or 5749 nearing SL 4500 \u2192 reassess. Review 150s."
+    },
+    {
+      "time": "2026-10-07T13:17:14.024673+05:30",
+      "summary": "HOLD, no new entry. Four hedged condors live and intact (5749 NIFTY +325, 5753 SENSEX +86, 5750 CRUDEOILM +40, 5751 GOLDM -370; net ~+81); every short matched same-type/expiry, no leg stops hit. Fresh selloff (NIFTY 22577, RSI 27.4; SENSEX 72569, RSI 28.7), but all quote-verified underlyings already carry a condor and BANKNIFTY/FINNIFTY/MIDCPNIFTY have no chain data, so no priceable, non-duplicative candidate. Trigger: NIFTY <22530 or 5749 near SL 4500. Review 150s."
     }
   ]
 }
