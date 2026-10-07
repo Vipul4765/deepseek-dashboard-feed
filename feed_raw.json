@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T09:57:38.653042+05:30",
-      "summary": "Hold. Three live hedged condors: 5749 NIFTY +312, 5750 CRUDEOILM -200, 5751 GOLDM +430; all 4 legs filled, defined risk intact. Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, GOLDM, CRUDEOILM. No entry: NIFTY chopping 22585-22635 with ~50/50 TimesFM and IV ~13%; near-strike verticals duplicate 5749's shorts, fresh condors only add correlated short-vol. Next review in 5 min; reassess on NIFTY break of 22585 or reclaim of 22650, or a VIX spike."
-    },
-    {
       "time": "2026-10-07T10:03:07.084070+05:30",
       "summary": "Hold. Three hedged condors live and healthy: 5749 NIFTY +234, 5750 CRUDEOILM -220, 5751 GOLDM +110; all 4 legs filled, defined risk intact. Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, GOLDM, CRUDEOILM \u2014 all chopping after a gap-down open; NIFTY 1-min ATR only 7.3 with TimesFM near-flat (\u00b10.16% band). SENSEX 1dte condor prices to ~zero EV; a new neutral only adds correlated short-vol. No distinct directional thesis. Reassess on NIFTY break of 22585/22650, MCX range expansion, or a VIX spike; review in 5 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T13:17:14.024673+05:30",
       "summary": "HOLD, no new entry. Four hedged condors live and intact (5749 NIFTY +325, 5753 SENSEX +86, 5750 CRUDEOILM +40, 5751 GOLDM -370; net ~+81); every short matched same-type/expiry, no leg stops hit. Fresh selloff (NIFTY 22577, RSI 27.4; SENSEX 72569, RSI 28.7), but all quote-verified underlyings already carry a condor and BANKNIFTY/FINNIFTY/MIDCPNIFTY have no chain data, so no priceable, non-duplicative candidate. Trigger: NIFTY <22530 or 5749 near SL 4500. Review 150s."
+    },
+    {
+      "time": "2026-10-07T13:19:32.377297+05:30",
+      "summary": "HOLD, no new entry. Four hedged condors live and intact: 5749 NIFTY +221, 5753 SENSEX +104, 5750 CRUDEOILM +10, 5751 GOLDM +490 (net ~+825); every short matched by same-type/expiry long, no leg stops hit. NIFTY short put 22550 is nearest risk (~38 pts from spot, breakeven ~22529); no fresh directional evidence and all quoted underlyings already carry a condor, so a further trade would be duplicate/correlated. Trigger: NIFTY <22530 or 5749 approaching its 4500 SL. Review 150s."
     }
   ]
 }
