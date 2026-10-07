@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T11:34:22.435618+05:30",
-      "summary": "HOLD. Four hedged iron condors active, all legs FILLED with matching long protection: NIFTY 5749 +572, SENSEX 5753 -51, GOLDM 5751 -650, CRUDEOILM 5750 -620 (net ~-749); none near overall SL/TP. No new entry: NIFTY/SENSEX/GOLDM/CRUDEOILM each already carry a neutral structure and TimesFM paths are flat (|\u0394|<0.07%), VIX 13.7, price action choppy; a fresh structure would only duplicate correlated exposure. Blocker: no distinct uncorrelated edge with a valid, priced hedge. Trigger: SENSEX 73000 CE breach or any Core SL fill; review in 5 min."
-    },
-    {
       "time": "2026-10-07T11:39:30.194324+05:30",
       "summary": "HOLD. Four hedged iron condors live, all legs FILLED with matching longs: NIFTY 5749 +468, SENSEX 5753 \u2212139, CRUDEOILM 5750 \u2212100, GOLDM 5751 \u2212140 (net \u2248 +89); none near SL/TP, no edit needed. No new entry: NIFTY/SENSEX/GOLDM are tight chop (TimesFM \u2248 flat, VIX 13.65) and already carry condors; CRUDEOILM's +1.07% move is overbought (RSI 73) with a down-leaning forecast and its range is already spanned by condor 5750, so a directional add only duplicates correlated exposure. Blocker: no distinct uncorrelated edge with a priced hedge. Trigger: SENSEX 73000 CE breach or any Core SL fill; next review 5 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T16:10:15.284069+05:30",
       "summary": "HOLD. NSE/BSE closed (15:40), no index entries; MCX open. Two hedged condors live on fresh marks: 5750 CRUDEOILM +270 (short 8400PE/9000CE, spot 8712) and 5751 GOLDM -310 (short 146500PE/150500CE, spot 148150), both mid-range, fully hedged, Core-managed SL/TP, 22:50 exit. No new trade: TimesFM paths flat and a third MCX condor would duplicate existing neutral GOLDM/CRUDEOILM exposure with no distinct directional edge. Next review 900s; manage MCX SL/TP/exit."
+    },
+    {
+      "time": "2026-10-07T16:25:10.391927+05:30",
+      "summary": "HOLD. NSE/BSE closed (15:40), no index entries. MCX open; two hedged condors live on fresh marks: 5750 CRUDEOILM +460 (short 8400PE/9000CE, spot 8735, margin ~54.6k) and 5751 GOLDM +160 (short 146500PE/150500CE, spot 148200, margin ~68.3k), both mid-range, 4 legs fully filled/hedged, Core-managed SL/TP, 22:50 exit. No new trade: TimesFM paths flat for GOLDM (+0.03%) and CRUDEOILM (-0.07%); a third MCX condor would duplicate existing neutral exposure with no distinct directional edge. Next review 900s; manage MCX SL/TP/exit."
     }
   ]
 }
