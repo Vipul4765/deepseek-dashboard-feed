@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T09:35:34.963375+05:30",
-      "summary": "Both condors are now live and fully hedged. NIFTY 5749 filled: sell 22900CE/22550PE, buy 22950CE/22500PE (4 lots, net credit ~7,904, worst-case ~5,100, SL4,500/TP3,500); PnL +13, margin ~249.6k. CRUDEOILM 5750 filled: sell 8400PE/9000CE, buy 8300PE/9100CE (20 lots, net credit ~12,270, worst-case ~7,730, SL7,000/TP6,000); PnL +90, margin ~54.6k. No naked legs. Held: tape choppy/flat (NIFTY RSI52, SENSEX, BANKNIFTY soft, GOLDM RSI33 down-move but TimesFM flat), so a third neutral entry would duplicate existing short-vol thesis; no distinct edge. Next review 300s to track marks/hedges."
-    },
-    {
       "time": "2026-10-07T09:41:32.328543+05:30",
       "summary": "HOLD. Both runs live and fully hedged: NIFTY 5749 (sell 22550PE/22900CE, buy 22500PE/22950CE, 4 lots) PnL +91; CRUDEOILM 5750 (sell 8400PE/9000CE, buy 8300PE/9100CE, 20 lots) PnL -100; no naked legs. Assessed all underlyings: indices gapped/trended down ~0.8% with VIX +4.8% (risk-off) \u2014 index direction would duplicate/correlate with 5749 and entries are post-move at oversold RSI (NIFTY 35, BANKNIFTY 25); GOLDM (-0.3%, near range low, TimesFM flat) and MIDCP/FINNIFTY only support more short-vol with near-zero 22-DTE intraday theta. No distinct edge. Next: NIFTY 22550 put test / SL 4500."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T13:07:33.040754+05:30",
       "summary": "HOLD, no new entry. Four hedged condors live and intact (all short legs matched by same-type/expiry longs, no stop hit): 5749 +312, 5753 +84, 5750 -290, 5751 -120 (net ~ -14). Fresh change: indices weakened materially since last cycle \u2014 NIFTY 22593 (RSI 26), SENSEX 72614 (RSI 25), so NIFTY 5749's short put 22550 is now only ~43pts away. Assessed NIFTY/SENSEX/GOLDM/CRUDEOILM for a new priced structure; blocked because the down-move is already deeply oversold with TimesFM flat-to-up (a bear spread chases and duplicates 5749's short-put delta), GOLDM/CRUDEOILM are flat and already centred in live condors. Reassess in 4 min or on NIFTY breaking/rejecting 22550."
+    },
+    {
+      "time": "2026-10-07T13:11:36.276744+05:30",
+      "summary": "HOLD, no new entry. Four hedged condors live and intact (all shorts matched by same-type/expiry longs, no stop hit): 5749 NIFTY +91, 5753 SENSEX 0, 5750 CRUDEOILM +120, 5751 GOLDM -310, net ~ -99; margins well inside paper capital. Fresh: indices sharply oversold (NIFTY RSI 10 at 22565, SENSEX 9.4, BANKNIFTY 8.3), VIX up to 14.2. Blocker: every eligible underlying already carries a live neutral condor, and a new vertical would either chase the exhausted down-move or duplicate 5749's short-put delta. Key trigger: 5749 short put 22550 ~15pts below spot; overall SL 4500 protects. Reassess 3 min."
     }
   ]
 }
