@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T18:19:13.732051+05:30",
-      "summary": "18:19 IST: NSE/BSE closed, MCX open. Only GOLDM/CRUDEOILM entry-eligible; both already carry hedged, defined-risk condors \u2014 5633 GOLDM (short 146500P/149500C, wings 146000P/150000C) +\u20b9570, and 5634 CRUDEOILM (short 8500P/8700C, wings 8400P/8800C) \u2212\u20b940. Four filled legs each, no naked shorts, margin \u20b968.4k/\u20b954.4k, far from SL (12000/3000) or TP (8000/5000). TimesFM and price action are flat with no distinct directional edge, so a new MCX position would be correlated duplicate exposure. HOLD; reassess ~15 min or on any fill/exit/stop."
-    },
-    {
       "time": "2026-10-06T18:34:09.661270+05:30",
       "summary": "18:34 IST: NSE/BSE closed (market_open_now=false), MCX open. Only GOLDM/CRUDEOILM entry-eligible and both already carry hedged, defined-risk condors: 5633 GOLDM (short 146500P/149500C, wings 146000P/150000C) +\u20b9290, margin \u20b968.4k; 5634 CRUDEOILM (short 8500P/8700C, wings 8400P/8800C) \u20b90, margin \u20b954.4k. Four filled legs each, no naked shorts, well inside overall SL/TP. Fresh MCX data is flat with no distinct directional edge; another MCX condor would be correlated duplicate exposure. HOLD; reassess ~15 min or on any fill/exit/stop."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T10:20:50.933871+05:30",
       "summary": "Managed, no new entries. All four condors live, FILLED and fully hedged (same-type/expiry long, equal lots): 5749 NIFTY +169, 5750 CRUDEOILM +80, 5751 GOLDM -150, 5753 SENSEX -194; none near SL/TP. New-risk search blocked: NIFTY/SENSEX/GOLDM/CRUDEOILM already carry a hedged condor (duplicate/correlated short-vol thesis), BANKNIFTY has no chain data (FINNIFTY/MIDCPNIFTY likewise), and overbought RSI (~72-75) with flat TimesFM gives no directional edge. Watching SENSEX 73000CE proximity. Next check 300s."
+    },
+    {
+      "time": "2026-10-07T10:25:38.704579+05:30",
+      "summary": "Managed, no new entries. All four condors live and fully hedged (same-type/expiry long, equal lots, verified from Core snapshots): 5749 NIFTY +338 (22664), 5750 CRUDEOILM +110 (8694), 5751 GOLDM +230 (148250), 5753 SENSEX -120 (72840); none near SL/TP. Search done: all four eligible symbols already carry a hedged short-vol condor, so a further structure would duplicate/correlate; a directional vertical lacks edge (overbought RSI ~63, flat-to-slightly-negative TimesFM, just-faded spike). No blocker beyond portfolio fit. Next: recheck in 300s, watching SENSEX 73000CE proximity and any SL/target touch."
     }
   ]
 }
