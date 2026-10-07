@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T17:14:21.437773+05:30",
-      "summary": "HOLD, no new trade. 17:14 IST: NSE/BSE closed (indices ineligible); MCX open. Both live condors hedged and inside stops: 5633 GOLDM -750 (spot 149120, shorts 146500P/149500C, SL 12000), 5634 CRUDEOILM -140 (spot 8436 just below 8500P short, 8400P/8700C/8800C wings intact, SL 3000). No stop/target near, no hedge gap. Only entry-eligible symbols are GOLDM/CRUDEOILM, both already carrying neutral condors; a second leg would duplicate correlated exposure with no distinct thesis, and CRUDEOILM already tests its short put. Next: recheck MCX marks/stops ~15 min or on any fill/exit event."
-    },
-    {
       "time": "2026-10-06T17:29:19.343811+05:30",
       "summary": "HOLD, no new trade. 17:29 IST: NSE/BSE closed (indices ineligible); MCX open. Both live condors hedged and inside stops: 5633 GOLDM -10 (spot 149115, shorts 146500P/149500C, SL 12000), 5634 CRUDEOILM -40 (spot ~8424, shorts 8500P near money/8700C, 8400P/8800C wings intact, SL 3000). No stop/target near, no hedge gap. Only entry-eligible symbols are GOLDM/CRUDEOILM, both already carrying neutral condors with flat forecasts; a second position would duplicate correlated exposure with no distinct thesis. Next review ~20 min or on any fill/exit/stop event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T10:03:07.084070+05:30",
       "summary": "Hold. Three hedged condors live and healthy: 5749 NIFTY +234, 5750 CRUDEOILM -220, 5751 GOLDM +110; all 4 legs filled, defined risk intact. Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, GOLDM, CRUDEOILM \u2014 all chopping after a gap-down open; NIFTY 1-min ATR only 7.3 with TimesFM near-flat (\u00b10.16% band). SENSEX 1dte condor prices to ~zero EV; a new neutral only adds correlated short-vol. No distinct directional thesis. Reassess on NIFTY break of 22585/22650, MCX range expansion, or a VIX spike; review in 5 min."
+    },
+    {
+      "time": "2026-10-07T10:07:43.783005+05:30",
+      "summary": "HOLD. Three hedged condors live: 5749 NIFTY +169, 5750 CRUDEOILM +40, 5751 GOLDM -600; all 4 legs filled, defined risk intact, spots inside short strikes. Assessed NIFTY/SENSEX/GOLDM/CRUDEOILM plus BANKNIFTY/FINNIFTY/MIDCPNIFTY: only SENSEX (1dte) is non-duplicative and it prices thin (~R:R 0.36) with a weak 1/5 record; others chop (NIFTY RSI 50, TimesFM flat) or lack chain data. Blocking input: no distinct, well-priced thesis. Reassess on NIFTY break of 22585/22675, GOLDM range break, or richer SENSEX credit; review in 5 min."
     }
   ]
 }
