@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T14:30:47.350941+05:30",
-      "summary": "HOLD, no new entry. All four hedged condors live and intact (every short covered same-type/expiry, equal lots): 5749 NIFTY +845, 5753 SENSEX +217, 5750 CRUDEOILM +600, 5751 GOLDM +720. No stop/target/hedge trigger; index exit 14:55, MCX 22:50 software-managed. Blockers: indices have only ~25 min to forced exit, no runway to build a priced trade; both MCX underlyings already carry a live neutral condor and their tape is choppy/flat, so a second neutral duplicates correlated risk with no directional edge. Next review 600s, near the index exit."
-    },
-    {
       "time": "2026-10-07T14:40:49.699906+05:30",
       "summary": "HOLD, no new entry. All four hedged condors live and intact (every short covered same-type/expiry, equal lots): 5749 NIFTY +663, 5753 SENSEX +384, 5750 CRUDEOILM +180, 5751 GOLDM +30; no stop/target/hedge trigger. Blockers to a new trade: indices have only ~15 min to the 14:55 forced exit (no runway to build/price a spread); GOLDM flat and CRUDEOILM extended (RSI 76) with flat/negative TimesFM, and both already carry a live neutral condor, so a second structure only duplicates correlated risk with no distinct edge. Next review 600s, around the index exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T22:50:37.411029+05:30",
       "summary": "HOLD \u2014 flat. Backend events confirm both scheduled MCX exits at 22:50: 5750 CRUDEOILM RUN_DONE +1020, 5751 GOLDM RUN_DONE +250; zero open legs, margin released (MCX user_current_margin 0). Earlier: 5749 NIFTY +858, 5753 SENSEX +433. Today +2561, 4/4 wins. NSE/BSE closed (15:40) and MCX is past its 22:50 commodity exit, so no new entry is feasible. Next review 1800s; scan fresh hedged candidates at next session open."
+    },
+    {
+      "time": "2026-10-07T23:05:37.283575+05:30",
+      "summary": "HOLD \u2014 flat, nothing tradeable. All four runs closed: NIFTY 5749 +858, SENSEX 5753 +433, CRUDEOILM 5750 +1020, GOLDM 5751 +250; today +2561, 4/4 wins, zero open legs, MCX margin released to 0. NSE/BSE markets closed (15:40) and MCX is past its 23:00 entry cutoff and 22:50 commodity exit, so no new entry is feasible. Next review 1800s; scan fresh hedged candidates at next session open."
     }
   ]
 }
