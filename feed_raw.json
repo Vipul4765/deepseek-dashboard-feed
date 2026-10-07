@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T10:20:50.933871+05:30",
-      "summary": "Managed, no new entries. All four condors live, FILLED and fully hedged (same-type/expiry long, equal lots): 5749 NIFTY +169, 5750 CRUDEOILM +80, 5751 GOLDM -150, 5753 SENSEX -194; none near SL/TP. New-risk search blocked: NIFTY/SENSEX/GOLDM/CRUDEOILM already carry a hedged condor (duplicate/correlated short-vol thesis), BANKNIFTY has no chain data (FINNIFTY/MIDCPNIFTY likewise), and overbought RSI (~72-75) with flat TimesFM gives no directional edge. Watching SENSEX 73000CE proximity. Next check 300s."
-    },
-    {
       "time": "2026-10-07T10:25:38.704579+05:30",
       "summary": "Managed, no new entries. All four condors live and fully hedged (same-type/expiry long, equal lots, verified from Core snapshots): 5749 NIFTY +338 (22664), 5750 CRUDEOILM +110 (8694), 5751 GOLDM +230 (148250), 5753 SENSEX -120 (72840); none near SL/TP. Search done: all four eligible symbols already carry a hedged short-vol condor, so a further structure would duplicate/correlate; a directional vertical lacks edge (overbought RSI ~63, flat-to-slightly-negative TimesFM, just-faded spike). No blocker beyond portfolio fit. Next: recheck in 300s, watching SENSEX 73000CE proximity and any SL/target touch."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T13:46:00.372154+05:30",
       "summary": "HOLD, no new entry. Four hedged condors live and intact (all shorts covered by same-type/expiry longs): 5749 NIFTY +351, 5753 SENSEX +199, 5750 CRUDEOILM +120, 5751 GOLDM +10. No stop/target/hedge trigger. Fresh data is uniformly choppy/flat (indices RSI 50-61, TimesFM p50 flat; commodities RSI 45-47 flat), so no distinct directional edge; each underlying already carries a range condor, so a second is only duplicated correlated risk. Triggers: NIFTY/SENSEX exit 14:55, MCX 22:50, any leg stop. Next check 600s."
+    },
+    {
+      "time": "2026-10-07T13:55:51.771291+05:30",
+      "summary": "HOLD, no new entry. Four hedged condors live and intact (shorts covered by same-type/expiry longs): 5749 NIFTY +351, 5753 SENSEX +190, 5750 CRUDEOILM +170, 5751 GOLDM +1330. No stop/target/hedge trigger; index time-exit 14:55, MCX 22:50 are software-managed. Fresh data choppy: indices fell ~30\u2013110 pts in the last minutes (RSI 24\u201331) but TimesFM p50s flat, and every underlying already carries a range condor, so a new trade would be duplicated correlated risk with <60 min to index exit. Triggers: 14:55 index exits, any leg stop, NIFTY short put 22550 ~25 pts from spot. Next check 600s."
     }
   ]
 }
