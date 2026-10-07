@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T21:34:11.246420+05:30",
-      "summary": "21:34 IST: NSE/BSE closed; MCX open (exit 22:50). HOLD \u2014 both eligible symbols already carry distinct live hedged condors: 5633 GOLDM shorts 146500P/149500C, wings 146000P/150000C, P&L +\u20b9470; 5634 CRUDEOILM shorts 8500P/8700C, wings 8400P/8800C, P&L -\u20b970. All 4 legs FILLED on each, hedges and overall stops (\u20b912,000 / \u20b93,000) intact. No distinct edge for the ~75 remaining minutes; a new MCX entry would duplicate correlated exposure. Day realized +\u20b92,681. Next review 15 min or on stop/time-exit."
-    },
-    {
       "time": "2026-10-06T21:49:12.296092+05:30",
       "summary": "21:49 IST: NSE/BSE closed, MCX open (exit 22:50). HOLD. Only MCX eligible, and both permitted symbols already carry distinct, fully-hedged live condors: 5633 GOLDM short 146500P/149500C, wings 146000P/150000C, 4/4 legs FILLED, P&L +\u20b9330; 5634 CRUDEOILM short 8500P/8700C, wings 8400P/8800C, 4/4 legs FILLED, P&L -\u20b970. Both short strikes sit outside today's ranges, hedges and overall stops (\u20b912,000/\u20b93,000) intact. A new MCX vertical would duplicate correlated exposure for a ~60-min hold \u2014 no distinct edge justifying it. Day realized +\u20b92,681. Next review 15 min or on stop/time-exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T11:29:20.081944+05:30",
       "summary": "HOLD. Four hedged iron condors live, all legs FILLED with matching long protection: NIFTY 5749 +442, GOLDM 5751 +540, CRUDEOILM 5750 -240, SENSEX 5753 -155 (net ~+587); none near overall SL. No new entry \u2014 NIFTY, SENSEX, GOLDM, CRUDEOILM each already carry a neutral structure, TimesFM paths flat (|\u0394|<0.06%), VIX 13.7, price action choppy; a fresh vertical/condor would only duplicate correlated exposure. Blocker: no distinct uncorrelated edge with valid hedge. Trigger: SENSEX 73000 CE breach or any Core SL fill; review in 5 min."
+    },
+    {
+      "time": "2026-10-07T11:34:22.435618+05:30",
+      "summary": "HOLD. Four hedged iron condors active, all legs FILLED with matching long protection: NIFTY 5749 +572, SENSEX 5753 -51, GOLDM 5751 -650, CRUDEOILM 5750 -620 (net ~-749); none near overall SL/TP. No new entry: NIFTY/SENSEX/GOLDM/CRUDEOILM each already carry a neutral structure and TimesFM paths are flat (|\u0394|<0.07%), VIX 13.7, price action choppy; a fresh structure would only duplicate correlated exposure. Blocker: no distinct uncorrelated edge with a valid, priced hedge. Trigger: SENSEX 73000 CE breach or any Core SL fill; review in 5 min."
     }
   ]
 }
