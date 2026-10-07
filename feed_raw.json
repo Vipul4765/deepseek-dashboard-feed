@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T12:04:24.418230+05:30",
-      "summary": "HOLD. Four hedged iron condors live, all shorts covered by matching longs: NIFTY 5749 +468, CRUDEOILM 5750 -220, GOLDM 5751 -330, SENSEX 5753 -207. Only SENSEX (1DTE) is stressed \u2014 short 73000 CE sits ~30pts above spot 72970, but its put side offsets and the 1800 overall SL is software-managed. No new entry: every enabled underlying already carries a condor and the market is range-bound/low-VIX, so a 5th would be correlated duplication with no distinct edge. Next review in 4 min to watch the SENSEX call strike; any SL/TP fill or 73000 breach triggers action."
-    },
-    {
       "time": "2026-10-07T12:08:20.289460+05:30",
       "summary": "HOLD. Four hedged condors live and verifying from Core snapshots with matching long legs on every short: NIFTY 5749 +533, GOLDM 5751 +190, CRUDEOILM 5750 -260, SENSEX 5753 -156 (net ~+307). No new entry: all four enabled underlyings already carry a condor, index complex is range-bound with low VIX (13.72) and flat TimesFM paths, so a fifth position would be correlated duplication without a distinct edge. SENSEX 1DTE short 73000 CE (spot 72988) is the nearest trigger, its 1800 overall SL is software-managed. Next review in 4 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T17:10:20.843205+05:30",
       "summary": "HOLD. NSE/BSE closed (15:40); MCX open. Both live condors verified hedged 4/4 from Core snapshots and mid-range: 5750 CRUDEOILM +470 (SELL 8400PE/9000CE, BUY 8300PE/9100CE, spot 8744), 5751 GOLDM +500 (SELL 146500PE/150500CE, BUY 146000PE/151000CE, spot 148265). No new start: a third MCX neutral would duplicate existing correlated exposure, and the only fresh signal (CRUDEOILM 16:54-17:00 volume pop) is contradicted by TimesFM (-0.16%); GOLDM is flat (TimesFM +0.02%). Blockers named; reassess on a decisive break above 8770 or 148325. Next review 900s; SL/TP and 22:50 exits stand."
+    },
+    {
+      "time": "2026-10-07T17:25:11.533129+05:30",
+      "summary": "HOLD. NSE/BSE closed; MCX open. Both active condors verified hedged 4/4 and mid-range: 5750 CRUDEOILM +400 (SELL 8400PE/9000CE, BUY 8300PE/9100CE; spot ~8718), 5751 GOLDM +510 (SELL 146500PE/150500CE, BUY 146000PE/151000CE; spot ~148229). No new start: both MCX underlyings flat (TimesFM +0.02%/+0.01%), no decisive break of 8770 or 148325, and a third MCX neutral would duplicate correlated exposure. Blockers named. SL/TP and 22:50 exits stand. Next review 900s."
     }
   ]
 }
