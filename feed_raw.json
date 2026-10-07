@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T20:39:22.221789+05:30",
-      "summary": "20:39 IST: NSE/BSE closed; MCX open (exit 22:50). No new entry: only GOLDM/CRUDEOILM eligible and both already carry distinct live hedged condors, so a fresh condor would duplicate the same thesis. 5633 GOLDM +\u20b9400 (spot 148865 between shorts 146500P/149500C, wings intact, SL12000); 5634 CRUDEOILM -\u20b9310 (spot 8478, short 8500P ~22 pts ITM but 8400P hedge filled, SL3000). 4/4 legs each, no naked shorts, both within stops. HOLD; next review 10 min or on SL/fill."
-    },
-    {
       "time": "2026-10-06T20:49:14.840255+05:30",
       "summary": "20:49 IST: NSE/BSE closed; MCX open (exit 22:50). No new entry \u2014 only GOLDM/CRUDEOILM eligible and both already hold distinct live hedged 4-leg condors, so another would duplicate the same thesis/correlated exposure. 5633 GOLDM +\u20b9480, 4/4 legs (shorts 146500P/149500C, wings 146000P/150000C, spot 148930), SL12000 intact. 5634 CRUDEOILM -\u20b9180, 4/4 legs (shorts 8500P/8700C, wings 8400P/8800C, spot 8493), SL3000 intact. No naked shorts. Day realized +\u20b92681. HOLD; next review 10 min or on stop/fill."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T11:06:54.434263+05:30",
       "summary": "HOLD. Four hedged iron condors active, all equal-lot same-type/expiry longs verified, none near SL/TP: NIFTY 5749 +377, SENSEX 5753 -224, CRUDEOILM 5750 +120, GOLDM 5751 +250. No new entry: NIFTY/SENSEX/BANKNIFTY RSI 74-78 overbought with flat TimesFM paths, so a fresh neutral condor would only duplicate existing correlated index exposure and there is no clean directional edge. Watch SENSEX short CE 73000 (1DTE, ~25pts above spot 72975). Reassess at 210s or on a break above 73000/below 72300."
+    },
+    {
+      "time": "2026-10-07T11:10:35.672526+05:30",
+      "summary": "HOLD. Four hedged iron condors active, all equal-lot same-type/expiry longs verified, none near SL: NIFTY 5749 +403, SENSEX 5753 -214, CRUDEOILM 5750 +20, GOLDM 5751 +70. No new entry: every eligible underlying (NIFTY/SENSEX/CRUDEOILM/GOLDM) already carries a neutral position, TimesFM paths are flat and index RSI is extended (62-73), so a fresh condor/vertical would only duplicate correlated exposure. Blocker: no distinct uncorrelated edge. Watch SENSEX short CE 73000 (spot 72958); its SL 1800 is Core-managed. Reassess in 240s or on a break of 73000/72300."
     }
   ]
 }
