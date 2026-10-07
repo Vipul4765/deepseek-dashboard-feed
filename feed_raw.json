@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T19:59:25.372466+05:30",
-      "summary": "19:59 IST: NSE/BSE closed (market_open_now=false), MCX open. Two fresh, fully hedged condors: 5633 GOLDM (short 146500P/149500C, wings 146000P/150000C), +\u20b9270 unrealized; 5634 CRUDEOILM (short 8500P/8700C, wings 8400P/8800C), \u2212\u20b9510 as spot 8504 sits near the short put. 4/4 legs each, no naked shorts, SLs 12000/3000 and 22:50 exits intact. No new entry: only GOLDM/CRUDEOILM eligible, both TimesFM paths flat (+0.01%/+0.03%) and any new structure would duplicate the existing correlated theses. HOLD; next review 10 min or on SL/time-exit."
-    },
-    {
       "time": "2026-10-06T20:09:19.216113+05:30",
       "summary": "20:09 IST: NSE/BSE closed, MCX open (exit 22:50). Two hedged condors live: 5633 GOLDM +\u20b9270 (spot 148710 between shorts 146500P/149500C) and 5634 CRUDEOILM \u2212\u20b9120 (spot 8505 hugging short 8500P, wing 8400P intact). 4/4 legs each, no naked shorts, SLs 12000/3000 intact. No new entry: only GOLDM/CRUDEOILM eligible and both already carry distinct hedged theses; TimesFM flat, so any add is duplicate correlated risk. HOLD; next review 15 min or on SL/time-exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T10:52:54.125733+05:30",
       "summary": "HOLD. All four hedged iron condors active with fresh equal-lot same-type/expiry longs: NIFTY 5749 +351 (22664; short 22900CE/22550PE vs 22950/22500), SENSEX 5753 -164 (72851; short 73000CE/72300PE vs 73200/72100), CRUDEOILM 5750 +10 (8712; short 9000CE/8400PE vs 9100/8300), GOLDM 5751 +200 (148186; short 150500CE/146500PE vs 151000/146000). None near SL/TP; margins fresh (NSE 354515, MCX 244752). No distinct new thesis: indices choppy/RSI 70-76, TimesFM flat, and any new trade would duplicate existing correlated exposure. Next review 300s."
+    },
+    {
+      "time": "2026-10-07T10:57:52.452998+05:30",
+      "summary": "HOLD. Four hedged iron condors active, all with verified equal-lot same-type/expiry longs and none near SL/TP: NIFTY 5749 +468, SENSEX 5753 -192, CRUDEOILM 5750 +20, GOLDM 5751 +540. No new entry: indices choppy/overbought with flat TimesFM, so any new neutral trade would duplicate existing correlated exposure; no directional edge. Watch SENSEX short call 73000 (~48pts from 72952, 1DTE). Next review 300s."
     }
   ]
 }
