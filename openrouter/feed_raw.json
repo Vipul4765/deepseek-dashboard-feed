@@ -11,6 +11,10 @@
     {
       "time": "2026-10-07T09:46:38.360816+05:30",
       "summary": "Created NIFTY bull call spread (buy ATM, sell OTM+1) for expiry 13-10-2026, 1 lot each, overall stop loss 749 INR. Strategy ID 5636 started, awaiting entry at 14:15. Next review in 30 seconds to check entry."
+    },
+    {
+      "time": "2026-10-07T09:54:18.114237+05:30",
+      "summary": "Holding existing NIFTY bear call credit spread (sell 22600 CE, buy 22650 CE, expiry 13-10-2026, 1 lot). Underlying at 22622, short strike ITM by 22 points; max loss ~1.5k INR, profit if NIFTY falls below 22600. No adjustment triggered yet; await price action. Next review in 30 seconds to reassess."
     }
   ]
 }
