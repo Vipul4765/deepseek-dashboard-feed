@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T13:19:32.377297+05:30",
-      "summary": "HOLD, no new entry. Four hedged condors live and intact: 5749 NIFTY +221, 5753 SENSEX +104, 5750 CRUDEOILM +10, 5751 GOLDM +490 (net ~+825); every short matched by same-type/expiry long, no leg stops hit. NIFTY short put 22550 is nearest risk (~38 pts from spot, breakeven ~22529); no fresh directional evidence and all quoted underlyings already carry a condor, so a further trade would be duplicate/correlated. Trigger: NIFTY <22530 or 5749 approaching its 4500 SL. Review 150s."
-    },
-    {
       "time": "2026-10-07T13:22:02.617248+05:30",
       "summary": "HOLD, no new entry. Four hedged condors live and intact: 5749 NIFTY \u221252, 5753 SENSEX +77, 5750 CRUDEOILM +60, 5751 GOLDM +170 (net ~+255); all shorts matched by same-type/expiry longs, no leg stops hit. Reviewed NIFTY, SENSEX, GOLDM, CRUDEOILM \u2014 each already carries a live condor, TimesFM p50 near spot and RSI neutral, so no distinct non-duplicate edge; NIFTY bear put would offset the existing 22550 short put rather than add a thesis. Trigger: NIFTY <22530 or 5749 nearing its 4500 SL. Review 180s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T20:05:17.260238+05:30",
       "summary": "HOLD, no new entry. NSE/BSE closed (market_open_now false); only MCX open to 23:55. Both active MCX condors verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +780 (short 8400PE/9000CE, spot 8703, ~303/297 OTM) and 5751 GOLDM +100 (short 146500PE/150500CE, spot 147700, ~1200/2800 OTM); Core SL/TP and 22:50 exits standing, neither near trigger. Both underlyings already carry fresh neutral condors, so a third MCX structure would only add correlated exposure with no incremental edge; gold RSI 64 at session highs and crude RSI 38 after a sharp drop make fresh directional entries chasing. Next review 900s."
+    },
+    {
+      "time": "2026-10-07T20:20:10.878961+05:30",
+      "summary": "HOLD, no new entry. NSE/BSE are closed (market_open_now false); only MCX is open to 23:55. Both active MCX condors verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +880 (short 8400PE/9000CE, spot ~8705, ~300 OTM each) and 5751 GOLDM +430 (short 146500PE/150500CE, spot ~147600, ~1100/2900 OTM). Core SL/TP and 22:50 time exits remain far from trigger. A third MCX structure would only duplicate the same neutral thesis and add correlated exposure, so I declined. Next review in 900s into the 22:50 exit window."
     }
   ]
 }
