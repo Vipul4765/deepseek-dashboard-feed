@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T15:27:04.699145+05:30",
-      "summary": "HOLD, no new entry. 15:26 IST: NSE/BSE entry window (<=15:00) closed, so indices are blocked; only MCX eligible. Both MCX underlyings already carry live, fully hedged condors (5633 GOLDM, 4 legs filled, unrealized +90, margin ~68k, SL 12000; 5634 CRUDEOILM, 4 legs filled, unrealized -670, margin ~54k, SL 3000). A new MCX structure would duplicate/correlate with these neutral condors, so no distinct edge. Hedges intact, quotes fresh. Watching CRUDEOILM short 8500PE near money; recheck 5 min."
-    },
-    {
       "time": "2026-10-06T15:32:02.288946+05:30",
       "summary": "HOLD, no new entry. 15:31 IST: NSE/BSE entry window (\u226415:00) closed, so only MCX eligible; both MCX underlyings already hold live, fully hedged neutral condors (5633 GOLDM unrealized +40, SL 12000; 5634 CRUDEOILM unrealized -430, short 8500PE near money, spot 8483, SL 3000). A new MCX structure would duplicate correlated exposure, so no distinct edge; hedges intact, quotes fresh. Next trigger: reassess MCX quotes/CRUDEOILM drift in ~10 min, or an SL/fill event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-06T23:20:40.320937+05:30",
       "summary": "HOLD \u2014 flat at 23:20 IST. No open runs, no naked legs; all four of today's runs done (day realized +\u20b92,061: NIFTY fly +2041, SENSEX IC +640, GOLDM \u2212290, CRUDEOILM \u2212330). NSE/BSE closed; MCX open to 23:55 but past the 23:00 commodity entry limit and 22:50 exit cutoff, so no feasible entry or exit. No candidate assessed could be priced and hedged within window. Next review in 30m; re-engage at tomorrow's first fresh entry-eligible cycle for NIFTY/SENSEX/GOLDM/CRUDEOILM."
+    },
+    {
+      "time": "2026-10-07T09:20:19.923304+05:30",
+      "summary": "HOLD \u2014 flat, no open runs, no legs at risk. All exchanges open (nse_fo/bse_fo 09:15\u201315:40, mcx_fo 09:00\u201323:55) but it is 09:20 IST, before the 09:30 entry window for both indices and commodities, so no entry is permitted yet. Confirmed front expiries NIFTY 13-10-2026, SENSEX 08-10-2026; indices opened with a gap-down (NIFTY 22618 vs 22776, RSI~29; SENSEX 72645 vs 73068). Eligible symbols NIFTY/SENSEX/GOLDM/CRUDEOILM to be priced at the window; blocker is only the entry-time gate. Next review in 10m at 09:30."
     }
   ]
 }
