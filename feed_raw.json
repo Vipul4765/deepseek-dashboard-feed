@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-06T20:09:19.216113+05:30",
-      "summary": "20:09 IST: NSE/BSE closed, MCX open (exit 22:50). Two hedged condors live: 5633 GOLDM +\u20b9270 (spot 148710 between shorts 146500P/149500C) and 5634 CRUDEOILM \u2212\u20b9120 (spot 8505 hugging short 8500P, wing 8400P intact). 4/4 legs each, no naked shorts, SLs 12000/3000 intact. No new entry: only GOLDM/CRUDEOILM eligible and both already carry distinct hedged theses; TimesFM flat, so any add is duplicate correlated risk. HOLD; next review 15 min or on SL/time-exit."
-    },
-    {
       "time": "2026-10-06T20:24:17.972404+05:30",
       "summary": "20:24 IST: NSE/BSE closed, MCX open (exit 22:50). Two hedged condors live, both improved: 5633 GOLDM +\u20b9260 (spot ~148800 between shorts 146500P/149500C, wings intact, SL12000) and 5634 CRUDEOILM +\u20b9230 (spot 8485 vs short 8500P, 8400P hedge filled, SL3000). 4/4 legs each, no naked shorts. No new entry: only GOLDM/CRUDEOILM eligible, both already carry distinct hedged theses and TimesFM flat, so any add is duplicate correlated risk. HOLD; next review 15 min or on SL/time exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T10:57:52.452998+05:30",
       "summary": "HOLD. Four hedged iron condors active, all with verified equal-lot same-type/expiry longs and none near SL/TP: NIFTY 5749 +468, SENSEX 5753 -192, CRUDEOILM 5750 +20, GOLDM 5751 +540. No new entry: indices choppy/overbought with flat TimesFM, so any new neutral trade would duplicate existing correlated exposure; no directional edge. Watch SENSEX short call 73000 (~48pts from 72952, 1DTE). Next review 300s."
+    },
+    {
+      "time": "2026-10-07T11:02:51.780002+05:30",
+      "summary": "HOLD. Four hedged iron condors active, all equal-lot same-type/expiry longs verified and none near SL/TP: NIFTY 5749 +481, SENSEX 5753 -216, CRUDEOILM 5750 -230, GOLDM 5751 -70. No new entry: indices are overbought/choppy with flat TimesFM paths, so a fresh neutral condor would only duplicate existing correlated index exposure and there is no directional edge. Watch SENSEX short call 73000 (~55pts above spot 72945, 1DTE). Next review 240s."
     }
   ]
 }
