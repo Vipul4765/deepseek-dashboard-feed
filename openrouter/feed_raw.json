@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T23:29:44.086627+05:30",
-      "summary": "Assessed GOLDM and CRUDEOILM (MCX open, indices closed). No open positions. Market is choppy with no clear directional move; time is 23:28 IST, past the suggested commodity exit time (22:50) and only 27 minutes before market close (23:55), insufficient to enter and manage a new trade. Holding until next session. Will reassess at 09:00 IST next trading day for fresh entry opportunities."
-    },
-    {
       "time": "2026-10-08T09:17:47.005519+05:30",
       "summary": "Assessed GOLDM and CRUDEOILM (MCX open, indices closed). No open positions. Market is choppy with no clear directional move; time is 23:28 IST, past the suggested commodity exit time (22:50) and only 27 minutes before market close (23:55), insufficient to enter and manage a new trade. Holding until next session. Will reassess at 09:00 IST next trading day for fresh entry opportunities."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T23:02:28.147554+05:30",
       "summary": "Market closed for NIFTY and SENSEX (NSE/BSE). MCX trading is blocked by identity rule. No open positions. Awaiting next trading day. Will reassess in next cycle."
+    },
+    {
+      "time": "2026-10-08T23:17:23.513406+05:30",
+      "summary": "NSE/BSE index markets closed (NIFTY/SENSEX), MCX trading blocked by identity rule. No open positions. No new trades possible. Holding until next trading session. Will reassess at market open tomorrow."
     }
   ]
 }
