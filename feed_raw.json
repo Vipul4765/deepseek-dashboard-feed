@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T09:31:42.161111+05:30",
-      "summary": "Both sessions open. NIFTY 5822 live: 4x 13-10 condor (SELL 22750CE/BUY 22800CE, SELL 22350PE/BUY 22300PE), mark ~flat (+13), SL 5000/TP 3500, exit 14:55 \u2014 left running. Added GOLDM 5823: 2x 21DTE 29-10 iron condor SELL 149500CE/BUY 150000CE, SELL 147500PE/BUY 147000PE; fills verified, hedges intact, credit 421.5 pts (max profit \u20b98,430) vs defined max loss \u20b91,570, margin \u20b968.5k, exit 22:50 \u2014 GOLDM flat/bounded range, R:R 5.4. Skipped SENSEX 0DTE (bearish gap, weak record) and crude vertical (R:R<1). Next review 600s."
-    },
-    {
       "time": "2026-10-08T09:32:27.053619+05:30",
       "summary": "Both sessions open; HOLD, no new entry. Verified live runs: NIFTY 5822 condor (short 22750CE/22350PE, long 22800CE/22300PE, 4 lots) +\u20b9117, margin ~\u20b9273k; GOLDM 5823 condor (short 149500CE/147500PE, long 150000CE/147000PE, 2 lots) +\u20b9200, margin \u20b9145k \u2014 hedges intact. Assessed SENSEX 0DTE (bearish gap, weak 33% 4-leg record), CRUDEOILM (50-wide spreads \u22481\u00d7 daily range, R:R<1), NIFTY adds (duplicate short-put thesis). Exits: NIFTY 14:55, GOLDM 22:50. Next review 300s or on stop/target/fill event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T12:51:33.398786+05:30",
       "summary": "HOLD, no new entry. Sessions open (nse/bse/mcx); all 4 runs hedged and intact: 5835 SENSEX 0DTE bear put -490 (spot 71744), 5822 NIFTY IC -1495 (short 22350PE vs spot 22286, SL 5000), 5823 GOLDM IC -60, 5825 CRUDEOILM IC -175. Today +4725. Assessed NIFTY/SENSEX/BANKNIFTY/FINNIFTY/MIDCPNIFTY/GOLDM/CRUDEOILM: only supported thesis is the broad selloff, already expressed by 5835 and ~0.99-correlated with any new index short \u2014 duplicate exposure, so blocked; GOLDM RSI 74 has no reversal edge, CRUDEOILM momentum mixed. Reassess if NIFTY reclaims 22350 / SENSEX 71950, or on a distinct non-correlated setup; 5835 time-exit 14:55. Next review 300s."
+    },
+    {
+      "time": "2026-10-08T12:56:25.511693+05:30",
+      "summary": "HOLD, no new entry. Sessions open; all 4 runs hedged and intact: 5835 SENSEX 0DTE bear put (short 71500PE/long 71700PE, \u221260, spot 71714), 5822 NIFTY IC \u22121547 (short 22350PE vs spot 22280, SL 5000), 5823 GOLDM IC \u2212230, 5825 CRUDEOILM IC \u2212125. Today +4725. Assessed NIFTY/SENSEX/BANKNIFTY/FINNIFTY/MIDCPNIFTY/GOLDM/CRUDEOILM; only supported thesis is the broad selloff, already expressed by 5835 and 5822's ITM put wing, so any new index short is duplicate correlated exposure, and MCX adds sit at existing condor strikes. No distinct fresh edge. Reassess if NIFTY reclaims 22350 / SENSEX 71950 or a non-index setup appears; 5835 time-exits 14:55. Next review 360s."
     }
   ]
 }
