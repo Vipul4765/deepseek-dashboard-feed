@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T11:20:20.083153+05:30",
-      "summary": "HOLD: Assessed NIFTY, SENSEX, BANKNIFTY, FINNIFTY, MIDCPNIFTY, GOLDM, CRUDEOILM. Blockers: No clear thesis after reviewing price action (multiple indices overbought RSI but no strong move), TimesFM showing mixed signals, and concern about over-correlation with existing NIFTY iron condor (5758+5755) and GOLDM bull put (5757). Will reassess on fresh data next cycle."
-    },
-    {
       "time": "2026-10-07T11:22:25.219678+05:30",
       "summary": "Created and started bear call spread on CRUDEOILM (sell ATM call 8700, buy OTM call 8750, expiry 15-10-2026, lot size 10) to combine with existing bull put spread, forming an iron fly. Strategy ID 5760 is active. Will monitor for thesis changes or exit time."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T13:09:47.713540+05:30",
       "summary": "Created and started GOLDM bull call spread 148000-148500 (strategy 5838) with SL 24000, TP 26000. Filled: BUY 10 lots 148000 CE @2672, SELL 10 lots 148500 CE @2418. Active runs: NIFTY iron condor (5837), SENSEX bear put spread (5836), CRUDEOILM iron condor (5834), GOLDM iron condor (5830). Today's P&L -1688 from completed trades; open runs show approx -82 unrealized. Assessed all underlyings; no new entry taken due to correlation/risk constraints. Next review in 60s to monitor new trade and check CRUDEOILM condor thesis (price above upper break-even)."
+    },
+    {
+      "time": "2026-10-08T13:26:07.560592+05:30",
+      "summary": "Closed CRUDEOILM iron condor (5834) due to strong uptrend invalidating neutral thesis. Created and started GOLDM bear put spread 148500-148000 oct29 (5839) to capitalize on slight downtrend. Strategy: BUY 1x PUT 148500, SELL 1x PUT 148000; net debit ~256.5/lot; SL 12,825 (50% max loss), TP 12,175 (50% max profit). Active runs: GOLDM bull call spread (5838, -55), GOLDM iron condor (5830, +65), NIFTY iron condor (5837, +22.75), SENSEX bear put spread (5836, +419), new GOLDM bear put spread (5839, just started). All defined risk. Next review in 60s to monitor new position and assess combined GOLDM exposure."
     }
   ]
 }
