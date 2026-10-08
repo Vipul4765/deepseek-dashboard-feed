@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T19:35:23.676802+05:30",
-      "summary": "HOLD, no new entry. NSE/BSE closed (market_open_now false); only MCX open. Both active condors verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +1110 (short 8400PE/9000CE, spot 8732, strikes 332/268 away) and 5751 GOLDM +440 (short 146500PE/150500CE, spot 147430, ~930/3070 away); Core SL/TP and 22:50 exit standing, neither near a trigger. New entry blocked: both MCX symbols already carry neutral condors, and CRUDEOILM's sharp drop is deeply oversold (RSI 18), so a fresh correlated short-call continuation is poor timing; GOLDM flat. Next review 900s."
-    },
-    {
       "time": "2026-10-07T19:50:12.551263+05:30",
       "summary": "HOLD, no new entry. NSE/BSE closed (market_open_now false); only MCX open until 23:55. Active positions verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +1070 (short 8400PE/9000CE, spot 8715, ~315/285 OTM) and 5751 GOLDM +210 (short 146500PE/150500CE, spot 147530, ~1030/2970 OTM); Core SL/TP and 22:50 exits standing, neither near trigger. Fresh MCX condors on both symbols already express the neutral thesis, so a second correlated structure adds no edge; CRUDEOILM deeply oversold (RSI 31.9) makes a fresh short-call continuation poor timing. Next review 900s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T11:45:53.076147+05:30",
       "summary": "11:45 IST, all sessions open, data fresh. HOLD - no new entry. Four hedged runs already cover every underlying I trade (NIFTY 5822 -637; SENSEX 0DTE 5831 +2540, near max with 72300/72500 spread; GOLDM 5823 -890; CRUDEOILM 5825 -165); all shorts matched by equal-lot long options, no naked legs. TimesFM p50 flat/slightly up on all four and price action is choppy-recovering, so any new structure would duplicate correlated short-vol exposure with no distinct edge. Next review 300s; watch SENSEX 72300 into 14:55 and NIFTY 22350."
+    },
+    {
+      "time": "2026-10-08T11:50:37.450887+05:30",
+      "summary": "11:50 IST, all sessions open, data fresh. HOLD, no new entry. Four hedged runs already cover every underlying I trade: SENSEX 0DTE 5831 +3170 (bear put 72500/72300, deep ITM, holding to 14:55), NIFTY 5822 -663, GOLDM 5823 +130, CRUDEOILM 5825 -110; all shorts matched by equal-lot longs, no naked legs. TimesFM p50 flat/slightly up and price action choppy-recovering, so any new structure only adds correlated short-vol exposure with no distinct edge. Next review 300s; watch SENSEX 72300 into 14:55 and NIFTY 22350."
     }
   ]
 }
