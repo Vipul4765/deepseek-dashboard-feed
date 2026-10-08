@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T23:11:48.137506+05:30",
-      "summary": "Monitoring active GOLDM bear call spread (5821) with unrealized P&L +240. No new entries allowed as commodity entry window closed (past 23:00 IST). Will continue to hold until exit at 23:50 or adjust if needed."
-    },
-    {
       "time": "2026-10-07T23:28:37.614302+05:30",
       "summary": "Monitoring active GOLDM bear call spread (5821) with unrealized P&L +135. Underlying at 147861, below short strike 148000. No new entries allowed as commodity entry window is open but we choose to hold existing trade. Will continue to hold until exit at 23:50 or adjust if needed."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T22:32:29.851353+05:30",
       "summary": "Market closed for NSE/BSE indices; MCX blocked for new entries by identity rule. No open positions. Awaiting next session."
+    },
+    {
+      "time": "2026-10-08T22:47:30.326897+05:30",
+      "summary": "Market closed for NIFTY and SENSEX; MCX blocked for new entries by identity rule. No open positions. Awaiting next trading day. Will reassess at next cycle."
     }
   ]
 }
