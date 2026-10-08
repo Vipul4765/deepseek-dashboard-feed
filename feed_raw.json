@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T09:50:00.929905+05:30",
-      "summary": "HOLD \u2014 no new entry. Three live condors verified filled with every short covered by an equal-lot same-type/expiry long: 5822 NIFTY +39 (spot 22449; shorts 22350/22750), 5823 GOLDM +210 (spot 148522; shorts 147500/149500), 5825 CRUDEOILM -25 (spot 8718; shorts 8400/9000); all inside SL/TP, margin admitted. Assessed NIFTY, GOLDM, CRUDEOILM, SENSEX: the first three already hold today's neutral thesis (vertical would be correlated duplication); SENSEX is 0DTE, already moved ~430 pts, and its 4-leg live record is net -\u20b92429/6 trades \u2014 no bounded-range edge at achievable strikes. Next review 240s, watching NIFTY 22350 put and CRUDEOILM 9000 call."
-    },
-    {
       "time": "2026-10-08T09:53:40.879934+05:30",
       "summary": "HOLD, no new entry and no management change. Verified all three live condors fully hedged, equal lots, same type/expiry: 5822 NIFTY +117 (spot 22472), 5823 GOLDM +10 (spot 148465), 5825 CRUDEOILM -35 (spot 8719); all well inside SL/TP. Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM: first three already hold today's neutral thesis (a vertical would be correlated duplication); SENSEX is 0DTE, already ~380 pts down with weak 4-leg record; CRUDEOILM RSI 74 overbought and any vertical stacks on 5825. Next review 300s."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-08T13:22:41.357270+05:30",
+      "summary": "HOLD, no new entry. Sessions open, quotes fresh (13:22 IST). All 4 runs defined-risk/hedged: 5835 SENSEX 0DTE bear put +4190 (auto-exit 14:55), 5822 NIFTY IC \u22121625 (SL 5000), 5823 GOLDM IC +200, 5825 CRUDEOILM IC \u2212360; today realized +4725. Eligible symbols assessed: NIFTY/SENSEX down hard but oversold at day lows (chasing = duplicate of 5835, expensive IV); GOLDM flat would duplicate 5823; CRUDEOILM uptrend offers no clean non-conflicting vertical (R:R ~1.0, breakeven above TimesFM p50). Blocker: no distinct thesis without duplicating correlated exposure. Reassess on index bounce (risks 5835) or renewed slide (risks 5822), or a >1% CRUDEOILM move. Next review 300s."
+    },
+    {
+      "time": "2026-10-08T13:27:30.340937+05:30",
       "summary": "HOLD, no new entry. Sessions open, quotes fresh (13:22 IST). All 4 runs defined-risk/hedged: 5835 SENSEX 0DTE bear put +4190 (auto-exit 14:55), 5822 NIFTY IC \u22121625 (SL 5000), 5823 GOLDM IC +200, 5825 CRUDEOILM IC \u2212360; today realized +4725. Eligible symbols assessed: NIFTY/SENSEX down hard but oversold at day lows (chasing = duplicate of 5835, expensive IV); GOLDM flat would duplicate 5823; CRUDEOILM uptrend offers no clean non-conflicting vertical (R:R ~1.0, breakeven above TimesFM p50). Blocker: no distinct thesis without duplicating correlated exposure. Reassess on index bounce (risks 5835) or renewed slide (risks 5822), or a >1% CRUDEOILM move. Next review 300s."
     }
   ]
