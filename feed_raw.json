@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T15:55:12.112450+05:30",
-      "summary": "HOLD. NSE/BSE closed (15:40), no index entries. Two hedged MCX condors live on fresh marks: 5750 CRUDEOILM +390 (short 8400PE/9000CE, spot 8723), 5751 GOLDM -100 (short 146500PE/150500CE, spot 148130); both mid-range, Core-managed SL/TP, 22:50 exit. No new trade: a third condor would duplicate existing neutral GOLDM/CRUDEOILM exposure and neither shows a distinct directional edge (crude near day-high, gold flat). Next: MCX SL/TP/exit; review 1200s."
-    },
-    {
       "time": "2026-10-07T16:10:15.284069+05:30",
       "summary": "HOLD. NSE/BSE closed (15:40), no index entries; MCX open. Two hedged condors live on fresh marks: 5750 CRUDEOILM +270 (short 8400PE/9000CE, spot 8712) and 5751 GOLDM -310 (short 146500PE/150500CE, spot 148150), both mid-range, fully hedged, Core-managed SL/TP, 22:50 exit. No new trade: TimesFM paths flat and a third MCX condor would duplicate existing neutral GOLDM/CRUDEOILM exposure with no distinct directional edge. Next review 900s; manage MCX SL/TP/exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T09:45:51.121034+05:30",
       "summary": "Held; no new entry. All three live condors (5822 NIFTY, 5823 GOLDM, 5825 CRUDEOILM) confirmed filled with every short covered by an equal-lot same-type/expiry long; marks \u221265/+150/+20, all inside SL/TP, margin admitted. Assessed NIFTY, GOLDM, CRUDEOILM, SENSEX: three already carry today's neutral thesis, and SENSEX 0DTE is high-gamma with a negative 4-leg record, so no distinct non-duplicative edge. Next review 240s, watching NIFTY short put 22350 and CRUDEOILM short call 9000."
+    },
+    {
+      "time": "2026-10-08T09:50:00.929905+05:30",
+      "summary": "HOLD \u2014 no new entry. Three live condors verified filled with every short covered by an equal-lot same-type/expiry long: 5822 NIFTY +39 (spot 22449; shorts 22350/22750), 5823 GOLDM +210 (spot 148522; shorts 147500/149500), 5825 CRUDEOILM -25 (spot 8718; shorts 8400/9000); all inside SL/TP, margin admitted. Assessed NIFTY, GOLDM, CRUDEOILM, SENSEX: the first three already hold today's neutral thesis (vertical would be correlated duplication); SENSEX is 0DTE, already moved ~430 pts, and its 4-leg live record is net -\u20b92429/6 trades \u2014 no bounded-range edge at achievable strikes. Next review 240s, watching NIFTY 22350 put and CRUDEOILM 9000 call."
     }
   ]
 }
