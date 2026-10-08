@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T12:40:28.526652+05:30",
-      "summary": "HOLD, no new entry. 5835 SENSEX 0DTE bear put (BUY 71700PE/SELL 71500PE, 10 lots) filled at 12:40, hedge intact, margin 438.5k. Open hedged runs: 5822 NIFTY IC -1,677 (spot 22,277 sits below 22,350 short put; SL 5,000 intact), 5823 GOLDM +1,090, 5825 CRUDEOILM -285 (crude 8,848 vs 9,000 short call, RSI 82). New entries blocked: nse_fo calendar unverified, and bse/mcx theses already held so more would duplicate correlated exposure. Today closed +4,725 (5831). Next review 120s."
-    },
-    {
       "time": "2026-10-08T12:42:25.386673+05:30",
       "summary": "HOLD, no new entry. Open hedged runs all intact: 5835 SENSEX 0DTE bear put (BUY 71700PE/SELL 71500PE, 10 lots, filled 12:40, -930), 5822 NIFTY IC -1547 (spot 22,290 below 22,350 short put; SL 5,000 intact), 5823 GOLDM -130, 5825 CRUDEOILM -205 (crude 8,848 vs 9,000 short call). Fresh get_session shows nse_fo open/verified, so no calendar block; blocker is correlation \u2014 every configured underlying already carries open exposure, so a new leg would duplicate the SENSEX bearish thesis or an existing IC. Today closed +4,725 (5831). Next review 240s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T19:07:15.773075+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false) and MCX new entries barred, so no new risk. Both open MCX 4-leg iron condors verified hedged with fresh marks (age 0.8s): 5823 GOLDM +340 unrealized vs SL 11k (shorts 149500 CE/147500 PE, spot 148143, inside range); 5825 CRUDEOILM -590 vs SL 6k (shorts 9000 CE/8400 PE, spot 8938, inside 8400-9000). Today realized +14,975. No edits; both exit 22:50. Next review 25m or on any leg/stop/exit event."
+    },
+    {
+      "time": "2026-10-08T19:22:10.257466+05:30",
+      "summary": "HOLD. NSE/BSE closed (market_open_now=false) and MCX new entries barred by boss's decision, so no new risk. Both open runs verified hedged from fresh snapshots (age 0.6s): 5823 GOLDM iron condor (SELL 149500 CE/147500 PE vs BUY 150000 CE/147000 PE) unrealized +310 vs SL 11000, spot 148394 inside body; 5825 CRUDEOILM condor (SELL 9000 CE/8400 PE vs BUY 9200 CE/8200 PE) unrealized -470 vs SL 6000, spot 8929 inside 8400-9000. Today realized +14975. No edits; both exit 22:50. Next review 30m or on any leg/stop/exit event."
     }
   ]
 }
