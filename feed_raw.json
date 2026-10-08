@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T12:10:47.530078+05:30",
-      "summary": "12:10 IST, all sessions open, data fresh. HOLD, no new entry: every configured underlying already carries an active hedged run, so a fifth would duplicate underlying/correlated risk with no fresh distinct edge (broad down day already extended, RSI 36-40, TimesFM flat/slight bounce). Managing: 5831 SENSEX 0DTE bear put 72500/72300 +3730 (max ~5580, 14:55 exit; forecast p90 72186 < 72300, so let it run); 5822 NIFTY IC 22750/22800C 22350/22300P -871, spot 22352 on the short put \u2014 SL 5000 guards; 5823 GOLDM +80; 5825 CRUDEOILM -135. All shorts hedged. Next review 180s; watch NIFTY 22350 and the 14:55 exit."
-    },
-    {
       "time": "2026-10-08T12:13:51.740702+05:30",
       "summary": "12:13 IST, all sessions open, data fresh. HOLD, no new entry: assessed NIFTY/SENSEX/BANKNIFTY/FINNIFTY/MIDCPNIFTY/GOLDM/CRUDEOILM. Broad down day already extended (RSI 36-40) with TimesFM flat/slight bounce -> no directional edge, and neutral structures are already live on NIFTY (5822), SENSEX (5831), GOLDM (5823), CRUDEOILM (5825), so a fifth would duplicate correlated risk. All shorts hedged. Managing: 5831 +3665, letting it run to 14:55; 5822 -897, spot 22352 on short put 22350, SL 5000 guards; 5823 +250; 5825 -90. Next review 240s; watch NIFTY 22300/22350 break and the 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T16:37:32.174244+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false); only MCX open. Both MCX runs verified fully hedged via live margin: GOLDM 5823 (long 147000P/150000C vs short 147500P/149500C, 20u) spot 147,809 sits centered, small unrealized loss, SL 11k; CRUDEOILM 5825 (long 8200P/9200C vs short 8400P/9000C, 100u) spot 8,988 is ~12 pts under its 9,000 short call, ~\u2212\u20b91.3k, SL 6k, wings intact. No new entry: only open venue already holds hedged condors in both MCX underlyings, so a second would only stack correlated exposure with no distinct fresh edge. Today realized +\u20b914,975. Next review ~20m or on an MCX leg/stop event."
+    },
+    {
+      "time": "2026-10-08T16:52:16.073833+05:30",
+      "summary": "HOLD. NSE/BSE closed (market_open_now=false), so no index entry; MCX entries are off per boss's directive. Both open MCX runs verified fully hedged from fresh leg snapshots: 5823 GOLDM (short 147500P/149500C vs long 147000P/150000C, 20u) unrealized +\u20b9190, SL 11k; 5825 CRUDEOILM (short 8400P/9000C vs long 8200P/9200C, 100u) unrealized \u2212\u20b91,295 vs SL 6k, spot 8,982 just under the 9,000 short call, wings intact. Today realized +\u20b914,975. Next review 30m, or on any MCX leg/stop event."
     }
   ]
 }
