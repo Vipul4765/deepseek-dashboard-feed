@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T16:55:11.708566+05:30",
-      "summary": "HOLD. NSE/BSE closed (15:40); MCX open. Both live condors confirmed hedged 4/4 and mid-range: 5750 CRUDEOILM +360 (short 8400PE/9000CE, spot 8738) and 5751 GOLDM +270 (short 146500PE/150500CE, spot 148245), Core SL/TP with 22:50 exit. No new start: a third MCX neutral condor duplicates correlated exposure, and TimesFM paths are flat (GOLDM +0.05%, CRUDEOILM -0.10%) with no directional edge. Next review 1200s; manage SL/TP/exit."
-    },
-    {
       "time": "2026-10-07T17:10:20.843205+05:30",
       "summary": "HOLD. NSE/BSE closed (15:40); MCX open. Both live condors verified hedged 4/4 from Core snapshots and mid-range: 5750 CRUDEOILM +470 (SELL 8400PE/9000CE, BUY 8300PE/9100CE, spot 8744), 5751 GOLDM +500 (SELL 146500PE/150500CE, BUY 146000PE/151000CE, spot 148265). No new start: a third MCX neutral would duplicate existing correlated exposure, and the only fresh signal (CRUDEOILM 16:54-17:00 volume pop) is contradicted by TimesFM (-0.16%); GOLDM is flat (TimesFM +0.02%). Blockers named; reassess on a decisive break above 8770 or 148325. Next review 900s; SL/TP and 22:50 exits stand."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T10:09:09.504319+05:30",
       "summary": "HOLD \u2014 no new entry, no management change. Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM. Verified all three live condors hedged, equal-lot, same type/expiry: 5822 NIFTY short 22750C/22350P (+130), 5823 GOLDM short 149500C/147500P (-200), 5825 CRUDEOILM short 9000C/8400P (-25); none near SL/TP. Blockers to a new trade: TimesFM flat with wide bands and no clean intraday direction (no vertical thesis); another neutral structure would duplicate existing short-vol exposure; SENSEX 0DTE has negative edge (credit ~48 on 100 wings vs 353 straddle, breakevens ~0.65\u03c3 inside the priced move). Reassess on a >0.5% directional break; next review 600s."
+    },
+    {
+      "time": "2026-10-08T10:18:44.430565+05:30",
+      "summary": "HOLD \u2014 no new entry, no management change. Verified all three live condors hedged, equal-lot, same type/expiry: 5822 NIFTY short 22750C/22350P (+429), 5823 GOLDM short 149500C/147500P (+130), 5825 CRUDEOILM short 9000C/8400P (-155); none near SL/TP. Assessed all four traded underlyings: TimesFM flat with wide bands for NIFTY/GOLDM/CRUDEOILM, and SENSEX 0DTE has negative edge (~48 credit on 100-wide wings vs 348 straddle). Another neutral structure would just duplicate existing short-vol exposure. Reassess on NIFTY breaking 22446/22644 or >0.5% directional move; next review 600s."
     }
   ]
 }
