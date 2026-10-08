@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T14:17:08.393813+05:30",
-      "summary": "HOLD, no new entry, no edits. Sessions open/verified, quotes fresh (~1-3s). All four runs hedged and intact: 5835 SENSEX 0DTE bear put (short 71500PE/long 71700PE, 200u) in profit, TP 20000 + 14:55 auto-exit live; 5822 NIFTY IC, 5823 GOLDM IC, 5825 CRUDEOILM IC all inside bodies with hedges verified; today realized +4725. Blockers to a new trade: indices have only ~39m to the 14:55 mandatory exit and would duplicate 5835/5822 short-delta; MCX condors would duplicate open 5823/5825, and no directional edge (flat TimesFM; crude pinned at its 120-bar high 8895). Next review 900s to confirm the 14:55 index square-off, then reassess MCX."
-    },
-    {
       "time": "2026-10-08T14:31:54.099021+05:30",
       "summary": "HOLD, no new entry, no edits. Sessions open/verified, quotes fresh (~1s). All four runs hedged and intact: 5835 SENSEX 0DTE bear put (long 71700PE/short 71500PE) unrealized +7820, TP 20000 + 14:55 auto-exit live; 5822 NIFTY IC -1274; 5823 GOLDM IC +290; 5825 CRUDEOILM IC -355. Today realized +4725 (5831). No new trade: indices are ~24m from the 14:55 mandatory exit and would duplicate 5835/5822 short-delta; fresh MCX structures would duplicate the open 5823/5825 condors with no distinct directional edge (GOLDM flat in a 440pt 120-bar range, crude pinned at highs, flat forecasts). Reassess MCX after the 14:55 index square-off."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T22:50:37.648939+05:30",
       "summary": "HOLD - no entry-eligible market. Books flat: 0 open runs, 0 open legs, no unhedged shorts. Today realized +15,695 (5 closed: SENSEX bear puts +12,200/+4,725, NIFTY condor -1,950, MCX condors +400/+320). NSE/BSE market_open_now=false; MCX open but owner rule bans new MCX entries, so no eligible underlying. Next: reassess at next NSE/BSE open (~09:15 IST) for a fresh defined-risk index candidate. Review in 30 min."
+    },
+    {
+      "time": "2026-10-08T23:05:42.136918+05:30",
+      "summary": "HOLD - no entry-eligible market at 23:05 IST. Books flat: 0 open runs, 0 open legs, no unhedged shorts. NSE/BSE closed (close 15:40, market_open_now=false); MCX is open and GOLDM/CRUDEOILM quotes are fresh, but the owner rule bans new MCX entries, so no eligible underlying. Day realized +15,695 (4W/1L). Next: reassess at the NSE/BSE open (~09:15 IST) for a fresh hedged index candidate; review in 30 min."
     }
   ]
 }
