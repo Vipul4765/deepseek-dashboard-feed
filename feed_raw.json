@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T17:55:13.662424+05:30",
-      "summary": "HOLD. NSE/BSE closed; MCX open. Both active condors verified fully hedged 4/4: 5750 CRUDEOILM +730 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8709, well centred), 5751 GOLDM +10 (SELL 146500PE/BUY 146000PE, SELL 150500CE/BUY 151000CE; spot 148106). No new start: only MCX eligible, and both GOLDM and CRUDEOILM already carry a fresh neutral condor, so a third neutral only duplicates correlated exposure; tape is flat/choppy. SL/TP and 22:50 exits stand. Next review 1200s."
-    },
-    {
-      "time": "2026-10-07T18:10:15.531035+05:30",
-      "summary": "HOLD. NSE/BSE closed; only MCX open. Both active condors verified fully hedged 4/4: 5750 CRUDEOILM +650 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8741, centred), 5751 GOLDM -230 (SELL 146500PE/BUY 146000PE, SELL 150500CE/BUY 151000CE; spot 147115 after a ~1000pt slide, RSI 29.6, still 615 above short put, defined-risk, SL 20000). No new start: both MCX underlyings already carry fresh neutral condors, so a third leg duplicates correlated exposure; index entry windows closed. SL/TP and 22:50 exits stand. Next review 900s, watching GOLDM downside."
-    },
-    {
       "time": "2026-10-07T18:25:13.092118+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now false); only MCX open. Both active condors verified fully hedged 4/4 from Core snapshots: 5750 CRUDEOILM +870 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8712, centred), 5751 GOLDM -110 (SELL 146500PE/BUY 146000PE, SELL 150500CE/BUY 151000CE; spot ~147150, short put 650 away, defined-risk, SL 20000). No new start: both MCX underlyings already carry fresh neutral condors, so a third adds correlated exposure; indices closed. SL/TP and 22:50 exits stand. Next review 600s, watching GOLDM downside."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-08T10:54:08.545244+05:30",
       "summary": "HOLD \u2014 no new entry, no management change. All three live condors confirmed hedged/equal-lot and inside stops: 5822 NIFTY +182, 5823 GOLDM +320, 5825 CRUDEOILM \u2212105. Assessed all enabled underlyings: BANKNIFTY/FINNIFTY have no option-chain feed (cannot price or hedge \u2192 ineligible); SENSEX 0DTE premium is thin (best 100-wide condor R:R 0.34, short strikes already inside today's ~580pt range) and an ATM fly's 200pt wings are threatened by the day's move; NIFTY/GOLDM/CRUDEOILM already carry the same short-vol thesis, so a fourth condor only duplicates correlated exposure. TimesFM flat everywhere; no clean directional move. Next review 600s; act if NIFTY breaks 22400/22600."
+    },
+    {
+      "time": "2026-10-08T11:07:57.479300+05:30",
+      "summary": "Opened a new defined-risk trade: SENSEX 0DTE bear put spread (buy ATM ~72200 PE / sell otm_2 ~72000 PE), 5 lots, exp 08-10-2026, exit 14:55, overall SL 6000 / TP 9500 (strategy 5831, run ACTIVE; both order legs fired, fills pending). Worst-case loss \u2248 \u20b98,245 (net debit, hedged equal-lot same type/expiry); margin \u2248 \u20b9236k. Thesis: clear SENSEX downtrend (RSI 31, \u2212477 pts) on the only uncommitted underlying. Existing condors 5822 NIFTY (+78), 5823 GOLDM (\u221290), 5825 CRUDEOILM (\u221270) all hedged and inside stops. Next: verify fills in 90s, then manage to 14:55 exit."
+    },
+    {
+      "time": "2026-10-08T11:08:38.243979+05:30",
+      "summary": "HOLD, no new entry. All four configured underlyings already carry live, hedged positions: 5831 SENSEX 0DTE bear put (confirmed fills BUY 72500 PE @362.10 / SELL 72300 PE @217.90, 5 lots, hedged, +125), 5822 NIFTY condor (+195, margin 247k), 5823 GOLDM condor (-580, SL 6000), 5825 CRUDEOILM condor (-30). No naked legs; MCX/NSE/BSE data fresh and sessions open. Blocker: no distinct uncorrelated thesis \u2014 indices neutral/choppy (NIFTY RSI 48, TimesFM flat); adding would duplicate correlated index exposure. Next: recheck in 10 min; SENSEX 0DTE exit 14:55."
     }
   ]
 }
