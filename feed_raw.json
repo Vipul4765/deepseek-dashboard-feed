@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T13:53:19.028864+05:30",
-      "summary": "HOLD, no new entry. Sessions open, quotes fresh 13:52. Book fully hedged: 5835 SENSEX 0DTE bear put +5660 (auto-exit 14:55); 5822 NIFTY IC -1612 (spot 22236 below short 22350PE, SL 5000 intact); 5823 GOLDM -210; 5825 CRUDEOILM -170. Today realized +4725. Eligible assessed: NIFTY/SENSEX (RSI 24.7/36.7 at day lows \u2014 short-delta verticals duplicate 5835+5822 and enter overextended); GOLDM/CRUDEOILM (range-bound, flat TimesFM \u2014 neutral adds duplicate 5823/5825). Blocker: no non-duplicative edge. Next review 240s; act on a fresh commodity range break or NIFTY reclaim of 22350."
-    },
-    {
       "time": "2026-10-08T13:56:42.230370+05:30",
       "summary": "HOLD, no new entry, no edits. Sessions open, calendar verified, quotes fresh (~3s). Book: 5835 SENSEX 0DTE bear put (long 71700PE/short 71500PE, 10 lots) +4820, hedged, favorable theta with spot 71581 mid-spread; auto-exit 14:55, TP 20000 intact. 5822 NIFTY IC -1586 (5 DTE, SL 5000 intact); 5823 GOLDM +300; 5825 CRUDEOILM -150. Today realized +4725. Assessed NIFTY/SENSEX (bearish verticals duplicate 5835+5822), GOLDM/CRUDEOILM (flat forecasts, duplicates 5823/5825). Blocker: no non-duplicative edge. Next review 300s; act on SENSEX drop below 71500 or reversal above 71700."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T22:37:12.305011+05:30",
       "summary": "HOLD, no new risk. NSE/BSE closed (market_open_now=false); owner rule bans new MCX entries, so no entry-eligible underlying. Both open condors hedged and ACTIVE with fresh marks: 5823 GOLDM +720 unrealized (short 149500CE/147500PE, long 150000CE/147000PE, SL 11000), 5825 CRUDEOILM +215 unrealized (short 9000CE/8400PE, long 9200CE/8200PE, SL 6000). All four legs filled/covered each. Today realized +14975. No action; next review ~22:47 to confirm the 22:50 auto time-exit."
+    },
+    {
+      "time": "2026-10-08T22:47:11.363388+05:30",
+      "summary": "No new trades. NSE/BSE closed (market_open_now=false) and owner rule bans new MCX entries, so no entry-eligible underlying. Both open condors hedged (4 legs filled each) and ACTIVE with fresh marks: 5823 GOLDM +10 unrealized (short 149500CE/147500PE, long 150000CE/147000PE, SL 11000, MCX margin ~68514), 5825 CRUDEOILM +260 (short 9000CE/8400PE, long 9200CE/8200PE, SL 6000, margin ~37130). Today realized +14975. Both carry a 22:50 time exit; left to auto-exit. Next review ~22:52 to confirm flat and hedge integrity."
     }
   ]
 }
