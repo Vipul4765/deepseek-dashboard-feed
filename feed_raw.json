@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T18:45:14.922206+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now false); only MCX open. Both running condors verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +730 (short 8400PE/9000CE, spot 8726 well inside), 5751 GOLDM -210 (short 146500PE/150500CE, spot ~147385; put 885 away, no stop threat). Assessed eligible MCX names: GOLDM choppy 146805-148380 and CRUDEOILM range-bound 8693-8771 \u2014 no directional move, and both already carry fresh neutral condors, so a new condor would duplicate correlated exposure, not a distinct thesis. No qualifying candidate. Existing SL/TP and 22:50 exit stand. Next review 600s; reassess on a GOLDM break outside its range."
-    },
-    {
       "time": "2026-10-07T18:55:12.331582+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now false); only MCX open. Both running condors verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +190 (short 8400PE/9000CE, spot 8760, call 240 away), 5751 GOLDM +200 (short 146500PE/150500CE, spot 147276, both strikes well clear), Core SL/TP and 22:50 exit standing. No new entry: indices closed, and both MCX names already carry fresh neutral condors, so another would duplicate correlated exposure rather than express a distinct thesis despite overbought RSI/TimesFM drift. Next review 600s; reassess on a CRUDEOILM move toward 9000 or GOLDM break outside 146805-148380."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T11:29:09.033087+05:30",
       "summary": "HOLD, no new entry. Sharp index slide in the last 10 min (NIFTY 22444\u219222343, RSI ~10; SENSEX RSI 14; VIX 13.89\u219214.68) gives no clean, uncorrelated edge: a fresh bullish vertical would chase an extended move and a neutral structure would duplicate four existing short-vol runs. All legs hedged: 5831 SENSEX 0DTE bear put +2,400 (72500/72300PE), 5822 NIFTY condor -260 with short 22350PE just breached (defined SL 5000), 5823 GOLDM -70, 5825 CRUDEOILM -120. Next: recheck ~4 min; square 5831 if a bounce nears 72355, else run to its 14:55 exit."
+    },
+    {
+      "time": "2026-10-08T11:32:53.894071+05:30",
+      "summary": "Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM at 11:32 IST. No new entry: all four underlyings already carry open defined-risk runs, and the 11:20-11:31 sharp ~0.5% index drop offers no distinct priced edge \u2014 a fresh short-vol would duplicate 5822/5823/5825, a directional would double 5831's short-delta. Hedges intact (5831 2 legs, others 4, all FILLED). Marks: 5831 +3055 (near max, converge to 14:55 exit), 5822 -624 vs SL 5000, 5823 +70, 5825 -145. Next: recheck 240s; 5822 defined SL caps downside if NIFTY breaks 22300."
     }
   ]
 }
