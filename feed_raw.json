@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T11:32:53.894071+05:30",
-      "summary": "Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM at 11:32 IST. No new entry: all four underlyings already carry open defined-risk runs, and the 11:20-11:31 sharp ~0.5% index drop offers no distinct priced edge \u2014 a fresh short-vol would duplicate 5822/5823/5825, a directional would double 5831's short-delta. Hedges intact (5831 2 legs, others 4, all FILLED). Marks: 5831 +3055 (near max, converge to 14:55 exit), 5822 -624 vs SL 5000, 5823 +70, 5825 -145. Next: recheck 240s; 5822 defined SL caps downside if NIFTY breaks 22300."
-    },
-    {
       "time": "2026-10-08T11:36:36.650436+05:30",
       "summary": "11:36 IST, all sessions open, data fresh. HOLD: all four underlyings already carry hedged defined-risk runs (5831 SENSEX 0DTE bear put +3115 near max; 5822 NIFTY condor -663 vs SL5000 with short put 22350 challenged by the 11:20-11:30 drop; 5823 GOLDM -110; 5825 CRUDEOILM -115). Every hedge FILLED, no naked shorts. A new NIFTY/SENSEX structure would duplicate/correlate existing short-delta or short-vol exposure, so no distinct priced edge justifies adding. Next review 240s; watch NIFTY 22300/SENSEX 72250 breaks."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T14:56:00.651012+05:30",
       "summary": "HOLD, no entries/edits. Index windows closed (exit 14:55): 5822 NIFTY IC -1950 and 5835 SENSEX 0DTE +12200 settled; today realized +14975. MCX still open and assessed: GOLDM flat (148000, TimesFM -0.02%) and CRUDEOILM choppy near range high 8912 (8894, RSI 68, TimesFM +0.09%) \u2014 no clean directional edge, and fresh verticals/condors there would duplicate the already-open hedged condors 5823 (-190, SL 11000/TP 12000) and 5825 (-675, SL 6000/TP 6000). Both fully hedged, Core-managed. Next review 15m or on a stop/leg event."
+    },
+    {
+      "time": "2026-10-08T15:11:03.127146+05:30",
+      "summary": "HOLD, no new entries or edits. Index windows closed (15:10 > 15:00 entry / 14:55 exit) so NIFTY/SENSEX unenterable. MCX open and assessed: GOLDM flat (~147,900, TimesFM -0.01%) and CRUDEOILM choppy 8,831-8,912 (8,865, RSI 26, TimesFM +0.06%) \u2014 no clean directional edge, and new trades would only duplicate the already-open fully-hedged condors 5823 (GOLDM, -430, SL 11000/TP 12000) and 5825 (CRUDEOILM, -510, SL 6000/TP 6000). Today realized +14,975. Next review 15m or on an MCX stop/leg event."
     }
   ]
 }
