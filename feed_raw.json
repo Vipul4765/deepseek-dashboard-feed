@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T21:35:11.438819+05:30",
-      "summary": "HOLD. NSE/BSE closed; only MCX open, ~75 min to 22:50 auto-exit. Both active hedged condors healthy and all shorts covered: 5750 CRUDEOILM (short 8400PE/9000CE + 8300PE/9100CE longs, 20 lots) +950 unrealized, spot 8626 well inside; 5751 GOLDM (short 146500PE/150500CE + 146000PE/151000CE longs, 2 lots) +130 unrealized, spot ~147794 inside. Neither near SL/TP; no edit. Declined new MCX entry: no fresh directional edge (TimesFM flat) and would duplicate the same correlated neutral thesis this late. Next review 1500s, into exit window."
-    },
-    {
       "time": "2026-10-07T21:50:09.998693+05:30",
       "summary": "HOLD. NSE/BSE closed; only MCX open with ~60 min to the 22:50 forced exit. Both active condors hedged and healthy: 5750 CRUDEOILM (short 8400PE/9000CE, long 8300PE/9100CE, 20 lots) +1160, spot 8615 well inside; 5751 GOLDM (short 146500PE/150500CE, long 146000PE/151000CE, 2 lots) +60, spot 147832 inside. No SL/TP near; no edit needed. Declined a new MCX entry: TimesFM flat (no directional edge), a fresh entry+exit inside ~1h is negative after costs, and it would triple correlated neutral MCX exposure. Next review 1200s, into the exit window."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T12:21:46.004278+05:30",
       "summary": "12:21 IST, all sessions open, data fresh. HOLD. All four enabled underlyings already carry live hedged structures (5822 NIFTY IC, 5831 SENSEX 0DTE bear put, 5823 GOLDM IC, 5825 CRUDEOILM IC); no fresh priced edge. Market broadly extended down (NIFTY RSI 29 at day lows), TimesFM flat/slight bounce, so a new bearish entry would chase/duplicate existing NIFTY-SENSEX downside while bull entries lack confirmation. Marks: 5831 +3880 (deep ITM, run to 14:55; TP 9500 unreachable), 5822 -871 (short put 22350 ITM, SL 5000 guards), 5823 -340, 5825 -60. Every short hedged. Next review 180s."
+    },
+    {
+      "time": "2026-10-08T12:24:57.785331+05:30",
+      "summary": "12:24 IST, all sessions open, quotes fresh. HOLD, no new entries. All four enabled underlyings already carry live hedged structures (5822 NIFTY IC, 5831 SENSEX 0DTE bear put, 5823 GOLDM IC, 5825 CRUDEOILM IC); every short covered. Market in a fast mid-session slide (NIFTY -1.2%, SENSEX -1.1%, VIX 14.9, RSI 32/28/74 extremes), so any fresh entry would chase or duplicate correlated NIFTY-SENSEX downside, not add an independent edge. Marks: 5831 +4175 (deep ITM, hold to 14:55), 5822 -975 (SL 5000 guards), 5823 -450, 5825 -130. Next review 180s."
     }
   ]
 }
