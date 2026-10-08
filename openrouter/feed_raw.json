@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T11:22:25.219678+05:30",
-      "summary": "Created and started bear call spread on CRUDEOILM (sell ATM call 8700, buy OTM call 8750, expiry 15-10-2026, lot size 10) to combine with existing bull put spread, forming an iron fly. Strategy ID 5760 is active. Will monitor for thesis changes or exit time."
-    },
-    {
       "time": "2026-10-07T11:23:20.300982+05:30",
       "summary": "Square\u2011off NIFTY bear call spread (ID 5758) as upward price move invalidates bearish thesis. Active strategies: crude oil iron fly (5760), NIFTY bull put spread (5755), crude oil bull put spread (5759), GOLDM bull put spread (5757). Will monitor for thesis changes and exit times; next review in 5\u202fmin."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T13:26:07.560592+05:30",
       "summary": "Closed CRUDEOILM iron condor (5834) due to strong uptrend invalidating neutral thesis. Created and started GOLDM bear put spread 148500-148000 oct29 (5839) to capitalize on slight downtrend. Strategy: BUY 1x PUT 148500, SELL 1x PUT 148000; net debit ~256.5/lot; SL 12,825 (50% max loss), TP 12,175 (50% max profit). Active runs: GOLDM bull call spread (5838, -55), GOLDM iron condor (5830, +65), NIFTY iron condor (5837, +22.75), SENSEX bear put spread (5836, +419), new GOLDM bear put spread (5839, just started). All defined risk. Next review in 60s to monitor new position and assess combined GOLDM exposure."
+    },
+    {
+      "time": "2026-10-08T13:30:37.558563+05:30",
+      "summary": "HOLD: No new trade entered. Active runs: CRUDEOILM iron condor (5840) +2.5, GOLDM bear put spread (5839) +265, GOLDM bull call spread (5838) -20, NIFTY iron condor (5837) -9.75, SENSEX bear put spread (5836) +396, GOLDM iron condor (5830) +85. Market shows slight trends; thesis for neutral strategies still valid. Next review in 60s to reassess for new opportunity or thesis breach."
     }
   ]
 }
