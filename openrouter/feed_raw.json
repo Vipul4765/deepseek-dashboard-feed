@@ -155,6 +155,10 @@
     {
       "time": "2026-10-08T10:53:28.497479+05:30",
       "summary": "HOLD: No clear directional thesis for new entries. NIFTY/2-leg and CRUDEOILM/2-leg are in losing patterns (win rate \u226430%, net negative) blocking new vertical spreads. Existing active iron condors on GOLDM (5830) and NIFTY (5827) are within their profit zones. Will reassess on fresh data or if a defined-risk opportunity with good payoff emerges."
+    },
+    {
+      "time": "2026-10-08T11:10:19.021161+05:30",
+      "summary": "Created and started SENSEX iron condor (5832) for today's expiry: short inner strikes (72000 put, 72400 call), long outer strikes (71800 put, 72600 call). Net credit 1724, defined risk 2276, reward/risk 0.7575. Entry at 11:07:35, exit at 14:55:00. Existing active iron condors: GOLDM (5830) and NIFTY (5827) remain within profit zones. No directional thesis seen; range-bound opportunity chosen."
     }
   ]
 }
