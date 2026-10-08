@@ -127,6 +127,10 @@
     {
       "time": "2026-10-08T09:45:56.304844+05:30",
       "summary": "Holding existing SENSEX bull call spread (strategy 5826) with unrealized loss -14, well within SL 500 and TP 800. No new entry sought as recent price action lacks clear directional move for a vertical spread and no attractive neutral setup spotted. Will reassess on fresh data."
+    },
+    {
+      "time": "2026-10-08T10:01:09.476465+05:30",
+      "summary": "Holding SENSEX bull call spread (strategy 5826) with unrealized P&L +12, well within SL 500 and TP 800. Attempted to tighten overall SL to break\u2011even but live\u2011edit rejected (value must be numeric). No new entry sought; will reassess on fresh data."
     }
   ]
 }
