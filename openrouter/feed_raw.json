@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T10:46:32.657735+05:30",
-      "summary": "Created and started GOLDM bull put spread (sell ATM PUT, buy OTM PUT) expiring 29-10-2026, 1 lot each, entry immediate, exit 22:50. Existing NIFTY bull put spread (5755) and long put (5756) active; bear call spread (5637) scheduled for 14:35. Set next review in 5 minutes."
-    },
-    {
       "time": "2026-10-07T10:48:06.397242+05:30",
       "summary": "Holding current positions: NIFTY bear call spread (5758) slightly negative, GOLDM bull put spread (5757) appears profitable despite system showing unrealized loss, NIFTY bull put spread (5755) showing profit, NIFTY long put (5756) showing loss. No new opportunity identified due to mixed signals and existing exposure. Will reassess in 5 minutes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T12:27:44.240572+05:30",
       "summary": "Holding active CRUDEOILM and GOLDM iron condors (small unrealized PnL). No clear directional or range signal across NIFTY, SENSEX, GOLDM, CRUDEOILM for new trade. Will reassess in 60 seconds for thesis change or exit signal."
+    },
+    {
+      "time": "2026-10-08T12:44:15.427418+05:30",
+      "summary": "Created and started SENSEX bear put spread (71800-71600) expiry 08-10-2026 with overall SL 800 (max_loss) and TP 1000 (max_profit) to capture bearish bias. Existing GOLDM and CRUDEOILM iron condors remain active (unrealized PnL -225 and +4). Will review in 30 seconds for entry confirmation and market changes."
     }
   ]
 }
