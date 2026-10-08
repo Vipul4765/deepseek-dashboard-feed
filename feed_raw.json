@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T12:24:57.785331+05:30",
-      "summary": "12:24 IST, all sessions open, quotes fresh. HOLD, no new entries. All four enabled underlyings already carry live hedged structures (5822 NIFTY IC, 5831 SENSEX 0DTE bear put, 5823 GOLDM IC, 5825 CRUDEOILM IC); every short covered. Market in a fast mid-session slide (NIFTY -1.2%, SENSEX -1.1%, VIX 14.9, RSI 32/28/74 extremes), so any fresh entry would chase or duplicate correlated NIFTY-SENSEX downside, not add an independent edge. Marks: 5831 +4175 (deep ITM, hold to 14:55), 5822 -975 (SL 5000 guards), 5823 -450, 5825 -130. Next review 180s."
-    },
-    {
       "time": "2026-10-08T12:27:51.416971+05:30",
       "summary": "12:27 IST, all sessions open, quotes fresh. HOLD \u2014 no new entry. Four live hedged structures reconciled: 5831 SENSEX 0DTE bear put +3855 (deep ITM, exit 14:55), 5822 NIFTY IC -1105 (short 22350PE ITM, 22300PE hedge intact, SL 5000), 5823 GOLDM IC -950, 5825 CRUDEOILM IC -115; every short covered. All index underlyings are in one correlated slide, so a fresh bearish vertical would duplicate the live SENSEX short and a bullish fade lacks confirmation; both MCX names already carry ICs. Next review 180s to watch stops/14:55 exits."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T17:37:11.857469+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false) so no new index entries; MCX new entries off per boss, so no new risk anywhere. Verified both open MCX runs intact and fully hedged: 5823 GOLDM 4 legs, unrealized -200 vs SL 11k; 5825 CRUDEOILM 4 legs, unrealized -915 vs SL 6k (spot 8946 vs 9000 short call, wings intact). Today realized +14,975. Next review 25m or on any MCX leg/stop/exit event (exit 22:50)."
+    },
+    {
+      "time": "2026-10-08T17:52:10.933647+05:30",
+      "summary": "HOLD. NSE/BSE closed (market_open_now=false) so no new index entries; MCX new entries off per the boss's 8 Oct decision, so no new risk anywhere. Both open runs verified intact and fully hedged: 5823 GOLDM 4 legs, unrealized +590 vs SL 11k (spot ~148.1k between shorts 147.5k/149.5k); 5825 CRUDEOILM 4 legs, unrealized -1135 vs SL 6k (spot ~8978 vs short 9000 call, long 9200 wing intact). Today realized +14,975. Next review 30m or on any MCX leg/stop/exit event (exit 22:50)."
     }
   ]
 }
