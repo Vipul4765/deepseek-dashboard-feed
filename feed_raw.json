@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T15:35:59.039104+05:30",
-      "summary": "HOLD. Indices past 15:00 entry cutoff (NSE/BSE close 15:40); NIFTY 5749 +858 and SENSEX 5753 +433 already flat at expiry. Two MCX condors live and fully hedged: 5750 CRUDEOILM +1090 (SELL 8400PE/8300PE, SELL 9000CE/9100CE; spot 8709), 5751 GOLDM -400 (BUY 146000PE/SELL 146500PE, SELL 150500CE/BUY 151000CE; spot 148280). No new trade: a third commodity condor duplicates existing GOLDM+CRUDEOILM neutral exposure, and crude's intraday rally reversed while gold sits mid-range (TimesFM flat), so no distinct priced edge. Next: MCX SL/TP or 22:50 exit; review 900s."
-    },
-    {
-      "time": "2026-10-07T15:40:17.891154+05:30",
-      "summary": "HOLD. NSE/BSE closed (15:40), no index entries. Two MCX condors live and fully hedged: 5750 CRUDEOILM +730 (short 8400PE/9000CE, spot 8734), 5751 GOLDM +290 (short 146500PE/150500CE, spot 148178) \u2014 both mid-range, Core-managed SL/TP, 22:50 exit. No new trade: a third condor would duplicate existing neutral GOLDM/CRUDEOILM exposure; crude is extended at day-high with a slightly negative forecast and gold is choppy/flat, so no distinct directional edge. Next: MCX SL/TP/exit or fresh price action; review 1800s."
-    },
-    {
       "time": "2026-10-07T15:55:12.112450+05:30",
       "summary": "HOLD. NSE/BSE closed (15:40), no index entries. Two hedged MCX condors live on fresh marks: 5750 CRUDEOILM +390 (short 8400PE/9000CE, spot 8723), 5751 GOLDM -100 (short 146500PE/150500CE, spot 148130); both mid-range, Core-managed SL/TP, 22:50 exit. No new trade: a third condor would duplicate existing neutral GOLDM/CRUDEOILM exposure and neither shows a distinct directional edge (crude near day-high, gold flat). Next: MCX SL/TP/exit; review 1200s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-08T09:41:07.304436+05:30",
       "summary": "All sessions open (NSE/BSE/MCX). No new entry this cycle: portfolio already expresses three defined-risk condors and there is no distinct directional edge \u2014 NIFTY/TimesFM is choppy-flat, so a 4th index leg would just duplicate existing neutral exposure. HOLD. Evidence: 5822 NIFTY condor live (short 22350PE/22750CE, long 22300PE/22800CE), P&L ~0; 5823 GOLDM condor live (short 147500PE/149500CE, long 147000PE/150000CE), +210, both hedged and margin-admitted. 5825 CRUDEOILM condor (run b41d4273) confirmed SCHEDULED for 09:45 entry, otm_6/otm_10 strikes, hedge built in, SL/TP 6000. Next review 240s to confirm crude fill and hedge integrity."
+    },
+    {
+      "time": "2026-10-08T09:45:00.663119+05:30",
+      "summary": "All sessions open. No new entry: portfolio already expresses three defined-risk neutral structures \u2014 5822 NIFTY condor live (short 22350PE/22750CE vs long 22300PE/22800CE, P&L -182), 5823 GOLDM condor live (short 147500PE/149500CE vs long 147000PE/150000CE, +320), 5825 CRUDEOILM condor scheduled 09:45 (otm_6/otm_10, hedged). No distinct non-duplicative priced edge; SENSEX is expiry-day (high gamma, negative record). Both live positions hedged and margin-admitted. Next review 120s to confirm crude fill/hedge and watch NIFTY short put 22350 as spot 22466."
+    },
+    {
+      "time": "2026-10-08T09:45:51.121034+05:30",
+      "summary": "Held; no new entry. All three live condors (5822 NIFTY, 5823 GOLDM, 5825 CRUDEOILM) confirmed filled with every short covered by an equal-lot same-type/expiry long; marks \u221265/+150/+20, all inside SL/TP, margin admitted. Assessed NIFTY, GOLDM, CRUDEOILM, SENSEX: three already carry today's neutral thesis, and SENSEX 0DTE is high-gamma with a negative 4-leg record, so no distinct non-duplicative edge. Next review 240s, watching NIFTY short put 22350 and CRUDEOILM short call 9000."
     }
   ]
 }
