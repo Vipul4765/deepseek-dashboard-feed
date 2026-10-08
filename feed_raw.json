@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T17:40:11.596082+05:30",
-      "summary": "HOLD. NSE/BSE closed; MCX open. Both active condors verified fully hedged 4/4 and mid-range: 5750 CRUDEOILM +550 (SELL 8400PE/9000CE, BUY 8300PE/9100CE; spot 8714), 5751 GOLDM -100 (SELL 146500PE/150500CE, BUY 146000PE/151000CE; spot 148350). No new start: both MCX underlyings are flat/choppy (TimesFM ~flat) and already carry a neutral condor, so a third MCX neutral only duplicates correlated exposure. SL/TP and 22:50 exits stand. Next review 1500s."
-    },
-    {
       "time": "2026-10-07T17:55:13.662424+05:30",
       "summary": "HOLD. NSE/BSE closed; MCX open. Both active condors verified fully hedged 4/4: 5750 CRUDEOILM +730 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8709, well centred), 5751 GOLDM +10 (SELL 146500PE/BUY 146000PE, SELL 150500CE/BUY 151000CE; spot 148106). No new start: only MCX eligible, and both GOLDM and CRUDEOILM already carry a fresh neutral condor, so a third neutral only duplicates correlated exposure; tape is flat/choppy. SL/TP and 22:50 exits stand. Next review 1200s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T10:43:52.513308+05:30",
       "summary": "HOLD \u2014 no new entry, no management change. Reassessed at 10:43. Three live condors confirmed hedged, equal-lot, same type/expiry and well inside stops: 5822 NIFTY +130, 5823 GOLDM -150, 5825 CRUDEOILM -125. Indices slid ~0.7% all morning but are now oversold (NIFTY RSI 33, SENSEX 29, MIDCPNIFTY 25) and bouncing off lows; TimesFM flat (|p50|\u22640.13%). No fresh directional edge, and a fourth neutral condor would only duplicate correlated short-vol. SENSEX 0DTE short strikes sit inside the recent range with thin R:R. Next review 600s; reassess if NIFTY breaks 22400 or 22600."
+    },
+    {
+      "time": "2026-10-08T10:54:08.545244+05:30",
+      "summary": "HOLD \u2014 no new entry, no management change. All three live condors confirmed hedged/equal-lot and inside stops: 5822 NIFTY +182, 5823 GOLDM +320, 5825 CRUDEOILM \u2212105. Assessed all enabled underlyings: BANKNIFTY/FINNIFTY have no option-chain feed (cannot price or hedge \u2192 ineligible); SENSEX 0DTE premium is thin (best 100-wide condor R:R 0.34, short strikes already inside today's ~580pt range) and an ATM fly's 200pt wings are threatened by the day's move; NIFTY/GOLDM/CRUDEOILM already carry the same short-vol thesis, so a fourth condor only duplicates correlated exposure. TimesFM flat everywhere; no clean directional move. Next review 600s; act if NIFTY breaks 22400/22600."
     }
   ]
 }
