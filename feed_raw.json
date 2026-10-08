@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T18:55:12.331582+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now false); only MCX open. Both running condors verified hedged 4/4 with fresh marks: 5750 CRUDEOILM +190 (short 8400PE/9000CE, spot 8760, call 240 away), 5751 GOLDM +200 (short 146500PE/150500CE, spot 147276, both strikes well clear), Core SL/TP and 22:50 exit standing. No new entry: indices closed, and both MCX names already carry fresh neutral condors, so another would duplicate correlated exposure rather than express a distinct thesis despite overbought RSI/TimesFM drift. Next review 600s; reassess on a CRUDEOILM move toward 9000 or GOLDM break outside 146805-148380."
-    },
-    {
       "time": "2026-10-07T19:05:23.540259+05:30",
       "summary": "HOLD, no new entry. NSE/BSE closed (market_open_now false); only MCX open. Both running condors verified 4/4 hedged with fresh marks: 5750 CRUDEOILM +790 (short 8400PE/9000CE, spot 8793, call 207 away) and 5751 GOLDM +300 (short 146500PE/150500CE, spot 147253, put 753 away); Core SL/TP and 22:50 exit standing. Indices closed, and both MCX names already hold fresh neutral condors \u2014 a further trade would duplicate correlated exposure, not express a distinct thesis. Next review 300s; reassess on CRUDEOILM push toward 9000 or GOLDM break below 146805."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T11:32:53.894071+05:30",
       "summary": "Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM at 11:32 IST. No new entry: all four underlyings already carry open defined-risk runs, and the 11:20-11:31 sharp ~0.5% index drop offers no distinct priced edge \u2014 a fresh short-vol would duplicate 5822/5823/5825, a directional would double 5831's short-delta. Hedges intact (5831 2 legs, others 4, all FILLED). Marks: 5831 +3055 (near max, converge to 14:55 exit), 5822 -624 vs SL 5000, 5823 +70, 5825 -145. Next: recheck 240s; 5822 defined SL caps downside if NIFTY breaks 22300."
+    },
+    {
+      "time": "2026-10-08T11:36:36.650436+05:30",
+      "summary": "11:36 IST, all sessions open, data fresh. HOLD: all four underlyings already carry hedged defined-risk runs (5831 SENSEX 0DTE bear put +3115 near max; 5822 NIFTY condor -663 vs SL5000 with short put 22350 challenged by the 11:20-11:30 drop; 5823 GOLDM -110; 5825 CRUDEOILM -115). Every hedge FILLED, no naked shorts. A new NIFTY/SENSEX structure would duplicate/correlate existing short-delta or short-vol exposure, so no distinct priced edge justifies adding. Next review 240s; watch NIFTY 22300/SENSEX 72250 breaks."
     }
   ]
 }
