@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T14:50:47.921602+05:30",
-      "summary": "HOLD, no new entry. All four hedged condors live and intact (every short covered same-type/expiry, equal lots): 5749 NIFTY +819, 5753 SENSEX +422, 5750 CRUDEOILM +80, 5751 GOLDM +280; no stop/target/hedge trigger. Blockers to a new trade: indices (NIFTY/SENSEX) have ~5 min to the 14:55 forced exit, no runway to price/start a spread; GOLDM flat and CRUDEOILM lacking a fresh directional edge (TimesFM ~0) while both already carry live neutral condors, so a second structure only duplicates correlated risk. Next review 300s, just after the index exit."
-    },
-    {
       "time": "2026-10-07T14:55:18.226982+05:30",
       "summary": "HOLD, no new entry. Events confirm the 14:55 index exits: 5749 NIFTY closed +858, 5753 SENSEX closed +433 (both flat, no naked legs). Remaining live: 5750 CRUDEOILM condor +350 (8400/8300PE, 9000/9100CE) and 5751 GOLDM condor +640 (146000/146500PE, 150500/151000CE) \u2014 all shorts covered same-type/expiry, equal lots, spots well inside wings. No new trade: indices past forced exit; both MCX underlyings already hold neutral condors with no directional edge (TimesFM ~flat), so a second structure only duplicates correlated risk. Next review 900s on MCX marks/hedges."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-07T23:20:37.893706+05:30",
       "summary": "HOLD \u2014 flat, nothing tradeable. All four 07-Oct runs closed in profit: NIFTY 5749 +858, SENSEX 5753 +433, CRUDEOILM 5750 +1020, GOLDM 5751 +250 (today +2561, 4/4 wins), zero open legs, MCX margin released to 0. NSE/BSE markets closed (15:40) and MCX is past its 23:00 entry cutoff and 22:50 commodity exit, so no new entry is feasible despite fresh MCX quotes. Next review 1800s; scan fresh hedged candidates at next session open (indices 09:30\u201315:00)."
+    },
+    {
+      "time": "2026-10-08T09:16:12.576194+05:30",
+      "summary": "Cycle at 09:15: all sessions open but index/MCX entry windows start 09:30, so no immediate fill. Assessed all underlyings: NIFTY gapped down ~0.35% to ~22,525 (ATM 22,500), IV ~13%, TimesFM flat/narrow-band \u2014 a bounded-range fit. Created+started strategy 5822, NIFTY 5DTE (13-10-2026) iron condor: BUY 4x CE otm_5 / SELL 4x CE otm_4, BUY 4x PE otm_5 / SELL 4x PE otm_4, defined risk (~\u20b96.6k max), overall SL 5000 / TP 3500, exit 14:55. Status \"waiting\" for 09:30 entry. Next review 900s to confirm fills/actual strikes and hedge integrity; MCX (GOLDM +0.4%, CRUDEOILM +1.6% gaps) screens but entry also waits 09:30."
     }
   ]
 }
