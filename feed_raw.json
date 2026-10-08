@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T12:38:24.645249+05:30",
-      "summary": "Opened a new defined-risk SENSEX 0DTE bear put vertical (5835: buy 10x ATM put / sell 10x OTM-2 put, 08-10-2026; debit ~86 pts, risk ~\u20b917.3k, max ~\u20b922.8k; overall SL 12k / TP 20k; exit 14:55) to express the still-fresh intraday downtrend (low 71,735). Anchored strikes to cash because the SENSEX futures feed diverges ~310 pts from the index/chain. Existing hedged ICs: 5822 NIFTY -1,326, 5823 GOLDM -610, 5825 CRUDEOILM -285; 5831 closed +4,725. Next review 120s to confirm fills/strikes and watch 71,735 vs 71,600."
-    },
-    {
       "time": "2026-10-08T12:39:32.769067+05:30",
       "summary": "HOLD/no new entry. Confirmed 5835 (SENSEX 0DTE bear put vertical, buy 71800 PE/sell 71600 PE) is durably SCHEDULED and fires at 12:40, so no churn needed. Open hedged ICs unchanged: 5822 NIFTY -1,261 (spot 22,293 sits just under 22,350 short put; SL 5,000 intact), 5823 GOLDM -10, 5825 CRUDEOILM -245. New-entry blockers: nse_fo calendar unverified (no NIFTY/FINNIFTY/MIDCPNIFTY/BANKNIFTY starts), and bse/mcx theses already held \u2014 more would duplicate correlated exposure. Today closed +4,725 (5831). Next review 120s to confirm 5835 fills and watch 22,300 / crude 9,000."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T18:37:10.415206+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false) and MCX new entries barred, so no new risk. Both open runs fresh (stream age 1.3s) and verified hedged 4-leg iron condors: 5823 GOLDM unrealized +80 vs SL 11k (shorts 147.5k PE/149.5k CE, spot 148124, inside bounds); 5825 CRUDEOILM unrealized -490 vs SL 6k (shorts 8400 PE/9000 CE, spot ~8921, inside bound). Today realized +14,975. No edits needed; both exit 22:50. Next review 25m or on any leg/stop/exit event."
+    },
+    {
+      "time": "2026-10-08T18:52:11.248013+05:30",
+      "summary": "HOLD. NSE/BSE closed (market_open_now=false) and MCX new entries barred, so no new risk. Both open MCX runs verified hedged 4-leg iron condors with fresh marks (stream age 1.3s): 5823 GOLDM +520 unrealized vs SL 11k (shorts 149500 CE/147500 PE, spot 148192, inside 147500\u2013149500); 5825 CRUDEOILM -195 vs SL 6k (shorts 9000 CE/8400 PE, spot 8875, inside 8400\u20139000). Today realized +14,975. No edits; both exit 22:50. Next review 30m or on any leg/stop/exit event."
     }
   ]
 }
