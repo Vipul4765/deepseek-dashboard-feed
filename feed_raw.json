@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T13:37:51.757459+05:30",
-      "summary": "HOLD, no new entry. Sessions open, quotes fresh (13:37). Books all hedged/defined-risk: 5835 SENSEX 0DTE bear put +1980 (auto-exit 14:55), 5822 NIFTY IC -1287 (spot 22267 below short 22350 PE, SL 5000 intact), 5823 GOLDM IC -70, 5825 CRUDEOILM IC +10; today realized +4725. Blockers: indices ~78min to 14:55 with correlated bearish 5835/5822 and a 13:30 bounce off day lows; GOLDM flat duplicates 5823; CRUDEOILM at range top (8837 vs 8891) duplicates 5825's neutral. Next review 600s."
-    },
-    {
       "time": "2026-10-08T13:47:27.834946+05:30",
       "summary": "HOLD, no new entry. Sessions open, quotes fresh (13:47). Books hedged/defined-risk: 5835 SENSEX 0DTE bear put +6030 (auto-exit 14:55); 5822 NIFTY IC -2171 (spot 22238 below short 22350 PE, SL 5000 intact); 5823 GOLDM IC -20; 5825 CRUDEOILM IC -340; today realized +4725. Blockers: index window only ~68min to 14:55; index-bearish verticals (NIFTY/BANKNIFTY RSI 38) duplicate 5835+5822 thesis; GOLDM (RSI 69, range top) and CRUDEOILM (range top 8891, RSI 45) lack clean directional edge and neutral adds duplicate 5823/5825. Next review 300s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T22:07:12.243691+05:30",
       "summary": "HOLD, no new risk. NSE/BSE closed (market_open_now=false) and owner rule bars new MCX entries, so no eligible underlying. Two hedged MCX condors remain ACTIVE with all 4 legs filled/covered: 5823 GOLDM now -50 unrealized (short 149500CE/147500PE, long 150000CE/147000PE) vs SL 11000; 5825 CRUDEOILM +75 unrealized (short 9000CE/8400PE, long 9200CE/8200PE) vs SL 6000. Both flat, hedged, auto-exit 22:50 with overall SL/TP set. Today realized +14975. Next review ~22:32, or on exit/SL event."
+    },
+    {
+      "time": "2026-10-08T22:22:09.751579+05:30",
+      "summary": "HOLD, no new risk. NSE/BSE closed (market_open_now=false) and owner rule bars new MCX entries, so no entry-eligible underlying. Two hedged condors remain ACTIVE, all four legs filled and covered: 5823 GOLDM +420 unrealized (short 149500CE/147500PE, long 150000CE/147000PE, SL 11000, 22:50 exit); 5825 CRUDEOILM +235 unrealized (short 9000CE/8400PE, long 9200CE/8200PE, SL 6000, 22:50 exit). Today realized +14975. No action; next review ~22:47 to confirm the 22:50 auto time-exit."
     }
   ]
 }
