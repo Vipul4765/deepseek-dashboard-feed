@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T11:08:38.243979+05:30",
-      "summary": "HOLD, no new entry. All four configured underlyings already carry live, hedged positions: 5831 SENSEX 0DTE bear put (confirmed fills BUY 72500 PE @362.10 / SELL 72300 PE @217.90, 5 lots, hedged, +125), 5822 NIFTY condor (+195, margin 247k), 5823 GOLDM condor (-580, SL 6000), 5825 CRUDEOILM condor (-30). No naked legs; MCX/NSE/BSE data fresh and sessions open. Blocker: no distinct uncorrelated thesis \u2014 indices neutral/choppy (NIFTY RSI 48, TimesFM flat); adding would duplicate correlated index exposure. Next: recheck in 10 min; SENSEX 0DTE exit 14:55."
-    },
-    {
       "time": "2026-10-08T11:18:34.911583+05:30",
       "summary": "HOLD, no new entry. Four live hedged runs, all confirmed filled: 5831 SENSEX 0DTE bear put (BUY 72500PE/SELL 72300PE, 5 lots, -200, exit 14:55), 5822 NIFTY condor (+208), 5823 GOLDM condor (-510), 5825 CRUDEOILM condor (+5). No naked legs; NSE/BSE/MCX sessions open, quotes fresh. Blocker: all four traded underlyings already carry short-vol exposure and the tape is flat (ATRs at session lows, TimesFM ~0% across indices/commodities) \u2014 no distinct uncorrelated thesis, adding would duplicate correlated risk. Next: recheck ~10 min; manage SENSEX 0DTE into 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T14:31:54.099021+05:30",
       "summary": "HOLD, no new entry, no edits. Sessions open/verified, quotes fresh (~1s). All four runs hedged and intact: 5835 SENSEX 0DTE bear put (long 71700PE/short 71500PE) unrealized +7820, TP 20000 + 14:55 auto-exit live; 5822 NIFTY IC -1274; 5823 GOLDM IC +290; 5825 CRUDEOILM IC -355. Today realized +4725 (5831). No new trade: indices are ~24m from the 14:55 mandatory exit and would duplicate 5835/5822 short-delta; fresh MCX structures would duplicate the open 5823/5825 condors with no distinct directional edge (GOLDM flat in a 440pt 120-bar range, crude pinned at highs, flat forecasts). Reassess MCX after the 14:55 index square-off."
+    },
+    {
+      "time": "2026-10-08T14:46:55.537585+05:30",
+      "summary": "HOLD, no new entry, no edits. Sessions open/verified, quotes fresh (~1s). All four runs hedged and intact: 5835 SENSEX 0DTE bear put +11360 (TP 20000, 14:55 auto-exit); 5822 NIFTY IC -1820; 5823 GOLDM IC +120; 5825 CRUDEOILM IC -450. Today realized +4725 (5831). No new index trade: entry window effectively closed, ~9m to the mandatory 14:55 exit. No new MCX structure: GOLDM and CRUDEOILM already carry open neutral condors and fresh verticals lack a directional edge (flat TimesFM, GOLDM 440pt range, crude pinned at highs) \u2014 would duplicate correlated exposure. Reassess MCX post 14:55 square-off."
     }
   ]
 }
