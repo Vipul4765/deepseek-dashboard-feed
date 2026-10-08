@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T15:10:48.346505+05:30",
-      "summary": "HOLD. Index entry windows closed (14:55 exit / 15:00 cutoff; now 15:10), 5749 NIFTY +858 and 5753 SENSEX +433 already flat. Live MCX condors both hedged and inside wings per fresh 15:10 marks: 5750 CRUDEOILM +110 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8707), 5751 GOLDM +70 (BUY 146000PE/SELL 146500PE, SELL 150500CE/BUY 151000CE; spot 148160). No new trade: TimesFM flat on both commodities and only correlated neutral exposure available. Next review 900s on MCX marks/hedges."
-    },
-    {
-      "time": "2026-10-07T15:25:56.349582+05:30",
-      "summary": "HOLD. Index entry windows closed (now 15:25 vs 15:00 cutoff); 5749 NIFTY +858 and 5753 SENSEX +433 already flat at expiry force exit. Both live MCX condors fully filled, hedged and fresh: 5750 CRUDEOILM +420 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8729), 5751 GOLDM +450 (BUY 146000PE/SELL 146500PE, SELL 150500CE/BUY 151000CE; spot 148232). No new trade: MCX open but a third neutral commodity condor would duplicate existing correlation, and TimesFM/flat ranges show no distinct directional edge. Next review 600s on MCX marks and hedges."
-    },
-    {
       "time": "2026-10-07T15:35:59.039104+05:30",
       "summary": "HOLD. Indices past 15:00 entry cutoff (NSE/BSE close 15:40); NIFTY 5749 +858 and SENSEX 5753 +433 already flat at expiry. Two MCX condors live and fully hedged: 5750 CRUDEOILM +1090 (SELL 8400PE/8300PE, SELL 9000CE/9100CE; spot 8709), 5751 GOLDM -400 (BUY 146000PE/SELL 146500PE, SELL 150500CE/BUY 151000CE; spot 148280). No new trade: a third commodity condor duplicates existing GOLDM+CRUDEOILM neutral exposure, and crude's intraday rally reversed while gold sits mid-range (TimesFM flat), so no distinct priced edge. Next: MCX SL/TP or 22:50 exit; review 900s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-08T09:32:27.053619+05:30",
       "summary": "Both sessions open; HOLD, no new entry. Verified live runs: NIFTY 5822 condor (short 22750CE/22350PE, long 22800CE/22300PE, 4 lots) +\u20b9117, margin ~\u20b9273k; GOLDM 5823 condor (short 149500CE/147500PE, long 150000CE/147000PE, 2 lots) +\u20b9200, margin \u20b9145k \u2014 hedges intact. Assessed SENSEX 0DTE (bearish gap, weak 33% 4-leg record), CRUDEOILM (50-wide spreads \u22481\u00d7 daily range, R:R<1), NIFTY adds (duplicate short-put thesis). Exits: NIFTY 14:55, GOLDM 22:50. Next review 300s or on stop/target/fill event."
+    },
+    {
+      "time": "2026-10-08T09:40:23.676284+05:30",
+      "summary": "Assessed all eligible underlyings; both sessions open. Opened CRUDEOILM 7-DTE iron condor (5825): short 10x 9000CE/8400PE, long 10x 9200CE/8200PE, expiry 15-10-2026; credit ~\u20b9101.7/unit, bounded max loss ~\u20b998/unit (R:R ~1.0, above preferred 0.67), upfront margin ~\u20b956k, overall SL/TP \u20b96000. Entry 09:45, exit 22:50. Rationale: IV ~53% vs quiet realized, short strikes outside the 8535\u20138708 range. BANKNIFTY/FINNIFTY untradeable (no chain data). Existing NIFTY 5822 (+\u20b9156) and GOLDM 5823 (\u2212\u20b9150) condors hedged and live. Next review 120s to confirm crude fill/hedge."
+    },
+    {
+      "time": "2026-10-08T09:41:07.304436+05:30",
+      "summary": "All sessions open (NSE/BSE/MCX). No new entry this cycle: portfolio already expresses three defined-risk condors and there is no distinct directional edge \u2014 NIFTY/TimesFM is choppy-flat, so a 4th index leg would just duplicate existing neutral exposure. HOLD. Evidence: 5822 NIFTY condor live (short 22350PE/22750CE, long 22300PE/22800CE), P&L ~0; 5823 GOLDM condor live (short 147500PE/149500CE, long 147000PE/150000CE), +210, both hedged and margin-admitted. 5825 CRUDEOILM condor (run b41d4273) confirmed SCHEDULED for 09:45 entry, otm_6/otm_10 strikes, hedge built in, SL/TP 6000. Next review 240s to confirm crude fill and hedge integrity."
     }
   ]
 }
