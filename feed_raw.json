@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T13:02:24.505138+05:30",
-      "summary": "HOLD, no new entry. Sessions open, data fresh. All 4 runs hedged and intact: 5835 SENSEX 0DTE bear put (short 71500PE/long 71700PE, +860, spot 71687, time-exit 14:55), 5822 NIFTY IC -1248 (short 22350PE vs spot 22275, SL 5000), 5823 GOLDM IC +80, 5825 CRUDEOILM IC -325 (spot 8866 nearing short 9000CE, SL 6000). Today +4725. Assessed NIFTY/SENSEX/BANKNIFTY/FINNIFTY/MIDCPNIFTY/GOLDM/CRUDEOILM: broad selloff is the only clear edge and is already expressed by 5835 plus 5822's put wing, so a new index short would just duplicate correlated exposure; MCX adds sit at existing condor strikes. Reassess if NIFTY loses 22200 / SENSEX 71500, or an oversold bounce reclaims 22350. Next review 300s."
-    },
-    {
       "time": "2026-10-08T13:07:47.275015+05:30",
       "summary": "HOLD, no new entry. Sessions open, data fresh. 4 runs hedged/intact: 5835 SENSEX 0DTE bear put +80 (spot 71711, time exit 14:55), 5822 NIFTY IC -1378 (short 22350PE now ITM vs 22280; margin verified, defined risk, SL 5000), 5823 GOLDM IC +690, 5825 CRUDEOILM IC -390 (spot 8875 nearing short 9000CE, SL 6000). Today net ~+3727. Broad selloff already expressed by 5835+5822 puts, so a fresh index short only duplicates correlated exposure; CRUDEOILM RSI 78 conflicts with its short call. Reassess if NIFTY loses 22200/SENSEX 71500 or bounces over 22350. Next review 300s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T20:22:16.738603+05:30",
       "summary": "HOLD, no new risk. NSE/BSE closed (market_open_now=false) and MCX entries barred, so no eligible entry. Open condors verified hedged from fresh fills: 5823 GOLDM short 149500CE/147500PE vs long 150000CE/147000PE, spot 148227, unrealized +160 vs SL 11000; 5825 CRUDEOILM short 9000CE/8400PE vs long 9200CE/8200PE, spot 8971, unrealized -940 vs SL 6000. Both defined-risk and auto-exit 22:50; today realized +14975. No edits. Next review 30 min."
+    },
+    {
+      "time": "2026-10-08T20:37:10.991242+05:30",
+      "summary": "HOLD, no new risk. NSE/BSE closed and MCX entries barred, so no eligible entry. Open hedged condors verified: 5823 GOLDM short 149500CE/147500PE vs long 150000CE/147000PE, spot 148047, unrealized +480 vs SL 11000; 5825 CRUDEOILM short 9000CE/8400PE vs long 9200CE/8200PE, spot 9011, unrealized -1295 vs SL 6000. Both defined-risk, auto-exit 22:50. Today realized +14975. No edits. Next review ~30 min."
     }
   ]
 }
