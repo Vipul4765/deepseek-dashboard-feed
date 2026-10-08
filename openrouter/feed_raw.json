@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T10:40:31.548318+05:30",
-      "summary": "Started NIFTY bear call credit spread 5637 (sell 22650 CE, buy 22750 CE) waiting for 14:35 entry. Current spot 22652.5, RSI 35.45, sideways bias. Strategy credit ~47.05, breakeven 22697.05. Max loss ~3442, max profit ~3058. Will monitor for entry."
-    },
-    {
       "time": "2026-10-07T10:44:01.443873+05:30",
       "summary": "Created and started GOLDM bull put spread (sell ATM PUT, buy OTM PUT) expiring 29-10-2026, 1 lot each, entry immediate, exit 22:50. Existing NIFTY bull put spread (5755) and long put (5756) active; bear call spread (5637) scheduled for 14:35. Set next review in 5 minutes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T11:59:24.793780+05:30",
       "summary": "No new trade entered; monitoring active CRUDEOILM and GOLDM iron condors (small unrealized loss). No clear directional or range signal across NIFTY, SENSEX, GOLDM, CRUDEOILM. Will reassess in 60 seconds for thesis change or exit signal."
+    },
+    {
+      "time": "2026-10-08T12:12:32.185200+05:30",
+      "summary": "Holding active CRUDEOILM and GOLDM iron condors (small unrealized PnL). No clear directional or range signal across NIFTY, SENSEX, GOLDM, CRUDEOILM for new trade. Will reassess in 60 seconds for thesis change or exit signal."
     }
   ]
 }
