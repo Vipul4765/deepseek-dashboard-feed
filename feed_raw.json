@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T12:31:01.084073+05:30",
-      "summary": "12:30 IST, all sessions open, quotes fresh. HOLD \u2014 no new entry. Reconciled four live hedged structures, all shorts covered: 5831 SENSEX 0DTE bear put +4425 (deep ITM, at max value, time exit 14:55), 5822 NIFTY IC -1378 (short 22350PE ITM, 22300PE hedge intact, overall SL 5000), 5823 GOLDM IC -790, 5825 CRUDEOILM IC -100. Assessed fresh candidates: NIFTY bear put spread (22300/22200 Oct13, ~41.60 debit, 1.4 R:R) is priced but duplicates the live SENSEX bearish thesis in a correlated index slide; MCX names already carry ICs, with crude's short 9000CE exposed to its +3% rally. Blockers are portfolio-fit/correlation, not data. Next reassessment on fresh candles; watch NIFTY below 22300 (5822 stop) and the 14:55 exits."
-    },
-    {
       "time": "2026-10-08T12:35:49.648474+05:30",
       "summary": "Locked 5831: squared off the SENSEX 0DTE bear put spread at max intrinsic (757.65/566.20, realized +4,725; run DONE, nothing left naked). Holding 5822 NIFTY IC -1,495 (short 22350PE ITM, 22300PE hedge intact, SL 5000 \u2248 NIFTY 22255), 5823 GOLDM IC -290, 5825 CRUDEOILM IC -155 (crude +3.4%, RSI 81, testing short 9000CE). No new entry: NSE is genuinely open, but a NIFTY put vertical duplicates/offsets 5822 and chases an extended -1.4% move at the lows (TimesFM flat); SENSEX has only 0DTE left; MCX already carries ICs. Next review 5 min; watch NIFTY 22255 (5822 SL) and the 14:55 exits."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T18:07:10.373108+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false) so no new index entries; MCX new entries off per the 8 Oct decision, so no new risk. Both open runs verified intact and fully hedged via fresh stream: 5823 GOLDM 4 legs, unrealized -490 vs SL 11k (spot ~148k, shorts 147.5k PE/149.5k CE); 5825 CRUDEOILM 4 legs, unrealized -750 vs SL 6k (spot ~8964, shorts 8400 PE/9000 CE). Today realized +14,975. Next review 30m or on any MCX leg/stop/exit event (exit 22:50)."
+    },
+    {
+      "time": "2026-10-08T18:22:10.199523+05:30",
+      "summary": "HOLD. NSE/BSE closed (market_open_now=false) \u2014 no new index entries possible; MCX new entries barred per 8 Oct decision, so no new risk. Both open runs fresh (stream age 1s), verified hedged: 5823 GOLDM 4 legs, unrealized +140 vs SL 11k (shorts 147.5k PE/149.5k CE, spot 147850); 5825 CRUDEOILM 4 legs, unrealized -1180 vs SL 6k (shorts 8400 PE/9000 CE, spot ~8968, near CE short but inside bound). Today realized +14,975. No edits needed; exits at 22:50. Next review 25m or on any leg/stop/exit event."
     }
   ]
 }
