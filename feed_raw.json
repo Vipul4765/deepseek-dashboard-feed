@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T12:39:32.769067+05:30",
-      "summary": "HOLD/no new entry. Confirmed 5835 (SENSEX 0DTE bear put vertical, buy 71800 PE/sell 71600 PE) is durably SCHEDULED and fires at 12:40, so no churn needed. Open hedged ICs unchanged: 5822 NIFTY -1,261 (spot 22,293 sits just under 22,350 short put; SL 5,000 intact), 5823 GOLDM -10, 5825 CRUDEOILM -245. New-entry blockers: nse_fo calendar unverified (no NIFTY/FINNIFTY/MIDCPNIFTY/BANKNIFTY starts), and bse/mcx theses already held \u2014 more would duplicate correlated exposure. Today closed +4,725 (5831). Next review 120s to confirm 5835 fills and watch 22,300 / crude 9,000."
-    },
-    {
       "time": "2026-10-08T12:40:28.526652+05:30",
       "summary": "HOLD, no new entry. 5835 SENSEX 0DTE bear put (BUY 71700PE/SELL 71500PE, 10 lots) filled at 12:40, hedge intact, margin 438.5k. Open hedged runs: 5822 NIFTY IC -1,677 (spot 22,277 sits below 22,350 short put; SL 5,000 intact), 5823 GOLDM +1,090, 5825 CRUDEOILM -285 (crude 8,848 vs 9,000 short call, RSI 82). New entries blocked: nse_fo calendar unverified, and bse/mcx theses already held so more would duplicate correlated exposure. Today closed +4,725 (5831). Next review 120s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T18:52:11.248013+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false) and MCX new entries barred, so no new risk. Both open MCX runs verified hedged 4-leg iron condors with fresh marks (stream age 1.3s): 5823 GOLDM +520 unrealized vs SL 11k (shorts 149500 CE/147500 PE, spot 148192, inside 147500\u2013149500); 5825 CRUDEOILM -195 vs SL 6k (shorts 9000 CE/8400 PE, spot 8875, inside 8400\u20139000). Today realized +14,975. No edits; both exit 22:50. Next review 30m or on any leg/stop/exit event."
+    },
+    {
+      "time": "2026-10-08T19:07:15.773075+05:30",
+      "summary": "HOLD. NSE/BSE closed (market_open_now=false) and MCX new entries barred, so no new risk. Both open MCX 4-leg iron condors verified hedged with fresh marks (age 0.8s): 5823 GOLDM +340 unrealized vs SL 11k (shorts 149500 CE/147500 PE, spot 148143, inside range); 5825 CRUDEOILM -590 vs SL 6k (shorts 9000 CE/8400 PE, spot 8938, inside 8400-9000). Today realized +14,975. No edits; both exit 22:50. Next review 25m or on any leg/stop/exit event."
     }
   ]
 }
