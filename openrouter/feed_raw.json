@@ -151,6 +151,10 @@
     {
       "time": "2026-10-08T10:52:14.999420+05:30",
       "summary": "Created and started NIFTY iron condor (strategy 5827) with strikes 22400/22450/22500/22350 OCT13, defined risk ~2.0k loss, margin ~5.0L. Existing SENSEX bull call spread (5826) active, PnL -68 within SL/TP. No other new entries due to NIFTY/2-leg and CRUDEOILM/2-leg losing patterns and lack of clear thesis on other underlyings. Next review on fresh data or if thesis changes."
+    },
+    {
+      "time": "2026-10-08T10:53:28.497479+05:30",
+      "summary": "HOLD: No clear directional thesis for new entries. NIFTY/2-leg and CRUDEOILM/2-leg are in losing patterns (win rate \u226430%, net negative) blocking new vertical spreads. Existing active iron condors on GOLDM (5830) and NIFTY (5827) are within their profit zones. Will reassess on fresh data or if a defined-risk opportunity with good payoff emerges."
     }
   ]
 }
