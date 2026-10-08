@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T22:05:09.822541+05:30",
-      "summary": "HOLD. NSE/BSE closed; only MCX open, ~45 min to 22:50 exit. Both active condors hedged and healthy: 5750 CRUDEOILM (short 8400PE/9000CE, long 8300PE/9100CE, 20 lots) +630, spot ~8622 inside 8400-9000; 5751 GOLDM (short 146500PE/150500CE, long 146000PE/151000CE, 2 lots) -130, spot ~147770 inside. No SL/TP near, no edit needed. Declined a new MCX entry: TimesFM flat (no directional edge), too short a fresh entry+exit window, would add correlated neutral MCX exposure. Next review 1200s, into the exit window."
-    },
-    {
       "time": "2026-10-07T22:20:10.684365+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false), only MCX open (~30 min to 22:50 exit). Both live condors are hedged and inside range: 5750 CRUDEOILM (short 8400PE/9000CE, long 8300PE/9100CE, 20 lots) +1040, spot ~8616 in 8400-9000; 5751 GOLDM (short 146500PE/150500CE, long 146000PE/151000CE, 2 lots) -430, spot ~147720 in 146500-150500. No SL/TP near, no edit needed. Declined a new MCX entry: no fresh edge (TimesFM flat), too short an entry+exit window, would add correlated MCX exposure. Next review 1500s (~22:45) to confirm the 22:50 forced exit and reconcile fills."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T12:27:51.416971+05:30",
       "summary": "12:27 IST, all sessions open, quotes fresh. HOLD \u2014 no new entry. Four live hedged structures reconciled: 5831 SENSEX 0DTE bear put +3855 (deep ITM, exit 14:55), 5822 NIFTY IC -1105 (short 22350PE ITM, 22300PE hedge intact, SL 5000), 5823 GOLDM IC -950, 5825 CRUDEOILM IC -115; every short covered. All index underlyings are in one correlated slide, so a fresh bearish vertical would duplicate the live SENSEX short and a bullish fade lacks confirmation; both MCX names already carry ICs. Next review 180s to watch stops/14:55 exits."
+    },
+    {
+      "time": "2026-10-08T12:31:01.084073+05:30",
+      "summary": "12:30 IST, all sessions open, quotes fresh. HOLD \u2014 no new entry. Reconciled four live hedged structures, all shorts covered: 5831 SENSEX 0DTE bear put +4425 (deep ITM, at max value, time exit 14:55), 5822 NIFTY IC -1378 (short 22350PE ITM, 22300PE hedge intact, overall SL 5000), 5823 GOLDM IC -790, 5825 CRUDEOILM IC -100. Assessed fresh candidates: NIFTY bear put spread (22300/22200 Oct13, ~41.60 debit, 1.4 R:R) is priced but duplicates the live SENSEX bearish thesis in a correlated index slide; MCX names already carry ICs, with crude's short 9000CE exposed to its +3% rally. Blockers are portfolio-fit/correlation, not data. Next reassessment on fresh candles; watch NIFTY below 22300 (5822 stop) and the 14:55 exits."
     }
   ]
 }
