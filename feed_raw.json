@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T22:50:10.378665+05:30",
-      "summary": "HOLD \u2014 flat. Backend events confirm the 22:50 scheduled exit of both MCX condors: 5750 CRUDEOILM RUN_DONE, realized +1020 (exits 8400PE 201.60, 8300PE 145.25, 9000CE 110.80, 9100CE 90.70); 5751 GOLDM RUN_DONE, realized +250. Zero open legs, margin released. NSE/BSE closed (15:40) and MCX at its 22:50 commodity exit, so no new entry is feasible. Earlier today 5753 SENSEX +433 and 5749 NIFTY +858. No edits needed; next review in 1800s, then scan fresh candidates next session."
-    },
-    {
-      "time": "2026-10-07T22:50:37.411029+05:30",
-      "summary": "HOLD \u2014 flat. Backend events confirm both scheduled MCX exits at 22:50: 5750 CRUDEOILM RUN_DONE +1020, 5751 GOLDM RUN_DONE +250; zero open legs, margin released (MCX user_current_margin 0). Earlier: 5749 NIFTY +858, 5753 SENSEX +433. Today +2561, 4/4 wins. NSE/BSE closed (15:40) and MCX is past its 22:50 commodity exit, so no new entry is feasible. Next review 1800s; scan fresh hedged candidates at next session open."
-    },
-    {
       "time": "2026-10-07T23:05:37.283575+05:30",
       "summary": "HOLD \u2014 flat, nothing tradeable. All four runs closed: NIFTY 5749 +858, SENSEX 5753 +433, CRUDEOILM 5750 +1020, GOLDM 5751 +250; today +2561, 4/4 wins, zero open legs, MCX margin released to 0. NSE/BSE markets closed (15:40) and MCX is past its 23:00 entry cutoff and 22:50 commodity exit, so no new entry is feasible. Next review 1800s; scan fresh hedged candidates at next session open."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-08T12:38:24.645249+05:30",
       "summary": "Opened a new defined-risk SENSEX 0DTE bear put vertical (5835: buy 10x ATM put / sell 10x OTM-2 put, 08-10-2026; debit ~86 pts, risk ~\u20b917.3k, max ~\u20b922.8k; overall SL 12k / TP 20k; exit 14:55) to express the still-fresh intraday downtrend (low 71,735). Anchored strikes to cash because the SENSEX futures feed diverges ~310 pts from the index/chain. Existing hedged ICs: 5822 NIFTY -1,326, 5823 GOLDM -610, 5825 CRUDEOILM -285; 5831 closed +4,725. Next review 120s to confirm fills/strikes and watch 71,735 vs 71,600."
+    },
+    {
+      "time": "2026-10-08T12:39:32.769067+05:30",
+      "summary": "HOLD/no new entry. Confirmed 5835 (SENSEX 0DTE bear put vertical, buy 71800 PE/sell 71600 PE) is durably SCHEDULED and fires at 12:40, so no churn needed. Open hedged ICs unchanged: 5822 NIFTY -1,261 (spot 22,293 sits just under 22,350 short put; SL 5,000 intact), 5823 GOLDM -10, 5825 CRUDEOILM -245. New-entry blockers: nse_fo calendar unverified (no NIFTY/FINNIFTY/MIDCPNIFTY/BANKNIFTY starts), and bse/mcx theses already held \u2014 more would duplicate correlated exposure. Today closed +4,725 (5831). Next review 120s to confirm 5835 fills and watch 22,300 / crude 9,000."
+    },
+    {
+      "time": "2026-10-08T12:40:28.526652+05:30",
+      "summary": "HOLD, no new entry. 5835 SENSEX 0DTE bear put (BUY 71700PE/SELL 71500PE, 10 lots) filled at 12:40, hedge intact, margin 438.5k. Open hedged runs: 5822 NIFTY IC -1,677 (spot 22,277 sits below 22,350 short put; SL 5,000 intact), 5823 GOLDM +1,090, 5825 CRUDEOILM -285 (crude 8,848 vs 9,000 short call, RSI 82). New entries blocked: nse_fo calendar unverified, and bse/mcx theses already held so more would duplicate correlated exposure. Today closed +4,725 (5831). Next review 120s."
     }
   ]
 }
