@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T18:25:13.092118+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now false); only MCX open. Both active condors verified fully hedged 4/4 from Core snapshots: 5750 CRUDEOILM +870 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8712, centred), 5751 GOLDM -110 (SELL 146500PE/BUY 146000PE, SELL 150500CE/BUY 151000CE; spot ~147150, short put 650 away, defined-risk, SL 20000). No new start: both MCX underlyings already carry fresh neutral condors, so a third adds correlated exposure; indices closed. SL/TP and 22:50 exits stand. Next review 600s, watching GOLDM downside."
-    },
-    {
       "time": "2026-10-07T18:35:17.379125+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now false); only MCX open. Both running condors verified fully hedged 4/4 from Core snapshots: 5750 CRUDEOILM +860 (SELL 8400PE/BUY 8300PE, SELL 9000CE/BUY 9100CE; spot 8722, well inside), 5751 GOLDM -170 (BUY 146000PE/SELL 146500PE, SELL 150500CE/BUY 151000CE; spot ~147302, short put 802 away). Assessed GOLDM/CRUDEOILM for a new start: both are range-bound (CRUDE 8693-8771, GOLDM choppy 146805-148380 after opening drop), no clean directional move, and both already carry fresh neutral condors \u2014 a third adds correlated, not distinct, exposure. No qualifying candidate, so no entry. Existing SL/TP and 22:50 exit stand. Next review 600s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T11:08:38.243979+05:30",
       "summary": "HOLD, no new entry. All four configured underlyings already carry live, hedged positions: 5831 SENSEX 0DTE bear put (confirmed fills BUY 72500 PE @362.10 / SELL 72300 PE @217.90, 5 lots, hedged, +125), 5822 NIFTY condor (+195, margin 247k), 5823 GOLDM condor (-580, SL 6000), 5825 CRUDEOILM condor (-30). No naked legs; MCX/NSE/BSE data fresh and sessions open. Blocker: no distinct uncorrelated thesis \u2014 indices neutral/choppy (NIFTY RSI 48, TimesFM flat); adding would duplicate correlated index exposure. Next: recheck in 10 min; SENSEX 0DTE exit 14:55."
+    },
+    {
+      "time": "2026-10-08T11:18:34.911583+05:30",
+      "summary": "HOLD, no new entry. Four live hedged runs, all confirmed filled: 5831 SENSEX 0DTE bear put (BUY 72500PE/SELL 72300PE, 5 lots, -200, exit 14:55), 5822 NIFTY condor (+208), 5823 GOLDM condor (-510), 5825 CRUDEOILM condor (+5). No naked legs; NSE/BSE/MCX sessions open, quotes fresh. Blocker: all four traded underlyings already carry short-vol exposure and the tape is flat (ATRs at session lows, TimesFM ~0% across indices/commodities) \u2014 no distinct uncorrelated thesis, adding would duplicate correlated risk. Next: recheck ~10 min; manage SENSEX 0DTE into 14:55 exit."
     }
   ]
 }
