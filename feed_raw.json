@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T11:45:53.076147+05:30",
-      "summary": "11:45 IST, all sessions open, data fresh. HOLD - no new entry. Four hedged runs already cover every underlying I trade (NIFTY 5822 -637; SENSEX 0DTE 5831 +2540, near max with 72300/72500 spread; GOLDM 5823 -890; CRUDEOILM 5825 -165); all shorts matched by equal-lot long options, no naked legs. TimesFM p50 flat/slightly up on all four and price action is choppy-recovering, so any new structure would duplicate correlated short-vol exposure with no distinct edge. Next review 300s; watch SENSEX 72300 into 14:55 and NIFTY 22350."
-    },
-    {
       "time": "2026-10-08T11:50:37.450887+05:30",
       "summary": "11:50 IST, all sessions open, data fresh. HOLD, no new entry. Four hedged runs already cover every underlying I trade: SENSEX 0DTE 5831 +3170 (bear put 72500/72300, deep ITM, holding to 14:55), NIFTY 5822 -663, GOLDM 5823 +130, CRUDEOILM 5825 -110; all shorts matched by equal-lot longs, no naked legs. TimesFM p50 flat/slightly up and price action choppy-recovering, so any new structure only adds correlated short-vol exposure with no distinct edge. Next review 300s; watch SENSEX 72300 into 14:55 and NIFTY 22350."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T15:40:09.693149+05:30",
       "summary": "HOLD. NSE/BSE entry windows closed (15:40, market_open_now=false); only MCX open. Both MCX names already carry fully-hedged neutral condors (5823 GOLDM 4/4 legs, +100; 5825 CRUDEOILM 4/4 legs, -740) \u2014 both far inside their 11k/6k SLs, so no edits. A new MCX entry would duplicate the same-underlying thesis and add correlated exposure; GOLDM is dead flat (147.8-148.3k) and CRUDEOILM is extended after a +4% day, so no distinct edge. Today realized +14,975. Next review 20m or on an MCX stop/leg event."
+    },
+    {
+      "time": "2026-10-08T15:55:08.280637+05:30",
+      "summary": "HOLD. NSE/BSE closed (market_open_now=false); only MCX open. Both MCX books are fully hedged 4/4-leg condors: 5823 GOLDM -750 (SL 11k), 5825 CRUDEOILM -810 (SL 6k) \u2014 both far inside stops, no edits. GOLDM dead flat (~148.0k), CRUDEOILM extended after a +4% day but TimesFM flat, so no distinct directional or neutral edge; a new MCX entry would just duplicate correlated exposure. Today realized +14,975. Next review ~20m or on an MCX stop/leg event."
     }
   ]
 }
