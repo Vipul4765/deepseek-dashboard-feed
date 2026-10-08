@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T11:26:13.058689+05:30",
-      "summary": "Created and started SENSEX iron butterfly 72900 Oct08 (ID 5761): SELL 1x ATM CALL, SELL 1x ATM PUT, BUY 1x OTM CALL (73000), BUY 1x OTM PUT (72800) for expiry 2026-10-08. Entry at 11:25, exit at 14:50. Net credit \u20b91,848, max loss \u20b9152, reward:risk ~12.16. Existing active strategies: crude oil bear call spread (5760), crude oil bull put spread (5759), GOLDM bull put spread (5757), NIFTY bull put spread (5755). NIFTY bear call spread (5758) squared off. Monitoring entry and thesis changes."
-    },
-    {
       "time": "2026-10-07T11:28:24.180278+05:30",
       "summary": "Created and started SENSEX iron butterfly 72900 Oct08 (ID 5761): SELL 1x ATM CALL, SELL 1x ATM PUT, BUY 1x OTM CALL (73000), BUY 1x OTM PUT (72800) for expiry 2026-10-08. Entry at 11:25, exit at 14:50. Net credit \u20b91,848, max loss \u20b9152, reward:risk ~12.16. Existing active strategies: crude oil bear call spread (5760), crude oil bull put spread (5759), GOLDM bull put spread (5757), NIFTY bull put spread (5755). NIFTY bear call spread (5758) squared off. Monitoring entry and thesis changes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T13:33:13.384793+05:30",
       "summary": "Created and started strategy 5841: SENSEX bear put spread 71500-71700 oct08 (buy 71700 PE, sell 71500 PE). Defined risk: max loss ~2,048 INR, max profit ~1,952 INR. Entry time 13:30, exit 15:30. Will monitor for fills and thesis validity."
+    },
+    {
+      "time": "2026-10-08T13:34:52.560154+05:30",
+      "summary": "Holding: monitoring active strategies (5841 SENSEX bear put spread -63, 5840 CRUDEOILM iron condor +14, 5839 GOLDM bear put spread +165, 5838 GOLDM bull call spread -90, 5837 NIFTY iron condor +6.5, 5836 SENSEX iron condor +280, 5830 GOLDM iron condor -25). No new trade taken due to lack of clear edge exceeding current exposure and thesis validity. Next review in 60 seconds to reassess P&L and market."
     }
   ]
 }
