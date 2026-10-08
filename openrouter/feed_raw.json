@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-07T09:54:18.114237+05:30",
-      "summary": "Holding existing NIFTY bear call credit spread (sell 22600 CE, buy 22650 CE, expiry 13-10-2026, 1 lot). Underlying at 22622, short strike ITM by 22 points; max loss ~1.5k INR, profit if NIFTY falls below 22600. No adjustment triggered yet; await price action. Next review in 30 seconds to reassess."
-    },
-    {
-      "time": "2026-10-07T09:59:53.406897+05:30",
-      "summary": "Holding existing NIFTY bear call credit spread (sell 22600 CE, buy 22650 CE, expiry 13-10-2026). Underlying at 22607, short strike slightly ITM by 7 points, breakeven at 22624.75, max loss ~1.6k. Market sideways, no clear directional thesis, no adjustment triggered. Next review in 30 seconds."
-    },
-    {
       "time": "2026-10-07T10:14:44.272226+05:30",
       "summary": "Holding existing NIFTY bear call credit spread (sell 22600 CE, buy 22650 CE, expiry 13-10-2026). Underlying at 22607, short strike slightly ITM by 7 points, breakeven at 22624.75, max loss ~1.6k. Market sideways, no clear directional thesis, no adjustment triggered. Next review in 30 seconds."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-08T11:35:57.704840+05:30",
       "summary": "Holding existing iron condor positions (NIFTY, SENSEX, GOLDM, CRUDEOILM). All within defined risk, no stop loss triggered, thesis still range\u2011bound despite mild downtrend. No new entry due to lack of clear directional signal and missing chain for other symbols. Will review in 60 seconds for thesis change or exit signals."
+    },
+    {
+      "time": "2026-10-08T11:40:28.664477+05:30",
+      "summary": "Holding existing iron condor positions (NIFTY, SENSEX, GOLDM, CRUDEOILM). All within defined risk, no stop loss triggered, thesis still range\u2011bound despite mild downtrend. No new entry due to lack of clear directional signal and missing chain for other symbols. Will review in 60 seconds for thesis change or exit signals."
+    },
+    {
+      "time": "2026-10-08T11:41:07.861038+05:30",
+      "summary": "Holding active iron condors on CRUDEOILM (5834) and GOLDM (5830); both show small unrealized profit. No clear directional signal or range-bound opportunity for new entry across NIFTY, SENSEX, GOLDM, CRUDEOILM. Will reassess in 60 seconds for thesis change or exit signals."
     }
   ]
 }
