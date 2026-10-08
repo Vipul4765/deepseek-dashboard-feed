@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T09:59:02.804736+05:30",
-      "summary": "HOLD \u2014 no new entry, no management change. Verified all three live condors hedged, equal-lot, same type/expiry: 5822 NIFTY +234 (spot 22472), 5823 GOLDM +440 (148454), 5825 CRUDEOILM -65 (8708); none near SL/TP. Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM: TimesFM paths are flat/wide-band and NIFTY/GOLDM/CRUDEOILM already carry today's neutral thesis, so a vertical there duplicates exposure. SENSEX 0DTE rejected \u2014 short strikes ~0.5\u03c3 inside a 363 straddle, 24%+ IV, credit 85 vs 115 max loss, and a negative 4-leg record. Reassess on a fresh directional break or a wider SENSEX range; next review 600s."
-    },
-    {
       "time": "2026-10-08T10:09:09.504319+05:30",
       "summary": "HOLD \u2014 no new entry, no management change. Assessed NIFTY, SENSEX, GOLDM, CRUDEOILM. Verified all three live condors hedged, equal-lot, same type/expiry: 5822 NIFTY short 22750C/22350P (+130), 5823 GOLDM short 149500C/147500P (-200), 5825 CRUDEOILM short 9000C/8400P (-25); none near SL/TP. Blockers to a new trade: TimesFM flat with wide bands and no clean intraday direction (no vertical thesis); another neutral structure would duplicate existing short-vol exposure; SENSEX 0DTE has negative edge (credit ~48 on 100 wings vs 353 straddle, breakevens ~0.65\u03c3 inside the priced move). Reassess on a >0.5% directional break; next review 600s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T13:33:44.001998+05:30",
       "summary": "HOLD, no new entry. Sessions open, quotes fresh (13:32). Book all defined-risk/hedged: 5835 SENSEX 0DTE bear put +3810 (auto-exit 14:55), 5822 NIFTY IC -1729 (spot 22230 vs short 22300 PE; SL 5000 ok), 5823 GOLDM IC -20, 5825 CRUDEOILM IC -375. Today realized +4725. Assessed NIFTY/SENSEX (oversold at day lows, extended slide \u2014 bearish add duplicates 5835, bounce play conflicts), GOLDM (flat, duplicates 5823), CRUDEOILM (extended uptrend, vertical overlaps 5825). Blocker: no distinct non-conflicting thesis with <90min index runway. Next review 300s."
+    },
+    {
+      "time": "2026-10-08T13:37:51.757459+05:30",
+      "summary": "HOLD, no new entry. Sessions open, quotes fresh (13:37). Books all hedged/defined-risk: 5835 SENSEX 0DTE bear put +1980 (auto-exit 14:55), 5822 NIFTY IC -1287 (spot 22267 below short 22350 PE, SL 5000 intact), 5823 GOLDM IC -70, 5825 CRUDEOILM IC +10; today realized +4725. Blockers: indices ~78min to 14:55 with correlated bearish 5835/5822 and a 13:30 bounce off day lows; GOLDM flat duplicates 5823; CRUDEOILM at range top (8837 vs 8891) duplicates 5825's neutral. Next review 600s."
     }
   ]
 }
