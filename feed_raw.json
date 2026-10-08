@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T10:54:08.545244+05:30",
-      "summary": "HOLD \u2014 no new entry, no management change. All three live condors confirmed hedged/equal-lot and inside stops: 5822 NIFTY +182, 5823 GOLDM +320, 5825 CRUDEOILM \u2212105. Assessed all enabled underlyings: BANKNIFTY/FINNIFTY have no option-chain feed (cannot price or hedge \u2192 ineligible); SENSEX 0DTE premium is thin (best 100-wide condor R:R 0.34, short strikes already inside today's ~580pt range) and an ATM fly's 200pt wings are threatened by the day's move; NIFTY/GOLDM/CRUDEOILM already carry the same short-vol thesis, so a fourth condor only duplicates correlated exposure. TimesFM flat everywhere; no clean directional move. Next review 600s; act if NIFTY breaks 22400/22600."
-    },
-    {
       "time": "2026-10-08T11:07:57.479300+05:30",
       "summary": "Opened a new defined-risk trade: SENSEX 0DTE bear put spread (buy ATM ~72200 PE / sell otm_2 ~72000 PE), 5 lots, exp 08-10-2026, exit 14:55, overall SL 6000 / TP 9500 (strategy 5831, run ACTIVE; both order legs fired, fills pending). Worst-case loss \u2248 \u20b98,245 (net debit, hedged equal-lot same type/expiry); margin \u2248 \u20b9236k. Thesis: clear SENSEX downtrend (RSI 31, \u2212477 pts) on the only uncommitted underlying. Existing condors 5822 NIFTY (+78), 5823 GOLDM (\u221290), 5825 CRUDEOILM (\u221270) all hedged and inside stops. Next: verify fills in 90s, then manage to 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T14:01:27.706064+05:30",
       "summary": "HOLD, no new entry, no edits. Sessions open/verified, quotes fresh (~1s). Book: 5835 SENSEX 0DTE bear put (long 71700PE/short 71500PE, 10 lots) +9140, hedged, TP 20000 intact, auto-exit 14:55; 5822 NIFTY 5DTE IC -1846 (SL 5000); 5823 GOLDM IC -110; 5825 CRUDEOILM IC -350. Today realized +4725. Assessed NIFTY/SENSEX (new index trades would duplicate 5835/5822 short-delta with only ~54m to the 14:55 exit), GOLDM/CRUDEOILM (flat TimesFM paths, duplicate 5823/5825 condors; crude near range top). Blocker: no non-duplicative edge. Next review 900s; key triggers SENSEX below 71500 (5835 TP) or index auto-square 14:55."
+    },
+    {
+      "time": "2026-10-08T14:17:08.393813+05:30",
+      "summary": "HOLD, no new entry, no edits. Sessions open/verified, quotes fresh (~1-3s). All four runs hedged and intact: 5835 SENSEX 0DTE bear put (short 71500PE/long 71700PE, 200u) in profit, TP 20000 + 14:55 auto-exit live; 5822 NIFTY IC, 5823 GOLDM IC, 5825 CRUDEOILM IC all inside bodies with hedges verified; today realized +4725. Blockers to a new trade: indices have only ~39m to the 14:55 mandatory exit and would duplicate 5835/5822 short-delta; MCX condors would duplicate open 5823/5825, and no directional edge (flat TimesFM; crude pinned at its 120-bar high 8895). Next review 900s to confirm the 14:55 index square-off, then reassess MCX."
     }
   ]
 }
