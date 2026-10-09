@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T09:39:28.561547+05:30",
-      "summary": "Created and started GOLDM iron condor (strategy 5824) with strikes approx 149000 CE short, 149500 CE long, 148000 PE short, 147500 PE long (expiry 29-10-2026). Set overall SL 5000, TP 20000. Entry triggered immediately, exit at 22:45:00. Assessed market: indices choppy with no clear directional bias; GOLDM up from prior close but TimesFM slightly bearish, favoring range-bound strategy. No open positions prior. Will monitor in next cycle."
-    },
-    {
       "time": "2026-10-08T09:42:48.840834+05:30",
       "summary": "Created and started GOLDM iron condor (strategy 5824) with strikes approx 149000 CE short, 149500 CE long, 148000 PE short, 147500 PE long (expiry 29-10-2026). Set overall SL 5000, TP 20000. Entry triggered immediately, exit at 22:45:00. Assessed market: indices choppy with no clear directional bias; GOLDM up from prior close but TimesFM slightly bearish, favoring range-bound strategy. No open positions prior. Will monitor in next cycle."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T09:34:37.777199+05:30",
       "summary": "Created NIFTY iron condor (sell ATM CE/PE, buy OTM2 CE/PE, expiry 13-10-2026) strategy 5865, waiting to start. Max loss ~\u20b9822, margin ~\u20b977k. Existing SENSEX bull call spread (5863) active, unrealized P&L \u20b9265. Failed to set target on 5863 due to tool input issue. Will monitor both. Next review in 60s."
+    },
+    {
+      "time": "2026-10-09T09:35:45.143942+05:30",
+      "summary": "Monitoring active NIFTY iron condor (5865) with +6.5 INR unrealized PnL and SENSEX bull call spread (5863) with +320 INR unrealized PnL. No new entry set; will consider adding target/stop after clarifying live-edit constraints. Next review in 60s."
     }
   ]
 }
