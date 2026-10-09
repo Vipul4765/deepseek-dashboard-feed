@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T21:07:11.766287+05:30",
-      "summary": "HOLD, no new risk. NSE/BSE closed (15:40) and owner rule bars new MCX entries, so no eligible underlying. Open hedged condors intact: 5823 GOLDM +600 unrealized (short 149500CE/147500PE vs long 150000CE/147000PE, spot 147908) vs SL 11000; 5825 CRUDEOILM -985 unrealized (short 9000CE/8400PE vs long 9200CE/8200PE, spot 8997) vs SL 6000. Both defined-risk, 4 legs filled, auto-exit 22:50. Today realized +14975. Next review ~25 min or on exit."
-    },
-    {
       "time": "2026-10-08T21:22:10.411407+05:30",
       "summary": "HOLD, no new risk. NSE/BSE sessions closed (15:40) and owner rule bars new MCX entries, so no eligible underlying. Two hedged condors remain, both defined-risk and inside limits: 5823 GOLDM +40 unrealized (short 149500CE/147500PE, long 150000CE/147000PE; spot 147850) vs SL 11000; 5825 CRUDEOILM -1090 unrealized (short 9000CE/8400PE, long 9200CE/8200PE; spot 9000) vs SL 6000. Both auto-exit 22:50. Today realized +14975. Next review ~25 min or on exit/SL event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T15:10:42.966983+05:30",
       "summary": "HOLD, no actions. Flat: open_runs empty; NIFTY 13-10 runs already closed per Core (5864 \u2212\u20b926, 5866 +\u20b93,146; 0 open legs). Today +\u20b93,120. Eligible symbols assessed: NIFTY (22534, RSI 26, TimesFM \u22120.01%) and SENSEX (72538, RSI 27, forecast \u22120.004%); both past the 09:30\u201315:00 index entry window (now 15:10) with the required 14:55 exit already gone, so no valid holding window. MCX off per boss. Limits disabled, no halt. Reassess fresh direction at next open session."
+    },
+    {
+      "time": "2026-10-09T15:25:39.897593+05:30",
+      "summary": "HOLD, no actions. Flat: open_runs empty; today's NIFTY runs already settled (5864 \u2212\u20b926, 5866 +\u20b93,146; today +\u20b93,120). Now 15:25 IST, past the 09:30\u201315:00 index entry window with the 14:55 exit already gone, so no valid holding window for NIFTY/SENSEX despite fresh quotes. MCX off per boss. Limits/account thresholds disabled, no halt. Next review in 30 min; reassess direction at the next open session."
     }
   ]
 }
