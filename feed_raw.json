@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T14:56:00.651012+05:30",
-      "summary": "HOLD, no entries/edits. Index windows closed (exit 14:55): 5822 NIFTY IC -1950 and 5835 SENSEX 0DTE +12200 settled; today realized +14975. MCX still open and assessed: GOLDM flat (148000, TimesFM -0.02%) and CRUDEOILM choppy near range high 8912 (8894, RSI 68, TimesFM +0.09%) \u2014 no clean directional edge, and fresh verticals/condors there would duplicate the already-open hedged condors 5823 (-190, SL 11000/TP 12000) and 5825 (-675, SL 6000/TP 6000). Both fully hedged, Core-managed. Next review 15m or on a stop/leg event."
-    },
-    {
       "time": "2026-10-08T15:11:03.127146+05:30",
       "summary": "HOLD, no new entries or edits. Index windows closed (15:10 > 15:00 entry / 14:55 exit) so NIFTY/SENSEX unenterable. MCX open and assessed: GOLDM flat (~147,900, TimesFM -0.01%) and CRUDEOILM choppy 8,831-8,912 (8,865, RSI 26, TimesFM +0.06%) \u2014 no clean directional edge, and new trades would only duplicate the already-open fully-hedged condors 5823 (GOLDM, -430, SL 11000/TP 12000) and 5825 (CRUDEOILM, -510, SL 6000/TP 6000). Today realized +14,975. Next review 15m or on an MCX stop/leg event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T09:30:23.342653+05:30",
       "summary": "NSE/BSE open. Strategy 5864 (NIFTY 13-10 iron condor, 4 lots) filled at 09:30: short 22700CE@28.80 / long 22800CE@15.90, short 22200PE@55.75 / long 22100PE@36.05 \u2014 all 4 legs CONFIRMED and hedged, run ACTIVE, P&L flat. Credit \u20b98,476; defined worst-case ~\u20b917,524, capped by overall SL \u20b97,000 / TP \u20b94,000, exit 14:55; margin ~\u20b92.56L. No new entry: SENSEX would only duplicate correlated index exposure. Next review ~15 min to watch marks and the 22200PE short."
+    },
+    {
+      "time": "2026-10-09T09:45:12.910946+05:30",
+      "summary": "NSE/BSE open. Existing run 5864 (NIFTY 13-10 iron condor, 4 lots) confirmed hedged and ACTIVE: short 22700CE@28.80/long 22800CE@15.90, short 22200PE@55.75/long 22100PE@36.05; unrealized -\u20b9533, SL \u20b97,000 / TP \u20b94,000, exit 14:55, margin ~\u20b92.56L. No new entry: NIFTY/SENSEX both gapped ~+1% with RSI 74.6/81 (extended), so a directional chase has poor edge and SENSEX would only duplicate correlated index exposure. Next review ~15 min to watch marks and the short strikes."
     }
   ]
 }
