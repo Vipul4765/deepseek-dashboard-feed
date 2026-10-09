@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T13:33:13.384793+05:30",
-      "summary": "Created and started strategy 5841: SENSEX bear put spread 71500-71700 oct08 (buy 71700 PE, sell 71500 PE). Defined risk: max loss ~2,048 INR, max profit ~1,952 INR. Entry time 13:30, exit 15:30. Will monitor for fills and thesis validity."
-    },
-    {
-      "time": "2026-10-08T13:34:52.560154+05:30",
-      "summary": "Holding: monitoring active strategies (5841 SENSEX bear put spread -63, 5840 CRUDEOILM iron condor +14, 5839 GOLDM bear put spread +165, 5838 GOLDM bull call spread -90, 5837 NIFTY iron condor +6.5, 5836 SENSEX iron condor +280, 5830 GOLDM iron condor -25). No new trade taken due to lack of clear edge exceeding current exposure and thesis validity. Next review in 60 seconds to reassess P&L and market."
-    },
-    {
       "time": "2026-10-08T14:19:28.452372+05:30",
       "summary": "Created and started new SENSEX bear call spread (strategy 5844): sell ATM call, buy OTM call expiry 08-10-2026, lot size 1, overall SL 513 (max loss), TP 487 (max profit), entry 14:15, exit 14:55. Existing 9 active strategies remain unchanged. Next review in 60 seconds to monitor fills and approach to exits."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-09T14:51:01.619988+05:30",
       "summary": "Holding existing positions: two SENSEX bull call spreads (5880,5881), one SENSEX iron condor (5879), one NIFTY iron fly (5878). No opposite directional views per index. Strategy 5881 exit time 15:20 exceeds index exit 14:55; will square off if still active at 14:55. No new trade due to proximity to exit. Next review in 300 seconds to check and act."
+    },
+    {
+      "time": "2026-10-09T14:55:55.526070+05:30",
+      "summary": "Holding existing positions: two SENSEX bull call spreads (5880,5881), one SENSEX iron condor (5879), one NIFTY iron fly (5878). No opposite directional views per index. Strategy 5881 exit time 15:20 exceeds index exit 14:55; will square off if still active at 14:55. No new trade due to proximity to exit. Next review in 300 seconds to check and act."
+    },
+    {
+      "time": "2026-10-09T14:56:43.352604+05:30",
+      "summary": "Market closed for new index entries past 14:55 IST. All strategies from today are closed (journal_today shows 17 completed trades). MCX trading is disabled per boss's decision. No open positions to manage. No directional signal strong enough to warrant trade even if time allowed. Waiting for next session."
     }
   ]
 }
