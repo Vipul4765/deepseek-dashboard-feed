@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T13:26:07.560592+05:30",
-      "summary": "Closed CRUDEOILM iron condor (5834) due to strong uptrend invalidating neutral thesis. Created and started GOLDM bear put spread 148500-148000 oct29 (5839) to capitalize on slight downtrend. Strategy: BUY 1x PUT 148500, SELL 1x PUT 148000; net debit ~256.5/lot; SL 12,825 (50% max loss), TP 12,175 (50% max profit). Active runs: GOLDM bull call spread (5838, -55), GOLDM iron condor (5830, +65), NIFTY iron condor (5837, +22.75), SENSEX bear put spread (5836, +419), new GOLDM bear put spread (5839, just started). All defined risk. Next review in 60s to monitor new position and assess combined GOLDM exposure."
-    },
-    {
       "time": "2026-10-08T13:30:37.558563+05:30",
       "summary": "HOLD: No new trade entered. Active runs: CRUDEOILM iron condor (5840) +2.5, GOLDM bear put spread (5839) +265, GOLDM bull call spread (5838) -20, NIFTY iron condor (5837) -9.75, SENSEX bear put spread (5836) +396, GOLDM iron condor (5830) +85. Market shows slight trends; thesis for neutral strategies still valid. Next review in 60s to reassess for new opportunity or thesis breach."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T14:25:49.925691+05:30",
       "summary": "Holding NIFTY iron fly (5878) and SENSEX iron condor (5879). Both within SL/TP, unrealized P&L +32.5 and +28. No clear directional signal from price action or TimesFM; maintain one neutral view per index. No new entry. Next review in 3 minutes to reassess near exit."
+    },
+    {
+      "time": "2026-10-09T14:35:54.356073+05:30",
+      "summary": "Monitoring active SENSEX bull call spreads (5881,5880), iron condor (5879) and NIFTY iron fly (5878). No new trade entered; positions within SL/TP. Next review in 30 seconds to check for exits or adjustments."
     }
   ]
 }
