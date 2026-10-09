@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T09:36:01.418284+05:30",
-      "summary": "Assessed GOLDM and CRUDEOILM (MCX open, indices closed). No open positions. Market is choppy with no clear directional move; time is 23:28 IST, past the suggested commodity exit time (22:50) and only 27 minutes before market close (23:55), insufficient to enter and manage a new trade. Holding until next session. Will reassess at 09:00 IST next trading day for fresh entry opportunities."
-    },
-    {
       "time": "2026-10-08T09:39:28.561547+05:30",
       "summary": "Created and started GOLDM iron condor (strategy 5824) with strikes approx 149000 CE short, 149500 CE long, 148000 PE short, 147500 PE long (expiry 29-10-2026). Set overall SL 5000, TP 20000. Entry triggered immediately, exit at 22:45:00. Assessed market: indices choppy with no clear directional bias; GOLDM up from prior close but TimesFM slightly bearish, favoring range-bound strategy. No open positions prior. Will monitor in next cycle."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T09:19:02.701969+05:30",
       "summary": "Created and started SENSEX bull call spread (BUY 1\u00d7 CALL ATM 71800, SELL 1\u00d7 CALL OTM\u2082 72000, expiry 15\u201110\u20112026). Filled at 441.35/356.35, net debit \u20b985/share (max loss \u20b91\u202f700, max profit \u20b92\u202f300). Position active; will manage to exit at 14:55 IST or earlier if thesis fails. Next review in 60\u202fs."
+    },
+    {
+      "time": "2026-10-09T09:34:37.777199+05:30",
+      "summary": "Created NIFTY iron condor (sell ATM CE/PE, buy OTM2 CE/PE, expiry 13-10-2026) strategy 5865, waiting to start. Max loss ~\u20b9822, margin ~\u20b977k. Existing SENSEX bull call spread (5863) active, unrealized P&L \u20b9265. Failed to set target on 5863 due to tool input issue. Will monitor both. Next review in 60s."
     }
   ]
 }
