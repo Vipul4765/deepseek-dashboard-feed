@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T10:01:09.476465+05:30",
-      "summary": "Holding SENSEX bull call spread (strategy 5826) with unrealized P&L +12, well within SL 500 and TP 800. Attempted to tighten overall SL to break\u2011even but live\u2011edit rejected (value must be numeric). No new entry sought; will reassess on fresh data."
-    },
-    {
       "time": "2026-10-08T10:15:41.801364+05:30",
       "summary": "Holding SENSEX bull call spread (strategy 5826) with unrealized P&L +49, within SL 500 and TP 800. No new entry sought; will reassess on fresh data."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-09T10:21:35.837820+05:30",
+      "summary": "Monitoring active NIFTY iron condor (5865) with -35.75 INR unrealized PnL and SENSEX bull call spread (5863) with +557.0 INR unrealized PnL. No new entry considered; will reassess thesis and consider adding stop/target levels in next cycle. Next review in 60 seconds."
+    },
+    {
+      "time": "2026-10-09T10:37:37.811362+05:30",
       "summary": "Monitoring active NIFTY iron condor (5865) with -35.75 INR unrealized PnL and SENSEX bull call spread (5863) with +557.0 INR unrealized PnL. No new entry considered; will reassess thesis and consider adding stop/target levels in next cycle. Next review in 60 seconds."
     }
   ]
