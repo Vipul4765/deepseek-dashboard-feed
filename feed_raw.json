@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T16:20:22.170973+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now=false); only MCX open. Both MCX runs are fully hedged 4-leg condors \u2014 no naked short. GOLDM 5823 net \u2212\u20b990 (SL 11k), short put 147500 ~350 from spot; CRUDEOILM 5825 net \u2212\u20b91,440 (SL 6k), spot 8993 sitting at its 9000 short call. Both inside stops, hedges intact, no edits. No fresh distinct edge: CRUDEOILM extended (+5%) but stalling at 9000 with flat TimesFM, GOLDM dead flat; a new MCX entry would only stack correlated exposure. Today realized +\u20b914,975. Next review ~10m or on an MCX stop/leg event."
-    },
-    {
       "time": "2026-10-08T16:30:18.003663+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false); only MCX open. Both MCX runs intact and fully hedged: GOLDM 5823 unrealized \u2212\u20b9300 (SL 11k), spot 147,976 sits between 147,500P/149,500C shorts; CRUDEOILM 5825 unrealized \u2212\u20b91,275 (SL 6k), spot 8,970 just ~30 below its 9,000 short call with 9,200C hedge intact. No new entry: the only open venue already holds condors in both MCX underlyings, so another would just stack correlated exposure; no distinct fresh edge. Today realized +\u20b914,975. Next review ~7m or on an MCX leg/stop event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T10:47:11.380338+05:30",
       "summary": "HOLD. Two hedged NIFTY 13-10 runs ACTIVE with confirmed fills and intact hedges: 5866 bull call spread (long 22550/ short 22650 CE) +\u20b9806; 5864 iron condor (short 22700 CE / 22100 PE, long 22800 CE / 22200 PE) \u2212\u20b9572. Spot 22494 sits between spreads, within both SL/TP and 14:55 exit; no hedge break. NIFTY/SENSEX price action is flat/choppy (RSI ~53-55, TimesFM ~0%), so no fresh directional edge and a new SENSEX trade would duplicate the existing correlated NIFTY bull thesis. MCX off. Next review ~25 min; triggers: NIFTY >22650 (spread TP) or <22200 (condor PE threat)."
+    },
+    {
+      "time": "2026-10-09T11:02:23.668565+05:30",
+      "summary": "HOLD. 5866 NIFTY bull call spread (long 22550/short 22650 CE) +\u20b91300 and 5864 NIFTY iron condor (short 22700 CE/22100 PE, long 22800 CE/22200 PE) \u2212\u20b9637 both ACTIVE, hedges intact, inside SL/TP and 14:55 exit. No new trade: NIFTY 22507/SENSEX 72428 are extended at intraday highs with flat-to-down TimesFM, so a fresh long would chase and duplicate 5866's bullish thesis with no reversal case for a short. MCX off. Next review ~25 min; triggers NIFTY >22650 or <22200 (condor PE threat) or a clean forecast/breakout edge."
     }
   ]
 }
