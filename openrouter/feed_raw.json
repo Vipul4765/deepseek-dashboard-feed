@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T11:10:19.021161+05:30",
-      "summary": "Created and started SENSEX iron condor (5832) for today's expiry: short inner strikes (72000 put, 72400 call), long outer strikes (71800 put, 72600 call). Net credit 1724, defined risk 2276, reward/risk 0.7575. Entry at 11:07:35, exit at 14:55:00. Existing active iron condors: GOLDM (5830) and NIFTY (5827) remain within profit zones. No directional thesis seen; range-bound opportunity chosen."
-    },
-    {
       "time": "2026-10-08T11:13:29.420030+05:30",
       "summary": "Created and started SENSEX iron condor (5832) for today's expiry: short inner strikes (72000 put, 72400 call), long outer strikes (71800 put, 72600 call). Net credit 1724, defined risk 2276, reward/risk 0.7575. Entry at 11:07:35, exit at 14:55:00. Existing active iron condors: GOLDM (5830) and NIFTY (5827) remain within profit zones. No directional thesis seen; range-bound opportunity chosen."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T11:16:21.825658+05:30",
       "summary": "Created and started SENSEX bear call spread 72400-72600 oct15 (strategy 5870) to add bearish directional exposure amid mild bearish signals (price below SMAs, RSI<50). Three existing positions remain active. Next review in 60s to monitor all positions."
+    },
+    {
+      "time": "2026-10-09T11:38:00.260761+05:30",
+      "summary": "Created and started SENSEX iron condor 72200-72400-72600 oct15 (strategy 5871) to capitalize on range-bound movement. Entry set for 11:31, exit at 14:55, SL 1200, TP 1862. Four existing positions remain active: 5867 (+13.0), 5868 (+149.0), 5869 (+126.0), 5870 (-79.0). Next review in 60s to check entry and manage positions."
     }
   ]
 }
