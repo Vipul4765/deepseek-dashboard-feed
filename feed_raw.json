@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T19:22:10.257466+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now=false) and MCX new entries barred by boss's decision, so no new risk. Both open runs verified hedged from fresh snapshots (age 0.6s): 5823 GOLDM iron condor (SELL 149500 CE/147500 PE vs BUY 150000 CE/147000 PE) unrealized +310 vs SL 11000, spot 148394 inside body; 5825 CRUDEOILM condor (SELL 9000 CE/8400 PE vs BUY 9200 CE/8200 PE) unrealized -470 vs SL 6000, spot 8929 inside 8400-9000. Today realized +14975. No edits; both exit 22:50. Next review 30m or on any leg/stop/exit event."
-    },
-    {
       "time": "2026-10-08T19:37:12.429778+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false, 15:40 close) and new MCX entries barred by the boss's decision, so no new risk. Both open runs verified hedged from fresh snapshots (age ~1s): 5823 GOLDM condor SELL 149500 CE/147500 PE vs BUY 150000 CE/147000 PE, unrealized +210 vs SL 11000, spot 148217 inside body; 5825 CRUDEOILM condor SELL 9000 CE/8400 PE vs BUY 9200 CE/8200 PE, unrealized -480 vs SL 6000, spot 8934 inside 8400-9000. Today realized +14975. No edits; both auto-exit 22:50."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T14:02:21.591146+05:30",
       "summary": "HOLD. NSE/BSE open, MCX off. Both NIFTY 13-10 runs ACTIVE and fully hedged: 5864 iron condor (short 22700C/22200P, long 22800C/22100P) ~+\\u20b9143; 5866 bull call 22550/22650 ~+\\u20b91,963; combined ~+\\u20b92,106, inside SL/TP, Core exit 14:55. Spot NIFTY 22536 (RSI 57), SENSEX 72512 (RSI 60): both near range highs, extended, TimesFM p50 flat/slightly down \\u2014 no fresh directional edge with only ~53 min to exit, so no third structure added. Next review ~14:32; watch exit 14:55 and hedge/stream failure."
+    },
+    {
+      "time": "2026-10-09T14:17:19.859519+05:30",
+      "summary": "HOLD. NSE open, MCX off. Both NIFTY 13-10 runs ACTIVE and fully hedged: 5864 iron condor (short 22700C/22200P, long 22800C/22100P) \u2248-\u20b9221; 5866 bull call 22550/22650 \u2248+\u20b92,977; combined \u2248+\u20b92,756, inside SL/TP, Core exit 14:55. No new trade: NIFTY 22553 and SENSEX 72560 both extended near range highs (RSI 65/67), TimesFM p50 flat, and <40 min to the 14:55 index exit leaves no holding window. Next review ~14:47 to confirm flatten and hedge integrity."
     }
   ]
 }
