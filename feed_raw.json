@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T15:26:20.558186+05:30",
-      "summary": "HOLD, no new entries or edits. NSE/BSE index entry windows are closed (past 15:00), so only MCX is enterable, and both permitted MCX names already carry fully-hedged neutral condors: 5823 GOLDM (4/4 legs filled, -380) and 5825 CRUDEOILM (4/4 legs filled, -625), both far from SLs (11k/6k). GOLDM 147,993 is dead flat (120-bar 147,827-148,300); CRUDEOILM 8,897 is extended after a +4% day (RSI 77), so no distinct edge. Any new MCX entry would duplicate existing same-underlying thesis/correlated exposure. Today realized +14,975. Next review 15m or on an MCX stop/leg event."
-    },
-    {
-      "time": "2026-10-08T15:40:09.693149+05:30",
-      "summary": "HOLD. NSE/BSE entry windows closed (15:40, market_open_now=false); only MCX open. Both MCX names already carry fully-hedged neutral condors (5823 GOLDM 4/4 legs, +100; 5825 CRUDEOILM 4/4 legs, -740) \u2014 both far inside their 11k/6k SLs, so no edits. A new MCX entry would duplicate the same-underlying thesis and add correlated exposure; GOLDM is dead flat (147.8-148.3k) and CRUDEOILM is extended after a +4% day, so no distinct edge. Today realized +14,975. Next review 20m or on an MCX stop/leg event."
-    },
-    {
       "time": "2026-10-08T15:55:08.280637+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false); only MCX open. Both MCX books are fully hedged 4/4-leg condors: 5823 GOLDM -750 (SL 11k), 5825 CRUDEOILM -810 (SL 6k) \u2014 both far inside stops, no edits. GOLDM dead flat (~148.0k), CRUDEOILM extended after a +4% day but TimesFM flat, so no distinct directional or neutral edge; a new MCX entry would just duplicate correlated exposure. Today realized +14,975. Next review ~20m or on an MCX stop/leg event."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-09T10:00:18.441353+05:30",
       "summary": "NSE/BSE open. Run 5864 (NIFTY 13-10 iron condor, 4 lots) confirmed hedged and ACTIVE: short 22700CE/long 22800CE, short 22200PE/long 22100PE; fresh unrealized \u2212\u20b9637; SL \u20b97,000 / TP \u20b94,000, exit 14:55, margin ~\u20b92.56L \u2014 spot 22459 sits at the 22450 centre, both shorts 240/260 pts OTM, thesis intact. No new entry: both indices gapped ~+1% and are extended (RSI 70.7/72.4), so a directional vertical lacks reward:risk and a SENSEX condor would only duplicate the open correlated NIFTY neutral. Next review ~15 min to watch approach to 22200/22700."
+    },
+    {
+      "time": "2026-10-09T10:16:41.997388+05:30",
+      "summary": "Acted on the boss's directional mandate: NIFTY gap-up trend (22489, above rising SMAs, RSI 65) supported a defined-risk bull call spread. Started 5866 \u2014 BUY 4x 22550 CE @97.05 / SELL 4x 22650 CE @58.45 (13-10); both filled, hedged. Debit \u20b910,036, max profit \u20b915,964, SL \u20b98,000/TP \u20b99,000, exit 14:55; margin ~\u20b91.19L. Condor 5864 intact, \u2212\u20b9468, spot mid-range. Next review 12 min; triggers: NIFTY >22650 (TP) or back below ~22450 (thesis/SL)."
+    },
+    {
+      "time": "2026-10-09T10:17:18.693640+05:30",
+      "summary": "HOLD. Two NIFTY runs open and fully hedged: 5866 bull call spread (22550/22650 CE, 13-10, +\u20b9234) and 5864 iron condor (22700/22800 CE + 22100/22200 PE, \u2212\u20b9455). Both fresh fills confirmed; no broken hedge, no stop/target hit. SENSEX is bullish but a spread there would duplicate the same long-index thesis, so no new entry \u2014 blocker is thesis redundancy, not margin. MCX off. Next review 20 min; triggers: NIFTY >22650 (TP) or <22450 (spread SL/thesis)."
     }
   ]
 }
