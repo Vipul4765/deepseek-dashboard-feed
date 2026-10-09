@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T20:22:16.738603+05:30",
-      "summary": "HOLD, no new risk. NSE/BSE closed (market_open_now=false) and MCX entries barred, so no eligible entry. Open condors verified hedged from fresh fills: 5823 GOLDM short 149500CE/147500PE vs long 150000CE/147000PE, spot 148227, unrealized +160 vs SL 11000; 5825 CRUDEOILM short 9000CE/8400PE vs long 9200CE/8200PE, spot 8971, unrealized -940 vs SL 6000. Both defined-risk and auto-exit 22:50; today realized +14975. No edits. Next review 30 min."
-    },
-    {
-      "time": "2026-10-08T20:37:10.991242+05:30",
-      "summary": "HOLD, no new risk. NSE/BSE closed and MCX entries barred, so no eligible entry. Open hedged condors verified: 5823 GOLDM short 149500CE/147500PE vs long 150000CE/147000PE, spot 148047, unrealized +480 vs SL 11000; 5825 CRUDEOILM short 9000CE/8400PE vs long 9200CE/8200PE, spot 9011, unrealized -1295 vs SL 6000. Both defined-risk, auto-exit 22:50. Today realized +14975. No edits. Next review ~30 min."
-    },
-    {
       "time": "2026-10-08T20:52:11.400111+05:30",
       "summary": "HOLD, no new risk. NSE/BSE closed (close 15:40) and MCX entries barred by owner rule, so no eligible entry; GOLDM/CRUDEOILM not considered for new starts. Open hedged condors intact: 5823 GOLDM short 149500CE/147500PE vs long 150000CE/147000PE, spot 147961, unrealized +290 vs SL 11000; 5825 CRUDEOILM short 9000CE/8400PE vs long 9200CE/8200PE, spot ~9004, unrealized -1135 vs SL 6000. Both defined-risk, auto-exit 22:50. Today realized +14975. Next review ~30 min or on exit."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-09T14:52:12.068193+05:30",
       "summary": "HOLD. NSE open, MCX off per boss. Both NIFTY 13-10 runs ACTIVE and fully hedged: 5866 bull call 22550/22650 \u2248 +\u20b92,990; 5864 iron condor (short 22700C/22200P, long 22800C/22100P) \u2248 +\u20b978; combined \u2248 +\u20b93,068, inside SL/TP. No new trade: only ~3 min to the 14:55 index exit, no holding window. Next review in 5 min to confirm both runs flatten and hedges remain covered."
+    },
+    {
+      "time": "2026-10-09T14:55:12.911003+05:30",
+      "summary": "HOLD, no actions. Both NIFTY 13-10 runs already flattened at 14:55 per Core events: iron condor 5864 RUN_DONE (-\u20b926), bull call 5866 realized +\u20b93,146 (open_legs 0). No open positions remain. With indices past the 14:55 exit time there is no holding window for a new entry, and MCX/commodities stay off per boss. No eligible, priced, hedged candidate exists this cycle. Next review in 30 min; reassess fresh NIFTY/SENSEX direction at the next open session."
+    },
+    {
+      "time": "2026-10-09T14:55:41.765524+05:30",
+      "summary": "HOLD, no actions. Both NIFTY 13-10 runs already flat per Core (5864 condor -\u20b926; 5866 bull call +\u20b93,146; open_legs 0). No open positions, today +\u20b93,120. Clock is 14:55:32 IST; index exit must be 14:55 and there is no holding window left, so no new NSE/BSE entry is valid this cycle. MCX stays off per boss. Eligible symbols assessed: NIFTY (22560, RSI 71, TimesFM flat/-0.01%), SENSEX (72613, RSI 72, flat). Blocker: expired index holding window. Reassess fresh direction at next open session."
     }
   ]
 }
