@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T10:49:47.011827+05:30",
-      "summary": "Created and started NIFTY iron condor (strategy 5827) with strikes 22400/22450/22500/22350 OCT13, defined risk ~2.0k loss, margin ~5.0L. Existing SENSEX bull call spread (5826) active, PnL -68 within SL/TP. No other new entries due to NIFTY/2-leg and CRUDEOILM/2-leg losing patterns and lack of clear thesis on other underlyings. Next review on fresh data or if thesis changes."
-    },
-    {
       "time": "2026-10-08T10:52:14.999420+05:30",
       "summary": "Created and started NIFTY iron condor (strategy 5827) with strikes 22400/22450/22500/22350 OCT13, defined risk ~2.0k loss, margin ~5.0L. Existing SENSEX bull call spread (5826) active, PnL -68 within SL/TP. No other new entries due to NIFTY/2-leg and CRUDEOILM/2-leg losing patterns and lack of clear thesis on other underlyings. Next review on fresh data or if thesis changes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T10:56:21.713548+05:30",
       "summary": "No new entry: NIFTY and SENSEX show only modest bias without clear directional thesis; already have active bullish spreads on SENSEX and a neutral iron condor on NIFTY. Holding and monitoring three active positions. Next review in 120 seconds."
+    },
+    {
+      "time": "2026-10-09T11:11:41.080858+05:30",
+      "summary": "Holding three active positions (SENSEX bull call spread 72600-72800, SENSEX bull put spread 72500-72700, NIFTY iron condor 22400-22500-22600). No new trade taken due to modest directional signals without clear thesis. Next review in 120 seconds to reassess."
     }
   ]
 }
