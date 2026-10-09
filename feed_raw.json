@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T17:22:10.162460+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now=false); MCX new entries off per boss, so no new index or commodity risk. Re-verified both open MCX runs fully hedged: 5823 GOLDM short 147500P/149500C vs long 147000P/150000C, unrealized +\u20b9270 vs SL 11k; 5825 CRUDEOILM short 8400P/9000C vs long 8200P/9200C, unrealized \u2212\u20b9950 vs SL 6k, spot 8,939 near the 9,000 short call, wings intact. Today realized +\u20b914,975. Next review ~25m or on any MCX leg/stop/exit event (exit 22:50)."
-    },
-    {
       "time": "2026-10-08T17:37:11.857469+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false) so no new index entries; MCX new entries off per boss, so no new risk anywhere. Verified both open MCX runs intact and fully hedged: 5823 GOLDM 4 legs, unrealized -200 vs SL 11k; 5825 CRUDEOILM 4 legs, unrealized -915 vs SL 6k (spot 8946 vs 9000 short call, wings intact). Today realized +14,975. Next review 25m or on any MCX leg/stop/exit event (exit 22:50)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T12:02:24.757814+05:30",
       "summary": "HOLD. NSE/BSE open; MCX off. Assessed NIFTY 22448 (RSI 16, below SMAs, at the 120-bar low 22441) and SENSEX 72256 (RSI 19): both deeply oversold and drifting down, but TimesFM p50 is essentially flat (-0.07%/-0.09%), so a fresh bear vertical would be chasing a stretched move and a bull vertical lacks a confirmed reversal. Existing correlated NIFTY exposure (5866 bull call 22550/22650 CE, -\u20b91040) already carries the directional side. No add offsetting it. Both runs hedged, inside SL/TP, 14:55 exit: 5864 condor +\u20b9234, 5866 -\u20b91040. Next review 12:27; trigger NIFTY >22500 or <22420, or hedge failure."
+    },
+    {
+      "time": "2026-10-09T12:17:21.274472+05:30",
+      "summary": "HOLD. NSE/BSE open; MCX off. NIFTY 22476 (RSI 66.6, 120-bar range 22446-22534, net flat over 2h) and SENSEX 72348 (RSI 72.7): both bounced off lows but TimesFM p50 is flat (-0.08% each), so no clear direction for a new vertical; extra neutral NIFTY exposure would duplicate the existing condor, and a SENSEX 4-leg is a weak-record shape. Existing positions hedged, inside SL/TP: 5864 condor +\u20b965, 5866 bull call -\u20b9234, exits 14:55. Next review 12:42; trigger NIFTY >22535 or <22445, or hedge failure."
     }
   ]
 }
