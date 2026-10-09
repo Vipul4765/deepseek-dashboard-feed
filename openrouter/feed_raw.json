@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T13:30:37.558563+05:30",
-      "summary": "HOLD: No new trade entered. Active runs: CRUDEOILM iron condor (5840) +2.5, GOLDM bear put spread (5839) +265, GOLDM bull call spread (5838) -20, NIFTY iron condor (5837) -9.75, SENSEX bear put spread (5836) +396, GOLDM iron condor (5830) +85. Market shows slight trends; thesis for neutral strategies still valid. Next review in 60s to reassess for new opportunity or thesis breach."
-    },
-    {
       "time": "2026-10-08T13:33:13.384793+05:30",
       "summary": "Created and started strategy 5841: SENSEX bear put spread 71500-71700 oct08 (buy 71700 PE, sell 71500 PE). Defined risk: max loss ~2,048 INR, max profit ~1,952 INR. Entry time 13:30, exit 15:30. Will monitor for fills and thesis validity."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T14:35:54.356073+05:30",
       "summary": "Monitoring active SENSEX bull call spreads (5881,5880), iron condor (5879) and NIFTY iron fly (5878). No new trade entered; positions within SL/TP. Next review in 30 seconds to check for exits or adjustments."
+    },
+    {
+      "time": "2026-10-09T14:51:01.619988+05:30",
+      "summary": "Holding existing positions: two SENSEX bull call spreads (5880,5881), one SENSEX iron condor (5879), one NIFTY iron fly (5878). No opposite directional views per index. Strategy 5881 exit time 15:20 exceeds index exit 14:55; will square off if still active at 14:55. No new trade due to proximity to exit. Next review in 300 seconds to check and act."
     }
   ]
 }
