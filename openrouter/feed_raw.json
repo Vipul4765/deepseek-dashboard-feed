@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T12:12:32.185200+05:30",
-      "summary": "Holding active CRUDEOILM and GOLDM iron condors (small unrealized PnL). No clear directional or range signal across NIFTY, SENSEX, GOLDM, CRUDEOILM for new trade. Will reassess in 60 seconds for thesis change or exit signal."
-    },
-    {
       "time": "2026-10-08T12:27:44.240572+05:30",
       "summary": "Holding active CRUDEOILM and GOLDM iron condors (small unrealized PnL). No clear directional or range signal across NIFTY, SENSEX, GOLDM, CRUDEOILM for new trade. Will reassess in 60 seconds for thesis change or exit signal."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T13:05:10.992951+05:30",
       "summary": "Created and started NIFTY iron fly ATM OTM1 (strategy 5878) with entry at 13:05, exit 14:55, overall SL 7500, TP 5500. Assessed NIFTY and SENSEX: price action choppy, no clear directional thesis; chosen bounded-range iron fly. Will monitor for fills and thesis validity."
+    },
+    {
+      "time": "2026-10-09T13:06:27.470269+05:30",
+      "summary": "Holding active NIFTY and SENSEX strategies (iron fly, bear condor, bear spreads, iron condor). Market slightly down, range-bound; no thesis change, hedges intact, exit times pending. Will monitor for material changes or approach to exit."
     }
   ]
 }
