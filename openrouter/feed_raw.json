@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T10:15:41.801364+05:30",
-      "summary": "Holding SENSEX bull call spread (strategy 5826) with unrealized P&L +49, within SL 500 and TP 800. No new entry sought; will reassess on fresh data."
-    },
-    {
-      "time": "2026-10-08T10:33:05.989588+05:30",
-      "summary": "Created and started NIFTY iron condor (strategy 5827) with strikes 22400/22450/22500/22350 OCT13, defined risk ~2.0k loss, margin ~5.0L. Existing SENSEX bull call spread (5826) active, PnL -68 within SL/TP. No other new entries due to NIFTY/2-leg and CRUDEOILM/2-leg losing patterns and lack of clear thesis on other underlyings. Next review on fresh data or if thesis changes."
-    },
-    {
       "time": "2026-10-08T10:36:50.174991+05:30",
       "summary": "Created and started NIFTY iron condor (strategy 5827) with strikes 22400/22450/22500/22350 OCT13, defined risk ~2.0k loss, margin ~5.0L. Existing SENSEX bull call spread (5826) active, PnL -68 within SL/TP. No other new entries due to NIFTY/2-leg and CRUDEOILM/2-leg losing patterns and lack of clear thesis on other underlyings. Next review on fresh data or if thesis changes."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-09T10:37:37.811362+05:30",
       "summary": "Monitoring active NIFTY iron condor (5865) with -35.75 INR unrealized PnL and SENSEX bull call spread (5863) with +557.0 INR unrealized PnL. No new entry considered; will reassess thesis and consider adding stop/target levels in next cycle. Next review in 60 seconds."
+    },
+    {
+      "time": "2026-10-09T10:40:30.046429+05:30",
+      "summary": "Monitoring active NIFTY iron condor (5865) with -35.75 INR unrealized PnL and SENSEX bull call spread (5863) with +557.0 INR unrealized PnL. No new entry considered; will reassess thesis and consider adding stop/target levels in next cycle. Next review in 60 seconds."
+    },
+    {
+      "time": "2026-10-09T10:41:12.532334+05:30",
+      "summary": "Monitoring three active positions: NIFTY iron condor (5867) with +6.5 INR unrealized PnL, SENSEX bull call spread (5869) +22.0, SENSEX bull put spread (5868) +18.0. No new entry considered as recent price action shows only modest upward bias without a clear strong directional thesis; will reassess on next cycle."
     }
   ]
 }
