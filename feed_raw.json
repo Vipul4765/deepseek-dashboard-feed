@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T17:37:11.857469+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now=false) so no new index entries; MCX new entries off per boss, so no new risk anywhere. Verified both open MCX runs intact and fully hedged: 5823 GOLDM 4 legs, unrealized -200 vs SL 11k; 5825 CRUDEOILM 4 legs, unrealized -915 vs SL 6k (spot 8946 vs 9000 short call, wings intact). Today realized +14,975. Next review 25m or on any MCX leg/stop/exit event (exit 22:50)."
-    },
-    {
       "time": "2026-10-08T17:52:10.933647+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false) so no new index entries; MCX new entries off per the boss's 8 Oct decision, so no new risk anywhere. Both open runs verified intact and fully hedged: 5823 GOLDM 4 legs, unrealized +590 vs SL 11k (spot ~148.1k between shorts 147.5k/149.5k); 5825 CRUDEOILM 4 legs, unrealized -1135 vs SL 6k (spot ~8978 vs short 9000 call, long 9200 wing intact). Today realized +14,975. Next review 30m or on any MCX leg/stop/exit event (exit 22:50)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T12:17:21.274472+05:30",
       "summary": "HOLD. NSE/BSE open; MCX off. NIFTY 22476 (RSI 66.6, 120-bar range 22446-22534, net flat over 2h) and SENSEX 72348 (RSI 72.7): both bounced off lows but TimesFM p50 is flat (-0.08% each), so no clear direction for a new vertical; extra neutral NIFTY exposure would duplicate the existing condor, and a SENSEX 4-leg is a weak-record shape. Existing positions hedged, inside SL/TP: 5864 condor +\u20b965, 5866 bull call -\u20b9234, exits 14:55. Next review 12:42; trigger NIFTY >22535 or <22445, or hedge failure."
+    },
+    {
+      "time": "2026-10-09T12:32:38.785972+05:30",
+      "summary": "HOLD. NSE/BSE open; MCX off. NIFTY 22471 (day +240pts but last 2h -31pts from 22534 high; RSI 33.6, below 1m SMAs; TimesFM p50 only -0.10%) and SENSEX 72330 (same pattern, RSI 36.3, forecast -0.11%): strong-up day vs shallow pullback = no clear direction for an intraday vertical, and ~2.3h to exit limits directional payoff. Existing 5864 condor (+\u20b9195) and 5866 bull call (-\u20b9234) both hedged, inside SL/TP, exit 14:55. Next review 12:57; trigger NIFTY >22535 or <22445, or hedge/stream failure."
     }
   ]
 }
