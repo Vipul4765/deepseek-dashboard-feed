@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T15:11:03.127146+05:30",
-      "summary": "HOLD, no new entries or edits. Index windows closed (15:10 > 15:00 entry / 14:55 exit) so NIFTY/SENSEX unenterable. MCX open and assessed: GOLDM flat (~147,900, TimesFM -0.01%) and CRUDEOILM choppy 8,831-8,912 (8,865, RSI 26, TimesFM +0.06%) \u2014 no clean directional edge, and new trades would only duplicate the already-open fully-hedged condors 5823 (GOLDM, -430, SL 11000/TP 12000) and 5825 (CRUDEOILM, -510, SL 6000/TP 6000). Today realized +14,975. Next review 15m or on an MCX stop/leg event."
-    },
-    {
       "time": "2026-10-08T15:26:20.558186+05:30",
       "summary": "HOLD, no new entries or edits. NSE/BSE index entry windows are closed (past 15:00), so only MCX is enterable, and both permitted MCX names already carry fully-hedged neutral condors: 5823 GOLDM (4/4 legs filled, -380) and 5825 CRUDEOILM (4/4 legs filled, -625), both far from SLs (11k/6k). GOLDM 147,993 is dead flat (120-bar 147,827-148,300); CRUDEOILM 8,897 is extended after a +4% day (RSI 77), so no distinct edge. Any new MCX entry would duplicate existing same-underlying thesis/correlated exposure. Today realized +14,975. Next review 15m or on an MCX stop/leg event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T09:45:12.910946+05:30",
       "summary": "NSE/BSE open. Existing run 5864 (NIFTY 13-10 iron condor, 4 lots) confirmed hedged and ACTIVE: short 22700CE@28.80/long 22800CE@15.90, short 22200PE@55.75/long 22100PE@36.05; unrealized -\u20b9533, SL \u20b97,000 / TP \u20b94,000, exit 14:55, margin ~\u20b92.56L. No new entry: NIFTY/SENSEX both gapped ~+1% with RSI 74.6/81 (extended), so a directional chase has poor edge and SENSEX would only duplicate correlated index exposure. Next review ~15 min to watch marks and the short strikes."
+    },
+    {
+      "time": "2026-10-09T10:00:18.441353+05:30",
+      "summary": "NSE/BSE open. Run 5864 (NIFTY 13-10 iron condor, 4 lots) confirmed hedged and ACTIVE: short 22700CE/long 22800CE, short 22200PE/long 22100PE; fresh unrealized \u2212\u20b9637; SL \u20b97,000 / TP \u20b94,000, exit 14:55, margin ~\u20b92.56L \u2014 spot 22459 sits at the 22450 centre, both shorts 240/260 pts OTM, thesis intact. No new entry: both indices gapped ~+1% and are extended (RSI 70.7/72.4), so a directional vertical lacks reward:risk and a SENSEX condor would only duplicate the open correlated NIFTY neutral. Next review ~15 min to watch approach to 22200/22700."
     }
   ]
 }
