@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T16:52:16.073833+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now=false), so no index entry; MCX entries are off per boss's directive. Both open MCX runs verified fully hedged from fresh leg snapshots: 5823 GOLDM (short 147500P/149500C vs long 147000P/150000C, 20u) unrealized +\u20b9190, SL 11k; 5825 CRUDEOILM (short 8400P/9000C vs long 8200P/9200C, 100u) unrealized \u2212\u20b91,295 vs SL 6k, spot 8,982 just under the 9,000 short call, wings intact. Today realized +\u20b914,975. Next review 30m, or on any MCX leg/stop event."
-    },
-    {
       "time": "2026-10-08T17:07:12.382626+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false) and MCX new entries off per boss, so no new index or commodity risk. Both open MCX runs re-verified fully hedged from fresh snapshots: 5823 GOLDM short 147500P/149500C vs long 147000P/150000C (2 lots each), unrealized \u2212\u20b9200 vs SL 11k; 5825 CRUDEOILM short 8400P/9000C vs long 8200P/9200C (10 lots), unrealized \u2212\u20b91,240 vs SL 6k, spot 8,981 just under the 9,000 short call, wings intact. Today realized +\u20b914,975. Next review 25m or on any MCX leg/stop/exit event (exit 22:50)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T11:32:24.561944+05:30",
       "summary": "HOLD. Sessions open; assessed NIFTY (22507) and SENSEX (72428) for new entries. Both consolidating just under morning highs (NIFTY +1.2% from prev close), RSI 55-58, price above flat SMAs, but TimesFM p50 flat (NIFTY -0.00%, SENSEX +0.01%) \u2014 no fresh directional edge, and a new NIFTY trade would duplicate existing bullish exposure. Open and hedged, inside SL/TP, 14:55 exit: 5866 bull call 22550/22650 CE (+\u20b91014), 5864 iron condor 22700/22800 CE + 22200/22100 PE (-\u20b9429). MCX off. Next review ~25 min; trigger: NIFTY >22650 or <22400, or a clear forecast/breakout edge."
+    },
+    {
+      "time": "2026-10-09T11:47:54.329105+05:30",
+      "summary": "HOLD. Sessions open (NSE/BSE); MCX off. Assessed NIFTY 22489 (RSI 34, below SMAs, -45pt drift off 22534) and SENSEX 72356 (RSI 32): both mildly weak, but TimesFM p50 flat (-0.02% / -0.01%, narrow bands) with price chopping in a ~100pt NIFTY range \u2014 no qualifying directional edge. A new bear put would offset the existing bull call spread into a double-debit vol bet; a neutral/bullish add duplicates correlated NIFTY exposure. No readjustment needed. Open, hedged, inside SL/TP, 14:55 exit: 5866 bull call 22550/22650 CE (+\u20b9494), 5864 condor 22700/22800CE+22200/22100PE (-\u20b9286). Next review 12:10; trigger NIFTY >22550 or <22430, or hedge failure."
     }
   ]
 }
