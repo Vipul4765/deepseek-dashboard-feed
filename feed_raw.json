@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T15:55:08.280637+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now=false); only MCX open. Both MCX books are fully hedged 4/4-leg condors: 5823 GOLDM -750 (SL 11k), 5825 CRUDEOILM -810 (SL 6k) \u2014 both far inside stops, no edits. GOLDM dead flat (~148.0k), CRUDEOILM extended after a +4% day but TimesFM flat, so no distinct directional or neutral edge; a new MCX entry would just duplicate correlated exposure. Today realized +14,975. Next review ~20m or on an MCX stop/leg event."
-    },
-    {
       "time": "2026-10-08T16:10:16.301967+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false); only MCX open. Both MCX books fully hedged 4/4-leg condors: 5823 GOLDM +70 (SL 11k), 5825 CRUDEOILM -1340 (SL 6k) \u2014 both inside stops, no edits. GOLDM dead flat ~147.7k; CRUDEOILM extended (+4% day) and sitting at its 9000 short call, but TimesFM flat, so no distinct directional/neutral edge. A new MCX entry would only duplicate correlated exposure. Today realized +14,975. Next review ~10m or on an MCX stop/leg event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T10:17:18.693640+05:30",
       "summary": "HOLD. Two NIFTY runs open and fully hedged: 5866 bull call spread (22550/22650 CE, 13-10, +\u20b9234) and 5864 iron condor (22700/22800 CE + 22100/22200 PE, \u2212\u20b9455). Both fresh fills confirmed; no broken hedge, no stop/target hit. SENSEX is bullish but a spread there would duplicate the same long-index thesis, so no new entry \u2014 blocker is thesis redundancy, not margin. MCX off. Next review 20 min; triggers: NIFTY >22650 (TP) or <22450 (spread SL/thesis)."
+    },
+    {
+      "time": "2026-10-09T10:32:13.346440+05:30",
+      "summary": "HOLD. Two hedged NIFTY runs open: 5866 bull call spread (22550/22650 CE, 13-10, +\u20b9390) and 5864 iron condor (22700/22800 CE + 22100/22200 PE, \u2212\u20b9429); both ACTIVE, fills confirmed, no hedge break, no stop/target hit. Directional mandate already met by the open bull call spread; SENSEX bullish but a long-index entry would duplicate the same correlated thesis, so no new trade. MCX off. Next review ~20 min; triggers: NIFTY >22650 (spread TP) or <22450 (spread thesis/SL)."
     }
   ]
 }
