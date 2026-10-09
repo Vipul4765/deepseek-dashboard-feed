@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T19:37:12.429778+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now=false, 15:40 close) and new MCX entries barred by the boss's decision, so no new risk. Both open runs verified hedged from fresh snapshots (age ~1s): 5823 GOLDM condor SELL 149500 CE/147500 PE vs BUY 150000 CE/147000 PE, unrealized +210 vs SL 11000, spot 148217 inside body; 5825 CRUDEOILM condor SELL 9000 CE/8400 PE vs BUY 9200 CE/8200 PE, unrealized -480 vs SL 6000, spot 8934 inside 8400-9000. Today realized +14975. No edits; both auto-exit 22:50."
-    },
-    {
       "time": "2026-10-08T19:52:11.696525+05:30",
       "summary": "HOLD, no new risk: NSE/BSE closed (market_open_now=false) and MCX entries barred by boss's decision. Two open MCX condors verified hedged from fresh fills/snapshots: 5823 GOLDM SELL 149500CE/147500PE vs BUY 150000CE/147000PE, spot 148382 inside body, unrealized +480 vs SL 11000; 5825 CRUDEOILM SELL 9000CE/8400PE vs BUY 9200CE/8200PE, spot 8940, unrealized -690 vs SL 6000. Today realized +14975. No edits; both auto-exit 22:50. Next review in 25 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T14:17:19.859519+05:30",
       "summary": "HOLD. NSE open, MCX off. Both NIFTY 13-10 runs ACTIVE and fully hedged: 5864 iron condor (short 22700C/22200P, long 22800C/22100P) \u2248-\u20b9221; 5866 bull call 22550/22650 \u2248+\u20b92,977; combined \u2248+\u20b92,756, inside SL/TP, Core exit 14:55. No new trade: NIFTY 22553 and SENSEX 72560 both extended near range highs (RSI 65/67), TimesFM p50 flat, and <40 min to the 14:55 index exit leaves no holding window. Next review ~14:47 to confirm flatten and hedge integrity."
+    },
+    {
+      "time": "2026-10-09T14:32:11.056912+05:30",
+      "summary": "HOLD. NSE open, MCX off (per boss). Both NIFTY 13-10 runs ACTIVE and fully hedged: 5864 iron condor (short 22700C/22200P, long 22800C/22100P) \u2248 -\u20b991; 5866 bull call 22550/22650 \u2248 +\u20b93,094; combined \u2248 +\u20b93,003, inside SL/TP, Core exit 14:55. No new trade: only ~23 min to the index exit, no holding window; NIFTY 22544 and SENSEX 72561 both near range highs with flat TimesFM p50. Next review ~14:50 to confirm flatten."
     }
   ]
 }
