@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T09:44:16.365270+05:30",
-      "summary": "Created and started SENSEX bull call spread (strategy 5826) with strikes approx 72300 CE buy, 72400 CE sell (expiry 08-10-2026). Set overall SL 500, TP 800. Entry scheduled for 09:45, exit at 14:55. Market: indices mildly bullish, commodities slightly bearish. Chose defined-risk vertical spread on SENSEX to exploit modest upside. No open positions prior."
-    },
-    {
       "time": "2026-10-08T09:45:56.304844+05:30",
       "summary": "Holding existing SENSEX bull call spread (strategy 5826) with unrealized loss -14, well within SL 500 and TP 800. No new entry sought as recent price action lacks clear directional move for a vertical spread and no attractive neutral setup spotted. Will reassess on fresh data."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T09:51:39.369194+05:30",
       "summary": "Monitoring active NIFTY iron condor (5865) with +6.5 INR unrealized PnL and SENSEX bull call spread (5863) with +320 INR unrealized PnL. No new entry set; will consider adding target/stop after clarifying live-edit constraints. Next review in 60s."
+    },
+    {
+      "time": "2026-10-09T10:06:18.116573+05:30",
+      "summary": "Monitoring active NIFTY iron condor (5865) with -35.75 INR unrealized PnL and SENSEX bull call spread (5863) with +557.0 INR unrealized PnL. No new entry considered; will reassess thesis and consider adding stop/target levels in next cycle. Next review in 60 seconds."
     }
   ]
 }
