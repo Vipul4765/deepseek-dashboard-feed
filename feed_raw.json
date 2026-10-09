@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T14:55:21.478842+05:30",
-      "summary": "HOLD, no new entry, no edits. Sessions open/verified, quotes fresh. Index windows done: 5822 NIFTY IC and 5835 SENSEX 0DTE bear put closed at 14:55 (EXPIRY_FORCE_EXIT), realized today +14975 (5835 +12200, 5831 +4725, 5822 -1950). Two MCX condors open and fully hedged: 5823 GOLDM -330 (SL 11000/TP 12000), 5825 CRUDEOILM -695 (SL 6000/TP 6000) \u2014 both far from stops, Core-managed to 22:50. No new MCX trade: both underlyings already carry neutral condors and fresh verticals lack a directional edge (GOLDM flat, crude pinned near range highs) \u2014 would duplicate correlated exposure. Next review 15m."
-    },
-    {
       "time": "2026-10-08T14:56:00.651012+05:30",
       "summary": "HOLD, no entries/edits. Index windows closed (exit 14:55): 5822 NIFTY IC -1950 and 5835 SENSEX 0DTE +12200 settled; today realized +14975. MCX still open and assessed: GOLDM flat (148000, TimesFM -0.02%) and CRUDEOILM choppy near range high 8912 (8894, RSI 68, TimesFM +0.09%) \u2014 no clean directional edge, and fresh verticals/condors there would duplicate the already-open hedged condors 5823 (-190, SL 11000/TP 12000) and 5825 (-675, SL 6000/TP 6000). Both fully hedged, Core-managed. Next review 15m or on a stop/leg event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T09:16:18.436333+05:30",
       "summary": "NSE/BSE open (09:15 IST). NIFTY gapped up to ~22,306 then faded; 4-DTE chain fresh, 1-day \u03c3\u2248175. Created and started strategy 5864: NIFTY 13-10 iron condor, 4 lots, sell 22,550CE/22,050PE, buy 22,650CE/21,950PE. Credit \u20b98,047, max loss \u20b917,953, RR 0.45 (\u22650.30), breakevens 22,019/22,581, upfront margin \u2248\u20b92.7L. Overall SL \u20b97,000, TP \u20b94,000, exit 14:55. Status \"waiting\" \u2014 entry at 09:30, not yet a fill. Next review ~09:32 to verify fills/hedges. MCX banned, no MCX trades."
+    },
+    {
+      "time": "2026-10-09T09:30:23.342653+05:30",
+      "summary": "NSE/BSE open. Strategy 5864 (NIFTY 13-10 iron condor, 4 lots) filled at 09:30: short 22700CE@28.80 / long 22800CE@15.90, short 22200PE@55.75 / long 22100PE@36.05 \u2014 all 4 legs CONFIRMED and hedged, run ACTIVE, P&L flat. Credit \u20b98,476; defined worst-case ~\u20b917,524, capped by overall SL \u20b97,000 / TP \u20b94,000, exit 14:55; margin ~\u20b92.56L. No new entry: SENSEX would only duplicate correlated index exposure. Next review ~15 min to watch marks and the 22200PE short."
     }
   ]
 }
