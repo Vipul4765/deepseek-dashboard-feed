@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T18:52:11.248013+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now=false) and MCX new entries barred, so no new risk. Both open MCX runs verified hedged 4-leg iron condors with fresh marks (stream age 1.3s): 5823 GOLDM +520 unrealized vs SL 11k (shorts 149500 CE/147500 PE, spot 148192, inside 147500\u2013149500); 5825 CRUDEOILM -195 vs SL 6k (shorts 9000 CE/8400 PE, spot 8875, inside 8400\u20139000). Today realized +14,975. No edits; both exit 22:50. Next review 30m or on any leg/stop/exit event."
-    },
-    {
       "time": "2026-10-08T19:07:15.773075+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false) and MCX new entries barred, so no new risk. Both open MCX 4-leg iron condors verified hedged with fresh marks (age 0.8s): 5823 GOLDM +340 unrealized vs SL 11k (shorts 149500 CE/147500 PE, spot 148143, inside range); 5825 CRUDEOILM -590 vs SL 6k (shorts 9000 CE/8400 PE, spot 8938, inside 8400-9000). Today realized +14,975. No edits; both exit 22:50. Next review 25m or on any leg/stop/exit event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T13:32:16.197968+05:30",
       "summary": "HOLD. NSE/BSE open; MCX off. Both NIFTY runs ACTIVE and fully hedged with fresh marks: 5864 iron condor (short 22200P/22700C, long 22100P/22800C) +\u20b9104; 5866 bull call spread 22550/22650 +\u20b91,066 \u2014 inside SL/TP, Core exit 14:55. NIFTY 22505 flat in 22446-22515 (RSI 46), SENSEX 72433 flat (RSI 54); TimesFM p50 ~-0.05% both, no clear fresh direction. Directional mix already held; extra NIFTY/SENSEX entry would just add correlated risk, so no new start. Next review ~13:47; watch NIFTY >22535 or <22445, hedge/stream failure, 14:55 exit."
+    },
+    {
+      "time": "2026-10-09T13:47:20.965637+05:30",
+      "summary": "HOLD. NSE/BSE open, MCX off. Both NIFTY 13-10 runs ACTIVE and fully hedged: 5864 iron condor (short 22200P/22700C, long 22100P/22800C) at about -\u20b9169; 5866 bull call 22550/22650 at +\u20b91,950; combined ~+\u20b91,781, inside SL/TP, Core exit 14:55. Assessed NIFTY (22528, RSI 62.5) and SENSEX (72485, RSI 67): price action up but extended, TimesFM p50 flat/slightly down \u2014 no fresh directional edge, so a third correlated NIFTY/BSE structure is not justified. Next review ~14:02; watch exit 14:55, hedge/stream failure, NIFTY >22535 or <22445."
     }
   ]
 }
