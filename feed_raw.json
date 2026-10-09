@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T18:07:10.373108+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now=false) so no new index entries; MCX new entries off per the 8 Oct decision, so no new risk. Both open runs verified intact and fully hedged via fresh stream: 5823 GOLDM 4 legs, unrealized -490 vs SL 11k (spot ~148k, shorts 147.5k PE/149.5k CE); 5825 CRUDEOILM 4 legs, unrealized -750 vs SL 6k (spot ~8964, shorts 8400 PE/9000 CE). Today realized +14,975. Next review 30m or on any MCX leg/stop/exit event (exit 22:50)."
-    },
-    {
       "time": "2026-10-08T18:22:10.199523+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false) \u2014 no new index entries possible; MCX new entries barred per 8 Oct decision, so no new risk. Both open runs fresh (stream age 1s), verified hedged: 5823 GOLDM 4 legs, unrealized +140 vs SL 11k (shorts 147.5k PE/149.5k CE, spot 147850); 5825 CRUDEOILM 4 legs, unrealized -1180 vs SL 6k (shorts 8400 PE/9000 CE, spot ~8968, near CE short but inside bound). Today realized +14,975. No edits needed; exits at 22:50. Next review 25m or on any leg/stop/exit event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T12:47:19.091335+05:30",
       "summary": "HOLD. NSE/BSE open; MCX off. Both NIFTY runs hedged and fresh: 5864 iron condor (22100/22200 P, 22700/22800 C) -\u20b913; 5866 bull call 22550/22650 +\u20b9351; both inside SL/TP, time-exit 14:55. Directional mix already present. NIFTY 22484 (+240 day) but last 2h flat/down off 22534, RSI 62.9, TimesFM p50 -0.09%; SENSEX same \u2192 no clear fresh direction, no new entry. Next review ~13:12; watch NIFTY >22535 or <22445, hedge/stream failure."
+    },
+    {
+      "time": "2026-10-09T13:02:21.640518+05:30",
+      "summary": "HOLD. NSE/BSE open; MCX off. Both NIFTY runs hedged and fresh: 5864 iron condor (22100/22200 P, 22700/22800 C) -\u20b9130; 5866 bull call spread 22550/22650 +\u20b91,183; both inside SL/TP, time-exit 14:55. Directional mix already held. NIFTY 22505, RSI 73.7 overbought, last 2h flat off 22534, TimesFM p50 -0.12%; SENSEX same \u2014 no clear fresh direction, so no new entry (avoids piling correlated NIFTY risk). Next review ~13:27; watch NIFTY >22535 or <22445, hedge/stream failure, 14:55 exit."
     }
   ]
 }
