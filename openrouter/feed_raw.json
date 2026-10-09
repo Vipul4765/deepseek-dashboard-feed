@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T13:03:39.729864+05:30",
-      "summary": "Created and started NIFTY iron condor (22100-22150-22300-22350) expiry 13-10-2026 with overall SL 786.5 (max_loss) and TP 2463.5 (max_profit) to capture range-bound bias. Existing active runs: SENSEX bear put spread (5836), CRUDEOILM iron condor (5834), GOLDM iron condor (5830) remain active. Today's P&L from completed trades is -1688 (5 trades). Will review in 30 seconds for fill confirmation and market changes."
-    },
-    {
       "time": "2026-10-08T13:08:03.889409+05:30",
       "summary": "Created and started GOLDM bull call spread (148000-148500 call) expiry 29-10-2026, overall SL 24000, TP 26000. Entry scheduled for 13:05. Existing active runs: NIFTY iron condor (5837), SENSEX bear put spread (5836), CRUDEOILM iron condor (5834), GOLDM iron condor (5830). Today's P&L from completed trades remains -1688. Will review after entry to confirm fills."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T13:36:03.260235+05:30",
       "summary": "No new trade initiated; NIFTY and SENSEX range-bound with slight down bias in TimesFM. All active strategies have hedges intact and exit times pending. Holding for material changes or approach to exit. Next review in 10 minutes."
+    },
+    {
+      "time": "2026-10-09T13:51:34.315630+05:30",
+      "summary": "Created and started a new SENSEX iron condor (sell ATM call/put, buy OTM call/put otm_2) for expiry 15-10-2026, entry 13:50, exit 14:55, SL 300, TP 3500. All shorts are hedged. Next review in 5 minutes to monitor approach to exit."
     }
   ]
 }
