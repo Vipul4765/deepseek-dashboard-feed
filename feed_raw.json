@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T16:37:32.174244+05:30",
-      "summary": "HOLD. NSE/BSE closed (market_open_now=false); only MCX open. Both MCX runs verified fully hedged via live margin: GOLDM 5823 (long 147000P/150000C vs short 147500P/149500C, 20u) spot 147,809 sits centered, small unrealized loss, SL 11k; CRUDEOILM 5825 (long 8200P/9200C vs short 8400P/9000C, 100u) spot 8,988 is ~12 pts under its 9,000 short call, ~\u2212\u20b91.3k, SL 6k, wings intact. No new entry: only open venue already holds hedged condors in both MCX underlyings, so a second would only stack correlated exposure with no distinct fresh edge. Today realized +\u20b914,975. Next review ~20m or on an MCX leg/stop event."
-    },
-    {
       "time": "2026-10-08T16:52:16.073833+05:30",
       "summary": "HOLD. NSE/BSE closed (market_open_now=false), so no index entry; MCX entries are off per boss's directive. Both open MCX runs verified fully hedged from fresh leg snapshots: 5823 GOLDM (short 147500P/149500C vs long 147000P/150000C, 20u) unrealized +\u20b9190, SL 11k; 5825 CRUDEOILM (short 8400P/9000C vs long 8200P/9200C, 100u) unrealized \u2212\u20b91,295 vs SL 6k, spot 8,982 just under the 9,000 short call, wings intact. Today realized +\u20b914,975. Next review 30m, or on any MCX leg/stop event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-09T11:17:21.521113+05:30",
       "summary": "HOLD. Assessed NIFTY (22501) and SENSEX (72404) for new entries; both flat near intraday highs with RSI ~38-39, flat SMAs and slightly-down TimesFM (p50 -0.03%), so no directional edge and no fresh neutral case without duplicating existing exposure. Open, hedged, inside SL/TP and 14:55 exit: 5866 bull call spread (22550/22650 CE, +\u20b91248) and 5864 iron condor (22700/22800 CE, 22200/22100 PE, -\u20b9533). MCX off. Trigger: NIFTY >22650 or <22200, or a clean forecast/breakout edge."
+    },
+    {
+      "time": "2026-10-09T11:32:24.561944+05:30",
+      "summary": "HOLD. Sessions open; assessed NIFTY (22507) and SENSEX (72428) for new entries. Both consolidating just under morning highs (NIFTY +1.2% from prev close), RSI 55-58, price above flat SMAs, but TimesFM p50 flat (NIFTY -0.00%, SENSEX +0.01%) \u2014 no fresh directional edge, and a new NIFTY trade would duplicate existing bullish exposure. Open and hedged, inside SL/TP, 14:55 exit: 5866 bull call 22550/22650 CE (+\u20b91014), 5864 iron condor 22700/22800 CE + 22200/22100 PE (-\u20b9429). MCX off. Next review ~25 min; trigger: NIFTY >22650 or <22400, or a clear forecast/breakout edge."
     }
   ]
 }
