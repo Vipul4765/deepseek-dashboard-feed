@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T14:46:55.537585+05:30",
-      "summary": "HOLD, no new entry, no edits. Sessions open/verified, quotes fresh (~1s). All four runs hedged and intact: 5835 SENSEX 0DTE bear put +11360 (TP 20000, 14:55 auto-exit); 5822 NIFTY IC -1820; 5823 GOLDM IC +120; 5825 CRUDEOILM IC -450. Today realized +4725 (5831). No new index trade: entry window effectively closed, ~9m to the mandatory 14:55 exit. No new MCX structure: GOLDM and CRUDEOILM already carry open neutral condors and fresh verticals lack a directional edge (flat TimesFM, GOLDM 440pt range, crude pinned at highs) \u2014 would duplicate correlated exposure. Reassess MCX post 14:55 square-off."
-    },
-    {
       "time": "2026-10-08T14:55:21.478842+05:30",
       "summary": "HOLD, no new entry, no edits. Sessions open/verified, quotes fresh. Index windows done: 5822 NIFTY IC and 5835 SENSEX 0DTE bear put closed at 14:55 (EXPIRY_FORCE_EXIT), realized today +14975 (5835 +12200, 5831 +4725, 5822 -1950). Two MCX condors open and fully hedged: 5823 GOLDM -330 (SL 11000/TP 12000), 5825 CRUDEOILM -695 (SL 6000/TP 6000) \u2014 both far from stops, Core-managed to 22:50. No new MCX trade: both underlyings already carry neutral condors and fresh verticals lack a directional edge (GOLDM flat, crude pinned near range highs) \u2014 would duplicate correlated exposure. Next review 15m."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-08T23:20:36.965544+05:30",
       "summary": "HOLD - no entry-eligible market at 23:20 IST. Books flat: 0 open runs, 0 leveraged shorts, no unhedged legs. NSE/BSE sessions closed (market_open_now=false, index option quotes stale ~7h); MCX is open with fresh GOLDM/CRUDEOILM data but the owner rule bans new MCX entries, so no eligible underlying. Day realized +15,695 (4W/1L); no positions at risk overnight. Next: reassess at the NSE/BSE open for a fresh hedged index candidate; review in 30 min."
+    },
+    {
+      "time": "2026-10-09T09:16:18.436333+05:30",
+      "summary": "NSE/BSE open (09:15 IST). NIFTY gapped up to ~22,306 then faded; 4-DTE chain fresh, 1-day \u03c3\u2248175. Created and started strategy 5864: NIFTY 13-10 iron condor, 4 lots, sell 22,550CE/22,050PE, buy 22,650CE/21,950PE. Credit \u20b98,047, max loss \u20b917,953, RR 0.45 (\u22650.30), breakevens 22,019/22,581, upfront margin \u2248\u20b92.7L. Overall SL \u20b97,000, TP \u20b94,000, exit 14:55. Status \"waiting\" \u2014 entry at 09:30, not yet a fill. Next review ~09:32 to verify fills/hedges. MCX banned, no MCX trades."
     }
   ]
 }
