@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T09:34:37.777199+05:30",
-      "summary": "Created NIFTY iron condor (sell ATM CE/PE, buy OTM2 CE/PE, expiry 13-10-2026) strategy 5865, waiting to start. Max loss ~\u20b9822, margin ~\u20b977k. Existing SENSEX bull call spread (5863) active, unrealized P&L \u20b9265. Failed to set target on 5863 due to tool input issue. Will monitor both. Next review in 60s."
-    },
-    {
       "time": "2026-10-09T09:35:45.143942+05:30",
       "summary": "Monitoring active NIFTY iron condor (5865) with +6.5 INR unrealized PnL and SENSEX bull call spread (5863) with +320 INR unrealized PnL. No new entry set; will consider adding target/stop after clarifying live-edit constraints. Next review in 60s."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-12T10:10:01.348329+05:30",
+      "summary": "Created and started SENSEX bear call spread (ATM/OTM1) strategy 5900 to capitalize on clear downward trend. NIFTY 2-leg blocked due to poor recent performance; existing NIFTY iron condor and SENSEX bear call spread remain open. No SL/TP triggers yet. Next review in 60s to check for exits or new signals."
+    },
+    {
+      "time": "2026-10-12T10:11:54.135449+05:30",
       "summary": "Created and started SENSEX bear call spread (ATM/OTM1) strategy 5900 to capitalize on clear downward trend. NIFTY 2-leg blocked due to poor recent performance; existing NIFTY iron condor and SENSEX bear call spread remain open. No SL/TP triggers yet. Next review in 60s to check for exits or new signals."
     }
   ]
