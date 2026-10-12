@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T11:56:37.202239+05:30",
-      "summary": "Created and started SENSEX bear put spread 72300-72000 oct15 (strategy 5873) to add a directional bearish position as per boss's direction. Existing positions: NIFTY IC (5867) -13 unrealized, SENSEX bull put (5868) SL hit and done, SENSEX bull call (5869) -78 unrealized, SENSEX bear call (5870) +117 unrealized, SENSEX IC (5871) +14 unrealized, SENSEX iron fly (5872) done -14. Next review in 60s to check for new fills and manage existing runs."
-    },
-    {
       "time": "2026-10-09T12:03:22.850059+05:30",
       "summary": "Created and started SENSEX bear put spread 72300-72000 oct15 v2 (strategy 5875) waiting to start at 12:01. Square-off requested for losing bull call spread 5869. Existing positions: SENSEX bear call 5874 (+1), SENSEX iron condor 5871 (+41), SENSEX bear call 5870 (+203), NIFTY iron condor 5867 (+19.5). Next review in 30s to check new strategy fill and manage runs."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T13:12:23.423569+05:30",
       "summary": "Market open for NIFTY and SENSEX. Three active runs: NIFTY iron condor 5910 (P&L -26), SENSEX bull call spread 5909 (P&L +38), SENSEX iron condor 5904 (P&L +47). No clear directional signal from price action, SMAs, RSI, or TimesFM (mixed/slight bearish). No new trade entered as no priced, hedged opportunity meets criteria. Will review in 30 seconds to monitor active positions."
+    },
+    {
+      "time": "2026-10-12T15:06:19.002858+05:30",
+      "summary": "Market open but past index exit time (14:55 IST). No open positions. No new entries for indices as exit time has passed. MCX trading is disabled. Holding flat. Next review in 30 minutes to reassess after market close or for changes."
     }
   ]
 }
