@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T09:30:23.342653+05:30",
-      "summary": "NSE/BSE open. Strategy 5864 (NIFTY 13-10 iron condor, 4 lots) filled at 09:30: short 22700CE@28.80 / long 22800CE@15.90, short 22200PE@55.75 / long 22100PE@36.05 \u2014 all 4 legs CONFIRMED and hedged, run ACTIVE, P&L flat. Credit \u20b98,476; defined worst-case ~\u20b917,524, capped by overall SL \u20b97,000 / TP \u20b94,000, exit 14:55; margin ~\u20b92.56L. No new entry: SENSEX would only duplicate correlated index exposure. Next review ~15 min to watch marks and the 22200PE short."
-    },
-    {
       "time": "2026-10-09T09:45:12.910946+05:30",
       "summary": "NSE/BSE open. Existing run 5864 (NIFTY 13-10 iron condor, 4 lots) confirmed hedged and ACTIVE: short 22700CE@28.80/long 22800CE@15.90, short 22200PE@55.75/long 22100PE@36.05; unrealized -\u20b9533, SL \u20b97,000 / TP \u20b94,000, exit 14:55, margin ~\u20b92.56L. No new entry: NIFTY/SENSEX both gapped ~+1% with RSI 74.6/81 (extended), so a directional chase has poor edge and SENSEX would only duplicate correlated index exposure. Next review ~15 min to watch marks and the short strikes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T11:22:00.860584+05:30",
       "summary": "Squared off NIFTY 5893 iron condor (thesis broken: NIFTY ~22390/fut 22436 below short 22500 put; 1-DTE spread decay would deepen loss to its 5000 SL). Realized -2808. SENSEX 5899 condor intact, -740 (fut 72144 inside 71900-73100), held under Core SL/TP + 14:55 exit. No new entry: TimesFM essentially flat (NIFTY p50 -0.12%, wide bands) so no clear directional edge with 1 DTE, and a SENSEX bear spread would duplicate the held condor's put wing. 5903 left unstarted. Next: 900s, reassess SENSEX and any NIFTY directional setup on fresh data."
+    },
+    {
+      "time": "2026-10-12T11:23:47.722569+05:30",
+      "summary": "Searched a directional entry: NIFTY shows a clear recent down move (22588\u219222385, RSI 33.6, below SMA20/50) with a mildly bearish TimesFM path. Built and saved NIFTY 1-DTE (13-10) bear call spread 22450/22500, 4 lots, SL 5000/TP 3000 (strategy 5906), but the start was refused: daily forward-deployment limit (2) already used. No new position today. SENSEX 5899 condor intact, -804, fut 72144 inside 71900\u201373100, within its SL 4500; hold to Core SL/TP + 14:55 exit. Next review ~25 min; trigger: condor P&L nearing SL or SENSEX approaching 71900."
     }
   ]
 }
