@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T23:20:36.965544+05:30",
-      "summary": "HOLD - no entry-eligible market at 23:20 IST. Books flat: 0 open runs, 0 leveraged shorts, no unhedged legs. NSE/BSE sessions closed (market_open_now=false, index option quotes stale ~7h); MCX is open with fresh GOLDM/CRUDEOILM data but the owner rule bans new MCX entries, so no eligible underlying. Day realized +15,695 (4W/1L); no positions at risk overnight. Next: reassess at the NSE/BSE open for a fresh hedged index candidate; review in 30 min."
-    },
-    {
       "time": "2026-10-09T09:16:18.436333+05:30",
       "summary": "NSE/BSE open (09:15 IST). NIFTY gapped up to ~22,306 then faded; 4-DTE chain fresh, 1-day \u03c3\u2248175. Created and started strategy 5864: NIFTY 13-10 iron condor, 4 lots, sell 22,550CE/22,050PE, buy 22,650CE/21,950PE. Credit \u20b98,047, max loss \u20b917,953, RR 0.45 (\u22650.30), breakevens 22,019/22,581, upfront margin \u2248\u20b92.7L. Overall SL \u20b97,000, TP \u20b94,000, exit 14:55. Status \"waiting\" \u2014 entry at 09:30, not yet a fill. Next review ~09:32 to verify fills/hedges. MCX banned, no MCX trades."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T10:50:42.179463+05:30",
       "summary": "HOLD. Both active hedged condors intact with all 4 legs filled: NIFTY 5893 (spot 22456, short 22500PE now ITM, fresh P&L -\u20b91,105 vs SL \u20b95,000) and SENSEX 5899 (spot 72167, P&L -\u20b940 vs SL \u20b94,500). No hedge failure, stop breach or edit justified; letting configured SL/TP with 14:55 time-exit manage. New SENSEX bear-put 5903 not startable: Core daily/concurrent forward-deployment cap exhausted 2/2 (two active condors). Next review ~15 min to watch the NIFTY short put into the stop."
+    },
+    {
+      "time": "2026-10-12T11:05:55.288021+05:30",
+      "summary": "HOLD. Both hedged condors intact with all 4 legs filled: NIFTY 5893 (spot ~22400, short 22500PE ITM, fresh P&L -\u20b92,210 vs SL \u20b95,000) and SENSEX 5899 (spot ~71980, -\u20b9568 vs SL \u20b94,500) \u2014 no stop breach or hedge failure, letting Core SL/TP + 14:55 exit manage. Assessed NIFTY and SENSEX for the boss's directional push; both are already held, so a bear spread would offset existing short-put exposure and a bull spread would duplicate it \u2014 no clean non-conflicting edge. Blocker: same-index overlap plus oversold RSI 24-26. Reassess on an NIFTY recovery above ~22500 or a deeper break."
     }
   ]
 }
