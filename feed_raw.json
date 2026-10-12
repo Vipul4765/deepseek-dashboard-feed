@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T10:16:41.997388+05:30",
-      "summary": "Acted on the boss's directional mandate: NIFTY gap-up trend (22489, above rising SMAs, RSI 65) supported a defined-risk bull call spread. Started 5866 \u2014 BUY 4x 22550 CE @97.05 / SELL 4x 22650 CE @58.45 (13-10); both filled, hedged. Debit \u20b910,036, max profit \u20b915,964, SL \u20b98,000/TP \u20b99,000, exit 14:55; margin ~\u20b91.19L. Condor 5864 intact, \u2212\u20b9468, spot mid-range. Next review 12 min; triggers: NIFTY >22650 (TP) or back below ~22450 (thesis/SL)."
-    },
-    {
       "time": "2026-10-09T10:17:18.693640+05:30",
       "summary": "HOLD. Two NIFTY runs open and fully hedged: 5866 bull call spread (22550/22650 CE, 13-10, +\u20b9234) and 5864 iron condor (22700/22800 CE + 22100/22200 PE, \u2212\u20b9455). Both fresh fills confirmed; no broken hedge, no stop/target hit. SENSEX is bullish but a spread there would duplicate the same long-index thesis, so no new entry \u2014 blocker is thesis redundancy, not margin. MCX off. Next review 20 min; triggers: NIFTY >22650 (TP) or <22450 (spread SL/thesis)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T11:52:39.680778+05:30",
       "summary": "Held. Only live position is SENSEX iron condor 5899 (short 71900P/73100C, long 71700P/73300C, 15-10, 4 lots), unrealized -508, spot 71910 sitting on the short put but well inside SL 4500 and inside the 71900-73100 range; timesFM flat. No new start possible: daily deployment limit already 2/2 (previous refusal), so candidates 5903/5906/5907 stay created but undeployed. Blockers: DAILY_FORWARD_DEPLOYMENT_LIMIT_EXCEEDED. Next review 15 min; trigger: 5899 loss nearing 4500 or SENSEX below 71700."
+    },
+    {
+      "time": "2026-10-12T12:07:45.705750+05:30",
+      "summary": "HOLD. Only live position is SENSEX iron condor 5899 (short 71900P/73100C, long 71700P/73300C, 15-10, 4 lots), fresh unrealized -684, well inside SL 4500; spot 71907 sits on the short put, TimesFM flat, no hedge break. No new start: daily forward-deployment limit already used (2/2, prior refusal), so 5903/5906/5907 stay created but undeployed. NIFTY/SENSEX show only mild, flat drift \u2014 no qualifying new thesis. Next review in 15 min; trigger: SENSEX below 71700 or loss nearing 4500."
     }
   ]
 }
