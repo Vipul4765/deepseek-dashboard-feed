@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T23:02:28.147554+05:30",
-      "summary": "Market closed for NIFTY and SENSEX (NSE/BSE). MCX trading is blocked by identity rule. No open positions. Awaiting next trading day. Will reassess in next cycle."
-    },
-    {
       "time": "2026-10-08T23:17:23.513406+05:30",
       "summary": "NSE/BSE index markets closed (NIFTY/SENSEX), MCX trading blocked by identity rule. No open positions. No new trades possible. Holding until next trading session. Will reassess at market open tomorrow."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T09:32:30.722618+05:30",
       "summary": "Created and started SENSEX bear call spread 72500-72600 oct15 (strategy 5894) based on mild bearish bias from recent price action, SMA, RSI and TimesFM forecast. Defined risk: max loss 948, max profit 1052. Entry at 09:30, exit at 14:55. Will monitor for SL/TP or time exit."
+    },
+    {
+      "time": "2026-10-12T09:34:50.240342+05:30",
+      "summary": "Active SENSEX bear call spread 72700-72800 oct15 (strategy 5894) is profitable (+41) with bearish thesis. Underlying 72509 below short strike 72700, TimesFM bearish. No new entry taken due to correlated exposure concerns with existing bearish position. Will monitor for SL (948), TP (1052), or time exit at 14:55. Next review in 2 minutes."
     }
   ]
 }
