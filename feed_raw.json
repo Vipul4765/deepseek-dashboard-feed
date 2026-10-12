@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T22:50:10.924150+05:30",
-      "summary": "HOLD - no entry-eligible market. Both open MCX condors auto-exited at their 22:50 time exit per Core events: GOLDM 5823 +400, CRUDEOILM 5825 +320, both RUN_DONE, 0 open legs, 0 margin, hedges intact. No open positions and no unhedged shorts. NSE/BSE closed (market_open_now=false); MCX open but owner rule bans new MCX entries, so no eligible underlying. Today realized +14975. Next: reassess at next session open (~09:15 IST) for a fresh NSE/BSE candidate; no triggers pending overnight."
-    },
-    {
       "time": "2026-10-08T22:50:37.648939+05:30",
       "summary": "HOLD - no entry-eligible market. Books flat: 0 open runs, 0 open legs, no unhedged shorts. Today realized +15,695 (5 closed: SENSEX bear puts +12,200/+4,725, NIFTY condor -1,950, MCX condors +400/+320). NSE/BSE market_open_now=false; MCX open but owner rule bans new MCX entries, so no eligible underlying. Next: reassess at next NSE/BSE open (~09:15 IST) for a fresh defined-risk index candidate. Review in 30 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T10:05:38.283690+05:30",
       "summary": "Both live condors confirmed filled and hedged per Core events: NIFTY 5893 (4x short 22750/long 22800 CE + short 22500/long 22450 PE, 13-10, P&L -325) and SENSEX 5899 (4x short 73100/long 73300 CE + short 71900/long 71700 PE, 15-10, P&L +68); stops/targets intact, no edits. No new directional entry: NIFTY 22506 RSI 48.6, SENSEX 72328 RSI 45.4, both choppy after a dip-and-bounce, TimesFM only -0.11%; 1-DTE verticals price at R:R 0.30-0.64 and a same-index directional would duplicate the neutral condors. MCX off. Next review ~25 min."
+    },
+    {
+      "time": "2026-10-12T10:21:53.770674+05:30",
+      "summary": "Searched directionals: SENSEX 72224 is clearly weakest (below SMA20/50, RSI 31, at day's low, VIX rising; TimesFM p50 72165). Built a defined-risk SENSEX 15-10 bear put spread (buy 72300PE / sell 72000PE, 4 lots, debit ~126, breakeven ~72174, max loss \u20b910.1k) as strategy 5903 \u2014 but Core refused the start: DAILY_FORWARD_DEPLOYMENT_LIMIT_EXCEEDED (2/2 used by today's condors). It stays saved, unstarted. No new risk added. Existing NIFTY 5893 (1-DTE, -\u20b9559, spot 22492 vs short 22500 put) and SENSEX 5899 (-\u20b936) both filled and hedge-verified; no edits. Next review ~20 min."
     }
   ]
 }
