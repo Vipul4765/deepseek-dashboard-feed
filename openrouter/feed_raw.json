@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T11:16:21.825658+05:30",
-      "summary": "Created and started SENSEX bear call spread 72400-72600 oct15 (strategy 5870) to add bearish directional exposure amid mild bearish signals (price below SMAs, RSI<50). Three existing positions remain active. Next review in 60s to monitor all positions."
-    },
-    {
       "time": "2026-10-09T11:38:00.260761+05:30",
       "summary": "Created and started SENSEX iron condor 72200-72400-72600 oct15 (strategy 5871) to capitalize on range-bound movement. Entry set for 11:31, exit at 14:55, SL 1200, TP 1862. Four existing positions remain active: 5867 (+13.0), 5868 (+149.0), 5869 (+126.0), 5870 (-79.0). Next review in 60s to check entry and manage positions."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T12:31:36.713572+05:30",
       "summary": "HOLD: No new trade entered. No clear directional move on NIFTY (TimesFM -0.03%) or SENSEX (+0.21%); existing SENSEX bearish positions (5908,5902,5900) conflict with a potential bullish view per one-view-per-index rule. Waiting for stronger signal. Next review in 60s to reassess fresh data."
+    },
+    {
+      "time": "2026-10-12T12:50:46.371772+05:30",
+      "summary": "No new actions taken. SENSEX iron condor (5904) active with -10 unrealized P&L. SENSEX bull call spread (5909) scheduled to start at 12:50 (in ~12s). Will review in 60s to confirm start and assess combined exposure. Market shows mild bullish bias via TimesFM. Holding defined-risk positions; no overrides needed."
     }
   ]
 }
