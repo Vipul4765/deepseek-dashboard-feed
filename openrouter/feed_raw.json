@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T09:51:39.369194+05:30",
-      "summary": "Monitoring active NIFTY iron condor (5865) with +6.5 INR unrealized PnL and SENSEX bull call spread (5863) with +320 INR unrealized PnL. No new entry set; will consider adding target/stop after clarifying live-edit constraints. Next review in 60s."
-    },
-    {
       "time": "2026-10-09T10:06:18.116573+05:30",
       "summary": "Monitoring active NIFTY iron condor (5865) with -35.75 INR unrealized PnL and SENSEX bull call spread (5863) with +557.0 INR unrealized PnL. No new entry considered; will reassess thesis and consider adding stop/target levels in next cycle. Next review in 60 seconds."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T10:20:24.296839+05:30",
       "summary": "Created and started SENSEX bear call spread (ATM/OTM1) strategy 5900 to capitalize on clear downward trend. NIFTY 2-leg blocked due to poor recent performance; existing NIFTY iron condor and SENSEX bear call spread remain open. No SL/TP triggers yet. Next review in 60s to check for exits or new signals."
+    },
+    {
+      "time": "2026-10-12T10:37:22.331004+05:30",
+      "summary": "Created SENSEX iron condor (ATM/OTM2) strategy 5904 (entry 10:35, SL 350, TP 3500) to play ranging bias after recent downtrend. Squared off profitable NIFTY long put 5901 (+793 unrealized) to reduce bearish exposure. Existing SENSEX/NIFTY bearish/neutral runs remain active. Next review in 60s to monitor new entry and thesis."
     }
   ]
 }
