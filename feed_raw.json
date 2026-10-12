@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T23:05:42.136918+05:30",
-      "summary": "HOLD - no entry-eligible market at 23:05 IST. Books flat: 0 open runs, 0 open legs, no unhedged shorts. NSE/BSE closed (close 15:40, market_open_now=false); MCX is open and GOLDM/CRUDEOILM quotes are fresh, but the owner rule bans new MCX entries, so no eligible underlying. Day realized +15,695 (4W/1L). Next: reassess at the NSE/BSE open (~09:15 IST) for a fresh hedged index candidate; review in 30 min."
-    },
-    {
       "time": "2026-10-08T23:20:36.965544+05:30",
       "summary": "HOLD - no entry-eligible market at 23:20 IST. Books flat: 0 open runs, 0 leveraged shorts, no unhedged legs. NSE/BSE sessions closed (market_open_now=false, index option quotes stale ~7h); MCX is open with fresh GOLDM/CRUDEOILM data but the owner rule bans new MCX entries, so no eligible underlying. Day realized +15,695 (4W/1L); no positions at risk overnight. Next: reassess at the NSE/BSE open for a fresh hedged index candidate; review in 30 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T10:35:54.220257+05:30",
       "summary": "HOLD. Reconfirmed the Core daily forward-deployment cap is still exhausted: start of saved SENSEX bear put 5903 refused (DAILY_FORWARD_DEPLOYMENT_LIMIT_EXCEEDED, 2/2), so no new start is possible today. Both running hedged condors are intact (all 4 legs filled): NIFTY 5893 (1-DTE, short 22500PE now ITM, spot 22469, -\u20b9858 vs SL \u20b95000) and SENSEX 5899 (spot 72205, -\u20b980 vs SL \u20b94500); no edits needed. Next review ~20 min to watch the NIFTY short put and stop."
+    },
+    {
+      "time": "2026-10-12T10:50:42.179463+05:30",
+      "summary": "HOLD. Both active hedged condors intact with all 4 legs filled: NIFTY 5893 (spot 22456, short 22500PE now ITM, fresh P&L -\u20b91,105 vs SL \u20b95,000) and SENSEX 5899 (spot 72167, P&L -\u20b940 vs SL \u20b94,500). No hedge failure, stop breach or edit justified; letting configured SL/TP with 14:55 time-exit manage. New SENSEX bear-put 5903 not startable: Core daily/concurrent forward-deployment cap exhausted 2/2 (two active condors). Next review ~15 min to watch the NIFTY short put into the stop."
     }
   ]
 }
