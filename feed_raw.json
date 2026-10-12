@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T13:32:16.197968+05:30",
-      "summary": "HOLD. NSE/BSE open; MCX off. Both NIFTY runs ACTIVE and fully hedged with fresh marks: 5864 iron condor (short 22200P/22700C, long 22100P/22800C) +\u20b9104; 5866 bull call spread 22550/22650 +\u20b91,066 \u2014 inside SL/TP, Core exit 14:55. NIFTY 22505 flat in 22446-22515 (RSI 46), SENSEX 72433 flat (RSI 54); TimesFM p50 ~-0.05% both, no clear fresh direction. Directional mix already held; extra NIFTY/SENSEX entry would just add correlated risk, so no new start. Next review ~13:47; watch NIFTY >22535 or <22445, hedge/stream failure, 14:55 exit."
-    },
-    {
       "time": "2026-10-09T13:47:20.965637+05:30",
       "summary": "HOLD. NSE/BSE open, MCX off. Both NIFTY 13-10 runs ACTIVE and fully hedged: 5864 iron condor (short 22200P/22700C, long 22100P/22800C) at about -\u20b9169; 5866 bull call 22550/22650 at +\u20b91,950; combined ~+\u20b91,781, inside SL/TP, Core exit 14:55. Assessed NIFTY (22528, RSI 62.5) and SENSEX (72485, RSI 67): price action up but extended, TimesFM p50 flat/slightly down \u2014 no fresh directional edge, so a third correlated NIFTY/BSE structure is not justified. Next review ~14:02; watch exit 14:55, hedge/stream failure, NIFTY >22535 or <22445."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T14:55:12.052448+05:30",
       "summary": "Both open condors auto-exited at 14:55 IST, confirmed by Core events: NIFTY 5907 (short 22300PE/22600CE, 13-10) realized +325; SENSEX 5899 (short 71900PE/73100CE, 15-10) realized -752; all legs hedged, open_legs now 0, run margin released. With the 14:55 index exit cutoff passed, no new NSE entry is admissible; 5906/5903 stay unstarted and MCX remains off per boss. Nothing to manage. Next review in 25 min to confirm journal settlement and flat book."
+    },
+    {
+      "time": "2026-10-12T14:55:40.007633+05:30",
+      "summary": "Flat book: both overnight-safe condors auto-exited at the 14:55 IST index cutoff \u2014 NIFTY 5907 (short 22300PE/22600CE, 13-10) +325, SENSEX 5899 (short 71900PE/73100CE, 15-10) \u2212752; all legs hedged, open_legs 0, margin released (Core events confirm). Today: \u22123235 on 3 closed runs. No new entry: it is 14:55:32, past the index exit cutoff, so no NSE/BSE candidate can carry a valid exit; MCX entries remain off per boss. 5906/5903 stay unstarted. Next review in 30 min for journal settlement."
     }
   ]
 }
