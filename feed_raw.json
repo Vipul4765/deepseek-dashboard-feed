@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T22:22:09.751579+05:30",
-      "summary": "HOLD, no new risk. NSE/BSE closed (market_open_now=false) and owner rule bars new MCX entries, so no entry-eligible underlying. Two hedged condors remain ACTIVE, all four legs filled and covered: 5823 GOLDM +420 unrealized (short 149500CE/147500PE, long 150000CE/147000PE, SL 11000, 22:50 exit); 5825 CRUDEOILM +235 unrealized (short 9000CE/8400PE, long 9200CE/8200PE, SL 6000, 22:50 exit). Today realized +14975. No action; next review ~22:47 to confirm the 22:50 auto time-exit."
-    },
-    {
-      "time": "2026-10-08T22:37:12.305011+05:30",
-      "summary": "HOLD, no new risk. NSE/BSE closed (market_open_now=false); owner rule bans new MCX entries, so no entry-eligible underlying. Both open condors hedged and ACTIVE with fresh marks: 5823 GOLDM +720 unrealized (short 149500CE/147500PE, long 150000CE/147000PE, SL 11000), 5825 CRUDEOILM +215 unrealized (short 9000CE/8400PE, long 9200CE/8200PE, SL 6000). All four legs filled/covered each. Today realized +14975. No action; next review ~22:47 to confirm the 22:50 auto time-exit."
-    },
-    {
       "time": "2026-10-08T22:47:11.363388+05:30",
       "summary": "No new trades. NSE/BSE closed (market_open_now=false) and owner rule bans new MCX entries, so no entry-eligible underlying. Both open condors hedged (4 legs filled each) and ACTIVE with fresh marks: 5823 GOLDM +10 unrealized (short 149500CE/147500PE, long 150000CE/147000PE, SL 11000, MCX margin ~68514), 5825 CRUDEOILM +260 (short 9000CE/8400PE, long 9200CE/8200PE, SL 6000, margin ~37130). Today realized +14975. Both carry a 22:50 time exit; left to auto-exit. Next review ~22:52 to confirm flat and hedge integrity."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-12T09:47:20.591311+05:30",
       "summary": "HOLD, no new entry. NIFTY 1-DTE iron condor 5893 (4 legs, 13-10 expiry) confirmed filled and hedged: short 22500 PE/22750 CE vs long 22450 PE/22800 CE, unrealized -195, worst-case ~6344, SL 5000/TP 4000, exit 14:55 \u2014 no edit needed. Assessed NIFTY and SENSEX: both down but basing near session lows with RSI 38/35 (near oversold), VIX +5%, TimesFM only mildly bearish (-0.06%), so no clean directional edge; near-spot SENSEX verticals price RR ~1.0, not compelling. MCX off. Trigger to reassert direction: NIFTY break of 22512/22600 or SENSEX 72392/72609. Next review 20 min."
+    },
+    {
+      "time": "2026-10-12T10:04:06.953316+05:30",
+      "summary": "Direction unclear (NIFTY/SENSEX between SMA20-50, RSI mid, V-shaped chop, TimesFM only mildly bearish), so no directional trade. Took a priced neutral SENSEX 3-DTE iron condor: created+started 5899 (15-10 expiry; sell 73000 CE/71800 PE, buy 73200 CE/71600 PE, 4 lots) \u2014 shorts outside the 120-bar range, credit ~102.8/unit, max loss ~7448, RR ~1.15; SL 4500, TP 3500, exit 14:55. Entry scheduled 10:05 (still waiting, fills unverified). NIFTY condor 5893 hedged, ~-247, no edit. MCX off. Next review 90s to confirm fills/hedge."
+    },
+    {
+      "time": "2026-10-12T10:04:48.835774+05:30",
+      "summary": "HOLD. NIFTY condor 5893 live and fully hedged (4 legs filled, 13-10 expiry, P&L ~-104, no edit). SENSEX condor 5899 still unstarted, entry scheduled 10:05 \u2014 fills/hedge unverified, will confirm next cycle. No new entry: reassessed NIFTY/SENSEX fresh, both choppy and only mildly bearish (between SMA20/50, RSI ~45-46, TimesFM -0.11%), no clear direction for a vertical and a bear leg would conflict with the condor put side. MCX off. Next review 120s to verify 5899 fills."
     }
   ]
 }
