@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T22:32:29.851353+05:30",
-      "summary": "Market closed for NSE/BSE indices; MCX blocked for new entries by identity rule. No open positions. Awaiting next session."
-    },
-    {
       "time": "2026-10-08T22:47:30.326897+05:30",
       "summary": "Market closed for NIFTY and SENSEX; MCX blocked for new entries by identity rule. No open positions. Awaiting next trading day. Will reassess at next cycle."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-09T15:35:54.371678+05:30",
+      "summary": "Market is open but no new entries possible due to exchange-imposed exit time cutoff (15:30:00). Current time 15:33:54 IST. No open positions. Awaiting next trading day for new opportunities."
+    },
+    {
+      "time": "2026-10-12T09:17:00.302668+05:30",
       "summary": "Market is open but no new entries possible due to exchange-imposed exit time cutoff (15:30:00). Current time 15:33:54 IST. No open positions. Awaiting next trading day for new opportunities."
     }
   ]
