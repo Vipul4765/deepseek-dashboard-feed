@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T21:37:12.274996+05:30",
-      "summary": "HOLD, no new risk. NSE/BSE closed (15:40) and owner rule bars new MCX entries, so no eligible underlying. Two hedged MCX condors remain ACTIVE with all legs filled and covered: 5823 GOLDM -140 unrealized (short 149500CE/147500PE, long 150000CE/147000PE) vs SL 11000; 5825 CRUDEOILM -775 unrealized (short 9000CE/8400PE, long 9200CE/8200PE) vs SL 6000. Both auto-exit 22:50. Today realized +14975. Next review ~25 min or on exit/SL event."
-    },
-    {
       "time": "2026-10-08T21:52:11.514312+05:30",
       "summary": "HOLD, no new risk. NSE/BSE closed (market_open_now=false) and owner rule bars new MCX entries, so no eligible underlying. Two hedged MCX condors remain ACTIVE with all legs filled/covered: 5823 GOLDM +390 unrealized (short 149500CE/147500PE, long 150000CE/147000PE) vs SL 11000; 5825 CRUDEOILM +360 unrealized (short 9000CE/8400PE, long 9200CE/8200PE) vs SL 6000. Both auto-exit 22:50 with overall SL/TP set. Today realized +14975. Next review ~25 min, or on exit/SL event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T09:15:14.660922+05:30",
       "summary": "HOLD, no actions. Flat: open_runs empty, no MCX positions to manage, journal_today 0 trades. It's 09:15 IST \u2014 NSE/BSE open but the index entry window (09:30\u201315:00) hasn't started, and there are no fresh 12-Oct candles yet (last closed 09-Oct). Quotes are fresh and both indices gap up (NIFTY ~22604 vs 22520, SENSEX ~72798 vs 72472), but TimesFM is flat-to-slightly-down, so direction is unconfirmed. Blockers: entry window closed + no intraday price action. Reassess at ~09:30\u201309:35 with the open's candles; MCX off per boss."
+    },
+    {
+      "time": "2026-10-12T09:31:24.424599+05:30",
+      "summary": "Opened NIFTY 1-DTE iron condor (strategy 5893, run f75762c4, 4 lots, expiry 13-10-2026). Confirmed fills: SELL 22750 CE @31.05, BUY 22800 CE @20.80, SELL 22500 PE @64.00, BUY 22450 PE @48.65 (Core resolved strikes one step inward of my otm selectors \u2014 ATM based on futures 22650, not my drafted 22700/22450). Net credit ~25.6/unit \u2192 max profit ~\u20b96,656, defined max loss ~\u20b96,344; overall SL 5000, TP 4000, exit 14:55. Chose neutral because direction was mixed (gap-up, sharp fade, V-bounce; TimesFM mildly down). Margin ~\u20b9247k. Watching put short 22500 (spot ~22585, day low 22512). Next review 10 min."
     }
   ]
 }
