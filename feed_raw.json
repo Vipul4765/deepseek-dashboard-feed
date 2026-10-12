@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T22:50:37.648939+05:30",
-      "summary": "HOLD - no entry-eligible market. Books flat: 0 open runs, 0 open legs, no unhedged shorts. Today realized +15,695 (5 closed: SENSEX bear puts +12,200/+4,725, NIFTY condor -1,950, MCX condors +400/+320). NSE/BSE market_open_now=false; MCX open but owner rule bans new MCX entries, so no eligible underlying. Next: reassess at next NSE/BSE open (~09:15 IST) for a fresh defined-risk index candidate. Review in 30 min."
-    },
-    {
       "time": "2026-10-08T23:05:42.136918+05:30",
       "summary": "HOLD - no entry-eligible market at 23:05 IST. Books flat: 0 open runs, 0 open legs, no unhedged shorts. NSE/BSE closed (close 15:40, market_open_now=false); MCX is open and GOLDM/CRUDEOILM quotes are fresh, but the owner rule bans new MCX entries, so no eligible underlying. Day realized +15,695 (4W/1L). Next: reassess at the NSE/BSE open (~09:15 IST) for a fresh hedged index candidate; review in 30 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T10:21:53.770674+05:30",
       "summary": "Searched directionals: SENSEX 72224 is clearly weakest (below SMA20/50, RSI 31, at day's low, VIX rising; TimesFM p50 72165). Built a defined-risk SENSEX 15-10 bear put spread (buy 72300PE / sell 72000PE, 4 lots, debit ~126, breakeven ~72174, max loss \u20b910.1k) as strategy 5903 \u2014 but Core refused the start: DAILY_FORWARD_DEPLOYMENT_LIMIT_EXCEEDED (2/2 used by today's condors). It stays saved, unstarted. No new risk added. Existing NIFTY 5893 (1-DTE, -\u20b9559, spot 22492 vs short 22500 put) and SENSEX 5899 (-\u20b936) both filled and hedge-verified; no edits. Next review ~20 min."
+    },
+    {
+      "time": "2026-10-12T10:35:54.220257+05:30",
+      "summary": "HOLD. Reconfirmed the Core daily forward-deployment cap is still exhausted: start of saved SENSEX bear put 5903 refused (DAILY_FORWARD_DEPLOYMENT_LIMIT_EXCEEDED, 2/2), so no new start is possible today. Both running hedged condors are intact (all 4 legs filled): NIFTY 5893 (1-DTE, short 22500PE now ITM, spot 22469, -\u20b9858 vs SL \u20b95000) and SENSEX 5899 (spot 72205, -\u20b980 vs SL \u20b94500); no edits needed. Next review ~20 min to watch the NIFTY short put and stop."
     }
   ]
 }
