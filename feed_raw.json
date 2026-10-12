@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T14:02:21.591146+05:30",
-      "summary": "HOLD. NSE/BSE open, MCX off. Both NIFTY 13-10 runs ACTIVE and fully hedged: 5864 iron condor (short 22700C/22200P, long 22800C/22100P) ~+\\u20b9143; 5866 bull call 22550/22650 ~+\\u20b91,963; combined ~+\\u20b92,106, inside SL/TP, Core exit 14:55. Spot NIFTY 22536 (RSI 57), SENSEX 72512 (RSI 60): both near range highs, extended, TimesFM p50 flat/slightly down \\u2014 no fresh directional edge with only ~53 min to exit, so no third structure added. Next review ~14:32; watch exit 14:55 and hedge/stream failure."
-    },
-    {
       "time": "2026-10-09T14:17:19.859519+05:30",
       "summary": "HOLD. NSE open, MCX off. Both NIFTY 13-10 runs ACTIVE and fully hedged: 5864 iron condor (short 22700C/22200P, long 22800C/22100P) \u2248-\u20b9221; 5866 bull call 22550/22650 \u2248+\u20b92,977; combined \u2248+\u20b92,756, inside SL/TP, Core exit 14:55. No new trade: NIFTY 22553 and SENSEX 72560 both extended near range highs (RSI 65/67), TimesFM p50 flat, and <40 min to the 14:55 index exit leaves no holding window. Next review ~14:47 to confirm flatten and hedge integrity."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T15:10:40.295142+05:30",
       "summary": "Flat book: no open runs, all legs hedged and margin released (Core events confirm NIFTY 5907 +325, SENSEX 5899 \u2212752 both TIME_EXIT). Today \u22123235 on 3 closed runs. No new entry: at 15:10 IST the 14:55 index exit cutoff has passed, so no NSE/BSE candidate can carry a valid exit; MCX stays off per boss. 5906/5903 unstarted. Next review in 30 min (post-close) for settlement; reassess fresh candidates at the next session open."
+    },
+    {
+      "time": "2026-10-12T15:25:40.339579+05:30",
+      "summary": "Flat book: no open runs, all NIFTY/SENSEX legs hedged, margin released (Core confirms 5907 +325 and 5899 -752 both TIME_EXIT; today -3235 on 3 closed runs). No new entry: at 15:25 IST the 09:30-15:00 index entry window and 14:55 exit cutoff have both passed, so no NSE/BSE candidate can carry a valid same-session exit; MCX remains off per boss. 5906/5903 stayed unstarted. HOLD. Next review in 30 min for close/settlement; reassess fresh NIFTY/SENSEX direction and structures at the next session open."
     }
   ]
 }
