@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T10:40:30.046429+05:30",
-      "summary": "Monitoring active NIFTY iron condor (5865) with -35.75 INR unrealized PnL and SENSEX bull call spread (5863) with +557.0 INR unrealized PnL. No new entry considered; will reassess thesis and consider adding stop/target levels in next cycle. Next review in 60 seconds."
-    },
-    {
       "time": "2026-10-09T10:41:12.532334+05:30",
       "summary": "Monitoring three active positions: NIFTY iron condor (5867) with +6.5 INR unrealized PnL, SENSEX bull call spread (5869) +22.0, SENSEX bull put spread (5868) +18.0. No new entry considered as recent price action shows only modest upward bias without a clear strong directional thesis; will reassess on next cycle."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-12T11:11:12.155910+05:30",
+      "summary": "Assessed NIFTY and SENSEX: both show bearish momentum (price below SMA, RSI low, TimesFM forecast down). Existing positions include bearish directional trades (NIFTY long put, SENSEX bear put/bear call spreads) and neutral iron condors. No new trade added to avoid increasing correlated exposure and because SENSEX 2-leg spreads have negative average P&L despite decent win rate. Will hold and monitor for exit signals (SL/TP) or a clear bullish reversal."
+    },
+    {
+      "time": "2026-10-12T11:25:49.587467+05:30",
       "summary": "Assessed NIFTY and SENSEX: both show bearish momentum (price below SMA, RSI low, TimesFM forecast down). Existing positions include bearish directional trades (NIFTY long put, SENSEX bear put/bear call spreads) and neutral iron condors. No new trade added to avoid increasing correlated exposure and because SENSEX 2-leg spreads have negative average P&L despite decent win rate. Will hold and monitor for exit signals (SL/TP) or a clear bullish reversal."
     }
   ]
