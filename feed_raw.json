@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T22:47:11.363388+05:30",
-      "summary": "No new trades. NSE/BSE closed (market_open_now=false) and owner rule bans new MCX entries, so no entry-eligible underlying. Both open condors hedged (4 legs filled each) and ACTIVE with fresh marks: 5823 GOLDM +10 unrealized (short 149500CE/147500PE, long 150000CE/147000PE, SL 11000, MCX margin ~68514), 5825 CRUDEOILM +260 (short 9000CE/8400PE, long 9200CE/8200PE, SL 6000, margin ~37130). Today realized +14975. Both carry a 22:50 time exit; left to auto-exit. Next review ~22:52 to confirm flat and hedge integrity."
-    },
-    {
       "time": "2026-10-08T22:50:10.924150+05:30",
       "summary": "HOLD - no entry-eligible market. Both open MCX condors auto-exited at their 22:50 time exit per Core events: GOLDM 5823 +400, CRUDEOILM 5825 +320, both RUN_DONE, 0 open legs, 0 margin, hedges intact. No open positions and no unhedged shorts. NSE/BSE closed (market_open_now=false); MCX open but owner rule bans new MCX entries, so no eligible underlying. Today realized +14975. Next: reassess at next session open (~09:15 IST) for a fresh NSE/BSE candidate; no triggers pending overnight."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T10:04:48.835774+05:30",
       "summary": "HOLD. NIFTY condor 5893 live and fully hedged (4 legs filled, 13-10 expiry, P&L ~-104, no edit). SENSEX condor 5899 still unstarted, entry scheduled 10:05 \u2014 fills/hedge unverified, will confirm next cycle. No new entry: reassessed NIFTY/SENSEX fresh, both choppy and only mildly bearish (between SMA20/50, RSI ~45-46, TimesFM -0.11%), no clear direction for a vertical and a bear leg would conflict with the condor put side. MCX off. Next review 120s to verify 5899 fills."
+    },
+    {
+      "time": "2026-10-12T10:05:38.283690+05:30",
+      "summary": "Both live condors confirmed filled and hedged per Core events: NIFTY 5893 (4x short 22750/long 22800 CE + short 22500/long 22450 PE, 13-10, P&L -325) and SENSEX 5899 (4x short 73100/long 73300 CE + short 71900/long 71700 PE, 15-10, P&L +68); stops/targets intact, no edits. No new directional entry: NIFTY 22506 RSI 48.6, SENSEX 72328 RSI 45.4, both choppy after a dip-and-bounce, TimesFM only -0.11%; 1-DTE verticals price at R:R 0.30-0.64 and a same-index directional would duplicate the neutral condors. MCX off. Next review ~25 min."
     }
   ]
 }
