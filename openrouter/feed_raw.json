@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-08T23:17:23.513406+05:30",
-      "summary": "NSE/BSE index markets closed (NIFTY/SENSEX), MCX trading blocked by identity rule. No open positions. No new trades possible. Holding until next trading session. Will reassess at market open tomorrow."
-    },
-    {
-      "time": "2026-10-09T09:16:21.489931+05:30",
-      "summary": "Created and started SENSEX bull call spread (BUY 1\u00d7 CALL ATM 71800, SELL 1\u00d7 CALL OTM\u2082 72000, expiry 15\u201110\u20112026). Filled at 441.35/356.35, net debit \u20b985/share (max loss \u20b91\u202f700, max profit \u20b92\u202f300). Position active; will manage to exit at 14:55 IST or earlier if thesis fails. Next review in 60\u202fs."
-    },
-    {
       "time": "2026-10-09T09:19:02.701969+05:30",
       "summary": "Created and started SENSEX bull call spread (BUY 1\u00d7 CALL ATM 71800, SELL 1\u00d7 CALL OTM\u2082 72000, expiry 15\u201110\u20112026). Filled at 441.35/356.35, net debit \u20b985/share (max loss \u20b91\u202f700, max profit \u20b92\u202f300). Position active; will manage to exit at 14:55 IST or earlier if thesis fails. Next review in 60\u202fs."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-12T09:34:50.240342+05:30",
       "summary": "Active SENSEX bear call spread 72700-72800 oct15 (strategy 5894) is profitable (+41) with bearish thesis. Underlying 72509 below short strike 72700, TimesFM bearish. No new entry taken due to correlated exposure concerns with existing bearish position. Will monitor for SL (948), TP (1052), or time exit at 14:55. Next review in 2 minutes."
+    },
+    {
+      "time": "2026-10-12T09:52:24.258484+05:30",
+      "summary": "Created and started NIFTY iron condor 22350-22400-22600-22650 oct13 (strategy 5898) with entry 09:50, exit 14:55, SL 600, TP 900. Existing SENSEX bear call spread 72700-72800 (5894) remains active (+148 unrealized). Markets open, NIFTY and SENSEX bearish per TMFM. No new SENSEX entry to avoid correlated exposure. Next review in 60s to monitor SL/TP or time exit."
+    },
+    {
+      "time": "2026-10-12T09:52:58.344123+05:30",
+      "summary": "Holding existing positions: NIFTY iron condor (5898) +65 unrealized, SENSEX bear call spread (5894) +211 unrealized. No SL/TP triggers, time exit far. No new trade due to one-view-per-index rule and no clear directional signal. Next review in 60s to check SL/TP or time exit."
     }
   ]
 }
