@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T11:14:53.205287+05:30",
-      "summary": "Created and started SENSEX bear call spread 72400-72600 oct15 (strategy 5870) to add bearish directional exposure amid mild bearish signals (price below SMAs, RSI<50). Three existing positions remain active. Next review in 60s to monitor all positions."
-    },
-    {
       "time": "2026-10-09T11:16:21.825658+05:30",
       "summary": "Created and started SENSEX bear call spread 72400-72600 oct15 (strategy 5870) to add bearish directional exposure amid mild bearish signals (price below SMAs, RSI<50). Three existing positions remain active. Next review in 60s to monitor all positions."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T11:59:33.044324+05:30",
       "summary": "Market open, NIFTY and SENSEX show slight bearish bias in TimesFM but no strong directional signal. Existing positions include neutral iron condor and bearish spreads on both indices. Adding new directional trade would increase correlated exposure; no clear priced opportunity meeting rules. Holding to avoid overexposure. Will reassess on fresh data."
+    },
+    {
+      "time": "2026-10-12T12:31:36.713572+05:30",
+      "summary": "HOLD: No new trade entered. No clear directional move on NIFTY (TimesFM -0.03%) or SENSEX (+0.21%); existing SENSEX bearish positions (5908,5902,5900) conflict with a potential bullish view per one-view-per-index rule. Waiting for stronger signal. Next review in 60s to reassess fresh data."
     }
   ]
 }
