@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T09:45:12.910946+05:30",
-      "summary": "NSE/BSE open. Existing run 5864 (NIFTY 13-10 iron condor, 4 lots) confirmed hedged and ACTIVE: short 22700CE@28.80/long 22800CE@15.90, short 22200PE@55.75/long 22100PE@36.05; unrealized -\u20b9533, SL \u20b97,000 / TP \u20b94,000, exit 14:55, margin ~\u20b92.56L. No new entry: NIFTY/SENSEX both gapped ~+1% with RSI 74.6/81 (extended), so a directional chase has poor edge and SENSEX would only duplicate correlated index exposure. Next review ~15 min to watch marks and the short strikes."
-    },
-    {
       "time": "2026-10-09T10:00:18.441353+05:30",
       "summary": "NSE/BSE open. Run 5864 (NIFTY 13-10 iron condor, 4 lots) confirmed hedged and ACTIVE: short 22700CE/long 22800CE, short 22200PE/long 22100PE; fresh unrealized \u2212\u20b9637; SL \u20b97,000 / TP \u20b94,000, exit 14:55, margin ~\u20b92.56L \u2014 spot 22459 sits at the 22450 centre, both shorts 240/260 pts OTM, thesis intact. No new entry: both indices gapped ~+1% and are extended (RSI 70.7/72.4), so a directional vertical lacks reward:risk and a SENSEX condor would only duplicate the open correlated NIFTY neutral. Next review ~15 min to watch approach to 22200/22700."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T11:23:47.722569+05:30",
       "summary": "Searched a directional entry: NIFTY shows a clear recent down move (22588\u219222385, RSI 33.6, below SMA20/50) with a mildly bearish TimesFM path. Built and saved NIFTY 1-DTE (13-10) bear call spread 22450/22500, 4 lots, SL 5000/TP 3000 (strategy 5906), but the start was refused: daily forward-deployment limit (2) already used. No new position today. SENSEX 5899 condor intact, -804, fut 72144 inside 71900\u201373100, within its SL 4500; hold to Core SL/TP + 14:55 exit. Next review ~25 min; trigger: condor P&L nearing SL or SENSEX approaching 71900."
+    },
+    {
+      "time": "2026-10-12T11:39:19.524849+05:30",
+      "summary": "Assessed NIFTY/SENSEX (both ~0.6-0.7% down, RSI mid-50s, at/below SMA50, TimesFM flat): no clear direction, so built a NIFTY 1-DTE (13-10) iron condor 22250/22200P-22550/22600C, 4 lots, credit ~24.6 pts, worst-case ~6.6k, SL/TP 4000 \u2014 strategy 5907 created. Start refused: DAILY_FORWARD_DEPLOYMENT_LIMIT_EXCEEDED (2/2 used), so no new position today. Holding SENSEX condor 5899 (-672 unrealized, 71952 spot vs 71900 short put, well inside SL 4500; Core manages SL/TP and 14:55 exit). Next check ~20 min; trigger: 5899 P&L nearing SL or SENSEX below 71700."
     }
   ]
 }
