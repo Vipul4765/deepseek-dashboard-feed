@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T10:00:18.441353+05:30",
-      "summary": "NSE/BSE open. Run 5864 (NIFTY 13-10 iron condor, 4 lots) confirmed hedged and ACTIVE: short 22700CE/long 22800CE, short 22200PE/long 22100PE; fresh unrealized \u2212\u20b9637; SL \u20b97,000 / TP \u20b94,000, exit 14:55, margin ~\u20b92.56L \u2014 spot 22459 sits at the 22450 centre, both shorts 240/260 pts OTM, thesis intact. No new entry: both indices gapped ~+1% and are extended (RSI 70.7/72.4), so a directional vertical lacks reward:risk and a SENSEX condor would only duplicate the open correlated NIFTY neutral. Next review ~15 min to watch approach to 22200/22700."
-    },
-    {
       "time": "2026-10-09T10:16:41.997388+05:30",
       "summary": "Acted on the boss's directional mandate: NIFTY gap-up trend (22489, above rising SMAs, RSI 65) supported a defined-risk bull call spread. Started 5866 \u2014 BUY 4x 22550 CE @97.05 / SELL 4x 22650 CE @58.45 (13-10); both filled, hedged. Debit \u20b910,036, max profit \u20b915,964, SL \u20b98,000/TP \u20b99,000, exit 14:55; margin ~\u20b91.19L. Condor 5864 intact, \u2212\u20b9468, spot mid-range. Next review 12 min; triggers: NIFTY >22650 (TP) or back below ~22450 (thesis/SL)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T11:39:19.524849+05:30",
       "summary": "Assessed NIFTY/SENSEX (both ~0.6-0.7% down, RSI mid-50s, at/below SMA50, TimesFM flat): no clear direction, so built a NIFTY 1-DTE (13-10) iron condor 22250/22200P-22550/22600C, 4 lots, credit ~24.6 pts, worst-case ~6.6k, SL/TP 4000 \u2014 strategy 5907 created. Start refused: DAILY_FORWARD_DEPLOYMENT_LIMIT_EXCEEDED (2/2 used), so no new position today. Holding SENSEX condor 5899 (-672 unrealized, 71952 spot vs 71900 short put, well inside SL 4500; Core manages SL/TP and 14:55 exit). Next check ~20 min; trigger: 5899 P&L nearing SL or SENSEX below 71700."
+    },
+    {
+      "time": "2026-10-12T11:52:39.680778+05:30",
+      "summary": "Held. Only live position is SENSEX iron condor 5899 (short 71900P/73100C, long 71700P/73300C, 15-10, 4 lots), unrealized -508, spot 71910 sitting on the short put but well inside SL 4500 and inside the 71900-73100 range; timesFM flat. No new start possible: daily deployment limit already 2/2 (previous refusal), so candidates 5903/5906/5907 stay created but undeployed. Blockers: DAILY_FORWARD_DEPLOYMENT_LIMIT_EXCEEDED. Next review 15 min; trigger: 5899 loss nearing 4500 or SENSEX below 71700."
     }
   ]
 }
