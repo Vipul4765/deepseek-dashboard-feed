@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T10:47:11.380338+05:30",
-      "summary": "HOLD. Two hedged NIFTY 13-10 runs ACTIVE with confirmed fills and intact hedges: 5866 bull call spread (long 22550/ short 22650 CE) +\u20b9806; 5864 iron condor (short 22700 CE / 22100 PE, long 22800 CE / 22200 PE) \u2212\u20b9572. Spot 22494 sits between spreads, within both SL/TP and 14:55 exit; no hedge break. NIFTY/SENSEX price action is flat/choppy (RSI ~53-55, TimesFM ~0%), so no fresh directional edge and a new SENSEX trade would duplicate the existing correlated NIFTY bull thesis. MCX off. Next review ~25 min; triggers: NIFTY >22650 (spread TP) or <22200 (condor PE threat)."
-    },
-    {
       "time": "2026-10-09T11:02:23.668565+05:30",
       "summary": "HOLD. 5866 NIFTY bull call spread (long 22550/short 22650 CE) +\u20b91300 and 5864 NIFTY iron condor (short 22700 CE/22100 PE, long 22800 CE/22200 PE) \u2212\u20b9637 both ACTIVE, hedges intact, inside SL/TP and 14:55 exit. No new trade: NIFTY 22507/SENSEX 72428 are extended at intraday highs with flat-to-down TimesFM, so a fresh long would chase and duplicate 5866's bullish thesis with no reversal case for a short. MCX off. Next review ~25 min; triggers NIFTY >22650 or <22200 (condor PE threat) or a clean forecast/breakout edge."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-12T12:24:14.373154+05:30",
       "summary": "HOLD. Both live condors healthy and hedged: NIFTY 5907 (short 22300PE/22600CE, 1-DTE) +130; SENSEX 5899 (short 71900PE/73100CE) -732 vs SL 4500. Spot 22386/71951, both inside stops. No new entry: NIFTY/SENSEX merely recovering intraday with TimesFM flat (p50 22384/71967); directional candidates 5906 (NIFTY bear call) and 5903 (SENSEX bear put) lack a supported down-move and sit too close to spot, and one neutral per index already held. Next review 20 min; triggers: NIFTY 22300/22600, SENSEX 71700/73100 breach; exit 14:55."
+    },
+    {
+      "time": "2026-10-12T12:39:20.131308+05:30",
+      "summary": "HOLD. Both condors live and hedged: NIFTY 5907 (short 22300PE/22600CE, 1-DTE) +169; SENSEX 5899 (short 71900PE/73100CE, 3-DTE) -544 vs SL 4500; spot 22398/71970, both inside strikes. No new entry: NIFTY and SENSEX only grinding modestly off lows while still down on the day, TimesFM p50 flat (22404/72010), so no clear direction for a vertical, and one neutral per index already held. Next review 20 min; triggers: SENSEX 71900/73100 or NIFTY 22300/22600 breach, 14:55 exit."
     }
   ]
 }
