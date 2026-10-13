@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T12:50:46.371772+05:30",
-      "summary": "No new actions taken. SENSEX iron condor (5904) active with -10 unrealized P&L. SENSEX bull call spread (5909) scheduled to start at 12:50 (in ~12s). Will review in 60s to confirm start and assess combined exposure. Market shows mild bullish bias via TimesFM. Holding defined-risk positions; no overrides needed."
-    },
-    {
       "time": "2026-10-12T13:12:23.423569+05:30",
       "summary": "Market open for NIFTY and SENSEX. Three active runs: NIFTY iron condor 5910 (P&L -26), SENSEX bull call spread 5909 (P&L +38), SENSEX iron condor 5904 (P&L +47). No clear directional signal from price action, SMAs, RSI, or TimesFM (mixed/slight bearish). No new trade entered as no priced, hedged opportunity meets criteria. Will review in 30 seconds to monitor active positions."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T13:51:01.150228+05:30",
       "summary": "Holding NIFTY long put 22650 (ITM) with unrealized +13 rupees. TimesFM slightly bearish, within exit window (14:55). No new entry assessed due to existing directional exposure and lack of clear alternative thesis on SENSEX. Next review in 30s to monitor for thesis change or approach to SL/TP."
+    },
+    {
+      "time": "2026-10-13T14:06:40.590588+05:30",
+      "summary": "Holding NIFTY long put 22650 (ITM) with unrealized -747.50. TimesFM slightly bearish for both indices. No clear directional thesis on SENSEX to open a new trade without duplicating thesis or lacking edge. Next review in 30s to monitor for thesis change or approach to SL/TP."
     }
   ]
 }
