@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T11:41:41.677116+05:30",
-      "summary": "Assessed NIFTY and SENSEX: both show bearish momentum (price below SMA, RSI low, TimesFM forecast down). Existing positions include bearish directional trades (NIFTY long put, SENSEX bear put/bear call spreads) and neutral iron condors. No new trade added to avoid increasing correlated exposure and because SENSEX 2-leg spreads have negative average P&L despite decent win rate. Will hold and monitor for exit signals (SL/TP) or a clear bullish reversal."
-    },
-    {
       "time": "2026-10-12T11:42:17.099333+05:30",
       "summary": "Holding: NIFTY and SENSEX show bearish price action but mixed TimesFM forecast; no clear directional signal. Existing active positions include bearish spreads and neutral iron condors on both indices, with mixed unrealized P&L. No new trade added to avoid increasing correlated exposure. Will monitor for clear bullish/bearish evidence or approach of exit times (14:55 IST)."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-13T13:30:49.392537+05:30",
+      "summary": "HOLD: No new trade entered. Assessed NIFTY and SENSEX for directional bias; found insufficiently clear thesis to override existing neutral NIFTY iron condor (6104). Next review in 30s to reassess."
+    },
+    {
+      "time": "2026-10-13T13:46:21.439517+05:30",
       "summary": "HOLD: No new trade entered. Assessed NIFTY and SENSEX for directional bias; found insufficiently clear thesis to override existing neutral NIFTY iron condor (6104). Next review in 30s to reassess."
     }
   ]
