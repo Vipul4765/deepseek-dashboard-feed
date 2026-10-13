@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T14:35:54.356073+05:30",
-      "summary": "Monitoring active SENSEX bull call spreads (5881,5880), iron condor (5879) and NIFTY iron fly (5878). No new trade entered; positions within SL/TP. Next review in 30 seconds to check for exits or adjustments."
-    },
-    {
       "time": "2026-10-09T14:51:01.619988+05:30",
       "summary": "Holding existing positions: two SENSEX bull call spreads (5880,5881), one SENSEX iron condor (5879), one NIFTY iron fly (5878). No opposite directional views per index. Strategy 5881 exit time 15:20 exceeds index exit 14:55; will square off if still active at 14:55. No new trade due to proximity to exit. Next review in 300 seconds to check and act."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T10:23:44.064979+05:30",
       "summary": "Holding two active bullish trades: NIFTY long call ATM (6087) down \u20b9289.25, SENSEX bull call spread ATM-OTM2 (6086) down \u20b934.00. Market choppy, TimesFM slightly bearish. No new entries as one bullish view per index already maintained. Monitoring for SL/TP hits or time exit at 14:55 IST."
+    },
+    {
+      "time": "2026-10-13T10:39:09.887128+05:30",
+      "summary": "Holding two active bullish trades: NIFTY long call ATM (6087) down \u20b9780, SENSEX bull call spread ATM-OTM2 (6086) down \u20b9236. Market shows slight bearish bias (price below SMA20/50, TimesFM slightly bearish, RSI low). No clear directional thesis for new entries; one bullish view per index already maintained. Monitoring for SL/TP hits or time exit at 14:55 IST. No new entry."
     }
   ]
 }
