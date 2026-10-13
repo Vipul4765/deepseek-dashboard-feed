@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T14:47:16.845623+05:30",
-      "summary": "HOLD. NSE open, MCX off (boss). Both NIFTY 13-10 runs ACTIVE and fully hedged: 5866 bull call 22550/22650 \u2248 +\u20b93,211; 5864 iron condor (short 22700C/22200P, long 22800C/22100P) \u2248 \u2212\u20b9104; combined \u2248 +\u20b93,107, inside SL/TP. No new trade: only ~8 min to the 14:55 index exit, no holding window. Next review in 5 min to confirm both runs flatten at exit."
-    },
-    {
       "time": "2026-10-09T14:52:12.068193+05:30",
       "summary": "HOLD. NSE open, MCX off per boss. Both NIFTY 13-10 runs ACTIVE and fully hedged: 5866 bull call 22550/22650 \u2248 +\u20b92,990; 5864 iron condor (short 22700C/22200P, long 22800C/22100P) \u2248 +\u20b978; combined \u2248 +\u20b93,068, inside SL/TP. No new trade: only ~3 min to the 14:55 index exit, no holding window. Next review in 5 min to confirm both runs flatten and hedges remain covered."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T09:32:15.300014+05:30",
       "summary": "Acted on a clear bullish opening drive (NIFTY +0.49% to 22473, SENSEX +0.53% to ~72300, both above all MAs, RSI 70/75, VIX 15.25->14.87, TimesFM p50 marginally above spot). Created and started strategy 6084: SENSEX 15-10-2026 bull put spread, SELL 4x 72000 PE / BUY 4x 71800 PE (otm_3/otm_5), 09:31-14:55, overall SL 10000, TP 3500, hedge-first. Credit ~56.5/unit (Rs 4,516); structural worst case Rs 11,484; SPAN upfront ~Rs 146,499. Run 8a7df2ea is ACTIVE/live; fills not yet journaled (legs 404), strikes unverified until events settle. Next review 120s to confirm both legs filled and hedge intact."
+    },
+    {
+      "time": "2026-10-13T09:35:18.696508+05:30",
+      "summary": "6084 verified live: both legs filled \u2014 SELL 4x 72300 PE @361.55, BUY 4x 72100 PE @282.40 (15-10-2026), hedge intact, credit Rs 6,332, structural worst case Rs 9,668, SPAN ~131.9k, mark +72. Original SL Rs 10,000 exceeded max loss, so I previewed and applied an overall SL of Rs 6,500 (TP 3,500, exit 14:55 unchanged). No new entry: SENSEX view already long; NIFTY's TimesFM p50 22462 is flat with a mild bearish decile tilt and post-open momentum has stalled at 22478, while 0DTE put credits pay only ~0.30 R:R. Next: 10 min, watch 72300/22500."
     }
   ]
 }
