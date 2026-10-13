@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T10:04:48.835774+05:30",
-      "summary": "HOLD. NIFTY condor 5893 live and fully hedged (4 legs filled, 13-10 expiry, P&L ~-104, no edit). SENSEX condor 5899 still unstarted, entry scheduled 10:05 \u2014 fills/hedge unverified, will confirm next cycle. No new entry: reassessed NIFTY/SENSEX fresh, both choppy and only mildly bearish (between SMA20/50, RSI ~45-46, TimesFM -0.11%), no clear direction for a vertical and a bear leg would conflict with the condor put side. MCX off. Next review 120s to verify 5899 fills."
-    },
-    {
       "time": "2026-10-12T10:05:38.283690+05:30",
       "summary": "Both live condors confirmed filled and hedged per Core events: NIFTY 5893 (4x short 22750/long 22800 CE + short 22500/long 22450 PE, 13-10, P&L -325) and SENSEX 5899 (4x short 73100/long 73300 CE + short 71900/long 71700 PE, 15-10, P&L +68); stops/targets intact, no edits. No new directional entry: NIFTY 22506 RSI 48.6, SENSEX 72328 RSI 45.4, both choppy after a dip-and-bounce, TimesFM only -0.11%; 1-DTE verticals price at R:R 0.30-0.64 and a same-index directional would duplicate the neutral condors. MCX off. Next review ~25 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T11:12:39.338098+05:30",
       "summary": "HOLD. SENSEX 6084 (2DTE bull put 72300/72100, 4 lots) still hedged and open, +708 unrealized, ~131.9k margin reserved, 14:55 time exit; cut trigger SENSEX 1-min close below 72300 (now 72358). No new entry: NIFTY/SENSEX sessions open but no clear direction \u2014 NIFTY 22502 flat between SMA20 22508/SMA50 22515, RSI 36, TimesFM \u22120.07%; 0DTE IC strikes fall inside today's 22288\u201322581 range at R:R<0.30. SENSEX view already held. Next review 10 min or on a break of 72300."
+    },
+    {
+      "time": "2026-10-13T11:23:01.847341+05:30",
+      "summary": "Opened new NIFTY 0DTE iron condor (6088): short 22400 PE / 22600 CE, long 22350 PE / 22650 CE, 6 lots, expiry 13-10-2026, entry 11:25, exit 14:55, overall SL 7000, TP 4000 \u2014 priced credit 5850, worst-case loss 13,650, R:R 0.43, short strikes outside the 120-bar range 22409-22581, realized vol well under 25.6% implied. Start is waiting on 11:25 entry. Holding SENSEX 6084 bull put 72300/72100, +704 unrealized, hedged 1:1. No directional edge (all indices flat, TimesFM ~-0.1%). Next review 180s to verify 6088 fills."
     }
   ]
 }
