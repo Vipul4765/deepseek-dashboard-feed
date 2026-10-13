@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T09:32:26.172392+05:30",
-      "summary": "HOLD, no new entry. Managed NIFTY 1-DTE iron condor 5893 (4 legs, expiry 13-10): short 22500 PE/22750 CE, hedged by 22450/22800 long legs; delta-balanced, worst-case ~\u20b96,438, SL 5000/TP 4000, exit 14:55; margin ~\u20b9268.7k; unrealized -\u20b9299. No edit needed. Assessed both enabled indices: choppy/mean-reverting tape, RSI 31 (NIFTY)/28 (SENSEX) contradicting a mild TimesFM bearish tilt; SENSEX 3-DTE spread RR ~0.8-0.9 with short strikes too near spot. No clear direction, so no directional or correlated second position. MCX off. Reassessment trigger: NIFTY break of 22512/22600 or SENSEX break of 72392/72609. Next review 20 min."
-    },
-    {
       "time": "2026-10-12T09:47:20.591311+05:30",
       "summary": "HOLD, no new entry. NIFTY 1-DTE iron condor 5893 (4 legs, 13-10 expiry) confirmed filled and hedged: short 22500 PE/22750 CE vs long 22450 PE/22800 CE, unrealized -195, worst-case ~6344, SL 5000/TP 4000, exit 14:55 \u2014 no edit needed. Assessed NIFTY and SENSEX: both down but basing near session lows with RSI 38/35 (near oversold), VIX +5%, TimesFM only mildly bearish (-0.06%), so no clean directional edge; near-spot SENSEX verticals price RR ~1.0, not compelling. MCX off. Trigger to reassert direction: NIFTY break of 22512/22600 or SENSEX 72392/72609. Next review 20 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T10:46:01.789897+05:30",
       "summary": "HOLD. Two hedged positions, strikes verified from Core fills. NIFTY 6085 0DTE bull call (BUY 4x22600CE/SELL 4x22700CE) now -3458 (fresh), NIFTY reversed off 22581 to 22511; breakeven 22628, defined max loss 7371, 14:55 time exit live. SENSEX 6084 2DTE bull put +1040, spot 72393 above 72300 short strike, worst case ~9668. No new entry: NIFTY and SENSEX each already hold a bullish view (one view per index), no clear fresh direction, MCX off. Next review 15 min; cut NIFTY if it breaks 22450, recovery if it reclaims 22560."
+    },
+    {
+      "time": "2026-10-13T11:00:35.435022+05:30",
+      "summary": "HOLD. Two hedged positions, strikes verified from Core fills. NIFTY 6085 0DTE bull call (BUY 4x22600CE/SELL 4x22700CE) -3900 fresh; spot 22502, breakeven 22628, max loss 7371, exit 14:55 \u2014 kept prior plan: cut below 22450, recovery if reclaims 22560. SENSEX 6084 2DTE bull put +712, spot 72357 just above 72300 short strike, max loss 9668, exit 14:55. No new entry: each index already holds one bullish view, adding a neutral condor would cancel it; MCX off. Next review 10 min."
     }
   ]
 }
