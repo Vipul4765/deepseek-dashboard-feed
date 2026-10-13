@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T10:04:06.953316+05:30",
-      "summary": "Direction unclear (NIFTY/SENSEX between SMA20-50, RSI mid, V-shaped chop, TimesFM only mildly bearish), so no directional trade. Took a priced neutral SENSEX 3-DTE iron condor: created+started 5899 (15-10 expiry; sell 73000 CE/71800 PE, buy 73200 CE/71600 PE, 4 lots) \u2014 shorts outside the 120-bar range, credit ~102.8/unit, max loss ~7448, RR ~1.15; SL 4500, TP 3500, exit 14:55. Entry scheduled 10:05 (still waiting, fills unverified). NIFTY condor 5893 hedged, ~-247, no edit. MCX off. Next review 90s to confirm fills/hedge."
-    },
-    {
       "time": "2026-10-12T10:04:48.835774+05:30",
       "summary": "HOLD. NIFTY condor 5893 live and fully hedged (4 legs filled, 13-10 expiry, P&L ~-104, no edit). SENSEX condor 5899 still unstarted, entry scheduled 10:05 \u2014 fills/hedge unverified, will confirm next cycle. No new entry: reassessed NIFTY/SENSEX fresh, both choppy and only mildly bearish (between SMA20/50, RSI ~45-46, TimesFM -0.11%), no clear direction for a vertical and a bear leg would conflict with the condor put side. MCX off. Next review 120s to verify 5899 fills."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T11:11:28.020664+05:30",
       "summary": "Cut NIFTY 6085 (0DTE bull call 22600/22700) at 11:11 \u2014 thesis unsupported (spot 22502 pinned below SMA20/50, RSI 41, forecast flat-to-down) and remaining 12.55 premium decaying to zero; Core confirmed both legs filled, realized \u22124,108, margin released, no naked leg. Kept SENSEX 6084 (2DTE bull put 72300/72100, +628, hedged, 14:55 exit) though spot 72358 is only ~58pts above the short strike. No new entry: NIFTY/SENSEX only, NIFTY 0DTE has no edge, SENSEX already holds the one bullish view. Next review 10min; cut SENSEX if it closes below ~72300."
+    },
+    {
+      "time": "2026-10-13T11:12:39.338098+05:30",
+      "summary": "HOLD. SENSEX 6084 (2DTE bull put 72300/72100, 4 lots) still hedged and open, +708 unrealized, ~131.9k margin reserved, 14:55 time exit; cut trigger SENSEX 1-min close below 72300 (now 72358). No new entry: NIFTY/SENSEX sessions open but no clear direction \u2014 NIFTY 22502 flat between SMA20 22508/SMA50 22515, RSI 36, TimesFM \u22120.07%; 0DTE IC strikes fall inside today's 22288\u201322581 range at R:R<0.30. SENSEX view already held. Next review 10 min or on a break of 72300."
     }
   ]
 }
