@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T11:11:12.155910+05:30",
-      "summary": "Assessed NIFTY and SENSEX: both show bearish momentum (price below SMA, RSI low, TimesFM forecast down). Existing positions include bearish directional trades (NIFTY long put, SENSEX bear put/bear call spreads) and neutral iron condors. No new trade added to avoid increasing correlated exposure and because SENSEX 2-leg spreads have negative average P&L despite decent win rate. Will hold and monitor for exit signals (SL/TP) or a clear bullish reversal."
-    },
-    {
       "time": "2026-10-12T11:25:49.587467+05:30",
       "summary": "Assessed NIFTY and SENSEX: both show bearish momentum (price below SMA, RSI low, TimesFM forecast down). Existing positions include bearish directional trades (NIFTY long put, SENSEX bear put/bear call spreads) and neutral iron condors. No new trade added to avoid increasing correlated exposure and because SENSEX 2-leg spreads have negative average P&L despite decent win rate. Will hold and monitor for exit signals (SL/TP) or a clear bullish reversal."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T12:39:41.358965+05:30",
       "summary": "No new trade added: NIFTY and SENSEX show mild bullish price action but forecasts slightly bearish, lacking a clear directional edge. Existing SENSEX positions include both bullish and bearish spreads, violating one-view-per-index rule; however, no strong signal to flip view or add new trades. Will monitor for SL/TP hits or decisive price movement. Next review in 60 seconds."
+    },
+    {
+      "time": "2026-10-13T12:55:35.659013+05:30",
+      "summary": "No new trade added: NIFTY and SENSEX show mixed price action with slightly bearish forecasts. Existing SENSEX positions are all bearish or neutral (no bullish), so one-view-per-index rule not violated. No clear directional edge or improved risk/reward opportunity found. Will monitor for SL/TP hits or decisive price movement. Next review in 60 seconds."
     }
   ]
 }
