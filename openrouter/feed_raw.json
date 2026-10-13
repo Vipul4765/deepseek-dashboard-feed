@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T13:06:27.470269+05:30",
-      "summary": "Holding active NIFTY and SENSEX strategies (iron fly, bear condor, bear spreads, iron condor). Market slightly down, range-bound; no thesis change, hedges intact, exit times pending. Will monitor for material changes or approach to exit."
-    },
-    {
       "time": "2026-10-09T13:20:48.607183+05:30",
       "summary": "Holding active NIFTY and SENSEX strategies (iron fly, bear condor, bear spreads, iron condor). Market slightly down, range-bound; no thesis change, hedges intact, exit times pending. Will monitor for material changes or approach to exit. Next review in 15 minutes."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-13T09:34:36.289139+05:30",
+      "summary": "Square-off requested for SENSEX bear put spread (6083) as bullish price action invalidated bearish thesis. Position was -779 vs SL 1000/TP 1500. After exit will assess for bullish opportunity on SENSEX/NIFTY given upward intraday move and TimesFM showing only slight bearish bias with upside potential."
+    },
+    {
+      "time": "2026-10-13T09:37:05.497737+05:30",
       "summary": "Square-off requested for SENSEX bear put spread (6083) as bullish price action invalidated bearish thesis. Position was -779 vs SL 1000/TP 1500. After exit will assess for bullish opportunity on SENSEX/NIFTY given upward intraday move and TimesFM showing only slight bearish bias with upside potential."
     }
   ]
