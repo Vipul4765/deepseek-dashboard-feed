@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T10:11:54.135449+05:30",
-      "summary": "Created and started SENSEX bear call spread (ATM/OTM1) strategy 5900 to capitalize on clear downward trend. NIFTY 2-leg blocked due to poor recent performance; existing NIFTY iron condor and SENSEX bear call spread remain open. No SL/TP triggers yet. Next review in 60s to check for exits or new signals."
-    },
-    {
-      "time": "2026-10-12T10:20:24.296839+05:30",
-      "summary": "Created and started SENSEX bear call spread (ATM/OTM1) strategy 5900 to capitalize on clear downward trend. NIFTY 2-leg blocked due to poor recent performance; existing NIFTY iron condor and SENSEX bear call spread remain open. No SL/TP triggers yet. Next review in 60s to check for exits or new signals."
-    },
-    {
       "time": "2026-10-12T10:37:22.331004+05:30",
       "summary": "Created SENSEX iron condor (ATM/OTM2) strategy 5904 (entry 10:35, SL 350, TP 3500) to play ranging bias after recent downtrend. Squared off profitable NIFTY long put 5901 (+793 unrealized) to reduce bearish exposure. Existing SENSEX/NIFTY bearish/neutral runs remain active. Next review in 60s to monitor new entry and thesis."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-13T12:15:20.019294+05:30",
       "summary": "Created and started SENSEX iron condor (ATM 72400 CE/PE, long 72600 CE/PE, 5 lots) based on range\u2011bound thesis from price action and TimesFM neutral forecast. Existing bearish spreads (6089,6090,6091,6094) remain open with small unrealized losses. Next review in 60s to monitor new position and thesis."
+    },
+    {
+      "time": "2026-10-13T12:18:43.762579+05:30",
+      "summary": "Created and started SENSEX bear call spread (sell ITM_2 CE, buy ATM CE, 1 lot) based on bearish TimesFM forecast and slight bearish price action. Existing SENSEX iron condor (6095) and bearish spreads (6089-6091,6094) remain open with small unrealized P&L. Next review in 30s to monitor new position and thesis."
+    },
+    {
+      "time": "2026-10-13T12:20:16.933571+05:30",
+      "summary": "Created and started NIFTY long put ATM (strategy 6097) based on bearish TimesFM forecast and price action. Existing SENSEX bearish spreads and iron condor remain open. Next review in 30s to monitor new position and thesis."
     }
   ]
 }
