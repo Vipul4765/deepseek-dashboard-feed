@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T15:28:38.999009+05:30",
-      "summary": "Created and started SENSEX bear call spread 72600-72700 oct15 (strategy 5882) with entry 15:26, exit 15:30, SL 914, TP 543. Based on bearish price action and TimesFM forecast. No open positions prior. Next review in 30s to check fill and market."
-    },
-    {
-      "time": "2026-10-09T15:29:14.791572+05:30",
-      "summary": "Holding SENSEX bear call spread 72600-72700 oct15 (strategy 5882): short CALL 72900, long CALL 73000, net credit 43.4, unrealized PnL -20, awaiting time exit at 15:30. No new trades."
-    },
-    {
       "time": "2026-10-09T15:35:54.371678+05:30",
       "summary": "Market is open but no new entries possible due to exchange-imposed exit time cutoff (15:30:00). Current time 15:33:54 IST. No open positions. Awaiting next trading day for new opportunities."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-13T11:28:51.337759+05:30",
       "summary": "Created and started SENSEX bear call spread (sell ITM1 call, buy OTM1 call, expiry 15-10-2026) with overall SL 1500, TP 2000. Existing SENSEX bear put spread (6089) remains active with +55 unrealized P&L. Monitoring for entry and thesis validity."
+    },
+    {
+      "time": "2026-10-13T11:31:33.980135+05:30",
+      "summary": "Created and started (waiting) SENSEX bear put spread ATM OTM2 (strategy 6091) to add bearish exposure. Existing SENSEX bear put spread (6089) remains active with +41 unrealized P&L. NIFTY 2-leg blocked due to poor performance; no new NIFTY entry. Assessed both indices show slight bearish bias from price action and TimesFM forecast."
+    },
+    {
+      "time": "2026-10-13T11:32:59.620043+05:30",
+      "summary": "Held; monitored three active SENSEX bearish spreads (6089,6090,6091) with combined unrealized P&L ~ -83. No new entry due to existing directional exposure and thesis unchanged. Next review in 2 minutes to reassess."
     }
   ]
 }
