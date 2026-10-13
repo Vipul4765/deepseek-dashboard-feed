@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T09:47:20.591311+05:30",
-      "summary": "HOLD, no new entry. NIFTY 1-DTE iron condor 5893 (4 legs, 13-10 expiry) confirmed filled and hedged: short 22500 PE/22750 CE vs long 22450 PE/22800 CE, unrealized -195, worst-case ~6344, SL 5000/TP 4000, exit 14:55 \u2014 no edit needed. Assessed NIFTY and SENSEX: both down but basing near session lows with RSI 38/35 (near oversold), VIX +5%, TimesFM only mildly bearish (-0.06%), so no clean directional edge; near-spot SENSEX verticals price RR ~1.0, not compelling. MCX off. Trigger to reassert direction: NIFTY break of 22512/22600 or SENSEX 72392/72609. Next review 20 min."
-    },
-    {
       "time": "2026-10-12T10:04:06.953316+05:30",
       "summary": "Direction unclear (NIFTY/SENSEX between SMA20-50, RSI mid, V-shaped chop, TimesFM only mildly bearish), so no directional trade. Took a priced neutral SENSEX 3-DTE iron condor: created+started 5899 (15-10 expiry; sell 73000 CE/71800 PE, buy 73200 CE/71600 PE, 4 lots) \u2014 shorts outside the 120-bar range, credit ~102.8/unit, max loss ~7448, RR ~1.15; SL 4500, TP 3500, exit 14:55. Entry scheduled 10:05 (still waiting, fills unverified). NIFTY condor 5893 hedged, ~-247, no edit. MCX off. Next review 90s to confirm fills/hedge."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T11:00:35.435022+05:30",
       "summary": "HOLD. Two hedged positions, strikes verified from Core fills. NIFTY 6085 0DTE bull call (BUY 4x22600CE/SELL 4x22700CE) -3900 fresh; spot 22502, breakeven 22628, max loss 7371, exit 14:55 \u2014 kept prior plan: cut below 22450, recovery if reclaims 22560. SENSEX 6084 2DTE bull put +712, spot 72357 just above 72300 short strike, max loss 9668, exit 14:55. No new entry: each index already holds one bullish view, adding a neutral condor would cancel it; MCX off. Next review 10 min."
+    },
+    {
+      "time": "2026-10-13T11:11:28.020664+05:30",
+      "summary": "Cut NIFTY 6085 (0DTE bull call 22600/22700) at 11:11 \u2014 thesis unsupported (spot 22502 pinned below SMA20/50, RSI 41, forecast flat-to-down) and remaining 12.55 premium decaying to zero; Core confirmed both legs filled, realized \u22124,108, margin released, no naked leg. Kept SENSEX 6084 (2DTE bull put 72300/72100, +628, hedged, 14:55 exit) though spot 72358 is only ~58pts above the short strike. No new entry: NIFTY/SENSEX only, NIFTY 0DTE has no edge, SENSEX already holds the one bullish view. Next review 10min; cut SENSEX if it closes below ~72300."
     }
   ]
 }
