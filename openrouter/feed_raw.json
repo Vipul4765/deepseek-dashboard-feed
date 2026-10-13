@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T14:55:55.526070+05:30",
-      "summary": "Holding existing positions: two SENSEX bull call spreads (5880,5881), one SENSEX iron condor (5879), one NIFTY iron fly (5878). No opposite directional views per index. Strategy 5881 exit time 15:20 exceeds index exit 14:55; will square off if still active at 14:55. No new trade due to proximity to exit. Next review in 300 seconds to check and act."
-    },
-    {
       "time": "2026-10-09T14:56:43.352604+05:30",
       "summary": "Market closed for new index entries past 14:55 IST. All strategies from today are closed (journal_today shows 17 completed trades). MCX trading is disabled per boss's decision. No open positions to manage. No directional signal strong enough to warrant trade even if time allowed. Waiting for next session."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T10:53:44.661783+05:30",
       "summary": "Holding two active bullish trades: NIFTY long call OTM (6087) down \u20b9812, SENSEX bull call spread OTM (6086) down \u20b9214. Market shows slight bearish bias (price below SMA20/50, TimesFM negative). One bullish view per index already maintained; no contrary thesis for new entries. Monitoring for SL/TP hits or time exit at 14:55 IST. No new entry."
+    },
+    {
+      "time": "2026-10-13T11:08:36.893737+05:30",
+      "summary": "Holding two active bullish trades: NIFTY long call OTM (6087) down \u20b9942, SENSEX bull call spread OTM (6086) down \u20b9282. Market shows slight bearish bias (price below SMA20/50, TimesFM negative). No contrary thesis opened due to one-view-per-index rule. No new entry as no clear upward move. Monitoring for SL/TP hits or time exit at 14:55 IST."
     }
   ]
 }
