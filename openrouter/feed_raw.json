@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T09:34:50.240342+05:30",
-      "summary": "Active SENSEX bear call spread 72700-72800 oct15 (strategy 5894) is profitable (+41) with bearish thesis. Underlying 72509 below short strike 72700, TimesFM bearish. No new entry taken due to correlated exposure concerns with existing bearish position. Will monitor for SL (948), TP (1052), or time exit at 14:55. Next review in 2 minutes."
-    },
-    {
-      "time": "2026-10-12T09:52:24.258484+05:30",
-      "summary": "Created and started NIFTY iron condor 22350-22400-22600-22650 oct13 (strategy 5898) with entry 09:50, exit 14:55, SL 600, TP 900. Existing SENSEX bear call spread 72700-72800 (5894) remains active (+148 unrealized). Markets open, NIFTY and SENSEX bearish per TMFM. No new SENSEX entry to avoid correlated exposure. Next review in 60s to monitor SL/TP or time exit."
-    },
-    {
       "time": "2026-10-12T09:52:58.344123+05:30",
       "summary": "Holding existing positions: NIFTY iron condor (5898) +65 unrealized, SENSEX bear call spread (5894) +211 unrealized. No SL/TP triggers, time exit far. No new trade due to one-view-per-index rule and no clear directional signal. Next review in 60s to check SL/TP or time exit."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-13T11:55:11.479055+05:30",
       "summary": "Closed NIFTY iron condor (6092) via square-off request. Created and started NIFTY long put 22500 oct13 1152 (6093) to express bearish view following TimesFM forecast and price action. Existing SENSEX bear spreads (6089,6090,6091) remain open. Next review in 2 minutes to check new position and square-off completion."
+    },
+    {
+      "time": "2026-10-13T11:56:26.887825+05:30",
+      "summary": "Squared off NIFTY long put 6093 to lock ~175.5 unrealized profit. SENSEX bear spreads (6089,6090,6091) remain open with small unrealized losses. No new entry taken; will reassess on fresh data next cycle for any clear directional opportunity on either index."
+    },
+    {
+      "time": "2026-10-13T11:57:30.513778+05:30",
+      "summary": "Maintaining three open SENSEX bear spreads (6089,6090,6091) with small unrealized losses. TimesFM forecast supports bearish thesis. No new entry; will reassess on fresh data for any thesis change or exit signal."
     }
   ]
 }
