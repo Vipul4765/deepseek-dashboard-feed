@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T12:24:14.373154+05:30",
-      "summary": "HOLD. Both live condors healthy and hedged: NIFTY 5907 (short 22300PE/22600CE, 1-DTE) +130; SENSEX 5899 (short 71900PE/73100CE) -732 vs SL 4500. Spot 22386/71951, both inside stops. No new entry: NIFTY/SENSEX merely recovering intraday with TimesFM flat (p50 22384/71967); directional candidates 5906 (NIFTY bear call) and 5903 (SENSEX bear put) lack a supported down-move and sit too close to spot, and one neutral per index already held. Next review 20 min; triggers: NIFTY 22300/22600, SENSEX 71700/73100 breach; exit 14:55."
-    },
-    {
       "time": "2026-10-12T12:39:20.131308+05:30",
       "summary": "HOLD. Both condors live and hedged: NIFTY 5907 (short 22300PE/22600CE, 1-DTE) +169; SENSEX 5899 (short 71900PE/73100CE, 3-DTE) -544 vs SL 4500; spot 22398/71970, both inside strikes. No new entry: NIFTY and SENSEX only grinding modestly off lows while still down on the day, TimesFM p50 flat (22404/72010), so no clear direction for a vertical, and one neutral per index already held. Next review 20 min; triggers: SENSEX 71900/73100 or NIFTY 22300/22600 breach, 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T12:26:41.254234+05:30",
       "summary": "Held, no new entry. NIFTY 6098 0DTE bull call confirmed filled 12:26 (BUY 22600CE@15.45/SELL 22650CE@7.10, 390 qty, 1:1 hedge, bounded max loss ~\u20b93.3k), now -\u20b978. SENSEX 6084 bull put running +\u20b91,228, hedged 1:1, exit 14:55. Both fully hedged, no naked shorts. Skipped a third trade: one bullish view already held per index, so adding would be correlated/conflicting. Day P&L -\u20b972. Next: recheck marks/decay ~12:46."
+    },
+    {
+      "time": "2026-10-13T12:42:44.134667+05:30",
+      "summary": "Booked NIFTY 6098 0DTE bull call (22600/22650CE, 6 lots) at ~+\u20b91,500: the spread was fairly priced (12.45 vs 8.35 entry), spot 58 pts below the 22,608 breakeven with 2h left and momentum stalled, so holding had ~zero EV. Square-off requested; fills not yet journalled, will verify. Holding SENSEX 6084 bull put (72300/72100PE, 4 lots, +\u20b91,904) \u2014 short strike ~224 pts OTM, 2DTE, theta favors the 14:55 exit. Both hedged, no naked shorts. Day realized ~+\u20b91,430. Next: confirm 6098 exit and watch 6084, review in 5 min."
     }
   ]
 }
