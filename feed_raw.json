@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T14:55:40.007633+05:30",
-      "summary": "Flat book: both overnight-safe condors auto-exited at the 14:55 IST index cutoff \u2014 NIFTY 5907 (short 22300PE/22600CE, 13-10) +325, SENSEX 5899 (short 71900PE/73100CE, 15-10) \u2212752; all legs hedged, open_legs 0, margin released (Core events confirm). Today: \u22123235 on 3 closed runs. No new entry: it is 14:55:32, past the index exit cutoff, so no NSE/BSE candidate can carry a valid exit; MCX entries remain off per boss. 5906/5903 stay unstarted. Next review in 30 min for journal settlement."
-    },
-    {
       "time": "2026-10-12T15:10:40.295142+05:30",
       "summary": "Flat book: no open runs, all legs hedged and margin released (Core events confirm NIFTY 5907 +325, SENSEX 5899 \u2212752 both TIME_EXIT). Today \u22123235 on 3 closed runs. No new entry: at 15:10 IST the 14:55 index exit cutoff has passed, so no NSE/BSE candidate can carry a valid exit; MCX stays off per boss. 5906/5903 unstarted. Next review in 30 min (post-close) for settlement; reassess fresh candidates at the next session open."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T14:46:06.105921+05:30",
       "summary": "Flat, nothing open. Assessed NIFTY (0DTE) and SENSEX (2DTE) at 14:45 IST. Blocker: index entries must exit 14:55, leaving ~10 min of hold \u2014 no thesis fits that. NIFTY nearest expiry is 0DTE (pure theta into close); SENSEX 2DTE won't resolve in 10 min; both overbought (RSI ~80/~77) with TimesFM flat-to-down. No defined-risk entry today. Day closed +\u20b94,053.5 (5 trades, 4W/1L). Next review 1800s; resume entry search next session from the open."
+    },
+    {
+      "time": "2026-10-13T15:01:04.811728+05:30",
+      "summary": "Flat, no open runs; all strategies completed. Time is 15:00:57 IST, past the 15:00 index entry cut-off (and 14:55 exit), so no defined-risk entry is possible; MCX entries blocked by mandate. No new trades. Day booked +\u20b94,053.5 across 5 trades (4W/1L). Nothing to manage, no hedge at risk. Next review 1800s; resume the entry search at the next session open, first assessing NIFTY/SENSEX for a directional vertical or protected condor."
     }
   ]
 }
