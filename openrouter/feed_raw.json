@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T09:32:30.722618+05:30",
-      "summary": "Created and started SENSEX bear call spread 72500-72600 oct15 (strategy 5894) based on mild bearish bias from recent price action, SMA, RSI and TimesFM forecast. Defined risk: max loss 948, max profit 1052. Entry at 09:30, exit at 14:55. Will monitor for SL/TP or time exit."
-    },
-    {
       "time": "2026-10-12T09:34:50.240342+05:30",
       "summary": "Active SENSEX bear call spread 72700-72800 oct15 (strategy 5894) is profitable (+41) with bearish thesis. Underlying 72509 below short strike 72700, TimesFM bearish. No new entry taken due to correlated exposure concerns with existing bearish position. Will monitor for SL (948), TP (1052), or time exit at 14:55. Next review in 2 minutes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T11:37:19.383658+05:30",
       "summary": "Holding existing positions: NIFTY iron condor (6092) +13 unrealized, SENSEX bear spreads (6089,6090,6091) with small unrealized losses (-10,-85,-32). No new entry due to existing directional exposure and lack of clear edge; will reassess in 2 minutes."
+    },
+    {
+      "time": "2026-10-13T11:55:11.479055+05:30",
+      "summary": "Closed NIFTY iron condor (6092) via square-off request. Created and started NIFTY long put 22500 oct13 1152 (6093) to express bearish view following TimesFM forecast and price action. Existing SENSEX bear spreads (6089,6090,6091) remain open. Next review in 2 minutes to check new position and square-off completion."
     }
   ]
 }
