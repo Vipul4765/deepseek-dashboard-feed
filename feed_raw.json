@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T14:24:11.133016+05:30",
-      "summary": "HOLD, no new entry. Two hedged condors live and fresh: NIFTY 5907 (short 22300PE/22600CE, 13-10) +65; SENSEX 5899 (short 71900PE/73100CE, 15-10) -816 vs SL 4500 \u2014 spot 71781, short PE now ~119 pts ITM but well inside stop. Both 4-leg, fully hedged, auto-exit 14:55. Skip 5906/5903 starts and any fresh directional: only ~32 min to mandatory index exit, and TimesFM p50 flat (NIFTY -0.00%, SENSEX -0.02%) with RSI ~29 gives no directional edge; one neutral view per index already held. Next review ~14:43 before exits."
-    },
-    {
-      "time": "2026-10-12T14:38:58.325357+05:30",
-      "summary": "HOLD, no new entry. Two hedged condors live and fresh: NIFTY 5907 (short 22300PE/22600CE, 13-10) P&L -234; SENSEX 5899 (short 71900PE/73100CE, 15-10) P&L -1188 vs SL 4500 \u2014 both 4-leg, fully hedged, well inside stops, auto-exit 14:55. Only ~17 min to mandatory index exit and TimesFM p50 flat (NIFTY -0.03%, SENSEX -0.04%), so no fresh entry. Skip 5906/5903 starts. Next review ~14:56 to confirm exits and reconcile."
-    },
-    {
       "time": "2026-10-12T14:53:56.038948+05:30",
       "summary": "HOLD, no new entry. Both live condors hedged and fresh: NIFTY 5907 (short 22300PE/22600CE, 13-10) P&L +221; SENSEX 5899 (short 71900PE/73100CE, 15-10) P&L -704 vs SL 4500 \u2014 4-leg, fully covered, auto-exit 14:55. At 14:53 only ~2 min remain before the mandatory index exit, so no fresh entry; 5906/5903 stay unstarted. MCX off per boss. Next review ~14:59 to confirm exits and reconcile fills."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-13T14:00:18.570487+05:30",
       "summary": "HOLD, no new entry. Both campaigns hedged: 6100 NIFTY 0DTE bull call 22600/22650CE 4 lots -\u20b9260 (NIFTY 22,549); 6084 SENSEX 2DTE bull put 72300/72100PE 4 lots +\u20b91,964 (SENSEX 72,537, ~237pt OTM buffer, TP 3500). Today realized +\u20b9592. No add: NIFTY and SENSEX each already carry the bullish view (one-view-per-index) and TimesFM/price are flat-to-soft, so a second same-direction spread only duplicates correlated exposure. Let software SL/TP and 14:55 exit manage. Next check ~14:25 on SENSEX toward 72,300 or NIFTY 22,600; resume search if a fresh directional edge appears."
+    },
+    {
+      "time": "2026-10-13T14:15:37.120619+05:30",
+      "summary": "Booked both green campaigns. Squared off 6100 (NIFTY 0DTE bull call 22600/22650CE, 4 lots, unrealized +\u20b91,105) since the 0DTE spread was pure time value with a 14:55 forced exit, and 6084 (SENSEX 2DTE bull put 72300/72100PE, 4 lots, unrealized +\u20b92,384) to protect profit before the exit. Both were fully hedged; square-off accepted, fills settling. Day realized was +\u20b9592 pre-exit. No new entry: 40 min to forced index exit, NIFTY/SENSEX RSI ~81/82 (overbought) and TimesFM flat, so no fresh edge. Next check 240s to confirm fills and day P&L."
+    },
+    {
+      "time": "2026-10-13T14:16:11.761188+05:30",
+      "summary": "Flat; both green campaigns settled (6100 +\u20b91,118; 6084 +\u20b92,344). Day realized +\u20b94,053.5 (5 trades, 4W/1L). No new entry: index entry window closes 15:00 with forced 14:55 exit (<40 min hold), NIFTY first expiry is 0DTE (pure theta), SENSEX chain spreads are wide, and evidence is overbought (RSI ~75) with flat/slightly-down TimesFM \u2014 no clear direction or stable centre to justify a defined-risk trade. Blockers named; held. Next review 25 min."
     }
   ]
 }
