@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T09:52:58.344123+05:30",
-      "summary": "Holding existing positions: NIFTY iron condor (5898) +65 unrealized, SENSEX bear call spread (5894) +211 unrealized. No SL/TP triggers, time exit far. No new trade due to one-view-per-index rule and no clear directional signal. Next review in 60s to check SL/TP or time exit."
-    },
-    {
       "time": "2026-10-12T10:10:01.348329+05:30",
       "summary": "Created and started SENSEX bear call spread (ATM/OTM1) strategy 5900 to capitalize on clear downward trend. NIFTY 2-leg blocked due to poor recent performance; existing NIFTY iron condor and SENSEX bear call spread remain open. No SL/TP triggers yet. Next review in 60s to check for exits or new signals."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T11:57:30.513778+05:30",
       "summary": "Maintaining three open SENSEX bear spreads (6089,6090,6091) with small unrealized losses. TimesFM forecast supports bearish thesis. No new entry; will reassess on fresh data for any thesis change or exit signal."
+    },
+    {
+      "time": "2026-10-13T12:13:42.278399+05:30",
+      "summary": "Created and started new SENSEX bear call spread 72400-72500 OCT15 (ID 6094) based on bearish thesis from TimesFM and price action. Existing three SENSEX bear spreads (6089,6090,6091) remain open with small unrealized losses. No adjustments made to existing positions. Next review in 90s to monitor new entry and thesis."
     }
   ]
 }
