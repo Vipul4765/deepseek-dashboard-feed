@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T13:09:14.659776+05:30",
-      "summary": "HOLD. Both hedged condors live and inside strikes: NIFTY 5907 (short 22300PE/22600CE, 13-10, spot 22387) +325; SENSEX 5899 (short 71900PE/73100CE, 15-10, spot 71934) -456 vs SL 4500. No new entry: both indices flat/choppy (120-bar ranges ~70pts NIFTY, ~200pts SENSEX), TimesFM p50 unchanged, RSI mid-50s, so no directional edge for a vertical; extra neutral duplicate not justified. Pending 5906/5903 kept unstarted (would duplicate/conflict existing index views). Next review 15 min; triggers NIFTY 22300/22600 or SENSEX 71900 breach, 14:55 exit."
-    },
-    {
       "time": "2026-10-12T13:24:37.108715+05:30",
       "summary": "HOLD. Both hedged condors live and verified: NIFTY 5907 (short 22300PE/22600CE, 13-10, spot 22367) +65; SENSEX 5899 (short 71900PE/73100CE, 15-10, spot 71890, put ~10pt ITM) -652 vs SL 4500. No new entry: afternoon last-2h ranges are tight (NIFTY ~60pts, SENSEX ~165pts), TimesFM p50 flat-to-marginally-up, RSI ~36-38 gives no fresh directional impulse, so no vertical edge and a duplicate neutral isn't justified. Pending 5906/5903 left unstarted. Next review 25 min; triggers NIFTY 22300/22600, SENSEX 71700/73100, 14:55 exits."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T12:45:27.450054+05:30",
       "summary": "Verified both open campaigns are filled and hedged, no naked shorts. 6100 NIFTY 0DTE bull call (long 22600CE @18.20 / short 22650CE @8.10, debit ~\u20b92,626, max profit ~\u20b910,374) \u2014 near-money vs the 22,622 future; unrealized +\u20b965. 6084 SENSEX 2DTE bull put (short 72300PE / long 72100PE) running, +\u20b91,680. Both indices already hold a bullish view, so a new entry would duplicate or conflict; no distinct fresh edge (NIFTY RSI 50, SENSEX RSI 48, flat, TimesFM mildly negative). HOLD. Next: recheck marks/TP/exit (14:55) in ~20 min."
+    },
+    {
+      "time": "2026-10-13T13:01:12.421070+05:30",
+      "summary": "HOLD, no new entry. Verified both campaigns hedged, no naked shorts: 6100 NIFTY 0DTE bull call 22600/22650CE (4 lots) ~-\u20b991; 6084 SENSEX 2DTE bull put 72300/72100PE (4 lots) +\u20b91,556; today realized +\u20b9592. No fresh edge: NIFTY RSI 51, SENSEX RSI 57, both pinned to 20/50-SMA, tiny ATR, VIX 14.2 falling, TimesFM flat-to-slightly-down; each index already holds a bullish view, so a new entry would duplicate or offset it. Reassess on a break beyond NIFTY 22,558/22,480 or SENSEX 72,537/72,294, or into the 14:55 exit. Next review 25 min."
     }
   ]
 }
