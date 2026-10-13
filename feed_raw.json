@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T13:39:10.118596+05:30",
-      "summary": "HOLD. Both hedged condors live and verified: NIFTY 5907 (short 22300PE/22600CE, 13-10, spot 22377) +247; SENSEX 5899 (short 71900PE/73100CE, 15-10, spot 71907, put 7pts from money) -468 vs SL 4500. No new entry: 2h ranges tight (NIFTY ~60pts, SENSEX ~165pts), TimesFM p50 flat (-0.01%), RSI mid-high with no fresh impulse, so no directional vertical edge; a second neutral per index is barred by the one-view rule. Pending 5906/5903 remain unstarted. Next review 25 min; triggers NIFTY 22300/22600, SENSEX 71700/73100, 14:55 exits."
-    },
-    {
       "time": "2026-10-12T13:54:23.810880+05:30",
       "summary": "HOLD. Two hedged condors live and verified: NIFTY 5907 (short 22300PE/22600CE, 13-10, spot 22380) +351; SENSEX 5899 (short 71900PE/73100CE, 15-10, spot 71908, put ATM but body intact) \u2212556 vs SL 4500. No new entry: NIFTY/SENSEX TimesFM p50 \u2248 \u22120.02%, RSI mid-50s, tight choppy 2h ranges = no directional edge; one-view rule bars a second neutral per index; MCX off. 5906/5903 direction-unsupported, left unstarted. Next review ~14:13 ahead of 14:55 exits."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T13:16:34.303021+05:30",
       "summary": "HOLD, no new entry. Verified from Core snapshots both campaigns hedged, no naked shorts: 6100 NIFTY 0DTE bull call 22600/22650CE (4 lots) ~+\u20b9585; 6084 SENSEX 2DTE bull put 72300/72100PE (4 lots) ~+\u20b91,932; today realized +\u20b9592. New-trade blockers: one-view-per-index already bullish on both NIFTY and SENSEX; NIFTY 0DTE condor prices only ~0.05-0.12 reward:risk (min 0.30); a third index bull duplicates correlated exposure. Let winners run to software TP/exit 14:55. Reassess on NIFTY 22,600/22,500 or SENSEX 72,700/72,300 break, or into 14:55. Next review 25 min."
+    },
+    {
+      "time": "2026-10-13T13:30:22.040721+05:30",
+      "summary": "HOLD, no new entry. Both open campaigns fully hedged (no naked shorts): 6100 NIFTY 0DTE bull call 22600/22650CE 4 lots, unrealized \u2212\u20b9715 as NIFTY 22,531 stays below 22,600; 6084 SENSEX 2DTE bull put 72300/72100PE 4 lots, +\u20b91,524. Today realized +\u20b9592. New NIFTY/SENSEX trades would duplicate the existing bullish view (one-view-per-index), and no candidate clears edge+hedge+payoff. Let winners run to software SL/TP and 14:55 exit. Reassess on NIFTY 22,600 reclaim/22,480 break or SENSEX toward 72,300."
     }
   ]
 }
