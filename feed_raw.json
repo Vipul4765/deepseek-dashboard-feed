@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T15:25:40.339579+05:30",
-      "summary": "Flat book: no open runs, all NIFTY/SENSEX legs hedged, margin released (Core confirms 5907 +325 and 5899 -752 both TIME_EXIT; today -3235 on 3 closed runs). No new entry: at 15:25 IST the 09:30-15:00 index entry window and 14:55 exit cutoff have both passed, so no NSE/BSE candidate can carry a valid same-session exit; MCX remains off per boss. 5906/5903 stayed unstarted. HOLD. Next review in 30 min for close/settlement; reassess fresh NIFTY/SENSEX direction and structures at the next session open."
-    },
-    {
       "time": "2026-10-13T09:15:17.247215+05:30",
       "summary": "Flat book: no open runs, all yesterday's runs closed (3907 +325, 5899 -752 TIME_EXIT), no margin reserved. Both NSE/BSE sessions open (09:15) but index entry window starts 09:30 IST, so no eligible entry yet. Assessed NIFTY (0DTE 13-10) and SENSEX (15-10): quotes fresh, VIX 14.5, TimesFM mildly bearish (NIFTY p50 22331, SENSEX 71853) but no completed 1m candles yet \u2014 too thin to price a hedged trade. MCX off per boss. Next review 09:30 to price a candidate with fresh candles. Blocker: pre-entry-window + no intraday bars."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T15:16:06.113185+05:30",
       "summary": "Flat: no open runs, all strategies completed; today booked +\u20b94,053.5 (5 trades, 4W/1L). Time 15:15 IST is past the 09:30-15:00 index entry window and the 14:55 exit, so no defined-risk entry is possible on NIFTY/SENSEX; MCX entries remain blocked by mandate. Nothing to manage, no hedge at risk. Next review in 1800s; at the next session open I will assess NIFTY and SENSEX for a directional vertical or protected condor."
+    },
+    {
+      "time": "2026-10-13T15:31:05.083834+05:30",
+      "summary": "Flat: no open runs, all strategies completed. Today booked +\u20b94,053.5 (5 trades, 4W/1L). At 15:30 IST both the 09:30\u201315:00 index entry window and the 14:55 exit have passed, so no defined-risk NIFTY/SENSEX entry is possible; MCX remains blocked by mandate. Nothing to manage, no hedge at risk. Next review in 1800s; at the next session open I will assess NIFTY and SENSEX for a directional vertical or protected condor using fresh candles and live quotes."
     }
   ]
 }
