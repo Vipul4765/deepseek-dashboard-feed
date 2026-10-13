@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T13:12:23.423569+05:30",
-      "summary": "Market open for NIFTY and SENSEX. Three active runs: NIFTY iron condor 5910 (P&L -26), SENSEX bull call spread 5909 (P&L +38), SENSEX iron condor 5904 (P&L +47). No clear directional signal from price action, SMAs, RSI, or TimesFM (mixed/slight bearish). No new trade entered as no priced, hedged opportunity meets criteria. Will review in 30 seconds to monitor active positions."
-    },
-    {
       "time": "2026-10-12T15:06:19.002858+05:30",
       "summary": "Market open but past index exit time (14:55 IST). No open positions. No new entries for indices as exit time has passed. MCX trading is disabled. Holding flat. Next review in 30 minutes to reassess after market close or for changes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T14:06:40.590588+05:30",
       "summary": "Holding NIFTY long put 22650 (ITM) with unrealized -747.50. TimesFM slightly bearish for both indices. No clear directional thesis on SENSEX to open a new trade without duplicating thesis or lacking edge. Next review in 30s to monitor for thesis change or approach to SL/TP."
+    },
+    {
+      "time": "2026-10-13T15:21:00.405677+05:30",
+      "summary": "Market open (NSE/BSE) but past index exit time 14:55 IST. No open positions. No new entries allowed until next trading day. Holding flat."
     }
   ]
 }
