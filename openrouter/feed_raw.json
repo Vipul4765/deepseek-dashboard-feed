@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T11:10:05.716351+05:30",
-      "summary": "Assessed NIFTY and SENSEX for new entries; both show bearish momentum (price below SMA, RSI low, TimesFM forecast down). Existing SENSEX positions are bearish-biased; NIFTY has no active positions. NIFTY 2-leg spreads are barred by poor live record (\u226430% win rate, net negative). Opened a directional NIFTY long put (5 lots, ATM strike 22400, expiry 13-10-2026) with overall SL 14,320 and TP 28,640 to express bearish view. Strategy awaiting entry at 11:10. Will manage per SL/TP or exit at 14:55."
-    },
-    {
       "time": "2026-10-12T11:11:12.155910+05:30",
       "summary": "Assessed NIFTY and SENSEX: both show bearish momentum (price below SMA, RSI low, TimesFM forecast down). Existing positions include bearish directional trades (NIFTY long put, SENSEX bear put/bear call spreads) and neutral iron condors. No new trade added to avoid increasing correlated exposure and because SENSEX 2-leg spreads have negative average P&L despite decent win rate. Will hold and monitor for exit signals (SL/TP) or a clear bullish reversal."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T12:24:32.893670+05:30",
       "summary": "Holding existing positions: SENSEX bear put spread 72900-72700 (6099), NIFTY long put 22600 (6097), SENSEX bear call spreads, iron condor, etc. No new trade added due to correlated exposure and lack of clear edge; will monitor for SL/TP hits or significant price reversal."
+    },
+    {
+      "time": "2026-10-13T12:39:41.358965+05:30",
+      "summary": "No new trade added: NIFTY and SENSEX show mild bullish price action but forecasts slightly bearish, lacking a clear directional edge. Existing SENSEX positions include both bullish and bearish spreads, violating one-view-per-index rule; however, no strong signal to flip view or add new trades. Will monitor for SL/TP hits or decisive price movement. Next review in 60 seconds."
     }
   ]
 }
