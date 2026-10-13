@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-09T13:36:03.260235+05:30",
-      "summary": "No new trade initiated; NIFTY and SENSEX range-bound with slight down bias in TimesFM. All active strategies have hedges intact and exit times pending. Holding for material changes or approach to exit. Next review in 10 minutes."
-    },
-    {
       "time": "2026-10-09T13:51:34.315630+05:30",
       "summary": "Created and started a new SENSEX iron condor (sell ATM call/put, buy OTM call/put otm_2) for expiry 15-10-2026, entry 13:50, exit 14:55, SL 300, TP 3500. All shorts are hedged. Next review in 5 minutes to monitor approach to exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T09:50:47.713741+05:30",
       "summary": "Created and started SENSEX bull call spread (ATM buy, OTM2 sell) strategy 6086 with SL 1000, TP 1500, waiting for entry at 09:50. No open positions; will monitor for fill and manage."
+    },
+    {
+      "time": "2026-10-13T09:53:01.106346+05:30",
+      "summary": "Created and started NIFTY long call ATM strategy 6087 (SL 2000, TP 4000) for today's expiry. Existing SENSEX bull call spread 6086 remains active (unrealized -74). Monitoring both for directional bullish thesis supported by TimesFM and price action. No conflicting views; one view per index maintained."
     }
   ]
 }
