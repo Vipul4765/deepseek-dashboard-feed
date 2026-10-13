@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T11:52:39.680778+05:30",
-      "summary": "Held. Only live position is SENSEX iron condor 5899 (short 71900P/73100C, long 71700P/73300C, 15-10, 4 lots), unrealized -508, spot 71910 sitting on the short put but well inside SL 4500 and inside the 71900-73100 range; timesFM flat. No new start possible: daily deployment limit already 2/2 (previous refusal), so candidates 5903/5906/5907 stay created but undeployed. Blockers: DAILY_FORWARD_DEPLOYMENT_LIMIT_EXCEEDED. Next review 15 min; trigger: 5899 loss nearing 4500 or SENSEX below 71700."
-    },
-    {
-      "time": "2026-10-12T12:07:45.705750+05:30",
-      "summary": "HOLD. Only live position is SENSEX iron condor 5899 (short 71900P/73100C, long 71700P/73300C, 15-10, 4 lots), fresh unrealized -684, well inside SL 4500; spot 71907 sits on the short put, TimesFM flat, no hedge break. No new start: daily forward-deployment limit already used (2/2, prior refusal), so 5903/5906/5907 stay created but undeployed. NIFTY/SENSEX show only mild, flat drift \u2014 no qualifying new thesis. Next review in 15 min; trigger: SENSEX below 71700 or loss nearing 4500."
-    },
-    {
       "time": "2026-10-12T12:23:28.539379+05:30",
       "summary": "Started NIFTY 1-DTE iron condor 5907 (expiry 13-10, 4 lots, otm_3/otm_4 both sides) \u2014 previously blocked by the forward-deployment cap, now admitted. All 4 legs FILLED 12:23 (sell put 58.9/buy put 43.05, sell call 25.3/buy call 18.5); net credit ~\u20b95,889, bounded worst case ~\u20b97,111, SL 4000/TP 4000, exit 14:55. Neutral fits: NIFTY flat (22385, TimesFM p50 22382). SENSEX condor 5899 still live, unrealized -648, spot 71945 vs short 71900, inside SL 4500 \u2014 held. Next review 10 min; triggers: SENSEX below 71700/loss near 4500, or NIFTY breaking 22300/22600."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-13T12:13:24.538035+05:30",
       "summary": "HOLD, no new entry. Both runs hedged 1:1, no naked short: 6088 NIFTY 0DTE iron condor (short 22500PE/22700CE, long 22450PE/22750CE, 6 lots, SL7000/TP4000) +\u20b91,618, spot 22507 just above short put; 6084 SENSEX bull put 72300/72100 (4 lots, SL10000/TP3500) +\u20b9760. Assessed NIFTY/SENSEX direction: both oversold (RSI 30/36), below SMA20/50, TimesFM -0.06%, but 87-pt chop near range lows = no clear edge. NIFTY bear call R:R 0.15 and bear put needs >57-pt drop; SENSEX bullish view conflicts with a bear trade (one view per index). MCX off. Next review 900s; reassess NIFTY 22480 / SENSEX 72290 breaks."
+    },
+    {
+      "time": "2026-10-13T12:20:56.661253+05:30",
+      "summary": "NIFTY 0DTE iron condor 6088 squared off at +\u20b94,036 (target hit); NIFTY now flat. Placed a directional NIFTY bull call spread: created + deployed 6098 (BUY 6x ATM CE / SELL 6x OTM1 CE, 13-10-2026, entry 12:26, exit 14:55, SL 5500, TP 10000) on the clear up-day (spot 22,536, +1.1% futures, above SMA20/50, RSI 57, last 30 min +46pts, bid-heavy book). Short is hedged 1:1 by the long call; worst-case loss \u2248 debit ~\u20b96,900, max profit \u2248 \u20b912,500. SENSEX 6084 bull put still open, +\u20b91,456. MCX off. Next review 400s to confirm the NIFTY fill."
+    },
+    {
+      "time": "2026-10-13T12:22:10.369587+05:30",
+      "summary": "Held; no new entry. NIFTY 0DTE bull call 6098 still scheduled, entering 12:26 (BUY 6x ATM CE / SELL 6x OTM1 CE 13-10, hedge 1:1, worst-case debit ~\u20b97.3k, TP 10k/SL 5.5k) - day still up (+0.76%), above SMA20/50, so kept it despite a flat TimesFM path. SENSEX 6084 bull put running, +\u20b91,380, hedged 1:1, exits 14:55. MCX off. No second NIFTY/SENSEX view - one per index already held. Next: confirm 6098 fill ~12:28 and manage."
     }
   ]
 }
