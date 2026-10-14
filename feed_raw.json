@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T09:15:17.247215+05:30",
-      "summary": "Flat book: no open runs, all yesterday's runs closed (3907 +325, 5899 -752 TIME_EXIT), no margin reserved. Both NSE/BSE sessions open (09:15) but index entry window starts 09:30 IST, so no eligible entry yet. Assessed NIFTY (0DTE 13-10) and SENSEX (15-10): quotes fresh, VIX 14.5, TimesFM mildly bearish (NIFTY p50 22331, SENSEX 71853) but no completed 1m candles yet \u2014 too thin to price a hedged trade. MCX off per boss. Next review 09:30 to price a candidate with fresh candles. Blocker: pre-entry-window + no intraday bars."
-    },
-    {
       "time": "2026-10-13T09:32:15.300014+05:30",
       "summary": "Acted on a clear bullish opening drive (NIFTY +0.49% to 22473, SENSEX +0.53% to ~72300, both above all MAs, RSI 70/75, VIX 15.25->14.87, TimesFM p50 marginally above spot). Created and started strategy 6084: SENSEX 15-10-2026 bull put spread, SELL 4x 72000 PE / BUY 4x 71800 PE (otm_3/otm_5), 09:31-14:55, overall SL 10000, TP 3500, hedge-first. Credit ~56.5/unit (Rs 4,516); structural worst case Rs 11,484; SPAN upfront ~Rs 146,499. Run 8a7df2ea is ACTIVE/live; fills not yet journaled (legs 404), strikes unverified until events settle. Next review 120s to confirm both legs filled and hedge intact."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T15:31:05.083834+05:30",
       "summary": "Flat: no open runs, all strategies completed. Today booked +\u20b94,053.5 (5 trades, 4W/1L). At 15:30 IST both the 09:30\u201315:00 index entry window and the 14:55 exit have passed, so no defined-risk NIFTY/SENSEX entry is possible; MCX remains blocked by mandate. Nothing to manage, no hedge at risk. Next review in 1800s; at the next session open I will assess NIFTY and SENSEX for a directional vertical or protected condor using fresh candles and live quotes."
+    },
+    {
+      "time": "2026-10-14T09:15:10.868243+05:30",
+      "summary": "Flat and no open runs; today's journal is empty and account limits are disabled. Sessions (NSE/BSE F&O) are open but it is 09:15 IST, before the 09:30 index entry window, and no completed 1-minute candles exist for today yet (last closes are 13 Oct 15:30). Blocking input: no fresh intraday price action and entry window not open, so no defined-risk NIFTY/SENSEX trade can be priced. MCX entries remain barred by mandate. Next review in 900s, at ~09:30, to assess NIFTY (19-10 expiry) and SENSEX (15-10 expiry) for a directional vertical or protected condor with live quotes, hedge and bounded worst case."
     }
   ]
 }
