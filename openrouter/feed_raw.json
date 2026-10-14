@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T09:34:36.289139+05:30",
-      "summary": "Square-off requested for SENSEX bear put spread (6083) as bullish price action invalidated bearish thesis. Position was -779 vs SL 1000/TP 1500. After exit will assess for bullish opportunity on SENSEX/NIFTY given upward intraday move and TimesFM showing only slight bearish bias with upside potential."
-    },
-    {
       "time": "2026-10-13T09:37:05.497737+05:30",
       "summary": "Square-off requested for SENSEX bear put spread (6083) as bullish price action invalidated bearish thesis. Position was -779 vs SL 1000/TP 1500. After exit will assess for bullish opportunity on SENSEX/NIFTY given upward intraday move and TimesFM showing only slight bearish bias with upside potential."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T09:40:35.153036+05:30",
       "summary": "Active SENSEX bull call spread (strategy 6524) shows small unrealized profit of 7.00. Market data shows slight bearish bias in forecasts but no clear directional move. Considered NIFTY iron condor and vertical spreads; none present strong enough edge to justify new entry given existing position and need to avoid correlated exposure without clear thesis. Will monitor existing position and reassess in 60 seconds."
+    },
+    {
+      "time": "2026-10-14T09:55:16.423680+05:30",
+      "summary": "No new trade entered. Assessed NIFTY and SENSEX for directional or neutral setups; no clear thesis given modest price moves and existing SENSEX bull call spread (strategy 6524) maintains a bullish view. Holding to avoid correlated exposure without edge. Will monitor existing position and reassess in 60 seconds."
     }
   ]
 }
