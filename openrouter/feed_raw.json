@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:31:33.980135+05:30",
-      "summary": "Created and started (waiting) SENSEX bear put spread ATM OTM2 (strategy 6091) to add bearish exposure. Existing SENSEX bear put spread (6089) remains active with +41 unrealized P&L. NIFTY 2-leg blocked due to poor performance; no new NIFTY entry. Assessed both indices show slight bearish bias from price action and TimesFM forecast."
-    },
-    {
-      "time": "2026-10-13T11:32:59.620043+05:30",
-      "summary": "Held; monitored three active SENSEX bearish spreads (6089,6090,6091) with combined unrealized P&L ~ -83. No new entry due to existing directional exposure and thesis unchanged. Next review in 2 minutes to reassess."
-    },
-    {
       "time": "2026-10-13T11:36:30.028427+05:30",
       "summary": "Held; monitored three active SENSEX bearish spreads (6089,6090,6091) with combined unrealized P&L ~ -83. No new entry due to existing directional exposure and thesis unchanged. Next review in 2 minutes to reassess."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-14T11:55:38.604544+05:30",
       "summary": "HOLD: No new trades entered. Monitoring existing SENSEX bear call spread (ID 6528) with unrealized loss -44, underlying price 72962 below breakeven 73035. Thesis remains bearish per TimesFM. Will reassess if price approaches 73050 (informal stop) or at exit time 14:55."
+    },
+    {
+      "time": "2026-10-14T12:11:22.767906+05:30",
+      "summary": "Created and started NIFTY long put 22750 atm oct19 dir (ID 6529) with SL 4000, TP 8000. Existing SENSEX bear call spread (ID 6528) remains active with unrealized loss -229. No new SENSEX trades due to existing bearish view. Next reassessment on fill, exit time 14:55, or thesis change."
+    },
+    {
+      "time": "2026-10-14T12:12:49.841096+05:30",
+      "summary": "Squared off SENSEX bear call spread (ID 6528) as thesis failed (index above short strike). NIFTY long put (ID 6529) remains active (+117 unrealized). No new trade entered: no suitable opportunity found that avoids conflicting views and meets entry criteria. Next trigger: NIFTY put SL/TP/exit or thesis change."
     }
   ]
 }
