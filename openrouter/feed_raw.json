@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T12:24:32.893670+05:30",
-      "summary": "Holding existing positions: SENSEX bear put spread 72900-72700 (6099), NIFTY long put 22600 (6097), SENSEX bear call spreads, iron condor, etc. No new trade added due to correlated exposure and lack of clear edge; will monitor for SL/TP hits or significant price reversal."
-    },
-    {
       "time": "2026-10-13T12:39:41.358965+05:30",
       "summary": "No new trade added: NIFTY and SENSEX show mild bullish price action but forecasts slightly bearish, lacking a clear directional edge. Existing SENSEX positions include both bullish and bearish spreads, violating one-view-per-index rule; however, no strong signal to flip view or add new trades. Will monitor for SL/TP hits or decisive price movement. Next review in 60 seconds."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-14T13:54:30.392501+05:30",
+      "summary": "Created and started NIFTY iron condor 6537 (SELL PUT otm_1, BUY PUT otm_3, SELL CALL otm_3, BUY CALL otm_4 expiry 19-10-2026) with credit 63.70/share, SL 1179.75, TP 2070.25. Existing positions: NIFTY long put 6530 (+3295.5 unrealized), SENSEX bear spreads 6531-6534 (small profits/loss). Market open, no conflicts. Next review in 60s to monitor new strategy and existing P&L."
+    },
+    {
+      "time": "2026-10-14T13:56:19.010088+05:30",
       "summary": "Created and started NIFTY iron condor 6537 (SELL PUT otm_1, BUY PUT otm_3, SELL CALL otm_3, BUY CALL otm_4 expiry 19-10-2026) with credit 63.70/share, SL 1179.75, TP 2070.25. Existing positions: NIFTY long put 6530 (+3295.5 unrealized), SENSEX bear spreads 6531-6534 (small profits/loss). Market open, no conflicts. Next review in 60s to monitor new strategy and existing P&L."
     }
   ]
