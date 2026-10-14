@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T09:37:06.088524+05:30",
-      "summary": "HOLD, no new entry. SENSEX 6084 (SELL 4x72300 PE / BUY 4x72100 PE, 15-10) verified live: hedge intact, fresh mark +\u20b9560, SL 6,500 / TP 3,500 / exit 14:55 \u2014 no action. NIFTY 0DTE assessed: bull call 22500/22600 debit ~38.3 needs +47 (breakeven 0.3\u03c3 above spot, ~38% POP), put-credit R:R only 0.36, IC credit 30/risk 70 \u2014 all fair-valued, no edge after costs; also already long via SENSEX (one view per index). Next review 10 min, watching SENSEX 72300 and NIFTY 22538."
-    },
-    {
       "time": "2026-10-13T09:46:41.488282+05:30",
       "summary": "Opened a new defined-risk directional trade: NIFTY 0DTE bull call spread, BUY 4x 22500 CE / SELL 4x 22600 CE (13-10), debit ~\u20b952/unit = \u20b913.6k worst-case, margin est. ~\u20b91.99L, SL 11,000 / TP 9,000 / exit 14:55 \u2014 status waiting, entry 09:50, no fill yet (will verify). Thesis: strong intraday reversal off 22288, spot 22540 above SMA20/50, RSI 85, TimesFM p50 flat-up; chose itm/otm spread for intrinsic cushion. SENSEX 6084 live, hedge intact, fresh mark +\u20b91,500, no action. Next review 5 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T09:34:59.735101+05:30",
       "summary": "Held NIFTY 19-10 iron condor (6522): 4 legs filled 09:33, unrealized -312, SL 26k/TP 13k, exit 14:55 - no action. Both indices lean mildly bearish (price below SMA20/50, RSI ~44, TimesFM median ~-0.1%), so I opened a new directional SENSEX 15-10 bear call spread (6523): sell 73200 CE / buy 73300 CE, 15 lots, short strike above today's 73,178 high. Net credit ~41.7/unit, worst case ~17.5k, margin ~17.5k; SL 8k, TP 6k, exit 14:55. Start is waiting for 09:35 entry; fill unverified. Review in 120s to confirm fills and hedge."
+    },
+    {
+      "time": "2026-10-14T09:35:39.444035+05:30",
+      "summary": "Both positions verified open and hedged. SENSEX 6523 bear call filled 09:35: SELL 73300 CE @176.50 / BUY 73400 CE @145.30, 15 lots (Core evidence; prior summary's 73200/73300 was wrong). NIFTY 6522 19-10 iron condor 12 lots fully filled (22900/23000 CE, 22400/22500 PE). Fresh marks: 6523 -900, 6522 -897; no stops/targets hit. Held: no new trade \u2014 both indices only mildly bearish (RSI ~52-54, TimesFM median -0.05%), so no fresh directional edge; a second structure would just duplicate correlated exposure. Next: review in 20 min for P&L drift; exits at 14:55."
     }
   ]
 }
