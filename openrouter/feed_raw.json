@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T09:17:39.028514+05:30",
-      "summary": "HOLD: Monitoring active SENSEX bear put spread (72200 long put, 72000 short put) opened at 09:16 with current P&L -193 vs SL 1000/TP 1500. Market open, SENSEX slightly up but TimesFM shows slight bearish bias. Position small relative to risk, thesis not broken. No new entries sought as existing position manages risk and directional view per index rule prevents conflicting SENSEX trades. Next review in 300 seconds to assess fill, P&L, and any thesis changes."
-    },
-    {
       "time": "2026-10-13T09:32:29.118090+05:30",
       "summary": "Holding SENSEX bear put spread (72200 long, 72000 short) opened at 09:16, current P&L -733 vs SL 1000/TP 1500. Market open, price up slightly but TimesFM shows slight bearish bias. No new entries due to one-view-per-index rule and lack of clear opposing or neutral thesis. Next review in 60 seconds to monitor P&L and any thesis changes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T09:36:03.882112+05:30",
       "summary": "Created and started SENSEX bull put spread (SELL ATM PUT, BUY OTM PUT 2 strikes down) expiry 15-10-2026. Filled: SELL 435.05, BUY 331.0, credit 104.05 pts. Bullish thesis: profits if SENSEX stays above 73000 at expiry. Monitoring; next review in 5 minutes."
+    },
+    {
+      "time": "2026-10-14T09:39:13.530717+05:30",
+      "summary": "Created and started SENSEX bull call spread (BUY ATM CALL, SELL OTM CALL) expiry 15-10-2026. Worst-case loss: 1,143 INR, margin required: ~35,328 INR. Bullish thesis: profits if SENSEX rises above 73,115 at exit. Monitoring; next review in 60 seconds."
     }
   ]
 }
