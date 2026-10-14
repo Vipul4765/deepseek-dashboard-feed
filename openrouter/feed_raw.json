@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T10:23:44.064979+05:30",
-      "summary": "Holding two active bullish trades: NIFTY long call ATM (6087) down \u20b9289.25, SENSEX bull call spread ATM-OTM2 (6086) down \u20b934.00. Market choppy, TimesFM slightly bearish. No new entries as one bullish view per index already maintained. Monitoring for SL/TP hits or time exit at 14:55 IST."
-    },
-    {
       "time": "2026-10-13T10:39:09.887128+05:30",
       "summary": "Holding two active bullish trades: NIFTY long call ATM (6087) down \u20b9780, SENSEX bull call spread ATM-OTM2 (6086) down \u20b9236. Market shows slight bearish bias (price below SMA20/50, TimesFM slightly bearish, RSI low). No clear directional thesis for new entries; one bullish view per index already maintained. Monitoring for SL/TP hits or time exit at 14:55 IST. No new entry."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T10:46:25.073485+05:30",
       "summary": "Monitoring active NIFTY long call (strategy 6527) with unrealized P&L -367.25 and SENSEX bull call spread (strategy 6524) with unrealized P&L +136.00. No new directional thesis detected that justifies a new entry; will reassess on next price update."
+    },
+    {
+      "time": "2026-10-14T11:01:10.218372+05:30",
+      "summary": "Monitoring active NIFTY long call (strategy 6527) with unrealized P&L +35.75 and SENSEX bull call spread (strategy 6524) with unrealized P&L +183.00. No new directional thesis detected that justifies a new entry; will reassess on next price update."
     }
   ]
 }
