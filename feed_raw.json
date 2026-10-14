@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:00:35.435022+05:30",
-      "summary": "HOLD. Two hedged positions, strikes verified from Core fills. NIFTY 6085 0DTE bull call (BUY 4x22600CE/SELL 4x22700CE) -3900 fresh; spot 22502, breakeven 22628, max loss 7371, exit 14:55 \u2014 kept prior plan: cut below 22450, recovery if reclaims 22560. SENSEX 6084 2DTE bull put +712, spot 72357 just above 72300 short strike, max loss 9668, exit 14:55. No new entry: each index already holds one bullish view, adding a neutral condor would cancel it; MCX off. Next review 10 min."
-    },
-    {
       "time": "2026-10-13T11:11:28.020664+05:30",
       "summary": "Cut NIFTY 6085 (0DTE bull call 22600/22700) at 11:11 \u2014 thesis unsupported (spot 22502 pinned below SMA20/50, RSI 41, forecast flat-to-down) and remaining 12.55 premium decaying to zero; Core confirmed both legs filled, realized \u22124,108, margin released, no naked leg. Kept SENSEX 6084 (2DTE bull put 72300/72100, +628, hedged, 14:55 exit) though spot 72358 is only ~58pts above the short strike. No new entry: NIFTY/SENSEX only, NIFTY 0DTE has no edge, SENSEX already holds the one bullish view. Next review 10min; cut SENSEX if it closes below ~72300."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T10:42:49.905883+05:30",
       "summary": "HOLD. All three spreads ACTIVE and fully hedged: 6522 NIFTY condor +819, 6525 NIFTY bear put -2275, 6523 SENSEX bear call -1350; SL/TP and 14:55 exits intact. NIFTY (RSI 62.5, +30pts) and SENSEX (RSI 53) both have TimesFM paths flat (~+0.02%) with choppy recent action, so no clear direction to trade. NIFTY already carries bearish+neutral views and SENSEX a bearish one; a new SENSEX neutral would duplicate a weak, historically losing 4-leg shape. No new entry. Next review 25 min or on 6525/6523 stop touch or 14:55 exit."
+    },
+    {
+      "time": "2026-10-14T10:58:00.072023+05:30",
+      "summary": "HOLD. Assessed NIFTY and SENSEX (MCX disabled per boss). All three runs ACTIVE and fully hedged: 6522 NIFTY condor -312, 6525 NIFTY bear put -3640, 6523 SENSEX bear call -2205; SL/TP and 14:55 exits intact, no unhedged leg. Both indices are mid-range and choppy (NIFTY 22736, RSI 53.7; SENSEX 73108, RSI 60.7) with flat TimesFM paths (~+0.04%), so no clear direction. Any new NIFTY/SENSEX directional would contradict an existing live view (one-view rule); no fresh thesis justifies closing them. Next: 6523/6525 stop touch, decisive break of NIFTY 22758 or SENSEX 73195, or 14:55 exit."
     }
   ]
 }
