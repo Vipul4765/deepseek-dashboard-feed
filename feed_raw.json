@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:25:31.894003+05:30",
-      "summary": "Confirmed from Core fills: 6088 NIFTY 0DTE filled short 22500 PE / 22700 CE, long 22450 PE / 22750 CE, 6 lots (not the 22400/22600 strikes the prior summary claimed); credit ~8872, bounded worst case ~10,627, SL 7000/TP 4000, exit 14:55. 6084 SENSEX bull put 72300/72100 hedged 1:1, +456, margin fine. No new entry: all indices flat/choppy (TimesFM ~-0.1%), and each index already carries one view, so no non-conflicting candidate. Next review 300s to watch the ATM short put."
-    },
-    {
       "time": "2026-10-13T11:26:09.523447+05:30",
       "summary": "HOLD. Two positions active and hedged 1:1: 6088 NIFTY 0DTE iron condor (short 22500PE/22700CE, long 22450PE/22750CE, 6 lots, credit ~8872, worst case ~10,627, SL7000/TP4000, exit 14:55) +136.5; 6084 SENSEX bull put 72300/72100 (4 lots) +464. Both indices already carry a view, so no non-conflicting entry. Index drift is mild bearish (TimesFM ~-0.1%, RSI ~40) and would conflict with the SENSEX bull put. Next review 300s to watch the ATM 22500 short put."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T11:42:24.725684+05:30",
       "summary": "HOLD, no new entry. All three runs ACTIVE and fresh: 6522 NIFTY condor +1521, 6523 SENSEX bear-call +990, 6525 NIFTY bear-put +617.5 (total ~+3129), hedged, inside SL/TP. Both indices are mid-range and choppy (NIFTY 22691, RSI 46.7, TimesFM flat; SENSEX 72993, RSI 45.9, TimesFM flat), and I already hold a view on each index, so a new trade would duplicate or conflict. Next triggers: stop/TP touch, NIFTY break of 22758/22655, SENSEX break of 73195/72888, or 14:55 time exit."
+    },
+    {
+      "time": "2026-10-14T11:57:24.132481+05:30",
+      "summary": "HOLD, no new entry. Three runs ACTIVE and hedged, strikes verified from Core snapshots: 6522 NIFTY condor +1599, 6523 SENSEX bear call -960, 6525 NIFTY bear put -2600 (net ~-1961). Both indices rallied to recent highs (NIFTY 22720, RSI 72; SENSEX 73082, RSI 71) but stay inside ranges and below triggers, so nothing to add without conflicting or duplicating my existing per-index view; all well inside SL/TP. Next: stop/TP touch, NIFTY break of 22758/22655, SENSEX break of 73195/72888, or 14:55 exit."
     }
   ]
 }
