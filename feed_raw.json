@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:48:30.293403+05:30",
-      "summary": "HOLD. Both open runs hedged 1:1, no naked short. 6088 NIFTY 0DTE iron condor (short 22500PE/22700CE, long 22450PE/22750CE, 6 lots, SL7000/TP4000) ~ -78, spot 22491 inside 22450-22700 range, put side near money with core SL containing pin risk. 6084 SENSEX bull put 72300/72100 (4 lots, SL10000/TP3500) ~ +516. No new entry: each index already carries a view (one view per index); NIFTY/SENSEX both RSI~40, below SMAs, TimesFM ~-0.08% but last-30min range-bound/choppy = no clear direction; MCX off per boss. Next review 600s."
-    },
-    {
-      "time": "2026-10-13T11:58:12.740970+05:30",
-      "summary": "HOLD, no new entry. Both runs hedged 1:1, no naked short: 6088 NIFTY 0DTE iron condor (short 22500PE/22700CE, long 22450PE/22750CE, 6 lots, SL7000/TP4000) ~ +1833, spot 22512 just above short put; 6084 SENSEX bull put 72300/72100 (4 lots, SL10000/TP3500) ~ +980. Assessed NIFTY/SENSEX for direction: RSI ~45, both below SMA20/50, TimesFM ~-0.07%, but last-30min range-bound/choppy = no clear directional edge, and each index already carries a view (one view per index). MCX off per boss. Next review 900s, reassess a break of NIFTY 22480 or SENSEX 72100."
-    },
-    {
       "time": "2026-10-13T12:13:24.538035+05:30",
       "summary": "HOLD, no new entry. Both runs hedged 1:1, no naked short: 6088 NIFTY 0DTE iron condor (short 22500PE/22700CE, long 22450PE/22750CE, 6 lots, SL7000/TP4000) +\u20b91,618, spot 22507 just above short put; 6084 SENSEX bull put 72300/72100 (4 lots, SL10000/TP3500) +\u20b9760. Assessed NIFTY/SENSEX direction: both oversold (RSI 30/36), below SMA20/50, TimesFM -0.06%, but 87-pt chop near range lows = no clear edge. NIFTY bear call R:R 0.15 and bear put needs >57-pt drop; SENSEX bullish view conflicts with a bear trade (one view per index). MCX off. Next review 900s; reassess NIFTY 22480 / SENSEX 72290 breaks."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-14T12:43:51.375185+05:30",
       "summary": "HOLD, no new entry. All three runs verified hedged and inside limits: 6522 NIFTY 19-Oct condor 22500PE/22900CE +1872 (SL already cut to 8000 last cycle, TP 13000), 6525 NIFTY bear put 22750/22650 -2113, 6523 SENSEX 15-Oct bear call 73300/73400 -1050. NIFTY 22722 (RSI 39.5, TimesFM -0.06%), SENSEX 73094 (RSI 47, TimesFM -0.02%) \u2014 evidence flat, and adding a down structure would duplicate, an up structure would conflict; one view per index. MCX off. Next: strike breaks, SL/TP touch, or 14:55 exit."
+    },
+    {
+      "time": "2026-10-14T12:59:36.472150+05:30",
+      "summary": "Booked the neutral NIFTY iron condor (6522): squared off at 12:59, realized +\u20b92,340 (mark had been +3,003); RUN DONE. Reason: NIFTY 22688 falling (RSI 28, TimesFM -0.23%) threatened the short 22500 PE wing and the boss wants profit taken before exit. Held 6525 NIFTY bear put (+\u20b9910) and 6523 SENSEX bear call (+\u20b91,080) \u2014 both hedged, trend-aligned down (SENSEX RSI 21, TimesFM -0.17%). No new entry: one-view-per-index blocks a duplicate down trade; MCX off. Next: 900s check for stop/target touch or 14:55 exit."
+    },
+    {
+      "time": "2026-10-14T13:01:18.763902+05:30",
+      "summary": "Booked NIFTY bear-put 6525 (square-off requested; both legs exit together, no naked short) to lock ~+\u20b92,762 \u2014 its short 22650 PE sat effectively ATM vs the 22,696 future with NIFTY RSI 22.7 at day lows (high bounce risk). Held SENSEX bear-call 6523 (+\u20b91,950), short 73300 CE ~0.5% OTM with strong 1-DTE theta, SL 8000/TP 6000. Day realized +\u20b92,340. No new entry: no fresh edge; entering down-spreads at oversold lows is chasing, MCX off, one view per index. Next: 300s \u2014 confirm 6525 fill and watch 6523 into the oversold tape."
     }
   ]
 }
