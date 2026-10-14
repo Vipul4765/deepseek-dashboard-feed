@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:28:51.337759+05:30",
-      "summary": "Created and started SENSEX bear call spread (sell ITM1 call, buy OTM1 call, expiry 15-10-2026) with overall SL 1500, TP 2000. Existing SENSEX bear put spread (6089) remains active with +55 unrealized P&L. Monitoring for entry and thesis validity."
-    },
-    {
       "time": "2026-10-13T11:31:33.980135+05:30",
       "summary": "Created and started (waiting) SENSEX bear put spread ATM OTM2 (strategy 6091) to add bearish exposure. Existing SENSEX bear put spread (6089) remains active with +41 unrealized P&L. NIFTY 2-leg blocked due to poor performance; no new NIFTY entry. Assessed both indices show slight bearish bias from price action and TimesFM forecast."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-14T11:41:19.255656+05:30",
+      "summary": "HOLD: No new trades entered. Monitoring existing SENSEX bear call spread (ID 6528) with unrealized loss -44, underlying price 72962 below breakeven 73035. Thesis remains bearish per TimesFM. Will reassess if price approaches 73050 (informal stop) or at exit time 14:55."
+    },
+    {
+      "time": "2026-10-14T11:55:38.604544+05:30",
       "summary": "HOLD: No new trades entered. Monitoring existing SENSEX bear call spread (ID 6528) with unrealized loss -44, underlying price 72962 below breakeven 73035. Thesis remains bearish per TimesFM. Will reassess if price approaches 73050 (informal stop) or at exit time 14:55."
     }
   ]
