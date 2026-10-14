@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T10:15:41.115762+05:30",
-      "summary": "HOLD. Two hedged positions both fine: NIFTY 6085 0DTE bull call (BUY 4x 22600 CE @43.65 / SELL 4x 22700 CE @15.30) ~breakeven +26; SENSEX 6084 2DTE bull put (SELL 4x 72300 PE @361.55 / BUY 4x 72100 PE @282.40) +2100, worst-case loss capped ~9668. Strikes verified from Core fills. No new entry: NIFTY and SENSEX each already hold one bullish view, so another directional trade duplicates correlated risk and a neutral IC would conflict with the held direction (one view per index). MCX off. Next review 20 min; TP 3500 / SL / 14:55 time exit remain live triggers."
-    },
-    {
       "time": "2026-10-13T10:30:36.196461+05:30",
       "summary": "HOLD. Two hedged positions, strikes verified from Core fills. NIFTY 6085 0DTE bull call (BUY 4x22600CE/SELL 4x22700CE) now -2587 as NIFTY faded to 22526 (RSI 23, breakeven 22628); defined risk capped at 7371 debit, SL 11000 unreachable, 14:55 time exit live. SENSEX 6084 2DTE bull put (+1308) fine, spot 72443 above 72300 short strike, worst-case ~9668, TP 3500/SL live. No new entry: NIFTY and SENSEX each already hold a bullish view (one view per index); BANKNIFTY/FINNIFTY drift is too weak/mixed to justify a fresh directional trade, MCX off. Next review 15 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T10:10:53.699110+05:30",
       "summary": "HOLD/no new entry. 6525 NIFTY bear-put (10x ATM/OTM-2, 19-10) confirmed SCHEDULED, entry 10:12 IST \u2014 not yet filled, so no action. 6522 NIFTY condor +\u20b91,521 and 6523 SENSEX bear call +\u20b9315, both hedged, fresh marks, SL/TP intact. Skipped new trades: I already hold the bearish view on NIFTY and SENSEX (one view per index) and more would be correlated duplicate risk. Blocking input for anything new: none qualified beyond existing view. Next: 10:14 review to confirm 6525 fill and short-leg hedge."
+    },
+    {
+      "time": "2026-10-14T10:12:20.355901+05:30",
+      "summary": "Confirmed 6525 fill: BUY 22750PE / SELL 22650PE (10x, 19-10), hedged, +\u20b9650. 6522 NIFTY condor +\u20b9585, 6523 SENSEX bear call \u2212\u20b9180; all hedged, SL/TP and 14:55 exit intact. No new entry: NIFTY already carries a bearish view plus a neutral condor and SENSEX a bear call, so another directional bet would be correlated duplicate and an opposite one breaks one-view-per-index; no distinct setup qualified. Next review 15 min on marks and 6525 hedge."
     }
   ]
 }
