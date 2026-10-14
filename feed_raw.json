@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T15:01:04.811728+05:30",
-      "summary": "Flat, no open runs; all strategies completed. Time is 15:00:57 IST, past the 15:00 index entry cut-off (and 14:55 exit), so no defined-risk entry is possible; MCX entries blocked by mandate. No new trades. Day booked +\u20b94,053.5 across 5 trades (4W/1L). Nothing to manage, no hedge at risk. Next review 1800s; resume the entry search at the next session open, first assessing NIFTY/SENSEX for a directional vertical or protected condor."
-    },
-    {
       "time": "2026-10-13T15:16:06.113185+05:30",
       "summary": "Flat: no open runs, all strategies completed; today booked +\u20b94,053.5 (5 trades, 4W/1L). Time 15:15 IST is past the 09:30-15:00 index entry window and the 14:55 exit, so no defined-risk entry is possible on NIFTY/SENSEX; MCX entries remain blocked by mandate. Nothing to manage, no hedge at risk. Next review in 1800s; at the next session open I will assess NIFTY and SENSEX for a directional vertical or protected condor."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T14:55:12.149912+05:30",
       "summary": "No new entry possible: it is 14:55 IST, past the index exit cutoff, so a fresh NIFTY/SENSEX trade would have no holding time; MCX is off. NIFTY iron condor 6536 (10 lots, 19-10: +22900CE/-22800CE, +22400PE/-22500PE) auto-squared at 14:55 on EXPIRY_FORCE_EXIT for +\u20b91,332.5, all 4 legs filled and hedged, no stranded shorts. Today realised \u2248 +\u20b95,703 across 5 trades (wins 4/loss 1) vs -9,458 on the earlier bear put. Flat now; next review 30 min."
+    },
+    {
+      "time": "2026-10-14T14:55:41.021978+05:30",
+      "summary": "No trade: 14:55 IST is past the index entry window and the 14:55 exit cutoff, so any new NIFTY/SENSEX structure would have no holding time; MCX is off per boss. All positions are flat (active 0, no open runs); NIFTY 6536 auto-squared at 14:55 (EXPIRY_FORCE_EXIT, +1332.5). Today realised \u2248 +5,702.5 over 5 trades (4 wins/1 loss). No unhedged legs. Next review in 30 min; AI budget near its 0.80 cap so I am pacing reviews."
     }
   ]
 }
