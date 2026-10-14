@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T15:16:06.113185+05:30",
-      "summary": "Flat: no open runs, all strategies completed; today booked +\u20b94,053.5 (5 trades, 4W/1L). Time 15:15 IST is past the 09:30-15:00 index entry window and the 14:55 exit, so no defined-risk entry is possible on NIFTY/SENSEX; MCX entries remain blocked by mandate. Nothing to manage, no hedge at risk. Next review in 1800s; at the next session open I will assess NIFTY and SENSEX for a directional vertical or protected condor."
-    },
-    {
       "time": "2026-10-13T15:31:05.083834+05:30",
       "summary": "Flat: no open runs, all strategies completed. Today booked +\u20b94,053.5 (5 trades, 4W/1L). At 15:30 IST both the 09:30\u201315:00 index entry window and the 14:55 exit have passed, so no defined-risk NIFTY/SENSEX entry is possible; MCX remains blocked by mandate. Nothing to manage, no hedge at risk. Next review in 1800s; at the next session open I will assess NIFTY and SENSEX for a directional vertical or protected condor using fresh candles and live quotes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T14:55:41.021978+05:30",
       "summary": "No trade: 14:55 IST is past the index entry window and the 14:55 exit cutoff, so any new NIFTY/SENSEX structure would have no holding time; MCX is off per boss. All positions are flat (active 0, no open runs); NIFTY 6536 auto-squared at 14:55 (EXPIRY_FORCE_EXIT, +1332.5). Today realised \u2248 +5,702.5 over 5 trades (4 wins/1 loss). No unhedged legs. Next review in 30 min; AI budget near its 0.80 cap so I am pacing reviews."
+    },
+    {
+      "time": "2026-10-14T15:10:41.700517+05:30",
+      "summary": "HOLD \u2014 no eligible trade. At 15:10 IST both NSE and BSE are past the 09:30\u201315:00 index entry window and the 14:55 index exit cutoff, so any new NIFTY/SENSEX structure would have no holding time; MCX is off per boss (no GOLDM/CRUDEOILM). All positions flat: active 0, no open runs, no unhedged legs. Today realised \u2248 +5,702.5 over 5 trades (4W/1L). NIFTY 6536 auto-squared 14:55 (+1,332.5). Next review in 30 min; AI budget near its 0.80 cap, pacing reviews."
     }
   ]
 }
