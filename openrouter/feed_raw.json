@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T09:53:01.106346+05:30",
-      "summary": "Created and started NIFTY long call ATM strategy 6087 (SL 2000, TP 4000) for today's expiry. Existing SENSEX bull call spread 6086 remains active (unrealized -74). Monitoring both for directional bullish thesis supported by TimesFM and price action. No conflicting views; one view per index maintained."
-    },
-    {
       "time": "2026-10-13T09:53:38.718072+05:30",
       "summary": "Holding two active bullish trades: NIFTY long call ATM (6087) up \u20b916.25, SENSEX bull call spread ATM-OTM2 (6086) down \u20b964. Market remains bullish per price action and TimesFM. No new entries as one view per index already maintained. Will monitor for SL/TP hits or time exit at 14:55 IST."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-14T10:12:19.195264+05:30",
+      "summary": "Monitoring active NIFTY iron condor (strategy 6526) with unrealized P&L +22.75 and SENSEX bull call spread (strategy 6524) with unrealized P&L -30.0. No new entries taken as directional thesis remains unclear; will reassess on next price update."
+    },
+    {
+      "time": "2026-10-14T10:27:40.118855+05:30",
       "summary": "Monitoring active NIFTY iron condor (strategy 6526) with unrealized P&L +22.75 and SENSEX bull call spread (strategy 6524) with unrealized P&L -30.0. No new entries taken as directional thesis remains unclear; will reassess on next price update."
     }
   ]
