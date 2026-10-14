@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:57:30.513778+05:30",
-      "summary": "Maintaining three open SENSEX bear spreads (6089,6090,6091) with small unrealized losses. TimesFM forecast supports bearish thesis. No new entry; will reassess on fresh data for any thesis change or exit signal."
-    },
-    {
-      "time": "2026-10-13T12:13:42.278399+05:30",
-      "summary": "Created and started new SENSEX bear call spread 72400-72500 OCT15 (ID 6094) based on bearish thesis from TimesFM and price action. Existing three SENSEX bear spreads (6089,6090,6091) remain open with small unrealized losses. No adjustments made to existing positions. Next review in 90s to monitor new entry and thesis."
-    },
-    {
       "time": "2026-10-13T12:15:20.019294+05:30",
       "summary": "Created and started SENSEX iron condor (ATM 72400 CE/PE, long 72600 CE/PE, 5 lots) based on range\u2011bound thesis from price action and TimesFM neutral forecast. Existing bearish spreads (6089,6090,6091,6094) remain open with small unrealized losses. Next review in 60s to monitor new position and thesis."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-14T12:35:11.566597+05:30",
       "summary": "Holding: Two active bearish trades (NIFTY long put 22700 up 152.75, SENSEX bear put spread 73300-73200 flat). Market shows bearish signals (RSI<50, TimesFM negative) on both indices. Considering a new bearish call spread on SENSEX (73000-73100) but deferring to avoid over-exposure and to monitor existing positions. Next review in 60s to reassess."
+    },
+    {
+      "time": "2026-10-14T12:52:52.959850+05:30",
+      "summary": "Created SENSEX bear call spread 73100-73200 (OTM1) for expiry 15-10-2026, queued to start at 12:50. Market shows bearish signals (RSI<50, TimesFM negative) on both NIFTY and SENSEX. Added to existing bearish exposure on SENSEX (bear put spread 73300-73200). Will monitor for SL/TP or exit at 14:55. NIFTY 2-leg avoided due to poor win rate (20%); chose SENSEX instead."
+    },
+    {
+      "time": "2026-10-14T12:53:51.210456+05:30",
+      "summary": "Hold. No new trade opened. Active bearish positions on NIFTY (long put) and SENSEX (bear call & put spreads) are profitable. Market remains bearish per price action and TimesFM. Next review in 5 minutes or on fresh data, SL/TP, or exit time."
     }
   ]
 }
