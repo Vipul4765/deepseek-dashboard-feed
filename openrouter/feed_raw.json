@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T13:48:26.437190+05:30",
-      "summary": "Created and started a NIFTY long put (ATM, expiry 13-10-2026, 1 lot) with entry at 13:47, exit at 14:55, SL 1240, TP 3100. Assessed bearish bias from TimesFM and price action; NIFTY/2-leg shape refused due to poor performance, so chose directional long put. Next review in 30s to confirm entry."
-    },
-    {
-      "time": "2026-10-13T13:49:39.070978+05:30",
-      "summary": "Holding NIFTY long put (strike 22650, ITM) with unrealized +104 rupees. Underlying slightly up but TimesFM bearish; volatility may support put. No new entries assessed due to existing directional exposure and lack of clear alternative. Next review in 30s to check for thesis change or approach to SL/TP."
-    },
-    {
       "time": "2026-10-13T13:51:01.150228+05:30",
       "summary": "Holding NIFTY long put 22650 (ITM) with unrealized +13 rupees. TimesFM slightly bearish, within exit window (14:55). No new entry assessed due to existing directional exposure and lack of clear alternative thesis on SENSEX. Next review in 30s to monitor for thesis change or approach to SL/TP."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-14T14:29:13.173106+05:30",
       "summary": "Created and started NIFTY iron condor (short put 22500, long put 22400, short call 22650, long call 22750) expiry 19 Oct, net credit ~187.95/share. Existing positions: NIFTY long put +3237 unrealized, SENSEX bear call spreads +108,+51,+91, bear put spread +343. Market open, slightly bullish forecast but choppy price action; adding neutral condor to capitalize on time decay and range-bound movement. Next review in 60s to check entry and P&L."
+    },
+    {
+      "time": "2026-10-14T14:52:06.150378+05:30",
+      "summary": "HOLD: 6 active positions (NIFTY iron condor 6544, SENSEX bear call spreads 6542,6538,6533,6532, NIFTY long put 6539) approaching exit at 14:55. No new trades due to time constraints. Rely on automatic exit times set in strategies. Next review in 60s to check status."
+    },
+    {
+      "time": "2026-10-14T14:53:00.045024+05:30",
+      "summary": "Holding 6 active positions (NIFTY iron condor 6544, SENSEX bear call spreads 6542,6538,6533,6532, NIFTY long put 6539) awaiting automatic exit at 14:55. No new trades due to time constraints. Next review in 60s to check status."
     }
   ]
 }
