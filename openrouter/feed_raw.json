@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:36:30.028427+05:30",
-      "summary": "Held; monitored three active SENSEX bearish spreads (6089,6090,6091) with combined unrealized P&L ~ -83. No new entry due to existing directional exposure and thesis unchanged. Next review in 2 minutes to reassess."
-    },
-    {
       "time": "2026-10-13T11:37:19.383658+05:30",
       "summary": "Holding existing positions: NIFTY iron condor (6092) +13 unrealized, SENSEX bear spreads (6089,6090,6091) with small unrealized losses (-10,-85,-32). No new entry due to existing directional exposure and lack of clear edge; will reassess in 2 minutes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T12:12:49.841096+05:30",
       "summary": "Squared off SENSEX bear call spread (ID 6528) as thesis failed (index above short strike). NIFTY long put (ID 6529) remains active (+117 unrealized). No new trade entered: no suitable opportunity found that avoids conflicting views and meets entry criteria. Next trigger: NIFTY put SL/TP/exit or thesis change."
+    },
+    {
+      "time": "2026-10-14T12:15:42.828731+05:30",
+      "summary": "Closed NIFTY long put (ID 6529) for +526.5 profit. Created and started NIFTY long put OTM (ID 6530) with entry at 12:14, exit 14:55, SL 7300, TP 14600. No other positions. Next review in 30s to monitor entry."
     }
   ]
 }
