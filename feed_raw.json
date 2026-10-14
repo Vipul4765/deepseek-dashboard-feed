@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T09:35:18.696508+05:30",
-      "summary": "6084 verified live: both legs filled \u2014 SELL 4x 72300 PE @361.55, BUY 4x 72100 PE @282.40 (15-10-2026), hedge intact, credit Rs 6,332, structural worst case Rs 9,668, SPAN ~131.9k, mark +72. Original SL Rs 10,000 exceeded max loss, so I previewed and applied an overall SL of Rs 6,500 (TP 3,500, exit 14:55 unchanged). No new entry: SENSEX view already long; NIFTY's TimesFM p50 22462 is flat with a mild bearish decile tilt and post-open momentum has stalled at 22478, while 0DTE put credits pay only ~0.30 R:R. Next: 10 min, watch 72300/22500."
-    },
-    {
       "time": "2026-10-13T09:37:06.088524+05:30",
       "summary": "HOLD, no new entry. SENSEX 6084 (SELL 4x72300 PE / BUY 4x72100 PE, 15-10) verified live: hedge intact, fresh mark +\u20b9560, SL 6,500 / TP 3,500 / exit 14:55 \u2014 no action. NIFTY 0DTE assessed: bull call 22500/22600 debit ~38.3 needs +47 (breakeven 0.3\u03c3 above spot, ~38% POP), put-credit R:R only 0.36, IC credit 30/risk 70 \u2014 all fair-valued, no edge after costs; also already long via SENSEX (one view per index). Next review 10 min, watching SENSEX 72300 and NIFTY 22538."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T09:33:23.429375+05:30",
       "summary": "Opened NIFTY 19-10 iron condor (strategy 6522) at 09:33: sold 22900 CE / bought 23000 CE, sold 22500 PE / bought 22400 PE, 12 lots each (fills 61.20/36.65, 83.75/59.90). Net credit \u20b937,752; defined worst-case loss \u2248\u20b940,248; upfront margin \u2248\u20b97.9L; R:R 0.92; breakevens 22,452\u201322,948. Every short hedged, verified from Core events. Overall SL \u20b926,000, TP \u20b913,000, time exit 14:55. Both indices were choppy/near-flat (NIFTY 22,695, SENSEX 73,005) so no directional edge; SENSEX 1-DTE lacked premium for a safe condor. Live P&L +\u20b9234. Next review ~25 min or on stop/target."
+    },
+    {
+      "time": "2026-10-14T09:34:59.735101+05:30",
+      "summary": "Held NIFTY 19-10 iron condor (6522): 4 legs filled 09:33, unrealized -312, SL 26k/TP 13k, exit 14:55 - no action. Both indices lean mildly bearish (price below SMA20/50, RSI ~44, TimesFM median ~-0.1%), so I opened a new directional SENSEX 15-10 bear call spread (6523): sell 73200 CE / buy 73300 CE, 15 lots, short strike above today's 73,178 high. Net credit ~41.7/unit, worst case ~17.5k, margin ~17.5k; SL 8k, TP 6k, exit 14:55. Start is waiting for 09:35 entry; fill unverified. Review in 120s to confirm fills and hedge."
     }
   ]
 }
