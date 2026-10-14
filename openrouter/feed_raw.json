@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T13:30:49.392537+05:30",
-      "summary": "HOLD: No new trade entered. Assessed NIFTY and SENSEX for directional bias; found insufficiently clear thesis to override existing neutral NIFTY iron condor (6104). Next review in 30s to reassess."
-    },
-    {
       "time": "2026-10-13T13:46:21.439517+05:30",
       "summary": "HOLD: No new trade entered. Assessed NIFTY and SENSEX for directional bias; found insufficiently clear thesis to override existing neutral NIFTY iron condor (6104). Next review in 30s to reassess."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-14T14:06:23.262397+05:30",
+      "summary": "Created and started SENSEX bear call spread 72700-72800 (ITM1/OTM1) expiry 15 Oct, net credit ~1079, max loss ~921. Existing positions: NIFTY long put +3237 unrealized, SENSEX bear put spread +343, bear call spreads +108,+51,+91. Market open, bearish outlook confirmed by price action and TimesFM. Next review in 60s to monitor entry and P&L."
+    },
+    {
+      "time": "2026-10-14T14:24:13.913385+05:30",
       "summary": "Created and started SENSEX bear call spread 72700-72800 (ITM1/OTM1) expiry 15 Oct, net credit ~1079, max loss ~921. Existing positions: NIFTY long put +3237 unrealized, SENSEX bear put spread +343, bear call spreads +108,+51,+91. Market open, bearish outlook confirmed by price action and TimesFM. Next review in 60s to monitor entry and P&L."
     }
   ]
