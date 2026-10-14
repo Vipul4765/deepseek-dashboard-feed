@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:55:11.479055+05:30",
-      "summary": "Closed NIFTY iron condor (6092) via square-off request. Created and started NIFTY long put 22500 oct13 1152 (6093) to express bearish view following TimesFM forecast and price action. Existing SENSEX bear spreads (6089,6090,6091) remain open. Next review in 2 minutes to check new position and square-off completion."
-    },
-    {
       "time": "2026-10-13T11:56:26.887825+05:30",
       "summary": "Squared off NIFTY long put 6093 to lock ~175.5 unrealized profit. SENSEX bear spreads (6089,6090,6091) remain open with small unrealized losses. No new entry taken; will reassess on fresh data next cycle for any clear directional opportunity on either index."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T12:18:16.909348+05:30",
       "summary": "Created and started SENSEX bear put spread 73100-73000 (OTM1) expiry 15-10-2026 with overall SL 918, TP 1082. Strategy ID 6531 is waiting entry. Existing NIFTY long put (ID 6530) remains active with unrealized PnL +78. Next review in 30s to monitor entry and manage positions."
+    },
+    {
+      "time": "2026-10-14T12:19:49.219968+05:30",
+      "summary": "HOLD: Two active trades (SENSEX bear put spread 73100-73000, NIFTY long put 22700) within SL/TP. No new opportunity due to lack of clear directional signal in NIFTY/SENSEX. Next review in 60s to monitor positions and reassess."
     }
   ]
 }
