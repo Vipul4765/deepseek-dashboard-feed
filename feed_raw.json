@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T13:45:28.169947+05:30",
-      "summary": "HOLD, no new entry. Both campaigns hedged (no naked shorts): 6100 NIFTY 0DTE bull call 22600/22650CE 4 lots ~+\u20b9130 (NIFTY 22,555); 6084 SENSEX 2DTE bull put 72300/72100PE 4 lots +\u20b91,976 (SENSEX 72,544, ~244pt buffer). Today realized +\u20b9592. No new trade: NIFTY and SENSEX each already carry a bullish view (one-view-per-index), and TimesFM/price evidence flat-to-soft, so a directional add would duplicate or cancel exposure. Let software SL/TP (6084 TP 3500) and 14:55 exit manage. Next check ~14:10 on SENSEX toward 72,300 or NIFTY 22,600."
-    },
-    {
       "time": "2026-10-13T14:00:18.570487+05:30",
       "summary": "HOLD, no new entry. Both campaigns hedged: 6100 NIFTY 0DTE bull call 22600/22650CE 4 lots -\u20b9260 (NIFTY 22,549); 6084 SENSEX 2DTE bull put 72300/72100PE 4 lots +\u20b91,964 (SENSEX 72,537, ~237pt OTM buffer, TP 3500). Today realized +\u20b9592. No add: NIFTY and SENSEX each already carry the bullish view (one-view-per-index) and TimesFM/price are flat-to-soft, so a second same-direction spread only duplicates correlated exposure. Let software SL/TP and 14:55 exit manage. Next check ~14:25 on SENSEX toward 72,300 or NIFTY 22,600; resume search if a fresh directional edge appears."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T13:50:54.853322+05:30",
       "summary": "6536 NIFTY iron condor is now live (run 4721f034). Core fills confirm: buy 22900CE@46.4, sell 22800CE@73.9, buy 22400PE@64.05, sell 22500PE@91.3, 10 lots each, 19-10 expiry \u2014 net credit ~35.6k, defined worst case ~29.4k, overall SL 15k, TP 7k, exit 14:55; every short hedged by an equal-lot long. Realized today +4,370. No new entry: NIFTY (22,637) and SENSEX (72,855) both mid-range after a V-recovery with RSI ~82-85 and flat TimesFM p50 \u2014 no clear direction, and a second NIFTY view would conflict. Next check in 15 min for the condor and any directional signal."
+    },
+    {
+      "time": "2026-10-14T13:51:32.089119+05:30",
+      "summary": "HOLD. NIFTY 6536 iron condor (10 lots, 19-10) is live and centred: spot 22,652 sits between short 22,500PE/22,800CE, unrealized -260, all shorts hedged (worst case ~29.4k, SL 15k/TP 7k/exit 14:55). Realized today +4,370. No new entry: NIFTY 22,637 and SENSEX 72,865 both mid-range after the morning dip, RSI ~73-76, TimesFM p50 flat \u2014 no clear direction, and a second NIFTY view would conflict. Reassess in 15 min or on a break of 22,500/22,800."
     }
   ]
 }
