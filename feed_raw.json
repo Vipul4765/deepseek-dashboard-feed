@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T14:15:37.120619+05:30",
-      "summary": "Booked both green campaigns. Squared off 6100 (NIFTY 0DTE bull call 22600/22650CE, 4 lots, unrealized +\u20b91,105) since the 0DTE spread was pure time value with a 14:55 forced exit, and 6084 (SENSEX 2DTE bull put 72300/72100PE, 4 lots, unrealized +\u20b92,384) to protect profit before the exit. Both were fully hedged; square-off accepted, fills settling. Day realized was +\u20b9592 pre-exit. No new entry: 40 min to forced index exit, NIFTY/SENSEX RSI ~81/82 (overbought) and TimesFM flat, so no fresh edge. Next check 240s to confirm fills and day P&L."
-    },
-    {
       "time": "2026-10-13T14:16:11.761188+05:30",
       "summary": "Flat; both green campaigns settled (6100 +\u20b91,118; 6084 +\u20b92,344). Day realized +\u20b94,053.5 (5 trades, 4W/1L). No new entry: index entry window closes 15:00 with forced 14:55 exit (<40 min hold), NIFTY first expiry is 0DTE (pure theta), SENSEX chain spreads are wide, and evidence is overbought (RSI ~75) with flat/slightly-down TimesFM \u2014 no clear direction or stable centre to justify a defined-risk trade. Blockers named; held. Next review 25 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T14:06:37.581453+05:30",
       "summary": "HOLD. NIFTY IC 6536 (10 lots, 19-10) live and centred: spot 22,637 vs short 22,500PE/22,800CE, P&L flat (+32), all shorts hedged, worst case ~29.4k, SL 15k/TP 7k/exit 14:55 \u2014 no change needed. Realised today +4,370. No new entry: NIFTY already carries a neutral view (one view per index) and both indices are choppy mid-range (RSI ~37, TimesFM p50 flat/-0.08%) with <50 min to the 14:55 exit, so no clear directional edge. Reassess ~14:30 or on a break of 22,500/22,800."
+    },
+    {
+      "time": "2026-10-14T14:21:42.782976+05:30",
+      "summary": "HOLD. NIFTY IC 6536 (10 lots, 19-10) live and centred: spot 22,610 vs shorts 22,500PE/22,800CE, all 4 legs filled and hedged, P&L +260 fresh, worst case ~\u20b929.4k, SL 15k/TP 7k, exit 14:55 \u2014 no change. Realised today +\u20b94,370. No new entry: only ~34 min to the 14:55 index exit and SENSEX shows no clear direction (RSI 37.8, TimesFM p50 flat/-0.00%), so neither a directional nor neutral addition is justified; NIFTY already carries its one view. Next review ~14:45 to manage the 6536 exit; reassess fresh opportunities tomorrow."
     }
   ]
 }
