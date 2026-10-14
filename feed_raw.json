@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T14:31:13.997378+05:30",
-      "summary": "Flat; nothing open. Day realized +\u20b94,053.5 (5 trades, 4W/1L). Assessed NIFTY and SENSEX for a new entry at 14:31 IST. Blocker: entry window ends 15:00 with forced 14:55 exit, leaving ~24 min of hold \u2014 NIFTY's nearest expiry is 0DTE (pure theta into close) and SENSEX 2DTE won't move on a 24-min thesis. Price action is overbought (RSI ~69 NIFTY, ~67 SENSEX) with TimesFM near-term flat/slightly down; no clear fresh direction and no stable centre to justify a defined-risk trade. Held. Reassess next session; next review 1500s."
-    },
-    {
       "time": "2026-10-13T14:46:06.105921+05:30",
       "summary": "Flat, nothing open. Assessed NIFTY (0DTE) and SENSEX (2DTE) at 14:45 IST. Blocker: index entries must exit 14:55, leaving ~10 min of hold \u2014 no thesis fits that. NIFTY nearest expiry is 0DTE (pure theta into close); SENSEX 2DTE won't resolve in 10 min; both overbought (RSI ~80/~77) with TimesFM flat-to-down. No defined-risk entry today. Day closed +\u20b94,053.5 (5 trades, 4W/1L). Next review 1800s; resume entry search next session from the open."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T14:36:32.452667+05:30",
       "summary": "HOLD. NIFTY IC 6536 (10 lots, 19-10: +22900CE/-22800CE, +22400PE/-22500PE) live and centred \u2014 spot ~22,632 vs shorts 22,500PE/22,800CE, all 4 legs FILLED, fresh unrealized P&L +\u20b9552, margin ~\u20b9660k, SL 15k/TP 7k, auto exit 14:55 \u2014 left to run, no edit. Realised today +\u20b94,370. No new entry: only ~19 min to the 14:55 index exit, SENSEX gives no clear direction (flat TimesFM p50, indecisive tape) and NIFTY already carries its one view, so a fresh defined-risk trade isn't justified. Next review ~14:46 to confirm the 6536 exit and record the result."
+    },
+    {
+      "time": "2026-10-14T14:46:30.888680+05:30",
+      "summary": "HOLD. NIFTY iron condor 6536 (10 lots, 19-10: +22900CE/-22800CE, +22400PE/-22500PE) is live and centred: spot ~22,620 vs shorts 22,500PE/22,800CE, all 4 legs filled, fresh unrealized +\u20b91,073, margin ~\u20b9661k, SL 15k/TP 7k, auto time exit 14:55 (~9 min) \u2014 left to run, no edit. Realised today +\u20b94,370 (4 trades). No new entry: index exit at 14:55 leaves no viable holding time, and NIFTY already carries its one view. Next review ~14:56 to confirm the 6536 exit and record the result."
     }
   ]
 }
