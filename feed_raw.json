@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T13:01:12.421070+05:30",
-      "summary": "HOLD, no new entry. Verified both campaigns hedged, no naked shorts: 6100 NIFTY 0DTE bull call 22600/22650CE (4 lots) ~-\u20b991; 6084 SENSEX 2DTE bull put 72300/72100PE (4 lots) +\u20b91,556; today realized +\u20b9592. No fresh edge: NIFTY RSI 51, SENSEX RSI 57, both pinned to 20/50-SMA, tiny ATR, VIX 14.2 falling, TimesFM flat-to-slightly-down; each index already holds a bullish view, so a new entry would duplicate or offset it. Reassess on a break beyond NIFTY 22,558/22,480 or SENSEX 72,537/72,294, or into the 14:55 exit. Next review 25 min."
-    },
-    {
       "time": "2026-10-13T13:16:34.303021+05:30",
       "summary": "HOLD, no new entry. Verified from Core snapshots both campaigns hedged, no naked shorts: 6100 NIFTY 0DTE bull call 22600/22650CE (4 lots) ~+\u20b9585; 6084 SENSEX 2DTE bull put 72300/72100PE (4 lots) ~+\u20b91,932; today realized +\u20b9592. New-trade blockers: one-view-per-index already bullish on both NIFTY and SENSEX; NIFTY 0DTE condor prices only ~0.05-0.12 reward:risk (min 0.30); a third index bull duplicates correlated exposure. Let winners run to software TP/exit 14:55. Reassess on NIFTY 22,600/22,500 or SENSEX 72,700/72,300 break, or into 14:55. Next review 25 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T13:26:12.627225+05:30",
       "summary": "Held NIFTY 6535 (B 22650PE / S 22500PE, 15 lots, 19-10 expiry): hedge confirmed both legs filled, unrealized +\u20b95,216, net delta \u2248 -0.15 so the bearish thesis still pays. Kept SL 8000 / TP 45000 / 14:55 exit. No new entry: NIFTY direction is clear but already expressed by 6535 (one view per index), SENSEX is chop with roughly EV-negative 1-DTE credit spreads, MCX off. Realized today \u2248 +\u20b913,828. Next trigger: review ~13:45, book before 14:55 if momentum stalls."
+    },
+    {
+      "time": "2026-10-14T13:41:41.751072+05:30",
+      "summary": "Held NIFTY 6535 (B 22650PE / S 22500PE, 15 lots, 19-10): hedge verified, both legs FILLED, unrealized +\u20b94,388 at 13:40. Live SL is 8,000 (preview confirms; not the 30,000 creation value), TP 45,000, exit 14:55 \u2014 left unchanged. No new entry: NIFTY direction already expressed (one view per index) and SENSEX shows no clear direction (RSI 50.9, TimesFM \u22480.0%, 1-DTE gamma), so no priced edge; a 15,000 SL widening was rejected. MCX stays off. Realized today +\u20b913,828. Next: review 14:00, book before 14:55 if momentum stalls."
     }
   ]
 }
