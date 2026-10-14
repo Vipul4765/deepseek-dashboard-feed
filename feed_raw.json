@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:31:35.090653+05:30",
-      "summary": "HOLD. Two fully hedged 1:1 positions, no naked short: 6088 NIFTY 0DTE iron condor (short 22500PE/22700CE, long 22450PE/22750CE, 6 lots, credit ~8872, worst-case ~10627, SL7000/TP4000) PnL -195; 6084 SENSEX bull put 72300/72100 (4 lots, worst-case ~9668, SL10000/TP3500) +444. No new entry: both indices already carry a view and directional evidence is noise (TimesFM ~-0.1%, RSI 49/53, price on flat SMAs), so a second structure would duplicate/cancel exposure. Watch the near-ATM NIFTY short put against SL7000; next review 240s."
-    },
-    {
       "time": "2026-10-13T11:35:37.992478+05:30",
       "summary": "HOLD. Both positions fully hedged 1:1, no naked short: 6088 NIFTY 0DTE iron condor (short 22500PE/22700CE, long 22450PE/22750CE, 6 lots, SL7000/TP4000) +351; 6084 SENSEX bull put 72300/72100 (4 lots, SL10000/TP3500) +592. No new entry: NIFTY RSI 49 / SENSEX RSI 51, both on flat SMAs, TimesFM ~-0.09% \u2014 no directional edge, and each index already carries a view, so another leg would duplicate/cancel. Main risk: NIFTY short 22500PE pinned at spot 22504 into the 0DTE close. Next review 180s to watch a break below 22500."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T12:12:43.287216+05:30",
       "summary": "HOLD, no new entry. Assessed NIFTY and SENSEX; both at range highs (NIFTY 22725 RSI61, SENSEX 73120 RSI61), TimesFM flat/soft. Open and hedged (strikes verified from Core snapshots): 6522 NIFTY condor +936, 6523 SENSEX bear call -2625, 6525 NIFTY bear put -3575, net -5264, all inside SL/TP. No entry: NIFTY already holds neutral+directional and SENSEX holds a bearish view, so a fresh bullish vertical would conflict and a bearish one just duplicates. Next: SL/TP touch, NIFTY 22747/22655 break, SENSEX 73158/72888 break, or 14:55 exit."
+    },
+    {
+      "time": "2026-10-14T12:27:25.704806+05:30",
+      "summary": "HOLD, no new entry. Assessed NIFTY (22724, RSI48, mid-range 22655-22747, TimesFM soft) and SENSEX (73104, RSI45, choppy 72888-73158). Blocker: one-view-per-index \u2014 NIFTY already holds a neutral condor + bear put and SENSEX a bear call, so a fresh bullish vertical would conflict and a bearish one duplicates. All three runs verified hedged and inside SL/TP: 6522 +1482, 6525 -2958, 6523 -1470, net ~-2945. Next: NIFTY 22655/22747 or SENSEX 72888/73158 break, any SL/TP touch, or 14:55 exit."
     }
   ]
 }
