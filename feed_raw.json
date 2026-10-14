@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:38:21.617229+05:30",
-      "summary": "HOLD. Both positions hedged 1:1, no naked short: 6088 NIFTY 0DTE iron condor (short 22500PE/22700CE, long 22450PE/22750CE, 6 lots, SL7000/TP4000) +995; 6084 SENSEX bull put 72300/72100 (4 lots, SL10000/TP3500) +756. No new entry: NIFTY 22509 (RSI 67, mid range 22475-22581) and SENSEX 72385 (RSI 68, pulled back off 72621) both choppy with TimesFM ~-0.06% \u2014 no directional edge, and each index already carries a view so another leg would duplicate/cancel. Main risk: 0DTE short 22500PE pinned at spot into the 14:55 close. Next review 600s."
-    },
-    {
       "time": "2026-10-13T11:48:30.293403+05:30",
       "summary": "HOLD. Both open runs hedged 1:1, no naked short. 6088 NIFTY 0DTE iron condor (short 22500PE/22700CE, long 22450PE/22750CE, 6 lots, SL7000/TP4000) ~ -78, spot 22491 inside 22450-22700 range, put side near money with core SL containing pin risk. 6084 SENSEX bull put 72300/72100 (4 lots, SL10000/TP3500) ~ +516. No new entry: each index already carries a view (one view per index); NIFTY/SENSEX both RSI~40, below SMAs, TimesFM ~-0.08% but last-30min range-bound/choppy = no clear direction; MCX off per boss. Next review 600s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T12:42:59.863898+05:30",
       "summary": "HOLD, no new entry; tightened the winner. All three runs verified hedged and inside limits: 6522 NIFTY 19-Oct condor (short 22500PE/22900CE) +1911, 6525 NIFTY bear put 22750/22650 -2665, 6523 SENSEX 15-Oct bear call 73300/73400 -1410; NIFTY spot 22726, SENSEX 73112. Applied live edit to 6522: overall stop loss cut from 26000 to 8000 INR max loss (TP 13000 kept) to protect the gain. No new trade: NIFTY holds neutral condor + bear put and SENSEX a bear call, so a fresh view would conflict or duplicate; direction evidence flat (RSI 49/50, TimesFM -0.10%/-0.03%). Next: 22500/22900 or 73300 breaks, SL/TP touch, or 14:55 exit."
+    },
+    {
+      "time": "2026-10-14T12:43:51.375185+05:30",
+      "summary": "HOLD, no new entry. All three runs verified hedged and inside limits: 6522 NIFTY 19-Oct condor 22500PE/22900CE +1872 (SL already cut to 8000 last cycle, TP 13000), 6525 NIFTY bear put 22750/22650 -2113, 6523 SENSEX 15-Oct bear call 73300/73400 -1050. NIFTY 22722 (RSI 39.5, TimesFM -0.06%), SENSEX 73094 (RSI 47, TimesFM -0.02%) \u2014 evidence flat, and adding a down structure would duplicate, an up structure would conflict; one view per index. MCX off. Next: strike breaks, SL/TP touch, or 14:55 exit."
     }
   ]
 }
