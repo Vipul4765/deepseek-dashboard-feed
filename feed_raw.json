@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T12:22:10.369587+05:30",
-      "summary": "Held; no new entry. NIFTY 0DTE bull call 6098 still scheduled, entering 12:26 (BUY 6x ATM CE / SELL 6x OTM1 CE 13-10, hedge 1:1, worst-case debit ~\u20b97.3k, TP 10k/SL 5.5k) - day still up (+0.76%), above SMA20/50, so kept it despite a flat TimesFM path. SENSEX 6084 bull put running, +\u20b91,380, hedged 1:1, exits 14:55. MCX off. No second NIFTY/SENSEX view - one per index already held. Next: confirm 6098 fill ~12:28 and manage."
-    },
-    {
-      "time": "2026-10-13T12:26:41.254234+05:30",
-      "summary": "Held, no new entry. NIFTY 6098 0DTE bull call confirmed filled 12:26 (BUY 22600CE@15.45/SELL 22650CE@7.10, 390 qty, 1:1 hedge, bounded max loss ~\u20b93.3k), now -\u20b978. SENSEX 6084 bull put running +\u20b91,228, hedged 1:1, exit 14:55. Both fully hedged, no naked shorts. Skipped a third trade: one bullish view already held per index, so adding would be correlated/conflicting. Day P&L -\u20b972. Next: recheck marks/decay ~12:46."
-    },
-    {
       "time": "2026-10-13T12:42:44.134667+05:30",
       "summary": "Booked NIFTY 6098 0DTE bull call (22600/22650CE, 6 lots) at ~+\u20b91,500: the spread was fairly priced (12.45 vs 8.35 entry), spot 58 pts below the 22,608 breakeven with 2h left and momentum stalled, so holding had ~zero EV. Square-off requested; fills not yet journalled, will verify. Holding SENSEX 6084 bull put (72300/72100PE, 4 lots, +\u20b91,904) \u2014 short strike ~224 pts OTM, 2DTE, theta favors the 14:55 exit. Both hedged, no naked shorts. Day realized ~+\u20b91,430. Next: confirm 6098 exit and watch 6084, review in 5 min."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-14T13:06:36.979272+05:30",
       "summary": "HOLD/manage. NIFTY 6535 bear put spread (B22650PE/S22500PE, 15 lots) filled 13:06 and hedged, +\u20b9634. SENSEX 6523 bear call spread (S73300CE/B73400CE, 15 lots) +\u20b94,020 vs TP 6000, 1DTE with heavy tailwind; auto-exit at target/SL 8000, time exit 14:55. Realized today +\u20b97,767.5. No MCX. No new trade: both indices already carry the correct bearish view, and another position would be correlated or offsetting. Next check 10 min, or earlier on target/stop event."
+    },
+    {
+      "time": "2026-10-14T13:17:08.966241+05:30",
+      "summary": "HOLD/manage, no new entry. NIFTY 6535 bear put spread (B22650PE/S22500PE, 15 lots, filled 13:06) unrealized +\u20b96,679; SENSEX 6523 bear call spread (S73300CE/B73400CE, 15 lots) unrealized +\u20b95,265, close to its \u20b96,000 TP. Realized today +\u20b97,767.5. Both indices already carry the correct bearish view, so another position would be duplicate/correlated exposure; MCX is off. Tightened 6535's overall stop from \u20b930,000 to \u20b912,000 max loss (TP unchanged at \u20b945,000) to limit give-back. Next check 12 min, or earlier on a TP/stop/time-exit event."
+    },
+    {
+      "time": "2026-10-14T13:18:15.057355+05:30",
+      "summary": "HOLD/manage, no new entry. NIFTY 6535 bear put spread (B22650PE/S22500PE, 15 lots) +\u20b98,580; SENSEX 6523 bear call spread (S73300CE/B73400CE, 15 lots) +\u20b95,385, near its \u20b96,000 TP (auto). Realized today +\u20b97,767.5. Both allowed indices already hold the correct bearish view, so adding would duplicate/conflict; MCX off, BANKNIFTY excluded. No qualifying non-duplicate candidate. Next review ~12 min, or earlier on TP/SL/time-exit event (14:55 exit)."
     }
   ]
 }
