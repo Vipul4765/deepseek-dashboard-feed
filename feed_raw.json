@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T14:00:18.570487+05:30",
-      "summary": "HOLD, no new entry. Both campaigns hedged: 6100 NIFTY 0DTE bull call 22600/22650CE 4 lots -\u20b9260 (NIFTY 22,549); 6084 SENSEX 2DTE bull put 72300/72100PE 4 lots +\u20b91,964 (SENSEX 72,537, ~237pt OTM buffer, TP 3500). Today realized +\u20b9592. No add: NIFTY and SENSEX each already carry the bullish view (one-view-per-index) and TimesFM/price are flat-to-soft, so a second same-direction spread only duplicates correlated exposure. Let software SL/TP and 14:55 exit manage. Next check ~14:25 on SENSEX toward 72,300 or NIFTY 22,600; resume search if a fresh directional edge appears."
-    },
-    {
       "time": "2026-10-13T14:15:37.120619+05:30",
       "summary": "Booked both green campaigns. Squared off 6100 (NIFTY 0DTE bull call 22600/22650CE, 4 lots, unrealized +\u20b91,105) since the 0DTE spread was pure time value with a 14:55 forced exit, and 6084 (SENSEX 2DTE bull put 72300/72100PE, 4 lots, unrealized +\u20b92,384) to protect profit before the exit. Both were fully hedged; square-off accepted, fills settling. Day realized was +\u20b9592 pre-exit. No new entry: 40 min to forced index exit, NIFTY/SENSEX RSI ~81/82 (overbought) and TimesFM flat, so no fresh edge. Next check 240s to confirm fills and day P&L."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T13:51:32.089119+05:30",
       "summary": "HOLD. NIFTY 6536 iron condor (10 lots, 19-10) is live and centred: spot 22,652 sits between short 22,500PE/22,800CE, unrealized -260, all shorts hedged (worst case ~29.4k, SL 15k/TP 7k/exit 14:55). Realized today +4,370. No new entry: NIFTY 22,637 and SENSEX 72,865 both mid-range after the morning dip, RSI ~73-76, TimesFM p50 flat \u2014 no clear direction, and a second NIFTY view would conflict. Reassess in 15 min or on a break of 22,500/22,800."
+    },
+    {
+      "time": "2026-10-14T14:06:37.581453+05:30",
+      "summary": "HOLD. NIFTY IC 6536 (10 lots, 19-10) live and centred: spot 22,637 vs short 22,500PE/22,800CE, P&L flat (+32), all shorts hedged, worst case ~29.4k, SL 15k/TP 7k/exit 14:55 \u2014 no change needed. Realised today +4,370. No new entry: NIFTY already carries a neutral view (one view per index) and both indices are choppy mid-range (RSI ~37, TimesFM p50 flat/-0.08%) with <50 min to the 14:55 exit, so no clear directional edge. Reassess ~14:30 or on a break of 22,500/22,800."
     }
   ]
 }
