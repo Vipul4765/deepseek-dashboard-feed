@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T11:12:39.338098+05:30",
-      "summary": "HOLD. SENSEX 6084 (2DTE bull put 72300/72100, 4 lots) still hedged and open, +708 unrealized, ~131.9k margin reserved, 14:55 time exit; cut trigger SENSEX 1-min close below 72300 (now 72358). No new entry: NIFTY/SENSEX sessions open but no clear direction \u2014 NIFTY 22502 flat between SMA20 22508/SMA50 22515, RSI 36, TimesFM \u22120.07%; 0DTE IC strikes fall inside today's 22288\u201322581 range at R:R<0.30. SENSEX view already held. Next review 10 min or on a break of 72300."
-    },
-    {
       "time": "2026-10-13T11:23:01.847341+05:30",
       "summary": "Opened new NIFTY 0DTE iron condor (6088): short 22400 PE / 22600 CE, long 22350 PE / 22650 CE, 6 lots, expiry 13-10-2026, entry 11:25, exit 14:55, overall SL 7000, TP 4000 \u2014 priced credit 5850, worst-case loss 13,650, R:R 0.43, short strikes outside the 120-bar range 22409-22581, realized vol well under 25.6% implied. Start is waiting on 11:25 entry. Holding SENSEX 6084 bull put 72300/72100, +704 unrealized, hedged 1:1. No directional edge (all indices flat, TimesFM ~-0.1%). Next review 180s to verify 6088 fills."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T11:12:28.828861+05:30",
       "summary": "HOLD. MCX off per boss; assessed NIFTY and SENSEX. No new entry: both indices are tightly range-bound and choppy (NIFTY 22717, RSI 38.7, 120-bar range 22664-22758; SENSEX 73071, RSI 41.4, range 72894-73195), TimesFM paths flat (~+0.05%), so no clear direction, and both already express a bearish view (6525 NIFTY bear put, 6523 SENSEX bear call) so a fresh bullish would conflict. Three runs ACTIVE and fully hedged \u2014 6522 NIFTY condor +1131, 6525 bear put -2178, 6523 SENSEX bear call -1200 \u2014 all inside SL/TP with 14:55 exits intact. Next: stop touch on 6523/6525, decisive break of NIFTY 22758 / SENSEX 73195, or 14:55 exit."
+    },
+    {
+      "time": "2026-10-14T11:27:19.231318+05:30",
+      "summary": "HOLD, no new entry. Both indices are choppy/range-bound (NIFTY 22705, RSI 38.9; SENSEX 73043, RSI 44; TimesFM paths ~flat, +0.02%), and I already hold the directional views on each index \u2014 6525 NIFTY bear put and 6523 SENSEX bear call \u2014 plus neutral 6522 NIFTY condor, so a new directional trade would duplicate or conflict. All three runs are hedged and inside SL/TP: 6522 +1755, 6523 +135, 6525 -325. Next triggers: stop/TP touch, NIFTY break of 22758/22667, SENSEX break of 73195/72912, or 14:55 exits."
     }
   ]
 }
