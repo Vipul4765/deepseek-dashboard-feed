@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T15:36:07.270070+05:30",
-      "summary": "Assessed NIFTY and SENSEX; index exit time 14:55 IST passed, no new entries allowed. MCX disabled. Flat, no open positions. Next review in 5 minutes to reassess after market close."
-    },
-    {
       "time": "2026-10-13T09:16:35.376307+05:30",
       "summary": "Created and started a SENSEX bear put spread (buy ATM put, sell OTM2 put) expiring 15-10-2026 with overall SL 1000 and TP 1500. Strategy ID 6083 is waiting for entry. No open positions. Next review in 60 seconds to check fill status."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T09:15:27.688872+05:30",
       "summary": "Market open but outside index entry window (09:30-15:00 IST). No open positions. Holding flat until 09:30 when reassessment begins. Next review in 15 minutes."
+    },
+    {
+      "time": "2026-10-14T09:32:37.323971+05:30",
+      "summary": "Created and started SENSEX bull put spread (SELL ATM PUT, BUY OTM PUT 2 strikes down) expiry 15-10-2026. Filled: SELL 435.05, BUY 331.0, credit 104.05 pts. Bullish thesis: profits if SENSEX stays above 73000 at expiry. Monitoring; next review in 5 minutes."
     }
   ]
 }
