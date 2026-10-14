@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T12:45:27.450054+05:30",
-      "summary": "Verified both open campaigns are filled and hedged, no naked shorts. 6100 NIFTY 0DTE bull call (long 22600CE @18.20 / short 22650CE @8.10, debit ~\u20b92,626, max profit ~\u20b910,374) \u2014 near-money vs the 22,622 future; unrealized +\u20b965. 6084 SENSEX 2DTE bull put (short 72300PE / long 72100PE) running, +\u20b91,680. Both indices already hold a bullish view, so a new entry would duplicate or conflict; no distinct fresh edge (NIFTY RSI 50, SENSEX RSI 48, flat, TimesFM mildly negative). HOLD. Next: recheck marks/TP/exit (14:55) in ~20 min."
-    },
-    {
       "time": "2026-10-13T13:01:12.421070+05:30",
       "summary": "HOLD, no new entry. Verified both campaigns hedged, no naked shorts: 6100 NIFTY 0DTE bull call 22600/22650CE (4 lots) ~-\u20b991; 6084 SENSEX 2DTE bull put 72300/72100PE (4 lots) +\u20b91,556; today realized +\u20b9592. No fresh edge: NIFTY RSI 51, SENSEX RSI 57, both pinned to 20/50-SMA, tiny ATR, VIX 14.2 falling, TimesFM flat-to-slightly-down; each index already holds a bullish view, so a new entry would duplicate or offset it. Reassess on a break beyond NIFTY 22,558/22,480 or SENSEX 72,537/72,294, or into the 14:55 exit. Next review 25 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T13:24:52.244194+05:30",
       "summary": "Held the only open position, NIFTY 6535 bear put spread (B 22650PE / S 22500PE, 15 lots, 19-10 expiry), hedge intact both legs filled, +\u20b97.3k unrealized. Tightened its overall SL 30000\u21928000 (TP 45000 unchanged) to protect the winner per boss guidance. No new entry: NIFTY and SENSEX are both bearish, so a SENSEX/index trade would duplicate the same correlated thesis; neutral structures are unsupported by the down trend; MCX off. Realized today \u2248+\u20b913,828. Next trigger: review ~13:45, book by 14:55 exit if it stalls."
+    },
+    {
+      "time": "2026-10-14T13:26:12.627225+05:30",
+      "summary": "Held NIFTY 6535 (B 22650PE / S 22500PE, 15 lots, 19-10 expiry): hedge confirmed both legs filled, unrealized +\u20b95,216, net delta \u2248 -0.15 so the bearish thesis still pays. Kept SL 8000 / TP 45000 / 14:55 exit. No new entry: NIFTY direction is clear but already expressed by 6535 (one view per index), SENSEX is chop with roughly EV-negative 1-DTE credit spreads, MCX off. Realized today \u2248 +\u20b913,828. Next trigger: review ~13:45, book before 14:55 if momentum stalls."
     }
   ]
 }
