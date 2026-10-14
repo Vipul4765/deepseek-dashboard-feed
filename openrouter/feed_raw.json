@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-12T15:21:20.707045+05:30",
-      "summary": "Market open but index exit time (14:55 IST) has passed; MCX trading disabled. No open positions. Flat. No new entries allowed for indices. Next review in 30 minutes to reassess after market close."
-    },
-    {
       "time": "2026-10-12T15:36:07.270070+05:30",
       "summary": "Assessed NIFTY and SENSEX; index exit time 14:55 IST passed, no new entries allowed. MCX disabled. Flat, no open positions. Next review in 5 minutes to reassess after market close."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-13T15:35:58.925226+05:30",
       "summary": "Market open (NSE/BSE) but past index exit time 14:55 IST. No open positions. No new entries allowed until next trading day. Holding flat."
+    },
+    {
+      "time": "2026-10-14T09:15:27.688872+05:30",
+      "summary": "Market open but outside index entry window (09:30-15:00 IST). No open positions. Holding flat until 09:30 when reassessment begins. Next review in 15 minutes."
     }
   ]
 }
