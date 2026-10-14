@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T13:51:01.150228+05:30",
-      "summary": "Holding NIFTY long put 22650 (ITM) with unrealized +13 rupees. TimesFM slightly bearish, within exit window (14:55). No new entry assessed due to existing directional exposure and lack of clear alternative thesis on SENSEX. Next review in 30s to monitor for thesis change or approach to SL/TP."
-    },
-    {
-      "time": "2026-10-13T14:06:40.590588+05:30",
-      "summary": "Holding NIFTY long put 22650 (ITM) with unrealized -747.50. TimesFM slightly bearish for both indices. No clear directional thesis on SENSEX to open a new trade without duplicating thesis or lacking edge. Next review in 30s to monitor for thesis change or approach to SL/TP."
-    },
-    {
       "time": "2026-10-13T15:21:00.405677+05:30",
       "summary": "Market open (NSE/BSE) but past index exit time 14:55 IST. No open positions. No new entries allowed until next trading day. Holding flat."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-14T14:53:00.045024+05:30",
       "summary": "Holding 6 active positions (NIFTY iron condor 6544, SENSEX bear call spreads 6542,6538,6533,6532, NIFTY long put 6539) awaiting automatic exit at 14:55. No new trades due to time constraints. Next review in 60s to check status."
+    },
+    {
+      "time": "2026-10-14T14:55:19.016142+05:30",
+      "summary": "Market open but past 14:55 exit for indices. All active strategies have exited via TIME_EXIT or USER_EXIT. No new entries as trading window closed. Next review after market close or next session."
+    },
+    {
+      "time": "2026-10-14T14:55:55.878879+05:30",
+      "summary": "Market open but past 14:55 exit time for indices; no new entries allowed. All strategies flat. Next review after market close or next session."
     }
   ]
 }
