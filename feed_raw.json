@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T09:46:41.488282+05:30",
-      "summary": "Opened a new defined-risk directional trade: NIFTY 0DTE bull call spread, BUY 4x 22500 CE / SELL 4x 22600 CE (13-10), debit ~\u20b952/unit = \u20b913.6k worst-case, margin est. ~\u20b91.99L, SL 11,000 / TP 9,000 / exit 14:55 \u2014 status waiting, entry 09:50, no fill yet (will verify). Thesis: strong intraday reversal off 22288, spot 22540 above SMA20/50, RSI 85, TimesFM p50 flat-up; chose itm/otm spread for intrinsic cushion. SENSEX 6084 live, hedge intact, fresh mark +\u20b91,500, no action. Next review 5 min."
-    },
-    {
       "time": "2026-10-13T09:50:26.777410+05:30",
       "summary": "HOLD. Both open trades are defined-risk, hedged and healthy: NIFTY 6085 0DTE bull call (BUY 4x 22600 CE @43.65 / SELL 4x 22700 CE @15.30, debit ~\u20b97.4k max loss) +\u20b965; SENSEX 6084 2DTE bull put (BUY 4x 72100 PE / SELL 4x 72300 PE, credit max loss ~\u20b99.7k) +\u20b91,944. Strikes verified from Core fills. No new entry: both indices already hold one bullish view, and a second would duplicate correlated thesis (MCX disabled). Next review 10 min, or on SL/TP/time-exit at 14:55."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T09:35:39.444035+05:30",
       "summary": "Both positions verified open and hedged. SENSEX 6523 bear call filled 09:35: SELL 73300 CE @176.50 / BUY 73400 CE @145.30, 15 lots (Core evidence; prior summary's 73200/73300 was wrong). NIFTY 6522 19-10 iron condor 12 lots fully filled (22900/23000 CE, 22400/22500 PE). Fresh marks: 6523 -900, 6522 -897; no stops/targets hit. Held: no new trade \u2014 both indices only mildly bearish (RSI ~52-54, TimesFM median -0.05%), so no fresh directional edge; a second structure would just duplicate correlated exposure. Next: review in 20 min for P&L drift; exits at 14:55."
+    },
+    {
+      "time": "2026-10-14T09:51:07.036544+05:30",
+      "summary": "Sought a fresh directional entry on NIFTY/SENSEX. NIFTY 22735 (RSI 71, overbought) after a strong rally; SENSEX 73138. TimesFM medians slightly negative (NIFTY -0.08%, only 3/10 deciles above last), so direction is mixed and a bull spread would chase an extended move \u2014 no new trade this cycle (blocker: no clear direction). Hedges confirmed: 6523 short 73300CE/long 73400CE 15 lots, -2310; 6522 19-10 iron condor 12 lots, -1014; both well inside stops. Next review 20 min, or on stop/target/exit by 14:55."
     }
   ]
 }
