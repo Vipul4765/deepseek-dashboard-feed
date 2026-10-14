@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T09:50:26.777410+05:30",
-      "summary": "HOLD. Both open trades are defined-risk, hedged and healthy: NIFTY 6085 0DTE bull call (BUY 4x 22600 CE @43.65 / SELL 4x 22700 CE @15.30, debit ~\u20b97.4k max loss) +\u20b965; SENSEX 6084 2DTE bull put (BUY 4x 72100 PE / SELL 4x 72300 PE, credit max loss ~\u20b99.7k) +\u20b91,944. Strikes verified from Core fills. No new entry: both indices already hold one bullish view, and a second would duplicate correlated thesis (MCX disabled). Next review 10 min, or on SL/TP/time-exit at 14:55."
-    },
-    {
       "time": "2026-10-13T10:00:23.944044+05:30",
       "summary": "HOLD. Both open trades hedged and profitable: NIFTY 6085 0DTE bull call (BUY 4x 22600 CE @43.65 / SELL 4x 22700 CE @15.30) +\u20b9364; SENSEX 6084 2DTE bull put (SELL 4x 72300 PE @361.55 / BUY 4x 72100 PE @282.40) +\u20b92,132. Strikes verified from Core fills. No new entry: each index already holds one bullish view, so another directional trade duplicates correlated thesis, and a neutral IC has no edge into RSI-72 momentum with VIX falling. MCX disabled. Next review 15 min, or on SL/TP/14:55 time exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T09:51:07.036544+05:30",
       "summary": "Sought a fresh directional entry on NIFTY/SENSEX. NIFTY 22735 (RSI 71, overbought) after a strong rally; SENSEX 73138. TimesFM medians slightly negative (NIFTY -0.08%, only 3/10 deciles above last), so direction is mixed and a bull spread would chase an extended move \u2014 no new trade this cycle (blocker: no clear direction). Hedges confirmed: 6523 short 73300CE/long 73400CE 15 lots, -2310; 6522 19-10 iron condor 12 lots, -1014; both well inside stops. Next review 20 min, or on stop/target/exit by 14:55."
+    },
+    {
+      "time": "2026-10-14T10:07:00.285045+05:30",
+      "summary": "Took NIFTY directional (boss's ask): created/started 6525 bear put spread, expiry 19-10, BUY 10x ATM PE / SELL 10x OTM-2 PE. Debit ~\u20b919.4k = defined worst-case loss (\u2248\u20b926k); margin est ~\u20b90.39M; overall SL \u20b918k, TP \u20b928k, exit 14:55. Thesis: both indices rejected 120-bar highs (NIFTY 22758, SENSEX 73195), price below SMA20/50, RSI 37/30, TimesFM tilt negative. No SENSEX add (one view). Existing 6523 bear call \u2212\u20b9930, 6522 condor +\u20b9117, hedges intact. Next: verify 6525 fill at 10:12."
     }
   ]
 }
