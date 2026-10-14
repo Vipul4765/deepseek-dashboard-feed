@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T12:39:41.358965+05:30",
-      "summary": "No new trade added: NIFTY and SENSEX show mild bullish price action but forecasts slightly bearish, lacking a clear directional edge. Existing SENSEX positions include both bullish and bearish spreads, violating one-view-per-index rule; however, no strong signal to flip view or add new trades. Will monitor for SL/TP hits or decisive price movement. Next review in 60 seconds."
-    },
-    {
       "time": "2026-10-13T12:55:35.659013+05:30",
       "summary": "No new trade added: NIFTY and SENSEX show mixed price action with slightly bearish forecasts. Existing SENSEX positions are all bearish or neutral (no bullish), so one-view-per-index rule not violated. No clear directional edge or improved risk/reward opportunity found. Will monitor for SL/TP hits or decisive price movement. Next review in 60 seconds."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T13:56:19.010088+05:30",
       "summary": "Created and started NIFTY iron condor 6537 (SELL PUT otm_1, BUY PUT otm_3, SELL CALL otm_3, BUY CALL otm_4 expiry 19-10-2026) with credit 63.70/share, SL 1179.75, TP 2070.25. Existing positions: NIFTY long put 6530 (+3295.5 unrealized), SENSEX bear spreads 6531-6534 (small profits/loss). Market open, no conflicts. Next review in 60s to monitor new strategy and existing P&L."
+    },
+    {
+      "time": "2026-10-14T13:58:33.077433+05:30",
+      "summary": "Square off SENSEX bull put spread 6534 (lots: SELL PUT 72800, BUY PUT 72900) to resolve conflicting bullish/bearish views on SENSEX, maintaining bearish view alongside NIFTY. Existing positions: NIFTY long put 6530 (+2411.5 unrealized), iron condor 6537 (-29.25); SENSEX bear put spread 6531 (+345), bear call spreads 6532 (+108), 6533 (-37). Market open, RSI overbought, TimesFM forecasts downtrend. No new trade entered. Next review in 60s to monitor P&L and seek bearish opportunities."
     }
   ]
 }
