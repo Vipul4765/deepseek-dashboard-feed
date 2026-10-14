@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-13T13:16:34.303021+05:30",
-      "summary": "HOLD, no new entry. Verified from Core snapshots both campaigns hedged, no naked shorts: 6100 NIFTY 0DTE bull call 22600/22650CE (4 lots) ~+\u20b9585; 6084 SENSEX 2DTE bull put 72300/72100PE (4 lots) ~+\u20b91,932; today realized +\u20b9592. New-trade blockers: one-view-per-index already bullish on both NIFTY and SENSEX; NIFTY 0DTE condor prices only ~0.05-0.12 reward:risk (min 0.30); a third index bull duplicates correlated exposure. Let winners run to software TP/exit 14:55. Reassess on NIFTY 22,600/22,500 or SENSEX 72,700/72,300 break, or into 14:55. Next review 25 min."
-    },
-    {
-      "time": "2026-10-13T13:30:22.040721+05:30",
-      "summary": "HOLD, no new entry. Both open campaigns fully hedged (no naked shorts): 6100 NIFTY 0DTE bull call 22600/22650CE 4 lots, unrealized \u2212\u20b9715 as NIFTY 22,531 stays below 22,600; 6084 SENSEX 2DTE bull put 72300/72100PE 4 lots, +\u20b91,524. Today realized +\u20b9592. New NIFTY/SENSEX trades would duplicate the existing bullish view (one-view-per-index), and no candidate clears edge+hedge+payoff. Let winners run to software SL/TP and 14:55 exit. Reassess on NIFTY 22,600 reclaim/22,480 break or SENSEX toward 72,300."
-    },
-    {
       "time": "2026-10-13T13:45:28.169947+05:30",
       "summary": "HOLD, no new entry. Both campaigns hedged (no naked shorts): 6100 NIFTY 0DTE bull call 22600/22650CE 4 lots ~+\u20b9130 (NIFTY 22,555); 6084 SENSEX 2DTE bull put 72300/72100PE 4 lots +\u20b91,976 (SENSEX 72,544, ~244pt buffer). Today realized +\u20b9592. No new trade: NIFTY and SENSEX each already carry a bullish view (one-view-per-index), and TimesFM/price evidence flat-to-soft, so a directional add would duplicate or cancel exposure. Let software SL/TP (6084 TP 3500) and 14:55 exit manage. Next check ~14:10 on SENSEX toward 72,300 or NIFTY 22,600."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-14T13:41:41.751072+05:30",
       "summary": "Held NIFTY 6535 (B 22650PE / S 22500PE, 15 lots, 19-10): hedge verified, both legs FILLED, unrealized +\u20b94,388 at 13:40. Live SL is 8,000 (preview confirms; not the 30,000 creation value), TP 45,000, exit 14:55 \u2014 left unchanged. No new entry: NIFTY direction already expressed (one view per index) and SENSEX shows no clear direction (RSI 50.9, TimesFM \u22480.0%, 1-DTE gamma), so no priced edge; a 15,000 SL widening was rejected. MCX stays off. Realized today +\u20b913,828. Next: review 14:00, book before 14:55 if momentum stalls."
+    },
+    {
+      "time": "2026-10-14T13:49:35.368754+05:30",
+      "summary": "6535 NIFTY bear put hit its live 8k SL at 13:47.5 for -9,457.5 (NIFTY V-rallied to 22,650), so today's realized is +4,370. With no position left, I opened NIFTY 6536: 10-lot iron condor, 19-10 expiry, short 22,500PE/22,800CE, long 22,400PE/22,900CE (~54.6 credit vs 45.4 max loss per unit, ~\u20b935k credit / ~\u20b929.5k worst case), overall SL 15k, TP 7k, exit 14:55 \u2014 bounded range intact (22,559\u201322,739) while RSI 84 argues against chasing the spike. Start is queued for 13:50; next check in 2 min to verify fills and hedge."
+    },
+    {
+      "time": "2026-10-14T13:50:54.853322+05:30",
+      "summary": "6536 NIFTY iron condor is now live (run 4721f034). Core fills confirm: buy 22900CE@46.4, sell 22800CE@73.9, buy 22400PE@64.05, sell 22500PE@91.3, 10 lots each, 19-10 expiry \u2014 net credit ~35.6k, defined worst case ~29.4k, overall SL 15k, TP 7k, exit 14:55; every short hedged by an equal-lot long. Realized today +4,370. No new entry: NIFTY (22,637) and SENSEX (72,855) both mid-range after a V-recovery with RSI ~82-85 and flat TimesFM p50 \u2014 no clear direction, and a second NIFTY view would conflict. Next check in 15 min for the condor and any directional signal."
     }
   ]
 }
