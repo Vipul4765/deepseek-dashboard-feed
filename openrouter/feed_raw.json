@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T11:41:19.255656+05:30",
-      "summary": "HOLD: No new trades entered. Monitoring existing SENSEX bear call spread (ID 6528) with unrealized loss -44, underlying price 72962 below breakeven 73035. Thesis remains bearish per TimesFM. Will reassess if price approaches 73050 (informal stop) or at exit time 14:55."
-    },
-    {
       "time": "2026-10-14T11:55:38.604544+05:30",
       "summary": "HOLD: No new trades entered. Monitoring existing SENSEX bear call spread (ID 6528) with unrealized loss -44, underlying price 72962 below breakeven 73035. Thesis remains bearish per TimesFM. Will reassess if price approaches 73050 (informal stop) or at exit time 14:55."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T10:52:18.750738+05:30",
       "summary": "Created and started SENSEX bull call spread 5 lots ATM-OTM2 (SL 13680, TP 20000) to add bullish exposure. Existing bullish positions on NIFTY (long call OTM2) and SENSEX (various spreads) remain active. No changes to existing trades. Next review on price move toward SL/TP or new signal."
+    },
+    {
+      "time": "2026-10-15T11:02:20.218652+05:30",
+      "summary": "Created and started SENSEX bull put spread 73900-73800 (ITM-ATM) 1 lot, SL 512.5, TP 482.5 to add bullish exposure. Existing bullish positions on NIFTY (long call OTM2) and SENSEX (various spreads) remain active. Next review in 60 seconds to check new position."
     }
   ]
 }
