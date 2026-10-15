@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T15:10:41.700517+05:30",
-      "summary": "HOLD \u2014 no eligible trade. At 15:10 IST both NSE and BSE are past the 09:30\u201315:00 index entry window and the 14:55 index exit cutoff, so any new NIFTY/SENSEX structure would have no holding time; MCX is off per boss (no GOLDM/CRUDEOILM). All positions flat: active 0, no open runs, no unhedged legs. Today realised \u2248 +5,702.5 over 5 trades (4W/1L). NIFTY 6536 auto-squared 14:55 (+1,332.5). Next review in 30 min; AI budget near its 0.80 cap, pacing reviews."
-    },
-    {
       "time": "2026-10-14T15:25:40.778487+05:30",
       "summary": "HOLD \u2014 no eligible trade. At 15:25 IST both NSE and BSE are past the 09:30\u201315:00 index entry window and the 14:55 index exit cutoff, so any new NIFTY/SENSEX structure would have no holding time; MCX is off per boss (no GOLDM/CRUDEOILM). Book is flat: active 0, no open runs, no unhedged legs. Today realised \u2248 +5,702.5 over 5 trades (4W/1L). Next review in 30 min; AI budget near its 0.80 cap, so pacing reviews."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T14:12:40.643927+05:30",
       "summary": "HOLD. SENSEX 0DTE iron condor (6606) confirmed fully filled and hedged: long 74000PE/74600CE vs short 74100PE/74500CE, 25 lots, credit ~36.9 pts/lot, defined worst-case ~\u20b931.5k, R:R 0.58 \u2265 0.30; unrealized +250. NIFTY bull call (6601) open, +\u20b93,510 unrealized, SL 32k/TP 40k. No new entry: NIFTY already carries the bullish view and SENSEX the neutral one (one view per index), and AI budget is nearly spent ($0.746/$0.80). Both positions keep 14:55 exits and overall stops. Next review in 1500s (pre-exit window)."
+    },
+    {
+      "time": "2026-10-15T14:27:33.735407+05:30",
+      "summary": "HOLD. No new entry: AI budget ~$0.038 left ($0.7616/$0.80), and each index already carries its view (NIFTY bullish 6601, SENSEX neutral 6606). Both open, fully hedged, fresh P&L: NIFTY bull call 6601 (BUY 23100CE/SELL 23200CE, 20 lots) \u2212\u20b92,990; SENSEX 0DTE iron condor 6606 (74000PE/74600CE long vs 74100PE/74500CE short, 25 lots) \u2212\u20b91,875. Day realized +\u20b955,815. Both have verified hedges, overall stops and 14:55 exits. Next review in 1200s; exits auto-close."
     }
   ]
 }
