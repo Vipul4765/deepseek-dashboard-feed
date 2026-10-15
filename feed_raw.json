@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T09:15:10.868243+05:30",
-      "summary": "Flat and no open runs; today's journal is empty and account limits are disabled. Sessions (NSE/BSE F&O) are open but it is 09:15 IST, before the 09:30 index entry window, and no completed 1-minute candles exist for today yet (last closes are 13 Oct 15:30). Blocking input: no fresh intraday price action and entry window not open, so no defined-risk NIFTY/SENSEX trade can be priced. MCX entries remain barred by mandate. Next review in 900s, at ~09:30, to assess NIFTY (19-10 expiry) and SENSEX (15-10 expiry) for a directional vertical or protected condor with live quotes, hedge and bounded worst case."
-    },
-    {
       "time": "2026-10-14T09:33:23.429375+05:30",
       "summary": "Opened NIFTY 19-10 iron condor (strategy 6522) at 09:33: sold 22900 CE / bought 23000 CE, sold 22500 PE / bought 22400 PE, 12 lots each (fills 61.20/36.65, 83.75/59.90). Net credit \u20b937,752; defined worst-case loss \u2248\u20b940,248; upfront margin \u2248\u20b97.9L; R:R 0.92; breakevens 22,452\u201322,948. Every short hedged, verified from Core events. Overall SL \u20b926,000, TP \u20b913,000, time exit 14:55. Both indices were choppy/near-flat (NIFTY 22,695, SENSEX 73,005) so no directional edge; SENSEX 1-DTE lacked premium for a safe condor. Live P&L +\u20b9234. Next review ~25 min or on stop/target."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-14T15:25:40.778487+05:30",
       "summary": "HOLD \u2014 no eligible trade. At 15:25 IST both NSE and BSE are past the 09:30\u201315:00 index entry window and the 14:55 index exit cutoff, so any new NIFTY/SENSEX structure would have no holding time; MCX is off per boss (no GOLDM/CRUDEOILM). Book is flat: active 0, no open runs, no unhedged legs. Today realised \u2248 +5,702.5 over 5 trades (4W/1L). Next review in 30 min; AI budget near its 0.80 cap, so pacing reviews."
+    },
+    {
+      "time": "2026-10-15T10:21:03.686155+05:30",
+      "summary": "Opened directional trade: SENSEX 0dte bull call spread, BUY 20x 73700 CE / SELL 20x 73800 CE (expiry 15-10-2026, atm/otm_1). Both NSE/BSE open; SENSEX +1.27% (73700, RSI 63), NIFTY +1.18% \u2014 clear upward move. Defined risk = \u20b919,780 debit (max profit ~\u20b920,220, R:R 1.02, break-even 73,749); overall SL \u20b912,000, TP \u20b917,000, exit 14:55. Started (status waiting, entry 10:26); no legs filled yet. Next review in 180s to confirm fills and hedge coverage. Book otherwise flat."
     }
   ]
 }
