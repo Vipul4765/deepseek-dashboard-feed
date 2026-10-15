@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T10:12:20.355901+05:30",
-      "summary": "Confirmed 6525 fill: BUY 22750PE / SELL 22650PE (10x, 19-10), hedged, +\u20b9650. 6522 NIFTY condor +\u20b9585, 6523 SENSEX bear call \u2212\u20b9180; all hedged, SL/TP and 14:55 exit intact. No new entry: NIFTY already carries a bearish view plus a neutral condor and SENSEX a bear call, so another directional bet would be correlated duplicate and an opposite one breaks one-view-per-index; no distinct setup qualified. Next review 15 min on marks and 6525 hedge."
-    },
-    {
       "time": "2026-10-14T10:27:28.124603+05:30",
       "summary": "HOLD. All three spreads ACTIVE and hedged (verified legs/snapshots): 6522 NIFTY condor +1287, 6525 NIFTY bear put -650, 6523 SENSEX bear call -450; SL/TP and 14:55 exits intact. Assessed NIFTY and SENSEX: both TimesFM paths flat (-0.01%), price choppy, no clear direction, so no directional edge. NIFTY already carries bearish + neutral and SENSEX a bearish view \u2014 any new bet duplicates or conflicts (one view per index); a SENSEX condor would just duplicate the NIFTY neutral, correlated thesis. No new entry. Next review 30 min or on 6525 stop/14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T10:49:51.942327+05:30",
       "summary": "Booked SENSEX 0-DTE bull call (6559): squared off at 10:49 for +\u20b94,500 realized (L1 73900CE exit 184.4, L2 74000CE exit 137.95) \u2014 RSI 80.6 extended and median forecast barely above the long strike made 0-DTE decay risk concrete. Held NIFTY 4-DTE bull call (6561, BUY 22950CE/SELL 23050CE, 15 lots), +\u20b95,704, strong uptrend above SMA20/50, 4 days of time value; hedge intact, SL 15000/TP 40000/14:55 exit unchanged. No new entry: both indices already carry a bull view, so no non-conflicting candidate. Next review ~12 min; trigger: NIFTY toward TP or 23050 short-strike failure."
+    },
+    {
+      "time": "2026-10-15T10:51:34.767181+05:30",
+      "summary": "Created and started SENSEX 0-DTE bull put spread (6586): SELL 73700PE / BUY 73500PE, 25 lots, expiry 15-10-2026, credit ~44.5/lot, defined worst-case ~\u20b927,750, overall SL 18000 / TP 14000 / 14:55 exit; enters 11:00 (only first SENSEX expiry eligible). Thesis: SENSEX +2% uptrend, RSI 78, 27% 0-DTE IV favours premium selling with a bullish bias. Held NIFTY 4-DTE bull call (6561, +\u20b95,996, hedge intact, SL 28000/TP 40000 unchanged). No NIFTY add (same view already held). Next check ~11 min to confirm fill/strikes."
     }
   ]
 }
