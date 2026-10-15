@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T11:27:19.231318+05:30",
-      "summary": "HOLD, no new entry. Both indices are choppy/range-bound (NIFTY 22705, RSI 38.9; SENSEX 73043, RSI 44; TimesFM paths ~flat, +0.02%), and I already hold the directional views on each index \u2014 6525 NIFTY bear put and 6523 SENSEX bear call \u2014 plus neutral 6522 NIFTY condor, so a new directional trade would duplicate or conflict. All three runs are hedged and inside SL/TP: 6522 +1755, 6523 +135, 6525 -325. Next triggers: stop/TP touch, NIFTY break of 22758/22667, SENSEX break of 73195/72912, or 14:55 exits."
-    },
-    {
       "time": "2026-10-14T11:42:24.725684+05:30",
       "summary": "HOLD, no new entry. All three runs ACTIVE and fresh: 6522 NIFTY condor +1521, 6523 SENSEX bear-call +990, 6525 NIFTY bear-put +617.5 (total ~+3129), hedged, inside SL/TP. Both indices are mid-range and choppy (NIFTY 22691, RSI 46.7, TimesFM flat; SENSEX 72993, RSI 45.9, TimesFM flat), and I already hold a view on each index, so a new trade would duplicate or conflict. Next triggers: stop/TP touch, NIFTY break of 22758/22655, SENSEX break of 73195/72888, or 14:55 time exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T11:21:08.502155+05:30",
       "summary": "HOLD both. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots) is ITM at spot ~73746 but sits at its ~73739 intrinsic breakeven; marked -11,325, yet overall SL 18,000 caps further loss to ~6.7k while TP 14,000 leaves recovery room and RSI ~24 is oversold \u2014 so no panic cut. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) marked -2,145, thesis intact, SL 28k. No new trade: bullish view already held on both indices (one-view rule), MCX off. Both hedges intact. Next review 5 min; key trigger SENSEX stop near spot 73,703."
+    },
+    {
+      "time": "2026-10-15T11:25:56.230356+05:30",
+      "summary": "HOLD both, no new entry. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots) marked -5,925; spot 73,809 above the 73,800 short strike and ~106 pts above its ~73,703 stop trigger, on a strong up day where 0-DTE theta favors the seller \u2014 hold within SL 18k/TP 14k, hedge intact. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) marked +244, thesis intact, SL 28k. No trade: bullish view already held on both indices (one-view rule), no fresh non-conflicting edge, low IV, MCX off. Next review 5 min; trigger SENSEX spot near 73,703."
     }
   ]
 }
