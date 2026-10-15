@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T13:24:52.244194+05:30",
-      "summary": "Held the only open position, NIFTY 6535 bear put spread (B 22650PE / S 22500PE, 15 lots, 19-10 expiry), hedge intact both legs filled, +\u20b97.3k unrealized. Tightened its overall SL 30000\u21928000 (TP 45000 unchanged) to protect the winner per boss guidance. No new entry: NIFTY and SENSEX are both bearish, so a SENSEX/index trade would duplicate the same correlated thesis; neutral structures are unsupported by the down trend; MCX off. Realized today \u2248+\u20b913,828. Next trigger: review ~13:45, book by 14:55 exit if it stalls."
-    },
-    {
       "time": "2026-10-14T13:26:12.627225+05:30",
       "summary": "Held NIFTY 6535 (B 22650PE / S 22500PE, 15 lots, 19-10 expiry): hedge confirmed both legs filled, unrealized +\u20b95,216, net delta \u2248 -0.15 so the bearish thesis still pays. Kept SL 8000 / TP 45000 / 14:55 exit. No new entry: NIFTY direction is clear but already expressed by 6535 (one view per index), SENSEX is chop with roughly EV-negative 1-DTE credit spreads, MCX off. Realized today \u2248 +\u20b913,828. Next trigger: review ~13:45, book before 14:55 if momentum stalls."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T12:39:24.636512+05:30",
       "summary": "Booked SENSEX 6599 (0-DTE bull call 74100/74200, 40 lots): live +4,240 squared off \u2014 spot 74123 sits below its 74141 breakeven and ~22pts of the 45.65 spread value is time decay that would flip a winner to a loss by 14:55. Held NIFTY 6561 (bull call 22950/23050, 15 lots, +11,553, spot at 22992 breakeven; SL 10k / TP 15k, exit 14:55). No new entry: both indices already hold a bullish view (one view per index) and MCX is off. Today realised +18,675 (+ SENSEX fill pending). Next review 5 min to confirm the exit; triggers NIFTY TP/stop and 14:55 exit."
+    },
+    {
+      "time": "2026-10-15T12:41:48.374626+05:30",
+      "summary": "Held NIFTY 6561 (bull call 22950/23050, 15 lots): live +12,675, hedge intact. Found the live run's actual overall SL/TP were 10,000/15,000, not the definition's 28k/40k; target is only ~2,325 away, so I kept it and tightened the stop 10,000->4,000 (applied) to cap give-back. No new entry: NIFTY already holds the bullish view; SENSEX 0-DTE verticals price ~5-10 pts above risk-neutral (call skew + bid/ask) with R:R<1 and ~2h left; MCX off. Next trigger: TP 15,000 fill, SL 4,000, or 14:55 exit."
     }
   ]
 }
