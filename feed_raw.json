@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T14:55:12.149912+05:30",
-      "summary": "No new entry possible: it is 14:55 IST, past the index exit cutoff, so a fresh NIFTY/SENSEX trade would have no holding time; MCX is off. NIFTY iron condor 6536 (10 lots, 19-10: +22900CE/-22800CE, +22400PE/-22500PE) auto-squared at 14:55 on EXPIRY_FORCE_EXIT for +\u20b91,332.5, all 4 legs filled and hedged, no stranded shorts. Today realised \u2248 +\u20b95,703 across 5 trades (wins 4/loss 1) vs -9,458 on the earlier bear put. Flat now; next review 30 min."
-    },
-    {
-      "time": "2026-10-14T14:55:41.021978+05:30",
-      "summary": "No trade: 14:55 IST is past the index entry window and the 14:55 exit cutoff, so any new NIFTY/SENSEX structure would have no holding time; MCX is off per boss. All positions are flat (active 0, no open runs); NIFTY 6536 auto-squared at 14:55 (EXPIRY_FORCE_EXIT, +1332.5). Today realised \u2248 +5,702.5 over 5 trades (4 wins/1 loss). No unhedged legs. Next review in 30 min; AI budget near its 0.80 cap so I am pacing reviews."
-    },
-    {
       "time": "2026-10-14T15:10:41.700517+05:30",
       "summary": "HOLD \u2014 no eligible trade. At 15:10 IST both NSE and BSE are past the 09:30\u201315:00 index entry window and the 14:55 index exit cutoff, so any new NIFTY/SENSEX structure would have no holding time; MCX is off per boss (no GOLDM/CRUDEOILM). All positions flat: active 0, no open runs, no unhedged legs. Today realised \u2248 +5,702.5 over 5 trades (4W/1L). NIFTY 6536 auto-squared 14:55 (+1,332.5). Next review in 30 min; AI budget near its 0.80 cap, pacing reviews."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-15T13:56:03.717412+05:30",
       "summary": "HOLD, no new entry. NSE/BSE open; day realized +55,815 (5/5), SENSEX 6602 confirmed closed +12,600. Only open run: NIFTY 6601 19-10 bull call 23100/23200 20x (fills 83.2/49.2), ~+4,550, hedged, auto-exit 14:55 \u2014 kept running (target far, no decay urgency). Assessed new entries: NIFTY would duplicate the existing bullish view (one view per index); SENSEX's only eligible expiry is today's 0DTE with ~60min to the mandated 14:55 exit, IV 30.6%, spot at range high, RSI 49 and a wide TimesFM band \u2014 no fresh directional edge to justify the premium/gamma risk. Next review ~14:20 or on the 14:55 exit/stop."
+    },
+    {
+      "time": "2026-10-15T14:11:57.424800+05:30",
+      "summary": "Opened SENSEX 0DTE iron condor (strategy 6606): BUY 25x 73900 PE / SELL 25x 74000 PE / BUY 25x 74500 CE / SELL 25x 74400 CE, expiry 15-10, entry 14:12, exit 14:55, overall SL 18,000 / TP 15,000; hedged, defined worst-case ~30.9k, credit ~38 pts/lot. Thesis: spot 74219 mid-range (73890-74330), flat SMAs, OI pinning 74000 PE/74500 CE, TimesFM flat, and 0DTE IV (~34%) pricing a far bigger move than recent realized vol \u2014 premium-selling edge. NIFTY skipped (existing bullish 6601 duplicates the view). 6601 still open +2,340, exits 14:55. Next review in 150s to confirm 6606 fills and hedge."
+    },
+    {
+      "time": "2026-10-15T14:12:40.643927+05:30",
+      "summary": "HOLD. SENSEX 0DTE iron condor (6606) confirmed fully filled and hedged: long 74000PE/74600CE vs short 74100PE/74500CE, 25 lots, credit ~36.9 pts/lot, defined worst-case ~\u20b931.5k, R:R 0.58 \u2265 0.30; unrealized +250. NIFTY bull call (6601) open, +\u20b93,510 unrealized, SL 32k/TP 40k. No new entry: NIFTY already carries the bullish view and SENSEX the neutral one (one view per index), and AI budget is nearly spent ($0.746/$0.80). Both positions keep 14:55 exits and overall stops. Next review in 1500s (pre-exit window)."
     }
   ]
 }
