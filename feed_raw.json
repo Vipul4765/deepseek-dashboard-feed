@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T13:06:36.979272+05:30",
-      "summary": "HOLD/manage. NIFTY 6535 bear put spread (B22650PE/S22500PE, 15 lots) filled 13:06 and hedged, +\u20b9634. SENSEX 6523 bear call spread (S73300CE/B73400CE, 15 lots) +\u20b94,020 vs TP 6000, 1DTE with heavy tailwind; auto-exit at target/SL 8000, time exit 14:55. Realized today +\u20b97,767.5. No MCX. No new trade: both indices already carry the correct bearish view, and another position would be correlated or offsetting. Next check 10 min, or earlier on target/stop event."
-    },
-    {
       "time": "2026-10-14T13:17:08.966241+05:30",
       "summary": "HOLD/manage, no new entry. NIFTY 6535 bear put spread (B22650PE/S22500PE, 15 lots, filled 13:06) unrealized +\u20b96,679; SENSEX 6523 bear call spread (S73300CE/B73400CE, 15 lots) unrealized +\u20b95,265, close to its \u20b96,000 TP. Realized today +\u20b97,767.5. Both indices already carry the correct bearish view, so another position would be duplicate/correlated exposure; MCX is off. Tightened 6535's overall stop from \u20b930,000 to \u20b912,000 max loss (TP unchanged at \u20b945,000) to limit give-back. Next check 12 min, or earlier on a TP/stop/time-exit event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T12:33:54.780720+05:30",
       "summary": "Booked earlier SENSEX 6586 at TP (+14,175); today now +18,675. Held NIFTY 6561 (19-10 bull call 22950/23050, 15 lots), now ~+8,140, hedge intact, SL 28k/TP 40k. Opened a new directional SENSEX 0-DTE bull call (6599): BUY 40x 74000CE / SELL 40x 74100CE, debit ~46.8/unit, max loss ~\u20b937,400 (SL 20k), target 36k, exit 14:55 \u2014 trend day, spot 74,010 above both SMAs, RSI 68.7. One bullish view per index; MCX off. Start is waiting; next check 2 min to verify fill and hedge."
+    },
+    {
+      "time": "2026-10-15T12:35:31.029239+05:30",
+      "summary": "SENSEX 0-DTE bull call 6599 is live: entry filled 12:35 \u2014 BUY 74000CE 800@145.75, SELL 74100CE 800@104.50 (40 lots), debit 41.25 \u2192 worst-case loss \u20b933,000, SL 20k, TP 36k, exit 14:55; hedge intact. NIFTY 6561 (22950/23050 bull call, 15 lots) active, marked \u2248 +8.1k, SL 28k/TP 40k. No new entry: each index already carries its one bullish view; another NSE index structure would duplicate correlated long-delta exposure and a bearish/neutral leg would conflict. MCX off. Next check 10 min to manage marks and hedge."
     }
   ]
 }
