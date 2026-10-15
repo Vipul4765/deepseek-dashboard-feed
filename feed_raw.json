@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T09:33:23.429375+05:30",
-      "summary": "Opened NIFTY 19-10 iron condor (strategy 6522) at 09:33: sold 22900 CE / bought 23000 CE, sold 22500 PE / bought 22400 PE, 12 lots each (fills 61.20/36.65, 83.75/59.90). Net credit \u20b937,752; defined worst-case loss \u2248\u20b940,248; upfront margin \u2248\u20b97.9L; R:R 0.92; breakevens 22,452\u201322,948. Every short hedged, verified from Core events. Overall SL \u20b926,000, TP \u20b913,000, time exit 14:55. Both indices were choppy/near-flat (NIFTY 22,695, SENSEX 73,005) so no directional edge; SENSEX 1-DTE lacked premium for a safe condor. Live P&L +\u20b9234. Next review ~25 min or on stop/target."
-    },
-    {
       "time": "2026-10-14T09:34:59.735101+05:30",
       "summary": "Held NIFTY 19-10 iron condor (6522): 4 legs filled 09:33, unrealized -312, SL 26k/TP 13k, exit 14:55 - no action. Both indices lean mildly bearish (price below SMA20/50, RSI ~44, TimesFM median ~-0.1%), so I opened a new directional SENSEX 15-10 bear call spread (6523): sell 73200 CE / buy 73300 CE, 15 lots, short strike above today's 73,178 high. Net credit ~41.7/unit, worst case ~17.5k, margin ~17.5k; SL 8k, TP 6k, exit 14:55. Start is waiting for 09:35 entry; fill unverified. Review in 120s to confirm fills and hedge."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T10:21:03.686155+05:30",
       "summary": "Opened directional trade: SENSEX 0dte bull call spread, BUY 20x 73700 CE / SELL 20x 73800 CE (expiry 15-10-2026, atm/otm_1). Both NSE/BSE open; SENSEX +1.27% (73700, RSI 63), NIFTY +1.18% \u2014 clear upward move. Defined risk = \u20b919,780 debit (max profit ~\u20b920,220, R:R 1.02, break-even 73,749); overall SL \u20b912,000, TP \u20b917,000, exit 14:55. Started (status waiting, entry 10:26); no legs filled yet. Next review in 180s to confirm fills and hedge coverage. Book otherwise flat."
+    },
+    {
+      "time": "2026-10-15T10:24:10.565972+05:30",
+      "summary": "Both NSE/BSE open; NIFTY +1.26% at 22907 (RSI 62, above SMA20/50, TimesFM p50 22925, 6/10 deciles up) \u2014 clear intraday uptrend. Opened a defined-risk directional NIFTY bull call spread (id 6561): BUY 15x 22900 CE / SELL 15x 23000 CE, expiry 19-10-2026; debit ~48.3 (~\u20b947k), break-even 22948, max profit ~\u20b950k; overall SL \u20b928,000, TP \u20b940,000, exit 14:55. Started, waiting to enter 10:28. SENSEX 0DTE bull call (6559) still queued for 10:26. Combined: two correlated bullish index spreads, total defined risk ~\u20b970k. Review in 180s to confirm fills and hedges."
     }
   ]
 }
