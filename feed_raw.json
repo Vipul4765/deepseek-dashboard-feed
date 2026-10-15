@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T10:27:28.124603+05:30",
-      "summary": "HOLD. All three spreads ACTIVE and hedged (verified legs/snapshots): 6522 NIFTY condor +1287, 6525 NIFTY bear put -650, 6523 SENSEX bear call -450; SL/TP and 14:55 exits intact. Assessed NIFTY and SENSEX: both TimesFM paths flat (-0.01%), price choppy, no clear direction, so no directional edge. NIFTY already carries bearish + neutral and SENSEX a bearish view \u2014 any new bet duplicates or conflicts (one view per index); a SENSEX condor would just duplicate the NIFTY neutral, correlated thesis. No new entry. Next review 30 min or on 6525 stop/14:55 exit."
-    },
-    {
       "time": "2026-10-14T10:42:49.905883+05:30",
       "summary": "HOLD. All three spreads ACTIVE and fully hedged: 6522 NIFTY condor +819, 6525 NIFTY bear put -2275, 6523 SENSEX bear call -1350; SL/TP and 14:55 exits intact. NIFTY (RSI 62.5, +30pts) and SENSEX (RSI 53) both have TimesFM paths flat (~+0.02%) with choppy recent action, so no clear direction to trade. NIFTY already carries bearish+neutral views and SENSEX a bearish one; a new SENSEX neutral would duplicate a weak, historically losing 4-leg shape. No new entry. Next review 25 min or on 6525/6523 stop touch or 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T10:51:34.767181+05:30",
       "summary": "Created and started SENSEX 0-DTE bull put spread (6586): SELL 73700PE / BUY 73500PE, 25 lots, expiry 15-10-2026, credit ~44.5/lot, defined worst-case ~\u20b927,750, overall SL 18000 / TP 14000 / 14:55 exit; enters 11:00 (only first SENSEX expiry eligible). Thesis: SENSEX +2% uptrend, RSI 78, 27% 0-DTE IV favours premium selling with a bullish bias. Held NIFTY 4-DTE bull call (6561, +\u20b95,996, hedge intact, SL 28000/TP 40000 unchanged). No NIFTY add (same view already held). Next check ~11 min to confirm fill/strikes."
+    },
+    {
+      "time": "2026-10-15T11:01:00.551182+05:30",
+      "summary": "HOLD both. Verified fills: SENSEX 6586 short 73800PE @163.85 / long 73600PE @103.20 (25 lots, 0-DTE, credit 60.65); NIFTY 6561 long 22950CE @110.95 / short 23050CE @69.35 (15 lots, 19-10). Both hedged/defined-risk. Marks: SENSEX +525, NIFTY +4485; booked +4500 (6559). No new entry: both index views already bullish \u2014 a third would duplicate correlated exposure. Stops/TPs unchanged (6586 SL18000/TP14000, 6561 SL28000/TP40000), 14:55 exit. Next review ~10 min to watch the 0-DTE put's ~250pt stop buffer."
     }
   ]
 }
