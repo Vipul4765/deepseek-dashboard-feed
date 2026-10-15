@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T09:35:39.444035+05:30",
-      "summary": "Both positions verified open and hedged. SENSEX 6523 bear call filled 09:35: SELL 73300 CE @176.50 / BUY 73400 CE @145.30, 15 lots (Core evidence; prior summary's 73200/73300 was wrong). NIFTY 6522 19-10 iron condor 12 lots fully filled (22900/23000 CE, 22400/22500 PE). Fresh marks: 6523 -900, 6522 -897; no stops/targets hit. Held: no new trade \u2014 both indices only mildly bearish (RSI ~52-54, TimesFM median -0.05%), so no fresh directional edge; a second structure would just duplicate correlated exposure. Next: review in 20 min for P&L drift; exits at 14:55."
-    },
-    {
       "time": "2026-10-14T09:51:07.036544+05:30",
       "summary": "Sought a fresh directional entry on NIFTY/SENSEX. NIFTY 22735 (RSI 71, overbought) after a strong rally; SENSEX 73138. TimesFM medians slightly negative (NIFTY -0.08%, only 3/10 deciles above last), so direction is mixed and a bull spread would chase an extended move \u2014 no new trade this cycle (blocker: no clear direction). Hedges confirmed: 6523 short 73300CE/long 73400CE 15 lots, -2310; 6522 19-10 iron condor 12 lots, -1014; both well inside stops. Next review 20 min, or on stop/target/exit by 14:55."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T10:26:31.693364+05:30",
       "summary": "Both NSE/BSE open. SENSEX 0DTE bull call (6559) ACTIVE and hedged: BUY 20 lots 73900 CE @132.70 / SELL 20 lots 74000 CE @97.50, debit ~\u20b914.1k, SL \u20b912k/TP \u20b917k, unrealized -\u20b9840. NIFTY 4DTE bull call (6561) verified still SCHEDULED (no legs yet) \u2014 entry 10:28 with BUY 15x 22900 CE / SELL 15x 23000 CE (19-10), SL \u20b928k/TP \u20b940k. NIFTY 22907 sits above SMA20/50, RSI 64, TimesFM p50 22925 \u2014 uptrend intact; one view per index, no conflict. No new trade needed. Reviewing in 180s to confirm NIFTY fills/hedge and SENSEX marks."
+    },
+    {
+      "time": "2026-10-15T10:28:16.683218+05:30",
+      "summary": "Held both positions; no new trade. 6559 SENSEX 0DTE bull call (BUY 73900 CE/SELL 74000 CE, 20 lots, hedged, SL \u20b912k/TP \u20b917k) at \u2212\u20b9300. 6561 NIFTY 4DTE bull call (BUY 22950 CE @110.95/SELL 23050 CE @69.35, 15 lots, hedged, SL \u20b928k/TP \u20b940k) at +\u20b9244. Both confirmed ACTIVE, one bullish view per index, consistent with NIFTY/SENSEX above SMA20/50. No room for a distinct NIFTY structure without opposing the held bull call. Next review in 600s to watch SENSEX 0DTE theta."
     }
   ]
 }
