@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T11:16:04.378210+05:30",
-      "summary": "Holding active NIFTY long call (6527, unrealized P&L -750.75) and SENSEX bull call spread (6524, unrealized P&L +125.00). Market shows mild weakness but TimesFM forecast indicates slight upward bias. No clear directional thesis for new entry; existing positions within SL/TP. Will reassess on next price update."
-    },
-    {
       "time": "2026-10-14T11:36:55.388768+05:30",
       "summary": "Created and started SENSEX bear call spread 73000-73100 (ID 6528): short 1x ATM call, long 1x OTM1 call, 20 lots. Closed NIFTY long call 6527 (realized -1,774.50 loss) to avoid conflicting views on correlated indices. SENSEX showing strong bearish momentum; spread has defined risk with entry credit ~45.10, max loss ~50.90, breakeven ~73,045. Current price 72,963.34 below breakeven. Will manage via thesis, SL/TP, or exit at 14:55."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T10:31:10.462776+05:30",
       "summary": "Created and started SENSEX bull call spread ATM-OTM2 (strategy 6562) at 171.45/95.90 with SL 2600, TP 3400. Existing positions: NIFTY long call 23050 (6560) unrealized PnL -253.5, SENSEX bull call spread 73800-73900 (6558) unrealized PnL 42.0. No immediate action on existing trades; will monitor for SL breach or target hit. Next review in 3 minutes."
+    },
+    {
+      "time": "2026-10-15T10:39:19.336801+05:30",
+      "summary": "HOLD: No new trades entered. Monitoring three active bullish positions (SENSEX ATM-OTM2 call spread, NIFTY OTM2 long call, SENSEX ATM-OTM1 call spread). No clear directional thesis from price, indicators, or TimesFM for NIFTY/SENSEX; avoiding conflicting views. Will reassess on clearer signal or approaching SL/TP."
     }
   ]
 }
