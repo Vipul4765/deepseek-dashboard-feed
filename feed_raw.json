@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T13:01:18.763902+05:30",
-      "summary": "Booked NIFTY bear-put 6525 (square-off requested; both legs exit together, no naked short) to lock ~+\u20b92,762 \u2014 its short 22650 PE sat effectively ATM vs the 22,696 future with NIFTY RSI 22.7 at day lows (high bounce risk). Held SENSEX bear-call 6523 (+\u20b91,950), short 73300 CE ~0.5% OTM with strong 1-DTE theta, SL 8000/TP 6000. Day realized +\u20b92,340. No new entry: no fresh edge; entering down-spreads at oversold lows is chasing, MCX off, one view per index. Next: 300s \u2014 confirm 6525 fill and watch 6523 into the oversold tape."
-    },
-    {
       "time": "2026-10-14T13:05:10.112966+05:30",
       "summary": "Took a directional NIFTY trade per the bearish tape (RSI ~19, day lows, TimesFM lower): created/started 6535, a 5DTE (19-10) bear put spread \u2014 BUY 22650 PE / SELL 22500 PE, 15 lots, debit ~63.95/unit, defined worst-case loss ~\u20b962.3k, max profit ~\u20b983.9k (R:R 1.35), SL 30k/TP 45k, exit 14:55. Scheduled entry 13:06 (still waiting). Held SENSEX bear-call 6523, now +\u20b94,215, SL 8000/TP 6000. Today realized +\u20b97,767.5. Next: 300s to confirm 6535 fills and hedge; strikes verified only after fill."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T12:04:21.519497+05:30",
       "summary": "HOLD both, no edits. SENSEX 6586 (0-DTE bull put 73800/73600PE, 25 lots) +6,800, hedge intact, spot ~73,960 with ~160pt cushion above short strike and forecast flat ~73,952 (above strike, theta-favorable); SL 8,000 sits at the strike, TP 14,000, exit 14:55. NIFTY 6561 (19-10 bull call 22950/23050, 15 lots) +5,996, hedge intact, SL 28k/TP 40k. No new entry: only NIFTY/SENSEX tradeable (MCX off) and both already hold the same bullish view \u2014 one view per index. Trigger: SENSEX spot <~73,820 or any TP/SL fill. Next review 20 min."
+    },
+    {
+      "time": "2026-10-15T12:18:59.647253+05:30",
+      "summary": "HOLD both, no edits, no new entry. SENSEX 6586 (0-DTE bull put 73800/73600PE, 25 lots) +10,350; hedge intact, spot ~73,984 gives ~180pt cushion above the short strike, theta and forecast (flat ~73,950) both favorable; TP 14,000/SL 18,000, exit 14:55. NIFTY 6561 (19-10 bull call 22950/23050, 15 lots) +7,458, hedge intact, SL 28k/TP 40k. No new trade: both indices already hold the same bullish view (one view per index) and MCX is off. Triggers: any TP/SL fill, or SENSEX spot < ~73,830. Next review 20 min."
     }
   ]
 }
