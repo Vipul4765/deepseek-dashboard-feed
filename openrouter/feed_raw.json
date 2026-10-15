@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T12:19:49.219968+05:30",
-      "summary": "HOLD: Two active trades (SENSEX bear put spread 73100-73000, NIFTY long put 22700) within SL/TP. No new opportunity due to lack of clear directional signal in NIFTY/SENSEX. Next review in 60s to monitor positions and reassess."
-    },
-    {
       "time": "2026-10-14T12:35:11.566597+05:30",
       "summary": "Holding: Two active bearish trades (NIFTY long put 22700 up 152.75, SENSEX bear put spread 73300-73200 flat). Market shows bearish signals (RSI<50, TimesFM negative) on both indices. Considering a new bearish call spread on SENSEX (73000-73100) but deferring to avoid over-exposure and to monitor existing positions. Next review in 60s to reassess."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T15:05:10.481246+05:30",
       "summary": "HOLD: Market open but past 14:55 index exit time; cannot open new index strategies with required exit by 14:55. No open positions. Today's P&L +11,279.75, target \u20b920,000 not reached. Will reassess in 60 seconds."
+    },
+    {
+      "time": "2026-10-15T15:19:10.860723+05:30",
+      "summary": "HOLD: Market open but past 14:55 index exit time; cannot open new index strategies with required exit by 14:55. No open positions. Today's P&L +11,279.75, target \u20b920,000 not reached. Will reassess after market close."
     }
   ]
 }
