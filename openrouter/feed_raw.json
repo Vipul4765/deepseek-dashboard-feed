@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T10:44:46.890291+05:30",
-      "summary": "Monitoring active NIFTY iron condor (strategy 6526) with unrealized P&L +22.75 and SENSEX bull call spread (strategy 6524) with unrealized P&L -30.0. No new entries taken as directional thesis remains unclear; will reassess on next price update."
-    },
-    {
       "time": "2026-10-14T10:46:25.073485+05:30",
       "summary": "Monitoring active NIFTY long call (strategy 6527) with unrealized P&L -367.25 and SENSEX bull call spread (strategy 6524) with unrealized P&L +136.00. No new directional thesis detected that justifies a new entry; will reassess on next price update."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-15T10:12:31.448624+05:30",
+      "summary": "Created SENSEX bear call spread 73600-73800 OTM2 (3 lots) with entry at 10:05, exit 14:55, SL 2000, TP 1500. NIFTY 2-leg blocked due to poor performance. Waiting for entry to fill."
+    },
+    {
+      "time": "2026-10-15T10:18:58.873613+05:30",
       "summary": "Created SENSEX bear call spread 73600-73800 OTM2 (3 lots) with entry at 10:05, exit 14:55, SL 2000, TP 1500. NIFTY 2-leg blocked due to poor performance. Waiting for entry to fill."
     }
   ]
