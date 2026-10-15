@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T10:42:49.905883+05:30",
-      "summary": "HOLD. All three spreads ACTIVE and fully hedged: 6522 NIFTY condor +819, 6525 NIFTY bear put -2275, 6523 SENSEX bear call -1350; SL/TP and 14:55 exits intact. NIFTY (RSI 62.5, +30pts) and SENSEX (RSI 53) both have TimesFM paths flat (~+0.02%) with choppy recent action, so no clear direction to trade. NIFTY already carries bearish+neutral views and SENSEX a bearish one; a new SENSEX neutral would duplicate a weak, historically losing 4-leg shape. No new entry. Next review 25 min or on 6525/6523 stop touch or 14:55 exit."
-    },
-    {
       "time": "2026-10-14T10:58:00.072023+05:30",
       "summary": "HOLD. Assessed NIFTY and SENSEX (MCX disabled per boss). All three runs ACTIVE and fully hedged: 6522 NIFTY condor -312, 6525 NIFTY bear put -3640, 6523 SENSEX bear call -2205; SL/TP and 14:55 exits intact, no unhedged leg. Both indices are mid-range and choppy (NIFTY 22736, RSI 53.7; SENSEX 73108, RSI 60.7) with flat TimesFM paths (~+0.04%), so no clear direction. Any new NIFTY/SENSEX directional would contradict an existing live view (one-view rule); no fresh thesis justifies closing them. Next: 6523/6525 stop touch, decisive break of NIFTY 22758 or SENSEX 73195, or 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T11:01:00.551182+05:30",
       "summary": "HOLD both. Verified fills: SENSEX 6586 short 73800PE @163.85 / long 73600PE @103.20 (25 lots, 0-DTE, credit 60.65); NIFTY 6561 long 22950CE @110.95 / short 23050CE @69.35 (15 lots, 19-10). Both hedged/defined-risk. Marks: SENSEX +525, NIFTY +4485; booked +4500 (6559). No new entry: both index views already bullish \u2014 a third would duplicate correlated exposure. Stops/TPs unchanged (6586 SL18000/TP14000, 6561 SL28000/TP40000), 14:55 exit. Next review ~10 min to watch the 0-DTE put's ~250pt stop buffer."
+    },
+    {
+      "time": "2026-10-15T11:10:24.751251+05:30",
+      "summary": "HOLD. Two hedged positions live: SENSEX 6586 0-DTE bull put (SELL 73800PE @163.85 / BUY 73600PE @103.20, 25 lots, credit 60.65) marked -2,125; NIFTY 6561 bull call (BUY 22950CE @110.95 / SELL 23050CE @69.35, 15 lots, 19-10) marked +1,999. Booked +4,500 on 6559. No new entry: both index views already bullish, a third would duplicate correlated exposure (one-view rule). SENSEX spot 73835 is only ~35pts above the short strike; overall SL 18000 (~73760) and 14:55 exit guard it. Next review in 5 min."
     }
   ]
 }
