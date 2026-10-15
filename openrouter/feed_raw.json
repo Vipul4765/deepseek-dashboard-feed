@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T11:01:10.218372+05:30",
-      "summary": "Monitoring active NIFTY long call (strategy 6527) with unrealized P&L +35.75 and SENSEX bull call spread (strategy 6524) with unrealized P&L +183.00. No new directional thesis detected that justifies a new entry; will reassess on next price update."
-    },
-    {
       "time": "2026-10-14T11:16:04.378210+05:30",
       "summary": "Holding active NIFTY long call (6527, unrealized P&L -750.75) and SENSEX bull call spread (6524, unrealized P&L +125.00). Market shows mild weakness but TimesFM forecast indicates slight upward bias. No clear directional thesis for new entry; existing positions within SL/TP. Will reassess on next price update."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T10:23:44.705270+05:30",
       "summary": "Created and started NIFTY long call 23000 OTM2 (strategy 6560) at 73.0 with SL 2000, TP 5000. Existing SENSEX bull call spread 73800-73900 (6558) remains active. Today's P&L: -2556.25 from 7 completed trades. Next review in 5 minutes to monitor positions."
+    },
+    {
+      "time": "2026-10-15T10:31:10.462776+05:30",
+      "summary": "Created and started SENSEX bull call spread ATM-OTM2 (strategy 6562) at 171.45/95.90 with SL 2600, TP 3400. Existing positions: NIFTY long call 23050 (6560) unrealized PnL -253.5, SENSEX bull call spread 73800-73900 (6558) unrealized PnL 42.0. No immediate action on existing trades; will monitor for SL breach or target hit. Next review in 3 minutes."
     }
   ]
 }
