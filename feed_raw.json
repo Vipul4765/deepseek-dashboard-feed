@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T13:41:41.751072+05:30",
-      "summary": "Held NIFTY 6535 (B 22650PE / S 22500PE, 15 lots, 19-10): hedge verified, both legs FILLED, unrealized +\u20b94,388 at 13:40. Live SL is 8,000 (preview confirms; not the 30,000 creation value), TP 45,000, exit 14:55 \u2014 left unchanged. No new entry: NIFTY direction already expressed (one view per index) and SENSEX shows no clear direction (RSI 50.9, TimesFM \u22480.0%, 1-DTE gamma), so no priced edge; a 15,000 SL widening was rejected. MCX stays off. Realized today +\u20b913,828. Next: review 14:00, book before 14:55 if momentum stalls."
-    },
-    {
       "time": "2026-10-14T13:49:35.368754+05:30",
       "summary": "6535 NIFTY bear put hit its live 8k SL at 13:47.5 for -9,457.5 (NIFTY V-rallied to 22,650), so today's realized is +4,370. With no position left, I opened NIFTY 6536: 10-lot iron condor, 19-10 expiry, short 22,500PE/22,800CE, long 22,400PE/22,900CE (~54.6 credit vs 45.4 max loss per unit, ~\u20b935k credit / ~\u20b929.5k worst case), overall SL 15k, TP 7k, exit 14:55 \u2014 bounded range intact (22,559\u201322,739) while RSI 84 argues against chasing the spike. Start is queued for 13:50; next check in 2 min to verify fills and hedge."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T12:44:34.171669+05:30",
       "summary": "NIFTY 6561 bull call hit its overall TP at 12:42 and closed: +16,380 (day realized now ~+43,215, 4/4 winners). Both indices still trending hard up (NIFTY +1.68%, SENSEX +1.86% intraday) with TimesFM mildly bullish, so I opened a directional NIFTY 19-10 bull call spread (6601): BUY 20x 23100 CE @83.20 / SELL 20x 23200 CE @49.20, debit 34.0 = cost \u20b944,200 worst case, max profit \u20b985,800 (R:R 1.94), hedge 1:1, Core margin \u20b95.95L. Overall SL \u20b932,000, TP \u20b940,000, 14:55 exit. Marks \ufffdflat. Trigger: NIFTY >23,100, SL/TP, or 14:55."
+    },
+    {
+      "time": "2026-10-15T12:45:30.631572+05:30",
+      "summary": "HOLD. Day P&L +\u20b943,215 (4/4 winners). Open: NIFTY 6601 19-10 bull call spread (BUY 20x 23100 CE @83.20 / SELL 20x 23200 CE @49.20, debit 34.0, worst-case \u20b944,200, max profit \u20b985,800, hedge 1:1, Core margin \u20b95.95L), filled 12:44, marks flat (-\u20b9780); SL \u20b932,000 / TP \u20b940,000 / 14:55 exit intact. Assessed SENSEX 0dte (74,130, RSI 81) and NIFTY \u2014 both at day highs, RSI 80+; only feasible SENSEX bull call is ~1:1 R:R with heavy 0dte theta, a correlated chase of the NIFTY view I already hold. No distinct priced edge, so no add. Next review ~25 min; trigger: NIFTY >23,100 / SL / TP / 14:55."
     }
   ]
 }
