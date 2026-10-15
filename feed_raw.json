@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T10:24:10.565972+05:30",
-      "summary": "Both NSE/BSE open; NIFTY +1.26% at 22907 (RSI 62, above SMA20/50, TimesFM p50 22925, 6/10 deciles up) \u2014 clear intraday uptrend. Opened a defined-risk directional NIFTY bull call spread (id 6561): BUY 15x 22900 CE / SELL 15x 23000 CE, expiry 19-10-2026; debit ~48.3 (~\u20b947k), break-even 22948, max profit ~\u20b950k; overall SL \u20b928,000, TP \u20b940,000, exit 14:55. Started, waiting to enter 10:28. SENSEX 0DTE bull call (6559) still queued for 10:26. Combined: two correlated bullish index spreads, total defined risk ~\u20b970k. Review in 180s to confirm fills and hedges."
-    },
-    {
-      "time": "2026-10-15T10:26:31.693364+05:30",
-      "summary": "Both NSE/BSE open. SENSEX 0DTE bull call (6559) ACTIVE and hedged: BUY 20 lots 73900 CE @132.70 / SELL 20 lots 74000 CE @97.50, debit ~\u20b914.1k, SL \u20b912k/TP \u20b917k, unrealized -\u20b9840. NIFTY 4DTE bull call (6561) verified still SCHEDULED (no legs yet) \u2014 entry 10:28 with BUY 15x 22900 CE / SELL 15x 23000 CE (19-10), SL \u20b928k/TP \u20b940k. NIFTY 22907 sits above SMA20/50, RSI 64, TimesFM p50 22925 \u2014 uptrend intact; one view per index, no conflict. No new trade needed. Reviewing in 180s to confirm NIFTY fills/hedge and SENSEX marks."
-    },
-    {
       "time": "2026-10-15T10:28:16.683218+05:30",
       "summary": "Held both positions; no new trade. 6559 SENSEX 0DTE bull call (BUY 73900 CE/SELL 74000 CE, 20 lots, hedged, SL \u20b912k/TP \u20b917k) at \u2212\u20b9300. 6561 NIFTY 4DTE bull call (BUY 22950 CE @110.95/SELL 23050 CE @69.35, 15 lots, hedged, SL \u20b928k/TP \u20b940k) at +\u20b9244. Both confirmed ACTIVE, one bullish view per index, consistent with NIFTY/SENSEX above SMA20/50. No room for a distinct NIFTY structure without opposing the held bull call. Next review in 600s to watch SENSEX 0DTE theta."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-15T14:49:28.825277+05:30",
       "summary": "HOLD, no new entry. It is 14:49 IST, ~6 min before the 14:55 index exit, and the AI budget is nearly spent ($0.780/$0.80), so a fresh 0DTE is not justified. Both open runs auto-exit at 14:55: 6601 NIFTY bull call (23100/23200 CE, 20 lots) \u2212\u20b99,880 unrealized; 6606 SENSEX 0DTE iron condor (74000PE/74600CE vs 74100PE/74500CE, 25 lots) \u2212\u20b96,075. Both hedged, stops intact (\u20b932k/\u20b918k). Day realized +\u20b955,815. Next review in 600s to confirm exits."
+    },
+    {
+      "time": "2026-10-15T14:55:13.342451+05:30",
+      "summary": "Flat. Both open runs auto-exited at 14:55: 6601 NIFTY 23100/23200 bull call -11,245; 6606 SENSEX 74000PE/74600CE iron condor (vs 74100/74500) -8,525, both hedge-covered, no naked legs left. Day realized: +55,815 earlier five wins, net ~+36,045. No new entry \u2014 it is the 14:55 index exit and AI budget is $0.789/$0.80. Next review 1800s; nothing open to manage."
+    },
+    {
+      "time": "2026-10-15T14:55:40.642684+05:30",
+      "summary": "Flat and done for the day. Both remaining runs auto-exited at 14:55: 6601 NIFTY 23100/23200 bull call -11,245 and 6606 SENSEX iron condor (74000PE/74100PE, 74500CE/74600CE) -8,525; both were hedge-covered, no naked legs left. Day realized +36,045 (5 wins, 2 losses on 7 trades). No new entry: it is 14:55 IST, past the index exit deadline, and AI budget is $0.799/$0.80. MCX off per boss. Next review in 1800s; nothing open to manage."
     }
   ]
 }
