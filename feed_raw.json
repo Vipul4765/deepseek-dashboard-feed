@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T13:51:32.089119+05:30",
-      "summary": "HOLD. NIFTY 6536 iron condor (10 lots, 19-10) is live and centred: spot 22,652 sits between short 22,500PE/22,800CE, unrealized -260, all shorts hedged (worst case ~29.4k, SL 15k/TP 7k/exit 14:55). Realized today +4,370. No new entry: NIFTY 22,637 and SENSEX 72,865 both mid-range after the morning dip, RSI ~73-76, TimesFM p50 flat \u2014 no clear direction, and a second NIFTY view would conflict. Reassess in 15 min or on a break of 22,500/22,800."
-    },
-    {
       "time": "2026-10-14T14:06:37.581453+05:30",
       "summary": "HOLD. NIFTY IC 6536 (10 lots, 19-10) live and centred: spot 22,637 vs short 22,500PE/22,800CE, P&L flat (+32), all shorts hedged, worst case ~29.4k, SL 15k/TP 7k/exit 14:55 \u2014 no change needed. Realised today +4,370. No new entry: NIFTY already carries a neutral view (one view per index) and both indices are choppy mid-range (RSI ~37, TimesFM p50 flat/-0.08%) with <50 min to the 14:55 exit, so no clear directional edge. Reassess ~14:30 or on a break of 22,500/22,800."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T13:02:26.153319+05:30",
       "summary": "HOLD. Day +43,215 realized (4/4). Two defined-risk positions open, both hedges verified FILLED 1:1 same type/expiry: NIFTY 6601 19-10 bull call 23100/23200 (20x, +2,600, SL32k/TP40k/14:55); SENSEX 6602 0DTE bull call 74200/74500 (25x, +100, SL50k/TP70k/14:55). Both indices already have one bullish view each, so no new/correlated entries (one-view-per-index). MCX off. Next review 25 min or on stop/target/exit; positions safe on their own stops if budget cap hits."
+    },
+    {
+      "time": "2026-10-15T13:09:04.981189+05:30",
+      "summary": "HOLD. NSE/BSE open (13:08). Day +43,215 realized (4/4 wins). Two open hedged bullish views: NIFTY 6601 19-10 bull call (20x, fills 83.2/49.2, SL32k/TP40k) and SENSEX 6602 0DTE bull call 74200/74500 (25x, fills 147/47.9, SL50k/TP70k); both legs FILLED 1:1 same type/expiry per run events \u2014 no naked short. Both indices already carry one bullish view and RSI is 69.5/72.7 (extended), so no new or correlated entry; MCX off. AI budget 0.62/0.80 used, so no extra fetches. Next review 25 min, or on stop/target/14:55 exit."
     }
   ]
 }
