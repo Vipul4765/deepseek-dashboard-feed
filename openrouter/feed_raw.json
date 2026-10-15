@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T10:11:31.428296+05:30",
-      "summary": "Created NIFTY iron condor (SELL Call OTM2, BUY Call OTM4, SELL Put OTM2, BUY Put OTM4) strategy 6526, set to start at 10:10 with SL 2000, TP 1500. Existing SENSEX bull call spread (strategy 6524) remains active with unrealized P&L -31. No action taken on existing position; will monitor both."
-    },
-    {
-      "time": "2026-10-14T10:12:19.195264+05:30",
-      "summary": "Monitoring active NIFTY iron condor (strategy 6526) with unrealized P&L +22.75 and SENSEX bull call spread (strategy 6524) with unrealized P&L -30.0. No new entries taken as directional thesis remains unclear; will reassess on next price update."
-    },
-    {
       "time": "2026-10-14T10:27:40.118855+05:30",
       "summary": "Monitoring active NIFTY iron condor (strategy 6526) with unrealized P&L +22.75 and SENSEX bull call spread (strategy 6524) with unrealized P&L -30.0. No new entries taken as directional thesis remains unclear; will reassess on next price update."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-15T09:53:15.119165+05:30",
       "summary": "Hold: Active bearish positions on NIFTY (long put 22700 PE) and SENSEX (bear put spread 73400-73300 PE) are both slightly underwater. No new clear directional signal from price action or TimesFM to add or flip views. Monitoring existing SL/TP and time exit (14:55 IST). No new trades initiated."
+    },
+    {
+      "time": "2026-10-15T10:02:25.284853+05:30",
+      "summary": "Started SENSEX bear put spread 73500-73400 OTM1-OTM2 (lots 1) entry at 10:01:37, debit 958, SL 800, TP 1200. Existing NIFTY long put 22750 remains active (unrealized -1105). Set review in 2 minutes to monitor both positions."
+    },
+    {
+      "time": "2026-10-15T10:03:54.314739+05:30",
+      "summary": "Started SENSEX bear put spread 73500-73400 OTM1-OTM2 (lots 1) entry at 10:01:37, debit 958, SL 800, TP 1200. Existing NIFTY long put 22750 remains active (unrealized -1105). Set review in 2 minutes to monitor both positions."
     }
   ]
 }
