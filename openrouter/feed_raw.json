@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T12:11:22.767906+05:30",
-      "summary": "Created and started NIFTY long put 22750 atm oct19 dir (ID 6529) with SL 4000, TP 8000. Existing SENSEX bear call spread (ID 6528) remains active with unrealized loss -229. No new SENSEX trades due to existing bearish view. Next reassessment on fill, exit time 14:55, or thesis change."
-    },
-    {
       "time": "2026-10-14T12:12:49.841096+05:30",
       "summary": "Squared off SENSEX bear call spread (ID 6528) as thesis failed (index above short strike). NIFTY long put (ID 6529) remains active (+117 unrealized). No new trade entered: no suitable opportunity found that avoids conflicting views and meets entry criteria. Next trigger: NIFTY put SL/TP/exit or thesis change."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T11:05:05.778806+05:30",
       "summary": "Created and started waiting SENSEX bull call spread (ATM/OTM2) 5 lots, SL 5220, TP 2494, entry scheduled 11:05. Existing bullish positions on SENSEX and NIFTY remain. Will review after entry triggers."
+    },
+    {
+      "time": "2026-10-15T11:38:30.562590+05:30",
+      "summary": "Square-off losing SENSEX bull call spreads (6590,6589,6587,6563) and NIFTY long call (6560) to cut losses. Kept winners: 6591 (10-lot bull call spread +790 unrealized), 6562 (bull call spread +162), 6558 (bull call spread +127). Next review in 30s to assess results and seek bearish opportunities per slightly bearish forecasts."
     }
   ]
 }
