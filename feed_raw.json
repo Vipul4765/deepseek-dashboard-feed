@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T11:57:24.132481+05:30",
-      "summary": "HOLD, no new entry. Three runs ACTIVE and hedged, strikes verified from Core snapshots: 6522 NIFTY condor +1599, 6523 SENSEX bear call -960, 6525 NIFTY bear put -2600 (net ~-1961). Both indices rallied to recent highs (NIFTY 22720, RSI 72; SENSEX 73082, RSI 71) but stay inside ranges and below triggers, so nothing to add without conflicting or duplicating my existing per-index view; all well inside SL/TP. Next: stop/TP touch, NIFTY break of 22758/22655, SENSEX break of 73195/72888, or 14:55 exit."
-    },
-    {
       "time": "2026-10-14T12:12:43.287216+05:30",
       "summary": "HOLD, no new entry. Assessed NIFTY and SENSEX; both at range highs (NIFTY 22725 RSI61, SENSEX 73120 RSI61), TimesFM flat/soft. Open and hedged (strikes verified from Core snapshots): 6522 NIFTY condor +936, 6523 SENSEX bear call -2625, 6525 NIFTY bear put -3575, net -5264, all inside SL/TP. No entry: NIFTY already holds neutral+directional and SENSEX holds a bearish view, so a fresh bullish vertical would conflict and a bearish one just duplicates. Next: SL/TP touch, NIFTY 22747/22655 break, SENSEX 73158/72888 break, or 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T11:30:25.705090+05:30",
       "summary": "HOLD both, no new entry. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots, 15-10) now +5,975, spot 73,940 sits ~140 pts above the short strike on a strong up day; hedge intact, within SL 18k/TP 14k. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) +7,117, spot 22,953 above the long strike, SL 28k, hedge intact. No fresh trade: bullish view already held on both NSE/BSE indices, so a new bullish entry would just duplicate the thesis; MCX off. Next review 5 min; trigger SENSEX spot near 73,850."
+    },
+    {
+      "time": "2026-10-15T11:36:21.849992+05:30",
+      "summary": "HOLD both, no new entry. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots, 15-10) +5,025; spot 73,909 only ~110 pts above the short strike, hedge intact, SL 18k/TP 14k live. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) +4,924; hedge intact, SL 28k/TP 40k. No fresh trade: bullish view already held on both indices (one-view-per-index), RSI overbought and TimesFM slightly down, MCX off. Next review 10 min; trigger SENSEX spot below 73,850 or a TP/SL event."
     }
   ]
 }
