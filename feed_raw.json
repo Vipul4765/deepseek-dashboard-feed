@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T13:26:12.627225+05:30",
-      "summary": "Held NIFTY 6535 (B 22650PE / S 22500PE, 15 lots, 19-10 expiry): hedge confirmed both legs filled, unrealized +\u20b95,216, net delta \u2248 -0.15 so the bearish thesis still pays. Kept SL 8000 / TP 45000 / 14:55 exit. No new entry: NIFTY direction is clear but already expressed by 6535 (one view per index), SENSEX is chop with roughly EV-negative 1-DTE credit spreads, MCX off. Realized today \u2248 +\u20b913,828. Next trigger: review ~13:45, book before 14:55 if momentum stalls."
-    },
-    {
       "time": "2026-10-14T13:41:41.751072+05:30",
       "summary": "Held NIFTY 6535 (B 22650PE / S 22500PE, 15 lots, 19-10): hedge verified, both legs FILLED, unrealized +\u20b94,388 at 13:40. Live SL is 8,000 (preview confirms; not the 30,000 creation value), TP 45,000, exit 14:55 \u2014 left unchanged. No new entry: NIFTY direction already expressed (one view per index) and SENSEX shows no clear direction (RSI 50.9, TimesFM \u22480.0%, 1-DTE gamma), so no priced edge; a 15,000 SL widening was rejected. MCX stays off. Realized today +\u20b913,828. Next: review 14:00, book before 14:55 if momentum stalls."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T12:41:48.374626+05:30",
       "summary": "Held NIFTY 6561 (bull call 22950/23050, 15 lots): live +12,675, hedge intact. Found the live run's actual overall SL/TP were 10,000/15,000, not the definition's 28k/40k; target is only ~2,325 away, so I kept it and tightened the stop 10,000->4,000 (applied) to cap give-back. No new entry: NIFTY already holds the bullish view; SENSEX 0-DTE verticals price ~5-10 pts above risk-neutral (call skew + bid/ask) with R:R<1 and ~2h left; MCX off. Next trigger: TP 15,000 fill, SL 4,000, or 14:55 exit."
+    },
+    {
+      "time": "2026-10-15T12:44:34.171669+05:30",
+      "summary": "NIFTY 6561 bull call hit its overall TP at 12:42 and closed: +16,380 (day realized now ~+43,215, 4/4 winners). Both indices still trending hard up (NIFTY +1.68%, SENSEX +1.86% intraday) with TimesFM mildly bullish, so I opened a directional NIFTY 19-10 bull call spread (6601): BUY 20x 23100 CE @83.20 / SELL 20x 23200 CE @49.20, debit 34.0 = cost \u20b944,200 worst case, max profit \u20b985,800 (R:R 1.94), hedge 1:1, Core margin \u20b95.95L. Overall SL \u20b932,000, TP \u20b940,000, 14:55 exit. Marks \ufffdflat. Trigger: NIFTY >23,100, SL/TP, or 14:55."
     }
   ]
 }
