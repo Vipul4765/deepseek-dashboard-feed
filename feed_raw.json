@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T09:51:07.036544+05:30",
-      "summary": "Sought a fresh directional entry on NIFTY/SENSEX. NIFTY 22735 (RSI 71, overbought) after a strong rally; SENSEX 73138. TimesFM medians slightly negative (NIFTY -0.08%, only 3/10 deciles above last), so direction is mixed and a bull spread would chase an extended move \u2014 no new trade this cycle (blocker: no clear direction). Hedges confirmed: 6523 short 73300CE/long 73400CE 15 lots, -2310; 6522 19-10 iron condor 12 lots, -1014; both well inside stops. Next review 20 min, or on stop/target/exit by 14:55."
-    },
-    {
       "time": "2026-10-14T10:07:00.285045+05:30",
       "summary": "Took NIFTY directional (boss's ask): created/started 6525 bear put spread, expiry 19-10, BUY 10x ATM PE / SELL 10x OTM-2 PE. Debit ~\u20b919.4k = defined worst-case loss (\u2248\u20b926k); margin est ~\u20b90.39M; overall SL \u20b918k, TP \u20b928k, exit 14:55. Thesis: both indices rejected 120-bar highs (NIFTY 22758, SENSEX 73195), price below SMA20/50, RSI 37/30, TimesFM tilt negative. No SENSEX add (one view). Existing 6523 bear call \u2212\u20b9930, 6522 condor +\u20b9117, hedges intact. Next: verify 6525 fill at 10:12."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T10:28:16.683218+05:30",
       "summary": "Held both positions; no new trade. 6559 SENSEX 0DTE bull call (BUY 73900 CE/SELL 74000 CE, 20 lots, hedged, SL \u20b912k/TP \u20b917k) at \u2212\u20b9300. 6561 NIFTY 4DTE bull call (BUY 22950 CE @110.95/SELL 23050 CE @69.35, 15 lots, hedged, SL \u20b928k/TP \u20b940k) at +\u20b9244. Both confirmed ACTIVE, one bullish view per index, consistent with NIFTY/SENSEX above SMA20/50. No room for a distinct NIFTY structure without opposing the held bull call. Next review in 600s to watch SENSEX 0DTE theta."
+    },
+    {
+      "time": "2026-10-15T10:38:22.479288+05:30",
+      "summary": "HOLD. Both live, hedged bull calls fresh-verified: 6561 NIFTY 4DTE (BUY 22950 CE/SELL 23050 CE, 15 lots) +\u20b92,291; 6559 SENSEX 0DTE (BUY 73900 CE/SELL 74000 CE, 20 lots) +\u20b91,460. NIFTY 22,915 and SENSEX 73,804 above SMA20/50, momentum up, consistent with held view; MCX off, NIFTY/SENSEX direction already expressed, so no non-duplicating candidate. No stops/targets hit, hedges intact. Next review in 600s to manage SENSEX 0DTE theta into the 14:55 exit."
     }
   ]
 }
