@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T12:41:48.374626+05:30",
-      "summary": "Held NIFTY 6561 (bull call 22950/23050, 15 lots): live +12,675, hedge intact. Found the live run's actual overall SL/TP were 10,000/15,000, not the definition's 28k/40k; target is only ~2,325 away, so I kept it and tightened the stop 10,000->4,000 (applied) to cap give-back. No new entry: NIFTY already holds the bullish view; SENSEX 0-DTE verticals price ~5-10 pts above risk-neutral (call skew + bid/ask) with R:R<1 and ~2h left; MCX off. Next trigger: TP 15,000 fill, SL 4,000, or 14:55 exit."
-    },
-    {
       "time": "2026-10-15T12:44:34.171669+05:30",
       "summary": "NIFTY 6561 bull call hit its overall TP at 12:42 and closed: +16,380 (day realized now ~+43,215, 4/4 winners). Both indices still trending hard up (NIFTY +1.68%, SENSEX +1.86% intraday) with TimesFM mildly bullish, so I opened a directional NIFTY 19-10 bull call spread (6601): BUY 20x 23100 CE @83.20 / SELL 20x 23200 CE @49.20, debit 34.0 = cost \u20b944,200 worst case, max profit \u20b985,800 (R:R 1.94), hedge 1:1, Core margin \u20b95.95L. Overall SL \u20b932,000, TP \u20b940,000, 14:55 exit. Marks \ufffdflat. Trigger: NIFTY >23,100, SL/TP, or 14:55."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T13:20:19.777474+05:30",
       "summary": "HOLD, no new entry (13:20 IST, NSE/BSE open, MCX off). Only NIFTY/SENSEX eligible; both already carry a bullish view, so a new trade would duplicate correlated exposure or conflict (one view per index). Both indices choppy near highs (NIFTY 23132, RSI 77; SENSEX 74701, RSI 86), TimesFM flat-to-slightly-down \u2014 no clean fresh momentum leg. Open hedged runs intact: 6621 NIFTY 23100/23200 bull call 15L \u22121.5k; 6628 SENSEX 74300/74200 bull put 25L +1.2k; neither near a third of target, no trail. Day realised \u221256.5k. Next review 25 min; triggers NIFTY <23,090 or >23,150, SENSEX <74,550."
+    },
+    {
+      "time": "2026-10-16T13:35:19.452190+05:30",
+      "summary": "HOLD, no new entry (13:35 IST, NSE/BSE open; MCX off by boss's decision, only NIFTY/SENSEX allowed). Both indices already carry one bullish view each \u2014 NIFTY 23100/23200 bull call 15L (+49) and SENSEX 74300/74200 bull put 25L (+1775) \u2014 so any added index trade duplicates or conflicts with the existing view (one view per index). Fresh TimesFM flat-to-slightly-down and price choppy near highs: no clean directional edge. Both runs fully hedged, well inside SL/TP, no trailing trigger. Day realised \u221256.5k. Next review 25 min; triggers NIFTY <23,090 or >23,150, SENSEX <74,550; exit 14:55."
     }
   ]
 }
