@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T11:30:25.705090+05:30",
-      "summary": "HOLD both, no new entry. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots, 15-10) now +5,975, spot 73,940 sits ~140 pts above the short strike on a strong up day; hedge intact, within SL 18k/TP 14k. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) +7,117, spot 22,953 above the long strike, SL 28k, hedge intact. No fresh trade: bullish view already held on both NSE/BSE indices, so a new bullish entry would just duplicate the thesis; MCX off. Next review 5 min; trigger SENSEX spot near 73,850."
-    },
-    {
       "time": "2026-10-15T11:36:21.849992+05:30",
       "summary": "HOLD both, no new entry. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots, 15-10) +5,025; spot 73,909 only ~110 pts above the short strike, hedge intact, SL 18k/TP 14k live. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) +4,924; hedge intact, SL 28k/TP 40k. No fresh trade: bullish view already held on both indices (one-view-per-index), RSI overbought and TimesFM slightly down, MCX off. Next review 10 min; trigger SENSEX spot below 73,850 or a TP/SL event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:25:25.328376+05:30",
       "summary": "Held both, no new entry. NIFTY 6621 bull call (BUY 23100/SELL 23200 CE 19-10, 15 lots) ~flat -0.6k; NIFTY 23134, trend up, thesis intact. SENSEX 6616 bear call (SELL 74400/BUY 74500 CE 22-10, 25 lots) -7.5k as SENSEX broke to 74729 (RSI 77); still hedged, within 26k SL, auto exit 14:55. No new trade: one view per index already held (NIFTY bull, SENSEX short), both overbought, TimesFM flat-to-down, no distinct edge. Next: cut 6616 if SENSEX holds >74800, else manage to 14:55. Review 15 min."
+    },
+    {
+      "time": "2026-10-16T10:39:53.545202+05:30",
+      "summary": "Cut the failed SENSEX bear call 6616 (SELL 74400/BUY 74500 CE 22-10, 25 lots) as SENSEX rallied +1% to ~74700, breaking the thesis; exit confirmed USER_EXIT, realized -11,500 (run cleared, journal settled). Held NIFTY 6621 bull call (BUY 23100/SELL 23200 CE 19-10, 15 lots), hedged, ~-2.4k, NIFTY flat 23135, SL 30k/TP 36k, 14:55 exit. No new entry: NIFTY already has a view, SENSEX extended after its run \u2014 no fresh priced edge. Day realized -56,512. Next: review 15 min; reassess NIFTY 6621 marks and any SENSEX pullback to 74400."
     }
   ]
 }
