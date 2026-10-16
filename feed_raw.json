@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T11:21:08.502155+05:30",
-      "summary": "HOLD both. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots) is ITM at spot ~73746 but sits at its ~73739 intrinsic breakeven; marked -11,325, yet overall SL 18,000 caps further loss to ~6.7k while TP 14,000 leaves recovery room and RSI ~24 is oversold \u2014 so no panic cut. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) marked -2,145, thesis intact, SL 28k. No new trade: bullish view already held on both indices (one-view rule), MCX off. Both hedges intact. Next review 5 min; key trigger SENSEX stop near spot 73,703."
-    },
-    {
       "time": "2026-10-15T11:25:56.230356+05:30",
       "summary": "HOLD both, no new entry. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots) marked -5,925; spot 73,809 above the 73,800 short strike and ~106 pts above its ~73,703 stop trigger, on a strong up day where 0-DTE theta favors the seller \u2014 hold within SL 18k/TP 14k, hedge intact. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) marked +244, thesis intact, SL 28k. No trade: bullish view already held on both indices (one-view rule), no fresh non-conflicting edge, low IV, MCX off. Next review 5 min; trigger SENSEX spot near 73,703."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:17:37.827903+05:30",
       "summary": "Held both, no new entry. 6614 NIFTY bear put (long 22950/short 22850 PE 19-10, 25 lots) \u221238.9k vs 45k SL: NIFTY 23108 (RSI 90, day highs), only ~6k defined downside left, so SL bounds it. 6616 SENSEX bear call (short 74400/long 74500 CE 22-10, 25 lots) \u22129.5k vs 26k SL, 6 DTE. TimesFM still flat-to-slightly-down, so bearish theses not invalidated; a bull add would conflict with both held views. Next review 10 min or on NIFTY stop hit / >23150."
+    },
+    {
+      "time": "2026-10-16T10:23:38.985305+05:30",
+      "summary": "6614 NIFTY bear put hit its overall SL at 10:18 (-45,013) as NIFTY ran to 23142; run archived, flat. Per the clear recent upward move I opened NIFTY bull call spread 6621: BUY 23100 CE / SELL 23200 CE 19-10-2026, 15 lots, filled 125.00/78.05 (debit 46.95, worst case \u20b945.8k, max profit \u20b951.7k), SL 30k, TP 36k, exit 14:55. Holding SENSEX 6616 bear call (short 74400/long 74500 CE), -11.2k vs 26k SL; no second view on SENSEX. Next review 10 min or on any stop/exit event."
     }
   ]
 }
