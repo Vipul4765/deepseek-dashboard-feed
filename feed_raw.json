@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T13:54:49.906142+05:30",
-      "summary": "NSE/BSE open, day realized +43,215 (4/4 wins). Squared off SENSEX 6602 0DTE bull call 74200/74500 (25x, fills 147/47.9) to bank ~+13,600 unrealized before last-hour 0DTE extrinsic decay; exit fills not yet confirmed (unverified). Held NIFTY 6601 19-10 bull call 23100/23200 (20x, fills 83.2/49.2, ~+4,615) to its 14:55 auto-exit \u2014 no decay urgency, one bullish view per index intact. No new entry: both indices already carry their single directional view; MCX off. Next review ~20min; trigger 14:55 or stop."
-    },
-    {
       "time": "2026-10-15T13:56:03.717412+05:30",
       "summary": "HOLD, no new entry. NSE/BSE open; day realized +55,815 (5/5), SENSEX 6602 confirmed closed +12,600. Only open run: NIFTY 6601 19-10 bull call 23100/23200 20x (fills 83.2/49.2), ~+4,550, hedged, auto-exit 14:55 \u2014 kept running (target far, no decay urgency). Assessed new entries: NIFTY would duplicate the existing bullish view (one view per index); SENSEX's only eligible expiry is today's 0DTE with ~60min to the mandated 14:55 exit, IV 30.6%, spot at range high, RSI 49 and a wide TimesFM band \u2014 no fresh directional edge to justify the premium/gamma risk. Next review ~14:20 or on the 14:55 exit/stop."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T14:55:10.921993+05:30",
       "summary": "HOLD. Both open runs settled at the 14:55 index exit: 6621 NIFTY 23100/23200 bull call closed -5,557.50 (RUN_DONE, L2 exit 46.90), 6628 SENSEX 74300/74200 bull put closed +325.00 (RUN_DONE, L1 333.30 / L2 298.15). Flat now \u2014 no open legs, no margin reserved, no hedges to repair. No new entry: it is 14:55, past the index exit time, so any fill would have seconds of life. MCX off. Day realised \u2248 -61,745 (journal -56,512.50 plus these two). Next review in 30 min only for bookkeeping; no trade trigger pending."
+    },
+    {
+      "time": "2026-10-16T14:56:20.960028+05:30",
+      "summary": "HOLD. Flat: 6621 NIFTY 23100/23200 bull call settled -5,557.50 and 6628 SENSEX 74300/74200 bull put +325.00 at the 14:55 index exit; no open legs, no margin reserved, hedges intact through exit. Day realised -61,745 (4 trades, 1 win). No new entry: 14:56 is past the index exit/entry window and MCX is off, so any fill would have no life. Next review in 30 min for bookkeeping; no trade trigger pending."
     }
   ]
 }
