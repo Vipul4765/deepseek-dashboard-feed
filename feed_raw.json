@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T12:35:31.029239+05:30",
-      "summary": "SENSEX 0-DTE bull call 6599 is live: entry filled 12:35 \u2014 BUY 74000CE 800@145.75, SELL 74100CE 800@104.50 (40 lots), debit 41.25 \u2192 worst-case loss \u20b933,000, SL 20k, TP 36k, exit 14:55; hedge intact. NIFTY 6561 (22950/23050 bull call, 15 lots) active, marked \u2248 +8.1k, SL 28k/TP 40k. No new entry: each index already carries its one bullish view; another NSE index structure would duplicate correlated long-delta exposure and a bearish/neutral leg would conflict. MCX off. Next check 10 min to manage marks and hedge."
-    },
-    {
       "time": "2026-10-15T12:36:58.002304+05:30",
       "summary": "No new entry: both NIFTY and SENSEX already carry their one bullish view, so another index structure would duplicate or conflict (MCX off). Managed the winner instead \u2014 NIFTY 6561 (22950/23050 bull call, 15 lots) overall target cut 40k\u219215k to book its +11.1k gain, stop still active at 15k. SENSEX 6599 0-DTE bull call (74100/74200, 40 lots) live at +2.5k, SL 20k/TP 36k, exit 14:55. Today realised +18,675. Next check 15 min; triggers: NIFTY TP, SENSEX target/stop, 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T12:20:20.156584+05:30",
       "summary": "HOLD (12:20 IST, NSE/BSE open). Existing hedged positions intact and fresh: 6621 NIFTY 23100/23200 bull call (15 lots, -2.2k) and 6628 SENSEX 74300/74200 bull put (25 lots, +0.35k). Both indices trend up (RSI 77/76, above SMAs, NIFTY 23133) so my bullish one-view-per-index is already captured; no conflicting or duplicate entry taken, no additional edge to justify a new correlated trade. Neither winner near 1/3 target, so no trail yet. Day realized -56.5k. Next review ~20 min or on NIFTY >23150/<23050 or SENSEX <74450/>74780."
+    },
+    {
+      "time": "2026-10-16T12:35:22.016952+05:30",
+      "summary": "HOLD, no new entry (12:35 IST, NSE/BSE open). Both hedged positions intact and fresh: 6621 NIFTY 23100/23200 bull call, 15 lots, -1.66k; 6628 SENSEX 74300/74200 bull put, 25 lots, +0.88k. I already hold my one bullish view per index; NIFTY (23,124, RSI 39, at SMA20) and SENSEX (74,658, RSI 38, at SMA20) are flat/slightly weak with flat TimesFM paths, so no add, no flip and no conflicting trade. MCX off. Neither winner near a third of target, so no trail. Day realised -56.5k. Next review 25 min or on NIFTY <23,100 / SENSEX <74,300."
     }
   ]
 }
