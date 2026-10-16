@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T10:51:34.767181+05:30",
-      "summary": "Created and started SENSEX 0-DTE bull put spread (6586): SELL 73700PE / BUY 73500PE, 25 lots, expiry 15-10-2026, credit ~44.5/lot, defined worst-case ~\u20b927,750, overall SL 18000 / TP 14000 / 14:55 exit; enters 11:00 (only first SENSEX expiry eligible). Thesis: SENSEX +2% uptrend, RSI 78, 27% 0-DTE IV favours premium selling with a bullish bias. Held NIFTY 4-DTE bull call (6561, +\u20b95,996, hedge intact, SL 28000/TP 40000 unchanged). No NIFTY add (same view already held). Next check ~11 min to confirm fill/strikes."
-    },
-    {
       "time": "2026-10-15T11:01:00.551182+05:30",
       "summary": "HOLD both. Verified fills: SENSEX 6586 short 73800PE @163.85 / long 73600PE @103.20 (25 lots, 0-DTE, credit 60.65); NIFTY 6561 long 22950CE @110.95 / short 23050CE @69.35 (15 lots, 19-10). Both hedged/defined-risk. Marks: SENSEX +525, NIFTY +4485; booked +4500 (6559). No new entry: both index views already bullish \u2014 a third would duplicate correlated exposure. Stops/TPs unchanged (6586 SL18000/TP14000, 6561 SL28000/TP40000), 14:55 exit. Next review ~10 min to watch the 0-DTE put's ~250pt stop buffer."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T09:43:39.745245+05:30",
       "summary": "Assessed NIFTY/SENSEX (both open, gap-up then fade, VIX +2.4%, TimesFM mildly down). Held NIFTY bear put 6614 (both legs filled, unrealized -569, SL 45k/TP 55k/14:55 intact, no edit). Created and started 6616: SENSEX 22-10 bear call spread, SELL 25x otm_3 (~74500 CE) / BUY 25x otm_4 (~74600 CE), short above the day's 74504 rejection high; expected credit ~36/unit, defined worst-case ~\u20b931.8k, overall SL 26k, TP 15k, exit 14:55. Entry pending (09:47) \u2014 next review to confirm fills and hedge."
+    },
+    {
+      "time": "2026-10-16T09:46:17.459414+05:30",
+      "summary": "Both indices gapped up, faded ~1.5%, then recovered ~40% of the drop; RSI 56-59, above SMAs, TimesFM mildly down \u2014 no fresh clear direction. NIFTY bear put 6614 active: 25x 22950/22850 PE (19-10), both legs filled, unrealized -1869, SL45k/TP55k/14:55 intact, no edit needed. SENSEX bear call 6616 (25x 74500/74600 CE 22-10) entry at 09:47 still pending, no run yet. No new trade: both indices already carry a bearish view, so adding would only duplicate correlated exposure. Next trigger 09:48 \u2014 confirm 6616 fills/hedge."
     }
   ]
 }
