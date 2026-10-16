@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T13:25:50.355952+05:30",
-      "summary": "HOLD. NSE/BSE open 13:23; day realized +43,215 (4/4 wins). Two open hedged bullish views, both verified from run events: NIFTY 6601 19-10 bull call 23100/23200 20x (fills 83.2/49.2, unreal +65, SL32k/TP40k) and SENSEX 6602 0DTE bull call 74200/74500 25x (fills 147/47.9, unreal -2150, SL50k/TP70k). Both legs FILLED 1:1 same type/expiry \u2014 no naked short. Every index already carries one bullish view (one-view rule) and price action is flat (NIFTY RSI40/sma flat, SENSEX RSI43.5, TimesFM ~flat), so no new or correlated entry; nothing in profit to book. MCX off. Budget 0.63/0.80 used. Next review 25 min, or on SL/TP/14:55 exit."
-    },
-    {
-      "time": "2026-10-15T13:39:59.517705+05:30",
-      "summary": "HOLD, no new entry. NSE/BSE open; day realized +43,215 (4/4 wins). Two live hedged bullish spreads verified from run events: SENSEX 6602 0DTE bull call 74200/74500 25x (fills 147/47.9), unreal +20,425, TP70k; NIFTY 6601 19-10 bull call 23100/23200 20x (fills 83.2/49.2), unreal +7,280, TP40k. Each index already holds its one allowed bullish view; MCX off; trending tape (RSI 77-79) rules out a neutral condor, so no non-conflicting candidate. Near expiry a tighter stop would sit ~60 SENSEX pts below spot and stop the winner on noise, so left TP/defined-risk stop intact. Next trigger: TP/SL hit or 14:55 exit."
-    },
-    {
       "time": "2026-10-15T13:54:49.906142+05:30",
       "summary": "NSE/BSE open, day realized +43,215 (4/4 wins). Squared off SENSEX 6602 0DTE bull call 74200/74500 (25x, fills 147/47.9) to bank ~+13,600 unrealized before last-hour 0DTE extrinsic decay; exit fills not yet confirmed (unverified). Held NIFTY 6601 19-10 bull call 23100/23200 (20x, fills 83.2/49.2, ~+4,615) to its 14:55 auto-exit \u2014 no decay urgency, one bullish view per index intact. No new entry: both indices already carry their single directional view; MCX off. Next review ~20min; trigger 14:55 or stop."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-16T14:39:11.488792+05:30",
       "summary": "HOLD (14:38 IST; NSE/BSE open, ~16 min to the 14:55 index exit). Both runs ACTIVE, hedged, fresh marks: NIFTY 23100/23200 bull call 15L at -9.75k (SL 30k/TP 36k) and SENSEX 74300/74200 bull put 25L at -0.9k (SL 30k/TP 18k); neither near SL/TP nor the 1/3 trailing trigger, so no edit. One bullish view per index already held, so no new entry; a fresh start with ~15 min of life adds only cost. Tape drifts mildly lower (NIFTY 23079 RSI 44, SENSEX 74538 RSI 42; TimesFM near-flat). Day realised -56.5k. Budget 0.50/0.80. Next review ~14:53 to confirm the auto exits."
+    },
+    {
+      "time": "2026-10-16T14:54:07.309773+05:30",
+      "summary": "HOLD (14:54 IST; NSE/BSE open, ~1 min to the 14:55 index exit). Both runs ACTIVE and hedged: 6621 NIFTY 23100/23200 bull call 15L at -5,947.50 (SL 30k/TP 36k) and 6628 SENSEX 74300/74200 bull put 25L at +900 (SL 30k/TP 18k); neither near SL/TP nor a trailing trigger, so no edit. One bullish view per index already held, so no new entry \u2014 a start now would live only seconds to the exit. No MCX. Day realised -56,512.50. Next review in 3 min to confirm both auto exits settled."
+    },
+    {
+      "time": "2026-10-16T14:55:10.921993+05:30",
+      "summary": "HOLD. Both open runs settled at the 14:55 index exit: 6621 NIFTY 23100/23200 bull call closed -5,557.50 (RUN_DONE, L2 exit 46.90), 6628 SENSEX 74300/74200 bull put closed +325.00 (RUN_DONE, L1 333.30 / L2 298.15). Flat now \u2014 no open legs, no margin reserved, no hedges to repair. No new entry: it is 14:55, past the index exit time, so any fill would have seconds of life. MCX off. Day realised \u2248 -61,745 (journal -56,512.50 plus these two). Next review in 30 min only for bookkeeping; no trade trigger pending."
     }
   ]
 }
