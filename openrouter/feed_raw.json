@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T14:29:13.173106+05:30",
-      "summary": "Created and started NIFTY iron condor (short put 22500, long put 22400, short call 22650, long call 22750) expiry 19 Oct, net credit ~187.95/share. Existing positions: NIFTY long put +3237 unrealized, SENSEX bear call spreads +108,+51,+91, bear put spread +343. Market open, slightly bullish forecast but choppy price action; adding neutral condor to capitalize on time decay and range-bound movement. Next review in 60s to check entry and P&L."
-    },
-    {
       "time": "2026-10-14T14:52:06.150378+05:30",
       "summary": "HOLD: 6 active positions (NIFTY iron condor 6544, SENSEX bear call spreads 6542,6538,6533,6532, NIFTY long put 6539) approaching exit at 14:55. No new trades due to time constraints. Rely on automatic exit times set in strategies. Next review in 60s to check status."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:26:38.890390+05:30",
       "summary": "Squared off NIFTY iron condor 6618 for +\u20b9243.75 P&L. Created/started new NIFTY iron condor 6619 (23050-23000-23150-23200 Oct19 5lot, SL \u20b95000, TP \u20b915000). Squared off SENSEX bear put spread 6617 and created/started new SENSEX bear put spread 6620 (74400-74200 Oct22 1lot, SL \u20b9800, TP \u20b91200). Both new strategies open. Next review in 60s to monitor P&L and consider trailing stops if profits reach ~1/3 of targets."
+    },
+    {
+      "time": "2026-10-16T10:32:12.262152+05:30",
+      "summary": "Created and started three new bearish positions: SENSEX bear call spread ATM-OTM1 1lot (6623), SENSEX bear call spread ATM-OTM1 5lot (6624), and NIFTY long put ATM 1lot (6625). Existing open runs: NIFTY butterfly 6622 (+162.5 unrealized) and SENSEX bear put spread 6620 (+60 unrealized). Today's realized P&L is -6,880.25. Next review in 60s to check P&L, consider trailing stops if unrealized profit reaches ~1/3 of targets, and manage any thesis changes."
     }
   ]
 }
