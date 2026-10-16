@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T14:24:13.913385+05:30",
-      "summary": "Created and started SENSEX bear call spread 72700-72800 (ITM1/OTM1) expiry 15 Oct, net credit ~1079, max loss ~921. Existing positions: NIFTY long put +3237 unrealized, SENSEX bear put spread +343, bear call spreads +108,+51,+91. Market open, bearish outlook confirmed by price action and TimesFM. Next review in 60s to monitor entry and P&L."
-    },
-    {
       "time": "2026-10-14T14:29:13.173106+05:30",
       "summary": "Created and started NIFTY iron condor (short put 22500, long put 22400, short call 22650, long call 22750) expiry 19 Oct, net credit ~187.95/share. Existing positions: NIFTY long put +3237 unrealized, SENSEX bear call spreads +108,+51,+91, bear put spread +343. Market open, slightly bullish forecast but choppy price action; adding neutral condor to capitalize on time decay and range-bound movement. Next review in 60s to check entry and P&L."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-16T10:20:18.765917+05:30",
+      "summary": "Squared off NIFTY iron condor 6618 for +\u20b9243.75 P&L. Created/started new NIFTY iron condor 6619 (23050-23000-23150-23200 Oct19 5lot, SL \u20b95000, TP \u20b915000). Squared off SENSEX bear put spread 6617 and created/started new SENSEX bear put spread 6620 (74400-74200 Oct22 1lot, SL \u20b9800, TP \u20b91200). Both new strategies open. Next review in 60s to monitor P&L and consider trailing stops if profits reach ~1/3 of targets."
+    },
+    {
+      "time": "2026-10-16T10:26:38.890390+05:30",
       "summary": "Squared off NIFTY iron condor 6618 for +\u20b9243.75 P&L. Created/started new NIFTY iron condor 6619 (23050-23000-23150-23200 Oct19 5lot, SL \u20b95000, TP \u20b915000). Squared off SENSEX bear put spread 6617 and created/started new SENSEX bear put spread 6620 (74400-74200 Oct22 1lot, SL \u20b9800, TP \u20b91200). Both new strategies open. Next review in 60s to monitor P&L and consider trailing stops if profits reach ~1/3 of targets."
     }
   ]
