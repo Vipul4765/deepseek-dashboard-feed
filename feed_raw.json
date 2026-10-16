@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T12:33:54.780720+05:30",
-      "summary": "Booked earlier SENSEX 6586 at TP (+14,175); today now +18,675. Held NIFTY 6561 (19-10 bull call 22950/23050, 15 lots), now ~+8,140, hedge intact, SL 28k/TP 40k. Opened a new directional SENSEX 0-DTE bull call (6599): BUY 40x 74000CE / SELL 40x 74100CE, debit ~46.8/unit, max loss ~\u20b937,400 (SL 20k), target 36k, exit 14:55 \u2014 trend day, spot 74,010 above both SMAs, RSI 68.7. One bullish view per index; MCX off. Start is waiting; next check 2 min to verify fill and hedge."
-    },
-    {
       "time": "2026-10-15T12:35:31.029239+05:30",
       "summary": "SENSEX 0-DTE bull call 6599 is live: entry filled 12:35 \u2014 BUY 74000CE 800@145.75, SELL 74100CE 800@104.50 (40 lots), debit 41.25 \u2192 worst-case loss \u20b933,000, SL 20k, TP 36k, exit 14:55; hedge intact. NIFTY 6561 (22950/23050 bull call, 15 lots) active, marked \u2248 +8.1k, SL 28k/TP 40k. No new entry: each index already carries its one bullish view; another NSE index structure would duplicate correlated long-delta exposure and a bearish/neutral leg would conflict. MCX off. Next check 10 min to manage marks and hedge."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T12:05:27.611165+05:30",
       "summary": "HOLD, no new entry (12:05 IST, NSE/BSE open). Eligible NIFTY/SENSEX only (MCX off). I already hold one bullish view per index with verified hedges: 6621 NIFTY 23100/23200 bull call -6.3k, 6628 SENSEX 74300/74200 bull put -0.3k. A new directional trade would duplicate or conflict (one view per index); tape is choppy-soft (NIFTY 23106, RSI 36, below SMAs; SENSEX 74610, RSI 44.5; TimesFM ~flat) so no fresh edge and a condor lacks an edge with short strikes near spot. Neither winner near 1/3 target, so no trail. Today realized -56.5k. Reassess on NIFTY >23150/<23050 or SENSEX <74450/>74780; next review ~25 min."
+    },
+    {
+      "time": "2026-10-16T12:20:20.156584+05:30",
+      "summary": "HOLD (12:20 IST, NSE/BSE open). Existing hedged positions intact and fresh: 6621 NIFTY 23100/23200 bull call (15 lots, -2.2k) and 6628 SENSEX 74300/74200 bull put (25 lots, +0.35k). Both indices trend up (RSI 77/76, above SMAs, NIFTY 23133) so my bullish one-view-per-index is already captured; no conflicting or duplicate entry taken, no additional edge to justify a new correlated trade. Neither winner near 1/3 target, so no trail yet. Day realized -56.5k. Next review ~20 min or on NIFTY >23150/<23050 or SENSEX <74450/>74780."
     }
   ]
 }
