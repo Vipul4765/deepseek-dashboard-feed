@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T11:15:40.498871+05:30",
-      "summary": "HOLD. Both hedged positions live and healthy: NIFTY 6561 bull call (BUY 22950CE/SELL 23050CE, 15 lots, 19-10) marked +2,681; SENSEX 6586 0-DTE bull put (SELL 73800PE@163.85/BUY 73600PE@103.20, 25 lots, credit 60.65) marked -700, spot 73854. Booked +4,500 on 6559. No new entry: both indices already carry a bullish view, so a third trade would duplicate correlated exposure (one-view rule). SENSEX 0-DTE short strike only ~54pts away is the key risk; overall SL 18000 and 14:55 exit guard it. Next review 5 min."
-    },
-    {
       "time": "2026-10-15T11:21:08.502155+05:30",
       "summary": "HOLD both. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots) is ITM at spot ~73746 but sits at its ~73739 intrinsic breakeven; marked -11,325, yet overall SL 18,000 caps further loss to ~6.7k while TP 14,000 leaves recovery room and RSI ~24 is oversold \u2014 so no panic cut. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) marked -2,145, thesis intact, SL 28k. No new trade: bullish view already held on both indices (one-view rule), MCX off. Both hedges intact. Next review 5 min; key trigger SENSEX stop near spot 73,703."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:02:40.049293+05:30",
       "summary": "Hold both. 6614 NIFTY bear put (long 22950/short 22850 PE 19-10, 25 lots) \u221223.6k unreal; 6616 SENSEX bear call (short 74400/long 74500 CE 22-10, 25 lots) \u22123.9k. Both hedged, SLs 45k/26k and 14:55 exits intact. NIFTY/SENSEX overbought (RSI 84/88) at day highs; TimesFM flat-to-slightly-down supports the bearish legs and gives no fresh directional edge \u2014 a bull add would conflict with the views already held, so no new trade. Next review ~10:17, or earlier on a stop hit / NIFTY \u226523,160."
+    },
+    {
+      "time": "2026-10-16T10:17:37.827903+05:30",
+      "summary": "Held both, no new entry. 6614 NIFTY bear put (long 22950/short 22850 PE 19-10, 25 lots) \u221238.9k vs 45k SL: NIFTY 23108 (RSI 90, day highs), only ~6k defined downside left, so SL bounds it. 6616 SENSEX bear call (short 74400/long 74500 CE 22-10, 25 lots) \u22129.5k vs 26k SL, 6 DTE. TimesFM still flat-to-slightly-down, so bearish theses not invalidated; a bull add would conflict with both held views. Next review 10 min or on NIFTY stop hit / >23150."
     }
   ]
 }
