@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T11:10:24.751251+05:30",
-      "summary": "HOLD. Two hedged positions live: SENSEX 6586 0-DTE bull put (SELL 73800PE @163.85 / BUY 73600PE @103.20, 25 lots, credit 60.65) marked -2,125; NIFTY 6561 bull call (BUY 22950CE @110.95 / SELL 23050CE @69.35, 15 lots, 19-10) marked +1,999. Booked +4,500 on 6559. No new entry: both index views already bullish, a third would duplicate correlated exposure (one-view rule). SENSEX spot 73835 is only ~35pts above the short strike; overall SL 18000 (~73760) and 14:55 exit guard it. Next review in 5 min."
-    },
-    {
       "time": "2026-10-15T11:15:40.498871+05:30",
       "summary": "HOLD. Both hedged positions live and healthy: NIFTY 6561 bull call (BUY 22950CE/SELL 23050CE, 15 lots, 19-10) marked +2,681; SENSEX 6586 0-DTE bull put (SELL 73800PE@163.85/BUY 73600PE@103.20, 25 lots, credit 60.65) marked -700, spot 73854. Booked +4,500 on 6559. No new entry: both indices already carry a bullish view, so a third trade would duplicate correlated exposure (one-view rule). SENSEX 0-DTE short strike only ~54pts away is the key risk; overall SL 18000 and 14:55 exit guard it. Next review 5 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T09:47:29.180820+05:30",
       "summary": "HOLD \u2014 no new trade. NIFTY 6614 (BUY 22950/SELL 22850 PE 19-10, 25 lots) filled, unreal \u22123,900; SENSEX 6616 (SELL 74400/BUY 74500 CE 22-10, 25 lots) both legs filled, unreal \u22121,725. Hedges intact, SL/TP/14:55 exits unchanged. Both indices gapped up, faded, then recovered ~40% \u2014 RSI 59/64, TimesFM flat, no fresh direction. I already hold a bearish view on each index, so a same-direction add duplicates thesis and a SENSEX condor is both overlapping and bar-blocked (25% win, \u221211,706). Reassess 09:47+15m, or on NIFTY \u226523,050 / \u226422,900."
+    },
+    {
+      "time": "2026-10-16T10:02:40.049293+05:30",
+      "summary": "Hold both. 6614 NIFTY bear put (long 22950/short 22850 PE 19-10, 25 lots) \u221223.6k unreal; 6616 SENSEX bear call (short 74400/long 74500 CE 22-10, 25 lots) \u22123.9k. Both hedged, SLs 45k/26k and 14:55 exits intact. NIFTY/SENSEX overbought (RSI 84/88) at day highs; TimesFM flat-to-slightly-down supports the bearish legs and gives no fresh directional edge \u2014 a bull add would conflict with the views already held, so no new trade. Next review ~10:17, or earlier on a stop hit / NIFTY \u226523,160."
     }
   ]
 }
