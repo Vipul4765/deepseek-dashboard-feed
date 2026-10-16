@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T10:12:31.448624+05:30",
-      "summary": "Created SENSEX bear call spread 73600-73800 OTM2 (3 lots) with entry at 10:05, exit 14:55, SL 2000, TP 1500. NIFTY 2-leg blocked due to poor performance. Waiting for entry to fill."
-    },
-    {
       "time": "2026-10-15T10:18:58.873613+05:30",
       "summary": "Created SENSEX bear call spread 73600-73800 OTM2 (3 lots) with entry at 10:05, exit 14:55, SL 2000, TP 1500. NIFTY 2-leg blocked due to poor performance. Waiting for entry to fill."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T12:48:57.901299+05:30",
       "summary": "Currently holding two SENSEX bear put spreads (6635:20 lots, 6637:30 lots) with unrealized losses of \u20b9480 and \u20b91,140. Underlying at 74694.51. Waiting for underlying to fall to 74692.61 (breakeven) or rise to 74700 (stop loss trigger) to manage risk. Set review in 60 seconds to reassess."
+    },
+    {
+      "time": "2026-10-16T15:13:17.277370+05:30",
+      "summary": "Market open but past index exit time (14:55 IST). No open positions. No new trades entered today as per exit rule. Awaiting next session."
     }
   ]
 }
