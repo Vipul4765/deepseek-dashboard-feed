@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T12:18:59.647253+05:30",
-      "summary": "HOLD both, no edits, no new entry. SENSEX 6586 (0-DTE bull put 73800/73600PE, 25 lots) +10,350; hedge intact, spot ~73,984 gives ~180pt cushion above the short strike, theta and forecast (flat ~73,950) both favorable; TP 14,000/SL 18,000, exit 14:55. NIFTY 6561 (19-10 bull call 22950/23050, 15 lots) +7,458, hedge intact, SL 28k/TP 40k. No new trade: both indices already hold the same bullish view (one view per index) and MCX is off. Triggers: any TP/SL fill, or SENSEX spot < ~73,830. Next review 20 min."
-    },
-    {
       "time": "2026-10-15T12:33:54.780720+05:30",
       "summary": "Booked earlier SENSEX 6586 at TP (+14,175); today now +18,675. Held NIFTY 6561 (19-10 bull call 22950/23050, 15 lots), now ~+8,140, hedge intact, SL 28k/TP 40k. Opened a new directional SENSEX 0-DTE bull call (6599): BUY 40x 74000CE / SELL 40x 74100CE, debit ~46.8/unit, max loss ~\u20b937,400 (SL 20k), target 36k, exit 14:55 \u2014 trend day, spot 74,010 above both SMAs, RSI 68.7. One bullish view per index; MCX off. Start is waiting; next check 2 min to verify fill and hedge."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T11:50:42.211109+05:30",
       "summary": "HOLD, no new entry. NSE/BSE open (11:50 IST). Positions already carry one fresh bullish view per index with verified hedges: 6621 NIFTY 23100/23200 bull call -4.6k and 6628 SENSEX 74300/74200 bull put -0.7k. A new directional trade would duplicate the same thesis/correlated exposure; a neutral condor has no edge with the tape trending up and short strikes only ~135pts from spot. Neither winner is at 1/3 of target, so no trail yet. Today -56.5k realized. Next: reassess on NIFTY break >23150 or <23050, or SENSEX <74300; else 20-min review."
+    },
+    {
+      "time": "2026-10-16T12:05:27.611165+05:30",
+      "summary": "HOLD, no new entry (12:05 IST, NSE/BSE open). Eligible NIFTY/SENSEX only (MCX off). I already hold one bullish view per index with verified hedges: 6621 NIFTY 23100/23200 bull call -6.3k, 6628 SENSEX 74300/74200 bull put -0.3k. A new directional trade would duplicate or conflict (one view per index); tape is choppy-soft (NIFTY 23106, RSI 36, below SMAs; SENSEX 74610, RSI 44.5; TimesFM ~flat) so no fresh edge and a condor lacks an edge with short strikes near spot. Neither winner near 1/3 target, so no trail. Today realized -56.5k. Reassess on NIFTY >23150/<23050 or SENSEX <74450/>74780; next review ~25 min."
     }
   ]
 }
