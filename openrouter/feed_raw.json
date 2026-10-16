@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T15:26:01.901404+05:30",
-      "summary": "Market open but past 14:55 IST exit time for indices; no new entries allowed. No open positions to manage. Flat and awaiting session close or next session for new opportunities. Next review in 30 minutes."
-    },
-    {
       "time": "2026-10-15T09:28:38.042694+05:30",
       "summary": "Created and started SENSEX bear call spread (sell 73100 CE, buy 73200 CE) expiring today with net credit ~39.40/share. Entry filled, SL 560, TP 440 set. Assessed bearish direction from TimesFM forecast and price near day's high. NIFTY 2-leg blocked due to poor recent performance (20% win rate). Next review in 5 minutes to monitor position."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:58:55.300538+05:30",
       "summary": "Holding SENSEX bear put spread 74600-74500 oct22 30lot (ID 6629) entered at 10:55, current unrealized P&L -810. Market bearish on SENSEX (price down, RSI low, TimesFM slightly bearish) and NIFTY, but NIFTY 2-leg blocked due to poor recent performance (win rate 0.2, net negative). No conflicting positions; one view per index maintained. Will trail overall stop up to break-even once open profit reaches ~8k (one-third of target 25k). No new entries considered until thesis evolves or exit nears. Next review in 60 seconds to check for price move or thesis change."
+    },
+    {
+      "time": "2026-10-16T11:17:04.178667+05:30",
+      "summary": "Started NIFTY long put ATM 1 lot (ID 6631) at 124.85, unrealized P&L -32.50. Managed existing SENSEX bear put spread 30 lots (ID 6629) unrealized P&L +1860. No new entries; thesis remains bearish on both indices. Will trail stops upon reaching one-third of targets. Next review in 60s."
     }
   ]
 }
