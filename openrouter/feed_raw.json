@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T09:39:17.449915+05:30",
-      "summary": "Closed NIFTY long put (6552) and SENSEX bear call spread (6551) which realized -154 loss. Created and started SENSEX bull call spread 6553 (BUY ATM CALL, SELL OTM_1 CALL, expiry 15-10-2026) with 1 lot, SL 600, TP 500. Entry set for 09:35, exit at 14:50. Waiting for entry to fill. Next review in 30s to monitor start."
-    },
-    {
-      "time": "2026-10-15T09:44:06.537332+05:30",
-      "summary": "Closed SENSEX bull call spread 6553 for +28.0 profit. Created and started SENSEX bear put spread 6554 (BUY ATM PUT, SELL OTM_1 PUT, expiry 15-10-2026) with 1 lot, SL 500, TP 800, entry 09:40, exit 14:50. Waiting for entry to fill. Next review in 60s to check start."
-    },
-    {
       "time": "2026-10-15T09:52:05.295891+05:30",
       "summary": "Market shows mild bearish momentum (TimesFM). Active SENSEX bear put spread (6554) entered at 09:43:45, unrealized +36.0. Created and started NIFTY long OTM put (22700 PE) strategy 6555 (entry 09:20, SL 2382, TP 4765) to enter immediately. No index conflicts (both bearish, different symbols). Will monitor fills and exits."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-16T11:26:51.335854+05:30",
       "summary": "Created and started SENSEX bear call spread 74600-74700 oct22 48lot (ID 6634) with max loss \u20b950,000, target \u20b940,000. Existing positions: NIFTY long puts (5lot,1lot) losing, SENSEX bear put spreads (20lot losing, 30lot slight profit). Will review fills and consider trailing stops on winners in next cycle."
+    },
+    {
+      "time": "2026-10-16T11:35:52.634613+05:30",
+      "summary": "Created and started SENSEX bear call spread 74600-74700 oct22 48lot (ID 6634) with max loss \u20b950,000, target \u20b940,000. Existing positions: NIFTY long puts (5lot,1lot) losing, SENSEX bear put spreads (20lot losing, 30lot slight profit). Will review fills and consider trailing stops on winners in next cycle."
+    },
+    {
+      "time": "2026-10-16T11:37:52.945127+05:30",
+      "summary": "Held: monitored active SENSEX bear put spread (6635) with unrealized profit \u20b9880, max loss \u20b919,760, target \u20b920,240. No new entry as bullish/bearish evidence insufficient for clear directional thesis on NIFTY or additional SENSEX exposure. Will review if profit reaches ~\u20b96,600 (one\u2011third of target) or if market shifts."
     }
   ]
 }
