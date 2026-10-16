@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T10:03:54.314739+05:30",
-      "summary": "Started SENSEX bear put spread 73500-73400 OTM1-OTM2 (lots 1) entry at 10:01:37, debit 958, SL 800, TP 1200. Existing NIFTY long put 22750 remains active (unrealized -1105). Set review in 2 minutes to monitor both positions."
-    },
-    {
       "time": "2026-10-15T10:12:31.448624+05:30",
       "summary": "Created SENSEX bear call spread 73600-73800 OTM2 (3 lots) with entry at 10:05, exit 14:55, SL 2000, TP 1500. NIFTY 2-leg blocked due to poor performance. Waiting for entry to fill."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T12:23:40.068601+05:30",
       "summary": "Created and started NIFTY iron condor (6636) with 6 lots: sell 23050 PE/23150 CE, buy 22950 PE/23250 CE, targeting credit ~\u20b925,642. Active SENSEX bear put spread (6635) unchanged with unrealized profit ~\u20b9900. No new SENSEX trades to avoid overconcentration. Will monitor for profit to trail stops per boss rules. Next check on price movement or if unrealized profit reaches ~\u20b96,660 (one-third of target) on either strategy."
+    },
+    {
+      "time": "2026-10-16T12:48:57.901299+05:30",
+      "summary": "Currently holding two SENSEX bear put spreads (6635:20 lots, 6637:30 lots) with unrealized losses of \u20b9480 and \u20b91,140. Underlying at 74694.51. Waiting for underlying to fall to 74692.61 (breakeven) or rise to 74700 (stop loss trigger) to manage risk. Set review in 60 seconds to reassess."
     }
   ]
 }
