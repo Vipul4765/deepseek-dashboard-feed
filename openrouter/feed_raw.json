@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T09:52:05.295891+05:30",
-      "summary": "Market shows mild bearish momentum (TimesFM). Active SENSEX bear put spread (6554) entered at 09:43:45, unrealized +36.0. Created and started NIFTY long OTM put (22700 PE) strategy 6555 (entry 09:20, SL 2382, TP 4765) to enter immediately. No index conflicts (both bearish, different symbols). Will monitor fills and exits."
-    },
-    {
       "time": "2026-10-15T09:53:15.119165+05:30",
       "summary": "Hold: Active bearish positions on NIFTY (long put 22700 PE) and SENSEX (bear put spread 73400-73300 PE) are both slightly underwater. No new clear directional signal from price action or TimesFM to add or flip views. Monitoring existing SL/TP and time exit (14:55 IST). No new trades initiated."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T11:37:52.945127+05:30",
       "summary": "Held: monitored active SENSEX bear put spread (6635) with unrealized profit \u20b9880, max loss \u20b919,760, target \u20b920,240. No new entry as bullish/bearish evidence insufficient for clear directional thesis on NIFTY or additional SENSEX exposure. Will review if profit reaches ~\u20b96,600 (one\u2011third of target) or if market shifts."
+    },
+    {
+      "time": "2026-10-16T11:42:34.784761+05:30",
+      "summary": "Holding active SENSEX bear put spread (6635) with unrealized loss \u20b9200, max loss \u20b919,760, target \u20b920,240. Market slightly bearish per TimesFM for both indices. No new entry as directional evidence insufficient for clear thesis. Will review if profit reaches ~\u20b96,600 (one-third of target) or if market shifts significantly. Exiting at 14:55 if not triggered earlier."
     }
   ]
 }
