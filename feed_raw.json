@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T10:48:43.555123+05:30",
-      "summary": "Managed, no new entry. Both live bull call spreads working: 6561 NIFTY 4DTE (BUY 22950CE/SELL 23050CE, 15 lots) +\u20b94,972; 6559 SENSEX 0DTE (BUY 73900CE/SELL 74000CE, 20 lots) +\u20b93,800. Tightened overall SL 28000->15000 (NIFTY) and 12000->5000 (SENSEX) to protect gains; TPs and 14:55 exits unchanged, hedges intact. Held: NIFTY 22,938 and SENSEX 73,885 both above SMA20/50 with strong up momentum, so no non-duplicating candidate; already bull on both indices. Next review ~9 min, watching SENSEX 0DTE theta."
-    },
-    {
       "time": "2026-10-15T10:49:51.942327+05:30",
       "summary": "Booked SENSEX 0-DTE bull call (6559): squared off at 10:49 for +\u20b94,500 realized (L1 73900CE exit 184.4, L2 74000CE exit 137.95) \u2014 RSI 80.6 extended and median forecast barely above the long strike made 0-DTE decay risk concrete. Held NIFTY 4-DTE bull call (6561, BUY 22950CE/SELL 23050CE, 15 lots), +\u20b95,704, strong uptrend above SMA20/50, 4 days of time value; hedge intact, SL 15000/TP 40000/14:55 exit unchanged. No new entry: both indices already carry a bull view, so no non-conflicting candidate. Next review ~12 min; trigger: NIFTY toward TP or 23050 short-strike failure."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T09:31:32.386600+05:30",
       "summary": "Opened defined-risk NIFTY bear put spread (strat 6614, run 0b02fd1c): BUY 25x 22950 PE @134.15, SELL 25x 22850 PE @88.95 on 19-10-2026 \u2014 net debit 45.2pt, \u20b973,450 worst-case, max profit ~\u20b989k; overall SL \u20b945k, TP \u20b955k, exit 14:55. Thesis: both indices gapped up and faded, NIFTY under SMA20/50, RSI 39, TimesFM slightly down. Both legs filled 1625 qty, hedge intact (strikes unverified, journal pending). No SENSEX trade: its 4-leg setup is a negative record and one-view-per-index applies. Next review ~7min."
+    },
+    {
+      "time": "2026-10-16T09:32:44.034939+05:30",
+      "summary": "Held new entries; managed open NIFTY bear put spread (strat 6614): both legs FILLED 1625 qty \u2014 BUY 22950 PE @134.15 / SELL 22850 PE @88.95 (19-10), hedge intact, +\u20b92,762 unrealized (below the ~1/3 target trail trigger), SL \u20b945k / TP \u20b955k / exit 14:55 set. No add-on: NIFTY already holds the short-index view; SENSEX 4-leg neutral is refused by its own 8-trade/25%/-\u20b911.7k record, and a SENSEX bear spread would duplicate the same directional thesis with both indices already at session lows. Next review ~10 min."
     }
   ]
 }
