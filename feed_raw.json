@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T13:01:45.827876+05:30",
-      "summary": "Day +\u20b943,215 (4/4 wins). Open: NIFTY 6601 19-10 bull call 23100/23200 (20x), marks +\u20b9585, SL 32k/TP 40k/14:55 intact. Action: created+started SENSEX 6602 0dte bull call spread \u2014 BUY 25x ~74100CE / SELL 25x ~74400CE (itm_1/otm_2), debit ~130/unit, worst-case ~\u20b965k, max ~\u20b985k, R:R ~1.3, BE ~74230, SL \u20b950k / TP \u20b970k / 14:55 exit. Clear up-trend, timesFM up, best-performing setup (SENSEX 2-leg 88%). Status \"waiting\", entry 13:02 \u2014 fill/hedge unverified. Next review 120s to confirm 1:1 hedge fill; MCX off."
-    },
-    {
       "time": "2026-10-15T13:02:26.153319+05:30",
       "summary": "HOLD. Day +43,215 realized (4/4). Two defined-risk positions open, both hedges verified FILLED 1:1 same type/expiry: NIFTY 6601 19-10 bull call 23100/23200 (20x, +2,600, SL32k/TP40k/14:55); SENSEX 6602 0DTE bull call 74200/74500 (25x, +100, SL50k/TP70k/14:55). Both indices already have one bullish view each, so no new/correlated entries (one-view-per-index). MCX off. Next review 25 min or on stop/target/exit; positions safe on their own stops if budget cap hits."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T13:59:28.400190+05:30",
       "summary": "HOLD, no new entry (13:58 IST; NSE/BSE open, MCX off). Both open runs ACTIVE and hedged: NIFTY 23100/23200 bull call 15L (~-4k) and SENSEX otm3/otm4 bull put 25L (~+1.4k); neither near SL/TP nor the 1/3 trailing trigger. No fresh directional edge \u2014 both indices flat/choppy near highs with TimesFM ~neutral and tiny ATR \u2014 so no justified momentum/big-bet add, and only ~57 min to the 14:55 auto-exit. Day realised -56.5k. Next review ~14:24 to confirm exits."
+    },
+    {
+      "time": "2026-10-16T14:14:10.270822+05:30",
+      "summary": "HOLD, no new entry (14:14 IST; NSE/BSE open). Both runs ACTIVE and hedged: NIFTY 23100/23200 bull call 15L at ~-6.1k (SL 30k/TP 36k) and SENSEX 74300/74200 bull put 25L at ~+0.35k (SL 30k/TP 18k); neither near SL/TP nor the 1/3 trailing trigger, so no edit. Tape choppy/drifting with tiny ATR and TimesFM neutral-negative; ~41 min left before the 14:55 exits, so no justified fresh directional add. Day realised -56.5k. Budget 0.485/0.80. Next review ~14:24 to confirm the 14:55 exits."
     }
   ]
 }
