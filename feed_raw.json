@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T12:38:10.675235+05:30",
-      "summary": "No new entry: NIFTY (6561 bull call) and SENSEX (6599 0-DTE bull call) each already hold one bullish view, so any new index trade would duplicate or conflict; MCX is off. Management: tightened NIFTY 6561 overall stop from 28k to 10k max-loss to protect its +10.9k unrealised (TP left at 15k). SENSEX 6599 live at +4.4k, SL 20k/TP 36k, exit 14:55. Today realised +18,675. Next check 15 min; triggers: NIFTY TP/stop, SENSEX target/stop, 14:55 exit."
-    },
-    {
       "time": "2026-10-15T12:39:24.636512+05:30",
       "summary": "Booked SENSEX 6599 (0-DTE bull call 74100/74200, 40 lots): live +4,240 squared off \u2014 spot 74123 sits below its 74141 breakeven and ~22pts of the 45.65 spread value is time decay that would flip a winner to a loss by 14:55. Held NIFTY 6561 (bull call 22950/23050, 15 lots, +11,553, spot at 22992 breakeven; SL 10k / TP 15k, exit 14:55). No new entry: both indices already hold a bullish view (one view per index) and MCX is off. Today realised +18,675 (+ SENSEX fill pending). Next review 5 min to confirm the exit; triggers NIFTY TP/stop and 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T12:51:19.696376+05:30",
       "summary": "HOLD, no new entry (12:50 IST; NSE/BSE open, MCX off). Two hedged runs intact and fresh: 6621 NIFTY 23100/23200 bull call 15 lots, -1.17k; 6628 SENSEX 74300/74200 bull put 25 lots, +0.78k. Both indices still up (NIFTY 23,133 RSI 62; SENSEX 74,707 RSI 62), so my one bullish view per index stands; a new trade would duplicate that correlated exposure, no distinct thesis is compelling. No trail (neither near a third of target). Day realised -56.5k. Next review 25 min, or on NIFTY <23,050 / SENSEX <74,300."
+    },
+    {
+      "time": "2026-10-16T13:06:07.237529+05:30",
+      "summary": "HOLD, no new entry (13:05 IST; NSE/BSE open, MCX off). Only NIFTY/SENSEX eligible and both already carry a bullish view, so a new trade would duplicate correlated exposure or conflict (one view per index). Both indices are choppy \u2014 dipped then bounced \u2014 with no clear direction for a momentum flip. Open hedged runs intact: 6621 NIFTY 23100/23200 bull call 15L \u22125.8k; 6628 SENSEX 74300/74200 bull put 25L \u22120.25k. Neither near a third of target \u2192 no trail. Day realised \u221256.5k. Next review 20 min; triggers NIFTY <23,060 or >23,140, SENSEX <74,400."
     }
   ]
 }
