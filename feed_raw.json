@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T10:49:51.942327+05:30",
-      "summary": "Booked SENSEX 0-DTE bull call (6559): squared off at 10:49 for +\u20b94,500 realized (L1 73900CE exit 184.4, L2 74000CE exit 137.95) \u2014 RSI 80.6 extended and median forecast barely above the long strike made 0-DTE decay risk concrete. Held NIFTY 4-DTE bull call (6561, BUY 22950CE/SELL 23050CE, 15 lots), +\u20b95,704, strong uptrend above SMA20/50, 4 days of time value; hedge intact, SL 15000/TP 40000/14:55 exit unchanged. No new entry: both indices already carry a bull view, so no non-conflicting candidate. Next review ~12 min; trigger: NIFTY toward TP or 23050 short-strike failure."
-    },
-    {
       "time": "2026-10-15T10:51:34.767181+05:30",
       "summary": "Created and started SENSEX 0-DTE bull put spread (6586): SELL 73700PE / BUY 73500PE, 25 lots, expiry 15-10-2026, credit ~44.5/lot, defined worst-case ~\u20b927,750, overall SL 18000 / TP 14000 / 14:55 exit; enters 11:00 (only first SENSEX expiry eligible). Thesis: SENSEX +2% uptrend, RSI 78, 27% 0-DTE IV favours premium selling with a bullish bias. Held NIFTY 4-DTE bull call (6561, +\u20b95,996, hedge intact, SL 28000/TP 40000 unchanged). No NIFTY add (same view already held). Next check ~11 min to confirm fill/strikes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T09:32:44.034939+05:30",
       "summary": "Held new entries; managed open NIFTY bear put spread (strat 6614): both legs FILLED 1625 qty \u2014 BUY 22950 PE @134.15 / SELL 22850 PE @88.95 (19-10), hedge intact, +\u20b92,762 unrealized (below the ~1/3 target trail trigger), SL \u20b945k / TP \u20b955k / exit 14:55 set. No add-on: NIFTY already holds the short-index view; SENSEX 4-leg neutral is refused by its own 8-trade/25%/-\u20b911.7k record, and a SENSEX bear spread would duplicate the same directional thesis with both indices already at session lows. Next review ~10 min."
+    },
+    {
+      "time": "2026-10-16T09:43:39.745245+05:30",
+      "summary": "Assessed NIFTY/SENSEX (both open, gap-up then fade, VIX +2.4%, TimesFM mildly down). Held NIFTY bear put 6614 (both legs filled, unrealized -569, SL 45k/TP 55k/14:55 intact, no edit). Created and started 6616: SENSEX 22-10 bear call spread, SELL 25x otm_3 (~74500 CE) / BUY 25x otm_4 (~74600 CE), short above the day's 74504 rejection high; expected credit ~36/unit, defined worst-case ~\u20b931.8k, overall SL 26k, TP 15k, exit 14:55. Entry pending (09:47) \u2014 next review to confirm fills and hedge."
     }
   ]
 }
