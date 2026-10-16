@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T10:28:16.683218+05:30",
-      "summary": "Held both positions; no new trade. 6559 SENSEX 0DTE bull call (BUY 73900 CE/SELL 74000 CE, 20 lots, hedged, SL \u20b912k/TP \u20b917k) at \u2212\u20b9300. 6561 NIFTY 4DTE bull call (BUY 22950 CE @110.95/SELL 23050 CE @69.35, 15 lots, hedged, SL \u20b928k/TP \u20b940k) at +\u20b9244. Both confirmed ACTIVE, one bullish view per index, consistent with NIFTY/SENSEX above SMA20/50. No room for a distinct NIFTY structure without opposing the held bull call. Next review in 600s to watch SENSEX 0DTE theta."
-    },
-    {
       "time": "2026-10-15T10:38:22.479288+05:30",
       "summary": "HOLD. Both live, hedged bull calls fresh-verified: 6561 NIFTY 4DTE (BUY 22950 CE/SELL 23050 CE, 15 lots) +\u20b92,291; 6559 SENSEX 0DTE (BUY 73900 CE/SELL 74000 CE, 20 lots) +\u20b91,460. NIFTY 22,915 and SENSEX 73,804 above SMA20/50, momentum up, consistent with held view; MCX off, NIFTY/SENSEX direction already expressed, so no non-duplicating candidate. No stops/targets hit, hedges intact. Next review in 600s to manage SENSEX 0DTE theta into the 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-15T14:55:40.642684+05:30",
       "summary": "Flat and done for the day. Both remaining runs auto-exited at 14:55: 6601 NIFTY 23100/23200 bull call -11,245 and 6606 SENSEX iron condor (74000PE/74100PE, 74500CE/74600CE) -8,525; both were hedge-covered, no naked legs left. Day realized +36,045 (5 wins, 2 losses on 7 trades). No new entry: it is 14:55 IST, past the index exit deadline, and AI budget is $0.799/$0.80. MCX off per boss. Next review in 1800s; nothing open to manage."
+    },
+    {
+      "time": "2026-10-16T09:15:20.358219+05:30",
+      "summary": "Flat, no open runs, no trades yet today; day realized P&L 0. Assessed NIFTY and SENSEX: both sessions open, but at 09:15 IST the index entry window (09:30-15:00) is not yet open and only opening auction prints exist, so no priced entry is possible. Confirmed front expiries: NIFTY 19-10-2026 (3 DTE, lot 65), SENSEX 22-10-2026 (6 DTE, lot 20). MCX off per boss. Next review in 900s (~09:30) to price a hedged directional or neutral candidate from fresh quotes."
     }
   ]
 }
