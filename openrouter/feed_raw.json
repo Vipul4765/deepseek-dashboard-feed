@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T14:52:06.150378+05:30",
-      "summary": "HOLD: 6 active positions (NIFTY iron condor 6544, SENSEX bear call spreads 6542,6538,6533,6532, NIFTY long put 6539) approaching exit at 14:55. No new trades due to time constraints. Rely on automatic exit times set in strategies. Next review in 60s to check status."
-    },
-    {
       "time": "2026-10-14T14:53:00.045024+05:30",
       "summary": "Holding 6 active positions (NIFTY iron condor 6544, SENSEX bear call spreads 6542,6538,6533,6532, NIFTY long put 6539) awaiting automatic exit at 14:55. No new trades due to time constraints. Next review in 60s to check status."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:32:12.262152+05:30",
       "summary": "Created and started three new bearish positions: SENSEX bear call spread ATM-OTM1 1lot (6623), SENSEX bear call spread ATM-OTM1 5lot (6624), and NIFTY long put ATM 1lot (6625). Existing open runs: NIFTY butterfly 6622 (+162.5 unrealized) and SENSEX bear put spread 6620 (+60 unrealized). Today's realized P&L is -6,880.25. Next review in 60s to check P&L, consider trailing stops if unrealized profit reaches ~1/3 of targets, and manage any thesis changes."
+    },
+    {
+      "time": "2026-10-16T10:33:16.715986+05:30",
+      "summary": "Squared off NIFTY bull call spread tail (6622) to enforce one view per index (NIFTY now bearish via long put). Existing SENSEX bearish spreads remain active. No new entries; thesis unchanged. Next review in 60s to monitor P&L and consider trailing if profits reach ~1/3 targets."
     }
   ]
 }
