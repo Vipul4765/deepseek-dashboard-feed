@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T12:02:55.494169+05:30",
-      "summary": "HOLD both, one protective edit. SENSEX 6586 (0-DTE bull put 73800/73600PE, 25 lots) +8,375, hedge intact, spot 73,973 ~173pts above short strike; tightened overall SL 18,000\u21928,000, TP 14,000 kept, exit 14:55. NIFTY 6561 (19-10 bull call 22950/23050, 15 lots) +6,922, hedge intact, SL 28k/TP 40k unchanged. No new entry: both indices already hold the same bullish view (one-view-per-index), MCX off. Trigger: SENSEX spot <~73,800 or any TP/SL fill. Next review 12 min."
-    },
-    {
       "time": "2026-10-15T12:04:21.519497+05:30",
       "summary": "HOLD both, no edits. SENSEX 6586 (0-DTE bull put 73800/73600PE, 25 lots) +6,800, hedge intact, spot ~73,960 with ~160pt cushion above short strike and forecast flat ~73,952 (above strike, theta-favorable); SL 8,000 sits at the strike, TP 14,000, exit 14:55. NIFTY 6561 (19-10 bull call 22950/23050, 15 lots) +5,996, hedge intact, SL 28k/TP 40k. No new entry: only NIFTY/SENSEX tradeable (MCX off) and both already hold the same bullish view \u2014 one view per index. Trigger: SENSEX spot <~73,820 or any TP/SL fill. Next review 20 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T11:20:23.282371+05:30",
       "summary": "HOLD, no new entry. Both indices already hold their one view: 6621 NIFTY bull call 23100/23200 (-9.5k) and 6628 SENSEX bull put 74300/74200 (-2.1k), both hedged with verified fills. A new bullish trade on either duplicates and a bearish one conflicts, so no priced distinct edge; MCX is off. Day trend is up (NIFTY 23,081, SENSEX 74,555) and pullback is minor \u2014 view intact, stops (30k) and 14:55 exits live. Today -56.5k realized. Reassess on NIFTY break >23,150 or <23,020."
+    },
+    {
+      "time": "2026-10-16T11:35:23.745238+05:30",
+      "summary": "HOLD, no new entry. Both indices already carry their one view, both bullish and aligned with the up-momentum: 6621 NIFTY 23100/23200 bull call (unrealized -3.1k, fresh) and 6628 SENSEX 74300/74200 bull put (+0.2k, fresh), both hedged with verified fills. A new bullish trade duplicates the same thesis; a bearish one conflicts and would fade a strong rally (NIFTY RSI 71, SENSEX 68). MCX off; mandate is NIFTY/SENSEX only, so no third underlying. No trailing yet (profit <1/3 of target). Today -56.5k realized. Next review in 20 min or on NIFTY break >23,150 / <23,020."
     }
   ]
 }
