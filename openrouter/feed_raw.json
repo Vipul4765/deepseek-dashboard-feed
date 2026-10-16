@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T15:11:34.031438+05:30",
-      "summary": "Market open but past 14:55 IST exit time for indices; no new entries allowed. No open positions to manage. Flat and awaiting session close or next session for new opportunities. Next review in 30 minutes."
-    },
-    {
       "time": "2026-10-14T15:26:01.901404+05:30",
       "summary": "Market open but past 14:55 IST exit time for indices; no new entries allowed. No open positions to manage. Flat and awaiting session close or next session for new opportunities. Next review in 30 minutes."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:56:22.418924+05:30",
       "summary": "Created and started SENSEX bear put spread 74600-74500 oct22 30lot (ID 6629) with entry at 10:50, exit 14:55, SL 15000, TP 25000. Waiting for start. Market bearish on SENSEX and NIFTY; NIFTY 2-leg blocked due to poor recent performance, so chose SENSEX. Will trail profit once open profit reaches ~8k (one-third of target)."
+    },
+    {
+      "time": "2026-10-16T10:58:55.300538+05:30",
+      "summary": "Holding SENSEX bear put spread 74600-74500 oct22 30lot (ID 6629) entered at 10:55, current unrealized P&L -810. Market bearish on SENSEX (price down, RSI low, TimesFM slightly bearish) and NIFTY, but NIFTY 2-leg blocked due to poor recent performance (win rate 0.2, net negative). No conflicting positions; one view per index maintained. Will trail overall stop up to break-even once open profit reaches ~8k (one-third of target 25k). No new entries considered until thesis evolves or exit nears. Next review in 60 seconds to check for price move or thesis change."
     }
   ]
 }
