@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T09:28:38.042694+05:30",
-      "summary": "Created and started SENSEX bear call spread (sell 73100 CE, buy 73200 CE) expiring today with net credit ~39.40/share. Entry filled, SL 560, TP 440 set. Assessed bearish direction from TimesFM forecast and price near day's high. NIFTY 2-leg blocked due to poor recent performance (20% win rate). Next review in 5 minutes to monitor position."
-    },
-    {
       "time": "2026-10-15T09:31:27.231715+05:30",
       "summary": "Created and started NIFTY long put ATM 22750 expiry 19-10-2026 (SL 4500, TP 9000). Existing SENSEX bear call spread (73100/73200 CE) active, PnL -58, bearish thesis intact. Next review in 90s to monitor entry and position."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-16T11:17:04.178667+05:30",
+      "summary": "Started NIFTY long put ATM 1 lot (ID 6631) at 124.85, unrealized P&L -32.50. Managed existing SENSEX bear put spread 30 lots (ID 6629) unrealized P&L +1860. No new entries; thesis remains bearish on both indices. Will trail stops upon reaching one-third of targets. Next review in 60s."
+    },
+    {
+      "time": "2026-10-16T11:23:03.845632+05:30",
       "summary": "Started NIFTY long put ATM 1 lot (ID 6631) at 124.85, unrealized P&L -32.50. Managed existing SENSEX bear put spread 30 lots (ID 6629) unrealized P&L +1860. No new entries; thesis remains bearish on both indices. Will trail stops upon reaching one-third of targets. Next review in 60s."
     }
   ]
