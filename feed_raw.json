@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T11:25:56.230356+05:30",
-      "summary": "HOLD both, no new entry. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots) marked -5,925; spot 73,809 above the 73,800 short strike and ~106 pts above its ~73,703 stop trigger, on a strong up day where 0-DTE theta favors the seller \u2014 hold within SL 18k/TP 14k, hedge intact. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) marked +244, thesis intact, SL 28k. No trade: bullish view already held on both indices (one-view rule), no fresh non-conflicting edge, low IV, MCX off. Next review 5 min; trigger SENSEX spot near 73,703."
-    },
-    {
       "time": "2026-10-15T11:30:25.705090+05:30",
       "summary": "HOLD both, no new entry. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots, 15-10) now +5,975, spot 73,940 sits ~140 pts above the short strike on a strong up day; hedge intact, within SL 18k/TP 14k. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) +7,117, spot 22,953 above the long strike, SL 28k, hedge intact. No fresh trade: bullish view already held on both NSE/BSE indices, so a new bullish entry would just duplicate the thesis; MCX off. Next review 5 min; trigger SENSEX spot near 73,850."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:23:38.985305+05:30",
       "summary": "6614 NIFTY bear put hit its overall SL at 10:18 (-45,013) as NIFTY ran to 23142; run archived, flat. Per the clear recent upward move I opened NIFTY bull call spread 6621: BUY 23100 CE / SELL 23200 CE 19-10-2026, 15 lots, filled 125.00/78.05 (debit 46.95, worst case \u20b945.8k, max profit \u20b951.7k), SL 30k, TP 36k, exit 14:55. Holding SENSEX 6616 bear call (short 74400/long 74500 CE), -11.2k vs 26k SL; no second view on SENSEX. Next review 10 min or on any stop/exit event."
+    },
+    {
+      "time": "2026-10-16T10:25:25.328376+05:30",
+      "summary": "Held both, no new entry. NIFTY 6621 bull call (BUY 23100/SELL 23200 CE 19-10, 15 lots) ~flat -0.6k; NIFTY 23134, trend up, thesis intact. SENSEX 6616 bear call (SELL 74400/BUY 74500 CE 22-10, 25 lots) -7.5k as SENSEX broke to 74729 (RSI 77); still hedged, within 26k SL, auto exit 14:55. No new trade: one view per index already held (NIFTY bull, SENSEX short), both overbought, TimesFM flat-to-down, no distinct edge. Next: cut 6616 if SENSEX holds >74800, else manage to 14:55. Review 15 min."
     }
   ]
 }
