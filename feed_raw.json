@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T11:36:21.849992+05:30",
-      "summary": "HOLD both, no new entry. SENSEX 6586 0-DTE bull put (short 73800PE/long 73600PE, 25 lots, 15-10) +5,025; spot 73,909 only ~110 pts above the short strike, hedge intact, SL 18k/TP 14k live. NIFTY 6561 bull call (22950/23050CE, 15 lots, 19-10) +4,924; hedge intact, SL 28k/TP 40k. No fresh trade: bullish view already held on both indices (one-view-per-index), RSI overbought and TimesFM slightly down, MCX off. Next review 10 min; trigger SENSEX spot below 73,850 or a TP/SL event."
-    },
-    {
       "time": "2026-10-15T11:45:48.476915+05:30",
       "summary": "HOLD positions; tightened one stop. SENSEX 6586 (0-DTE bull put, short 73800PE/long 73600PE, 25 lots) +\u20b99,450, spot 73,973 ~173 pts above short strike with expiry-day gamma; cut overall SL \u20b918,000\u2192\u20b98,000 (protects the winner, TP kept \u20b914,000). NIFTY 6561 (22950/23050CE, 15 lots, 19-10) +\u20b97,946, hedge intact, SL \u20b928k/TP \u20b940k unchanged. No new entry: bullish view already held on both indices (one-view-per-index) and MCX is switched off. Next review 10 min; trigger SENSEX spot below ~73,800 or a TP/SL fill."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:39:53.545202+05:30",
       "summary": "Cut the failed SENSEX bear call 6616 (SELL 74400/BUY 74500 CE 22-10, 25 lots) as SENSEX rallied +1% to ~74700, breaking the thesis; exit confirmed USER_EXIT, realized -11,500 (run cleared, journal settled). Held NIFTY 6621 bull call (BUY 23100/SELL 23200 CE 19-10, 15 lots), hedged, ~-2.4k, NIFTY flat 23135, SL 30k/TP 36k, 14:55 exit. No new entry: NIFTY already has a view, SENSEX extended after its run \u2014 no fresh priced edge. Day realized -56,512. Next: review 15 min; reassess NIFTY 6621 marks and any SENSEX pullback to 74400."
+    },
+    {
+      "time": "2026-10-16T10:42:33.966964+05:30",
+      "summary": "Opened SENSEX 6-DTE bullish vertical 6628 (SELL otm_3 ~74400 PE / BUY otm_4 ~74300 PE, 25 lots) \u2014 both indices up ~0.6-0.9% today, SENSEX/2-leg is my best setup (80% win); credit ~35.7/lot, defined max loss ~32k, SL 30k/TP 18k, 14:55 exit, hedged. Start waiting for 10:50 entry (not yet a fill). Holding NIFTY 6621 bull call (-1.9k, SL 30k/TP 36k). Correlated long-India exposure noted. Next: ~10:53 confirm 6628 fills/hedge."
     }
   ]
 }
