@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-14T12:53:51.210456+05:30",
-      "summary": "Hold. No new trade opened. Active bearish positions on NIFTY (long put) and SENSEX (bear call & put spreads) are profitable. Market remains bearish per price action and TimesFM. Next review in 5 minutes or on fresh data, SL/TP, or exit time."
-    },
-    {
       "time": "2026-10-14T13:05:43.878163+05:30",
       "summary": "Monitoring active bearish positions on NIFTY (long put) and SENSEX (bear put/call spreads). All are in profit, none hit SL/TP. No new trade entered due to one-view-per-index rule and to avoid duplicating bearish thesis. Next review in 60 secs to watch for thesis changes or target approaches."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T09:19:39.501632+05:30",
       "summary": "Created and started SENSEX bull put spread (sell 74300 PUT, buy 74200 PUT) 1 lot each. Defined risk: max loss \u20b9400, max profit \u20b91,000. Entry at 09:15, exit at 14:55. Will monitor for profit to trail stop."
+    },
+    {
+      "time": "2026-10-16T09:23:23.014836+05:30",
+      "summary": "Created NIFTY long put ATM 1lot (strategy 6613) set to start at 09:20; existing SENSEX bull put spread (6612) is up \u20b976. Monitoring both for profit to trail stops. No conflicting views: bullish on SENSEX, bearish on NIFTY."
     }
   ]
 }
