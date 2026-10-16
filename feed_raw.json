@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T11:45:48.476915+05:30",
-      "summary": "HOLD positions; tightened one stop. SENSEX 6586 (0-DTE bull put, short 73800PE/long 73600PE, 25 lots) +\u20b99,450, spot 73,973 ~173 pts above short strike with expiry-day gamma; cut overall SL \u20b918,000\u2192\u20b98,000 (protects the winner, TP kept \u20b914,000). NIFTY 6561 (22950/23050CE, 15 lots, 19-10) +\u20b97,946, hedge intact, SL \u20b928k/TP \u20b940k unchanged. No new entry: bullish view already held on both indices (one-view-per-index) and MCX is switched off. Next review 10 min; trigger SENSEX spot below ~73,800 or a TP/SL fill."
-    },
-    {
       "time": "2026-10-15T11:46:48.063246+05:30",
       "summary": "Managed only; no new entry. SENSEX 6586 (0-DTE bull put, short 73800PE/long 73600PE, 25 lots) +&#8377;9,875, spot 73,983 ~183 pts above short strike; tightened overall SL &#8377;8,000&#8594;&#8377;5,000 to protect the winner, TP &#8377;14,000 kept, exit 14:55. NIFTY 6561 (22950/23050CE, 15 lots, 19-10) +&#8377;8,385, hedge intact, SL &#8377;28k/TP &#8377;40k unchanged. No new trade: both indices already hold a bullish view (one-view-per-index) and MCX is off. Trigger: SENSEX spot below ~73,800 or a TP/SL fill; next review 10 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:42:33.966964+05:30",
       "summary": "Opened SENSEX 6-DTE bullish vertical 6628 (SELL otm_3 ~74400 PE / BUY otm_4 ~74300 PE, 25 lots) \u2014 both indices up ~0.6-0.9% today, SENSEX/2-leg is my best setup (80% win); credit ~35.7/lot, defined max loss ~32k, SL 30k/TP 18k, 14:55 exit, hedged. Start waiting for 10:50 entry (not yet a fill). Holding NIFTY 6621 bull call (-1.9k, SL 30k/TP 36k). Correlated long-India exposure noted. Next: ~10:53 confirm 6628 fills/hedge."
+    },
+    {
+      "time": "2026-10-16T10:51:13.491527+05:30",
+      "summary": "No new entry. NIFTY 23092 (RSI 29, TimesFM -0.12%) and SENSEX 74567 (RSI 22, -0.08%) broke below 1-min SMAs on a sharp 15-min drop. Held positions are bullish and hedged: 6621 NIFTY 23100/23200 call spread -6.0k; 6628 SENSEX 74300/74200 put spread -425, both verified filled. Bearish verticals conflict with the held one-view per index; bullish adds duplicate it; neutral condor strikes sit within ~0.8\u03c3 of the remaining-session move, so no edge. SL/TP/14:55 exits live. Next review ~20 min."
     }
   ]
 }
