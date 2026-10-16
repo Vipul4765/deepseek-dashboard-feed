@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T11:46:48.063246+05:30",
-      "summary": "Managed only; no new entry. SENSEX 6586 (0-DTE bull put, short 73800PE/long 73600PE, 25 lots) +&#8377;9,875, spot 73,983 ~183 pts above short strike; tightened overall SL &#8377;8,000&#8594;&#8377;5,000 to protect the winner, TP &#8377;14,000 kept, exit 14:55. NIFTY 6561 (22950/23050CE, 15 lots, 19-10) +&#8377;8,385, hedge intact, SL &#8377;28k/TP &#8377;40k unchanged. No new trade: both indices already hold a bullish view (one-view-per-index) and MCX is off. Trigger: SENSEX spot below ~73,800 or a TP/SL fill; next review 10 min."
-    },
-    {
       "time": "2026-10-15T11:48:19.626021+05:30",
       "summary": "HOLD both. SENSEX 6586 (0-DTE bull put 73800/73600PE, 25 lots) fresh P&L +8,825, hedge intact, spot 73,968 (~168 pts above short strike, bullish trend); left overall SL 5,000 / TP 14,000 / exit 14:55 as backstop. NIFTY 6561 (19-10 bull call 22950/23050, 15 lots) +7,946, hedge intact, SL 28k / TP 40k unchanged. No new entry: NIFTY and SENSEX both already hold the same aligned bullish view (one-view-per-index) and MCX is off. Triggers: SENSEX spot < ~73,800 or any TP/SL fill; NIFTY reversals. Next review 15 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T10:51:13.491527+05:30",
       "summary": "No new entry. NIFTY 23092 (RSI 29, TimesFM -0.12%) and SENSEX 74567 (RSI 22, -0.08%) broke below 1-min SMAs on a sharp 15-min drop. Held positions are bullish and hedged: 6621 NIFTY 23100/23200 call spread -6.0k; 6628 SENSEX 74300/74200 put spread -425, both verified filled. Bearish verticals conflict with the held one-view per index; bullish adds duplicate it; neutral condor strikes sit within ~0.8\u03c3 of the remaining-session move, so no edge. SL/TP/14:55 exits live. Next review ~20 min."
+    },
+    {
+      "time": "2026-10-16T11:06:00.559331+05:30",
+      "summary": "No new entry. Assessed NIFTY 23,111 and SENSEX 74,649: both already hold the only view worth taking (6621 NIFTY 23100/23200 call spread -6.6k; 6628 SENSEX 74300/74200 put spread -1.1k, both hedged, fills verified). Fresh tape is choppy/near day highs, TimesFM flat. A bullish vertical duplicates the held view; a bearish one conflicts and fades the up-day; a condor would need trend-fading strikes. No distinct priced edge. Today -56.5k realized. Stops/TP/14:55 exits live. Reassess on a break >23,150 or <23,080 NIFTY."
     }
   ]
 }
