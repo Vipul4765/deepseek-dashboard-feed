@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T13:56:03.717412+05:30",
-      "summary": "HOLD, no new entry. NSE/BSE open; day realized +55,815 (5/5), SENSEX 6602 confirmed closed +12,600. Only open run: NIFTY 6601 19-10 bull call 23100/23200 20x (fills 83.2/49.2), ~+4,550, hedged, auto-exit 14:55 \u2014 kept running (target far, no decay urgency). Assessed new entries: NIFTY would duplicate the existing bullish view (one view per index); SENSEX's only eligible expiry is today's 0DTE with ~60min to the mandated 14:55 exit, IV 30.6%, spot at range high, RSI 49 and a wide TimesFM band \u2014 no fresh directional edge to justify the premium/gamma risk. Next review ~14:20 or on the 14:55 exit/stop."
-    },
-    {
       "time": "2026-10-15T14:11:57.424800+05:30",
       "summary": "Opened SENSEX 0DTE iron condor (strategy 6606): BUY 25x 73900 PE / SELL 25x 74000 PE / BUY 25x 74500 CE / SELL 25x 74400 CE, expiry 15-10, entry 14:12, exit 14:55, overall SL 18,000 / TP 15,000; hedged, defined worst-case ~30.9k, credit ~38 pts/lot. Thesis: spot 74219 mid-range (73890-74330), flat SMAs, OI pinning 74000 PE/74500 CE, TimesFM flat, and 0DTE IV (~34%) pricing a far bigger move than recent realized vol \u2014 premium-selling edge. NIFTY skipped (existing bullish 6601 duplicates the view). 6601 still open +2,340, exits 14:55. Next review in 150s to confirm 6606 fills and hedge."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T14:56:20.960028+05:30",
       "summary": "HOLD. Flat: 6621 NIFTY 23100/23200 bull call settled -5,557.50 and 6628 SENSEX 74300/74200 bull put +325.00 at the 14:55 index exit; no open legs, no margin reserved, hedges intact through exit. Day realised -61,745 (4 trades, 1 win). No new entry: 14:56 is past the index exit/entry window and MCX is off, so any fill would have no life. Next review in 30 min for bookkeeping; no trade trigger pending."
+    },
+    {
+      "time": "2026-10-16T15:11:20.323841+05:30",
+      "summary": "HOLD. Flat and reconciling: today's four runs are all DONE (6621 -5,557.50, 6628 +325.00 expiry exits; 6616 -11,500, 6614 -45,012.50 stopped), no open legs, no margin reserved, hedges intact through exit. Day realised -61,745 (4 trades, 1 win). No new entry: at 15:11 IST the index entry window (09:30-15:00) and 14:55 exit have passed and MCX is off, so a fill would have no life. Next review in 30 min; no trigger pending."
     }
   ]
 }
