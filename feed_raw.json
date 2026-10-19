@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T13:20:19.777474+05:30",
-      "summary": "HOLD, no new entry (13:20 IST, NSE/BSE open, MCX off). Only NIFTY/SENSEX eligible; both already carry a bullish view, so a new trade would duplicate correlated exposure or conflict (one view per index). Both indices choppy near highs (NIFTY 23132, RSI 77; SENSEX 74701, RSI 86), TimesFM flat-to-slightly-down \u2014 no clean fresh momentum leg. Open hedged runs intact: 6621 NIFTY 23100/23200 bull call 15L \u22121.5k; 6628 SENSEX 74300/74200 bull put 25L +1.2k; neither near a third of target, no trail. Day realised \u221256.5k. Next review 25 min; triggers NIFTY <23,090 or >23,150, SENSEX <74,550."
-    },
-    {
       "time": "2026-10-16T13:35:19.452190+05:30",
       "summary": "HOLD, no new entry (13:35 IST, NSE/BSE open; MCX off by boss's decision, only NIFTY/SENSEX allowed). Both indices already carry one bullish view each \u2014 NIFTY 23100/23200 bull call 15L (+49) and SENSEX 74300/74200 bull put 25L (+1775) \u2014 so any added index trade duplicates or conflicts with the existing view (one view per index). Fresh TimesFM flat-to-slightly-down and price choppy near highs: no clean directional edge. Both runs fully hedged, well inside SL/TP, no trailing trigger. Day realised \u221256.5k. Next review 25 min; triggers NIFTY <23,090 or >23,150, SENSEX <74,550; exit 14:55."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T12:45:59.320630+05:30",
       "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, fully hedged, +1140 unrealised; SL 28k, TP 34k, 14:55 exit) \u2014 thesis intact, SENSEX -1% on day, below both SMAs, RSI 40; only ~3% of target so no trail yet. No new entry: NIFTY (-0.9% but stalling at 22929 low of range, RSI 37.9, TimesFM flat) offered only thin 0DTE verticals (bear call R:R 0.23) with no fresh momentum edge, and a SENSEX neutral add would duplicate/muddy the existing bearish view. Day realised -62.7k. Next review 25 min or on 6678 stop/target."
+    },
+    {
+      "time": "2026-10-19T13:01:13.733903+05:30",
+      "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, fully hedged, now +\u20b93,060 unrealised; thesis intact \u2014 SENSEX 73,954, below both SMAs, RSI 31, -1% on day). Only ~9% of 34k target so no trail yet; SL 28k, TP 34k, 14:55 exit. No new entry: NIFTY 0DTE condor spreads too thin (R:R <0.15), and a bearish NIFTY add would only stack correlated down-exposure at a stalling low with flat TimesFM; SENSEX neutral add would overlap 6678. Day realised -62.7k. Next review ~25 min or on 6678 stop/target."
     }
   ]
 }
