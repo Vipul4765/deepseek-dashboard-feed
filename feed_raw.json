@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T10:25:25.328376+05:30",
-      "summary": "Held both, no new entry. NIFTY 6621 bull call (BUY 23100/SELL 23200 CE 19-10, 15 lots) ~flat -0.6k; NIFTY 23134, trend up, thesis intact. SENSEX 6616 bear call (SELL 74400/BUY 74500 CE 22-10, 25 lots) -7.5k as SENSEX broke to 74729 (RSI 77); still hedged, within 26k SL, auto exit 14:55. No new trade: one view per index already held (NIFTY bull, SENSEX short), both overbought, TimesFM flat-to-down, no distinct edge. Next: cut 6616 if SENSEX holds >74800, else manage to 14:55. Review 15 min."
-    },
-    {
       "time": "2026-10-16T10:39:53.545202+05:30",
       "summary": "Cut the failed SENSEX bear call 6616 (SELL 74400/BUY 74500 CE 22-10, 25 lots) as SENSEX rallied +1% to ~74700, breaking the thesis; exit confirmed USER_EXIT, realized -11,500 (run cleared, journal settled). Held NIFTY 6621 bull call (BUY 23100/SELL 23200 CE 19-10, 15 lots), hedged, ~-2.4k, NIFTY flat 23135, SL 30k/TP 36k, 14:55 exit. No new entry: NIFTY already has a view, SENSEX extended after its run \u2014 no fresh priced edge. Day realized -56,512. Next: review 15 min; reassess NIFTY 6621 marks and any SENSEX pullback to 74400."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T11:03:37.277445+05:30",
       "summary": "No new trade. 6664 NIFTY 0DTE fly holds (4 legs filled, hedge intact, mark -3,981 vs -28k SL, exit 14:55; NIFTY 23,054 sits 25pts above the 23,029 lower breakeven). 6669 SENSEX 3DTE bull put is scheduled to enter at 11:05 (sell 74,200 / buy 73,900 PUT 22-10, 25 lots, SL 38k, TP 32k); SENSEX 74,410 is off its 74,300 low and above SMA20, but TimesFM is flat and momentum choppy, so no directional NIFTY/SENSEX add this cycle. Today -17,910 realised. Next: confirm 6669 fills ~11:13, square fly if NIFTY breaks 23,025."
+    },
+    {
+      "time": "2026-10-19T11:05:29.389388+05:30",
+      "summary": "No new trade. 6669 SENSEX 22-10 bull put confirmed FILLED at 11:05 (SELL 500x 74,300 PE @366.05, BUY 500x 74,000 PE @250.30; credit 115.75, max loss ~92k, SL 38k/TP 32k) \u2014 unrealized -1,675, SENSEX 74,438 above short strike. 6664 NIFTY 0DTE fly holds, mark -2,844 vs -28k SL, exit 14:55; NIFTY 23,062 is 33pts above 23,029 breakeven. Both indices mid-range with flat TimesFM and choppy action, so no directional add; a second NIFTY structure would only duplicate exposure. Today realised -17,910. Next: cut fly if NIFTY breaks 23,025."
     }
   ]
 }
