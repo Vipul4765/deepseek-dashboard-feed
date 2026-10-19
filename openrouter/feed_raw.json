@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T11:38:30.562590+05:30",
-      "summary": "Square-off losing SENSEX bull call spreads (6590,6589,6587,6563) and NIFTY long call (6560) to cut losses. Kept winners: 6591 (10-lot bull call spread +790 unrealized), 6562 (bull call spread +162), 6558 (bull call spread +127). Next review in 30s to assess results and seek bearish opportunities per slightly bearish forecasts."
-    },
-    {
       "time": "2026-10-15T11:43:12.351597+05:30",
       "summary": "Created and started two bearish strategies: SENSEX bear call spread (6593) selling ATM call, buying OTM_2 call, 10 lots each; NIFTY long put ATM (6594), 10 lots. Both set to enter at 11:39 and exit at 14:55. No open positions currently. Awaiting entry to take effect."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T10:01:52.945669+05:30",
       "summary": "Currently holding two profitable bearish positions: NIFTY long put (2 lots, +4374.50) and SENSEX bear put spread (15 lots, +5550.00), plus a realized +172.25 from an exited NIFTY iron condor. Total PnL ~10,097, halfway to the \u20b920,000 daily target. The market shows bearish technicals (price below SMAs, RSI oversold for NIFTY) but slightly bullish short-term forecasts. Both strategies are above one-third of their profit targets, so consideration is given to tightening stops to lock in gains. However, live edit attempts to adjust stop loss encountered run identification issues. Decided to hold existing positions and reassess on fresh data, as the thesis remains intact and further downside could achieve the target without new entries."
+    },
+    {
+      "time": "2026-10-19T10:06:05.997642+05:30",
+      "summary": " Holding one active SENSEX bear put spread (15 lots, 74600-74400 Oct22) with ~\u20b94,845 unrealised profit. No new NIFTY position taken due to mixed technicals (price below SMA, RSI oversold) vs slightly bullish TimesFM forecast. Profit trail not adjusted due to live-edit constraints; will monitor for further move or exit signals. Next review in 60 sec."
     }
   ]
 }
