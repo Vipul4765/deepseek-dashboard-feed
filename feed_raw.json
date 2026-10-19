@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T13:35:19.452190+05:30",
-      "summary": "HOLD, no new entry (13:35 IST, NSE/BSE open; MCX off by boss's decision, only NIFTY/SENSEX allowed). Both indices already carry one bullish view each \u2014 NIFTY 23100/23200 bull call 15L (+49) and SENSEX 74300/74200 bull put 25L (+1775) \u2014 so any added index trade duplicates or conflicts with the existing view (one view per index). Fresh TimesFM flat-to-slightly-down and price choppy near highs: no clean directional edge. Both runs fully hedged, well inside SL/TP, no trailing trigger. Day realised \u221256.5k. Next review 25 min; triggers NIFTY <23,090 or >23,150, SENSEX <74,550; exit 14:55."
-    },
-    {
       "time": "2026-10-16T13:50:30.000925+05:30",
       "summary": "HOLD, no new entry (13:50 IST, NSE/BSE open; MCX off). Both allowed indices already hold one bullish view: NIFTY 23100/23200 bull call 15L (-3,998) and SENSEX 74300/74200 bull put 25L (+1,450); adding another NIFTY/SENSEX trade would duplicate or conflict with that view (one view per index). Both runs fully hedged, well inside SL/TP, neither past the trailing trigger. NIFTY flat/choppy near highs, forecasts slightly down, so no clean edge to justify a fresh risk. Day realised -56.5k. Next review 20 min; exits 14:55."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T13:01:13.733903+05:30",
       "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, fully hedged, now +\u20b93,060 unrealised; thesis intact \u2014 SENSEX 73,954, below both SMAs, RSI 31, -1% on day). Only ~9% of 34k target so no trail yet; SL 28k, TP 34k, 14:55 exit. No new entry: NIFTY 0DTE condor spreads too thin (R:R <0.15), and a bearish NIFTY add would only stack correlated down-exposure at a stalling low with flat TimesFM; SENSEX neutral add would overlap 6678. Day realised -62.7k. Next review ~25 min or on 6678 stop/target."
+    },
+    {
+      "time": "2026-10-19T13:16:03.426465+05:30",
+      "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, hedge verified BUY 74500CE 30 / SELL 74200CE 30), unrealised +4,500, SL 28k/TP 34k/14:55 exit intact \u2014 profit only ~13% of target so no trail yet. No new entry: NIFTY flat TimesFM (+0.01%), RSI 50, price stalling at day lows after a failed bounce; the only 0DTE condor credit (~13 pts, R:R 0.36) barely clears the 0.30 floor with thin EV, and NIFTY 4-leg record is net negative. Day realised -62.7k. Next review ~13:40."
     }
   ]
 }
