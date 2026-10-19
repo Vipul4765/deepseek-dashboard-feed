@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T10:02:40.049293+05:30",
-      "summary": "Hold both. 6614 NIFTY bear put (long 22950/short 22850 PE 19-10, 25 lots) \u221223.6k unreal; 6616 SENSEX bear call (short 74400/long 74500 CE 22-10, 25 lots) \u22123.9k. Both hedged, SLs 45k/26k and 14:55 exits intact. NIFTY/SENSEX overbought (RSI 84/88) at day highs; TimesFM flat-to-slightly-down supports the bearish legs and gives no fresh directional edge \u2014 a bull add would conflict with the views already held, so no new trade. Next review ~10:17, or earlier on a stop hit / NIFTY \u226523,160."
-    },
-    {
       "time": "2026-10-16T10:17:37.827903+05:30",
       "summary": "Held both, no new entry. 6614 NIFTY bear put (long 22950/short 22850 PE 19-10, 25 lots) \u221238.9k vs 45k SL: NIFTY 23108 (RSI 90, day highs), only ~6k defined downside left, so SL bounds it. 6616 SENSEX bear call (short 74400/long 74500 CE 22-10, 25 lots) \u22129.5k vs 26k SL, 6 DTE. TimesFM still flat-to-slightly-down, so bearish theses not invalidated; a bull add would conflict with both held views. Next review 10 min or on NIFTY stop hit / >23150."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T10:46:10.291721+05:30",
       "summary": "Held 6664 NIFTY 0DTE iron fly 25x (23100 centre, 23000/23200 wings, credit 71.05): mark -8.7k vs -28k SL, 50k TP, exit 14:55; expiry value at 23,050 is ~+34k so theta favours holding with the hedge intact. SENSEX now flat after the -17,910 exit. No new entry: both indices are oversold (RSI ~27) and bouncing off morning lows, so a bear spread would chase an extended drop and a 3-DTE SENSEX debit spread needs too large a move. Review in 6 min; stop near NIFTY 23,012."
+    },
+    {
+      "time": "2026-10-19T10:52:35.252173+05:30",
+      "summary": "HOLD only position: 6664 NIFTY 0DTE iron fly 25x (short 23100 CE/PE, long 23200 CE/23000 PE, credit 71.05). All four legs filled, hedge intact; mark -9,100 vs -28,000 overall SL / +50,000 TP, exit 14:55. Spot 23,043 vs expiry breakeven 23,029 \u2014 theta-positive if NIFTY holds this area. No new entry: both NIFTY (23,043) and SENSEX (74,343) are RSI ~37, below SMA20/50 but bouncing off morning lows with flat TimesFM paths \u2014 direction unresolved, so no vertical and no fresh neutral worth the premium. SENSEX flat. Trigger: square off fly if spot breaks 23,020; reassess direction on a clean break either way."
     }
   ]
 }
