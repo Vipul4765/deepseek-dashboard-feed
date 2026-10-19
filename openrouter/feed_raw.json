@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T10:39:19.336801+05:30",
-      "summary": "HOLD: No new trades entered. Monitoring three active bullish positions (SENSEX ATM-OTM2 call spread, NIFTY OTM2 long call, SENSEX ATM-OTM1 call spread). No clear directional thesis from price, indicators, or TimesFM for NIFTY/SENSEX; avoiding conflicting views. Will reassess on clearer signal or approaching SL/TP."
-    },
-    {
       "time": "2026-10-15T10:48:37.453631+05:30",
       "summary": "Created and started SENSEX long call ATM (5 lots) with SL 20000, TP 40000 to add bullish exposure. Existing bullish positions on NIFTY (long call OTM2) and SENSEX (bull call spread ATM-OTM2, bull put spread ATM-OTM1, bull call spread ATM-OTM1) remain active. No changes to existing trades. Next review on price move toward SL/TP or new signal."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T09:37:39.856508+05:30",
       "summary": "Market open but past index entry window (15:00 IST). No new entries allowed. No open positions. Await next session."
+    },
+    {
+      "time": "2026-10-19T09:42:49.027801+05:30",
+      "summary": "Holding existing NIFTY iron condor (strategy 6661) with small unrealized loss (-74.75). Market range-bound as expected for iron condor thesis, theta decay working in our favor on expiry day. No adjustments needed; maintaining neutral view for NIFTY per one-view-per-index rule. Will reassess in 5 minutes or if significant move toward short strikes."
     }
   ]
 }
