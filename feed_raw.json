@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T14:27:33.735407+05:30",
-      "summary": "HOLD. No new entry: AI budget ~$0.038 left ($0.7616/$0.80), and each index already carries its view (NIFTY bullish 6601, SENSEX neutral 6606). Both open, fully hedged, fresh P&L: NIFTY bull call 6601 (BUY 23100CE/SELL 23200CE, 20 lots) \u2212\u20b92,990; SENSEX 0DTE iron condor 6606 (74000PE/74600CE long vs 74100PE/74500CE short, 25 lots) \u2212\u20b91,875. Day realized +\u20b955,815. Both have verified hedges, overall stops and 14:55 exits. Next review in 1200s; exits auto-close."
-    },
-    {
       "time": "2026-10-15T14:42:35.042998+05:30",
       "summary": "HOLD, no new entry. AI budget nearly spent ($0.771/$0.80) and 14:42 IST leaves only ~13 min before the 14:55 index exit, so a fresh 0DTE is not justified. Both open runs carry the day's views: 6601 NIFTY bull call spread (BUY 23100CE/SELL 23200CE, 20 lots) now \u2212\u20b910,205 as NIFTY fell to 22,975; 6606 SENSEX 0DTE iron condor (74000PE/74600CE long vs 74100PE/74500CE short, 25 lots) \u2212\u20b97,850 with SENSEX 74,044. Both hedged, stops intact (\u20b932k / \u20b918k), auto-exit 14:55. Day realized +\u20b955,815. Next review in 420s before the exits."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T09:15:13.792321+05:30",
       "summary": "HOLD \u2014 no entry. Session open but only 1 minute in: NSE/BSE index entry window starts 09:30, today's 1-min candles are not yet formed (indicators/forecast still from Friday's 15:30 close). No open runs, zero margin used, today's P&L flat. Fresh quotes: NIFTY 23145 (prev 23146), SENSEX 74704 (prev 74729), VIX 13.32 \u2014 no direction yet. Blocker: entry window not open plus no intraday price action. Next review 09:29 to judge the opening range for a NIFTY 0DTE or SENSEX 22-10 hedged directional/neutral structure."
+    },
+    {
+      "time": "2026-10-19T09:22:19.498764+05:30",
+      "summary": "HOLD \u2014 no entry. Session open but only ~6 min in; NIFTY whipsawed 23074\u201323175 (now 23124, RSI 51.9) and SENSEX 74513\u201374849 (now 74653, RSI 47.6) \u2014 no direction, opening range not established. First expiries confirmed: NIFTY 19-10 0DTE (lot 65), SENSEX 22-10 3DTE (lot 20). Zero open runs, flat P&L. Blockers: 0DTE condor short strikes sit only 25\u201375 pts from today's extremes; no confirmed momentum for a vertical. Reassess ~09:31: sell a NIFTY 0DTE condor if a tighter range forms, or take a directional vertical on an opening-range break."
     }
   ]
 }
