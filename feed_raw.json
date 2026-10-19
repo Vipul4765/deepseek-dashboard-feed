@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T12:51:19.696376+05:30",
-      "summary": "HOLD, no new entry (12:50 IST; NSE/BSE open, MCX off). Two hedged runs intact and fresh: 6621 NIFTY 23100/23200 bull call 15 lots, -1.17k; 6628 SENSEX 74300/74200 bull put 25 lots, +0.78k. Both indices still up (NIFTY 23,133 RSI 62; SENSEX 74,707 RSI 62), so my one bullish view per index stands; a new trade would duplicate that correlated exposure, no distinct thesis is compelling. No trail (neither near a third of target). Day realised -56.5k. Next review 25 min, or on NIFTY <23,050 / SENSEX <74,300."
-    },
-    {
       "time": "2026-10-16T13:06:07.237529+05:30",
       "summary": "HOLD, no new entry (13:05 IST; NSE/BSE open, MCX off). Only NIFTY/SENSEX eligible and both already carry a bullish view, so a new trade would duplicate correlated exposure or conflict (one view per index). Both indices are choppy \u2014 dipped then bounced \u2014 with no clear direction for a momentum flip. Open hedged runs intact: 6621 NIFTY 23100/23200 bull call 15L \u22125.8k; 6628 SENSEX 74300/74200 bull put 25L \u22120.25k. Neither near a third of target \u2192 no trail. Day realised \u221256.5k. Next review 20 min; triggers NIFTY <23,060 or >23,140, SENSEX <74,400."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T12:16:01.408265+05:30",
       "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, hedged, +3.5k unrealised, SL 28k, TP 34k, 14:55 exit). No new entry: NIFTY's 0DTE down-move is stalling at 22,935 (RSI 28.8, TimesFM flat +0.05%), so put-spread breakevens sit at/near spot with no edge, and adding more short delta would duplicate the existing SENSEX bearish view. Day realised -62.7k. Next review ~25 min or on 6678 stop/target; budget nearly spent (0.63/0.80)."
+    },
+    {
+      "time": "2026-10-19T12:30:44.214241+05:30",
+      "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, fully hedged, +840 unrealised; SL 28k, TP 34k, 14:55 exit). No new entry: both indices are flat/choppy after the morning fall (NIFTY 22945, RSI 55.7; SENSEX 74013, RSI 52.8; TimesFM ~flat), so no momentum edge, and a SENSEX bearish add is already in place. Day realised -62.7k. Budget 0.64/0.80 used. Next review 25 min or on 6678 stop/target."
     }
   ]
 }
