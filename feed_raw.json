@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T14:39:11.488792+05:30",
-      "summary": "HOLD (14:38 IST; NSE/BSE open, ~16 min to the 14:55 index exit). Both runs ACTIVE, hedged, fresh marks: NIFTY 23100/23200 bull call 15L at -9.75k (SL 30k/TP 36k) and SENSEX 74300/74200 bull put 25L at -0.9k (SL 30k/TP 18k); neither near SL/TP nor the 1/3 trailing trigger, so no edit. One bullish view per index already held, so no new entry; a fresh start with ~15 min of life adds only cost. Tape drifts mildly lower (NIFTY 23079 RSI 44, SENSEX 74538 RSI 42; TimesFM near-flat). Day realised -56.5k. Budget 0.50/0.80. Next review ~14:53 to confirm the auto exits."
-    },
-    {
       "time": "2026-10-16T14:54:07.309773+05:30",
       "summary": "HOLD (14:54 IST; NSE/BSE open, ~1 min to the 14:55 index exit). Both runs ACTIVE and hedged: 6621 NIFTY 23100/23200 bull call 15L at -5,947.50 (SL 30k/TP 36k) and 6628 SENSEX 74300/74200 bull put 25L at +900 (SL 30k/TP 18k); neither near SL/TP nor a trailing trigger, so no edit. One bullish view per index already held, so no new entry \u2014 a start now would live only seconds to the exit. No MCX. Day realised -56,512.50. Next review in 3 min to confirm both auto exits settled."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T13:49:22.926714+05:30",
       "summary": "HOLD. 6678 SENSEX 22-10 bear call 74200/74500 (30 lots, hedge intact, fills 317/211.35) runs at fresh MTM +14,640 (23% of target) with break-even stop, TP 34,000 and 14:55 exit, so it cannot turn into a loser. No new entry: NIFTY 0DTE shows no clear direction (RSI 43.9, price below SMAs, TimesFM p50 +0.09%), SENSEX already holds its one bearish view, and AI budget is at 0.771/0.80 USD \u2014 saving it for exit management. Day realised \u221262,716; net \u2248 \u221248,100. Next check ~14:14, then Core's 14:55 exit."
+    },
+    {
+      "time": "2026-10-19T14:04:23.384332+05:30",
+      "summary": "Booked the winner: squared off 6678 SENSEX 22-10 bear call 74200/74500 (30 lots, fills 317/211.35, hedge intact) with fresh MTM +10,500 rather than risk SENSEX momentum (RSI 71, TimesFM +0.14%) eroding it before the 14:55 exit; exit fills not yet in the run log, so P&L unverified until settlement. No new entry: NIFTY 0DTE choppy, SENSEX already had its one view, and AI budget is at 0.78/0.80 USD. Day realised \u221262,716 before this exit. Next review 15 min or after Core settles the exit."
     }
   ]
 }
