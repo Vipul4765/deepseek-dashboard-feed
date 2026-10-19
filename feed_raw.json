@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T09:31:32.386600+05:30",
-      "summary": "Opened defined-risk NIFTY bear put spread (strat 6614, run 0b02fd1c): BUY 25x 22950 PE @134.15, SELL 25x 22850 PE @88.95 on 19-10-2026 \u2014 net debit 45.2pt, \u20b973,450 worst-case, max profit ~\u20b989k; overall SL \u20b945k, TP \u20b955k, exit 14:55. Thesis: both indices gapped up and faded, NIFTY under SMA20/50, RSI 39, TimesFM slightly down. Both legs filled 1625 qty, hedge intact (strikes unverified, journal pending). No SENSEX trade: its 4-leg setup is a negative record and one-view-per-index applies. Next review ~7min."
-    },
-    {
       "time": "2026-10-16T09:32:44.034939+05:30",
       "summary": "Held new entries; managed open NIFTY bear put spread (strat 6614): both legs FILLED 1625 qty \u2014 BUY 22950 PE @134.15 / SELL 22850 PE @88.95 (19-10), hedge intact, +\u20b92,762 unrealized (below the ~1/3 target trail trigger), SL \u20b945k / TP \u20b955k / exit 14:55 set. No add-on: NIFTY already holds the short-index view; SENSEX 4-leg neutral is refused by its own 8-trade/25%/-\u20b911.7k record, and a SENSEX bear spread would duplicate the same directional thesis with both indices already at session lows. Next review ~10 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T10:10:32.245649+05:30",
       "summary": "Held 6660 (SENSEX 22-10 bull put 30x: SELL 74500PE @359 / BUY 74300PE @284.45, credit 74.55 pts, worst case \u20b975.3k, SL 32k/TP 30k/exit 14:55). Fresh mark -\u20b910,350 as SENSEX 74,482 sits at the short strike, but last candles show higher lows and TimesFM median 74,520 \u2014 thesis strained, not failed, so no edit. No new entry: NIFTY is 0DTE with conflicting signals (RSI 39 below SMAs vs recovering higher lows, TimesFM +0.12%); its verticals price under 0.30 R:R and 50-pt condors have tight short strikes. SENSEX already carries a view; adding would double correlated risk near strike. Next check 15 min; act early if SENSEX breaks 74,350 (stop zone)."
+    },
+    {
+      "time": "2026-10-19T10:26:27.833728+05:30",
+      "summary": "Held 6660 (SENSEX 22-10 bull put 30x, credit 74.55, SL 32k/TP 30k/exit 14:55): mark -9,870 with SENSEX 74,508 on the 74,500 short strike, but higher lows and TimesFM p50 74,606 keep the thesis alive \u2014 no edit. Direction was not clear enough for a NIFTY vertical (flat-and-slightly-up, 40 pts off the low, TimesFM ~flat; NIFTY 2-leg record is net negative), so I created and started 6664: NIFTY 0DTE (19-10) iron fly, sell ATM CE/PE, buy \u00b12 strikes (23,100/23,200/23,000), 25 lots, ~72.8 pts credit, defined worst case ~\u20b944k, margin ~\u20b92.5M, overall SL 28k, TP 50k, exit 14:55. Start is waiting for 10:34; next check in 5 minutes to verify all four fills."
     }
   ]
 }
