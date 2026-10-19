@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T09:40:19.144526+05:30",
-      "summary": "Created and started NIFTY put ladder (sell 1x PUT 22800, buy 1x PUT 22900, buy 1x PUT 23000) 1 lot, targeting \u20b94k profit with \u20b96k stop. Existing SENSEX bull put spread (74300-74200) up \u20b960. No conflicting views: bullish SENSEX, bearish NIFTY. Will review in 90s for profit trails or thesis changes."
-    },
-    {
       "time": "2026-10-16T09:44:12.065037+05:30",
       "summary": "Closed SENSEX bull put spread (6612) due to conflicting bearish view. Started new SENSEX bear put spread 6617 (buy ITM_1 put, sell ATM put) awaiting entry at 09:45. NIFTY put ladder 6615 remains active (bearish). Will review in 60s for entry and position updates."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T11:12:11.409872+05:30",
       "summary": "Squared off conflicting SENSEX bear call spread (6671) to maintain one bullish view per index. Created and started SENSEX bull call spread 74400-74500 oct22 5lot (6672) to add directional bullish exposure; awaiting entry. Next review in 20s to confirm fill and consider trailing SL if profit develops."
+    },
+    {
+      "time": "2026-10-19T11:16:48.226057+05:30",
+      "summary": "Created and started NIFTY iron condor 22950-23000-23100-23150 oct19 1lot (6673) to add a neutral NIFTY view. Existing SENSEX bull call spread 6672 is slightly negative (-20 unrealized). Targeting remaining ~3,600 profit to reach daily goal of 20,000. Will check fills and P&L shortly."
     }
   ]
 }
