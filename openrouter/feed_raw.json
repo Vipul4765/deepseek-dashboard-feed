@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T10:20:18.765917+05:30",
-      "summary": "Squared off NIFTY iron condor 6618 for +\u20b9243.75 P&L. Created/started new NIFTY iron condor 6619 (23050-23000-23150-23200 Oct19 5lot, SL \u20b95000, TP \u20b915000). Squared off SENSEX bear put spread 6617 and created/started new SENSEX bear put spread 6620 (74400-74200 Oct22 1lot, SL \u20b9800, TP \u20b91200). Both new strategies open. Next review in 60s to monitor P&L and consider trailing stops if profits reach ~1/3 of targets."
-    },
-    {
       "time": "2026-10-16T10:26:38.890390+05:30",
       "summary": "Squared off NIFTY iron condor 6618 for +\u20b9243.75 P&L. Created/started new NIFTY iron condor 6619 (23050-23000-23150-23200 Oct19 5lot, SL \u20b95000, TP \u20b915000). Squared off SENSEX bear put spread 6617 and created/started new SENSEX bear put spread 6620 (74400-74200 Oct22 1lot, SL \u20b9800, TP \u20b91200). Both new strategies open. Next review in 60s to monitor P&L and consider trailing stops if profits reach ~1/3 of targets."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-19T11:39:29.617349+05:30",
+      "summary": "Created and started NIFTY long call ATM 1 lot (strategy 6675) with overall SL 2000 and TP 4000, taking a bullish view per the boss's directional requirement. No existing open positions; will review in 60 seconds to monitor SL/TP or exit."
+    },
+    {
+      "time": "2026-10-19T11:44:09.362073+05:30",
       "summary": "Created and started NIFTY long call ATM 1 lot (strategy 6675) with overall SL 2000 and TP 4000, taking a bullish view per the boss's directional requirement. No existing open positions; will review in 60 seconds to monitor SL/TP or exit."
     }
   ]
