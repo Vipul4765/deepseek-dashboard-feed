@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T10:48:37.453631+05:30",
-      "summary": "Created and started SENSEX long call ATM (5 lots) with SL 20000, TP 40000 to add bullish exposure. Existing bullish positions on NIFTY (long call OTM2) and SENSEX (bull call spread ATM-OTM2, bull put spread ATM-OTM1, bull call spread ATM-OTM1) remain active. No changes to existing trades. Next review on price move toward SL/TP or new signal."
-    },
-    {
       "time": "2026-10-15T10:52:18.750738+05:30",
       "summary": "Created and started SENSEX bull call spread 5 lots ATM-OTM2 (SL 13680, TP 20000) to add bullish exposure. Existing bullish positions on NIFTY (long call OTM2) and SENSEX (various spreads) remain active. No changes to existing trades. Next review on price move toward SL/TP or new signal."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T09:42:49.027801+05:30",
       "summary": "Holding existing NIFTY iron condor (strategy 6661) with small unrealized loss (-74.75). Market range-bound as expected for iron condor thesis, theta decay working in our favor on expiry day. No adjustments needed; maintaining neutral view for NIFTY per one-view-per-index rule. Will reassess in 5 minutes or if significant move toward short strikes."
+    },
+    {
+      "time": "2026-10-19T09:45:38.752993+05:30",
+      "summary": "Created SENSEX bear put spread 74600-74400 oct22 15lot (strategy 6662) with entry at 09:45, exit 14:55, overall SL/TP 15000 each. Waiting to start. Existing NIFTY iron condor 6661 remains active with small unrealized profit. Will review at 09:45 for fills and adjust if needed."
     }
   ]
 }
