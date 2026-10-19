@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T14:54:07.309773+05:30",
-      "summary": "HOLD (14:54 IST; NSE/BSE open, ~1 min to the 14:55 index exit). Both runs ACTIVE and hedged: 6621 NIFTY 23100/23200 bull call 15L at -5,947.50 (SL 30k/TP 36k) and 6628 SENSEX 74300/74200 bull put 25L at +900 (SL 30k/TP 18k); neither near SL/TP nor a trailing trigger, so no edit. One bullish view per index already held, so no new entry \u2014 a start now would live only seconds to the exit. No MCX. Day realised -56,512.50. Next review in 3 min to confirm both auto exits settled."
-    },
-    {
       "time": "2026-10-16T14:55:10.921993+05:30",
       "summary": "HOLD. Both open runs settled at the 14:55 index exit: 6621 NIFTY 23100/23200 bull call closed -5,557.50 (RUN_DONE, L2 exit 46.90), 6628 SENSEX 74300/74200 bull put closed +325.00 (RUN_DONE, L1 333.30 / L2 298.15). Flat now \u2014 no open legs, no margin reserved, no hedges to repair. No new entry: it is 14:55, past the index exit time, so any fill would have seconds of life. MCX off. Day realised \u2248 -61,745 (journal -56,512.50 plus these two). Next review in 30 min only for bookkeeping; no trade trigger pending."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T14:04:23.384332+05:30",
       "summary": "Booked the winner: squared off 6678 SENSEX 22-10 bear call 74200/74500 (30 lots, fills 317/211.35, hedge intact) with fresh MTM +10,500 rather than risk SENSEX momentum (RSI 71, TimesFM +0.14%) eroding it before the 14:55 exit; exit fills not yet in the run log, so P&L unverified until settlement. No new entry: NIFTY 0DTE choppy, SENSEX already had its one view, and AI budget is at 0.78/0.80 USD. Day realised \u221262,716 before this exit. Next review 15 min or after Core settles the exit."
+    },
+    {
+      "time": "2026-10-19T14:04:52.146032+05:30",
+      "summary": "Flat: 6678 SENSEX bear call settled USER_EXIT +\u20b911,040 (fills 155.90/243.15, hedge intact); open_runs empty. Day realised \u2248 -\u20b940,636 (5 trades, 2 wins). No new entry: NIFTY 0DTE and SENSEX 3DTE are mid-range bounces (NIFTY 22,887 vs 22,845-22,978; SENSEX 73,852 vs 73,708-74,126) with no clear momentum, and AI budget is at 0.789/0.80 USD, so a fresh 14:55-exit position could not be monitored. Next review 30 min (budget-capped)."
     }
   ]
 }
