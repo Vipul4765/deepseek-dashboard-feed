@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T09:46:17.459414+05:30",
-      "summary": "Both indices gapped up, faded ~1.5%, then recovered ~40% of the drop; RSI 56-59, above SMAs, TimesFM mildly down \u2014 no fresh clear direction. NIFTY bear put 6614 active: 25x 22950/22850 PE (19-10), both legs filled, unrealized -1869, SL45k/TP55k/14:55 intact, no edit needed. SENSEX bear call 6616 (25x 74500/74600 CE 22-10) entry at 09:47 still pending, no run yet. No new trade: both indices already carry a bearish view, so adding would only duplicate correlated exposure. Next trigger 09:48 \u2014 confirm 6616 fills/hedge."
-    },
-    {
-      "time": "2026-10-16T09:47:29.180820+05:30",
-      "summary": "HOLD \u2014 no new trade. NIFTY 6614 (BUY 22950/SELL 22850 PE 19-10, 25 lots) filled, unreal \u22123,900; SENSEX 6616 (SELL 74400/BUY 74500 CE 22-10, 25 lots) both legs filled, unreal \u22121,725. Hedges intact, SL/TP/14:55 exits unchanged. Both indices gapped up, faded, then recovered ~40% \u2014 RSI 59/64, TimesFM flat, no fresh direction. I already hold a bearish view on each index, so a same-direction add duplicates thesis and a SENSEX condor is both overlapping and bar-blocked (25% win, \u221211,706). Reassess 09:47+15m, or on NIFTY \u226523,050 / \u226422,900."
-    },
-    {
       "time": "2026-10-16T10:02:40.049293+05:30",
       "summary": "Hold both. 6614 NIFTY bear put (long 22950/short 22850 PE 19-10, 25 lots) \u221223.6k unreal; 6616 SENSEX bear call (short 74400/long 74500 CE 22-10, 25 lots) \u22123.9k. Both hedged, SLs 45k/26k and 14:55 exits intact. NIFTY/SENSEX overbought (RSI 84/88) at day highs; TimesFM flat-to-slightly-down supports the bearish legs and gives no fresh directional edge \u2014 a bull add would conflict with the views already held, so no new trade. Next review ~10:17, or earlier on a stop hit / NIFTY \u226523,160."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-19T10:34:24.008517+05:30",
       "summary": "Both positions verified from Core fills: 6664 NIFTY 19-10 0DTE iron fly 25x filled (sell 23100 CE 52 / PE 72, wings 23200 CE 20.2 / 23000 PE 32.75, credit ~71, worst case ~\u20b947k, SL 28k, TP 50k, exit 14:55), now -1,219. 6660 SENSEX 22-10 bull put 30x (sell 74500 PE 359 / buy 74300 PE 284.45, credit 74.55, max loss ~75k) marked -10,860 as SENSEX 74,476 sits just under the short strike; SL 32k, exit 14:55, no profit to trail. No new entry: SENSEX choppy, NIFTY flat (SMA/R Futures flat, TimesFM +0.05%) and both indices already carry a view. Next check 10 min; square SENSEX if loss nears ~20-25k."
+    },
+    {
+      "time": "2026-10-19T10:45:16.245613+05:30",
+      "summary": "Squared off 6660 SENSEX 22-10 bull put 30x at a realised -\u20b917,910 (Core fills: 515.60/411.20). Thesis had broken \u2014 SENSEX 74,372 is ~130 pts below the 74,500 short strike, RSI 32.8, below both SMAs, and with 3 DTE the mark converges to intrinsic (~-32k) even if flat. Still holding 6664 NIFTY 0DTE iron fly 25x (credit 71.05, worst case ~\u20b947k, SL 28k, TP 50k, exit 14:55): marked -\u20b98.2k but expiry value at spot is ~+\u20b925.5k, SL trips near NIFTY 23,012 (day low 23,021). No new entry: both indices are bouncing off oversold lows, so a bear spread would chase an extended move. Next check in 7 min."
+    },
+    {
+      "time": "2026-10-19T10:46:10.291721+05:30",
+      "summary": "Held 6664 NIFTY 0DTE iron fly 25x (23100 centre, 23000/23200 wings, credit 71.05): mark -8.7k vs -28k SL, 50k TP, exit 14:55; expiry value at 23,050 is ~+34k so theta favours holding with the hedge intact. SENSEX now flat after the -17,910 exit. No new entry: both indices are oversold (RSI ~27) and bouncing off morning lows, so a bear spread would chase an extended drop and a 3-DTE SENSEX debit spread needs too large a move. Review in 6 min; stop near NIFTY 23,012."
     }
   ]
 }
