@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T09:19:39.501632+05:30",
-      "summary": "Created and started SENSEX bull put spread (sell 74300 PUT, buy 74200 PUT) 1 lot each. Defined risk: max loss \u20b9400, max profit \u20b91,000. Entry at 09:15, exit at 14:55. Will monitor for profit to trail stop."
-    },
-    {
       "time": "2026-10-16T09:23:23.014836+05:30",
       "summary": "Created NIFTY long put ATM 1lot (strategy 6613) set to start at 09:20; existing SENSEX bull put spread (6612) is up \u20b976. Monitoring both for profit to trail stops. No conflicting views: bullish on SENSEX, bearish on NIFTY."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-19T10:54:08.083565+05:30",
+      "summary": "Created and started SENSEX bull call spread 74400-74500 oct22 2lot (strategy 6668) awaiting entry at 10:53. Adds bullish exposure to existing SENSEX bull call and put spreads. Target profit \u20b91,000, max loss \u20b91,000 per strategy. Next review in 30s to check fill and manage open runs."
+    },
+    {
+      "time": "2026-10-19T11:03:18.727303+05:30",
       "summary": "Created and started SENSEX bull call spread 74400-74500 oct22 2lot (strategy 6668) awaiting entry at 10:53. Adds bullish exposure to existing SENSEX bull call and put spreads. Target profit \u20b91,000, max loss \u20b91,000 per strategy. Next review in 30s to check fill and manage open runs."
     }
   ]
