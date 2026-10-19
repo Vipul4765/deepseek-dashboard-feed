@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T11:17:04.178667+05:30",
-      "summary": "Started NIFTY long put ATM 1 lot (ID 6631) at 124.85, unrealized P&L -32.50. Managed existing SENSEX bear put spread 30 lots (ID 6629) unrealized P&L +1860. No new entries; thesis remains bearish on both indices. Will trail stops upon reaching one-third of targets. Next review in 60s."
-    },
-    {
       "time": "2026-10-16T11:23:03.845632+05:30",
       "summary": "Started NIFTY long put ATM 1 lot (ID 6631) at 124.85, unrealized P&L -32.50. Managed existing SENSEX bear put spread 30 lots (ID 6629) unrealized P&L +1860. No new entries; thesis remains bearish on both indices. Will trail stops upon reaching one-third of targets. Next review in 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T13:12:56.563797+05:30",
       "summary": "Created and started SENSEX bull call spread 74000-74100 oct22 6lot (id 6686) with overall SL 2000, TP 3000. Entered net debit 41.2 points/share after assessing slight bullish SENSEX bias (TimesFM) and one-view-per-index rule. No other open positions. Will monitor for SL/TP or thesis change."
+    },
+    {
+      "time": "2026-10-19T13:17:08.380819+05:30",
+      "summary": "Square-off requested for SENSEX bull call spread 6lot (id 6686) due to thesis weakening (TimesFM slightly bearish, price below break-even). Will reassess after exit executes for new opportunities."
     }
   ]
 }
