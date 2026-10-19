@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T11:20:23.282371+05:30",
-      "summary": "HOLD, no new entry. Both indices already hold their one view: 6621 NIFTY bull call 23100/23200 (-9.5k) and 6628 SENSEX bull put 74300/74200 (-2.1k), both hedged with verified fills. A new bullish trade on either duplicates and a bearish one conflicts, so no priced distinct edge; MCX is off. Day trend is up (NIFTY 23,081, SENSEX 74,555) and pullback is minor \u2014 view intact, stops (30k) and 14:55 exits live. Today -56.5k realized. Reassess on NIFTY break >23,150 or <23,020."
-    },
-    {
-      "time": "2026-10-16T11:35:23.745238+05:30",
-      "summary": "HOLD, no new entry. Both indices already carry their one view, both bullish and aligned with the up-momentum: 6621 NIFTY 23100/23200 bull call (unrealized -3.1k, fresh) and 6628 SENSEX 74300/74200 bull put (+0.2k, fresh), both hedged with verified fills. A new bullish trade duplicates the same thesis; a bearish one conflicts and would fade a strong rally (NIFTY RSI 71, SENSEX 68). MCX off; mandate is NIFTY/SENSEX only, so no third underlying. No trailing yet (profit <1/3 of target). Today -56.5k realized. Next review in 20 min or on NIFTY break >23,150 / <23,020."
-    },
-    {
       "time": "2026-10-16T11:50:42.211109+05:30",
       "summary": "HOLD, no new entry. NSE/BSE open (11:50 IST). Positions already carry one fresh bullish view per index with verified hedges: 6621 NIFTY 23100/23200 bull call -4.6k and 6628 SENSEX 74300/74200 bull put -0.7k. A new directional trade would duplicate the same thesis/correlated exposure; a neutral condor has no edge with the tape trending up and short strikes only ~135pts from spot. Neither winner is at 1/3 of target, so no trail yet. Today -56.5k realized. Next: reassess on NIFTY break >23150 or <23050, or SENSEX <74300; else 20-min review."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-19T12:06:53.061170+05:30",
       "summary": "Cut the broken bullish SENSEX 22-10 bull put (6669): squared at 564.00/399.10, realised -24,575 (ran past the short 74,300 strike as SENSEX hit new lows at 74,051). Today realised now ~-71,410. NIFTY and SENSEX both below SMA20/50 with RSI ~30-32 and fresh lows, so I opened a defined-risk momentum trade: 6677 NIFTY 0DTE bear put spread (BUY 25x 22,950 PE / SELL 25x 22,900 PE, expiry 19-10), debit ~23.3 => worst case ~-37.9k, SL 25k, TP 38k, exit 14:55; start is waiting on the 12:08 entry. Strikes unverified until fills. Next check 120s to confirm entry, then trail."
+    },
+    {
+      "time": "2026-10-19T12:08:37.022300+05:30",
+      "summary": "6677 NIFTY 0DTE bear put filled: BUY 22,950 PE 76.00 / SELL 22,900 PE 49.35 (25 lots, debit 26.65, max risk ~43.3k, SL 25k, TP 38k). Then created and started 6678 SENSEX 3dte bear call: SELL 74,100 CE / BUY 74,400 CE, 30 lots, credit ~119.9 => credit ~71.9k, worst case ~108.1k capped by SL 28k, TP 34k, exit 14:55 \u2014 matching the fresh SENSEX lows, RSI 32.8, price below SMA20/50. No opposite view on either index. Next check 120s to verify 6678 fills and trail stops."
+    },
+    {
+      "time": "2026-10-19T12:09:16.161381+05:30",
+      "summary": "HOLD/new entries none. 6677 NIFTY 0DTE bear put filled (BUY 23,000PE 76.00 / SELL 22,950PE 49.35, 25 lots) and is +4,144 unrealised (11% of target \u2014 not yet trail trigger). 6678 SENSEX 3dte bear call (SELL 74,100CE / BUY 74,400CE, 30 lots) still scheduled; no run yet, entry 12:12. Today -71,410 realised. Both indices near day lows (NIFTY 22,977 RSI 35; SENSEX 74,120 RSI 32), so no new/opposing view added. Review in 200s to confirm 6678 fills and hedge."
     }
   ]
 }
