@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T10:23:44.705270+05:30",
-      "summary": "Created and started NIFTY long call 23000 OTM2 (strategy 6560) at 73.0 with SL 2000, TP 5000. Existing SENSEX bull call spread 73800-73900 (6558) remains active. Today's P&L: -2556.25 from 7 completed trades. Next review in 5 minutes to monitor positions."
-    },
-    {
       "time": "2026-10-15T10:31:10.462776+05:30",
       "summary": "Created and started SENSEX bull call spread ATM-OTM2 (strategy 6562) at 171.45/95.90 with SL 2600, TP 3400. Existing positions: NIFTY long call 23050 (6560) unrealized PnL -253.5, SENSEX bull call spread 73800-73900 (6558) unrealized PnL 42.0. No immediate action on existing trades; will monitor for SL breach or target hit. Next review in 3 minutes."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-16T15:28:15.383660+05:30",
+      "summary": "Market open but past index entry window (15:00 IST). No new entries allowed. No open positions. Await next session."
+    },
+    {
+      "time": "2026-10-19T09:20:06.217138+05:30",
       "summary": "Market open but past index entry window (15:00 IST). No new entries allowed. No open positions. Await next session."
     }
   ]
