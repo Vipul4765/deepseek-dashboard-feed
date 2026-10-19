@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T14:12:40.643927+05:30",
-      "summary": "HOLD. SENSEX 0DTE iron condor (6606) confirmed fully filled and hedged: long 74000PE/74600CE vs short 74100PE/74500CE, 25 lots, credit ~36.9 pts/lot, defined worst-case ~\u20b931.5k, R:R 0.58 \u2265 0.30; unrealized +250. NIFTY bull call (6601) open, +\u20b93,510 unrealized, SL 32k/TP 40k. No new entry: NIFTY already carries the bullish view and SENSEX the neutral one (one view per index), and AI budget is nearly spent ($0.746/$0.80). Both positions keep 14:55 exits and overall stops. Next review in 1500s (pre-exit window)."
-    },
-    {
       "time": "2026-10-15T14:27:33.735407+05:30",
       "summary": "HOLD. No new entry: AI budget ~$0.038 left ($0.7616/$0.80), and each index already carries its view (NIFTY bullish 6601, SENSEX neutral 6606). Both open, fully hedged, fresh P&L: NIFTY bull call 6601 (BUY 23100CE/SELL 23200CE, 20 lots) \u2212\u20b92,990; SENSEX 0DTE iron condor 6606 (74000PE/74600CE long vs 74100PE/74500CE short, 25 lots) \u2212\u20b91,875. Day realized +\u20b955,815. Both have verified hedges, overall stops and 14:55 exits. Next review in 1200s; exits auto-close."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-16T15:26:20.897690+05:30",
       "summary": "HOLD \u2014 no new entry. All four of today's runs are DONE with no open legs and no margin reserved (6621 -5,557.50, 6628 +325.00 expiry exits; 6616 -11,500, 6614 -45,012.50 stopped); day realised -61,745 (4 trades, 1 win). At 15:26 IST the index entry window (09:30-15:00) and the 14:55 exit have passed, so a fresh fill would have no holding life; MCX is switched off. Blockers named: entry window closed, exit time passed. No further action today; next review in 30 min to confirm the closed book."
+    },
+    {
+      "time": "2026-10-19T09:15:13.792321+05:30",
+      "summary": "HOLD \u2014 no entry. Session open but only 1 minute in: NSE/BSE index entry window starts 09:30, today's 1-min candles are not yet formed (indicators/forecast still from Friday's 15:30 close). No open runs, zero margin used, today's P&L flat. Fresh quotes: NIFTY 23145 (prev 23146), SENSEX 74704 (prev 74729), VIX 13.32 \u2014 no direction yet. Blocker: entry window not open plus no intraday price action. Next review 09:29 to judge the opening range for a NIFTY 0DTE or SENSEX 22-10 hedged directional/neutral structure."
     }
   ]
 }
