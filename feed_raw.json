@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T14:49:28.825277+05:30",
-      "summary": "HOLD, no new entry. It is 14:49 IST, ~6 min before the 14:55 index exit, and the AI budget is nearly spent ($0.780/$0.80), so a fresh 0DTE is not justified. Both open runs auto-exit at 14:55: 6601 NIFTY bull call (23100/23200 CE, 20 lots) \u2212\u20b99,880 unrealized; 6606 SENSEX 0DTE iron condor (74000PE/74600CE vs 74100PE/74500CE, 25 lots) \u2212\u20b96,075. Both hedged, stops intact (\u20b932k/\u20b918k). Day realized +\u20b955,815. Next review in 600s to confirm exits."
-    },
-    {
       "time": "2026-10-15T14:55:13.342451+05:30",
       "summary": "Flat. Both open runs auto-exited at 14:55: 6601 NIFTY 23100/23200 bull call -11,245; 6606 SENSEX 74000PE/74600CE iron condor (vs 74100/74500) -8,525, both hedge-covered, no naked legs left. Day realized: +55,815 earlier five wins, net ~+36,045. No new entry \u2014 it is the 14:55 index exit and AI budget is $0.789/$0.80. Next review 1800s; nothing open to manage."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T09:36:56.611949+05:30",
       "summary": "Deployed new strategy 6660: SENSEX 22-10 bull put spread, SELL 30x 74400 PE / BUY 30x 74200 PE (fully hedged), credit ~102 pts => ~\u20b961k credit, defined worst case ~\u20b958.6k, breakeven ~74298, overall SL \u20b932k, TP \u20b930k, exit 14:55. Thesis: gap-down low (74169) held and fresh quotes show a 0.45% V-recovery to the SMA cluster, TimesFM mildly up; put skew pays richly on the defence side. Status still \"waiting\" for its 09:40 entry (not an open position yet). Next: verify both legs filled/hedge intact in ~5 min."
+    },
+    {
+      "time": "2026-10-19T09:37:56.373838+05:30",
+      "summary": "Session open (altered close 15:40). Strategy 6660 (SENSEX 22-10 bull put spread, SELL 30x 74400 PE / BUY 30x 74200 PE, credit ~102 pts, defined worst case ~\u20b958.6k, SL \u20b932k, TP \u20b930k, exit 14:55) still has no run yet \u2014 fills at its 09:40 entry; not an open position. NIFTY assessed: 0.53% V-recovery from 22970 to ~23148, but TimesFM flat/\u20130.03% and RSI 47.8 give no directional edge; 0DTE condor credit is thin with short strikes near the realized 22970\u201323175 range (R:R ~0.5), so no forced entry. Next review 09:43 to confirm 6660 hedge and reassess."
     }
   ]
 }
