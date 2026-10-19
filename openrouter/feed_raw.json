@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T11:59:23.550679+05:30",
-      "summary": "Holding active NIFTY long put ATM (6594) and SENSEX bear call spread 74100-74300 (6593). Both are profitable unrealized (~\u20b9358 and \u20b9320). No new entries as we maintain one view per index and await further price action. Will review in 5 minutes for possible adjustments or new opportunities."
-    },
-    {
       "time": "2026-10-15T15:05:10.481246+05:30",
       "summary": "HOLD: Market open but past 14:55 index exit time; cannot open new index strategies with required exit by 14:55. No open positions. Today's P&L +11,279.75, target \u20b920,000 not reached. Will reassess in 60 seconds."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-19T10:25:53.228721+05:30",
+      "summary": " Holding one active SENSEX bear put spread (15 lots, 74600-74400 Oct22) with ~\u20b94,845 unrealised profit. No new NIFTY position taken due to mixed technicals (price below SMA, RSI oversold) vs slightly bullish TimesFM forecast. Profit trail not adjusted due to live-edit constraints; will monitor for further move or exit signals. Next review in 60 sec."
+    },
+    {
+      "time": "2026-10-19T10:38:54.972020+05:30",
       "summary": " Holding one active SENSEX bear put spread (15 lots, 74600-74400 Oct22) with ~\u20b94,845 unrealised profit. No new NIFTY position taken due to mixed technicals (price below SMA, RSI oversold) vs slightly bullish TimesFM forecast. Profit trail not adjusted due to live-edit constraints; will monitor for further move or exit signals. Next review in 60 sec."
     }
   ]
