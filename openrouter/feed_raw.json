@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T11:26:51.335854+05:30",
-      "summary": "Created and started SENSEX bear call spread 74600-74700 oct22 48lot (ID 6634) with max loss \u20b950,000, target \u20b940,000. Existing positions: NIFTY long puts (5lot,1lot) losing, SENSEX bear put spreads (20lot losing, 30lot slight profit). Will review fills and consider trailing stops on winners in next cycle."
-    },
-    {
       "time": "2026-10-16T11:35:52.634613+05:30",
       "summary": "Created and started SENSEX bear call spread 74600-74700 oct22 48lot (ID 6634) with max loss \u20b950,000, target \u20b940,000. Existing positions: NIFTY long puts (5lot,1lot) losing, SENSEX bear put spreads (20lot losing, 30lot slight profit). Will review fills and consider trailing stops on winners in next cycle."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T13:21:35.204056+05:30",
       "summary": "Waiting for strategy 6687 (SENSEX bear put spread 73900-73800 oct22 5lot) to start at 13:20. No runs yet. Today's P&L: +\u20b913,038.25 (target \u20b920,000). Will reassess after start or if fails to start."
+    },
+    {
+      "time": "2026-10-19T15:12:02.958764+05:30",
+      "summary": "Market open but past configured exit time (14:55) for indices. No open positions. Today's P&L \u20b915,242.50, target \u20b920,000 not set. Will resume next trading day."
     }
   ]
 }
