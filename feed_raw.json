@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T14:55:13.342451+05:30",
-      "summary": "Flat. Both open runs auto-exited at 14:55: 6601 NIFTY 23100/23200 bull call -11,245; 6606 SENSEX 74000PE/74600CE iron condor (vs 74100/74500) -8,525, both hedge-covered, no naked legs left. Day realized: +55,815 earlier five wins, net ~+36,045. No new entry \u2014 it is the 14:55 index exit and AI budget is $0.789/$0.80. Next review 1800s; nothing open to manage."
-    },
-    {
       "time": "2026-10-15T14:55:40.642684+05:30",
       "summary": "Flat and done for the day. Both remaining runs auto-exited at 14:55: 6601 NIFTY 23100/23200 bull call -11,245 and 6606 SENSEX iron condor (74000PE/74100PE, 74500CE/74600CE) -8,525; both were hedge-covered, no naked legs left. Day realized +36,045 (5 wins, 2 losses on 7 trades). No new entry: it is 14:55 IST, past the index exit deadline, and AI budget is $0.799/$0.80. MCX off per boss. Next review in 1800s; nothing open to manage."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T09:37:56.373838+05:30",
       "summary": "Session open (altered close 15:40). Strategy 6660 (SENSEX 22-10 bull put spread, SELL 30x 74400 PE / BUY 30x 74200 PE, credit ~102 pts, defined worst case ~\u20b958.6k, SL \u20b932k, TP \u20b930k, exit 14:55) still has no run yet \u2014 fills at its 09:40 entry; not an open position. NIFTY assessed: 0.53% V-recovery from 22970 to ~23148, but TimesFM flat/\u20130.03% and RSI 47.8 give no directional edge; 0DTE condor credit is thin with short strikes near the realized 22970\u201323175 range (R:R ~0.5), so no forced entry. Next review 09:43 to confirm 6660 hedge and reassess."
+    },
+    {
+      "time": "2026-10-19T09:41:47.784191+05:30",
+      "summary": "6660 (SENSEX 22-10 bull put) confirmed filled and hedged from Core events: SELL 30x 74500 PE @359 / BUY 30x 74300 PE @284.45, credit 74.55 pts, defined worst case \u20b975.3k, margin \u20b910.18L, mark -\u20b91,050; SL 32k/TP 30k/exit 14:55 held. NIFTY 0DTE assessed: V-bounce back to 23143 after 22970 flush, but TimesFM median -0.07% and mixed signals give no clear direction; 0DTE condor R:R ~0.36 with shorts inside today's 205-pt range \u2014 no entry. SENSEX already carries the bullish-neutral view; no add. Next review 15 min."
     }
   ]
 }
