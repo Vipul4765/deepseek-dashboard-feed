@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T13:59:28.400190+05:30",
-      "summary": "HOLD, no new entry (13:58 IST; NSE/BSE open, MCX off). Both open runs ACTIVE and hedged: NIFTY 23100/23200 bull call 15L (~-4k) and SENSEX otm3/otm4 bull put 25L (~+1.4k); neither near SL/TP nor the 1/3 trailing trigger. No fresh directional edge \u2014 both indices flat/choppy near highs with TimesFM ~neutral and tiny ATR \u2014 so no justified momentum/big-bet add, and only ~57 min to the 14:55 auto-exit. Day realised -56.5k. Next review ~14:24 to confirm exits."
-    },
-    {
       "time": "2026-10-16T14:14:10.270822+05:30",
       "summary": "HOLD, no new entry (14:14 IST; NSE/BSE open). Both runs ACTIVE and hedged: NIFTY 23100/23200 bull call 15L at ~-6.1k (SL 30k/TP 36k) and SENSEX 74300/74200 bull put 25L at ~+0.35k (SL 30k/TP 18k); neither near SL/TP nor the 1/3 trailing trigger, so no edit. Tape choppy/drifting with tiny ATR and TimesFM neutral-negative; ~41 min left before the 14:55 exits, so no justified fresh directional add. Day realised -56.5k. Budget 0.485/0.80. Next review ~14:24 to confirm the 14:55 exits."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T13:31:58.776299+05:30",
       "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, hedge verified, +13.1k unrealised, ~39% of target). Trailing is only expressible as max-loss tightening (profit-lock values rejected), so cut overall SL 28k -> 12k; TP 34k and 14:55 exit intact. No new entry: SENSEX already carries the bearish thesis (no opposite/correlated duplicate), and NIFTY 0DTE offers no edge \u2014 22900/22950 call credit 6.3 vs 50 width (R:R 0.14) and put spreads need NIFTY <22850 while TimesFM p50 is 22877 on RSI 22.6. Reassess ~13:48; day -62.7k realised."
+    },
+    {
+      "time": "2026-10-19T13:33:47.943187+05:30",
+      "summary": "Held 6678 SENSEX 22-10 bear call 74200/74500 (30 lots, hedge intact, filled 317/211.35; MTM +14,010) with SENSEX down 1.24% at 73,803, RSI 29, below SMA20/50. Trailed the stop to break-even: overall SL max_loss 12,000 -> 1 INR (applied, edit_rev 2); TP 34,000 and 14:55 exit unchanged. No new entry: NIFTY 0DTE bear spreads price ~fair with negative theta in 80 min (22800/22700 debit 17, breakeven 22,783), TimesFM p50 flat-to-up, and the index is bouncing off its 22,861 low; adding SENSEX bearish risk would duplicate the same view. Day realised -62,716. Next review ~14:00."
     }
   ]
 }
