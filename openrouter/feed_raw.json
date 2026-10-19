@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T10:33:16.715986+05:30",
-      "summary": "Squared off NIFTY bull call spread tail (6622) to enforce one view per index (NIFTY now bearish via long put). Existing SENSEX bearish spreads remain active. No new entries; thesis unchanged. Next review in 60s to monitor P&L and consider trailing if profits reach ~1/3 targets."
-    },
-    {
       "time": "2026-10-16T10:35:36.254376+05:30",
       "summary": "Squared off three SENSEX bearish spreads (6624,6623,6620) to align with bullish SENSEX signal. Created and started strategy 6626: bull call spread 74800-74900 Oct22 10lot, awaiting entry at 10:35. Existing NIFTY long put (6625) remains. Next review in 60s to check fill and consider trailing if profit emerges."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T12:10:10.750740+05:30",
       "summary": "Created and started SENSEX bull call spread 74200-74300 oct22 20lot (strategy 6679) to increase bullish exposure. Existing SENSEX spread 6676 and NIFTY long call 6675 remain active. Will review in 60s to monitor entries and positions."
+    },
+    {
+      "time": "2026-10-19T12:25:26.970056+05:30",
+      "summary": "Created SENSEX bull call spread 74100-74300 oct22 5lot (strategy 6680) with SL 2000, TP 4000, scheduled entry 12:30, exit 14:55. No open positions currently. Will review at 12:24 to see if strategy has started and manage according to bullish view."
     }
   ]
 }
