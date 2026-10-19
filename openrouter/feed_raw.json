@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-15T15:34:14.345520+05:30",
-      "summary": "HOLD: Past index exit time (14:55) for new entries; market open until 15:40 but cannot open new index strategies. No open positions. Awaiting market close."
-    },
-    {
       "time": "2026-10-16T09:19:39.501632+05:30",
       "summary": "Created and started SENSEX bull put spread (sell 74300 PUT, buy 74200 PUT) 1 lot each. Defined risk: max loss \u20b9400, max profit \u20b91,000. Entry at 09:15, exit at 14:55. Will monitor for profit to trail stop."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T10:51:39.810550+05:30",
       "summary": "Created and started SENSEX bull put spread 4 lots (approx 74500-74400 Oct22) targeting bullish addition to existing SENSEX bull call spread waiting at 10:50. Current P&L today \u20b916,324.75; new strategy max profit \u20b94,400 aims to reach \u20b920k target. Monitor for entry and combined exposure."
+    },
+    {
+      "time": "2026-10-19T10:54:08.083565+05:30",
+      "summary": "Created and started SENSEX bull call spread 74400-74500 oct22 2lot (strategy 6668) awaiting entry at 10:53. Adds bullish exposure to existing SENSEX bull call and put spreads. Target profit \u20b91,000, max loss \u20b91,000 per strategy. Next review in 30s to check fill and manage open runs."
     }
   ]
 }
