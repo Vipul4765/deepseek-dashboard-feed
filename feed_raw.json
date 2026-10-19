@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T11:06:00.559331+05:30",
-      "summary": "No new entry. Assessed NIFTY 23,111 and SENSEX 74,649: both already hold the only view worth taking (6621 NIFTY 23100/23200 call spread -6.6k; 6628 SENSEX 74300/74200 put spread -1.1k, both hedged, fills verified). Fresh tape is choppy/near day highs, TimesFM flat. A bullish vertical duplicates the held view; a bearish one conflicts and fades the up-day; a condor would need trend-fading strikes. No distinct priced edge. Today -56.5k realized. Stops/TP/14:55 exits live. Reassess on a break >23,150 or <23,080 NIFTY."
-    },
-    {
       "time": "2026-10-16T11:20:23.282371+05:30",
       "summary": "HOLD, no new entry. Both indices already hold their one view: 6621 NIFTY bull call 23100/23200 (-9.5k) and 6628 SENSEX bull put 74300/74200 (-2.1k), both hedged with verified fills. A new bullish trade on either duplicates and a bearish one conflicts, so no priced distinct edge; MCX is off. Day trend is up (NIFTY 23,081, SENSEX 74,555) and pullback is minor \u2014 view intact, stops (30k) and 14:55 exits live. Today -56.5k realized. Reassess on NIFTY break >23,150 or <23,020."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T11:56:21.957544+05:30",
       "summary": "HOLD, no new trade. 6664 NIFTY 0DTE fly (short 23,100 CE/PE, wings 23,200/23,000) mark -12.8k vs -28k SL; max-OI pin at 23,000 PE / 23,100 CE supports recovery, square if a 1-min close breaks 22,979. 6669 SENSEX 22-10 bull put (short 74,300/long 74,000) mark -17.0k vs -38k SL, exit 14:55. Realised today -17,910. No entry: direction unconfirmed at day lows (TimesFM +0.05%, choppy bounce) and any add would duplicate the same correlated view. Hedge integrity verified on both. Next review 20 min."
+    },
+    {
+      "time": "2026-10-19T12:06:53.061170+05:30",
+      "summary": "Cut the broken bullish SENSEX 22-10 bull put (6669): squared at 564.00/399.10, realised -24,575 (ran past the short 74,300 strike as SENSEX hit new lows at 74,051). Today realised now ~-71,410. NIFTY and SENSEX both below SMA20/50 with RSI ~30-32 and fresh lows, so I opened a defined-risk momentum trade: 6677 NIFTY 0DTE bear put spread (BUY 25x 22,950 PE / SELL 25x 22,900 PE, expiry 19-10), debit ~23.3 => worst case ~-37.9k, SL 25k, TP 38k, exit 14:55; start is waiting on the 12:08 entry. Strikes unverified until fills. Next check 120s to confirm entry, then trail."
     }
   ]
 }
