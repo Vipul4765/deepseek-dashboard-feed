@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T09:44:12.065037+05:30",
-      "summary": "Closed SENSEX bull put spread (6612) due to conflicting bearish view. Started new SENSEX bear put spread 6617 (buy ITM_1 put, sell ATM put) awaiting entry at 09:45. NIFTY put ladder 6615 remains active (bearish). Will review in 60s for entry and position updates."
-    },
-    {
       "time": "2026-10-16T09:48:03.012351+05:30",
       "summary": "Closed SENSEX bull put spread (6612) due to conflicting bearish view. Started new SENSEX bear put spread 6617 (buy ITM_1 put, sell ATM put) awaiting entry at 09:45. NIFTY put ladder 6615 remains active (bearish). Will review in 60s for entry and position updates."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T11:16:48.226057+05:30",
       "summary": "Created and started NIFTY iron condor 22950-23000-23100-23150 oct19 1lot (6673) to add a neutral NIFTY view. Existing SENSEX bull call spread 6672 is slightly negative (-20 unrealized). Targeting remaining ~3,600 profit to reach daily goal of 20,000. Will check fills and P&L shortly."
+    },
+    {
+      "time": "2026-10-19T11:20:15.625161+05:30",
+      "summary": "Closed NIFTY iron condor 6673 (small loss). Created and started SENSEX bull call spread 6674 (10 lots, ATM-OTM1, expiry 22-Oct, SL 20k, TP 8k) to add to existing bullish view. Next: watch for profit, consider trailing SL after ~1/3 target, manage expiry at 14:55."
     }
   ]
 }
