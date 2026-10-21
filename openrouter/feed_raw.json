@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T11:36:41.467885+05:30",
-      "summary": "Squared off losing SENSEX bull call spreads (6674 10lot, 6672 5lot) as price declined and RSI showed oversold conditions; no new entry taken while awaiting clearer directional signal. Will review in 60 sec."
-    },
-    {
       "time": "2026-10-19T11:39:29.617349+05:30",
       "summary": "Created and started NIFTY long call ATM 1 lot (strategy 6675) with overall SL 2000 and TP 4000, taking a bullish view per the boss's directional requirement. No existing open positions; will review in 60 seconds to monitor SL/TP or exit."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-21T13:17:37.223481+05:30",
+      "summary": "Daily target \u20b920,000 achieved with \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits and stop opening new risk. No open runs remain. Market session continues until 15:40 but risk appetite satisfied. Monitoring only for material structure change; no new entries today."
+    },
+    {
+      "time": "2026-10-21T13:32:37.795634+05:30",
       "summary": "Daily target \u20b920,000 achieved with \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits and stop opening new risk. No open runs remain. Market session continues until 15:40 but risk appetite satisfied. Monitoring only for material structure change; no new entries today."
     }
   ]
