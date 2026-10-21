@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T09:22:00.330041+05:30",
-      "summary": "Gap-up momentum (SENSEX 74,500 +0.9%, above SMA20/50, new highs at open) supported a bullish directional trade. Created and started strategy 6697: SENSEX 22-10 bull call spread, BUY 40 lots itm_1 CE (~74,400), SELL 40 lots otm_5 CE (~75,000), debit ~\u20b9254/unit (~\u20b9203k), max profit ~\u20b9277k, overall SL \u20b995,000, TP \u20b9140,000, exit 14:55. Start is waiting for 09:32. No other positions open. Next review in 4 min to verify fills, resolved strikes and hedge."
-    },
-    {
       "time": "2026-10-21T09:24:30.223064+05:30",
       "summary": "Saw: both NSE/BSE sessions open, gap-up tape (NIFTY 23,079 +0.8%, SENSEX 74,520 +0.9%, both above SMA20/50, RSI 89-92) but TimesFM flat (NIFTY p50 23,068, SENSEX p50 74,536). No open positions: strategy 6697 (SENSEX 22-10 bull call spread, BUY 40 itm_1 / SELL 40 otm_5, debit ~\u20b9203k, SL \u20b995k, TP \u20b9140k, exit 14:55) is still scheduled with zero runs \u2014 entry fires 09:32. Did not add NIFTY: a second bullish index spread duplicates the same thesis and NIFTY 6-DTE credit wings are too thin (\u20b914-20 for 50-wide). Reassess 09:34 to confirm 6697 fills/strikes/hedge, then NIFTY if it clears 23,085 with follow-through."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T13:14:40.317254+05:30",
       "summary": "HOLD. Open: 6705 NIFTY 27-Oct iron condor (SELL 22900CE/22600PE, BUY 23000CE/22500PE, 30 lots each, fully hedged, margin ~\u20b919.8L) now +\u20b9975 unrealised, fresh. NIFTY 22710, below SMAs with RSI 24 and SENSEX RSI 20; short put 22600 (~110 pts cushion) is the risk side, capped by 22500 hedge, leg SLs 35 pts, overall SL \u20b955k, exit 14:55. No new entry: AI budget 0.770/0.80 leaves no room to price, hedge-check and verify a fresh spread; SENSEX/4-leg shape also blocked by its weak record. Next review ~15 min."
+    },
+    {
+      "time": "2026-10-21T13:18:21.671506+05:30",
+      "summary": "Squared off 6705 NIFTY 27-Oct condor after its short-call leg stopped out and the residual (long 23000CE + short 22600/22500 put spread, ~+700 delta) bet against a falling index. Core confirmed exits: L2 78.85, L3 113.85, L4 83.20, run DONE, margin released, flat book. Strategy net \u2248 +\u20b92.24k (realized +\u20b913.55k from leg 1); day now \u2248 +\u20b95.5k realized. No new entry: TimesFM flat-to-down, NIFTY bouncing off 22702, and budget 0.78/0.80 leaves no room to price and verify a hedged spread. Next review 30 min; re-engage on a clean break below 22700 with fresh budget."
     }
   ]
 }
