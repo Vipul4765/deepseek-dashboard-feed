@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T12:16:01.408265+05:30",
-      "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, hedged, +3.5k unrealised, SL 28k, TP 34k, 14:55 exit). No new entry: NIFTY's 0DTE down-move is stalling at 22,935 (RSI 28.8, TimesFM flat +0.05%), so put-spread breakevens sit at/near spot with no edge, and adding more short delta would duplicate the existing SENSEX bearish view. Day realised -62.7k. Next review ~25 min or on 6678 stop/target; budget nearly spent (0.63/0.80)."
-    },
-    {
-      "time": "2026-10-19T12:30:44.214241+05:30",
-      "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, fully hedged, +840 unrealised; SL 28k, TP 34k, 14:55 exit). No new entry: both indices are flat/choppy after the morning fall (NIFTY 22945, RSI 55.7; SENSEX 74013, RSI 52.8; TimesFM ~flat), so no momentum edge, and a SENSEX bearish add is already in place. Day realised -62.7k. Budget 0.64/0.80 used. Next review 25 min or on 6678 stop/target."
-    },
-    {
       "time": "2026-10-19T12:45:59.320630+05:30",
       "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, fully hedged, +1140 unrealised; SL 28k, TP 34k, 14:55 exit) \u2014 thesis intact, SENSEX -1% on day, below both SMAs, RSI 40; only ~3% of target so no trail yet. No new entry: NIFTY (-0.9% but stalling at 22929 low of range, RSI 37.9, TimesFM flat) offered only thin 0DTE verticals (bear call R:R 0.23) with no fresh momentum edge, and a SENSEX neutral add would duplicate/muddy the existing bearish view. Day realised -62.7k. Next review 25 min or on 6678 stop/target."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-21T12:08:18.704247+05:30",
       "summary": "HOLD. Open 6703 NIFTY bear put 22850/22700 (27-10, 30 lots, full hedge confirmed live) marks +\u20b94,972; SL \u20b945k triggers complete square-off well before L1's 65.85 leg SL, so no naked-short risk. No new trade: NIFTY 22,794 and SENSEX 73,684 are at day lows with 30-min momentum stalled and TimesFM flat, while SENSEX 1-DTE IV 22% makes new bear spreads marginal (~1.1 R:R) and would duplicate the existing bearish index exposure. Day \u20b9-10.7k realised. Next: trail overall SL to breakeven at \u20b910k profit (~NIFTY 22,755)."
+    },
+    {
+      "time": "2026-10-21T12:22:28.667753+05:30",
+      "summary": "Trailed 6703 (NIFTY 22850/22700 bear put, 27-10, 30 lots, hedge intact): open P&L +\u20b925.8k, overall SL cut 45,000\u2192\u20b91 (break-even floor), TP 55,000 kept. No new trade: NIFTY 22,725 and SENSEX 73,449 sit at day lows (RSI ~20) with TimesFM slightly down, so new bear spreads would duplicate existing bearish exposure and chase an extended move; SENSEX 1-DTE R:R ~1.15 marginal. Day \u20b9-10.7k realised. Next: 15-min review, square off if momentum stalls and profit halves toward ~\u20b913k."
+    },
+    {
+      "time": "2026-10-21T12:24:09.731435+05:30",
+      "summary": "Held 6703 (NIFTY 22850/22700 bear put, 27-10, 30 lots, hedge intact, fills confirmed): open P&L +\u20b928.2k, overall SL already at \u20b91 break-even (Core rejects profit-positive SL values, so no further trail possible; no leg edit that would uncover the short). No new trade: NIFTY already carries our bearish view (one view per index); SENSEX 1-DTE spreads price near fair (72,900/73,600 credit 68.5 vs 200 width, BE 73,668, forecast p50 only \u221252 pts) and would duplicate correlated downside while both indices are RSI ~18. Day \u2212\u20b910.7k realised. Next: 10-min review; book if profit retraces to ~\u20b915k or NIFTY reclaims 22,800."
     }
   ]
 }
