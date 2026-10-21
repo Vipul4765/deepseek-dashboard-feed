@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T10:46:17.901119+05:30",
-      "summary": "Closed NIFTY iron condor (loss -396.5). Opened SENSEX bull call spread 4 lots (74400-74500 Oct22) waiting to start at 10:50. Targeting bullish bounce based on TimesFM and oversold RSI. No other open positions. Next review in 60s to confirm entry."
-    },
-    {
-      "time": "2026-10-19T10:51:39.810550+05:30",
-      "summary": "Created and started SENSEX bull put spread 4 lots (approx 74500-74400 Oct22) targeting bullish addition to existing SENSEX bull call spread waiting at 10:50. Current P&L today \u20b916,324.75; new strategy max profit \u20b94,400 aims to reach \u20b920k target. Monitor for entry and combined exposure."
-    },
-    {
       "time": "2026-10-19T10:54:08.083565+05:30",
       "summary": "Created and started SENSEX bull call spread 74400-74500 oct22 2lot (strategy 6668) awaiting entry at 10:53. Adds bullish exposure to existing SENSEX bull call and put spreads. Target profit \u20b91,000, max loss \u20b91,000 per strategy. Next review in 30s to check fill and manage open runs."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-21T11:43:59.108852+05:30",
       "summary": "HOLD - Two bearish positions active: NIFTY 22950 PE Oct27 2L (+\u20b98.6K, 22% of \u20b940K target) and SENSEX 74200/74100 PE Oct22 10L bear put spread (+\u20b93.6K, 16% of \u20b923K target). Total unrealized +\u20b912.2K toward \u20b920K daily target. Both indices oversold (RSI ~24-25) in pullback from open; TimesFM mixed (NIFTY slightly bearish, SENSEX slightly bullish). One view per index maintained (both bearish). Positions within stops (NIFTY SL \u20b920K, SENSEX SL \u20b918K). Profits below 1/3 target threshold for trailing per boss rule. SENSEX spread expires tomorrow - theta risk increasing. No new entries - correlated bearish exposure held, awaiting thesis validation or trailing opportunity. Next review in 60s for stop triggers, trailing at 1/3 target, or reversal signals."
+    },
+    {
+      "time": "2026-10-21T11:44:52.314173+05:30",
+      "summary": "HOLD - Two bearish positions active: NIFTY 22950 PE Oct27 2L (+\u20b99.8K, 24% of \u20b940K target) and SENSEX 74200/74100 PE Oct22 10L bear put spread (+\u20b94.5K, 19% of \u20b923K target). Total unrealized +\u20b914.2K (71% of \u20b920K daily target). Both indices oversold (RSI 24/20) in pullback from open; TimesFM mixed (NIFTY bearish, SENSEX slightly bullish). One view per index maintained (both bearish). Positions within stops (NIFTY SL \u20b920K, SENSEX SL \u20b918K). Profits below 1/3 target threshold for trailing per boss rule. SENSEX spread expires tomorrow - theta risk increasing. No new entries - correlated bearish exposure held, awaiting thesis validation or trailing opportunity. Next review in 60s for stop triggers, trailing at 1/3 target, or reversal signals."
+    },
+    {
+      "time": "2026-10-21T11:46:03.999089+05:30",
+      "summary": "HOLD - Two bearish positions active: NIFTY 22950 PE Oct27 2L (+\u20b99.3K, 23% of \u20b940K target) and SENSEX 74200/74100 PE Oct22 10L bear put spread (+\u20b94.6K, 20% of \u20b923K target). Combined +\u20b913.8K (69% of \u20b920K daily target). Both indices oversold (RSI 24/20) in pullback from open; TimesFM mixed. One view per index maintained (both bearish). Positions within stops. Profits below 1/3 target for trailing. SENSEX spread expires tomorrow - theta risk increasing. No new entries - correlated bearish exposure held. Next review in 60s for stop triggers, trailing at 1/3 target, or reversal signals."
     }
   ]
 }
