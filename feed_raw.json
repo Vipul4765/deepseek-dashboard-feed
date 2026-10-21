@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T14:04:52.146032+05:30",
-      "summary": "Flat: 6678 SENSEX bear call settled USER_EXIT +\u20b911,040 (fills 155.90/243.15, hedge intact); open_runs empty. Day realised \u2248 -\u20b940,636 (5 trades, 2 wins). No new entry: NIFTY 0DTE and SENSEX 3DTE are mid-range bounces (NIFTY 22,887 vs 22,845-22,978; SENSEX 73,852 vs 73,708-74,126) with no clear momentum, and AI budget is at 0.789/0.80 USD, so a fresh 14:55-exit position could not be monitored. Next review 30 min (budget-capped)."
-    },
-    {
       "time": "2026-10-21T09:15:26.017757+05:30",
       "summary": "Flat (no open runs; today's journal empty). 09:15 open shows a broad gap-up: NIFTY 23,002 vs 22,889 prev close, SENSEX 74,205 vs 73,853, India VIX down to 14.18 \u2014 mildly bullish, but no 21-Oct candles exist yet and opening option IVs are inconsistent (SENSEX 74,200/74,300 CE at 13.6% vs 19.5%), so pricing is not yet reliable. No entry: waiting for the first completed bars to confirm the gap holds or fills. Next review in 5 min to decide a NIFTY/SENSEX bull call or bull put spread (expiries 27-10 and 22-10)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T13:03:04.416737+05:30",
       "summary": "HOLD/no new trade. NIFTY 27-Oct iron condor 6705 is deployed and waiting for its 13:06 entry (no run yet, so no legs open; day realized P&L \u2248 +\u20b93,231). NIFTY 22,742 sits mid-range between 22,600 and 22,900 shorts, TimesFM flat (-0.02%), SENSEX 73,504 with 1DTE chain; neither gives a fresh directional edge beyond the condor already hedging the range, and one-view-per-index plus near-exhausted AI budget (0.74/0.80) argue against a second NIFTY/SENSEX position. Next review at 13:08 to confirm fills and hedge coverage."
+    },
+    {
+      "time": "2026-10-21T13:06:13.887257+05:30",
+      "summary": "HOLD/verified. Strategy 6705 (NIFTY 27-Oct iron condor) filled all 4 legs at 13:06: SELL 22900CE @116, BUY 23000CE @83.55, SELL 22600PE @109.55, BUY 22500PE @80 \u2014 30 lots each, fully hedged, net credit ~62 pts (~\u20b91.21k... credit \u20b9120,900), worst case ~\u20b974k on 100-pt width, margin ~\u20b919.8L accepted. Mark now -\u20b91,170; no trail change (below \u20b910k trigger). Day realized +\u20b93,231. No new entry: AI budget 0.756/0.80. Next review 15 min; condor exits 14:55 with leg SLs 35 pts/overall SL 55k."
     }
   ]
 }
