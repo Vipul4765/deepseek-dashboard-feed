@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T14:55:10.921993+05:30",
-      "summary": "HOLD. Both open runs settled at the 14:55 index exit: 6621 NIFTY 23100/23200 bull call closed -5,557.50 (RUN_DONE, L2 exit 46.90), 6628 SENSEX 74300/74200 bull put closed +325.00 (RUN_DONE, L1 333.30 / L2 298.15). Flat now \u2014 no open legs, no margin reserved, no hedges to repair. No new entry: it is 14:55, past the index exit time, so any fill would have seconds of life. MCX off. Day realised \u2248 -61,745 (journal -56,512.50 plus these two). Next review in 30 min only for bookkeeping; no trade trigger pending."
-    },
-    {
       "time": "2026-10-16T14:56:20.960028+05:30",
       "summary": "HOLD. Flat: 6621 NIFTY 23100/23200 bull call settled -5,557.50 and 6628 SENSEX 74300/74200 bull put +325.00 at the 14:55 index exit; no open legs, no margin reserved, hedges intact through exit. Day realised -61,745 (4 trades, 1 win). No new entry: 14:56 is past the index exit/entry window and MCX is off, so any fill would have no life. Next review in 30 min for bookkeeping; no trade trigger pending."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T14:04:52.146032+05:30",
       "summary": "Flat: 6678 SENSEX bear call settled USER_EXIT +\u20b911,040 (fills 155.90/243.15, hedge intact); open_runs empty. Day realised \u2248 -\u20b940,636 (5 trades, 2 wins). No new entry: NIFTY 0DTE and SENSEX 3DTE are mid-range bounces (NIFTY 22,887 vs 22,845-22,978; SENSEX 73,852 vs 73,708-74,126) with no clear momentum, and AI budget is at 0.789/0.80 USD, so a fresh 14:55-exit position could not be monitored. Next review 30 min (budget-capped)."
+    },
+    {
+      "time": "2026-10-21T09:15:26.017757+05:30",
+      "summary": "Flat (no open runs; today's journal empty). 09:15 open shows a broad gap-up: NIFTY 23,002 vs 22,889 prev close, SENSEX 74,205 vs 73,853, India VIX down to 14.18 \u2014 mildly bullish, but no 21-Oct candles exist yet and opening option IVs are inconsistent (SENSEX 74,200/74,300 CE at 13.6% vs 19.5%), so pricing is not yet reliable. No entry: waiting for the first completed bars to confirm the gap holds or fills. Next review in 5 min to decide a NIFTY/SENSEX bull call or bull put spread (expiries 27-10 and 22-10)."
     }
   ]
 }
