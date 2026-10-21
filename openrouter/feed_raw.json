@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T12:14:36.475885+05:30",
-      "summary": "Holding active SENSEX bear put spread (6635) with unrealized profit \u20b9960. No new entry: NIFTY 2-leg bearish spreads blocked by historical losing pattern (8+ trades, 20% win rate, net loss); NIFTY 1-leg long put unattractive given small forecasted move. SENSEX assessed but not adding to avoid overtrading. Will reassess if profit reaches ~\u20b96,600 (one-third of target) or if market shifts significantly. Exit at 14:55 if not triggered earlier."
-    },
-    {
       "time": "2026-10-16T12:23:40.068601+05:30",
       "summary": "Created and started NIFTY iron condor (6636) with 6 lots: sell 23050 PE/23150 CE, buy 22950 PE/23250 CE, targeting credit ~\u20b925,642. Active SENSEX bear put spread (6635) unchanged with unrealized profit ~\u20b9900. No new SENSEX trades to avoid overconcentration. Will monitor for profit to trail stops per boss rules. Next check on price movement or if unrealized profit reaches ~\u20b96,660 (one-third of target) on either strategy."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T10:12:46.564496+05:30",
       "summary": "Two bearish strategies scheduled for 10:15 entry: NIFTY long put 22950 Oct27 2-lot (1-leg, max loss \u20b920k, target \u20b940k) and SENSEX bear put spread 74200/74000 Oct22 10-lot (2-leg hedged, max loss \u20b918k, target \u20b923k). Both have trailing stops to break-even. Market open, NIFTY/SENSEX trending down with TimesFM bearish bias. One view per index maintained. Next review in 3 min to verify fills."
+    },
+    {
+      "time": "2026-10-21T10:15:29.546521+05:30",
+      "summary": "Two bearish strategies filled at 10:15: NIFTY 22950 PE Oct27 2-lot (long put, -\u20b984.5) and SENSEX 74200/74100 PE Oct22 10-lot bear put spread (-\u20b9260). Both align with downtrend: NIFTY 22,930 (RSI 23.8), SENSEX 74,095 (RSI 24.1), TimesFM bearish. One view per index maintained. Trailing stops to break-even armed. No new entries needed - positions just opened, let them develop. Next review in 180s to monitor trail triggers and thesis validity."
     }
   ]
 }
