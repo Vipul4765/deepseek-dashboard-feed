@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T15:11:20.323841+05:30",
-      "summary": "HOLD. Flat and reconciling: today's four runs are all DONE (6621 -5,557.50, 6628 +325.00 expiry exits; 6616 -11,500, 6614 -45,012.50 stopped), no open legs, no margin reserved, hedges intact through exit. Day realised -61,745 (4 trades, 1 win). No new entry: at 15:11 IST the index entry window (09:30-15:00) and 14:55 exit have passed and MCX is off, so a fill would have no life. Next review in 30 min; no trigger pending."
-    },
-    {
       "time": "2026-10-16T15:26:20.897690+05:30",
       "summary": "HOLD \u2014 no new entry. All four of today's runs are DONE with no open legs and no margin reserved (6621 -5,557.50, 6628 +325.00 expiry exits; 6616 -11,500, 6614 -45,012.50 stopped); day realised -61,745 (4 trades, 1 win). At 15:26 IST the index entry window (09:30-15:00) and the 14:55 exit have passed, so a fresh fill would have no holding life; MCX is switched off. Blockers named: entry window closed, exit time passed. No further action today; next review in 30 min to confirm the closed book."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T09:22:00.330041+05:30",
       "summary": "Gap-up momentum (SENSEX 74,500 +0.9%, above SMA20/50, new highs at open) supported a bullish directional trade. Created and started strategy 6697: SENSEX 22-10 bull call spread, BUY 40 lots itm_1 CE (~74,400), SELL 40 lots otm_5 CE (~75,000), debit ~\u20b9254/unit (~\u20b9203k), max profit ~\u20b9277k, overall SL \u20b995,000, TP \u20b9140,000, exit 14:55. Start is waiting for 09:32. No other positions open. Next review in 4 min to verify fills, resolved strikes and hedge."
+    },
+    {
+      "time": "2026-10-21T09:24:30.223064+05:30",
+      "summary": "Saw: both NSE/BSE sessions open, gap-up tape (NIFTY 23,079 +0.8%, SENSEX 74,520 +0.9%, both above SMA20/50, RSI 89-92) but TimesFM flat (NIFTY p50 23,068, SENSEX p50 74,536). No open positions: strategy 6697 (SENSEX 22-10 bull call spread, BUY 40 itm_1 / SELL 40 otm_5, debit ~\u20b9203k, SL \u20b995k, TP \u20b9140k, exit 14:55) is still scheduled with zero runs \u2014 entry fires 09:32. Did not add NIFTY: a second bullish index spread duplicates the same thesis and NIFTY 6-DTE credit wings are too thin (\u20b914-20 for 50-wide). Reassess 09:34 to confirm 6697 fills/strikes/hedge, then NIFTY if it clears 23,085 with follow-through."
     }
   ]
 }
