@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T14:56:20.960028+05:30",
-      "summary": "HOLD. Flat: 6621 NIFTY 23100/23200 bull call settled -5,557.50 and 6628 SENSEX 74300/74200 bull put +325.00 at the 14:55 index exit; no open legs, no margin reserved, hedges intact through exit. Day realised -61,745 (4 trades, 1 win). No new entry: 14:56 is past the index exit/entry window and MCX is off, so any fill would have no life. Next review in 30 min for bookkeeping; no trade trigger pending."
-    },
-    {
       "time": "2026-10-16T15:11:20.323841+05:30",
       "summary": "HOLD. Flat and reconciling: today's four runs are all DONE (6621 -5,557.50, 6628 +325.00 expiry exits; 6616 -11,500, 6614 -45,012.50 stopped), no open legs, no margin reserved, hedges intact through exit. Day realised -61,745 (4 trades, 1 win). No new entry: at 15:11 IST the index entry window (09:30-15:00) and 14:55 exit have passed and MCX is off, so a fill would have no life. Next review in 30 min; no trigger pending."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T09:15:26.017757+05:30",
       "summary": "Flat (no open runs; today's journal empty). 09:15 open shows a broad gap-up: NIFTY 23,002 vs 22,889 prev close, SENSEX 74,205 vs 73,853, India VIX down to 14.18 \u2014 mildly bullish, but no 21-Oct candles exist yet and opening option IVs are inconsistent (SENSEX 74,200/74,300 CE at 13.6% vs 19.5%), so pricing is not yet reliable. No entry: waiting for the first completed bars to confirm the gap holds or fills. Next review in 5 min to decide a NIFTY/SENSEX bull call or bull put spread (expiries 27-10 and 22-10)."
+    },
+    {
+      "time": "2026-10-21T09:22:00.330041+05:30",
+      "summary": "Gap-up momentum (SENSEX 74,500 +0.9%, above SMA20/50, new highs at open) supported a bullish directional trade. Created and started strategy 6697: SENSEX 22-10 bull call spread, BUY 40 lots itm_1 CE (~74,400), SELL 40 lots otm_5 CE (~75,000), debit ~\u20b9254/unit (~\u20b9203k), max profit ~\u20b9277k, overall SL \u20b995,000, TP \u20b9140,000, exit 14:55. Start is waiting for 09:32. No other positions open. Next review in 4 min to verify fills, resolved strikes and hedge."
     }
   ]
 }
