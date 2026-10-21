@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T09:37:39.856508+05:30",
-      "summary": "Market open but past index entry window (15:00 IST). No new entries allowed. No open positions. Await next session."
-    },
-    {
-      "time": "2026-10-19T09:42:49.027801+05:30",
-      "summary": "Holding existing NIFTY iron condor (strategy 6661) with small unrealized loss (-74.75). Market range-bound as expected for iron condor thesis, theta decay working in our favor on expiry day. No adjustments needed; maintaining neutral view for NIFTY per one-view-per-index rule. Will reassess in 5 minutes or if significant move toward short strikes."
-    },
-    {
       "time": "2026-10-19T09:45:38.752993+05:30",
       "summary": "Created SENSEX bear put spread 74600-74400 oct22 15lot (strategy 6662) with entry at 09:45, exit 14:55, overall SL/TP 15000 each. Waiting to start. Existing NIFTY iron condor 6661 remains active with small unrealized profit. Will review at 09:45 for fills and adjust if needed."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-21T10:51:18.889124+05:30",
       "summary": "HOLD - Two bearish positions active from 10:15: NIFTY 22950 PE Oct27 2L long put (-\u20b92,450) and SENSEX 74200/74100 PE Oct22 10L bear put spread (-\u20b91,110). Total unrealized -\u20b93,560. Market continues minor pullback (NIFTY 22,975, SENSEX 74,267). TimesFM bearish (NIFTY p50 22,974, SENSEX p50 74,223). One view per index maintained (both bearish). Thesis: bearish pullback continuation intact. Positions within stop limits (NIFTY SL \u20b920K, SENSEX SL \u20b918K). No new entries - monitoring for thesis validation or stop triggers. Next review in 90s."
+    },
+    {
+      "time": "2026-10-21T11:06:20.089186+05:30",
+      "summary": "HOLD - Two bearish positions active from 10:15: NIFTY 22950 PE Oct27 2L long put (-\u20b93,276) and SENSEX 74200/74100 PE Oct22 10L bear put spread (-\u20b91,900). Total unrealized -\u20b95,176. Market continues minor pullback (NIFTY 22,985, SENSEX 74,280). TimesFM bearish (NIFTY p50 22,975, SENSEX p50 74,223). One view per index maintained (both bearish). Thesis: bearish pullback continuation intact. Positions within stop limits (NIFTY SL \u20b920K, SENSEX SL \u20b918K). No new entries - monitoring for thesis validation or stop triggers. Next review in 60s."
+    },
+    {
+      "time": "2026-10-21T11:07:16.715014+05:30",
+      "summary": "HOLD - Two bearish positions active from 10:15: NIFTY 22950 PE Oct27 2L long put (-\u20b92,470) and SENSEX 74200/74100 PE Oct22 10L bear put spread (-\u20b91,150). Total unrealized -\u20b93,620. Market continues minor pullback (NIFTY 22,971, SENSEX 74,251). TimesFM bearish (NIFTY p50 22,975, SENSEX p50 74,223). One view per index maintained (both bearish). Thesis: bearish pullback continuation intact. Positions well within stop limits (NIFTY SL \u20b920K, SENSEX SL \u20b918K). No new entries - monitoring for thesis validation or stop triggers. Next review in 60s."
     }
   ]
 }
