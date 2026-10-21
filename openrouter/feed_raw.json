@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T10:54:08.083565+05:30",
-      "summary": "Created and started SENSEX bull call spread 74400-74500 oct22 2lot (strategy 6668) awaiting entry at 10:53. Adds bullish exposure to existing SENSEX bull call and put spreads. Target profit \u20b91,000, max loss \u20b91,000 per strategy. Next review in 30s to check fill and manage open runs."
-    },
-    {
       "time": "2026-10-19T11:03:18.727303+05:30",
       "summary": "Created and started SENSEX bull call spread 74400-74500 oct22 2lot (strategy 6668) awaiting entry at 10:53. Adds bullish exposure to existing SENSEX bull call and put spreads. Target profit \u20b91,000, max loss \u20b91,000 per strategy. Next review in 30s to check fill and manage open runs."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T11:46:03.999089+05:30",
       "summary": "HOLD - Two bearish positions active: NIFTY 22950 PE Oct27 2L (+\u20b99.3K, 23% of \u20b940K target) and SENSEX 74200/74100 PE Oct22 10L bear put spread (+\u20b94.6K, 20% of \u20b923K target). Combined +\u20b913.8K (69% of \u20b920K daily target). Both indices oversold (RSI 24/20) in pullback from open; TimesFM mixed. One view per index maintained (both bearish). Positions within stops. Profits below 1/3 target for trailing. SENSEX spread expires tomorrow - theta risk increasing. No new entries - correlated bearish exposure held. Next review in 60s for stop triggers, trailing at 1/3 target, or reversal signals."
+    },
+    {
+      "time": "2026-10-21T12:01:11.494840+05:30",
+      "summary": "HOLD - Two bearish positions active: NIFTY 22950 PE Oct27 2L (+\u20b910.6K, 26% of \u20b940K target) and SENSEX 74200/74100 PE Oct22 10L bear put spread (+\u20b95.2K, 23% of \u20b923K target). Combined +\u20b915.8K (79% of \u20b920K daily target). Both indices in pullback from open (NIFTY 22809, SENSEX 73725) with RSI 40/35. One view per index maintained. Profits below 1/3 target for trailing stops. SENSEX spread expires tomorrow - theta risk increasing. No new entries - correlated bearish exposure held within limits. Next review in 60s for trailing stop triggers (~\u20b913.3K NIFTY, ~\u20b97.7K SENSEX) or reversal signals."
     }
   ]
 }
