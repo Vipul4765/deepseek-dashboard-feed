@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T12:23:40.068601+05:30",
-      "summary": "Created and started NIFTY iron condor (6636) with 6 lots: sell 23050 PE/23150 CE, buy 22950 PE/23250 CE, targeting credit ~\u20b925,642. Active SENSEX bear put spread (6635) unchanged with unrealized profit ~\u20b9900. No new SENSEX trades to avoid overconcentration. Will monitor for profit to trail stops per boss rules. Next check on price movement or if unrealized profit reaches ~\u20b96,660 (one-third of target) on either strategy."
-    },
-    {
       "time": "2026-10-16T12:48:57.901299+05:30",
       "summary": "Currently holding two SENSEX bear put spreads (6635:20 lots, 6637:30 lots) with unrealized losses of \u20b9480 and \u20b91,140. Underlying at 74694.51. Waiting for underlying to fall to 74692.61 (breakeven) or rise to 74700 (stop loss trigger) to manage risk. Set review in 60 seconds to reassess."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T10:15:29.546521+05:30",
       "summary": "Two bearish strategies filled at 10:15: NIFTY 22950 PE Oct27 2-lot (long put, -\u20b984.5) and SENSEX 74200/74100 PE Oct22 10-lot bear put spread (-\u20b9260). Both align with downtrend: NIFTY 22,930 (RSI 23.8), SENSEX 74,095 (RSI 24.1), TimesFM bearish. One view per index maintained. Trailing stops to break-even armed. No new entries needed - positions just opened, let them develop. Next review in 180s to monitor trail triggers and thesis validity."
+    },
+    {
+      "time": "2026-10-21T10:30:49.621754+05:30",
+      "summary": "Two bearish strategies active from 10:15 fill: NIFTY 22950 PE Oct27 2-lot long put (-\u20b9370.50) and SENSEX 74200/74100 PE Oct22 10-lot bear put spread (-\u20b9400). Total unrealized -\u20b9770. Both align with TimesFM bearish forecast (NIFTY p50 22,948, SENSEX p50 74,177) and pullback from morning highs. One view per index maintained (bearish on both). No new entries - positions just opened, letting thesis develop. Trailing stops not yet armed (positions underwater). Next review in 120s to monitor for thesis validation or stop triggers."
     }
   ]
 }
