@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T10:46:10.291721+05:30",
-      "summary": "Held 6664 NIFTY 0DTE iron fly 25x (23100 centre, 23000/23200 wings, credit 71.05): mark -8.7k vs -28k SL, 50k TP, exit 14:55; expiry value at 23,050 is ~+34k so theta favours holding with the hedge intact. SENSEX now flat after the -17,910 exit. No new entry: both indices are oversold (RSI ~27) and bouncing off morning lows, so a bear spread would chase an extended drop and a 3-DTE SENSEX debit spread needs too large a move. Review in 6 min; stop near NIFTY 23,012."
-    },
-    {
       "time": "2026-10-19T10:52:35.252173+05:30",
       "summary": "HOLD only position: 6664 NIFTY 0DTE iron fly 25x (short 23100 CE/PE, long 23200 CE/23000 PE, credit 71.05). All four legs filled, hedge intact; mark -9,100 vs -28,000 overall SL / +50,000 TP, exit 14:55. Spot 23,043 vs expiry breakeven 23,029 \u2014 theta-positive if NIFTY holds this area. No new entry: both NIFTY (23,043) and SENSEX (74,343) are RSI ~37, below SMA20/50 but bouncing off morning lows with flat TimesFM paths \u2014 direction unresolved, so no vertical and no fresh neutral worth the premium. SENSEX flat. Trigger: square off fly if spot breaks 23,020; reassess direction on a clean break either way."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T10:56:34.709190+05:30",
       "summary": "HOLD, no new trade. Open and hedged: 6702 SENSEX 22-10 bear put BUY 74200 PE @379.20 / SELL 73900 PE @241.85 (20 lots, MTM \u2212\u20b97,940, SL 32k/TP 68k); 6699 NIFTY 27-10 bear put BUY 23000 PE @173.80 / SELL 22850 PE @111.40 (25 lots, MTM +\u20b91,138, SL 55k/TP 110k). Both indices are choppy with a mild up-drift (NIFTY 22968, SENSEX 74231, mid-range, RSI ~50/42, TimesFM flat), so no fresh directional edge and any bull spread would conflict with the existing bear views (one view per index). Day realized \u2212\u20b958,230. Exits 14:55; reassess on SENSEX >74,330 / NIFTY >23,000 or a break below 74,100 / 22,900."
+    },
+    {
+      "time": "2026-10-21T11:11:20.059483+05:30",
+      "summary": "HOLD, no new trade. Both open spreads are on the correct side of a fresh down-move, so this cycle is management only. 6699 NIFTY 27-10 bear put (BUY 23000 PE / SELL 22850 PE, 25 lots) MTM +\u20b97,881; 6702 SENSEX 22-10 bear put (BUY 74200 PE / SELL 73900 PE, 20 lots) MTM \u2212\u20b9920. Fresh data: NIFTY 22,935 (RSI 38, below SMAs, TimesFM negative), SENSEX 74,136 (RSI 36). One view per index already held (both bearish) so a second same-direction add is a correlated duplicate. Day realised \u2212\u20b958,230. No TP/SL hit \u2014 profit still under a third of target, so no stop move yet. Next: reassess in ~10 min or on NIFTY <22,850 / SENSEX <73,900."
     }
   ]
 }
