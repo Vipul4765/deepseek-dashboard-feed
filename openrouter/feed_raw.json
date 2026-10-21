@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T12:10:10.750740+05:30",
-      "summary": "Created and started SENSEX bull call spread 74200-74300 oct22 20lot (strategy 6679) to increase bullish exposure. Existing SENSEX spread 6676 and NIFTY long call 6675 remain active. Will review in 60s to monitor entries and positions."
-    },
-    {
       "time": "2026-10-19T12:25:26.970056+05:30",
       "summary": "Created SENSEX bull call spread 74100-74300 oct22 5lot (strategy 6680) with SL 2000, TP 4000, scheduled entry 12:30, exit 14:55. No open positions currently. Will review at 12:24 to see if strategy has started and manage according to bullish view."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-21T14:07:58.356023+05:30",
+      "summary": "Daily target \u20b920,000 achieved and exceeded: \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Market session continues until 15:40 but risk appetite satisfied - no new entries today. Monitoring only for material structure change."
+    },
+    {
+      "time": "2026-10-21T14:22:42.309866+05:30",
       "summary": "Daily target \u20b920,000 achieved and exceeded: \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Market session continues until 15:40 but risk appetite satisfied - no new entries today. Monitoring only for material structure change."
     }
   ]
