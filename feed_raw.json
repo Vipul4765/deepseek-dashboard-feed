@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T10:45:16.245613+05:30",
-      "summary": "Squared off 6660 SENSEX 22-10 bull put 30x at a realised -\u20b917,910 (Core fills: 515.60/411.20). Thesis had broken \u2014 SENSEX 74,372 is ~130 pts below the 74,500 short strike, RSI 32.8, below both SMAs, and with 3 DTE the mark converges to intrinsic (~-32k) even if flat. Still holding 6664 NIFTY 0DTE iron fly 25x (credit 71.05, worst case ~\u20b947k, SL 28k, TP 50k, exit 14:55): marked -\u20b98.2k but expiry value at spot is ~+\u20b925.5k, SL trips near NIFTY 23,012 (day low 23,021). No new entry: both indices are bouncing off oversold lows, so a bear spread would chase an extended move. Next check in 7 min."
-    },
-    {
       "time": "2026-10-19T10:46:10.291721+05:30",
       "summary": "Held 6664 NIFTY 0DTE iron fly 25x (23100 centre, 23000/23200 wings, credit 71.05): mark -8.7k vs -28k SL, 50k TP, exit 14:55; expiry value at 23,050 is ~+34k so theta favours holding with the hedge intact. SENSEX now flat after the -17,910 exit. No new entry: both indices are oversold (RSI ~27) and bouncing off morning lows, so a bear spread would chase an extended drop and a 3-DTE SENSEX debit spread needs too large a move. Review in 6 min; stop near NIFTY 23,012."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T10:41:24.563504+05:30",
       "summary": "HOLD, no new trade. Open: 6702 SENSEX 22-10 bear put BUY 74200 PE @379.20 / SELL 73900 PE @241.85 (20 lots, hedged, MTM \u2212\u20b98,400, SL 32k/TP 68k); 6699 NIFTY 27-10 bear put BUY 23000 PE @173.80 / SELL 22850 PE @111.40 (25 lots, hedged, MTM \u2212\u20b91,787, SL 55k/TP 110k). Both indices mid-range (NIFTY 22964, SENSEX 74228), RSI ~63, TimesFM flat, so no fresh directional edge; a bull vertical would conflict with existing bear views (one view per index). Day realized \u2212\u20b958,230. Exit 14:55; review in 20 min or on SL approach."
+    },
+    {
+      "time": "2026-10-21T10:56:34.709190+05:30",
+      "summary": "HOLD, no new trade. Open and hedged: 6702 SENSEX 22-10 bear put BUY 74200 PE @379.20 / SELL 73900 PE @241.85 (20 lots, MTM \u2212\u20b97,940, SL 32k/TP 68k); 6699 NIFTY 27-10 bear put BUY 23000 PE @173.80 / SELL 22850 PE @111.40 (25 lots, MTM +\u20b91,138, SL 55k/TP 110k). Both indices are choppy with a mild up-drift (NIFTY 22968, SENSEX 74231, mid-range, RSI ~50/42, TimesFM flat), so no fresh directional edge and any bull spread would conflict with the existing bear views (one view per index). Day realized \u2212\u20b958,230. Exits 14:55; reassess on SENSEX >74,330 / NIFTY >23,000 or a break below 74,100 / 22,900."
     }
   ]
 }
