@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T11:03:18.727303+05:30",
-      "summary": "Created and started SENSEX bull call spread 74400-74500 oct22 2lot (strategy 6668) awaiting entry at 10:53. Adds bullish exposure to existing SENSEX bull call and put spreads. Target profit \u20b91,000, max loss \u20b91,000 per strategy. Next review in 30s to check fill and manage open runs."
-    },
-    {
-      "time": "2026-10-19T11:08:22.527671+05:30",
-      "summary": "Closed losing SENSEX bull put spread (6667, -52) and NIFTY butterfly (6670, -6.5) and winning SENSEX bull call spread (6666, +164). Created and started SENSEX bear call spread 74400-74500 oct22 4lot (6671) for a bearish view after recent downtrend. Target profit \u20b92,000, max loss \u20b92,000. Next review in 10s to check entry."
-    },
-    {
       "time": "2026-10-19T11:12:11.409872+05:30",
       "summary": "Squared off conflicting SENSEX bear call spread (6671) to maintain one bullish view per index. Created and started SENSEX bull call spread 74400-74500 oct22 5lot (6672) to add directional bullish exposure; awaiting entry. Next review in 20s to confirm fill and consider trailing SL if profit develops."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-21T12:01:11.494840+05:30",
       "summary": "HOLD - Two bearish positions active: NIFTY 22950 PE Oct27 2L (+\u20b910.6K, 26% of \u20b940K target) and SENSEX 74200/74100 PE Oct22 10L bear put spread (+\u20b95.2K, 23% of \u20b923K target). Combined +\u20b915.8K (79% of \u20b920K daily target). Both indices in pullback from open (NIFTY 22809, SENSEX 73725) with RSI 40/35. One view per index maintained. Profits below 1/3 target for trailing stops. SENSEX spread expires tomorrow - theta risk increasing. No new entries - correlated bearish exposure held within limits. Next review in 60s for trailing stop triggers (~\u20b913.3K NIFTY, ~\u20b97.7K SENSEX) or reversal signals."
+    },
+    {
+      "time": "2026-10-21T12:17:04.901970+05:30",
+      "summary": "Daily target \u20b920K exceeded with combined unrealized +\u20b921.7K (NIFTY long put +\u20b915.3K, SENSEX bear put spread +\u20b96.4K). Per boss directive to protect profits at target, squared off both positions via square_off (live_edit trailing stops failing with 'value must be numeric' tool bug). No new entries today - one view per index maintained, correlated bearish exposure closed. Awaiting fill confirmation on both square-offs."
+    },
+    {
+      "time": "2026-10-21T12:17:51.224345+05:30",
+      "summary": "Daily target \u20b920,000 achieved with \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions confirmed closed via RUN_ARCHIVED events. Per boss directive to protect profits at target: no new entries today. One view per index maintained, correlated bearish exposure fully closed. Session remains open but risk appetite satisfied."
     }
   ]
 }
