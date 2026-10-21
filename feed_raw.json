@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T12:45:59.320630+05:30",
-      "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, fully hedged, +1140 unrealised; SL 28k, TP 34k, 14:55 exit) \u2014 thesis intact, SENSEX -1% on day, below both SMAs, RSI 40; only ~3% of target so no trail yet. No new entry: NIFTY (-0.9% but stalling at 22929 low of range, RSI 37.9, TimesFM flat) offered only thin 0DTE verticals (bear call R:R 0.23) with no fresh momentum edge, and a SENSEX neutral add would duplicate/muddy the existing bearish view. Day realised -62.7k. Next review 25 min or on 6678 stop/target."
-    },
-    {
       "time": "2026-10-19T13:01:13.733903+05:30",
       "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, fully hedged, now +\u20b93,060 unrealised; thesis intact \u2014 SENSEX 73,954, below both SMAs, RSI 31, -1% on day). Only ~9% of 34k target so no trail yet; SL 28k, TP 34k, 14:55 exit. No new entry: NIFTY 0DTE condor spreads too thin (R:R <0.15), and a bearish NIFTY add would only stack correlated down-exposure at a stalling low with flat TimesFM; SENSEX neutral add would overlap 6678. Day realised -62.7k. Next review ~25 min or on 6678 stop/target."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T12:24:09.731435+05:30",
       "summary": "Held 6703 (NIFTY 22850/22700 bear put, 27-10, 30 lots, hedge intact, fills confirmed): open P&L +\u20b928.2k, overall SL already at \u20b91 break-even (Core rejects profit-positive SL values, so no further trail possible; no leg edit that would uncover the short). No new trade: NIFTY already carries our bearish view (one view per index); SENSEX 1-DTE spreads price near fair (72,900/73,600 credit 68.5 vs 200 width, BE 73,668, forecast p50 only \u221252 pts) and would duplicate correlated downside while both indices are RSI ~18. Day \u2212\u20b910.7k realised. Next: 10-min review; book if profit retraces to ~\u20b915k or NIFTY reclaims 22,800."
+    },
+    {
+      "time": "2026-10-21T12:33:49.141363+05:30",
+      "summary": "Booked profit: squared off 6703 (NIFTY 22850/22700 bear put, 30 lots, 27-10). Core fills confirmed: L1 exit 214.40 (+55.7k), L2 141.55 (\u221239.9k) = +\u20b915,795, hedge intact throughout. Day now \u2248 +\u20b95.1k realised, flat. No new entry: NIFTY/SENSEX both flat after bounce off lows (NIFTY 22,750, forecast p50 \u221217; SENSEX 73,520, p50 \u221250), 1-DTE SENSEX spreads price near fair, NIFTY condor risk high on 100-pt wings. Next review 30 min; will reassess fresh NIFTY/SENSEX direction with exit still 14:55."
     }
   ]
 }
