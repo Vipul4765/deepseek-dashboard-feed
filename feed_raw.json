@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T11:05:29.389388+05:30",
-      "summary": "No new trade. 6669 SENSEX 22-10 bull put confirmed FILLED at 11:05 (SELL 500x 74,300 PE @366.05, BUY 500x 74,000 PE @250.30; credit 115.75, max loss ~92k, SL 38k/TP 32k) \u2014 unrealized -1,675, SENSEX 74,438 above short strike. 6664 NIFTY 0DTE fly holds, mark -2,844 vs -28k SL, exit 14:55; NIFTY 23,062 is 33pts above 23,029 breakeven. Both indices mid-range with flat TimesFM and choppy action, so no directional add; a second NIFTY structure would only duplicate exposure. Today realised -17,910. Next: cut fly if NIFTY breaks 23,025."
-    },
-    {
-      "time": "2026-10-19T11:15:22.382658+05:30",
-      "summary": "HOLD, no new trade. Assessed NIFTY and SENSEX: both mid-range (NIFTY 23,070, SENSEX 74,452), RSI ~51, price on SMAs, TimesFM flat (-0.01%) \u2014 no directional edge, so no vertical. Open, hedged: 6669 SENSEX 22-10 bull put (SELL 500x 74,300 PE @366.05 / BUY 500x 74,000 PE @250.30, max loss ~92k, SL 38k, now +975); 6664 NIFTY 0DTE fly at 23,100, mark -569 vs -28k SL, exit 14:55. Today realised -17,910. Next: tighten/cut fly if NIFTY leaves 23,030-23,171; book SENSEX at TP 32k or 14:55."
-    },
-    {
       "time": "2026-10-19T11:46:24.098214+05:30",
       "summary": "HOLD, no new trade. Both indices fell hard (NIFTY 23,003, -125; SENSEX 74,240) then bounced off lows with RSI ~23-24 and TimesFM mildly up \u2014 trend-down vs rebound conflict, so no clean directional edge; existing SENSEX bull put blocks a SENSEX bear view. Open and hedged: 6664 NIFTY 0DTE fly (short 23,100 CE/PE, wings 23,200/23,000) mark -13.0k vs -28k SL; it is long-gamma, so a push back to 23,050+ recovers it while a close below 22,979 breaks the thesis and I will square it. 6669 SENSEX 22-10 bull put mark -16.2k, SL -38k, exit 14:55. Realised today -17,910. Next review 10 min."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-21T11:24:19.791007+05:30",
       "summary": "No new entry: both NIFTY (6699, 23000/22850 PE, 27-10) and SENSEX (6702, 74200/73900 PE, 22-10) already hold the bearish view, so another same-direction trade would just duplicate exposure. Both spreads are working on a strong downtrend (NIFTY 22,895, RSI 29; SENSEX 73,995, RSI 27, TimesFM slightly lower). Management: cut both overall stops from 9k/6k to \u20b91,000 max loss so winners can't flip red; targets kept at 55k (NIFTY) and 15k (SENSEX). MTM +19.1k and +6.6k. Next: stop hit, target, or 14:55 exit."
+    },
+    {
+      "time": "2026-10-21T11:25:22.062386+05:30",
+      "summary": "Held both open bear put spreads. NIFTY 6699 (23000/22850 PE, 27-10) MTM +23.3k and SENSEX 6702 (74200/73900 PE, 22-10) +10.6k, both riding a strong downtrend (NIFTY 22,893 RSI 29; SENSEX 73,955 RSI 30, TimesFM slightly lower). Core rejects negative overall SL values, so I tightened both stops from \u20b91,000 to \u20b91 max loss \u2014 a break-even lock \u2014 with targets 55k (NIFTY) and 15k (SENSEX). No new entry: a second bearish trade on either index would duplicate the same view with spot just above the short strikes. Next: target/stop/14:55 exit."
+    },
+    {
+      "time": "2026-10-21T11:26:33.464628+05:30",
+      "summary": "Booked SENSEX 6702 (74200/73900 PE, 22-10): squared off, realized +7,300 (long 459.75 / short 304.15) \u2014 1 DTE gamma with spot only ~78 pts above the short strike made a give-back likely. Kept NIFTY 6699 (23000/22850 PE, 27-10, 25 lots) running at ~+20.7k MTM with break-even overall stop (\u20b91 max loss) and 55k target; 6 DTE still carries decay upside. Negative profit-lock SL is rejected by Core, so break-even is the floor; 14:55 exit stands. No new entry: NIFTY bearish view already held, SENSEX oversold/1 DTE. Next review in 25 min."
     }
   ]
 }
