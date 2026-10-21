@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T12:13:42.595017+05:30",
-      "summary": "No new entries: both indices already carry bearish views (NIFTY 0DTE 23000/22950 put spread +6,581; SENSEX 3DTE 74200/74500 call spread -180), so opposite or duplicate bets are barred and adding correlated size to chase the -71.4k realised day is not allowed. Both spreads filled and hedged (1,625 and 600 qty, same expiry per leg). Trailed 6677's overall stop from 12,000 to 1,000 INR (break-even lock, TP 38,000 kept). 6678 unchanged (SL 28,000). Next review 300s or on stop/fill event."
-    },
-    {
       "time": "2026-10-19T12:15:13.613385+05:30",
       "summary": "Booked NIFTY 0DTE bear put spread (6677): exits 98.45/66.45 vs 76.00/49.35 \u2192 +8,694 realised (day now \u2248 -62.7k realised). Held SENSEX 3DTE bear call 74200/74500 (6678, 30 lots, hedged, mark \u2248 +0.9k, SL 28k, TP 34k, 14:55 exit). No new entry: both indices already carry bearish views (one-view rule bars opposites, and adding correlated short-delta size to chase the loss isn't allowed); 0DTE pricing near pin strikes offers no edge. Next review ~25 min, or on 6678 stop/exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T11:51:57.932713+05:30",
       "summary": "HOLD. Open strategy 6703 (NIFTY bear put 22850/22700, 27-10, 30 lots) confirmed live from Core fills: BUY 1950 @185.85, SELL 1950 @121.10, hedge fully covered. Fresh P&L +\u20b9682 (unrealised), margin \u20b910.0L, overall SL \u20b945k/TP \u20b955k. Thesis holds: NIFTY 22,815 below SMA20/50, RSI 32.8, making new session lows. No new SENSEX trade \u2014 same bearish view (correlated), 1-DTE at RSI 26.7 with 21% IV is gamma/reversal risk. Trail overall SL to break-even once open profit hits \u20b910k. Next review 20 min."
+    },
+    {
+      "time": "2026-10-21T12:07:12.516965+05:30",
+      "summary": "HOLD (NIFTY 22,799, below SMA20/50, new session lows, RSI 43, TimesFM slightly down). Open 6703 bear put 22850/22700 (27-10, 30 lots) confirmed live: BUY 1950 @185.85, SELL 1950 @121.10, hedge full; P&L +\u20b9682, margin \u20b910.0L, overall SL \u20b945k/TP \u20b955k. Hedge-integrity fix: widened L1 SL to 120 pts (65.85) and disabled L1's trailing stop, which would have sold the long hedge leg and left the short put naked. No new SENSEX trade (1-DTE 21% IV, same bearish view). Next review 18 min; trail overall SL to break-even at \u20b910k open profit."
     }
   ]
 }
