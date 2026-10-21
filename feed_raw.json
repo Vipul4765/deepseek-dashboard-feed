@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T12:15:13.613385+05:30",
-      "summary": "Booked NIFTY 0DTE bear put spread (6677): exits 98.45/66.45 vs 76.00/49.35 \u2192 +8,694 realised (day now \u2248 -62.7k realised). Held SENSEX 3DTE bear call 74200/74500 (6678, 30 lots, hedged, mark \u2248 +0.9k, SL 28k, TP 34k, 14:55 exit). No new entry: both indices already carry bearish views (one-view rule bars opposites, and adding correlated short-delta size to chase the loss isn't allowed); 0DTE pricing near pin strikes offers no edge. Next review ~25 min, or on 6678 stop/exit."
-    },
-    {
       "time": "2026-10-19T12:16:01.408265+05:30",
       "summary": "Held 6678 SENSEX 3DTE bear call 74200/74500 (30 lots, hedged, +3.5k unrealised, SL 28k, TP 34k, 14:55 exit). No new entry: NIFTY's 0DTE down-move is stalling at 22,935 (RSI 28.8, TimesFM flat +0.05%), so put-spread breakevens sit at/near spot with no edge, and adding more short delta would duplicate the existing SENSEX bearish view. Day realised -62.7k. Next review ~25 min or on 6678 stop/target; budget nearly spent (0.63/0.80)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T12:07:12.516965+05:30",
       "summary": "HOLD (NIFTY 22,799, below SMA20/50, new session lows, RSI 43, TimesFM slightly down). Open 6703 bear put 22850/22700 (27-10, 30 lots) confirmed live: BUY 1950 @185.85, SELL 1950 @121.10, hedge full; P&L +\u20b9682, margin \u20b910.0L, overall SL \u20b945k/TP \u20b955k. Hedge-integrity fix: widened L1 SL to 120 pts (65.85) and disabled L1's trailing stop, which would have sold the long hedge leg and left the short put naked. No new SENSEX trade (1-DTE 21% IV, same bearish view). Next review 18 min; trail overall SL to break-even at \u20b910k open profit."
+    },
+    {
+      "time": "2026-10-21T12:08:18.704247+05:30",
+      "summary": "HOLD. Open 6703 NIFTY bear put 22850/22700 (27-10, 30 lots, full hedge confirmed live) marks +\u20b94,972; SL \u20b945k triggers complete square-off well before L1's 65.85 leg SL, so no naked-short risk. No new trade: NIFTY 22,794 and SENSEX 73,684 are at day lows with 30-min momentum stalled and TimesFM flat, while SENSEX 1-DTE IV 22% makes new bear spreads marginal (~1.1 R:R) and would duplicate the existing bearish index exposure. Day \u20b9-10.7k realised. Next: trail overall SL to breakeven at \u20b910k profit (~NIFTY 22,755)."
     }
   ]
 }
