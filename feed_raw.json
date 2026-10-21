@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T09:41:47.784191+05:30",
-      "summary": "6660 (SENSEX 22-10 bull put) confirmed filled and hedged from Core events: SELL 30x 74500 PE @359 / BUY 30x 74300 PE @284.45, credit 74.55 pts, defined worst case \u20b975.3k, margin \u20b910.18L, mark -\u20b91,050; SL 32k/TP 30k/exit 14:55 held. NIFTY 0DTE assessed: V-bounce back to 23143 after 22970 flush, but TimesFM median -0.07% and mixed signals give no clear direction; 0DTE condor R:R ~0.36 with shorts inside today's 205-pt range \u2014 no entry. SENSEX already carries the bullish-neutral view; no add. Next review 15 min."
-    },
-    {
-      "time": "2026-10-19T09:55:50.692610+05:30",
-      "summary": "Held 6660 (SENSEX 22-10 bull put: SELL 30x74500PE @359 / BUY 30x74300PE @284.45, credit 74.55 pts, worst case \u20b975.3k). Fresh paper mark -\u20b95,040; SENSEX 74,599 sits ~100 pts above the short strike; SL 32k/TP 30k/exit 14:55 unchanged. No new entry: NIFTY shows no direction (RSI 43, price between SMAs, TimesFM median +0.00%) and 0DTE condors with 50-pt wings (credit ~18 pts, R:R 0.57, ~53% win) price negative EV, while \u03c3-scaled 100-pt wings fail the 0.30 R:R floor. New SENSEX view would conflict with 6660. Next check 15 min; act early if SENSEX breaks 74,450."
-    },
-    {
       "time": "2026-10-19T10:10:32.245649+05:30",
       "summary": "Held 6660 (SENSEX 22-10 bull put 30x: SELL 74500PE @359 / BUY 74300PE @284.45, credit 74.55 pts, worst case \u20b975.3k, SL 32k/TP 30k/exit 14:55). Fresh mark -\u20b910,350 as SENSEX 74,482 sits at the short strike, but last candles show higher lows and TimesFM median 74,520 \u2014 thesis strained, not failed, so no edit. No new entry: NIFTY is 0DTE with conflicting signals (RSI 39 below SMAs vs recovering higher lows, TimesFM +0.12%); its verticals price under 0.30 R:R and 50-pt condors have tight short strikes. SENSEX already carries a view; adding would double correlated risk near strike. Next check 15 min; act early if SENSEX breaks 74,350 (stop zone)."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-21T09:56:18.603988+05:30",
       "summary": "Held NIFTY 6698 (23100/23200 CE, 27-10, 30 lots, hedged, SL 50k/TP 80k, exit 14:55); unrealized -12,870, filled 173.85/124.70 per Core events. No new entry: NIFTY and SENSEX both fell hard into SMA50 with RSI 3-5 and are now stabilizing/rebounding, so a fresh bear call/put spread would be late chase into support, while a bull spread would fade that strong down move; NIFTY already carries a bull view and 1-DTE SENSEX structures price thin (~0.3-0.4 reward:risk). Day P&L -36,000 (SENSEX 6697 booked earlier). Next trigger: break below NIFTY 23000 -> cut 6698 and look for momentum bear trade; reclaim of 23080 -> thesis restored. Review in 10 min."
+    },
+    {
+      "time": "2026-10-21T10:07:20.417732+05:30",
+      "summary": "Cut NIFTY 6698 bull call: trend broke (NIFTY 22,975, RSI 32, below SMA20/50, down momentum) \u2014 realised -22,230 (day now ~-58,230 with SENSEX 6697's -36,000). Replaced the failing bull view with directional momentum: new 6699 NIFTY 27-10 bear put spread, BUY 23,000 PE / SELL 22,850 PE, 25 lots, debit ~63.6, worst-case ~\u20b91.03L debit, SL 55k, TP 110k, exit 14:55; start submitted, fills unverified yet. Next: confirm fill/hedge in 2 min; stop if NIFTY reclaims 23,095, trail SL as profit builds."
+    },
+    {
+      "time": "2026-10-21T10:08:14.035723+05:30",
+      "summary": "Confirmed 6698/6697 closed (day -58,230: NIFTY -22,230, SENSEX -36,000). Only open item is 6699 (NIFTY 27-10 bear put, BUY 23,000 PE / SELL 22,850 PE, 25 lots), still SCHEDULED with no run/fills yet \u2014 entry fires 10:09, so strikes remain unverified until then. Thesis still holds: NIFTY 22,978, RSI 36, below SMA20/50, TimesFM flat-to-down. Priced debit ~61 \u2192 worst case ~\u20b999.3k, max ~\u20b9144k, SL 55k/TP 110k/14:55 exit. No second bearish index trade (correlated duplication); SENSEX skipped. Next: verify 6699 fill at ~10:11, tighten SL to break-even once profit nears a third of target."
     }
   ]
 }
