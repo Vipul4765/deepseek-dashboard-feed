@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T12:48:57.901299+05:30",
-      "summary": "Currently holding two SENSEX bear put spreads (6635:20 lots, 6637:30 lots) with unrealized losses of \u20b9480 and \u20b91,140. Underlying at 74694.51. Waiting for underlying to fall to 74692.61 (breakeven) or rise to 74700 (stop loss trigger) to manage risk. Set review in 60 seconds to reassess."
-    },
-    {
       "time": "2026-10-16T15:13:17.277370+05:30",
       "summary": "Market open but past index exit time (14:55 IST). No open positions. No new trades entered today as per exit rule. Awaiting next session."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T10:30:49.621754+05:30",
       "summary": "Two bearish strategies active from 10:15 fill: NIFTY 22950 PE Oct27 2-lot long put (-\u20b9370.50) and SENSEX 74200/74100 PE Oct22 10-lot bear put spread (-\u20b9400). Total unrealized -\u20b9770. Both align with TimesFM bearish forecast (NIFTY p50 22,948, SENSEX p50 74,177) and pullback from morning highs. One view per index maintained (bearish on both). No new entries - positions just opened, letting thesis develop. Trailing stops not yet armed (positions underwater). Next review in 120s to monitor for thesis validation or stop triggers."
+    },
+    {
+      "time": "2026-10-21T10:32:21.954904+05:30",
+      "summary": "HOLD - Two bearish positions active from 10:15: NIFTY 22950 PE Oct27 2L long put (-\u20b91,073) and SENSEX 74200/74100 PE Oct22 10L bear put spread (-\u20b9550). Total unrealized -\u20b91,623. Market pulled back from morning highs (NIFTY 23,037\u219222,958, SENSEX 74,420\u219274,188). TimesFM bearish (NIFTY p50 22,943, SENSEX p50 74,143). One view per index maintained. NIFTY/1-leg hist: 46% win; SENSEX/2-leg hist: 45% win but negative expectancy. Thesis: bearish pullback continuation. Too early for trailing stops (positions underwater). No new entries - monitoring for thesis validation or stop triggers. Next review in 120s."
     }
   ]
 }
