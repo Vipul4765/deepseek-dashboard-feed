@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T13:49:22.926714+05:30",
-      "summary": "HOLD. 6678 SENSEX 22-10 bear call 74200/74500 (30 lots, hedge intact, fills 317/211.35) runs at fresh MTM +14,640 (23% of target) with break-even stop, TP 34,000 and 14:55 exit, so it cannot turn into a loser. No new entry: NIFTY 0DTE shows no clear direction (RSI 43.9, price below SMAs, TimesFM p50 +0.09%), SENSEX already holds its one bearish view, and AI budget is at 0.771/0.80 USD \u2014 saving it for exit management. Day realised \u221262,716; net \u2248 \u221248,100. Next check ~14:14, then Core's 14:55 exit."
-    },
-    {
-      "time": "2026-10-19T14:04:23.384332+05:30",
-      "summary": "Booked the winner: squared off 6678 SENSEX 22-10 bear call 74200/74500 (30 lots, fills 317/211.35, hedge intact) with fresh MTM +10,500 rather than risk SENSEX momentum (RSI 71, TimesFM +0.14%) eroding it before the 14:55 exit; exit fills not yet in the run log, so P&L unverified until settlement. No new entry: NIFTY 0DTE choppy, SENSEX already had its one view, and AI budget is at 0.78/0.80 USD. Day realised \u221262,716 before this exit. Next review 15 min or after Core settles the exit."
-    },
-    {
       "time": "2026-10-19T14:04:52.146032+05:30",
       "summary": "Flat: 6678 SENSEX bear call settled USER_EXIT +\u20b911,040 (fills 155.90/243.15, hedge intact); open_runs empty. Day realised \u2248 -\u20b940,636 (5 trades, 2 wins). No new entry: NIFTY 0DTE and SENSEX 3DTE are mid-range bounces (NIFTY 22,887 vs 22,845-22,978; SENSEX 73,852 vs 73,708-74,126) with no clear momentum, and AI budget is at 0.789/0.80 USD, so a fresh 14:55-exit position could not be monitored. Next review 30 min (budget-capped)."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-21T12:56:50.635033+05:30",
       "summary": "HOLD. 6704 NIFTY 27-Oct iron condor live and fully hedged (30x short 23000CE @82.00 / 22600PE @118.40, long 23100CE @58.15 / 22500PE @87.40, credit 54.85 pts, margin \u20b919.75L, SL \u20b950k, TP \u20b960k, exit 14:55). Spot 22,768 inside shorts; marks \u2248 break-even (P&L 0.00 fresh), so no \u20b910k trail trigger; short-put trail already tightened to 113.4. No new entry: NIFTY 22,754 (SMA20/50 22,744/22,748, RSI 51, TimesFM -0.03%) and SENSEX 73,542 (RSI 54, TimesFM -0.03%) both flat after the selloff; SENSEX 4-leg still blocked by its 25% win record. Day realized +\u20b93,426. Next review 25 min; AI spend 0.707/0.80."
+    },
+    {
+      "time": "2026-10-21T13:02:32.670632+05:30",
+      "summary": "The running NIFTY condor 6704 exited flat at 13:01 (all four legs squared, -\u20b9195 costs; day realized \u2248 +\u20b93,231). Restarted with a fresh NIFTY 27-Oct iron condor (strategy 6705, 30 lots/leg): sell 22900CE @114.70 / buy 23000CE @82.50, sell 22600PE @112.50 / buy 22500PE @82.60 \u2014 ~62 pts credit, max loss \u2248 \u20b973.9k, ratio ~1.6, leg SL 35 pts with trails to breakeven, overall SL \u20b955k, TP \u20b945k, 14:55 exit. Spot 22,744 sits mid-range. Next review in 4 min to confirm fills; AI spend 0.72/0.80."
+    },
+    {
+      "time": "2026-10-21T13:03:04.416737+05:30",
+      "summary": "HOLD/no new trade. NIFTY 27-Oct iron condor 6705 is deployed and waiting for its 13:06 entry (no run yet, so no legs open; day realized P&L \u2248 +\u20b93,231). NIFTY 22,742 sits mid-range between 22,600 and 22,900 shorts, TimesFM flat (-0.02%), SENSEX 73,504 with 1DTE chain; neither gives a fresh directional edge beyond the condor already hedging the range, and one-view-per-index plus near-exhausted AI budget (0.74/0.80) argue against a second NIFTY/SENSEX position. Next review at 13:08 to confirm fills and hedge coverage."
     }
   ]
 }
