@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T09:15:26.017757+05:30",
-      "summary": "Flat (no open runs; today's journal empty). 09:15 open shows a broad gap-up: NIFTY 23,002 vs 22,889 prev close, SENSEX 74,205 vs 73,853, India VIX down to 14.18 \u2014 mildly bullish, but no 21-Oct candles exist yet and opening option IVs are inconsistent (SENSEX 74,200/74,300 CE at 13.6% vs 19.5%), so pricing is not yet reliable. No entry: waiting for the first completed bars to confirm the gap holds or fills. Next review in 5 min to decide a NIFTY/SENSEX bull call or bull put spread (expiries 27-10 and 22-10)."
-    },
-    {
       "time": "2026-10-21T09:22:00.330041+05:30",
       "summary": "Gap-up momentum (SENSEX 74,500 +0.9%, above SMA20/50, new highs at open) supported a bullish directional trade. Created and started strategy 6697: SENSEX 22-10 bull call spread, BUY 40 lots itm_1 CE (~74,400), SELL 40 lots otm_5 CE (~75,000), debit ~\u20b9254/unit (~\u20b9203k), max profit ~\u20b9277k, overall SL \u20b995,000, TP \u20b9140,000, exit 14:55. Start is waiting for 09:32. No other positions open. Next review in 4 min to verify fills, resolved strikes and hedge."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T13:06:13.887257+05:30",
       "summary": "HOLD/verified. Strategy 6705 (NIFTY 27-Oct iron condor) filled all 4 legs at 13:06: SELL 22900CE @116, BUY 23000CE @83.55, SELL 22600PE @109.55, BUY 22500PE @80 \u2014 30 lots each, fully hedged, net credit ~62 pts (~\u20b91.21k... credit \u20b9120,900), worst case ~\u20b974k on 100-pt width, margin ~\u20b919.8L accepted. Mark now -\u20b91,170; no trail change (below \u20b910k trigger). Day realized +\u20b93,231. No new entry: AI budget 0.756/0.80. Next review 15 min; condor exits 14:55 with leg SLs 35 pts/overall SL 55k."
+    },
+    {
+      "time": "2026-10-21T13:14:40.317254+05:30",
+      "summary": "HOLD. Open: 6705 NIFTY 27-Oct iron condor (SELL 22900CE/22600PE, BUY 23000CE/22500PE, 30 lots each, fully hedged, margin ~\u20b919.8L) now +\u20b9975 unrealised, fresh. NIFTY 22710, below SMAs with RSI 24 and SENSEX RSI 20; short put 22600 (~110 pts cushion) is the risk side, capped by 22500 hedge, leg SLs 35 pts, overall SL \u20b955k, exit 14:55. No new entry: AI budget 0.770/0.80 leaves no room to price, hedge-check and verify a fresh spread; SENSEX/4-leg shape also blocked by its weak record. Next review ~15 min."
     }
   ]
 }
