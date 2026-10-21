@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T09:15:13.792321+05:30",
-      "summary": "HOLD \u2014 no entry. Session open but only 1 minute in: NSE/BSE index entry window starts 09:30, today's 1-min candles are not yet formed (indicators/forecast still from Friday's 15:30 close). No open runs, zero margin used, today's P&L flat. Fresh quotes: NIFTY 23145 (prev 23146), SENSEX 74704 (prev 74729), VIX 13.32 \u2014 no direction yet. Blocker: entry window not open plus no intraday price action. Next review 09:29 to judge the opening range for a NIFTY 0DTE or SENSEX 22-10 hedged directional/neutral structure."
-    },
-    {
       "time": "2026-10-19T09:22:19.498764+05:30",
       "summary": "HOLD \u2014 no entry. Session open but only ~6 min in; NIFTY whipsawed 23074\u201323175 (now 23124, RSI 51.9) and SENSEX 74513\u201374849 (now 74653, RSI 47.6) \u2014 no direction, opening range not established. First expiries confirmed: NIFTY 19-10 0DTE (lot 65), SENSEX 22-10 3DTE (lot 20). Zero open runs, flat P&L. Blockers: 0DTE condor short strikes sit only 25\u201375 pts from today's extremes; no confirmed momentum for a vertical. Reassess ~09:31: sell a NIFTY 0DTE condor if a tighter range forms, or take a directional vertical on an opening-range break."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T09:32:37.176706+05:30",
       "summary": "SENSEX 6697 confirmed filled 09:32: BUY 74500 CE @385 / SELL 75100 CE @143 (40 lots each, hedged, 22-10 expiry), margin \u20b912.57L, unrealized +\u20b91,520. Added a distinct directional view on NIFTY: new strategy 6698 BUY 30x 23100 CE / SELL 30x 23200 CE, 27-10 expiry, debit \u2248\u20b947.6 (\u2248\u20b993k, max profit \u2248\u20b9102k, 6-DTE), overall SL \u20b950k, TP \u20b980k, exit 14:55; started, entry 09:34. Evidence: NIFTY +0.9% gap-up above SMA20/50, RSI 71.8, fresh highs 23,098, futures 23,110; TimesFM flat (p50 23,082). No SENSEX 4-leg (poor record). Next: verify 6698 fills at 09:34, then trail stops as profit grows."
+    },
+    {
+      "time": "2026-10-21T09:34:18.323166+05:30",
+      "summary": "Both bull-spread fills confirmed from Core events: SENSEX 6697 BUY 74500 CE @385 / SELL 75100 CE @143 (40 lots, 22-10, hedged), unrealized +\u20b910,960, margin \u20b912.57L; NIFTY 6698 BUY 23100 CE @173.85 / SELL 23200 CE @124.70 (30 lots, 27-10, hedged), -\u20b9780, margin \u20b99.47L. No new entry: one bull view already held on each index, both trending with highs (NIFTY 23,102.9, SENSEX 74,599.7) but TimesFM p50 flat, so no reason to add correlated size. HOLD. Trigger: trail 6697's overall SL up once profit \u2265 ~1/3 of target; exit both by 14:55."
     }
   ]
 }
