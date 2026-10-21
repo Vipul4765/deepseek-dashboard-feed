@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T13:12:56.563797+05:30",
-      "summary": "Created and started SENSEX bull call spread 74000-74100 oct22 6lot (id 6686) with overall SL 2000, TP 3000. Entered net debit 41.2 points/share after assessing slight bullish SENSEX bias (TimesFM) and one-view-per-index rule. No other open positions. Will monitor for SL/TP or thesis change."
-    },
-    {
       "time": "2026-10-19T13:17:08.380819+05:30",
       "summary": "Square-off requested for SENSEX bull call spread 6lot (id 6686) due to thesis weakening (TimesFM slightly bearish, price below break-even). Will reassess after exit executes for new opportunities."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T15:22:46.525702+05:30",
       "summary": "Daily target \u20b920,000 achieved and exceeded at \u20b922,284 realized P&L (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Boss instruction explicit: stop opening new risk after target reached. Market session continues until 15:40 but risk appetite satisfied - HOLD, monitoring only for material structure change. No new strategies created or started."
+    },
+    {
+      "time": "2026-10-21T15:37:42.671973+05:30",
+      "summary": "Daily target \u20b920,000 exceeded at \u20b922,284 realized P&L (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Market closes in 3 minutes (15:40 IST). Boss instruction explicit: stop opening new risk after target reached. HOLD - monitoring only, no new strategies."
     }
   ]
 }
