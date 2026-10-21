@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T12:33:55.548860+05:30",
-      "summary": "Hold: Two active strategies - SENSEX bull call spread 5lot (6680) and NIFTY iron condor 1lot (6681) - both in small unrealized profit (+220, +19.5). Cannot open new trades due to one-view-per-index rule (NIFTY neutral view, SENSEX bullish view). Waiting for moves to develop or exit times (14:55 SENSEX, 15:15 NIFTY). Next review in 5 minutes to check P&L for trailing stop eligibility."
-    },
-    {
       "time": "2026-10-19T12:52:22.521965+05:30",
       "summary": "Squared off losing SENSEX bull call spread (6680). Created and started SENSEX bear put spread 2 lots (6683) with entry debit ~103.6/share, SL 2000, TP 10000. NIFTY iron condor (6681) remains active with small unrealized profit (+26). One view per index maintained: NIFTY neutral, SENSEX bearish. Next review in 2 minutes to monitor PnL for possible trailing stops."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-21T14:38:52.641493+05:30",
+      "summary": "Daily target \u20b920,000 achieved and exceeded: \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Market session continues until 15:40 but risk appetite satisfied - no new entries today. Monitoring only for material structure change."
+    },
+    {
+      "time": "2026-10-21T14:52:37.072848+05:30",
       "summary": "Daily target \u20b920,000 achieved and exceeded: \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Market session continues until 15:40 but risk appetite satisfied - no new entries today. Monitoring only for material structure change."
     }
   ]
