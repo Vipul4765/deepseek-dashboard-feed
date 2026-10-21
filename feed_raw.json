@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T11:46:24.098214+05:30",
-      "summary": "HOLD, no new trade. Both indices fell hard (NIFTY 23,003, -125; SENSEX 74,240) then bounced off lows with RSI ~23-24 and TimesFM mildly up \u2014 trend-down vs rebound conflict, so no clean directional edge; existing SENSEX bull put blocks a SENSEX bear view. Open and hedged: 6664 NIFTY 0DTE fly (short 23,100 CE/PE, wings 23,200/23,000) mark -13.0k vs -28k SL; it is long-gamma, so a push back to 23,050+ recovers it while a close below 22,979 breaks the thesis and I will square it. 6669 SENSEX 22-10 bull put mark -16.2k, SL -38k, exit 14:55. Realised today -17,910. Next review 10 min."
-    },
-    {
       "time": "2026-10-19T11:56:21.957544+05:30",
       "summary": "HOLD, no new trade. 6664 NIFTY 0DTE fly (short 23,100 CE/PE, wings 23,200/23,000) mark -12.8k vs -28k SL; max-OI pin at 23,000 PE / 23,100 CE supports recovery, square if a 1-min close breaks 22,979. 6669 SENSEX 22-10 bull put (short 74,300/long 74,000) mark -17.0k vs -38k SL, exit 14:55. Realised today -17,910. No entry: direction unconfirmed at day lows (TimesFM +0.05%, choppy bounce) and any add would duplicate the same correlated view. Hedge integrity verified on both. Next review 20 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T11:26:33.464628+05:30",
       "summary": "Booked SENSEX 6702 (74200/73900 PE, 22-10): squared off, realized +7,300 (long 459.75 / short 304.15) \u2014 1 DTE gamma with spot only ~78 pts above the short strike made a give-back likely. Kept NIFTY 6699 (23000/22850 PE, 27-10, 25 lots) running at ~+20.7k MTM with break-even overall stop (\u20b91 max loss) and 55k target; 6 DTE still carries decay upside. Negative profit-lock SL is rejected by Core, so break-even is the floor; 14:55 exit stands. No new entry: NIFTY bearish view already held, SENSEX oversold/1 DTE. Next review in 25 min."
+    },
+    {
+      "time": "2026-10-21T11:28:13.239032+05:30",
+      "summary": "Held NIFTY 6699 (23000/22850 PE, 27-10, 25 lots): MTM +\u20b921.6k. Re-applied and confirmed overall SL at \u20b91 (break-even; Core rejects a profit-lock SL \u2014 \"value must be positive\") with TP \u20b955k live, re-entry disabled, 14:55 exit. No new entry: NIFTY bearish view already held (adding duplicates it), SENSEX 1-DTE wings (\u00b1300 vs ~830pt expected move) and fairly priced debit spreads give no edge at RSI 24 / rising VIX; TimesFM flat. Realized today \u2212\u20b950,930. Next check in 25 min, sooner on a stop event."
     }
   ]
 }
