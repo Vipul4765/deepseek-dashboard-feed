@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T10:26:27.833728+05:30",
-      "summary": "Held 6660 (SENSEX 22-10 bull put 30x, credit 74.55, SL 32k/TP 30k/exit 14:55): mark -9,870 with SENSEX 74,508 on the 74,500 short strike, but higher lows and TimesFM p50 74,606 keep the thesis alive \u2014 no edit. Direction was not clear enough for a NIFTY vertical (flat-and-slightly-up, 40 pts off the low, TimesFM ~flat; NIFTY 2-leg record is net negative), so I created and started 6664: NIFTY 0DTE (19-10) iron fly, sell ATM CE/PE, buy \u00b12 strikes (23,100/23,200/23,000), 25 lots, ~72.8 pts credit, defined worst case ~\u20b944k, margin ~\u20b92.5M, overall SL 28k, TP 50k, exit 14:55. Start is waiting for 10:34; next check in 5 minutes to verify all four fills."
-    },
-    {
-      "time": "2026-10-19T10:30:56.092169+05:30",
-      "summary": "Held 6660 (SENSEX 22-10 bull put 30x, credit 74.55, marked -5,670; SENSEX 74,566 above the 74,500 short strike, mild bullish trend/TimesFM p50 74,516 keep the thesis alive; SL 32k/TP 30k/exit 14:55 unchanged, no profit to trail yet). Left 6664 (NIFTY 19-10 0DTE iron fly 25x, sell 23,100 CE/PE, wings 23,200/23,000, ~72.5 credit, worst case ~\u20b944.7k, SL 28k/TP 50k/exit 14:55) scheduled to enter 10:34 \u2014 NIFTY 23,115 sits mid-range (today 23,035-23,115, Friday high 23,175) with flat TimesFM, so a protected range structure fits better than chasing a choppy up-move; SENSEX bullish view already expressed, no extra directional taken. Next check in 6 min to confirm the four fly fills."
-    },
-    {
       "time": "2026-10-19T10:34:24.008517+05:30",
       "summary": "Both positions verified from Core fills: 6664 NIFTY 19-10 0DTE iron fly 25x filled (sell 23100 CE 52 / PE 72, wings 23200 CE 20.2 / 23000 PE 32.75, credit ~71, worst case ~\u20b947k, SL 28k, TP 50k, exit 14:55), now -1,219. 6660 SENSEX 22-10 bull put 30x (sell 74500 PE 359 / buy 74300 PE 284.45, credit 74.55, max loss ~75k) marked -10,860 as SENSEX 74,476 sits just under the short strike; SL 32k, exit 14:55, no profit to trail. No new entry: SENSEX choppy, NIFTY flat (SMA/R Futures flat, TimesFM +0.05%) and both indices already carry a view. Next check 10 min; square SENSEX if loss nears ~20-25k."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-21T10:09:31.721996+05:30",
       "summary": "6699 confirmed filled: BUY 23000 PE @173.80 / SELL 22850 PE @111.40, 25 lots each, 27-10 expiry, hedged, margin \u20b9866,822, MTM +\u20b91,056. Day P&L \u2212\u20b958,230 (6698/6697 closed). No new entry: NIFTY bearish view already held; SENSEX 22-10 bear put 74000/73800 costs 64.95 for 200 width (break-even 73,935, 0.36% below spot) with 1 DTE and TimesFM flat (p50 74,171), and SENSEX bear call 74500/74700 credit 63.4 vs 136.6 max loss is poor R:R \u2014 both weak with RSI 35 oversold. Will trail SL once profit nears a third of the \u20b9110k target. Next review 15 min."
+    },
+    {
+      "time": "2026-10-21T10:25:22.610847+05:30",
+      "summary": "Day P&L \u2212\u20b958,230 (two morning bull-call losses). Open 6699 NIFTY bear put 23000/22850 (25 lots, 27-10) is working: MTM +\u20b97,719, hedged. NIFTY (22,943) and SENSEX (74,136) both below SMA20/50, RSI 39/42, fading from highs \u2014 bearish. Opened and started 6702: SENSEX 22-10 bear put spread, buy 74100 PE / sell 73800 PE, 20 lots, debit ~121.75, BE ~73,978, worst-case \u20b948,700, TP \u20b968,000/SL \u20b932,000, exit 14:55. Fill not yet confirmed (entry 10:26). Next review 3 min to verify fills, then trail 6699 once profit nears a third of target."
+    },
+    {
+      "time": "2026-10-21T10:26:26.224801+05:30",
+      "summary": "HOLD, no new trade. Verified Core fills: 6702 SENSEX 22-10 bear put BUY 74200 PE @379.20 / SELL 73900 PE @241.85 (20 lots, hedged, worst-case \u2248\u20b954,940, MTM \u2212\u20b9600); 6699 NIFTY 27-10 bear put BUY 23000 PE / SELL 22850 PE (25 lots, hedged, MTM +\u20b98,856, SL 55k/TP 110k). Note 6702 resolved 100 pts higher than the saved selector summary. Both indices bearish (below SMA20/50, RSI ~41) but bouncing off lows, so no distinct non-duplicative thesis on NIFTY or SENSEX; day \u2212\u20b949,974 net. Exit 14:55; review in 20 min."
     }
   ]
 }
