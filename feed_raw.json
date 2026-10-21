@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T10:10:32.245649+05:30",
-      "summary": "Held 6660 (SENSEX 22-10 bull put 30x: SELL 74500PE @359 / BUY 74300PE @284.45, credit 74.55 pts, worst case \u20b975.3k, SL 32k/TP 30k/exit 14:55). Fresh mark -\u20b910,350 as SENSEX 74,482 sits at the short strike, but last candles show higher lows and TimesFM median 74,520 \u2014 thesis strained, not failed, so no edit. No new entry: NIFTY is 0DTE with conflicting signals (RSI 39 below SMAs vs recovering higher lows, TimesFM +0.12%); its verticals price under 0.30 R:R and 50-pt condors have tight short strikes. SENSEX already carries a view; adding would double correlated risk near strike. Next check 15 min; act early if SENSEX breaks 74,350 (stop zone)."
-    },
-    {
       "time": "2026-10-19T10:26:27.833728+05:30",
       "summary": "Held 6660 (SENSEX 22-10 bull put 30x, credit 74.55, SL 32k/TP 30k/exit 14:55): mark -9,870 with SENSEX 74,508 on the 74,500 short strike, but higher lows and TimesFM p50 74,606 keep the thesis alive \u2014 no edit. Direction was not clear enough for a NIFTY vertical (flat-and-slightly-up, 40 pts off the low, TimesFM ~flat; NIFTY 2-leg record is net negative), so I created and started 6664: NIFTY 0DTE (19-10) iron fly, sell ATM CE/PE, buy \u00b12 strikes (23,100/23,200/23,000), 25 lots, ~72.8 pts credit, defined worst case ~\u20b944k, margin ~\u20b92.5M, overall SL 28k, TP 50k, exit 14:55. Start is waiting for 10:34; next check in 5 minutes to verify all four fills."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T10:08:14.035723+05:30",
       "summary": "Confirmed 6698/6697 closed (day -58,230: NIFTY -22,230, SENSEX -36,000). Only open item is 6699 (NIFTY 27-10 bear put, BUY 23,000 PE / SELL 22,850 PE, 25 lots), still SCHEDULED with no run/fills yet \u2014 entry fires 10:09, so strikes remain unverified until then. Thesis still holds: NIFTY 22,978, RSI 36, below SMA20/50, TimesFM flat-to-down. Priced debit ~61 \u2192 worst case ~\u20b999.3k, max ~\u20b9144k, SL 55k/TP 110k/14:55 exit. No second bearish index trade (correlated duplication); SENSEX skipped. Next: verify 6699 fill at ~10:11, tighten SL to break-even once profit nears a third of target."
+    },
+    {
+      "time": "2026-10-21T10:09:31.721996+05:30",
+      "summary": "6699 confirmed filled: BUY 23000 PE @173.80 / SELL 22850 PE @111.40, 25 lots each, 27-10 expiry, hedged, margin \u20b9866,822, MTM +\u20b91,056. Day P&L \u2212\u20b958,230 (6698/6697 closed). No new entry: NIFTY bearish view already held; SENSEX 22-10 bear put 74000/73800 costs 64.95 for 200 width (break-even 73,935, 0.36% below spot) with 1 DTE and TimesFM flat (p50 74,171), and SENSEX bear call 74500/74700 credit 63.4 vs 136.6 max loss is poor R:R \u2014 both weak with RSI 35 oversold. Will trail SL once profit nears a third of the \u20b9110k target. Next review 15 min."
     }
   ]
 }
