@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T11:56:21.957544+05:30",
-      "summary": "HOLD, no new trade. 6664 NIFTY 0DTE fly (short 23,100 CE/PE, wings 23,200/23,000) mark -12.8k vs -28k SL; max-OI pin at 23,000 PE / 23,100 CE supports recovery, square if a 1-min close breaks 22,979. 6669 SENSEX 22-10 bull put (short 74,300/long 74,000) mark -17.0k vs -38k SL, exit 14:55. Realised today -17,910. No entry: direction unconfirmed at day lows (TimesFM +0.05%, choppy bounce) and any add would duplicate the same correlated view. Hedge integrity verified on both. Next review 20 min."
-    },
-    {
       "time": "2026-10-19T12:06:53.061170+05:30",
       "summary": "Cut the broken bullish SENSEX 22-10 bull put (6669): squared at 564.00/399.10, realised -24,575 (ran past the short 74,300 strike as SENSEX hit new lows at 74,051). Today realised now ~-71,410. NIFTY and SENSEX both below SMA20/50 with RSI ~30-32 and fresh lows, so I opened a defined-risk momentum trade: 6677 NIFTY 0DTE bear put spread (BUY 25x 22,950 PE / SELL 25x 22,900 PE, expiry 19-10), debit ~23.3 => worst case ~-37.9k, SL 25k, TP 38k, exit 14:55; start is waiting on the 12:08 entry. Strikes unverified until fills. Next check 120s to confirm entry, then trail."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T11:28:13.239032+05:30",
       "summary": "Held NIFTY 6699 (23000/22850 PE, 27-10, 25 lots): MTM +\u20b921.6k. Re-applied and confirmed overall SL at \u20b91 (break-even; Core rejects a profit-lock SL \u2014 \"value must be positive\") with TP \u20b955k live, re-entry disabled, 14:55 exit. No new entry: NIFTY bearish view already held (adding duplicates it), SENSEX 1-DTE wings (\u00b1300 vs ~830pt expected move) and fairly priced debit spreads give no edge at RSI 24 / rising VIX; TimesFM flat. Realized today \u2212\u20b950,930. Next check in 25 min, sooner on a stop event."
+    },
+    {
+      "time": "2026-10-21T11:29:45.667417+05:30",
+      "summary": "HOLD. Open 6699 (NIFTY 23000/22850 PE, 27-10, 25 lots) MTM +\u20b921.3k, both legs filled, overall SL \u20b91 break-even and TP \u20b955k live, 14:55 exit; Core rejects profit-locking SL (value must be positive), so break-even is the maximum lock and trailing is already applied. No new entry: NIFTY view already held (duplicate), SENSEX 1-DTE (22-10) pricing shows no edge \u2014 bear put 74000/73700 needs ~1.1% fall to break even, bear call 74200/74500 pays \u20b990 credit vs \u20b9210 risk. Reassess SENSEX if spot breaks 73,700 or a call spread pays \u2265\u20b9120 credit. Realized today \u2212\u20b950,930. Next check 15 min."
     }
   ]
 }
