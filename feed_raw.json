@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T12:09:16.161381+05:30",
-      "summary": "HOLD/new entries none. 6677 NIFTY 0DTE bear put filled (BUY 23,000PE 76.00 / SELL 22,950PE 49.35, 25 lots) and is +4,144 unrealised (11% of target \u2014 not yet trail trigger). 6678 SENSEX 3dte bear call (SELL 74,100CE / BUY 74,400CE, 30 lots) still scheduled; no run yet, entry 12:12. Today -71,410 realised. Both indices near day lows (NIFTY 22,977 RSI 35; SENSEX 74,120 RSI 32), so no new/opposing view added. Review in 200s to confirm 6678 fills and hedge."
-    },
-    {
       "time": "2026-10-19T12:12:54.150386+05:30",
       "summary": "No new entries. Both open views are already bearish (NIFTY 0DTE bear put 23,000/22,950 +6.34k; SENSEX 3DTE bear call 74,200/74,500 -1.05k) \u2014 opposite views are barred, and adding correlated size to recover today's -71.4k realised is not allowed, so HOLD. Both filled and hedged (600 and 1,625 qty, same expiry per leg). Trail: 6677 overall SL tightened 25,000\u219212,000 (\u2248 NIFTY reclaiming SMA20) with TP 38,000 kept; 6678 unchanged at 28k SL. Next review 360s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T11:46:13.102846+05:30",
       "summary": "Momentum entry: NIFTY still in a clean downtrend (price 22,835 below SMA20/50, RSI 24, futures offer-heavy, TimesFM flat-to-lower), so I opened a defined-risk bear put spread \u2014 strategy 6703, BUY 30x 22850 PE / SELL 30x 22700 PE, 27-10-2026, intraday 11:46\u201314:55. Core margin book confirms both legs filled (net debit ~\u20b91.10L, hedge 1950 vs 1950 lots, no naked short). Controls: overall SL \u20b945k, TP \u20b955k, L1 50-pt SL with 20/12 trail to break-even. SENSEX skipped (change of character risk into 1-DTE expiry). Realized today \u2212\u20b910.7k. Next check in 5 min."
+    },
+    {
+      "time": "2026-10-21T11:46:42.160381+05:30",
+      "summary": "HOLD. Strategy 6703 (NIFTY bear put 22850/22700, 27-10, 30 lots) is live: both legs filled at 185.85/121.10, hedge 1950 vs 1950 lots, no naked short; margin \u20b910.0L, open P&L \u2212\u20b9487 (spread marks 185.45/120.95, essentially flat). Thesis intact: spot 22,827 below SMA20/50, RSI 22, futures offer-heavy, TimesFM flat. No new SENSEX trade \u2014 same bearish thesis/correlated, 1-DTE gamma risk. Trail to break-even once open profit hits \u20b910k. Next review 5 min."
     }
   ]
 }
