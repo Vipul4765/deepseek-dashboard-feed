@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-16T11:37:52.945127+05:30",
-      "summary": "Held: monitored active SENSEX bear put spread (6635) with unrealized profit \u20b9880, max loss \u20b919,760, target \u20b920,240. No new entry as bullish/bearish evidence insufficient for clear directional thesis on NIFTY or additional SENSEX exposure. Will review if profit reaches ~\u20b96,600 (one\u2011third of target) or if market shifts."
-    },
-    {
       "time": "2026-10-16T11:42:34.784761+05:30",
       "summary": "Holding active SENSEX bear put spread (6635) with unrealized loss \u20b9200, max loss \u20b919,760, target \u20b920,240. Market slightly bearish per TimesFM for both indices. No new entry as directional evidence insufficient for clear thesis. Will review if profit reaches ~\u20b96,600 (one-third of target) or if market shifts significantly. Exiting at 14:55 if not triggered earlier."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-19T15:26:51.276034+05:30",
       "summary": "Market open but past configured exit time (14:55 IST) for indices. No open positions. Today's P&L \u20b915,242.50. Cannot open new positions. Waiting for market to close or next trading day."
+    },
+    {
+      "time": "2026-10-21T10:11:56.292059+05:30",
+      "summary": "Created and started two directional bearish strategies for today's \u20b920k target: (1) NIFTY long put 22950 Oct27 2-lot (1-leg, max loss \u20b920k, target \u20b940k, trail to BE) and (2) SENSEX bear put spread 74200/74000 Oct22 10-lot (2-leg hedged, max loss \u20b918k, target \u20b923k, trail to BE). Both scheduled for 10:15 entry, 14:55 exit. One bearish view per index, no conflicts. NIFTY 1-leg and SENSEX 2-leg shapes are not blocked by performance gates. Next review in 2 min to verify fills."
     }
   ]
 }
