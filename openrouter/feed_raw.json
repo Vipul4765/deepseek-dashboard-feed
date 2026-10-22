@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T11:21:00.531740+05:30",
-      "summary": "HOLD. NIFTY put butterfly 22800-22750-22700 (20 lots, strategy 6720) scheduled for 11:22 entry (in ~2 min). Day realized P&L -\u20b962,107 (3 trades). SENSEX 0 DTE expiry today - no new positions. NIFTY 2-leg verticals blocked by performance guard (20% win rate, 10 trades). NIFTY 3-leg butterfly permitted (86% win rate). Bearish bias confirmed: NIFTY down 9 pts from 11:19 close, RSI 65 falling, TimesFM -0.30%; SENSEX down 22 pts, RSI 73 overbought, TimesFM -0.25%. Butterfly aligns with bearish view (max profit at 22750). Will verify fill at 11:22, then trail overall SL to break-even once ~\u2153 target (\u20b926k) reached, then lock half best profit. Next review in 60s to catch entry and manage."
-    },
-    {
       "time": "2026-10-22T11:21:59.492894+05:30",
       "summary": "HOLD. Strategy 6720 (NIFTY put butterfly 22800-22750-22700, 20 lots) scheduled for 11:22 entry (~40s). Day realized P&L -\u20b962,107 (3 trades). SENSEX 0 DTE expiry today \u2014 no new positions. NIFTY 2-leg verticals blocked by performance guard (10 trades, 20% win rate). NIFTY 3-leg butterfly permitted (7 trades, 86% win rate). Bearish bias intact: NIFTY -9 pts from 11:19 close, RSI ~50 falling, TimesFM -0.37%; SENSEX -22 pts, RSI 52, TimesFM -0.34%. Butterfly aligns with bearish view (max profit at 22750). Will verify fill at 11:22, then trail overall SL to break-even once ~\u2153 target (\u20b926k) reached, then lock half best profit. No new trades until butterfly fills and shows direction. Next review in 30s to catch entry and manage."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T14:55:58.288782+05:30",
       "summary": "HOLD - Day complete. Entry cutoff 14:55 passed (now 14:55:22). All positions closed: NIFTY iron condor (6723) exited at 14:55 for -\u20b965. Today's P&L -\u20b961,457.5 (6 trades, 2W/4L). SENSEX Oct 22 expiry expired worthless. NIFTY Oct 27 chain available but no time for new entries. MCX blocked. No open runs. Next session: reassess at 09:15 tomorrow with fresh data."
+    },
+    {
+      "time": "2026-10-22T15:10:36.202839+05:30",
+      "summary": "Day complete. Entry cutoff 14:55 passed (now 15:10). All positions closed: today's P&L -\u20b961,457.5 (6 trades, 2W/4L). No open runs. NSE/BSE sessions still open until 15:40 but no new entries allowed per rules. MCX blocked. Next review: tomorrow 09:15 with fresh data."
     }
   ]
 }
