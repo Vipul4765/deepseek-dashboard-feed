@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T09:24:30.223064+05:30",
-      "summary": "Saw: both NSE/BSE sessions open, gap-up tape (NIFTY 23,079 +0.8%, SENSEX 74,520 +0.9%, both above SMA20/50, RSI 89-92) but TimesFM flat (NIFTY p50 23,068, SENSEX p50 74,536). No open positions: strategy 6697 (SENSEX 22-10 bull call spread, BUY 40 itm_1 / SELL 40 otm_5, debit ~\u20b9203k, SL \u20b995k, TP \u20b9140k, exit 14:55) is still scheduled with zero runs \u2014 entry fires 09:32. Did not add NIFTY: a second bullish index spread duplicates the same thesis and NIFTY 6-DTE credit wings are too thin (\u20b914-20 for 50-wide). Reassess 09:34 to confirm 6697 fills/strikes/hedge, then NIFTY if it clears 23,085 with follow-through."
-    },
-    {
       "time": "2026-10-21T09:32:37.176706+05:30",
       "summary": "SENSEX 6697 confirmed filled 09:32: BUY 74500 CE @385 / SELL 75100 CE @143 (40 lots each, hedged, 22-10 expiry), margin \u20b912.57L, unrealized +\u20b91,520. Added a distinct directional view on NIFTY: new strategy 6698 BUY 30x 23100 CE / SELL 30x 23200 CE, 27-10 expiry, debit \u2248\u20b947.6 (\u2248\u20b993k, max profit \u2248\u20b9102k, 6-DTE), overall SL \u20b950k, TP \u20b980k, exit 14:55; started, entry 09:34. Evidence: NIFTY +0.9% gap-up above SMA20/50, RSI 71.8, fresh highs 23,098, futures 23,110; TimesFM flat (p50 23,082). No SENSEX 4-leg (poor record). Next: verify 6698 fills at 09:34, then trail stops as profit grows."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T13:18:21.671506+05:30",
       "summary": "Squared off 6705 NIFTY 27-Oct condor after its short-call leg stopped out and the residual (long 23000CE + short 22600/22500 put spread, ~+700 delta) bet against a falling index. Core confirmed exits: L2 78.85, L3 113.85, L4 83.20, run DONE, margin released, flat book. Strategy net \u2248 +\u20b92.24k (realized +\u20b913.55k from leg 1); day now \u2248 +\u20b95.5k realized. No new entry: TimesFM flat-to-down, NIFTY bouncing off 22702, and budget 0.78/0.80 leaves no room to price and verify a hedged spread. Next review 30 min; re-engage on a clean break below 22700 with fresh budget."
+    },
+    {
+      "time": "2026-10-22T09:15:28.899033+05:30",
+      "summary": "Flat book, day P&L 0, budget 0.00/0.80. Both sessions open but at 09:15:00 there are no completed 1-min candles for today and opening quotes are unsettled: NIFTY 27-Oct chain implies a forward ~22735 vs live index 22672 / futures 22623, and SENSEX 22-Oct puts show null bid/ask. No entry \u2014 a hedged spread cannot be priced or verified on those marks. Assessed NIFTY and SENSEX. Next: re-price in ~5 min; bear put spread if NIFTY holds below 22700 with lower highs, bull call spread if it reclaims 22750."
     }
   ]
 }
