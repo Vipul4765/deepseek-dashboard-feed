@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T09:37:50.151332+05:30",
-      "summary": "HOLD. NIFTY long put 22650 (27 Oct) 10 lots active at \u20b9183.95, unrealized +\u20b98.9k (28% of \u20b950k target, trail threshold ~\u20b916.7k not reached). NIFTY gapped down 200pts, bearish thesis intact. SENSEX gapped down 400pts but expiry TODAY with high IV 36.5% and conflicting TimesFM (slightly bullish) - no clear directional edge. One view per index satisfied (NIFTY bearish). No new entries. Monitoring NIFTY put for profit trail trigger at ~\u2153 target. Next review in 60s."
-    },
-    {
       "time": "2026-10-22T09:38:57.080684+05:30",
       "summary": "HOLD. NIFTY 22650 PE (27 Oct) 10 lots active at \u20b9183.95, unrealized +\u20b97.15k (28% of \u20b950k target). Trail trigger at ~\u20b916.7k (\u2153 target) not yet reached. NIFTY gapped down 200pts, bearish thesis intact. SENSEX gapped down 400pts but expires TODAY with high IV 36.5% and conflicting TimesFM (slightly bullish) - no clear directional edge. One view per index satisfied (NIFTY bearish only). No new entries. Monitoring NIFTY put for profit trail. Next review in 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T11:58:07.588886+05:30",
       "summary": "HOLD: Active NIFTY put butterfly (6720) +\u20b9130 unrealized, max loss \u20b93,575, centered at 22700. NIFTY 22,635 (RSI 29 oversold), TimesFM slightly bullish (+0.016%) - needs 65pt bounce to 22700 for max profit (\u20b980k TP). Day P&L -\u20b962,107 (3 trades). SENSEX 0 DTE expiry - no new entries allowed. One view per index satisfied (butterfly is neutral-bullish). Boss rules: max loss \u20b920k/trade (butterfly well within), trail at \u20b910k profit (not yet), \u20b950k daily target but no gambling to recover losses. No new directional trade added - butterfly aligns with bounce thesis. Monitoring for bounce or stop. Next review 60s."
+    },
+    {
+      "time": "2026-10-22T12:13:02.527881+05:30",
+      "summary": "HOLD: Active NIFTY put butterfly (6720) -\u20b9455 unrealized, max loss ~\u20b93.6k (within \u20b920k limit), centered at 22700. NIFTY 22,595 (RSI 31 oversold), TimesFM +0.24% to 22,650 - needs 105pt bounce for max profit (\u20b980k TP). Day P&L -\u20b962,107. SENSEX 0 DTE expiry - no new entries allowed. One view per index satisfied (butterfly = neutral-bullish bounce). Boss rules: max loss \u20b920k/trade \u2713, trail at \u20b910k profit (not reached), \u20b950k daily target but no gambling to recover. Monitoring for bounce toward 22,700 or stop. Next review 60s."
     }
   ]
 }
