@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T11:46:13.102846+05:30",
-      "summary": "Momentum entry: NIFTY still in a clean downtrend (price 22,835 below SMA20/50, RSI 24, futures offer-heavy, TimesFM flat-to-lower), so I opened a defined-risk bear put spread \u2014 strategy 6703, BUY 30x 22850 PE / SELL 30x 22700 PE, 27-10-2026, intraday 11:46\u201314:55. Core margin book confirms both legs filled (net debit ~\u20b91.10L, hedge 1950 vs 1950 lots, no naked short). Controls: overall SL \u20b945k, TP \u20b955k, L1 50-pt SL with 20/12 trail to break-even. SENSEX skipped (change of character risk into 1-DTE expiry). Realized today \u2212\u20b910.7k. Next check in 5 min."
-    },
-    {
       "time": "2026-10-21T11:46:42.160381+05:30",
       "summary": "HOLD. Strategy 6703 (NIFTY bear put 22850/22700, 27-10, 30 lots) is live: both legs filled at 185.85/121.10, hedge 1950 vs 1950 lots, no naked short; margin \u20b910.0L, open P&L \u2212\u20b9487 (spread marks 185.45/120.95, essentially flat). Thesis intact: spot 22,827 below SMA20/50, RSI 22, futures offer-heavy, TimesFM flat. No new SENSEX trade \u2014 same bearish thesis/correlated, 1-DTE gamma risk. Trail to break-even once open profit hits \u20b910k. Next review 5 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T10:26:41.031479+05:30",
       "summary": "Verified Core fills for 6711 (NIFTY 5DTE bull put: sell 22650PE @127.20, buy 22600PE @108.35, 1950 each = fully hedged; margin 992k; unrealised -195). 6712 SENSEX 0DTE bull put 73400/73200 (25 lots, hedge-first, SL 75 pts + 25/15 trail, overall SL 40k/TP 32k, exit 14:55) is scheduled for 10:28 and not yet fired. Both open views are bullish and consistent (one view per index), so no new trade \u2014 a third bullish spread would duplicate correlated risk. Day realised +38,440 on 4 trades. Next check in 150s to confirm 6712's fill and hedge."
+    },
+    {
+      "time": "2026-10-22T10:28:12.649488+05:30",
+      "summary": "Verified Core fills: 6711 NIFTY 5DTE bull put filled fully hedged (SELL 22650PE @127.20 / BUY 22600PE @108.35, 1950 qty, margin 992k, unrealised +683). 6712 SENSEX 0DTE bull put filled hedged (BUY 73300PE @143.85 / SELL 73500PE @223.10, 500 qty, margin 1.22M, unrealised +300). Both views bullish and consistent; no third correlated NSE/BSE trade added. Day realised +38,440 on 4 trades. Profit below the \u20b910,000 trailing trigger, so stops unchanged. Next check in 5 min, or sooner on momentum break."
     }
   ]
 }
