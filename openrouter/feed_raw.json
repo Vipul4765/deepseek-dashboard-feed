@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:42:26.363717+05:30",
-      "summary": "Squared off NIFTY 22650 PE (27 Oct) 10 lots at \u20b9109.25 vs entry \u20b9183.95, realized loss -\u20b948,555. Thesis failure confirmed at 22750 (NIFTY 22749). Day P&L -\u20b948.5k. SENSEX 0 DTE expiry today - no new entries allowed. NIFTY 2-leg verticals blocked by Core (10 trades, 20% win rate). Awaiting fresh directional setup on NIFTY (1-leg long or 4-leg neutral) with clear price action evidence. Next review in 60s."
-    },
-    {
       "time": "2026-10-22T10:45:18.530703+05:30",
       "summary": "Created and deployed NIFTY bull call butterfly (22700-22800-22900, 27 Oct) 20 lots \u2014 strategy 6715 waiting for 10:45 entry. Directional bullish thesis from clear price action (NIFTY +100 pts in 30 min, SMA20>SMA50, RSI 56). 3-leg structure chosen because NIFTY 2-leg verticals blocked by Core (10 trades, 20% WR), 1-leg long calls have poor history (-\u20b926k), while 3-leg butterfly has 83% WR (small sample). Defined risk: max loss \u20b915k, target \u20b950k, trailing to breakeven then half-profit. SENSEX 0 DTE expiry today \u2014 no new entries allowed. Day P&L -\u20b948.5k; this trade aims to recover to +\u20b950k target. Next review in 60s to confirm fills."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T13:23:03.367430+05:30",
       "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized +\u20b9227. Max loss \u20b91,885 (premium paid) well within \u20b920k overall SL. NIFTY 22,647 (-164 from prev close), 103 pts below 22,750 sweet spot with 94 min to 14:55 exit. TimesFM +0.14%, RSI 28 oversold supports bounce but overhead SMA resistance at 22,668/22,685. SENSEX 0 DTE expiry - no new entries per rules. One bullish NIFTY view satisfied via butterfly. Day P&L -\u20b960.9k (limits disabled). Trailing stop will activate at \u20b910k profit via live_edit. No new trade: butterfly needs room to develop, adding correlated bullish exposure risks overconcentration. Next review in 60s."
+    },
+    {
+      "time": "2026-10-22T13:37:14.066530+05:30",
+      "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized -\u20b9552. Max loss \u20b91,885 (premium paid) well within \u20b920k overall SL. NIFTY 22,620 (-191 from prev close), 80 pts below 22,700 lower wing with 79 min to 14:55 exit. TimesFM +0.08%, RSI 32.7 oversold supports bounce but overhead SMA resistance at 22,668/22,685. SENSEX 0 DTE expiry - no new entries per rules. One bullish NIFTY view satisfied via butterfly. Day P&L -\u20b960.9k (limits disabled). Trailing stop will activate at \u20b910k profit via live_edit. No new trade: butterfly needs room to develop, adding correlated bullish exposure risks overconcentration. Next review in 60s."
     }
   ]
 }
