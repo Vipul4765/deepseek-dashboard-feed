@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T11:44:52.314173+05:30",
-      "summary": "HOLD - Two bearish positions active: NIFTY 22950 PE Oct27 2L (+\u20b99.8K, 24% of \u20b940K target) and SENSEX 74200/74100 PE Oct22 10L bear put spread (+\u20b94.5K, 19% of \u20b923K target). Total unrealized +\u20b914.2K (71% of \u20b920K daily target). Both indices oversold (RSI 24/20) in pullback from open; TimesFM mixed (NIFTY bearish, SENSEX slightly bullish). One view per index maintained (both bearish). Positions within stops (NIFTY SL \u20b920K, SENSEX SL \u20b918K). Profits below 1/3 target threshold for trailing per boss rule. SENSEX spread expires tomorrow - theta risk increasing. No new entries - correlated bearish exposure held, awaiting thesis validation or trailing opportunity. Next review in 60s for stop triggers, trailing at 1/3 target, or reversal signals."
-    },
-    {
       "time": "2026-10-21T11:46:03.999089+05:30",
       "summary": "HOLD - Two bearish positions active: NIFTY 22950 PE Oct27 2L (+\u20b99.3K, 23% of \u20b940K target) and SENSEX 74200/74100 PE Oct22 10L bear put spread (+\u20b94.6K, 20% of \u20b923K target). Combined +\u20b913.8K (69% of \u20b920K daily target). Both indices oversold (RSI 24/20) in pullback from open; TimesFM mixed. One view per index maintained (both bearish). Positions within stops. Profits below 1/3 target for trailing. SENSEX spread expires tomorrow - theta risk increasing. No new entries - correlated bearish exposure held. Next review in 60s for stop triggers, trailing at 1/3 target, or reversal signals."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T10:42:26.363717+05:30",
       "summary": "Squared off NIFTY 22650 PE (27 Oct) 10 lots at \u20b9109.25 vs entry \u20b9183.95, realized loss -\u20b948,555. Thesis failure confirmed at 22750 (NIFTY 22749). Day P&L -\u20b948.5k. SENSEX 0 DTE expiry today - no new entries allowed. NIFTY 2-leg verticals blocked by Core (10 trades, 20% win rate). Awaiting fresh directional setup on NIFTY (1-leg long or 4-leg neutral) with clear price action evidence. Next review in 60s."
+    },
+    {
+      "time": "2026-10-22T10:45:18.530703+05:30",
+      "summary": "Created and deployed NIFTY bull call butterfly (22700-22800-22900, 27 Oct) 20 lots \u2014 strategy 6715 waiting for 10:45 entry. Directional bullish thesis from clear price action (NIFTY +100 pts in 30 min, SMA20>SMA50, RSI 56). 3-leg structure chosen because NIFTY 2-leg verticals blocked by Core (10 trades, 20% WR), 1-leg long calls have poor history (-\u20b926k), while 3-leg butterfly has 83% WR (small sample). Defined risk: max loss \u20b915k, target \u20b950k, trailing to breakeven then half-profit. SENSEX 0 DTE expiry today \u2014 no new entries allowed. Day P&L -\u20b948.5k; this trade aims to recover to +\u20b950k target. Next review in 60s to confirm fills."
     }
   ]
 }
