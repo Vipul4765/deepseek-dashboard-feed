@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T10:49:21.505426+05:30",
-      "summary": "HOLD - Two bearish positions active from 10:15: NIFTY 22950 PE Oct27 2L long put (-\u20b93,315) and SENSEX 74200/74100 PE Oct22 10L bear put spread (-\u20b91,640). Total unrealized -\u20b94,955. Market pulled back from morning highs (NIFTY 23,037\u219222,980, SENSEX 74,420\u219274,266). TimesFM bearish (NIFTY p50 22,968, SENSEX p50 74,218). One view per index maintained (both bearish). Thesis: bearish pullback continuation. Too early for trailing stops (positions underwater). No new entries - monitoring for thesis validation or stop triggers. Next review in 120s."
-    },
-    {
       "time": "2026-10-21T10:51:18.889124+05:30",
       "summary": "HOLD - Two bearish positions active from 10:15: NIFTY 22950 PE Oct27 2L long put (-\u20b92,450) and SENSEX 74200/74100 PE Oct22 10L bear put spread (-\u20b91,110). Total unrealized -\u20b93,560. Market continues minor pullback (NIFTY 22,975, SENSEX 74,267). TimesFM bearish (NIFTY p50 22,974, SENSEX p50 74,223). One view per index maintained (both bearish). Thesis: bearish pullback continuation intact. Positions within stop limits (NIFTY SL \u20b920K, SENSEX SL \u20b918K). No new entries - monitoring for thesis validation or stop triggers. Next review in 90s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T10:00:28.399270+05:30",
       "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9159.45, unrealized -\u20b912.6k. Bearish thesis intact: NIFTY down 162 pts from prev close, choppy 22555-22676 range, TimesFM p10 22581. Overall SL \u20b997k, TP \u20b950k; trail trigger not reached. SENSEX expires today (0 DTE, high IV) - no new entries. NIFTY 2-leg strategies refused (10 trades, 20% win rate, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to trail stop or thesis failure above 22700. Next review in 90s."
+    },
+    {
+      "time": "2026-10-22T10:02:19.213065+05:30",
+      "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9159.45, unrealized -\u20b910.5k. Bearish thesis intact: NIFTY down 187 pts from prev close, choppy 22555-22676 range, TimesFM p10 22562. Overall SL \u20b997k, TP \u20b950k; trail trigger not reached (still in loss). SENSEX expires today (0 DTE, IV 34.7%) - no new entries. NIFTY 2-leg strategies refused (10 trades, 20% win, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to trail stop or thesis failure above 22700. Next review in 90s."
     }
   ]
 }
