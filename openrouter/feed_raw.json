@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T13:21:35.204056+05:30",
-      "summary": "Waiting for strategy 6687 (SENSEX bear put spread 73900-73800 oct22 5lot) to start at 13:20. No runs yet. Today's P&L: +\u20b913,038.25 (target \u20b920,000). Will reassess after start or if fails to start."
-    },
-    {
       "time": "2026-10-19T15:12:02.958764+05:30",
       "summary": "Market open but past configured exit time (14:55) for indices. No open positions. Today's P&L \u20b915,242.50, target \u20b920,000 not set. Will resume next trading day."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T09:20:43.601106+05:30",
       "summary": "Opened NIFTY bearish directional trade: long 22700 PUT (27 Oct expiry) 10 lots filled at \u20b9183.95 (09:19). Overall SL \u20b997k, TP \u20b950k. One view per index satisfied (NIFTY bearish). SENSEX signals conflict (price down 400pts at open, TimesFM bullish) - holding for clearer evidence before second trade. Strategy active with trail SL available for profit protection per boss directive. Next review in 120s."
+    },
+    {
+      "time": "2026-10-22T09:21:32.466153+05:30",
+      "summary": "HOLD. NIFTY long put 22700 (27 Oct) 10 lots active at \u20b9183.95, unrealized +\u20b94.9k (10% of \u20b950k target). NIFTY gapped down 200pts, RSI 33.7 oversold, TimesFM slightly bullish (+0.14%). SENSEX gapped down 400pts, expiry today, high IV 36%, TimesFM slightly bullish - conflicting signals, no clear directional edge. One view per index satisfied (NIFTY bearish). Not trailing SL yet (profit < 1/3 target). Next review in 60s for fresh evidence on SENSEX direction or NIFTY development."
     }
   ]
 }

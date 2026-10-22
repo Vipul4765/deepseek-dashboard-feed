@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T09:32:37.176706+05:30",
-      "summary": "SENSEX 6697 confirmed filled 09:32: BUY 74500 CE @385 / SELL 75100 CE @143 (40 lots each, hedged, 22-10 expiry), margin \u20b912.57L, unrealized +\u20b91,520. Added a distinct directional view on NIFTY: new strategy 6698 BUY 30x 23100 CE / SELL 30x 23200 CE, 27-10 expiry, debit \u2248\u20b947.6 (\u2248\u20b993k, max profit \u2248\u20b9102k, 6-DTE), overall SL \u20b950k, TP \u20b980k, exit 14:55; started, entry 09:34. Evidence: NIFTY +0.9% gap-up above SMA20/50, RSI 71.8, fresh highs 23,098, futures 23,110; TimesFM flat (p50 23,082). No SENSEX 4-leg (poor record). Next: verify 6698 fills at 09:34, then trail stops as profit grows."
-    },
-    {
-      "time": "2026-10-21T09:34:18.323166+05:30",
-      "summary": "Both bull-spread fills confirmed from Core events: SENSEX 6697 BUY 74500 CE @385 / SELL 75100 CE @143 (40 lots, 22-10, hedged), unrealized +\u20b910,960, margin \u20b912.57L; NIFTY 6698 BUY 23100 CE @173.85 / SELL 23200 CE @124.70 (30 lots, 27-10, hedged), -\u20b9780, margin \u20b99.47L. No new entry: one bull view already held on each index, both trending with highs (NIFTY 23,102.9, SENSEX 74,599.7) but TimesFM p50 flat, so no reason to add correlated size. HOLD. Trigger: trail 6697's overall SL up once profit \u2265 ~1/3 of target; exit both by 14:55."
-    },
-    {
       "time": "2026-10-21T09:39:18.641709+05:30",
       "summary": "HOLD, no new entry. Both spreads confirmed filled and hedged: SENSEX 6697 buy 74500CE/75100CE (40 lots, 22-10) now +\u20b917,040 (mark up from +\u20b910,960); NIFTY 6698 buy 23100CE/23200CE (30 lots, 27-10) \u2212\u20b9488. Trends intact (NIFTY 23,106 above SMA20/50, RSI 66; SENSEX 74,646, RSI 75) but TimesFM p50 is flat, so no basis to add correlated bullish size \u2014 one bull view per index stands. Trigger: raise 6697's overall SL once profit \u2248 1/3 of its 140k target (~\u20b947k); both exit by 14:55. Review in 15 min."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-22T09:15:28.899033+05:30",
       "summary": "Flat book, day P&L 0, budget 0.00/0.80. Both sessions open but at 09:15:00 there are no completed 1-min candles for today and opening quotes are unsettled: NIFTY 27-Oct chain implies a forward ~22735 vs live index 22672 / futures 22623, and SENSEX 22-Oct puts show null bid/ask. No entry \u2014 a hedged spread cannot be priced or verified on those marks. Assessed NIFTY and SENSEX. Next: re-price in ~5 min; bear put spread if NIFTY holds below 22700 with lower highs, bull call spread if it reclaims 22750."
+    },
+    {
+      "time": "2026-10-22T09:21:19.721725+05:30",
+      "summary": "Gap-down open with all indices below SMA20/50 and weak RSI (NIFTY 35, SENSEX 37) \u2014 bearish momentum. Created and started strategy 6707: NIFTY 27-Oct bear put spread, BUY 25 lots 22600 PE / SELL 25 lots 22450 PE (hedged, defined risk). Debit ~62.3 pts (~\u20b91.01L); worst case capped by overall SL \u20b945,000 and leg SL 30 pts; TP \u20b990,000; exit 14:55; trail_sl 35/25. Start is waiting for 09:24 entry \u2014 fill unverified. Next review in 150s to confirm fills and hedge."
+    },
+    {
+      "time": "2026-10-22T09:22:47.497385+05:30",
+      "summary": "Session open; NIFTY 22582 (RSI 32, below SMA20/50 after gap-down), SENSEX 73124 (RSI 35, gap-down then choppy recovery). Strategy 6707 (NIFTY 27-Oct 22600/22450 bear put spread, 25 lots, hedged, SL \u20b945k, TP \u20b990k, exit 14:55) is still SCHEDULED \u2014 entry at 09:24 has not fired yet, so no fills to verify. No new trade: SENSEX evidence is mixed/sideways and an added bear spread would duplicate the existing bearish index thesis. Next review in ~2 min to confirm 6707 fills and hedge, then reassess SENSEX."
     }
   ]
 }
