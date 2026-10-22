@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:23:42.750352+05:30",
-      "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9135.4, unrealized -\u20b939.3k (40% of \u20b997k SL). Bearish thesis threatened: NIFTY recovered 71pts from 22650 low to 22721, RSI 73.3 overbought but TimesFM p50 22711 slightly bearish. SENSEX 0 DTE expiry - no new entries per risk rules. NIFTY 2-leg strategies blocked by Core (10 trades, 20% win rate). One view per index satisfied (NIFTY bearish only). Monitoring for downside resumption below 22650 or thesis failure above 22750. Next review in 60s."
-    },
-    {
-      "time": "2026-10-22T10:25:08.910933+05:30",
-      "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9119.5, unrealized -\u20b941.9k (43% of \u20b997k SL). NIFTY spot 22730, thesis failure at 22750 (20pts away). RSI 79 overbought but TimesFM p50 22719 slightly bearish. SENSEX 0 DTE expiry - no new entries per risk rules. NIFTY 2-leg strategies blocked by Core (10 trades, 20% win rate). One view per index satisfied (NIFTY bearish only). Monitoring for downside resumption below 22650 or thesis failure above 22750. Next review in 60s."
-    },
-    {
       "time": "2026-10-22T10:26:16.919933+05:30",
       "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9126, unrealized -\u20b937.6k (39% of \u20b997k SL). NIFTY spot 22726, thesis failure at 22750 (24 pts away). RSI 72.7 overbought but TimesFM p50 22704 slightly bearish. SENSEX 0 DTE expiry - no new entries. NIFTY 2-leg strategies blocked by Core (10 trades, 20% win rate). One view per index satisfied (NIFTY bearish only). Monitoring for downside resumption below 22650 or thesis failure above 22750. Next review in 60s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-22T13:16:21.818713+05:30",
       "summary": "NIFTY bull call butterfly 6722 (22700/22750/22800, 10/20/10 lots) filled at 13:15: L1 155.60, L2 130.75, L3 108.80. Unrealized -\u20b9293. Overall SL \u20b920k, TP \u20b930k set. Platform trailing not pre-configured; will manually trail via EDIT_OVERALL_STOP_LOSS when profit hits \u20b910k (move to breakeven), then half of best profit. Day P&L -\u20b960.9k (4 trades). SENSEX 0 DTE \u2014 no new entries. One-view rule satisfied (single bullish NIFTY structure). Next review in 60s to monitor active trade and trailing trigger."
+    },
+    {
+      "time": "2026-10-22T13:18:58.615136+05:30",
+      "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled at 13:15, unrealized +\u20b932.5. Overall SL \u20b920k, TP \u20b930k set. Trailing not yet triggered (needs \u20b910k profit). Day P&L -\u20b960.9k but rules forbid chasing losses. SENSEX 0 DTE expiry \u2014 no new entries. NIFTY shows mixed signals (RSI 36, slight bullish forecast) but no clear directional edge for new trade. One-view rule satisfied. Monitoring for \u20b910k profit to trail stop to breakeven via live_edit. Next review in 60s."
+    },
+    {
+      "time": "2026-10-22T13:20:07.148282+05:30",
+      "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized ~+\u20b9455. Overall SL \u20b920k, TP \u20b930k set. Trailing stop not yet configured - will add via live_edit when profit reaches \u20b910k (boss rule: move SL to breakeven). Day P&L -\u20b960.9k but max loss per trade capped at \u20b920k. SENSEX 0 DTE expiry today - no new entries allowed. NIFTY rangebound 22585-22774, slight bullish TimesFM forecast (+0.08%), RSI 42.5. One bullish view on NIFTY satisfied. Monitoring for \u20b910k profit to trail stop to breakeven. Next review in 60s."
     }
   ]
 }
