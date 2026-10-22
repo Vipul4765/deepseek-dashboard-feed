@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:00:28.399270+05:30",
-      "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9159.45, unrealized -\u20b912.6k. Bearish thesis intact: NIFTY down 162 pts from prev close, choppy 22555-22676 range, TimesFM p10 22581. Overall SL \u20b997k, TP \u20b950k; trail trigger not reached. SENSEX expires today (0 DTE, high IV) - no new entries. NIFTY 2-leg strategies refused (10 trades, 20% win rate, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to trail stop or thesis failure above 22700. Next review in 90s."
-    },
-    {
-      "time": "2026-10-22T10:02:19.213065+05:30",
-      "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9159.45, unrealized -\u20b910.5k. Bearish thesis intact: NIFTY down 187 pts from prev close, choppy 22555-22676 range, TimesFM p10 22562. Overall SL \u20b997k, TP \u20b950k; trail trigger not reached (still in loss). SENSEX expires today (0 DTE, IV 34.7%) - no new entries. NIFTY 2-leg strategies refused (10 trades, 20% win, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to trail stop or thesis failure above 22700. Next review in 90s."
-    },
-    {
       "time": "2026-10-22T10:03:50.624052+05:30",
       "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9180.45, unrealized -\u20b92.3k. Bearish thesis intact: NIFTY down 186 pts from prev close, range 22555-22676, TimesFM p10 22565. Overall SL \u20b997k, TP \u20b950k; trail trigger not reached (in loss). SENSEX expires today (0 DTE, IV 34.7%) \u2014 no new entries per rules. NIFTY 2-leg strategies refused by Core (10 trades, 20% win, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to trail stop or thesis failure above 22700. Next review in 90s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-22T13:02:22.325256+05:30",
       "summary": "HOLD: NIFTY put butterfly (6720) active at +\u20b9650 unrealized, max loss \u20b920k within limit. Butterfly centered at 22700 (short 40x 22700 PE), NIFTY 22710 near max-profit zone. TimesFM projects gradual rise to 22732. SENSEX 0 DTE expiry blocks new entries. One view per index satisfied (neutral-bullish butterfly). Day P&L -\u20b962,107. Trail rule: move SL to breakeven at \u20b910k profit (not reached). Mixed directional evidence (uptrend but overbought RSI 77, near recent high) \u2014 no clear bullish/bearish setup for new directional trade. Monitoring butterfly for bounce toward 22700 or stop. Next review 60s."
+    },
+    {
+      "time": "2026-10-22T13:03:20.523194+05:30",
+      "summary": "HOLD: NIFTY put butterfly (6720) active, 20-lot 22750/22700/22650 PE, spot 22710 near short strike max-profit zone. Unrealized ~+\u20b9650. TimesFM projects rise to 22767 (above upper wing 22750), RSI 71 overbought \u2014 risk of push through upper wing. SENSEX 0 DTE expiry blocks new entries. One view per index satisfied (neutral-bullish butterfly). Day P&L -\u20b962,107; butterfly \u20b980k target would recover to -\u20b918k. SL \u20b920k not binding (max theoretical loss ~\u20b93.5k). Trailing rule: move SL to breakeven at \u20b910k profit (not reached). Monitoring for reversion to 22700 or stop. Next review 60s."
+    },
+    {
+      "time": "2026-10-22T13:04:13.180059+05:30",
+      "summary": "HOLD: NIFTY put butterfly (6720) active, 20-lot 22750/22700/22650 PE, spot 22694 near short strike max-profit zone. Unrealized +\u20b9325. TimesFM projects rise to 22757 (above upper wing 22750), RSI 63.7 cooled from 71 \u2014 risk of push through upper wing but momentum eased. SENSEX 0 DTE expiry blocks new entries. One view per index satisfied (neutral-bullish butterfly). Day P&L -\u20b962,107; butterfly \u20b980k target would recover to -\u20b918k. SL \u20b920k not binding (max theoretical loss ~\u20b93.5k). Trailing rule: move SL to breakeven at \u20b910k profit (not reached). Monitoring for reversion to 22700 or stop. Next review 60s."
     }
   ]
 }
