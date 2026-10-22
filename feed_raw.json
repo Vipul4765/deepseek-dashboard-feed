@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T09:55:24.706521+05:30",
-      "summary": "Squared off SENSEX 6697 (74500/75100 CE, 22-10) at 301.05/104.05 \u2014 realized -\u20b936,000: the 1-DTE spread had gone fully OTM into a falling tape and was decaying even if flat. Held NIFTY 6698 (23100/23200 CE, 27-10, SL 50k/TP 80k, exit 14:55), now -\u20b914,918; price is testing SMA50 support with flat TimesFM. No new entry: both indices are in down-momentum into support, SENSEX 1-DTE condors price poorly, and a NIFTY bear view would conflict with 6698. Review in 10 min."
-    },
-    {
       "time": "2026-10-21T09:56:18.603988+05:30",
       "summary": "Held NIFTY 6698 (23100/23200 CE, 27-10, 30 lots, hedged, SL 50k/TP 80k, exit 14:55); unrealized -12,870, filled 173.85/124.70 per Core events. No new entry: NIFTY and SENSEX both fell hard into SMA50 with RSI 3-5 and are now stabilizing/rebounding, so a fresh bear call/put spread would be late chase into support, while a bull spread would fade that strong down move; NIFTY already carries a bull view and 1-DTE SENSEX structures price thin (~0.3-0.4 reward:risk). Day P&L -36,000 (SENSEX 6697 booked earlier). Next trigger: break below NIFTY 23000 -> cut 6698 and look for momentum bear trade; reclaim of 23080 -> thesis restored. Review in 10 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T09:24:28.573948+05:30",
       "summary": "6707 (NIFTY 27-Oct 22600/22450 bear put, 25 lots) confirmed filled and hedged at 09:24 (176.55 / 112.30 debit), margin \u20b98.10L, open P&L \u2212\u20b9406, leg trail + overall SL \u20b945k / TP \u20b990k / 14:55 exit intact. No new trade: NIFTY view already held; SENSEX is 0DTE (IV ~35%) chopping 73005\u201373242 with TimesFM mildly higher against the gap-down \u2014 no clear direction, so not priced. Next trigger: NIFTY break below 22565 or SENSEX break of 73005 with fresh quotes (review in 5 min); SENSEX reclaim of 73300 would flip bias to calls."
+    },
+    {
+      "time": "2026-10-22T09:29:43.679255+05:30",
+      "summary": "HOLD. 6707 NIFTY 27-Oct 22600/22450 bear put (25 lots, 176.55/112.30 debit) is filled, hedged, open P&L \u2212\u20b93,250; overall SL \u20b945k fires far before the long-leg SL (146.55), so no naked-short window \u2014 no edit needed; TP \u20b990k and 14:55 exit intact. No new trade: NIFTY view already held (one view per index); SENSEX is 0DTE with IV ~35% and 1\u20132 pt spreads, so 73100/73300 calls (debit 101) and 72900/72700 puts (credit 63.8) both price near fair-to-negative. Next: break of 22558 strengthens 6707; SENSEX reclaim 73350 with fresh quotes reopens a call spread."
     }
   ]
 }
