@@ -1,22 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T10:25:22.610847+05:30",
-      "summary": "Day P&L \u2212\u20b958,230 (two morning bull-call losses). Open 6699 NIFTY bear put 23000/22850 (25 lots, 27-10) is working: MTM +\u20b97,719, hedged. NIFTY (22,943) and SENSEX (74,136) both below SMA20/50, RSI 39/42, fading from highs \u2014 bearish. Opened and started 6702: SENSEX 22-10 bear put spread, buy 74100 PE / sell 73800 PE, 20 lots, debit ~121.75, BE ~73,978, worst-case \u20b948,700, TP \u20b968,000/SL \u20b932,000, exit 14:55. Fill not yet confirmed (entry 10:26). Next review 3 min to verify fills, then trail 6699 once profit nears a third of target."
-    },
-    {
-      "time": "2026-10-21T10:26:26.224801+05:30",
-      "summary": "HOLD, no new trade. Verified Core fills: 6702 SENSEX 22-10 bear put BUY 74200 PE @379.20 / SELL 73900 PE @241.85 (20 lots, hedged, worst-case \u2248\u20b954,940, MTM \u2212\u20b9600); 6699 NIFTY 27-10 bear put BUY 23000 PE / SELL 22850 PE (25 lots, hedged, MTM +\u20b98,856, SL 55k/TP 110k). Note 6702 resolved 100 pts higher than the saved selector summary. Both indices bearish (below SMA20/50, RSI ~41) but bouncing off lows, so no distinct non-duplicative thesis on NIFTY or SENSEX; day \u2212\u20b949,974 net. Exit 14:55; review in 20 min."
-    },
-    {
-      "time": "2026-10-21T10:41:24.563504+05:30",
-      "summary": "HOLD, no new trade. Open: 6702 SENSEX 22-10 bear put BUY 74200 PE @379.20 / SELL 73900 PE @241.85 (20 lots, hedged, MTM \u2212\u20b98,400, SL 32k/TP 68k); 6699 NIFTY 27-10 bear put BUY 23000 PE @173.80 / SELL 22850 PE @111.40 (25 lots, hedged, MTM \u2212\u20b91,787, SL 55k/TP 110k). Both indices mid-range (NIFTY 22964, SENSEX 74228), RSI ~63, TimesFM flat, so no fresh directional edge; a bull vertical would conflict with existing bear views (one view per index). Day realized \u2212\u20b958,230. Exit 14:55; review in 20 min or on SL approach."
-    },
-    {
-      "time": "2026-10-21T10:56:34.709190+05:30",
-      "summary": "HOLD, no new trade. Open and hedged: 6702 SENSEX 22-10 bear put BUY 74200 PE @379.20 / SELL 73900 PE @241.85 (20 lots, MTM \u2212\u20b97,940, SL 32k/TP 68k); 6699 NIFTY 27-10 bear put BUY 23000 PE @173.80 / SELL 22850 PE @111.40 (25 lots, MTM +\u20b91,138, SL 55k/TP 110k). Both indices are choppy with a mild up-drift (NIFTY 22968, SENSEX 74231, mid-range, RSI ~50/42, TimesFM flat), so no fresh directional edge and any bull spread would conflict with the existing bear views (one view per index). Day realized \u2212\u20b958,230. Exits 14:55; reassess on SENSEX >74,330 / NIFTY >23,000 or a break below 74,100 / 22,900."
-    },
-    {
       "time": "2026-10-21T11:11:20.059483+05:30",
       "summary": "HOLD, no new trade. Both open spreads are on the correct side of a fresh down-move, so this cycle is management only. 6699 NIFTY 27-10 bear put (BUY 23000 PE / SELL 22850 PE, 25 lots) MTM +\u20b97,881; 6702 SENSEX 22-10 bear put (BUY 74200 PE / SELL 73900 PE, 20 lots) MTM \u2212\u20b9920. Fresh data: NIFTY 22,935 (RSI 38, below SMAs, TimesFM negative), SENSEX 74,136 (RSI 36). One view per index already held (both bearish) so a second same-direction add is a correlated duplicate. Day realised \u2212\u20b958,230. No TP/SL hit \u2014 profit still under a third of target, so no stop move yet. Next: reassess in ~10 min or on NIFTY <22,850 / SENSEX <73,900."
     },
@@ -159,6 +143,22 @@
     {
       "time": "2026-10-22T09:49:49.051506+05:30",
       "summary": "Flat after this morning's -\u20b917.7k exit, then created and started 6708: NIFTY 27-Oct iron condor, 50 lots/leg, ~22900/22950 calls + 22500/22450 puts (ATM 22650, spot 22663). Shorts sit outside the 2-day 22554-22811 range and at max-OI boundaries; net delta ~0. Credit ~27 pts \u2248 \u20b988k, worst-case \u20b974k, overall SL \u20b945k, TP \u20b960k, exit 14:55, leg trail_sl 12/7 with SL-to-break-even. Start returned \"waiting\" for the 09:55 entry \u2014 fills/strikes not yet confirmed by Core, so strikes are unverified until the next check. Next review in 6 min to confirm all four legs filled and hedged."
+    },
+    {
+      "time": "2026-10-22T09:55:20.172367+05:30",
+      "summary": "6708 NIFTY 27-Oct iron condor is LIVE and fully filled/hedged: sold calls 75.60 / bought 63.05, sold puts 97.95 / bought 83.15, 50 lots/leg, net credit ~27.35 pts (~\u20b988.9k), SL \u20b945k, TP \u20b960k, exit 14:55. Added directional SENSEX 0DTE (22-Oct) bull call spread 73300/73500, 40 lots, debit ~\u20b973k (worst case = debit), overall SL \u20b940k, TP \u20b970k, leg trail 40/20 with square-off complete, exit 14:55 \u2014 justified by RSI 67.8, price above both SMAs and higher intraday lows. Start returned \"waiting\"; fills unconfirmed. Next check in 3 min."
+    },
+    {
+      "time": "2026-10-22T09:56:18.699857+05:30",
+      "summary": "Holding both live positions. 6708 NIFTY 27-Oct iron condor (50 lots/leg, fills confirmed: sold 22900CE/22500PE, bought 22950CE/22450PE) +\u20b91,137, SL\u20b945k. 6709 SENSEX 0DTE bull call (fills confirmed 73200CE @314.50 / 73400CE @215.05, 40 lots) +\u20b91,080, leg trail_sl set (trigger 40/shift 20), overall SL\u20b940k, exit 14:55. No new trade: NIFTY already neutral, SENSEX already bullish (one view per index); a NIFTY bull would duplicate correlated upside. Blocker: no distinct fresh thesis. Trail to breakeven once profit hits \u20b910k. Next review 10 min."
+    },
+    {
+      "time": "2026-10-22T09:58:02.651199+05:30",
+      "summary": "6709 SENSEX 0DTE bull call was stopped out by its leg trail (short 73400CE) \u2014 full run DONE, realized -\u20b98,960, margin released. 6708 NIFTY 27-Oct condor still live at +\u20b9487 (SL \u20b945k; trailing only from \u20b910k). No new entry: NIFTY already holds the neutral view and lacks direction (22,625 below SMA20 22,642, RSI 48.9, TimesFM p50 +0.05% inside a 0.78% band); SENSEX's 15-min lower highs contradict its flat forecast, 0DTE IV 35% makes long premium costly, and its 4-leg shape is refused (8 trades, 25% wins). Day realized -\u20b926,672. Reassess on a break of 22,554/22,676 or 73,018/73,423. Next review 20 min."
+    },
+    {
+      "time": "2026-10-22T09:58:55.387360+05:30",
+      "summary": "No new entry. Open: 6708 NIFTY 27-Oct condor (short 22500PE@97.95 / 22900CE@75.60, both hedged, 50 lots) live at -\u20b9650, SL \u20b945k, TP \u20b960k \u2014 holding, trailing only after +\u20b910k. Assessed both indices: NIFTY 22,640 (RSI 46.7, at SMA20/50, TimesFM p50 +0.03% inside 0.72% band) and SENSEX 73,312 (RSI 50, TimesFM flat, 0DTE IV 35%) show no directional edge; SENSEX neutral 4-leg shape is still refused by its 8-trade/25%-win record, and 0DTE put-spread credit (R:R ~0.4, short delta 0.32, intraday low 73,026) is not a supported edge. Day realized -\u20b926,672. Next review 25 min; reassess on NIFTY break of 22,554/22,676 or SENSEX 73,018/73,423."
     }
   ]
 }
