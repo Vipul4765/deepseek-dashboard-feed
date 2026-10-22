@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T10:15:29.546521+05:30",
-      "summary": "Two bearish strategies filled at 10:15: NIFTY 22950 PE Oct27 2-lot (long put, -\u20b984.5) and SENSEX 74200/74100 PE Oct22 10-lot bear put spread (-\u20b9260). Both align with downtrend: NIFTY 22,930 (RSI 23.8), SENSEX 74,095 (RSI 24.1), TimesFM bearish. One view per index maintained. Trailing stops to break-even armed. No new entries needed - positions just opened, let them develop. Next review in 180s to monitor trail triggers and thesis validity."
-    },
-    {
       "time": "2026-10-21T10:30:49.621754+05:30",
       "summary": "Two bearish strategies active from 10:15 fill: NIFTY 22950 PE Oct27 2-lot long put (-\u20b9370.50) and SENSEX 74200/74100 PE Oct22 10-lot bear put spread (-\u20b9400). Total unrealized -\u20b9770. Both align with TimesFM bearish forecast (NIFTY p50 22,948, SENSEX p50 74,177) and pullback from morning highs. One view per index maintained (bearish on both). No new entries - positions just opened, letting thesis develop. Trailing stops not yet armed (positions underwater). Next review in 120s to monitor for thesis validation or stop triggers."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T09:39:36.116448+05:30",
       "summary": "HOLD. NIFTY 22650 PE (27 Oct) 10 lots active at \u20b9183.95, unrealized -\u20b9715 (down from +\u20b97.15k earlier). NIFTY gapped down 200pts but choppy since open; bearish thesis intact but profit trail trigger (~\u20b916.7k, \u2153 of \u20b950k target) not reached. SENSEX expires TODAY with high IV 36.5% and conflicting signals - no new entries. One view per index satisfied (NIFTY bearish only). Monitoring NIFTY put for recovery to trail stop. Next review in 60s."
+    },
+    {
+      "time": "2026-10-22T09:56:49.186222+05:30",
+      "summary": "HOLD. NIFTY 22650 PE (27 Oct) 10 lots active at \u20b9183.95, current mark ~\u20b9159.45, unrealized -\u20b917k. Bearish thesis intact: NIFTY down 162 pts from prev close but choppy 22555-22676 range. TimesFM slightly bearish (p50 22647, p10 22566). Overall SL \u20b997k, TP \u20b950k; trail trigger (\u2153 target ~\u20b916.7k) not reached. SENSEX expires today with high IV - no new entries. NIFTY 2-leg strategies refused (10 trades, 20% win rate, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to trail stop or thesis failure above 22700. Next review in 90s."
     }
   ]
 }
