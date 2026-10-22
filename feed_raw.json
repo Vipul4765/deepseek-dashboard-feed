@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T12:07:12.516965+05:30",
-      "summary": "HOLD (NIFTY 22,799, below SMA20/50, new session lows, RSI 43, TimesFM slightly down). Open 6703 bear put 22850/22700 (27-10, 30 lots) confirmed live: BUY 1950 @185.85, SELL 1950 @121.10, hedge full; P&L +\u20b9682, margin \u20b910.0L, overall SL \u20b945k/TP \u20b955k. Hedge-integrity fix: widened L1 SL to 120 pts (65.85) and disabled L1's trailing stop, which would have sold the long hedge leg and left the short put naked. No new SENSEX trade (1-DTE 21% IV, same bearish view). Next review 18 min; trail overall SL to break-even at \u20b910k open profit."
-    },
-    {
-      "time": "2026-10-21T12:08:18.704247+05:30",
-      "summary": "HOLD. Open 6703 NIFTY bear put 22850/22700 (27-10, 30 lots, full hedge confirmed live) marks +\u20b94,972; SL \u20b945k triggers complete square-off well before L1's 65.85 leg SL, so no naked-short risk. No new trade: NIFTY 22,794 and SENSEX 73,684 are at day lows with 30-min momentum stalled and TimesFM flat, while SENSEX 1-DTE IV 22% makes new bear spreads marginal (~1.1 R:R) and would duplicate the existing bearish index exposure. Day \u20b9-10.7k realised. Next: trail overall SL to breakeven at \u20b910k profit (~NIFTY 22,755)."
-    },
-    {
       "time": "2026-10-21T12:22:28.667753+05:30",
       "summary": "Trailed 6703 (NIFTY 22850/22700 bear put, 27-10, 30 lots, hedge intact): open P&L +\u20b925.8k, overall SL cut 45,000\u2192\u20b91 (break-even floor), TP 55,000 kept. No new trade: NIFTY 22,725 and SENSEX 73,449 sit at day lows (RSI ~20) with TimesFM slightly down, so new bear spreads would duplicate existing bearish exposure and chase an extended move; SENSEX 1-DTE R:R ~1.15 marginal. Day \u20b9-10.7k realised. Next: 15-min review, square off if momentum stalls and profit halves toward ~\u20b913k."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-22T10:33:10.252582+05:30",
       "summary": "HOLD. Two hedged bull put spreads open and green: 6711 NIFTY 5DTE 22650/22600 (+3,120 unreal.) and 6712 SENSEX 0DTE 73500/73300 (+7,775 unreal., leg trail already at 188.1), matching strong up-momentum (NIFTY 22,755, SENSEX 73,609, RSI 62-64, above SMAs). Day realised +38,440. No new entry: any further NIFTY/SENSEX bull leg duplicates the same thesis and breaches one-view-per-index. 6712 is near the \u20b910,000 break-even trail trigger; I will move its overall SL to break-even then. Exit by 14:55, cut if momentum breaks. Next review in 8 min."
+    },
+    {
+      "time": "2026-10-22T10:36:32.127516+05:30",
+      "summary": "HOLD on new entries. Both indices already carry my bullish view: 6711 NIFTY 5DTE bull put 22650/22600 (+4,680 unreal.) and 6712 SENSEX 0DTE bull put 73500/73300 (+9,300 unreal.). Rising trend intact (NIFTY 22,761, SENSEX 73,645, both well above SMAs), so no counter-direction or duplicate view added. Action: moved 6712's overall stop-loss to break-even (\u20b91) to protect the near-threshold gain; its L2 trail is already at 188.1. Day realised +38,440. Next: raise 6712 stop to ~half of best profit if it runs, cut if momentum (SMA/RSI turn) breaks; exit 14:55."
+    },
+    {
+      "time": "2026-10-22T10:37:29.611970+05:30",
+      "summary": "HOLD on new entries. Open: 6711 NIFTY 27-Oct bull put 22650/22600 (30 lots, S22650@127.20 / B22600@108.35, +\u20b94,388 unreal.) and 6712 SENSEX 0DTE bull put 73500/73300 (25 lots, S73500@223.10 / B73300@143.85, +\u20b96,650 unreal.). Day realised +\u20b938,440. Both indices trend up (NIFTY 22,743, SENSEX 73,595, RSI 70/75, TimesFM flat); adding another bullish structure would duplicate correlated exposure under one-view-per-index, so no new trade. Blockers: duplicate thesis plus limited review budget. Trails: 6712 short-put SL 188.1 locks ~\u20b94.5k; 6711 SL 120.2. Next: reassess in 20 min; if a leg stops out I square the residual long; hard exit 14:55."
     }
   ]
 }
