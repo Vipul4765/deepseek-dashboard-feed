@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T13:14:40.317254+05:30",
-      "summary": "HOLD. Open: 6705 NIFTY 27-Oct iron condor (SELL 22900CE/22600PE, BUY 23000CE/22500PE, 30 lots each, fully hedged, margin ~\u20b919.8L) now +\u20b9975 unrealised, fresh. NIFTY 22710, below SMAs with RSI 24 and SENSEX RSI 20; short put 22600 (~110 pts cushion) is the risk side, capped by 22500 hedge, leg SLs 35 pts, overall SL \u20b955k, exit 14:55. No new entry: AI budget 0.770/0.80 leaves no room to price, hedge-check and verify a fresh spread; SENSEX/4-leg shape also blocked by its weak record. Next review ~15 min."
-    },
-    {
       "time": "2026-10-21T13:18:21.671506+05:30",
       "summary": "Squared off 6705 NIFTY 27-Oct condor after its short-call leg stopped out and the residual (long 23000CE + short 22600/22500 put spread, ~+700 delta) bet against a falling index. Core confirmed exits: L2 78.85, L3 113.85, L4 83.20, run DONE, margin released, flat book. Strategy net \u2248 +\u20b92.24k (realized +\u20b913.55k from leg 1); day now \u2248 +\u20b95.5k realized. No new entry: TimesFM flat-to-down, NIFTY bouncing off 22702, and budget 0.78/0.80 leaves no room to price and verify a hedged spread. Next review 30 min; re-engage on a clean break below 22700 with fresh budget."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T11:28:51.671674+05:30",
       "summary": "Flat: no open runs, day realized +\u20b953,078 (5 wins/2 losses) already above the \u20b950k aim. No new entry: AI budget is 0.785/0.80 USD, so a fresh candidate could not be priced, margin-checked or hedge-verified; also both indices just turned down from the highs (NIFTY 22,750 RSI 37.9, SENSEX 73,610 RSI 36.3, TimesFM mildly negative), so there is no clean directional edge to act on. Next review in 30 min (or next cycle if budget frees)."
+    },
+    {
+      "time": "2026-10-22T11:43:52.463630+05:30",
+      "summary": "Flat: no open runs, day realized +\u20b953,078 (5 wins/2 losses) already above the \u20b950k aim. No new entry: AI budget is at 0.793/0.80 USD, so a candidate could not be priced, margin-checked or hedge-verified without risking a mid-entry cap-out. Market context also mixed \u2014 both indices pushed lower (NIFTY 22,688 RSI 30.6, SENSEX 73,402 RSI 28.2) while TimesFM path leans mildly higher, so no clean, hedge-verifiable directional edge. Next review in 30 min; if the cap blocks calls, the account stays flat with nothing at risk."
     }
   ]
 }
