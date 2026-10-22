@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:23:06.807437+05:30",
-      "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9135.4, unrealized -\u20b931.6k (33% of \u20b997k SL). Bearish thesis: NIFTY down 144pts from prev close (22811\u219222667), TimesFM p50 22681, RSI 67.6 overbought. But intraday recovery to 22690 threatens thesis. SENSEX 0 DTE expiry - no new entries per risk rules. NIFTY 2-leg blocked by Core (10 trades, 20% win). One view per index satisfied (NIFTY bearish only). Monitoring for downside resumption below 22650 or thesis failure above 22700. Next review in 60s."
-    },
-    {
       "time": "2026-10-22T10:23:42.750352+05:30",
       "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9135.4, unrealized -\u20b939.3k (40% of \u20b997k SL). Bearish thesis threatened: NIFTY recovered 71pts from 22650 low to 22721, RSI 73.3 overbought but TimesFM p50 22711 slightly bearish. SENSEX 0 DTE expiry - no new entries per risk rules. NIFTY 2-leg strategies blocked by Core (10 trades, 20% win rate). One view per index satisfied (NIFTY bearish only). Monitoring for downside resumption below 22650 or thesis failure above 22750. Next review in 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T13:10:36.910699+05:30",
       "summary": "Market open, NIFTY 22694 (RSI 29.7 oversold bounce), SENSEX 73395 (0 DTE, no new entries). Day P&L -\u20b960.9k from 4 trades. Strategy 6722 (NIFTY bull call butterfly 22700/22750/22800, 10 lots, max loss \u20b920k) queued for 13:15 entry \u2014 aligns with TimesFM bullish forecast (p50 22737) and oversold reversal. No conflicting NIFTY positions (one-view rule). SENSEX 0 DTE blocks new trades. Will review at 13:15 for fill confirmation, then apply trailing stop: move overall SL to breakeven at \u20b910k profit, trail half of best profit thereafter."
+    },
+    {
+      "time": "2026-10-22T13:16:21.818713+05:30",
+      "summary": "NIFTY bull call butterfly 6722 (22700/22750/22800, 10/20/10 lots) filled at 13:15: L1 155.60, L2 130.75, L3 108.80. Unrealized -\u20b9293. Overall SL \u20b920k, TP \u20b930k set. Platform trailing not pre-configured; will manually trail via EDIT_OVERALL_STOP_LOSS when profit hits \u20b910k (move to breakeven), then half of best profit. Day P&L -\u20b960.9k (4 trades). SENSEX 0 DTE \u2014 no new entries. One-view rule satisfied (single bullish NIFTY structure). Next review in 60s to monitor active trade and trailing trigger."
     }
   ]
 }
