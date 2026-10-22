@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T10:32:21.954904+05:30",
-      "summary": "HOLD - Two bearish positions active from 10:15: NIFTY 22950 PE Oct27 2L long put (-\u20b91,073) and SENSEX 74200/74100 PE Oct22 10L bear put spread (-\u20b9550). Total unrealized -\u20b91,623. Market pulled back from morning highs (NIFTY 23,037\u219222,958, SENSEX 74,420\u219274,188). TimesFM bearish (NIFTY p50 22,943, SENSEX p50 74,143). One view per index maintained. NIFTY/1-leg hist: 46% win; SENSEX/2-leg hist: 45% win but negative expectancy. Thesis: bearish pullback continuation. Too early for trailing stops (positions underwater). No new entries - monitoring for thesis validation or stop triggers. Next review in 120s."
-    },
-    {
-      "time": "2026-10-21T10:47:29.198871+05:30",
-      "summary": "HOLD - Two bearish positions active from 10:15: NIFTY 22950 PE Oct27 2L long put (-\u20b93,334) and SENSEX 74200/74100 PE Oct22 10L bear put spread (-\u20b91,740). Total unrealized -\u20b95,074. Market pulled back from morning highs (NIFTY 23,037\u219222,968, SENSEX 74,420\u219274,242). TimesFM bearish (NIFTY p50 22,957, SENSEX p50 74,196). One view per index maintained (both bearish). Thesis: bearish pullback continuation. Too early for trailing stops (positions underwater). No new entries - monitoring for thesis validation or stop triggers. Next review in 120s."
-    },
-    {
       "time": "2026-10-21T10:49:21.505426+05:30",
       "summary": "HOLD - Two bearish positions active from 10:15: NIFTY 22950 PE Oct27 2L long put (-\u20b93,315) and SENSEX 74200/74100 PE Oct22 10L bear put spread (-\u20b91,640). Total unrealized -\u20b94,955. Market pulled back from morning highs (NIFTY 23,037\u219222,980, SENSEX 74,420\u219274,266). TimesFM bearish (NIFTY p50 22,968, SENSEX p50 74,218). One view per index maintained (both bearish). Thesis: bearish pullback continuation. Too early for trailing stops (positions underwater). No new entries - monitoring for thesis validation or stop triggers. Next review in 120s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-22T09:57:53.046185+05:30",
       "summary": "HOLD. NIFTY long put 22650 PE (27 Oct) 10 lots active at \u20b9183.95, current mark ~\u20b9159.45, unrealized -\u20b98.9k. Bearish thesis intact: NIFTY down 162 pts from prev close, choppy 22555-22676 range. TimesFM slightly bearish (p50 22654, p10 22572). Overall SL \u20b997k, TP \u20b950k; trail trigger (\u2153 target ~\u20b916.7k) not reached. SENSEX expires today (0 DTE, high IV) - no new entries. NIFTY 2-leg strategies refused (10 trades, 20% win rate, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to trail stop or thesis failure above 22700. Next review in 90s."
+    },
+    {
+      "time": "2026-10-22T09:59:37.250033+05:30",
+      "summary": "HOLD. NIFTY long put 22650 PE (27 Oct) 10 lots active at \u20b9183.95, current mark ~\u20b9159.45, unrealized -\u20b915.5k. Bearish thesis intact: NIFTY down 162 pts from prev close, choppy 22555-22676 range. TimesFM slightly bearish (p50 22654, p10 22572). Overall SL \u20b997k, TP \u20b950k; trail trigger (\u2153 target ~\u20b916.7k) not reached. SENSEX expires today (0 DTE, high IV) - no new entries. NIFTY 2-leg strategies refused (10 trades, 20% win rate, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to trail stop or thesis failure above 22700. Next review in 90s."
+    },
+    {
+      "time": "2026-10-22T10:00:28.399270+05:30",
+      "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9159.45, unrealized -\u20b912.6k. Bearish thesis intact: NIFTY down 162 pts from prev close, choppy 22555-22676 range, TimesFM p10 22581. Overall SL \u20b997k, TP \u20b950k; trail trigger not reached. SENSEX expires today (0 DTE, high IV) - no new entries. NIFTY 2-leg strategies refused (10 trades, 20% win rate, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to trail stop or thesis failure above 22700. Next review in 90s."
     }
   ]
 }
