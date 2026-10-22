@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T11:11:20.059483+05:30",
-      "summary": "HOLD, no new trade. Both open spreads are on the correct side of a fresh down-move, so this cycle is management only. 6699 NIFTY 27-10 bear put (BUY 23000 PE / SELL 22850 PE, 25 lots) MTM +\u20b97,881; 6702 SENSEX 22-10 bear put (BUY 74200 PE / SELL 73900 PE, 20 lots) MTM \u2212\u20b9920. Fresh data: NIFTY 22,935 (RSI 38, below SMAs, TimesFM negative), SENSEX 74,136 (RSI 36). One view per index already held (both bearish) so a second same-direction add is a correlated duplicate. Day realised \u2212\u20b958,230. No TP/SL hit \u2014 profit still under a third of target, so no stop move yet. Next: reassess in ~10 min or on NIFTY <22,850 / SENSEX <73,900."
-    },
-    {
-      "time": "2026-10-21T11:21:49.913554+05:30",
-      "summary": "Management cycle, no new entry. Both open spreads are correct-way on a fresh down-move: 6699 NIFTY 27-10 bear put (BUY 23000PE / SELL 22850PE, 25 lots) MTM +15,194; 6702 SENSEX 22-10 bear put (BUY 74200PE / SELL 73900PE, 20 lots) MTM +4,260; hedges filled and matched. Tightened overall stops: NIFTY 55k\u219228k, SENSEX 32k\u219218k, so worst case fell by ~41k while upside stays. No fresh entry \u2014 both indices already hold one bearish view (second same-direction lot would be correlated duplicate); day realised \u221258,230. Next: trail to break-even when profit nears a third of target, or exit if NIFTY reclaims ~23,050 / SENSEX ~74,300."
-    },
-    {
       "time": "2026-10-21T11:23:13.149886+05:30",
       "summary": "Management only, no new entry: both indices already hold one bearish view, so a second same-direction position would be duplicate exposure. Edits applied: 6699 NIFTY bear put (23000/22850 PE, 25 lots, 27-10) overall stop 28k\u21929k and target 110k\u219255k, MTM +18.1k; 6702 SENSEX bear put (74200/73900 PE, 20 lots, 22-10) stop 18k\u21926k and target 68k\u219215k, MTM +5.7k. Combined worst case cut to ~15k from 46k. Day realised \u221258,230. Rising NIFTY above ~23,020 or SENSEX above ~74,200 stops out; targets book the gains."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-22T09:58:55.387360+05:30",
       "summary": "No new entry. Open: 6708 NIFTY 27-Oct condor (short 22500PE@97.95 / 22900CE@75.60, both hedged, 50 lots) live at -\u20b9650, SL \u20b945k, TP \u20b960k \u2014 holding, trailing only after +\u20b910k. Assessed both indices: NIFTY 22,640 (RSI 46.7, at SMA20/50, TimesFM p50 +0.03% inside 0.72% band) and SENSEX 73,312 (RSI 50, TimesFM flat, 0DTE IV 35%) show no directional edge; SENSEX neutral 4-leg shape is still refused by its 8-trade/25%-win record, and 0DTE put-spread credit (R:R ~0.4, short delta 0.32, intraday low 73,026) is not a supported edge. Day realized -\u20b926,672. Next review 25 min; reassess on NIFTY break of 22,554/22,676 or SENSEX 73,018/73,423."
+    },
+    {
+      "time": "2026-10-22T10:04:05.256255+05:30",
+      "summary": "HOLD, no new entry. 6708 NIFTY 27-Oct condor (50 lots, short 22500PE@97.95/22900CE@75.60, both hedged) is live at \u2212\u20b92,762 fresh, SL \u20b945k / TP \u20b960k, 14:55 exit \u2014 thesis (range 22,554\u201322,676) intact, so no churn. Assessed NIFTY 22,600 (RSI 31.5, below SMAs, TimesFM p50 +0.05% = flat) and SENSEX 73,169 (RSI 42, TimesFM flat, 0DTE IV ~35%): spot momentum down but forecasts flat/up \u2014 conflicting, no priced directional edge; a NIFTY bear spread would also duplicate the condor's put-side risk, and SENSEX 4-leg is refused by its losing record. Day realized \u2212\u20b926,672. Next review 15 min; triggers NIFTY break of 22,554/22,676, SENSEX 73,005/73,423."
+    },
+    {
+      "time": "2026-10-22T10:09:10.888313+05:30",
+      "summary": "HOLD, no new entry. 6708: 22900CE short was trailed out at 70.80 (+\u20b915,600 realised); the run now holds fixed, hedged 22500/22450 put spread (50 lots, 27-Oct) plus long 22950CE \u2014 nothing naked, no queued re-entry, overall SL \u20b945k / TP \u20b960k, 14:55 exit; fresh P&L \u2212\u20b95,525, margin \u20b91.88M. NIFTY 22,631 (RSI 37.7, TimesFM +0.03% flat) and SENSEX 73,233 (RSI 30.5 oversold, bouncing off 73,109; TimesFM flat, 0DTE IV ~34%): no clear direction \u2014 NIFTY bearish structures conflict with the open short-put view, SENSEX 4-leg refused by its 25% record and 2-leg spreads price near negative EV. Day realised \u2212\u20b926,672. Next review 15 min; triggers NIFTY breaks 22,554/22,678, SENSEX 73,109/73,423."
     }
   ]
 }
