@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:47:49.601029+05:30",
-      "summary": "HOLD - Monitoring NIFTY bull call butterfly (6715, 20 lots) entered at 10:45, spot 22722 vs center 22850, P&L -\u20b91.3k. Butterfly thesis: NIFTY rallies ~130 pts to 22850 by Oct 27 expiry (5 DTE). RSI 33.6 oversold, TimesFM slight upside bias support bounce. SENSEX 0 DTE expiry today - no new entries permitted. Day P&L -\u20b948.6k from stopped long put. One bullish NIFTY view active; will trail stop if price moves toward 22850. Next review in 90s."
-    },
-    {
       "time": "2026-10-22T10:49:41.790428+05:30",
       "summary": "HOLD - Monitoring active NIFTY bull call butterfly (6715, 20 lots) entered 10:45 at strikes 22750/22850/22950. Spot 22,708 vs center 22,850, unrealized +\u20b9715. Butterfly thesis: rally ~142 pts to 22,850 by Oct 27 (5 DTE). RSI 31.7 oversold, TimesFM slight upside. SENSEX 0 DTE expiry today - no new entries permitted. One bullish NIFTY view active per one-view rule. Day P&L -\u20b948.6k from stopped long put. Will trail overall stop to breakeven when profit reaches ~1/3 of \u20b950k target (\u20b916.7k). Next review in 90s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T13:52:55.063888+05:30",
       "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized -\u20b9357. Max risk \u20b91,885 (net premium) well within \u20b920k overall SL. NIFTY 22,636 (-64 from 22,700 lower wing) with 63 min to 14:55 exit. TimesFM -0.02%, RSI 69.6. SENSEX 0 DTE expiry - no new entries per rules. One bullish NIFTY view satisfied via butterfly. Day P&L -\u20b960.9k (limits disabled). Trailing stop activates at \u20b910k profit. No new trade: butterfly needs room to develop, adding correlated exposure risks overconcentration; bearish trade would conflict. Next review at 14:08 for position management."
+    },
+    {
+      "time": "2026-10-22T13:54:51.446263+05:30",
+      "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized +\u20b997.5. Max risk ~\u20b91,885 (net premium) well within \u20b920k overall SL. NIFTY 22,626 (-74 from 22,700 lower wing) with 61 min to 14:55 exit. TimesFM +0.01% (30-min), RSI 58.3. SENSEX 0 DTE expiry \u2014 no new entries per rules. One bullish NIFTY view satisfied via butterfly. Day P&L -\u20b960.9k (limits disabled). Trailing stop activates at \u20b910k profit (not reached). No new trade: butterfly needs room to develop; adding correlated exposure risks overconcentration; bearish trade would conflict; SENSEX expired; only 61 min left for any new directional setup. Next review at 14:08 for position management."
     }
   ]
 }
