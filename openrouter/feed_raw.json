@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:18:47.419469+05:30",
-      "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9180.45, unrealized -\u20b924.5k. Bearish thesis intact: NIFTY down 148pts from prev close (22811\u219222663), 120-bar range 22555-22676, TimesFM p10 22565. Overall SL \u20b997k, TP \u20b950k; trail not triggered (in loss). SENSEX expires today (0 DTE, IV 34.7%) \u2014 no new entries per rules. NIFTY 2-leg strategies refused by Core (10 trades, 20% win, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to recover or thesis failure above 22700. Next review in 90s."
-    },
-    {
       "time": "2026-10-22T10:20:01.827770+05:30",
       "summary": "HOLD. Active NIFTY long put 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9180.45, unrealized -\u20b924.3k. Bearish thesis intact: NIFTY down 150pts from prev close (22811\u219222661), 120-bar range 22555-22811, TimesFM p10 22612. Overall SL \u20b997k, TP \u20b950k; trail not triggered (in loss). SENSEX expires today (0 DTE, IV 34.7%) \u2014 no new entries per rules. NIFTY 2-leg strategies refused by Core (10 trades, 20% win, net negative). One view per index satisfied (NIFTY bearish only). Monitoring for downside break below 22550 to recover or thesis failure above 22700. Next review in 90s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T13:05:43.993250+05:30",
       "summary": "HOLD: NIFTY put butterfly (6720) active, 20-lot 22750/22700/22650 PE. Spot 22685 \u2192 TimesFM projects 22708 in ~2 min (max-profit zone at 22700). Unrealized +\u20b9195, theoretical max ~\u20b961k at 22700. Day P&L -\u20b962.1k. SENSEX 0 DTE expiry \u2014 no new entries. One-view-per-index satisfied (butterfly only). No new trades possible today. Monitoring for 22700 peak profit exit before forecast push to 22750 upper wing (loss zone). Next review 60s."
+    },
+    {
+      "time": "2026-10-22T13:07:16.883356+05:30",
+      "summary": "HOLD: NIFTY put butterfly (6720) active, 20-lot 22750/22700/22650 PE. Spot 22688 \u2192 TimesFM projects 22740 p50 in 30 min (max-profit zone at 22700). Unrealized +\u20b965, theoretical max ~\u20b961k at 22700. Day P&L -\u20b962.1k. SENSEX 0 DTE expiry \u2014 high gamma risk for new entries. One-view-per-index satisfied (butterfly only). Monitoring for 22700 peak profit exit before forecast push to 22750 upper wing (loss zone). Next review 60s."
     }
   ]
 }
