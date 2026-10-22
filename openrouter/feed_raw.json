@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T11:43:59.108852+05:30",
-      "summary": "HOLD - Two bearish positions active: NIFTY 22950 PE Oct27 2L (+\u20b98.6K, 22% of \u20b940K target) and SENSEX 74200/74100 PE Oct22 10L bear put spread (+\u20b93.6K, 16% of \u20b923K target). Total unrealized +\u20b912.2K toward \u20b920K daily target. Both indices oversold (RSI ~24-25) in pullback from open; TimesFM mixed (NIFTY slightly bearish, SENSEX slightly bullish). One view per index maintained (both bearish). Positions within stops (NIFTY SL \u20b920K, SENSEX SL \u20b918K). Profits below 1/3 target threshold for trailing per boss rule. SENSEX spread expires tomorrow - theta risk increasing. No new entries - correlated bearish exposure held, awaiting thesis validation or trailing opportunity. Next review in 60s for stop triggers, trailing at 1/3 target, or reversal signals."
-    },
-    {
       "time": "2026-10-21T11:44:52.314173+05:30",
       "summary": "HOLD - Two bearish positions active: NIFTY 22950 PE Oct27 2L (+\u20b99.8K, 24% of \u20b940K target) and SENSEX 74200/74100 PE Oct22 10L bear put spread (+\u20b94.5K, 19% of \u20b923K target). Total unrealized +\u20b914.2K (71% of \u20b920K daily target). Both indices oversold (RSI 24/20) in pullback from open; TimesFM mixed (NIFTY bearish, SENSEX slightly bullish). One view per index maintained (both bearish). Positions within stops (NIFTY SL \u20b920K, SENSEX SL \u20b918K). Profits below 1/3 target threshold for trailing per boss rule. SENSEX spread expires tomorrow - theta risk increasing. No new entries - correlated bearish exposure held, awaiting thesis validation or trailing opportunity. Next review in 60s for stop triggers, trailing at 1/3 target, or reversal signals."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T10:27:04.115188+05:30",
       "summary": "HOLD. Active NIFTY 22650 PE (27 Oct) 10 lots at \u20b9183.95, mark ~\u20b9121.5, unrealized -\u20b940.6k (42% of \u20b997k SL). NIFTY 22724.5, thesis failure at 22750 (25.5 pts away). TimesFM p50 22704 slightly bearish, RSI 67.3 overbought. SENSEX 0 DTE expiry today - no new entries allowed. NIFTY 2-leg strategies blocked by Core (10 trades, 20% win rate). One view per index satisfied (NIFTY bearish only). Existing long put is only position. Monitoring for downside resumption below 22650 or thesis failure above 22750. Next review in 60s."
+    },
+    {
+      "time": "2026-10-22T10:42:26.363717+05:30",
+      "summary": "Squared off NIFTY 22650 PE (27 Oct) 10 lots at \u20b9109.25 vs entry \u20b9183.95, realized loss -\u20b948,555. Thesis failure confirmed at 22750 (NIFTY 22749). Day P&L -\u20b948.5k. SENSEX 0 DTE expiry today - no new entries allowed. NIFTY 2-leg verticals blocked by Core (10 trades, 20% win rate). Awaiting fresh directional setup on NIFTY (1-leg long or 4-leg neutral) with clear price action evidence. Next review in 60s."
     }
   ]
 }

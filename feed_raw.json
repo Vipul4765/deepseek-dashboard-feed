@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T12:24:09.731435+05:30",
-      "summary": "Held 6703 (NIFTY 22850/22700 bear put, 27-10, 30 lots, hedge intact, fills confirmed): open P&L +\u20b928.2k, overall SL already at \u20b91 break-even (Core rejects profit-positive SL values, so no further trail possible; no leg edit that would uncover the short). No new trade: NIFTY already carries our bearish view (one view per index); SENSEX 1-DTE spreads price near fair (72,900/73,600 credit 68.5 vs 200 width, BE 73,668, forecast p50 only \u221252 pts) and would duplicate correlated downside while both indices are RSI ~18. Day \u2212\u20b910.7k realised. Next: 10-min review; book if profit retraces to ~\u20b915k or NIFTY reclaims 22,800."
-    },
-    {
       "time": "2026-10-21T12:33:49.141363+05:30",
       "summary": "Booked profit: squared off 6703 (NIFTY 22850/22700 bear put, 30 lots, 27-10). Core fills confirmed: L1 exit 214.40 (+55.7k), L2 141.55 (\u221239.9k) = +\u20b915,795, hedge intact throughout. Day now \u2248 +\u20b95.1k realised, flat. No new entry: NIFTY/SENSEX both flat after bounce off lows (NIFTY 22,750, forecast p50 \u221217; SENSEX 73,520, p50 \u221250), 1-DTE SENSEX spreads price near fair, NIFTY condor risk high on 100-pt wings. Next review 30 min; will reassess fresh NIFTY/SENSEX direction with exit still 14:55."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T10:39:12.937147+05:30",
       "summary": "Opened SENSEX 0DTE bull put 73400/73100 (SELL 30x ~\u03940.35 put, BUY 30x ~\u03940.20 put, 22-Oct), credit \u224870pts/unit (~\u20b942k), max loss ~\u20b91.38L capped by overall SL \u20b950k, TP \u20b932k, short-leg SL 60pts with 25/20 trail + break-even trail, complete square-off, exit 14:55. Thesis: up-momentum (SENSEX 73,605 above SMA20/50, RSI 58) with 275-pt downside buffer; avoids blocked SENSEX 4-leg shape. Start is waiting at 10:43 \u2014 fills unverified. 6711 NIFTY bull put open, +\u20b94,875, SL 120.2. Day realised +\u20b941,640. Next: confirm fills in 4 min."
+    },
+    {
+      "time": "2026-10-22T10:42:00.499360+05:30",
+      "summary": "No new entry. Day realised +\u20b941,640 (5 trades). 6711 NIFTY bull put 22650/22600 (30 lots, 27-Oct) is live and hedged: NIFTY 22,749, short put SL trailed to 120.2, unrealised +\u20b93,608. 6713 SENSEX 0DTE bull put 73400/73100 has no run yet \u2014 its 10:43 start is still pending, so fills/hedge unverified. Both open views are bullish, consistent with up-momentum (SENSEX 73,604, RSI 62). Skipped extra entries: both indices already carry one bullish view, so a third spread would duplicate thesis. Next: confirm 6713 fills at ~10:46, then trail at +\u20b910k open profit."
     }
   ]
 }
