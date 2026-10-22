@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T10:08:14.035723+05:30",
-      "summary": "Confirmed 6698/6697 closed (day -58,230: NIFTY -22,230, SENSEX -36,000). Only open item is 6699 (NIFTY 27-10 bear put, BUY 23,000 PE / SELL 22,850 PE, 25 lots), still SCHEDULED with no run/fills yet \u2014 entry fires 10:09, so strikes remain unverified until then. Thesis still holds: NIFTY 22,978, RSI 36, below SMA20/50, TimesFM flat-to-down. Priced debit ~61 \u2192 worst case ~\u20b999.3k, max ~\u20b9144k, SL 55k/TP 110k/14:55 exit. No second bearish index trade (correlated duplication); SENSEX skipped. Next: verify 6699 fill at ~10:11, tighten SL to break-even once profit nears a third of target."
-    },
-    {
       "time": "2026-10-21T10:09:31.721996+05:30",
       "summary": "6699 confirmed filled: BUY 23000 PE @173.80 / SELL 22850 PE @111.40, 25 lots each, 27-10 expiry, hedged, margin \u20b9866,822, MTM +\u20b91,056. Day P&L \u2212\u20b958,230 (6698/6697 closed). No new entry: NIFTY bearish view already held; SENSEX 22-10 bear put 74000/73800 costs 64.95 for 200 width (break-even 73,935, 0.36% below spot) with 1 DTE and TimesFM flat (p50 74,171), and SENSEX bear call 74500/74700 credit 63.4 vs 136.6 max loss is poor R:R \u2014 both weak with RSI 35 oversold. Will trail SL once profit nears a third of the \u20b9110k target. Next review 15 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T09:37:31.712685+05:30",
       "summary": "HOLD. Open run 6707 (NIFTY 27-Oct 22600/22450 bear put, 25 lots, fills 176.55/112.30) is ACTIVE and hedged after last cycle's leg-SL/trail fix; unrealized -\u20b9650 with NIFTY 22586 still below SMA20/50 and near the 22554 low, so the bearish thesis stands (overall SL \u20b945k, TP \u20b990k, exit 14:55; trail to break-even once +\u20b910k). No new entry: NIFTY view already held, and SENSEX 0DTE (IV 35-38%, chop 73005-73273, TimesFM mildly up) gives no clean edge. Next: break of 22554 confirms 6707; SENSEX below 73000 or above 73275 reassessed."
+    },
+    {
+      "time": "2026-10-22T09:47:52.185775+05:30",
+      "summary": "Exited 6707 (NIFTY 27-Oct 22600/22450 bear put, 25 lots, entry 176.55/112.30) via full square-off: NIFTY reversed from 22554 to 22666 (now 22649, above SMA20 22609, RSI 68, VIX falling), so the bear momentum that justified it broke; loss ~\u20b919.4k unrealized, exit fills pending confirmation. No new entry: NIFTY sits right at SMA50 22653/day high with a flat TimesFM path, and SENSEX 0DTE carries 37% IV on a 73026-73343 bounce \u2014 no clean edge. Recheck in 5 min: NIFTY holding above 22670 \u2192 bull call spread; back below 22595 \u2192 bear structure."
     }
   ]
 }
