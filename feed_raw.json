@@ -1,30 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T11:24:19.791007+05:30",
-      "summary": "No new entry: both NIFTY (6699, 23000/22850 PE, 27-10) and SENSEX (6702, 74200/73900 PE, 22-10) already hold the bearish view, so another same-direction trade would just duplicate exposure. Both spreads are working on a strong downtrend (NIFTY 22,895, RSI 29; SENSEX 73,995, RSI 27, TimesFM slightly lower). Management: cut both overall stops from 9k/6k to \u20b91,000 max loss so winners can't flip red; targets kept at 55k (NIFTY) and 15k (SENSEX). MTM +19.1k and +6.6k. Next: stop hit, target, or 14:55 exit."
-    },
-    {
-      "time": "2026-10-21T11:25:22.062386+05:30",
-      "summary": "Held both open bear put spreads. NIFTY 6699 (23000/22850 PE, 27-10) MTM +23.3k and SENSEX 6702 (74200/73900 PE, 22-10) +10.6k, both riding a strong downtrend (NIFTY 22,893 RSI 29; SENSEX 73,955 RSI 30, TimesFM slightly lower). Core rejects negative overall SL values, so I tightened both stops from \u20b91,000 to \u20b91 max loss \u2014 a break-even lock \u2014 with targets 55k (NIFTY) and 15k (SENSEX). No new entry: a second bearish trade on either index would duplicate the same view with spot just above the short strikes. Next: target/stop/14:55 exit."
-    },
-    {
-      "time": "2026-10-21T11:26:33.464628+05:30",
-      "summary": "Booked SENSEX 6702 (74200/73900 PE, 22-10): squared off, realized +7,300 (long 459.75 / short 304.15) \u2014 1 DTE gamma with spot only ~78 pts above the short strike made a give-back likely. Kept NIFTY 6699 (23000/22850 PE, 27-10, 25 lots) running at ~+20.7k MTM with break-even overall stop (\u20b91 max loss) and 55k target; 6 DTE still carries decay upside. Negative profit-lock SL is rejected by Core, so break-even is the floor; 14:55 exit stands. No new entry: NIFTY bearish view already held, SENSEX oversold/1 DTE. Next review in 25 min."
-    },
-    {
-      "time": "2026-10-21T11:28:13.239032+05:30",
-      "summary": "Held NIFTY 6699 (23000/22850 PE, 27-10, 25 lots): MTM +\u20b921.6k. Re-applied and confirmed overall SL at \u20b91 (break-even; Core rejects a profit-lock SL \u2014 \"value must be positive\") with TP \u20b955k live, re-entry disabled, 14:55 exit. No new entry: NIFTY bearish view already held (adding duplicates it), SENSEX 1-DTE wings (\u00b1300 vs ~830pt expected move) and fairly priced debit spreads give no edge at RSI 24 / rising VIX; TimesFM flat. Realized today \u2212\u20b950,930. Next check in 25 min, sooner on a stop event."
-    },
-    {
-      "time": "2026-10-21T11:29:45.667417+05:30",
-      "summary": "HOLD. Open 6699 (NIFTY 23000/22850 PE, 27-10, 25 lots) MTM +\u20b921.3k, both legs filled, overall SL \u20b91 break-even and TP \u20b955k live, 14:55 exit; Core rejects profit-locking SL (value must be positive), so break-even is the maximum lock and trailing is already applied. No new entry: NIFTY view already held (duplicate), SENSEX 1-DTE (22-10) pricing shows no edge \u2014 bear put 74000/73700 needs ~1.1% fall to break even, bear call 74200/74500 pays \u20b990 credit vs \u20b9210 risk. Reassess SENSEX if spot breaks 73,700 or a call spread pays \u2265\u20b9120 credit. Realized today \u2212\u20b950,930. Next check 15 min."
-    },
-    {
-      "time": "2026-10-21T11:44:47.068326+05:30",
-      "summary": "Secured gain on open 6699 (NIFTY 23000/22850 PE, 27-10, 25 lots): open P&L +\u20b935.6k, so I locked profit by lowering overall TP to \u20b940k (mode=points) while keeping the \u20b91 break-even overall SL and 14:55 exit \u2014 Core applied it. No new entry: NIFTY bearish view already held (no duplicate), and SENSEX 1-DTE (22-10) bear put spreads price at only ~1.3-1.6 R:R needing another 0.24-0.36% fall, with tape stabilizing off oversold lows (RSI 25, VIX +5%). Realized today \u2212\u20b950.9k. Next check 15 min; I book manually if profit falls toward \u20b918k."
-    },
-    {
       "time": "2026-10-21T11:46:13.102846+05:30",
       "summary": "Momentum entry: NIFTY still in a clean downtrend (price 22,835 below SMA20/50, RSI 24, futures offer-heavy, TimesFM flat-to-lower), so I opened a defined-risk bear put spread \u2014 strategy 6703, BUY 30x 22850 PE / SELL 30x 22700 PE, 27-10-2026, intraday 11:46\u201314:55. Core margin book confirms both legs filled (net debit ~\u20b91.10L, hedge 1950 vs 1950 lots, no naked short). Controls: overall SL \u20b945k, TP \u20b955k, L1 50-pt SL with 20/12 trail to break-even. SENSEX skipped (change of character risk into 1-DTE expiry). Realized today \u2212\u20b910.7k. Next check in 5 min."
     },
@@ -159,6 +135,30 @@
     {
       "time": "2026-10-22T10:19:21.362555+05:30",
       "summary": "Opened SENSEX 0DTE bull call 73300/73500, 40 lots (hedged, defined risk): debit \u224890 pts, worst case \u2248\u20b972.7k, max profit \u2248\u20b987.3k, overall SL \u20b945k / TP \u20b980k, 14:55 exit, short leg has 45-pt SL + trailing SL (trigger 30/shift 12). Thesis: fresh higher highs off 73,114, price above SMA20/50, RSI 66, futures bid. 6708 unchanged: short 22900CE trailed out +\u20b915,600; remaining hedged 22500/22450 put spread + long 22950CE, fresh P&L \u2248 +\u20b949.9k vs \u20b960k TP, margin \u20b92.1M. Day realised \u2212\u20b926.7k. Next review 3 min to confirm 6710 fills."
+    },
+    {
+      "time": "2026-10-22T10:20:41.676874+05:30",
+      "summary": "Closed NIFTY 6708 after both short legs were trailed out (+15,600 / +14,625), leaving only two long hedges; square-off filled L2 22950CE @66.00 and L4 22450PE @73.95, booking +\u20b99,912 for the run (day realised \u2248 \u2212\u20b916.8k). 6710 SENSEX 0DTE bull call 73300/73500 (40 lots) starts at 10:22 \u2014 not yet filled. No new NIFTY trade: spot 22,662 sits just under the bounce high 22,691 after a 257-pt drop, so direction is unconfirmed. Next: confirm 6710 fill at 10:23; NIFTY bull call spread only above 22,700."
+    },
+    {
+      "time": "2026-10-22T10:22:21.433015+05:30",
+      "summary": "Opened NIFTY bull put spread 6711 (sell 22600PE / buy 22500PE 27-10, 30 lots): credit \u224834.5 pts (~\u20b967k), max loss \u20b9127.7k, overall SL \u20b940k, TP \u20b950k, exit 14:55, short leg has 25-pt SL plus trailing stop to break-even. Thesis: NIFTY 22,669 above SMA20/50, RSI 67, higher lows off 22,589, TimesFM mildly up; breakeven 22,565 sits below today's low. Also confirmed SENSEX 6710 filled at 10:22 (buy 73300CE @241.8, short 73500CE @163.7, hedge intact). Day realised \u2212\u20b916.8k. Next: verify 6711 fill/hedge at 10:31."
+    },
+    {
+      "time": "2026-10-22T10:23:05.721292+05:30",
+      "summary": "Holding two bullish views, no new entries. SENSEX 6710 (buy 73300CE/sell 73600CE 22-10, 40 lots) filled 241.8/163.7, hedge intact, short-leg 45-pt SL + trail active, unrealised +2,960 (below \u20b910k break-even-trail rule). NIFTY 6711 (sell 22600PE/buy 22500PE 27-10, 30 lots) still scheduled for its 10:26 entry with 25-pt short-leg trail and overall SL \u20b940k/TP \u20b950k; NIFTY 22,695 above SMA20/50, RSI 68, TimesFM mildly up \u2014 thesis intact. Day realised \u2212\u20b916.8k. No new trade taken: one bull view per index already held, so extras would only duplicate exposure. Next: 10:30 verify 6711 fills/hedge and 6710 P&L."
+    },
+    {
+      "time": "2026-10-22T10:24:37.200869+05:30",
+      "summary": "Banked SENSEX 6710: short 73600CE stopped at 208.90 (-36,160) but I squared the residual long 73400CE at 356.00 (+91,360 as SENSEX spiked to 73,519) \u2014 campaign net \u2248 +55,200; day realised \u2248 +38.4k, no naked short left. NIFTY 6711 (sell 22600PE/buy 22500PE 27-10, 30 lots, SL 25pts, overall SL 40k/TP 50k) is still scheduled and should fire at 10:26; no run yet. No new trade: only the 0-DTE SENSEX expiry is eligible and a second bullish 0DTE spread would duplicate the NIFTY view at resistance (73,709 / 22,811). Next: 10:30 verify 6711 fills and hedge, then trail."
+    },
+    {
+      "time": "2026-10-22T10:25:48.178430+05:30",
+      "summary": "Both indices in strong up-momentum (NIFTY 22,738 RSI 79, SENSEX 73,551 RSI 82, above SMA20/50), so I kept a bullish-only book. Created and started 6712: SENSEX 0DTE bull put spread, buy 73200PE / sell 73400PE 22-10, 25 lots each, hedge placed first; credit \u224865 pts \u2192 ~\u20b932k max profit, worst case \u2248\u20b967.6k (overall SL 40k, TP 32k, short-leg SL 75 pts + 25/15 trail, exit 14:55). 6711 NIFTY 5DTE 22600/22500 bull put (30 lots, SL 40k/TP 50k) is waiting at 10:26 and has not fired yet. Day realised +\u20b938,440. Next: 2-min check of both fills and hedge coverage; square off if a hedge is missing."
+    },
+    {
+      "time": "2026-10-22T10:26:41.031479+05:30",
+      "summary": "Verified Core fills for 6711 (NIFTY 5DTE bull put: sell 22650PE @127.20, buy 22600PE @108.35, 1950 each = fully hedged; margin 992k; unrealised -195). 6712 SENSEX 0DTE bull put 73400/73200 (25 lots, hedge-first, SL 75 pts + 25/15 trail, overall SL 40k/TP 32k, exit 14:55) is scheduled for 10:28 and not yet fired. Both open views are bullish and consistent (one view per index), so no new trade \u2014 a third bullish spread would duplicate correlated risk. Day realised +38,440 on 4 trades. Next check in 150s to confirm 6712's fill and hedge."
     }
   ]
 }
