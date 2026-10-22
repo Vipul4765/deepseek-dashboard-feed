@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T13:17:37.223481+05:30",
-      "summary": "Daily target \u20b920,000 achieved with \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits and stop opening new risk. No open runs remain. Market session continues until 15:40 but risk appetite satisfied. Monitoring only for material structure change; no new entries today."
-    },
-    {
-      "time": "2026-10-21T13:32:37.795634+05:30",
-      "summary": "Daily target \u20b920,000 achieved with \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits and stop opening new risk. No open runs remain. Market session continues until 15:40 but risk appetite satisfied. Monitoring only for material structure change; no new entries today."
-    },
-    {
       "time": "2026-10-21T13:37:50.310129+05:30",
       "summary": "Daily target \u20b920,000 achieved and exceeded: \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits and stop opening new risk. No open runs remain. Market session continues until 15:40 but risk appetite satisfied. Monitoring only for material structure change; no new entries today."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-22T10:56:58.393728+05:30",
       "summary": "HOLD - Active NIFTY bull call butterfly (6715, 20 lots) at 22750/22850/22950 Oct 27. Spot 22,703 vs center 22,850 (+147 pts needed), unrealized -\u20b9260. Profitable range ~22,760-22,940; TimesFM p90 22,785 within range but below center. Overall SL \u20b915k, TP \u20b950k. Day P&L -\u20b948.6k from stopped long put. One bullish NIFTY view active per one-view rule. SENSEX 0 DTE expiry today - no new entries. Will add overall trailing stop (to breakeven at ~\u20b916.7k profit) when butterfly turns profitable. Next review in 90s."
+    },
+    {
+      "time": "2026-10-22T10:57:44.615798+05:30",
+      "summary": "HOLD - Active NIFTY bull call butterfly (6715, 20 lots) at 22750/22850/22950 Oct27. Spot 22718 vs center 22850 (-132 pts), unrealized +\u20b9195. Profitable range ~22760-22940; TimesFM p90 22792 within range but below center. Recent 30-min drop from 22760 to 22718 shows bearish momentum. Overall SL \u20b915k, TP \u20b950k. Day P&L -\u20b948.6k from stopped long put. One-view rule: bullish NIFTY view active, cannot add bearish NIFTY. SENSEX 0 DTE expiry today - no new entries permitted. No other allowed underlyings (BANKNIFTY/FINNIFTY/MIDCPNIFTY not in allowed_exchanges). MCX switched off. Will add overall trailing stop (to breakeven at ~\u2153 target \u20b916.7k profit) when butterfly turns profitable. Next review in 60s."
+    },
+    {
+      "time": "2026-10-22T10:58:51.836490+05:30",
+      "summary": "HOLD - Active NIFTY bull call butterfly (6715, 20 lots) at 22750/22850/22950 Oct27. Spot 22729 vs center 22850 (-121 pts), unrealized +\u20b91.5k. Profitable range ~22760-22940; spot below range. TimesFM p50 22696 bearish, recent 30-min downtrend. Overall SL \u20b915k, TP \u20b950k. Profit <1/3 target so no trailing yet. Day P&L -\u20b948.6k. SENSEX 0 DTE expiry today - no new entries. One-view rule: bullish NIFTY view active. Monitoring for thesis failure (spot sustaining <22760) to exit butterfly. Next review 60s."
     }
   ]
 }
