@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T11:23:13.149886+05:30",
-      "summary": "Management only, no new entry: both indices already hold one bearish view, so a second same-direction position would be duplicate exposure. Edits applied: 6699 NIFTY bear put (23000/22850 PE, 25 lots, 27-10) overall stop 28k\u21929k and target 110k\u219255k, MTM +18.1k; 6702 SENSEX bear put (74200/73900 PE, 20 lots, 22-10) stop 18k\u21926k and target 68k\u219215k, MTM +5.7k. Combined worst case cut to ~15k from 46k. Day realised \u221258,230. Rising NIFTY above ~23,020 or SENSEX above ~74,200 stops out; targets book the gains."
-    },
-    {
       "time": "2026-10-21T11:24:19.791007+05:30",
       "summary": "No new entry: both NIFTY (6699, 23000/22850 PE, 27-10) and SENSEX (6702, 74200/73900 PE, 22-10) already hold the bearish view, so another same-direction trade would just duplicate exposure. Both spreads are working on a strong downtrend (NIFTY 22,895, RSI 29; SENSEX 73,995, RSI 27, TimesFM slightly lower). Management: cut both overall stops from 9k/6k to \u20b91,000 max loss so winners can't flip red; targets kept at 55k (NIFTY) and 15k (SENSEX). MTM +19.1k and +6.6k. Next: stop hit, target, or 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T10:09:10.888313+05:30",
       "summary": "HOLD, no new entry. 6708: 22900CE short was trailed out at 70.80 (+\u20b915,600 realised); the run now holds fixed, hedged 22500/22450 put spread (50 lots, 27-Oct) plus long 22950CE \u2014 nothing naked, no queued re-entry, overall SL \u20b945k / TP \u20b960k, 14:55 exit; fresh P&L \u2212\u20b95,525, margin \u20b91.88M. NIFTY 22,631 (RSI 37.7, TimesFM +0.03% flat) and SENSEX 73,233 (RSI 30.5 oversold, bouncing off 73,109; TimesFM flat, 0DTE IV ~34%): no clear direction \u2014 NIFTY bearish structures conflict with the open short-put view, SENSEX 4-leg refused by its 25% record and 2-leg spreads price near negative EV. Day realised \u2212\u20b926,672. Next review 15 min; triggers NIFTY breaks 22,554/22,678, SENSEX 73,109/73,423."
+    },
+    {
+      "time": "2026-10-22T10:19:21.362555+05:30",
+      "summary": "Opened SENSEX 0DTE bull call 73300/73500, 40 lots (hedged, defined risk): debit \u224890 pts, worst case \u2248\u20b972.7k, max profit \u2248\u20b987.3k, overall SL \u20b945k / TP \u20b980k, 14:55 exit, short leg has 45-pt SL + trailing SL (trigger 30/shift 12). Thesis: fresh higher highs off 73,114, price above SMA20/50, RSI 66, futures bid. 6708 unchanged: short 22900CE trailed out +\u20b915,600; remaining hedged 22500/22450 put spread + long 22950CE, fresh P&L \u2248 +\u20b949.9k vs \u20b960k TP, margin \u20b92.1M. Day realised \u2212\u20b926.7k. Next review 3 min to confirm 6710 fills."
     }
   ]
 }
