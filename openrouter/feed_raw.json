@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T15:22:46.525702+05:30",
-      "summary": "Daily target \u20b920,000 achieved and exceeded at \u20b922,284 realized P&L (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Boss instruction explicit: stop opening new risk after target reached. Market session continues until 15:40 but risk appetite satisfied - HOLD, monitoring only for material structure change. No new strategies created or started."
-    },
-    {
-      "time": "2026-10-21T15:37:42.671973+05:30",
-      "summary": "Daily target \u20b920,000 exceeded at \u20b922,284 realized P&L (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Market closes in 3 minutes (15:40 IST). Boss instruction explicit: stop opening new risk after target reached. HOLD - monitoring only, no new strategies."
-    },
-    {
       "time": "2026-10-22T09:20:43.601106+05:30",
       "summary": "Opened NIFTY bearish directional trade: long 22700 PUT (27 Oct expiry) 10 lots filled at \u20b9183.95 (09:19). Overall SL \u20b997k, TP \u20b950k. One view per index satisfied (NIFTY bearish). SENSEX signals conflict (price down 400pts at open, TimesFM bullish) - holding for clearer evidence before second trade. Strategy active with trail SL available for profit protection per boss directive. Next review in 120s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-22T11:23:45.087471+05:30",
       "summary": "Holding NIFTY put butterfly (strategy 6720) entered at 11:22: BUY 20x 22750 PE @146.95, SELL 40x 22700 PE @125.15, BUY 20x 22650 PE @106.10. Net debit \u20b92.75/lot (\u20b93,575). Current unrealized P&L +\u20b9325. Max profit ~\u20b961k at 22700. NIFTY 22765, TimesFM -0.37% \u2192 22664 supportive. Day P&L -\u20b962,107 (3 trades). SENSEX 0 DTE expiry today \u2014 no new positions. NIFTY 2-leg verticals blocked by performance guard (10 trades, 20% win). Will trail overall SL to break-even once ~\u20b920k profit (1/3 max), then lock half best profit. Monitoring butterfly closely; next review in 60s."
+    },
+    {
+      "time": "2026-10-22T11:38:52.627977+05:30",
+      "summary": "Holding NIFTY put butterfly (strategy 6720) entered 11:22: BUY 20\u00d722750 PE @146.95, SELL 40\u00d722700 PE @125.15, BUY 20\u00d722650 PE @106.10. Net debit \u20b92.75/lot (\u20b93,575). Unrealized +\u20b91,105. Max profit ~\u20b961k at 22700. NIFTY 22724, TimesFM +0.09% \u2192 22745 supportive. Day P&L -\u20b962,107 (3 trades). SENSEX 0 DTE expiry \u2014 no new positions. NIFTY 2-leg verticals blocked by performance guard. One view per index satisfied (bearish butterfly). Will trail overall SL to break-even once profit \u2265\u20b910k, then lock half best profit. Next review in 60s."
+    },
+    {
+      "time": "2026-10-22T11:39:41.977083+05:30",
+      "summary": "Holding NIFTY put butterfly (strategy 6720) entered 11:22: BUY 20\u00d722750 PE @146.95, SELL 40\u00d722700 PE @125.15, BUY 20\u00d722650 PE @106.10. Net debit \u20b92.75/lot (\u20b93,575). Unrealized +\u20b92,015. Max profit ~\u20b961k at 22700. NIFTY 22,724, TimesFM +0.09% \u2192 22,731 supportive. Day P&L -\u20b962,107 (3 trades). SENSEX 0 DTE expiry \u2014 no new positions. NIFTY 2-leg verticals blocked by performance guard (8+ trades, 20% win rate, net negative). One view per index satisfied (bearish butterfly). Will trail overall SL to break-even once profit \u2265\u20b910k, then lock half best profit. Next review in 60s."
     }
   ]
 }
