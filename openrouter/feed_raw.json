@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T14:07:58.356023+05:30",
-      "summary": "Daily target \u20b920,000 achieved and exceeded: \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Market session continues until 15:40 but risk appetite satisfied - no new entries today. Monitoring only for material structure change."
-    },
-    {
-      "time": "2026-10-21T14:22:42.309866+05:30",
-      "summary": "Daily target \u20b920,000 achieved and exceeded: \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Market session continues until 15:40 but risk appetite satisfied - no new entries today. Monitoring only for material structure change."
-    },
-    {
       "time": "2026-10-21T14:38:52.641493+05:30",
       "summary": "Daily target \u20b920,000 achieved and exceeded: \u20b922,284 realized profit (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Market session continues until 15:40 but risk appetite satisfied - no new entries today. Monitoring only for material structure change."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-22T11:01:31.741539+05:30",
       "summary": "Current state: NIFTY long put 22750 Oct27 (10 lots, strategy 6716) filled at 160.05, unrealized +\u20b9455. Day P&L -\u20b947,255 (target +\u20b950,000). SENSEX 0 DTE today - high risk for new entries. NIFTY TimesFM bearish (p50 22729), supporting current bearish view. One-view rule satisfied: bearish NIFTY only. Current profit +\u20b9455 well below 1/3 of \u20b9100k target (\u20b933k), so no trailing yet per boss's rule. Monitoring for favorable move to trail SL to break-even then lock half of best profit. Next review in 3 minutes to check P&L progression."
+    },
+    {
+      "time": "2026-10-22T11:19:46.155111+05:30",
+      "summary": "Squared off losing NIFTY long put 22750 (strategy 6716) at 137.20 for -\u20b914,852 realized loss. Day P&L now -\u20b962,107 realized. Created and started NIFTY put butterfly 22800-22750-22700 (20 lots, strategy 6720) for 11:22 entry - bearish 1:2:1 structure aligned with TimesFM bearish forecast (-0.12%), overbought RSI (85), and one-view-per-index rule. Structure: Buy 20x 22800 PE, Sell 40x 22750 PE, Buy 20x 22700 PE (all Oct 27 expiry). Net credit ~13.4 pts, max profit ~\u20b982k at 22750, max loss capped at \u20b920k SL / \u20b980k TP. SENSEX 0 DTE avoided. NIFTY/2-leg verticals blocked by performance guard; 3-leg butterfly permitted (86% win rate). Will trail overall SL to break-even once ~\u2153 target (\u20b926k) reached, then lock half best profit."
+    },
+    {
+      "time": "2026-10-22T11:21:00.531740+05:30",
+      "summary": "HOLD. NIFTY put butterfly 22800-22750-22700 (20 lots, strategy 6720) scheduled for 11:22 entry (in ~2 min). Day realized P&L -\u20b962,107 (3 trades). SENSEX 0 DTE expiry today - no new positions. NIFTY 2-leg verticals blocked by performance guard (20% win rate, 10 trades). NIFTY 3-leg butterfly permitted (86% win rate). Bearish bias confirmed: NIFTY down 9 pts from 11:19 close, RSI 65 falling, TimesFM -0.30%; SENSEX down 22 pts, RSI 73 overbought, TimesFM -0.25%. Butterfly aligns with bearish view (max profit at 22750). Will verify fill at 11:22, then trail overall SL to break-even once ~\u2153 target (\u20b926k) reached, then lock half best profit. Next review in 60s to catch entry and manage."
     }
   ]
 }
