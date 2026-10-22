@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:50:51.871457+05:30",
-      "summary": "HOLD - Active NIFTY bull call butterfly (strategy 6715, 20 lots) entered 10:45 at strikes 22750/22850/22950. Spot 22,708 vs center 22,850, unrealized +\u20b91,495. Butterfly thesis: rally ~142 pts to 22,850 by Oct 27 (5 DTE). RSI 22 oversold, TimesFM slight upside. SENSEX 0 DTE expiry today - no new entries permitted. One bullish NIFTY view active per one-view rule. Day P&L -\u20b948.6k from stopped long put. Will trail overall stop to breakeven when profit reaches ~\u20b916.7k (1/3 of \u20b950k target). Next review in 90s."
-    },
-    {
       "time": "2026-10-22T10:52:32.142375+05:30",
       "summary": "HOLD - Active NIFTY bull call butterfly (strategy 6715, 20 lots) entered 10:45 at strikes 22750/22850/22950. Spot 22,708 vs center 22,850, unrealized +\u20b92,470. Butterfly thesis: rally ~142 pts to 22,850 by Oct 27 (5 DTE). RSI 38 oversold, TimesFM slight upside. SENSEX 0 DTE expiry today - no new entries permitted. One bullish NIFTY view active per one-view rule. Day P&L -\u20b948.6k from stopped long put. Will trail overall stop to breakeven when profit reaches ~\u20b916.7k (1/3 of \u20b950k target). Next review in 90s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T14:09:47.230050+05:30",
       "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized -\u20b9390. NIFTY 22,626 below lower wing 22,700 challenges bullish thesis; 46 min to 14:55 forced exit. SENSEX 0 DTE expiry \u2014 no new entries. Day P&L -\u20b960.9k. No new trade: insufficient time for directional setup, butterfly needs room but time expiring, adding exposure risks overconcentration. Next review at ~14:50 to manage butterfly exit."
+    },
+    {
+      "time": "2026-10-22T14:13:31.796058+05:30",
+      "summary": "Squared off NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) at 14:13. Thesis broken: NIFTY 22,616 below lower wing 22,700 with only 42 min to 14:55 forced exit. TimesFM shows +0.09% to 22,645 \u2014 still below wing. Day P&L -\u20b960.9k (4 trades). SENSEX 0 DTE \u2014 no new entries. No new trades: insufficient time for directional setup, butterfly thesis invalid, adding exposure risks overconcentration. Session management complete."
     }
   ]
 }
