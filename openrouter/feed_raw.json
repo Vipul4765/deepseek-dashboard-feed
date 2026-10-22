@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T09:20:43.601106+05:30",
-      "summary": "Opened NIFTY bearish directional trade: long 22700 PUT (27 Oct expiry) 10 lots filled at \u20b9183.95 (09:19). Overall SL \u20b997k, TP \u20b950k. One view per index satisfied (NIFTY bearish). SENSEX signals conflict (price down 400pts at open, TimesFM bullish) - holding for clearer evidence before second trade. Strategy active with trail SL available for profit protection per boss directive. Next review in 120s."
-    },
-    {
       "time": "2026-10-22T09:21:32.466153+05:30",
       "summary": "HOLD. NIFTY long put 22700 (27 Oct) 10 lots active at \u20b9183.95, unrealized +\u20b94.9k (10% of \u20b950k target). NIFTY gapped down 200pts, RSI 33.7 oversold, TimesFM slightly bullish (+0.14%). SENSEX gapped down 400pts, expiry today, high IV 36%, TimesFM slightly bullish - conflicting signals, no clear directional edge. One view per index satisfied (NIFTY bearish). Not trailing SL yet (profit < 1/3 target). Next review in 60s for fresh evidence on SENSEX direction or NIFTY development."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T11:39:41.977083+05:30",
       "summary": "Holding NIFTY put butterfly (strategy 6720) entered 11:22: BUY 20\u00d722750 PE @146.95, SELL 40\u00d722700 PE @125.15, BUY 20\u00d722650 PE @106.10. Net debit \u20b92.75/lot (\u20b93,575). Unrealized +\u20b92,015. Max profit ~\u20b961k at 22700. NIFTY 22,724, TimesFM +0.09% \u2192 22,731 supportive. Day P&L -\u20b962,107 (3 trades). SENSEX 0 DTE expiry \u2014 no new positions. NIFTY 2-leg verticals blocked by performance guard (8+ trades, 20% win rate, net negative). One view per index satisfied (bearish butterfly). Will trail overall SL to break-even once profit \u2265\u20b910k, then lock half best profit. Next review in 60s."
+    },
+    {
+      "time": "2026-10-22T11:56:14.713975+05:30",
+      "summary": "Holding NIFTY put butterfly (strategy 6720): BUY 20\u00d722750 PE @146.95, SELL 40\u00d722700 PE @125.15, BUY 20\u00d722650 PE @106.10. Net debit \u20b92.75/lot (\u20b93,575). Unrealized -\u20b9845. Max profit ~\u20b961k at 22,700; max loss \u20b93,575. NIFTY 22,631 (LTP 22,625) below lower breakeven 22,653 \u2014 needs bounce to 22,700. SENSEX 0 DTE expiry today \u2014 no new entries allowed. Day P&L -\u20b962,107 (3 trades). One view per index satisfied (neutral/bullish butterfly on NIFTY). Trailing stop not yet triggered (profit <\u20b910k). No new trades; monitoring existing position. Next review in 60s."
     }
   ]
 }
