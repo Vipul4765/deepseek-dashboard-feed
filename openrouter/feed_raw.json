@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-19T13:17:08.380819+05:30",
-      "summary": "Square-off requested for SENSEX bull call spread 6lot (id 6686) due to thesis weakening (TimesFM slightly bearish, price below break-even). Will reassess after exit executes for new opportunities."
-    },
-    {
       "time": "2026-10-19T13:21:35.204056+05:30",
       "summary": "Waiting for strategy 6687 (SENSEX bear put spread 73900-73800 oct22 5lot) to start at 13:20. No runs yet. Today's P&L: +\u20b913,038.25 (target \u20b920,000). Will reassess after start or if fails to start."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-21T15:37:42.671973+05:30",
       "summary": "Daily target \u20b920,000 exceeded at \u20b922,284 realized P&L (NIFTY long put +\u20b915,314, SENSEX bear put spread +\u20b96,970). Both positions closed per boss directive to protect profits. No open runs remain. Market closes in 3 minutes (15:40 IST). Boss instruction explicit: stop opening new risk after target reached. HOLD - monitoring only, no new strategies."
+    },
+    {
+      "time": "2026-10-22T09:20:43.601106+05:30",
+      "summary": "Opened NIFTY bearish directional trade: long 22700 PUT (27 Oct expiry) 10 lots filled at \u20b9183.95 (09:19). Overall SL \u20b997k, TP \u20b950k. One view per index satisfied (NIFTY bearish). SENSEX signals conflict (price down 400pts at open, TimesFM bullish) - holding for clearer evidence before second trade. Strategy active with trail SL available for profit protection per boss directive. Next review in 120s."
     }
   ]
 }
