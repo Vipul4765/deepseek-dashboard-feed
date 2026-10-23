@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T11:13:23.958060+05:30",
-      "summary": "6717 SENSEX 0DTE bull put 73500/73300 (30 lots) exited itself at 11:13:11 as the L2 trail stop hit 131.35 (entry 192.65, +\u20b936,780) and the L1 hedge squared off at 76.80 (entry 121.15, -\u20b926,610) \u2014 net \u2248 +\u20b910,170; hedge stayed intact throughout. Day realized now \u2248 +\u20b953,078 (above the \u20b950k aim). Flat, no new entry: AI budget is at 0.755/0.80 USD, so I could not price/verify a fresh NIFTY or SENSEX spread this cycle. Next review in ~30 min, or earlier on fresh budget/event."
-    },
-    {
       "time": "2026-10-22T11:13:52.073630+05:30",
       "summary": "Flat: 6717 SENSEX 0DTE bull put finished at 11:13 (L2 trail 131.35 / L1 76.80) net +\u20b910,170; day realized \u2248 +\u20b953,078, above the \u20b950k aim. No new entry: both indices are extended (NIFTY 22,778 RSI 74.8, SENSEX 73,692 RSI 73.4, uptrend intact) but AI budget is at 0.771/0.80 USD, so I cannot price, margin-check or verify a fresh hedge \u2014 entering unverified would violate the hedge rule. Next review in 30 min; retry a bull put/bull call spread on a fresh-budget cycle if the up-momentum holds."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T13:39:33.947705+05:30",
       "summary": "No new entry. 6743 filled and verified from Core events: NIFTY 27-10 iron condor, SELL 22,400PE @80.20 / BUY 22,300PE @53.80, SELL 22,700CE @90.90 / BUY 22,800CE @60.40, 40 lots (2,600 units), net credit 56.85 on 100-wide wings \u2014 every short hedged, structure max loss \u20b91.12L capped by overall SL \u20b945k / TP \u20b955k, 50% leg SLs, 14:55 exit. Open P&L +\u20b93,640 (day realised \u2212\u20b93,293). NIFTY 22,493 (RSI 80) is rallying toward the short call; no second NIFTY view added. Managing via Core stops/trail; next review 10 min."
+    },
+    {
+      "time": "2026-10-23T13:45:03.703490+05:30",
+      "summary": "Closed the broken NIFTY condor 6743 (SELL 22,400PE/BUY 22,300PE, SELL 22,700CE/BUY 22,800CE, 40 lots). A 213-point vertical rally (spot 22,586, futures 22,673, RSI 87, realized vol well above 15.5% IV) ran it from +3.6k to \u22128.1k and put the short 22,700 call within 5 points of its stop; short gamma into that move was negative EV. Square-off requested, exit fills not yet journaled \u2014 next check in 3 min to confirm all four legs are flat. No new entry: fresh 70-minute spreads carry ~2.4\u20136k crossing cost into a stretched entry, and the AI budget is at its 0.80 limit. Day realised \u2248 \u22123.3k plus this run."
     }
   ]
 }
