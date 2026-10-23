@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:39:12.937147+05:30",
-      "summary": "Opened SENSEX 0DTE bull put 73400/73100 (SELL 30x ~\u03940.35 put, BUY 30x ~\u03940.20 put, 22-Oct), credit \u224870pts/unit (~\u20b942k), max loss ~\u20b91.38L capped by overall SL \u20b950k, TP \u20b932k, short-leg SL 60pts with 25/20 trail + break-even trail, complete square-off, exit 14:55. Thesis: up-momentum (SENSEX 73,605 above SMA20/50, RSI 58) with 275-pt downside buffer; avoids blocked SENSEX 4-leg shape. Start is waiting at 10:43 \u2014 fills unverified. 6711 NIFTY bull put open, +\u20b94,875, SL 120.2. Day realised +\u20b941,640. Next: confirm fills in 4 min."
-    },
-    {
       "time": "2026-10-22T10:42:00.499360+05:30",
       "summary": "No new entry. Day realised +\u20b941,640 (5 trades). 6711 NIFTY bull put 22650/22600 (30 lots, 27-Oct) is live and hedged: NIFTY 22,749, short put SL trailed to 120.2, unrealised +\u20b93,608. 6713 SENSEX 0DTE bull put 73400/73100 has no run yet \u2014 its 10:43 start is still pending, so fills/hedge unverified. Both open views are bullish, consistent with up-momentum (SENSEX 73,604, RSI 62). Skipped extra entries: both indices already carry one bullish view, so a third spread would duplicate thesis. Next: confirm 6713 fills at ~10:46, then trail at +\u20b910k open profit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T12:10:50.367657+05:30",
       "summary": "Held the only open position, NIFTY iron condor 6737 (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots, 27-10): mark +585, delta-neutral, short put ~20 pts from spot with leg SL 151.05, overall SL 100k and 14:55 exit. No new entry: NIFTY (RSI 39, below SMA20/50 after a 100-pt slide) and SENSEX (RSI 46) both stalled at range lows while TimesFM points mildly higher \u2014 no clear direction, and a second NIFTY structure would duplicate the threatened short put. Day -9,435. Trigger: 22400 break or fresh impulse."
+    },
+    {
+      "time": "2026-10-23T12:26:33.182468+05:30",
+      "summary": "HOLD. Only position: NIFTY iron condor 6737 (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots, 27-10) at mark -390, delta near flat; short put 22400 sits ~22 pts under spot 22422 near the day low, but leg SL 151, overall SL 100k and 14:55 exit cap the damage (put spread cushioned by the long 22300PE and the now-profitable call side). No new entry: NIFTY (below SMA20/50, RSI 48, flat TimesFM) and SENSEX (RSI 53, choppy) show no clear direction; a SENSEX short-put spread would duplicate 6737's put exposure and SENSEX 4-legs have a losing record. Day -9,435. Trigger: 22400 break or 22460 reclaim; review in 20 min."
     }
   ]
 }
