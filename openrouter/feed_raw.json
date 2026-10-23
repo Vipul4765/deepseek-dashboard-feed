@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T11:48:26.686557+05:30",
-      "summary": "HOLD: Two active bullish positions within risk limits \u2014 NIFTY 22500/22550/22600 call butterfly (10 lots, -\u20b965) and SENSEX 72900/72800 put spread (16 lots, -\u20b91,072). Both have \u20b920k overall SL, no trailing triggered (profit <\u20b910k). Market choppy mid-range (NIFTY 22407\u201322703, SENSEX 72487\u201373494) with marginal TimesFM upside (+0.06%/+0.04%). No clear directional entry signal; one-view-per-index satisfied. Day P&L -\u20b91,740 vs \u20b950k target. Next review in 60s to reassess recovery or defend exits by 14:55."
-    },
-    {
       "time": "2026-10-23T11:50:09.834076+05:30",
       "summary": "Squared off both active bullish positions (NIFTY call butterfly 6736, SENSEX put spread 6735) as price action invalidated the bullish thesis: NIFTY down 230 pts from open (22455 vs 22685), SENSEX down 735 pts (72709 vs 73444). Day P&L -\u20b91,740. Will verify fills next cycle and assess bearish directional setup (bear put spreads) if downtrend persists. One-view-per-index rule satisfied by exiting conflicting bullish views."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T14:06:08.305183+05:30",
       "summary": "HOLD. Active SENSEX bear put spread (6746) filled at 14:02: 24 lots, 73200/73100 PE, net debit \u20b945.15, unrealized -\u20b979. Thesis: SENSEX below 73100; current 73025 supports but TimesFM slightly bullish (+0.06%). Max loss \u20b920k, target \u20b930k, trail at \u20b910k\u2192BE. NIFTY 2-leg blocked (20% win rate, 10 trades); NIFTY 3/4-leg allowed but directional edge unclear (RSI 44, TimesFM -0.001%). Today -\u20b911.2k, 7-day -\u20b935.2k. Next review in 60s to confirm SENSEX thesis or spot clear NIFTY directional move."
+    },
+    {
+      "time": "2026-10-23T14:08:08.498902+05:30",
+      "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15, unrealized +\u20b925. Thesis intact \u2014 SENSEX 73051 below 73100 short strike, pullback from 73140 resistance. Max loss \u20b920k, target \u20b930k, trail at \u20b910k\u2192BE. Today \u2212\u20b911.2k (12 trades). NIFTY at 22569, stalled at 22593 resistance; TimesFM slightly bearish both indices. No NIFTY position (one-view rule satisfied). NIFTY 2-leg blocked (20% WR), 3/4-leg allowed but no clear directional edge. Next review in 60s to manage 6746 and reassess NIFTY."
     }
   ]
 }
