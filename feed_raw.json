@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:22:21.433015+05:30",
-      "summary": "Opened NIFTY bull put spread 6711 (sell 22600PE / buy 22500PE 27-10, 30 lots): credit \u224834.5 pts (~\u20b967k), max loss \u20b9127.7k, overall SL \u20b940k, TP \u20b950k, exit 14:55, short leg has 25-pt SL plus trailing stop to break-even. Thesis: NIFTY 22,669 above SMA20/50, RSI 67, higher lows off 22,589, TimesFM mildly up; breakeven 22,565 sits below today's low. Also confirmed SENSEX 6710 filled at 10:22 (buy 73300CE @241.8, short 73500CE @163.7, hedge intact). Day realised \u2212\u20b916.8k. Next: verify 6711 fill/hedge at 10:31."
-    },
-    {
-      "time": "2026-10-22T10:23:05.721292+05:30",
-      "summary": "Holding two bullish views, no new entries. SENSEX 6710 (buy 73300CE/sell 73600CE 22-10, 40 lots) filled 241.8/163.7, hedge intact, short-leg 45-pt SL + trail active, unrealised +2,960 (below \u20b910k break-even-trail rule). NIFTY 6711 (sell 22600PE/buy 22500PE 27-10, 30 lots) still scheduled for its 10:26 entry with 25-pt short-leg trail and overall SL \u20b940k/TP \u20b950k; NIFTY 22,695 above SMA20/50, RSI 68, TimesFM mildly up \u2014 thesis intact. Day realised \u2212\u20b916.8k. No new trade taken: one bull view per index already held, so extras would only duplicate exposure. Next: 10:30 verify 6711 fills/hedge and 6710 P&L."
-    },
-    {
       "time": "2026-10-22T10:24:37.200869+05:30",
       "summary": "Banked SENSEX 6710: short 73600CE stopped at 208.90 (-36,160) but I squared the residual long 73400CE at 356.00 (+91,360 as SENSEX spiked to 73,519) \u2014 campaign net \u2248 +55,200; day realised \u2248 +38.4k, no naked short left. NIFTY 6711 (sell 22600PE/buy 22500PE 27-10, 30 lots, SL 25pts, overall SL 40k/TP 50k) is still scheduled and should fire at 10:26; no run yet. No new trade: only the 0-DTE SENSEX expiry is eligible and a second bullish 0DTE spread would duplicate the NIFTY view at resistance (73,709 / 22,811). Next: 10:30 verify 6711 fills and hedge, then trail."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T10:49:44.165172+05:30",
       "summary": "HOLD, no edits. 6731 NIFTY 27-10 bear put (BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots) is live and hedged; fresh paper P&L +1,267 (unrealized), below the \u20b910k trail trigger \u2014 no stop change. Leg-wise settings use square_off=complete, so no naked-short risk from the long-leg SL/trail; overall SL 38k, TP 95k, exit 14:50. NIFTY 22,502 chopping after the 22,787\u219222,407 drop, forecast mildly up. No new trade: NIFTY view already held; SENSEX (72,843, RSI 48, near SMA20, flat forecast) lacks clear direction and 4-leg SENSEX shape is a blocked loser. Reassess ~19 min; exit thesis if NIFTY breaks 22,450 downside resumes, trail at 10k profit."
+    },
+    {
+      "time": "2026-10-23T11:05:46.881365+05:30",
+      "summary": "HOLD on new entries; protected the winner. 6731 NIFTY 27-10 bear put spread (BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots, hedged) is live at +\u20b913,552 unrealized; square_off=complete so any leg exit closes both legs. Started its long-leg trailing stop (L1 trigger 12%/shift 10%) so the gain can't round-trip; overall SL left at \u20b938k (Core rejects break-even/0). No new trade: NIFTY view already bearish, SENSEX would duplicate the same correlated thesis and its 4-leg neutral is a blocked loser shape. Next: trail-exit or decisive break under 22,450."
+    },
+    {
+      "time": "2026-10-23T11:06:59.268817+05:30",
+      "summary": "HOLD, no new entry. 6731 (NIFTY 27-10 bear put, BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots, fully hedged same expiry/type) is live at +\u20b912,870 unrealized (fresh, 1.3s); Core's leg trail already lifted L1 SL 109.70\u2192157.95 and will keep rising on new highs, so the winner can't round-trip. Verified priced but declined: SENSEX 29-10 72700/72500 bear put (88.55 debit, 200 wide, max +111.45, \u20b935,420 risk/20 lots) \u2014 duplicate of the same bearish index thesis with TimesFM flat (+0.03%, p50 72655 vs 72634). Next: trail/stop-hit event, or a decisive NIFTY break under 22,407 to consider adding."
     }
   ]
 }
