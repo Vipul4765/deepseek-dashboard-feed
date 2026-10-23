@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T09:49:49.051506+05:30",
-      "summary": "Flat after this morning's -\u20b917.7k exit, then created and started 6708: NIFTY 27-Oct iron condor, 50 lots/leg, ~22900/22950 calls + 22500/22450 puts (ATM 22650, spot 22663). Shorts sit outside the 2-day 22554-22811 range and at max-OI boundaries; net delta ~0. Credit ~27 pts \u2248 \u20b988k, worst-case \u20b974k, overall SL \u20b945k, TP \u20b960k, exit 14:55, leg trail_sl 12/7 with SL-to-break-even. Start returned \"waiting\" for the 09:55 entry \u2014 fills/strikes not yet confirmed by Core, so strikes are unverified until the next check. Next review in 6 min to confirm all four legs filled and hedged."
-    },
-    {
       "time": "2026-10-22T09:55:20.172367+05:30",
       "summary": "6708 NIFTY 27-Oct iron condor is LIVE and fully filled/hedged: sold calls 75.60 / bought 63.05, sold puts 97.95 / bought 83.15, 50 lots/leg, net credit ~27.35 pts (~\u20b988.9k), SL \u20b945k, TP \u20b960k, exit 14:55. Added directional SENSEX 0DTE (22-Oct) bull call spread 73300/73500, 40 lots, debit ~\u20b973k (worst case = debit), overall SL \u20b940k, TP \u20b970k, leg trail 40/20 with square-off complete, exit 14:55 \u2014 justified by RSI 67.8, price above both SMAs and higher intraday lows. Start returned \"waiting\"; fills unconfirmed. Next check in 3 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T10:05:31.770112+05:30",
       "summary": "Market open, flat after the morning trades (day \u2212\u20b914.4k: NIFTY condor +\u20b96.9k, SENSEX bull call \u2212\u20b921.3k). Strategy 6730 (NIFTY 4DTE 27-10 bear put vertical, ATM/otm_2, 30 lots) is still SCHEDULED with entry 10:10 and no fill yet \u2014 not counted as a position. Kept it: NIFTY at a new session low 22,560, below SMA20/50, futures sell-side heavy; hedged, worst case \u2248 debit \u20b972k, overall SL \u20b940k, TP \u20b970k, exit 14:50. Risk flagged: RSI 15 and TimesFM forecasts a bounce to \u224822,620, so a reclaim of \u224822,610 = momentum break, square off early. No second index view. Review in 5 min to confirm fills."
+    },
+    {
+      "time": "2026-10-23T10:10:45.700639+05:30",
+      "summary": "Holding the filled NIFTY 27-10 bear put spread (30 lots: BUY 22600 PE @171.00 / SELL 22500 PE @126.75, debit 44.25, hedged 1:1, max defined loss \u20b986.3k but overall SL \u20b940k, TP \u20b970k, exit 14:50, long-leg trail + break-even active). Mark \u224844.15, so flat on the position; day \u2212\u20b914.4k from the morning SENSEX bull call. NIFTY printed a fresh session low 22,522, so momentum thesis intact. No new entry: SENSEX 4-leg blocked by live record (8 trades, 25% win, \u2212\u20b911.7k) and a second bearish index spread would duplicate correlated risk into RSI 14\u201320 with a TimesFM bounce forecast. Trigger: reclaim of ~22,610 = square off early; review in 15 min."
     }
   ]
 }
