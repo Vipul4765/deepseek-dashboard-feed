@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T12:06:16.824586+05:30",
-      "summary": "Two active bearish positions held: SENSEX 72900-72800 bear put spread (20 lots) +\u20b91,700 unrealized; NIFTY 22450-22400-22350 put butterfly (27 lots) -\u20b9263 unrealized. Both fully hedged, max loss \u20b920k each. Daily realized P&L -\u20b93,786. Indices oversold (RSI ~44) in clear downtrend; TimesFM forecasts slight bounce. One view per index maintained (bearish). SENSEX trail trigger at \u20b910k not yet reached. No new entries - monitoring for trail or thesis change. Next review in 60s."
-    },
-    {
-      "time": "2026-10-23T12:07:20.237744+05:30",
-      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27 lots) -\u20b9702 unrealized; SENSEX 72900/72800 put spread (20 lots) +\u20b91,220 unrealized. Both max loss \u20b920k. Indices in clear downtrend (NIFTY -1.2%, SENSEX -0.7% since 10:06), RSI oversold (30/34), TimesFM forecasts minor bounce. One bearish view per index rule satisfied. SENSEX profit below \u20b910k trail trigger. Daily realized P&L -\u20b93,786. No new entries - monitoring existing positions for trailing stop activation or thesis change. Next review in 90s."
-    },
-    {
       "time": "2026-10-23T12:08:55.064659+05:30",
       "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27 lots) -\u20b988 unrealized; SENSEX 72900/72800 put spread (20 lots) +\u20b9860 unrealized. Both max loss \u20b920k. Indices in clear downtrend (NIFTY -1.2%, SENSEX -0.7% since 10:06), RSI oversold (35/37), TimesFM forecasts minor bounce. One bearish view per index rule satisfied. SENSEX profit below \u20b910k trail trigger. Daily realized P&L -\u20b93,786. No new entries - monitoring existing positions for trailing stop activation or thesis change. Next review in 90s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T14:45:43.248470+05:30",
       "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15/lot, unrealized +\u20b9164. Thesis intact \u2014 SENSEX 72,802 below 73,100 short strike, TimesFM bearish (p50 72,743). Overall SL \u20b920k, TP \u20b930k, no trail configured; profit \u20b9164 far from \u20b910k trail trigger. Today -\u20b911.2k (12 trades). NIFTY 22,464, stalled; NIFTY 2-leg verticals blocked by performance (20% WR, 10 trades, net negative). SENSEX already bearish (one-view rule). Only 11 min until 14:55 index exit \u2014 insufficient time for new directional setup. Managing 6746 only; exit at 14:55 or on SL/TP. Next review in 60s."
+    },
+    {
+      "time": "2026-10-23T14:56:21.956685+05:30",
+      "summary": "Session complete. All positions force-exited at 14:55 index exit (strategy 6746 SENSEX bear put spread closed at \u20b9128 realized). Today's final P&L: -\u20b911,222.25 (12 trades, 3 wins). No open runs remain. Index entry window closed at 14:55; only 5 minutes until market close. No further trades possible today. Next session tomorrow."
+    },
+    {
+      "time": "2026-10-23T14:57:36.837678+05:30",
+      "summary": "Session complete at 14:56 IST. Index entry window closed at 14:55; no new trades possible today. All 13 positions closed (4 wins, 9 losses). Today's realized P&L: -\u20b911,094.25. NIFTY (22487) and SENSEX (72812) both trending lower in final hour; TimesFM forecasts slight downside. Performance data shows NIFTY 4-leg condors (68% win rate) and SENSEX 2-leg spreads (44% win rate) as only viable historical setups, but 1-leg longs on NIFTY are deep negative (-\u20b941k). Account limits disabled; virtual capital \u20b9100Cr. Next review: tomorrow 09:15 for fresh session. No open runs, no pending actions."
     }
   ]
 }
