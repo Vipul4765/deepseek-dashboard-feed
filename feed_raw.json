@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T09:36:54.724672+05:30",
-      "summary": "Fixed a real hedge risk on 6707 (NIFTY 27-Oct 22600/22450 bear put, 25 lots, open +\u20b9569): the long hedge leg had a 146.55 leg SL plus an active leg trail that could close it alone and briefly leave the short naked. Moved L1 SL to 1.8 and disabled its leg trail, so only whole-strategy exits (overall SL \u20b945k, TP \u20b990k, 14:55) can close legs. No new entry: NIFTY view already held; SENSEX 0DTE IV 34\u201338%, bear put 73100/73000 = 54.3 debit for 45.7 max profit (R:R 0.84) with conflicting trend vs TimesFM. Next: break of 22558 strengthens 6707; trail overall SL at +\u20b910k."
-    },
-    {
       "time": "2026-10-22T09:37:31.712685+05:30",
       "summary": "HOLD. Open run 6707 (NIFTY 27-Oct 22600/22450 bear put, 25 lots, fills 176.55/112.30) is ACTIVE and hedged after last cycle's leg-SL/trail fix; unrealized -\u20b9650 with NIFTY 22586 still below SMA20/50 and near the 22554 low, so the bearish thesis stands (overall SL \u20b945k, TP \u20b990k, exit 14:55; trail to break-even once +\u20b910k). No new entry: NIFTY view already held, and SENSEX 0DTE (IV 35-38%, chop 73005-73273, TimesFM mildly up) gives no clean edge. Next: break of 22554 confirms 6707; SENSEX below 73000 or above 73275 reassessed."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T09:53:05.999094+05:30",
       "summary": "Cut the broken SENSEX bull call 6725 at \u2212\u20b921,330 (both legs filled, no naked short). Its gap-up bull thesis failed as SENSEX slid to ~73,340 below both SMAs; exiting avoided the drift toward the 45k stop. NIFTY condor 6726 intact and healthy at +\u20b99,360, hedges 30/30, inside 22,550\u201322,850 range. Day \u2248 \u2212\u20b912k. No new entry: NIFTY/SENSEX are in a choppy fade (RSI 44/46), forecasts flat, VIX up \u2014 no directional edge and I already hold a neutral NIFTY view. Next: trail 6726 to break-even when it hits +\u20b910k and watch the 22,550 put side; review in 6 min."
+    },
+    {
+      "time": "2026-10-23T09:55:19.408179+05:30",
+      "summary": "Hold. Open: NIFTY condor 6726 (sell 22,850 CE / 22,550 PE, hedges 30/30 verified) at +\u20b99,165 unrealised; short CE leg already trailed to 101.75, short PE stop 128.5 caps the put side. SENSEX bull call 6725 was closed earlier at \u2212\u20b921,330 (day \u2248 \u2212\u20b912k). No new entry: NIFTY 22,632 and SENSEX 72,995 both sit ~20 points off their morning lows after a choppy fade, RSI 40/37, TimesFM only +0.06%/+0.02% \u2014 buying a bear vertical at the range low is chasing, and one view per index is already held. Triggers: decisive break of 22,611 \u2192 momentum bear put; reclaim of 22,700 \u2192 bull spread. Review in 10 min."
     }
   ]
 }
