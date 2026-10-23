@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T13:09:41.830887+05:30",
-      "summary": "Closed NIFTY put butterfly (6720) at +\u20b9390 unrealized. Created and queued NIFTY bull call butterfly (6722) 10-lot 22700/22750/22800 CE for 13:15 entry \u2014 aligns with TimesFM bullish forecast (p50 22741). Max risk \u20b92,307 (well under \u20b920k limit), max profit ~\u20b930k at 22750. NIFTY 2-leg verticals blocked by performance gate; 3-leg butterfly allowed. SENSEX 0 DTE \u2014 no new entries. Day P&L -\u20b962.1k; targeting recovery via this directional butterfly. Next review at 13:15 for fill confirmation."
-    },
-    {
-      "time": "2026-10-22T13:10:36.910699+05:30",
-      "summary": "Market open, NIFTY 22694 (RSI 29.7 oversold bounce), SENSEX 73395 (0 DTE, no new entries). Day P&L -\u20b960.9k from 4 trades. Strategy 6722 (NIFTY bull call butterfly 22700/22750/22800, 10 lots, max loss \u20b920k) queued for 13:15 entry \u2014 aligns with TimesFM bullish forecast (p50 22737) and oversold reversal. No conflicting NIFTY positions (one-view rule). SENSEX 0 DTE blocks new trades. Will review at 13:15 for fill confirmation, then apply trailing stop: move overall SL to breakeven at \u20b910k profit, trail half of best profit thereafter."
-    },
-    {
       "time": "2026-10-22T13:16:21.818713+05:30",
       "summary": "NIFTY bull call butterfly 6722 (22700/22750/22800, 10/20/10 lots) filled at 13:15: L1 155.60, L2 130.75, L3 108.80. Unrealized -\u20b9293. Overall SL \u20b920k, TP \u20b930k set. Platform trailing not pre-configured; will manually trail via EDIT_OVERALL_STOP_LOSS when profit hits \u20b910k (move to breakeven), then half of best profit. Day P&L -\u20b960.9k (4 trades). SENSEX 0 DTE \u2014 no new entries. One-view rule satisfied (single bullish NIFTY structure). Next review in 60s to monitor active trade and trailing trigger."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T10:05:36.500925+05:30",
       "summary": "HOLD. NIFTY put butterfly (6727) showing +\u20b91,885 unrealized P&L (spot 22,560, center 22,700, lower wing 22,650). Three SENSEX bull call spreads stopped out for -\u20b93,950 total - thesis invalidated by fresh lows in strong downtrend. Both indices extremely oversold (NIFTY RSI 15, SENSEX RSI 17) with TimesFM slightly bullish (+0.18%/+0.19%), but price action remains sharply bearish well below SMAs. No new entries: one view per index rule prevents NIFTY bullish trade (have bearish butterfly), SENSEX bullish attempts failed 3x today. Monitoring butterfly for \u20b910k profit trail trigger per boss rule. Next review in 60s."
+    },
+    {
+      "time": "2026-10-23T10:23:34.931313+05:30",
+      "summary": "Closed NIFTY put butterfly (6727) - thesis invalidated with spot 22,472 well below structure center 22,700. Opened SENSEX bear call spread (6732): SELL 22x 72800 CE / BUY 22x 72900 CE Oct29, max loss \u20b920k, target \u20b930k, trailing stop at \u20b910k profit (leg trail_sl trigger 25pts shift 12pts, trail_sl_to_break_even_price=sl_legs). Entry at 10:25, exit 14:55. Day P&L -\u20b93,950 from three failed SENSEX bull spreads. One view per index now: NIFTY flat, SENSEX bearish. Next review at 10:25 to confirm fill."
+    },
+    {
+      "time": "2026-10-23T10:24:28.090452+05:30",
+      "summary": "Market open, both indices trending down from prev close (NIFTY -166, SENSEX -313). SENSEX bear call spread 6732 (SELL 22x 72800 CE / BUY 22x 72900 CE Oct29) scheduled entry at 10:25, max loss \u20b920k, target \u20b930k, trail at \u20b910k profit. Day P&L -\u20b93,072 from 3 failed SENSEX bull spreads. One view per index: SENSEX bearish via 6732, NIFTY flat. Next review in 2 min to confirm 6732 fill and hedge, then assess NIFTY for directional setup if evidence supports."
     }
   ]
 }
