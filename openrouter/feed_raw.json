@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T09:17:56.070047+05:30",
-      "summary": "Opened SENSEX bull call spread (strategy 6724): BUY 10x 73700 CE @ 790.2, SELL 10x 73900 CE @ 674.6 (29-Oct expiry). Net debit \u20b9115.6/lot, max loss ~\u20b923K, max profit ~\u20b917K. Overall SL \u20b920K, target \u20b915K, trail SL triggers at \u20b910K profit moving to breakeven then trails \u20b95K. Both legs filled at 09:17, fully hedged same expiry. NIFTY 2-leg blocked by poor historical WR (20%); SENSEX 2-leg chosen (46% WR, +\u20b92K lifetime). Next review in 120s to monitor trail activation and directional thesis."
-    },
-    {
       "time": "2026-10-23T09:22:30.738879+05:30",
       "summary": "Created and deployed NIFTY put butterfly (strategy 6727): BUY 10x 22750 PE, SELL 20x 22700 PE, BUY 10x 22650 PE (27-Oct expiry). Net debit ~\u20b93.9/lot, max loss ~\u20b93K, max profit ~\u20b935K. Overall SL \u20b915K, TP \u20b925K, trail SL at \u20b910K profit \u2192 breakeven then \u20b95K steps. Entry at 09:19, exit 14:55. SENSEX bull call spread (6724) active at -\u20b92,010 (SL \u20b920K). NIFTY 2-leg blocked by 20% win rate; chose 3-leg put butterfly (78% win rate) for bearish thesis (RSI 100, TimesFM -0.12%). Next review in 120s to confirm fills and monitor both positions."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T11:53:49.183512+05:30",
       "summary": "Day P&L -\u20b93,786 (8 trades, 3W/5L). Strategy 6739 (SENSEX bear put spread 72700-72600 Oct29, 20 lots) scheduled for 11:55 entry - aligns with clear downtrend (SENSEX -706 pts from open, RSI 48). All prior strategies completed. No open positions currently. NIFTY also down but less pronounced (RSI 51). Will verify 6739 fills at 11:55, then assess NIFTY for directional bearish trade (one view per index rule allows bearish on both). Max loss/trade \u20b920k, trailing stops required at \u20b910k profit. Next review in 2 min for entry confirmation."
+    },
+    {
+      "time": "2026-10-23T12:01:29.407554+05:30",
+      "summary": "Created and started NIFTY bear put butterfly (27/54/27 lots, Oct27 expiry) for 11:58 entry - aligns with clear downtrend (NIFTY -200 pts from open, below SMA20/50, RSI 41). SENSEX bear put spread (strategy 6739) filled at 11:55, unrealized -\u20b9540. Both indices now have single bearish views per one-view rule. NIFTY/2-leg blocked by performance gate; used 3-leg butterfly (NIFTY/3-leg: 75% win rate). Max loss capped at \u20b920k per trade, trailing stop via trail_sl_to_break_even_price. Next review in 60s for entry confirmation and P&L check."
     }
   ]
 }
