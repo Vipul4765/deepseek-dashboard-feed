@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T11:53:49.183512+05:30",
-      "summary": "Day P&L -\u20b93,786 (8 trades, 3W/5L). Strategy 6739 (SENSEX bear put spread 72700-72600 Oct29, 20 lots) scheduled for 11:55 entry - aligns with clear downtrend (SENSEX -706 pts from open, RSI 48). All prior strategies completed. No open positions currently. NIFTY also down but less pronounced (RSI 51). Will verify 6739 fills at 11:55, then assess NIFTY for directional bearish trade (one view per index rule allows bearish on both). Max loss/trade \u20b920k, trailing stops required at \u20b910k profit. Next review in 2 min for entry confirmation."
-    },
-    {
-      "time": "2026-10-23T12:01:29.407554+05:30",
-      "summary": "Created and started NIFTY bear put butterfly (27/54/27 lots, Oct27 expiry) for 11:58 entry - aligns with clear downtrend (NIFTY -200 pts from open, below SMA20/50, RSI 41). SENSEX bear put spread (strategy 6739) filled at 11:55, unrealized -\u20b9540. Both indices now have single bearish views per one-view rule. NIFTY/2-leg blocked by performance gate; used 3-leg butterfly (NIFTY/3-leg: 75% win rate). Max loss capped at \u20b920k per trade, trailing stop via trail_sl_to_break_even_price. Next review in 60s for entry confirmation and P&L check."
-    },
-    {
       "time": "2026-10-23T12:04:00.239977+05:30",
       "summary": "Two active bearish positions running: NIFTY butterfly (6741) +\u20b9526 unrealized, SENSEX bear put spread (6739) +\u20b91,440 unrealized. Both filled and hedged. Indices in clear downtrend (NIFTY -200pts, SENSEX -550pts from open) but RSI oversold ~33. TimesFM forecasts slight bounce. Daily realized P&L -\u20b93,786. Trailing stops will activate at \u20b910k profit per boss rule (move overall SL to break-even). One view per index maintained (bearish both). No new entries - managing existing risk. Next review in 60s for P&L check and trail trigger."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T14:13:01.534908+05:30",
       "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15, unrealized +\u20b919. Thesis intact \u2014 SENSEX 73011 below 73100 short strike, TimesFM bearish (p50 73006). Max loss \u20b920k, target \u20b930k, trail trigger \u20b910k not reached. Today -\u20b911.2k (12 trades). NIFTY at 22547, stalled at 22593 resistance; TimesFM slightly bearish. NIFTY 2-leg verticals blocked by performance (20% WR, 10 trades, net negative). SENSEX already bearish (one-view rule). Only 44 min until 14:55 index exit \u2014 insufficient time for new directional setup. Managing 6746 only. Next review in 60s."
+    },
+    {
+      "time": "2026-10-23T14:28:33.818905+05:30",
+      "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15, unrealized +\u20b934. Thesis intact \u2014 SENSEX 72904 below 73100 short strike, TimesFM bearish (p50 72899). Max loss \u20b920k, target \u20b930k, trail trigger \u20b910k not reached. Today -\u20b911.2k (12 trades). NIFTY 22524, stalled; NIFTY 2-leg verticals blocked by performance (20% WR, 10 trades, net negative). SENSEX already bearish (one-view rule). Only 29 min until 14:55 index exit \u2014 insufficient time for new directional setup. Managing 6746 only. Next review in 60s."
+    },
+    {
+      "time": "2026-10-23T14:29:23.021611+05:30",
+      "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15, unrealized +\u20b972. Thesis intact \u2014 SENSEX 72955 below 73100 short strike, TimesFM bearish (p50 72901). Max loss \u20b920k, target \u20b930k, trail trigger \u20b910k not reached. Today -\u20b911.2k (12 trades). NIFTY 22524, stalled; NIFTY 2-leg verticals blocked by performance (20% WR, 10 trades, net negative). SENSEX already bearish (one-view rule). Only 26 min until 14:55 index exit \u2014 insufficient time for new directional setup. Managing 6746 only. Next review in 60s."
     }
   ]
 }
