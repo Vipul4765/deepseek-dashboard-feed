@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:20:41.676874+05:30",
-      "summary": "Closed NIFTY 6708 after both short legs were trailed out (+15,600 / +14,625), leaving only two long hedges; square-off filled L2 22950CE @66.00 and L4 22450PE @73.95, booking +\u20b99,912 for the run (day realised \u2248 \u2212\u20b916.8k). 6710 SENSEX 0DTE bull call 73300/73500 (40 lots) starts at 10:22 \u2014 not yet filled. No new NIFTY trade: spot 22,662 sits just under the bounce high 22,691 after a 257-pt drop, so direction is unconfirmed. Next: confirm 6710 fill at 10:23; NIFTY bull call spread only above 22,700."
-    },
-    {
       "time": "2026-10-22T10:22:21.433015+05:30",
       "summary": "Opened NIFTY bull put spread 6711 (sell 22600PE / buy 22500PE 27-10, 30 lots): credit \u224834.5 pts (~\u20b967k), max loss \u20b9127.7k, overall SL \u20b940k, TP \u20b950k, exit 14:55, short leg has 25-pt SL plus trailing stop to break-even. Thesis: NIFTY 22,669 above SMA20/50, RSI 67, higher lows off 22,589, TimesFM mildly up; breakeven 22,565 sits below today's low. Also confirmed SENSEX 6710 filled at 10:22 (buy 73300CE @241.8, short 73500CE @163.7, hedge intact). Day realised \u2212\u20b916.8k. Next: verify 6711 fill/hedge at 10:31."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T10:34:27.001357+05:30",
       "summary": "HOLD. 6731 NIFTY 27-10 bear put spread (BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots) still open, P&L +4,680 fresh, hedged, overall SL 38k / TP 95k / exit 14:50 \u2014 below the Rs10,000 trail trigger, so no edit. No new trade: NIFTY direction already held; SENSEX bear spread would duplicate the same correlated downside into an extended 0.8% drop with IV up (VIX 16.85 vs 15.76), and SENSEX 4-leg is a blocked losing shape (25% win, -11,706). NIFTY 22,489 chopping above 22,459 low. Reassess 20 min; exit thesis if fresh lows break 22,450, tighten stop if profit passes 10k."
+    },
+    {
+      "time": "2026-10-23T10:49:44.165172+05:30",
+      "summary": "HOLD, no edits. 6731 NIFTY 27-10 bear put (BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots) is live and hedged; fresh paper P&L +1,267 (unrealized), below the \u20b910k trail trigger \u2014 no stop change. Leg-wise settings use square_off=complete, so no naked-short risk from the long-leg SL/trail; overall SL 38k, TP 95k, exit 14:50. NIFTY 22,502 chopping after the 22,787\u219222,407 drop, forecast mildly up. No new trade: NIFTY view already held; SENSEX (72,843, RSI 48, near SMA20, flat forecast) lacks clear direction and 4-leg SENSEX shape is a blocked loser. Reassess ~19 min; exit thesis if NIFTY breaks 22,450 downside resumes, trail at 10k profit."
     }
   ]
 }
