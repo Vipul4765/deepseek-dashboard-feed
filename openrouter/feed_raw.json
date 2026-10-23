@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T11:50:09.834076+05:30",
-      "summary": "Squared off both active bullish positions (NIFTY call butterfly 6736, SENSEX put spread 6735) as price action invalidated the bullish thesis: NIFTY down 230 pts from open (22455 vs 22685), SENSEX down 735 pts (72709 vs 73444). Day P&L -\u20b91,740. Will verify fills next cycle and assess bearish directional setup (bear put spreads) if downtrend persists. One-view-per-index rule satisfied by exiting conflicting bullish views."
-    },
-    {
       "time": "2026-10-23T11:52:43.179044+05:30",
       "summary": "Created and started SENSEX bear put spread (strategy 6739): BUY 20x 72700 PE, SELL 20x 72600 PE, Oct 29 expiry. Entry at 11:55, exit 14:55. Max loss \u20b920,000, target \u20b925,000, trailing stop activates at \u20b910k profit \u2192 breakeven then trails \u20b95k. Rationale: SENSEX down 706 pts from open (72,681 vs 73,387), RSI 43, clear downtrend. One bearish view on SENSEX, no conflicting positions. Day P&L -\u20b93,786; this trade aims toward \u20b950k daily target. Next review in 2 min to verify fills."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T14:08:08.498902+05:30",
       "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15, unrealized +\u20b925. Thesis intact \u2014 SENSEX 73051 below 73100 short strike, pullback from 73140 resistance. Max loss \u20b920k, target \u20b930k, trail at \u20b910k\u2192BE. Today \u2212\u20b911.2k (12 trades). NIFTY at 22569, stalled at 22593 resistance; TimesFM slightly bearish both indices. No NIFTY position (one-view rule satisfied). NIFTY 2-leg blocked (20% WR), 3/4-leg allowed but no clear directional edge. Next review in 60s to manage 6746 and reassess NIFTY."
+    },
+    {
+      "time": "2026-10-23T14:11:19.352268+05:30",
+      "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15, unrealized +\u20b93. Thesis intact \u2014 SENSEX 73030 below 73100 short strike, TimesFM bearish (p50 72990). Max loss \u20b920k, target \u20b930k, will trail at \u20b910k\u2192BE via live_edit. Today -\u20b911.2k (12 trades). NIFTY at 22554, stalled at 22593 resistance; TimesFM slightly bearish. NIFTY 2-leg blocked (20% WR, 10 trades), SENSEX already bearish (one-view rule). No high-conviction directional setup in 47 min until 14:55 exit. Next review in 60s to manage 6746."
     }
   ]
 }
