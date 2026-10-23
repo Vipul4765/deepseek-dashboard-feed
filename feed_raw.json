@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:46:23.626891+05:30",
-      "summary": "Day realized +\u20b942,907 (7 trades). Stopped 6714 before its 10:48 entry: it was created at the 10:35 high, SENSEX then fell 73657\u219273497 and the TimesFM path is flat, leaving 73600/73800 0DTE ~100+ points OTM at fair value (debit ~70) \u2014 no edge, so no entry. No open positions; every short remains hedged/closed. Fresh quotes show SENSEX 0DTE verticals fairly priced (bear call 73600/73700 credit ~38, bull put 73300/73200 credit ~30.5) and the NIFTY 5DTE condor EV ~flat, so no new start. Next review ~18 min for a fresh priced setup."
-    },
-    {
       "time": "2026-10-22T11:02:53.497485+05:30",
       "summary": "Opened and filled a directional bullish SENSEX 0DTE bull put spread (strategy 6717, 30 lots, run ACTIVE): bought the otm_4 put at 121.15 and sold the otm_2 put at 192.65 (600 units each, credit \u2248\u20b942,900, defined max loss \u2248\u20b977,100 at the 200-point width; core strikes resolved from ATM-relative selectors, absolute strikes not shown in fill events = unverified). Controls: short-leg SL 252.65, overall SL \u20b945,000, overall TP \u20b928,000, exit 14:55, complete square-off. Rationale: no directional edge on NIFTY (22,735, flat TimesFM), SENSEX bounced off 73,374 to ~73,560 above SMA20/50 with IVs rich; SENSEX 2-leg record 65% wins. Day P&L +\u20b942,907 before this trade. Next review 10 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T12:49:50.292927+05:30",
       "summary": "HOLD, no new entry. Open run 6737 NIFTY condor (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots, 27-10) marked -780 (fresh), delta near flat; short put now ATM at 100.7 entry with leg SL 151.05, call leg SL already trailed to 39.6, overall SL 100k, 14:55 exit. Assessed NIFTY (RSI 48, choppy off 22389 low, TimesFM +0.01%) and SENSEX (RSI 51, at SMA20, TimesFM +0.005%): both flat/ambiguous, no directional trigger; SENSEX 4-leg shape still refused by record. Day realized -9,435. Next check 13:14 or on stop events."
+    },
+    {
+      "time": "2026-10-23T13:06:20.122455+05:30",
+      "summary": "HOLD, no new entry. Live positions: 6737 NIFTY 27-10 condor (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots) now +2,632.5 fresh, net delta ~flat; short put near ATM (spot 22435), put-leg SL 151.05, call leg SL trailed 39.60, overall SL 100k, 14:55 exit \u2014 below the \u20b910k trail trigger, so no edit. Day realized -9,435. NIFTY/SENSEX show only a 15-min bounce inside a down day (1-min RSI ~70, TimesFM flat/slightly negative), so directional criteria unmet; SENSEX 4-leg blocked by its losing record and NIFTY already holds a neutral structure. Next check 15 min or on stop event."
     }
   ]
 }
