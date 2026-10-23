@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T11:30:56.186577+05:30",
-      "summary": "Holding two active bullish positions: NIFTY bull call butterfly 22500-22550-22600 (10 lots, -\u20b9357 unrealized) and SENSEX bull put spread 72900-72800 (16 lots, flat). Both within \u20b920k max-loss limit, fully hedged, exit by 14:55. Market recovered from morning lows (NIFTY 22407\u219222488, SENSEX 72487\u219272909) with bullish TimesFM forecasts (+0.09% NIFTY, +0.08% SENSEX). Day P&L -\u20b91,740 vs \u20b950k target. One-view-per-index satisfied (bullish both). No trailing triggers yet (profit <\u20b910k). No new trades - existing positions have room to work and combined max profit potential ~\u20b945k. Next review in 60s."
-    },
-    {
       "time": "2026-10-23T11:46:27.770066+05:30",
       "summary": "Holding two active bullish positions: NIFTY bull call butterfly 22500-22550-22600 (10 lots, -\u20b9455 unrealized) and SENSEX bull put spread 72900-72800 (16 lots, -\u20b91,024 unrealized). Both within \u20b920k max-loss limit, fully hedged, exit by 14:55. Market recovered from morning lows (NIFTY 22407\u219222457, SENSEX 72487\u219272706) with bullish TimesFM forecasts (+0.06% NIFTY, +0.04% SENSEX). Day P&L -\u20b91,740 vs \u20b950k target. One-view-per-index satisfied (bullish both). No trailing triggers yet (profit <\u20b910k). Next review in 60s to assess if recovery holds or positions need defensive action."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T13:58:58.402707+05:30",
       "summary": "Squared off both active bullish positions: NIFTY bull call butterfly 22650/22700/22750 (strategy 6745, -\u20b9881 unrealized) and SENSEX bull call spread 73300/73400 (strategy 6744, -\u20b988 unrealized). Both entered at 13:51 with \u20b920k max loss; indices pulled back from highs (NIFTY 22529, SENSEX 72964) invalidating bullish thesis. TimesFM forecasts -0.08% for both. Daily realized P&L -\u20b910,219. No conflicting positions remain (one view per index satisfied). Awaiting fill confirmation next cycle."
+    },
+    {
+      "time": "2026-10-23T14:03:08.699583+05:30",
+      "summary": "Created and started SENSEX bear put spread (73000/72900, 29-Oct, 24 lots) with \u20b920k max loss, \u20b930k target, and trailing stop (trigger \u20b910k \u2192 breakeven, then \u20b95k trail). Entry at 14:00 (in ~1 min). NIFTY 2-leg paused by performance gate; SENSEX 2-leg allowed (44% win rate >30%). Both indices show bearish bias (below SMA20, RSI 35-38, TimesFM -0.06%). Today's P&L -\u20b911.2k; 7-day -\u20b935.2k. No open positions remain after squaring off bullish trades. Next review at entry to confirm fills and monitor thesis."
     }
   ]
 }
