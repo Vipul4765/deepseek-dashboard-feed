@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:32:38.014667+05:30",
-      "summary": "HOLD. Both open trades are hedged and in profit: 6711 NIFTY 5DTE bull put 22650/22600 (+2,632, NIFTY 22,741) and 6712 SENSEX 0DTE bull put 73500/73300 (+5,025, SENSEX 73,557), consistent with the strong up-momentum (NIFTY +150 pts, SENSEX +440 pts off 10:02 lows). Day realised +38,440. No new trade: an additional NIFTY/SENSEX bull leg would duplicate the same thesis and breach one-view-per-index. Neither position has hit the \u20b910,000 trailing trigger, so stops unchanged. Next check in 10 min; exit by 14:55, cut if momentum breaks."
-    },
-    {
       "time": "2026-10-22T10:33:10.252582+05:30",
       "summary": "HOLD. Two hedged bull put spreads open and green: 6711 NIFTY 5DTE 22650/22600 (+3,120 unreal.) and 6712 SENSEX 0DTE 73500/73300 (+7,775 unreal., leg trail already at 188.1), matching strong up-momentum (NIFTY 22,755, SENSEX 73,609, RSI 62-64, above SMAs). Day realised +38,440. No new entry: any further NIFTY/SENSEX bull leg duplicates the same thesis and breaches one-view-per-index. 6712 is near the \u20b910,000 break-even trail trigger; I will move its overall SL to break-even then. Exit by 14:55, cut if momentum breaks. Next review in 8 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T11:29:26.597925+05:30",
       "summary": "HOLD, no new entry. Both NIFTY runs confirmed filled from Core: 6738 bull call 22500/22650 CE (20 lots, debit 66.70 \u2192 worst case \u20b986.7k, overall SL 45k/TP 85k, +\u20b9910) and 6737 iron condor short 22400PE/22850CE, long 22300PE/22950CE (30 lots, max profit \u20b990k / max loss \u20b9105k capped at 100k, +\u20b9292). All shorts hedged. Today realised \u2212\u20b94,170. Skipped SENSEX: choppy fade, no clear direction for a 2-leg, and SENSEX/4-leg is a blocked losing shape. NIFTY at 22475 is only ~75 pts above the condor short put \u2014 that is the trigger to watch; trailing moves to break-even only on \u20b910k open profit. Next review 10 min."
+    },
+    {
+      "time": "2026-10-23T11:39:24.466974+05:30",
+      "summary": "HOLD, no new entry. Both NIFTY runs healthy: 6737 iron condor (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots) +\u20b9683; 6738 bull call 22500/22650 (20 lots, debit 66.7) \u2212\u20b9585. All shorts hedged; worst cases \u20b9100k and \u20b987k. Skipped SENSEX/NIFTY new directional: indexes deeply oversold (RSI 30/26) after the morning slide while TimesFM is flat \u2014 momentum down but bounce risk high, and it would duplicate downside exposure. Today realised \u2212\u20b94,170. Trigger: NIFTY 22400 break or confirmed reversal; review 15 min."
     }
   ]
 }
