@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T11:24:29.660876+05:30",
-      "summary": "Holding two active bullish positions: NIFTY bull call butterfly 6736 (10 lots, +\u20b932.50) and SENSEX bull put spread 6735 (16 lots, +\u20b9368). Both within \u20b920k max loss, trailing stops not yet active (need \u20b910k profit). Day P&L -\u20b91,740. Markets sold off from open but recovering off lows (NIFTY 22407\u219222489, SENSEX 72487\u219272817) with slightly bullish TimesFM. Strategy 6734 (bearish SENSEX) not started due to one-view conflict. Monitoring for bounce continuation or clear directional setup. Next review in 60s."
-    },
-    {
       "time": "2026-10-23T11:28:25.616649+05:30",
       "summary": "Holding two active bullish positions aligned with market recovery: NIFTY bull call butterfly 22500-22550-22600 (10 lots, +\u20b932) and SENSEX bull put spread 72900-72800 (16 lots, -\u20b9416). Both within \u20b920k max loss. Day P&L -\u20b91,740 vs \u20b950k target. Market recovered from lows (NIFTY 22407\u219222488, SENSEX 72487\u219272909) with bullish TimesFM forecasts. Strategy 6734 (SENSEX bear put) correctly not started due to one-view rule. Trailing stops not yet triggered (profit <\u20b910k). No new trades needed - existing positions have room to work. Next review in 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T13:52:56.248443+05:30",
       "summary": "Two fresh bullish positions active: NIFTY bull call butterfly 22550/22600/22650 (20 lots, 3-leg, -\u20b9513 unrealized) and SENSEX bull call spread 73100/73200 (10 lots, 2-leg, +\u20b929 unrealized). Both entered at 13:51 with \u20b920k max loss, \u20b925k target, trailing stops from \u20b910k profit, exit 14:55. Markets overbought (NIFTY RSI 73, SENSEX RSI 78) with TimesFM forecasting slight pullback. One view per index maintained (bullish both). Daily realized -\u20b910,219, targeting +\u20b950,000. Next review in 2 minutes to monitor thesis validation and trailing stops."
+    },
+    {
+      "time": "2026-10-23T13:55:26.504861+05:30",
+      "summary": "Two active bullish positions: NIFTY bull call butterfly 22650/22700/22750 (20 lots, -\u20b91,170 unrealized) and SENSEX bull call spread 73300/73400 (10 lots, -\u20b983). Both entered 13:51 with \u20b920k max loss, \u20b925k target, trailing from \u20b910k profit. Markets pulling back (NIFTY 22515 vs SMA20 22520, SENSEX 72925 vs SMA20 72915); TimesFM forecasts -0.1% move. Thesis invalidation below NIFTY 22450 (SMA50) / SENSEX 72700 (SMA50). Daily realized -\u20b910,219. Monitoring closely; next review in 2 minutes."
     }
   ]
 }
