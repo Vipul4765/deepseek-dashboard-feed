@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T11:08:26.657234+05:30",
-      "summary": "Holding two active positions: NIFTY bull call butterfly 6736 (10 lots, 22500/22550/22600 Oct27) unrealized -\u20b9455; SENSEX bull put spread 6735 (16 lots, 72900/72800 Oct29) unrealized -\u20b9384. Both within \u20b920k max loss. Day P&L -\u20b91,739. Indices sold off from open (NIFTY -217, SENSEX -577) but RSI oversold (~47) with TimesFM slightly bullish. One-view-per-index satisfied (bullish both). Strategy 6734 (bearish SENSEX) not started due to conflict. Monitoring for oversold bounce or stop proximity. Next review 60s."
-    },
-    {
-      "time": "2026-10-23T11:09:31.806324+05:30",
-      "summary": "Holding two active bullish positions: NIFTY bull call butterfly 6736 (10 lots, 22500/22550/22600 Oct27) unrealized -\u20b9293; SENSEX bull put spread 6735 (16 lots, 72900/72800 Oct29) unrealized +\u20b9704. Both within \u20b920k max loss. Day P&L -\u20b91,740. Indices sold off from open (NIFTY -217, SENSEX -577) but RSI oversold (~42-43) with TimesFM slightly bullish. One-view-per-index satisfied (bullish both). Strategy 6734 (bearish SENSEX) not started due to conflict. Monitoring for oversold bounce or stop proximity. Next review in 60s."
-    },
-    {
       "time": "2026-10-23T11:24:29.660876+05:30",
       "summary": "Holding two active bullish positions: NIFTY bull call butterfly 6736 (10 lots, +\u20b932.50) and SENSEX bull put spread 6735 (16 lots, +\u20b9368). Both within \u20b920k max loss, trailing stops not yet active (need \u20b910k profit). Day P&L -\u20b91,740. Markets sold off from open but recovering off lows (NIFTY 22407\u219222489, SENSEX 72487\u219272817) with slightly bullish TimesFM. Strategy 6734 (bearish SENSEX) not started due to one-view conflict. Monitoring for bounce continuation or clear directional setup. Next review in 60s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T13:44:16.622034+05:30",
       "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) -\u20b92,194 unrealized (spot 22,579 vs short 22,400). SENSEX 72900/72800 put spread (20L) -\u20b96,580 unrealized (spot 73,116, both strikes OTM). Both within \u20b920k max loss, exits at 14:55. Indices rallied strongly last hour against positions; RSI overbought (87+) suggests pullback possible. TimesFM mixed: NIFTY slightly bullish, SENSEX slightly bearish. One bearish view per index satisfied - no conflicting positions. Daily realized -\u20b93,786, net -\u20b912,560 vs \u20b950k target. Neither hit \u20b910k trail trigger. Monitoring for pullback or thesis invalidation. No new entries per one-view rule. Next review in 5 min."
+    },
+    {
+      "time": "2026-10-23T13:51:44.314501+05:30",
+      "summary": "Closed two losing bearish positions (NIFTY put butterfly -\u20b91,842, SENSEX put spread -\u20b94,640) as strong rally above short strikes invalidated thesis. Created and started two fresh bullish strategies: SENSEX bull call spread 73100/73200 (10 lots, 2-leg) and NIFTY bull call butterfly 22550/22600/22650 (20 lots, 3-leg - 2-leg blocked by poor history). Both have \u20b920k max loss, \u20b925k target, trailing stop from \u20b910k profit. Entry 13:50, exit 14:55. One bullish view per index now. Daily realized -\u20b93,786, targeting \u20b950k. Next review after entry fills at 13:50."
+    },
+    {
+      "time": "2026-10-23T13:52:56.248443+05:30",
+      "summary": "Two fresh bullish positions active: NIFTY bull call butterfly 22550/22600/22650 (20 lots, 3-leg, -\u20b9513 unrealized) and SENSEX bull call spread 73100/73200 (10 lots, 2-leg, +\u20b929 unrealized). Both entered at 13:51 with \u20b920k max loss, \u20b925k target, trailing stops from \u20b910k profit, exit 14:55. Markets overbought (NIFTY RSI 73, SENSEX RSI 78) with TimesFM forecasting slight pullback. One view per index maintained (bullish both). Daily realized -\u20b910,219, targeting +\u20b950,000. Next review in 2 minutes to monitor thesis validation and trailing stops."
     }
   ]
 }
