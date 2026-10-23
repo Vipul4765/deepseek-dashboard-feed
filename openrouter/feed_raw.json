@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T12:05:08.133776+05:30",
-      "summary": "Two active bearish positions: SENSEX bear put spread 72900-72800 (20 lots) +\u20b91,460 unrealized; NIFTY butterfly 22450-22400-22350 (27 lots) -\u20b9175 unrealized. Both hedged, within \u20b920k max loss. Daily realized P&L -\u20b93,786. Indices oversold (RSI ~44) but in clear downtrend; TimesFM forecasts slight bounce. One view per index maintained (bearish). No new entries - monitoring for \u20b910k trail trigger on SENSEX spread. Next review in 60s."
-    },
-    {
       "time": "2026-10-23T12:06:16.824586+05:30",
       "summary": "Two active bearish positions held: SENSEX 72900-72800 bear put spread (20 lots) +\u20b91,700 unrealized; NIFTY 22450-22400-22350 put butterfly (27 lots) -\u20b9263 unrealized. Both fully hedged, max loss \u20b920k each. Daily realized P&L -\u20b93,786. Indices oversold (RSI ~44) in clear downtrend; TimesFM forecasts slight bounce. One view per index maintained (bearish). SENSEX trail trigger at \u20b910k not yet reached. No new entries - monitoring for trail or thesis change. Next review in 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T14:31:01.952951+05:30",
       "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15/lot, unrealized +\u20b99. Thesis intact \u2014 SENSEX 72,969 below 73,100 short strike, TimesFM bearish (p50 72,911). Overall SL \u20b920k, TP \u20b930k, no trail configured; profit \u20b99 far from \u20b910k trail trigger. Today -\u20b911.2k (12 trades). NIFTY 22,534, stalled; NIFTY 2-leg verticals blocked by performance (20% WR, 10 trades, net negative). SENSEX already bearish (one-view rule). Only 25 min until 14:55 index exit \u2014 insufficient time for new directional setup. Managing 6746 only; exit at 14:55 or on SL/TP. Next review in 60s."
+    },
+    {
+      "time": "2026-10-23T14:45:43.248470+05:30",
+      "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15/lot, unrealized +\u20b9164. Thesis intact \u2014 SENSEX 72,802 below 73,100 short strike, TimesFM bearish (p50 72,743). Overall SL \u20b920k, TP \u20b930k, no trail configured; profit \u20b9164 far from \u20b910k trail trigger. Today -\u20b911.2k (12 trades). NIFTY 22,464, stalled; NIFTY 2-leg verticals blocked by performance (20% WR, 10 trades, net negative). SENSEX already bearish (one-view rule). Only 11 min until 14:55 index exit \u2014 insufficient time for new directional setup. Managing 6746 only; exit at 14:55 or on SL/TP. Next review in 60s."
     }
   ]
 }
