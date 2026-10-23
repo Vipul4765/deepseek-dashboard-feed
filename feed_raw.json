@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T09:21:19.721725+05:30",
-      "summary": "Gap-down open with all indices below SMA20/50 and weak RSI (NIFTY 35, SENSEX 37) \u2014 bearish momentum. Created and started strategy 6707: NIFTY 27-Oct bear put spread, BUY 25 lots 22600 PE / SELL 25 lots 22450 PE (hedged, defined risk). Debit ~62.3 pts (~\u20b91.01L); worst case capped by overall SL \u20b945,000 and leg SL 30 pts; TP \u20b990,000; exit 14:55; trail_sl 35/25. Start is waiting for 09:24 entry \u2014 fill unverified. Next review in 150s to confirm fills and hedge."
-    },
-    {
       "time": "2026-10-22T09:22:47.497385+05:30",
       "summary": "Session open; NIFTY 22582 (RSI 32, below SMA20/50 after gap-down), SENSEX 73124 (RSI 35, gap-down then choppy recovery). Strategy 6707 (NIFTY 27-Oct 22600/22450 bear put spread, 25 lots, hedged, SL \u20b945k, TP \u20b990k, exit 14:55) is still SCHEDULED \u2014 entry at 09:24 has not fired yet, so no fills to verify. No new trade: SENSEX evidence is mixed/sideways and an added bear spread would duplicate the existing bearish index thesis. Next review in ~2 min to confirm 6707 fills and hedge, then reassess SENSEX."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T09:19:07.891015+05:30",
       "summary": "Gap-up momentum held on the first candles (SENSEX ~73,748, +0.68% vs 73,249 close; NIFTY ~22,785, +0.43%), so I took a defined-risk directional trade: created and started strategy 6725, SENSEX 29-10-2026 bull call spread, BUY 30x ATM call / SELL 30x OTM_5 (73700/74200) call, 30 lots each. Worst-case loss capped at \u20b945,000 overall SL (\u20b91.6L premium debit), TP \u20b965,000, leg SL 180 pts with 30/60 pt trail to break-even, complete square-off, 14:55 exit. Start is \"waiting\" at 09:20 entry; no fill yet. Next review 120s to confirm the fill and executed strikes from Core."
+    },
+    {
+      "time": "2026-10-23T09:21:38.655408+05:30",
+      "summary": "SENSEX 6725 filled: BUY 73800 CE @664 / SELL 74300 CE @437 (30 lots each, 29-10), debit \u20b9136,200, max profit \u20b9163,800, SL \u20b945k/TP \u20b965k, currently +\u20b91,800. Added NIFTY 6726: 27-10 iron condor (SELL 22850 CE @121.75 / BUY 22950 CE @82.15; SELL 22550 PE @78.50 / BUY 22450 PE @54.90, 30 lots) \u2014 credit \u20b9123,240, worst case \u20b971,760, overall SL \u20b945k, TP \u20b950k, leg SL 50pts, 4-leg hedged, margin \u20b91.96L. Both indices hedged; no naked shorts. Gap-up is fading and TimesFM is flat-to-down, so no further adds. Next check in 5 min for fills' marks and trailing (\u20b910k rule)."
     }
   ]
 }
