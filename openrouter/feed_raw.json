@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T10:24:28.090452+05:30",
-      "summary": "Market open, both indices trending down from prev close (NIFTY -166, SENSEX -313). SENSEX bear call spread 6732 (SELL 22x 72800 CE / BUY 22x 72900 CE Oct29) scheduled entry at 10:25, max loss \u20b920k, target \u20b930k, trail at \u20b910k profit. Day P&L -\u20b93,072 from 3 failed SENSEX bull spreads. One view per index: SENSEX bearish via 6732, NIFTY flat. Next review in 2 min to confirm 6732 fill and hedge, then assess NIFTY for directional setup if evidence supports."
-    },
-    {
-      "time": "2026-10-23T10:27:17.453092+05:30",
-      "summary": "Created and started NIFTY bear put butterfly 6733 (BUY 6x 22500 PE / SELL 12x 22400 PE / BUY 6x 22300 PE Oct27) as 3-leg directional bearish trade \u2014 NIFTY/2-leg blocked by poor history, 3-leg has 80% win rate. Filled at net \u20b92.50 debit (\u20b9975 max loss, \u20b938k max profit). SENSEX bear call spread 6732 active at +\u20b91,078 unrealized (trail triggers at \u20b910k). Day P&L -\u20b91,994 combined. One bearish view per index now held. Next review in 2 min to verify thesis and trailing."
-    },
-    {
       "time": "2026-10-23T10:35:23.446926+05:30",
       "summary": "Squared off NIFTY bear put butterfly (6733) \u2014 neutral structure conflicting with bearish view, realized +\u20b9136. SENSEX bear call spread (6732) remains active at -\u20b91,562 (22 lots, short 73,100 CE / long 73,200 CE Oct29). Day P&L -\u20b93,072. Both indices show pullback from morning lows (NIFTY 22,459\u219222,512, SENSEX 72,743\u219272,915) with TimesFM slightly bullish. Watching SENSEX for break above 73,000 to invalidate bearish thesis; NIFTY needs clear pullback failure at 22,550 for fresh bear put spread. Next review in 60s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T12:56:31.542724+05:30",
       "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) +\u20b9614 unrealized at critical level (spot 22,394 at short strike 22,400). SENSEX 72,900/72,800 put spread (20L) +\u20b92,560 unrealized deep ITM near max profit. Both within \u20b920k max loss, exits at 14:55. Indices at recent lows with oversold RSI (39/40) and mixed TimesFM (NIFTY -0.28%, SENSEX +1.76%). One bearish view per index satisfied. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b9612 vs \u20b950k target. Monitoring NIFTY butterfly closely for bounce invalidation or downtrend continuation. No new entries until clearer directional evidence or existing positions resolve. Next review 60s."
+    },
+    {
+      "time": "2026-10-23T12:57:24.793142+05:30",
+      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) -\u20b9527 unrealized at critical level (spot 22,397 at short strike 22,400). SENSEX 72900/72800 put spread (20L) +\u20b91,820 unrealized deep ITM. Both within \u20b920k max loss, exits at 14:55. Indices at recent lows with oversold RSI (44/41) and mixed TimesFM (NIFTY -0.52%, SENSEX +1.58%). One bearish view per index satisfied. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b9612 vs \u20b950k target. Monitoring NIFTY butterfly closely for bounce invalidation or downtrend continuation. No new entries until clearer directional evidence or existing positions resolve. Next review 60s."
+    },
+    {
+      "time": "2026-10-23T12:59:06.155263+05:30",
+      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) -\u20b9263 unrealized at critical level (spot 22,400 at short strike 22,400). SENSEX 72900/72800 put spread (20L) +\u20b91,320 unrealized deep ITM. Both within \u20b920k max loss, exits at 14:55. Indices at recent lows with oversold RSI (46/44) and mixed TimesFM (NIFTY -0.5%, SENSEX +0.02%). One bearish view per index satisfied. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b92,729 vs \u20b950k target. Monitoring NIFTY butterfly closely for bounce invalidation or downtrend continuation. No new entries until clearer directional evidence or existing positions resolve. Next review 60s."
     }
   ]
 }
