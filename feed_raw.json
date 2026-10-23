@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T09:37:31.712685+05:30",
-      "summary": "HOLD. Open run 6707 (NIFTY 27-Oct 22600/22450 bear put, 25 lots, fills 176.55/112.30) is ACTIVE and hedged after last cycle's leg-SL/trail fix; unrealized -\u20b9650 with NIFTY 22586 still below SMA20/50 and near the 22554 low, so the bearish thesis stands (overall SL \u20b945k, TP \u20b990k, exit 14:55; trail to break-even once +\u20b910k). No new entry: NIFTY view already held, and SENSEX 0DTE (IV 35-38%, chop 73005-73273, TimesFM mildly up) gives no clean edge. Next: break of 22554 confirms 6707; SENSEX below 73000 or above 73275 reassessed."
-    },
-    {
-      "time": "2026-10-22T09:47:52.185775+05:30",
-      "summary": "Exited 6707 (NIFTY 27-Oct 22600/22450 bear put, 25 lots, entry 176.55/112.30) via full square-off: NIFTY reversed from 22554 to 22666 (now 22649, above SMA20 22609, RSI 68, VIX falling), so the bear momentum that justified it broke; loss ~\u20b919.4k unrealized, exit fills pending confirmation. No new entry: NIFTY sits right at SMA50 22653/day high with a flat TimesFM path, and SENSEX 0DTE carries 37% IV on a 73026-73343 bounce \u2014 no clean edge. Recheck in 5 min: NIFTY holding above 22670 \u2192 bull call spread; back below 22595 \u2192 bear structure."
-    },
-    {
       "time": "2026-10-22T09:49:49.051506+05:30",
       "summary": "Flat after this morning's -\u20b917.7k exit, then created and started 6708: NIFTY 27-Oct iron condor, 50 lots/leg, ~22900/22950 calls + 22500/22450 puts (ATM 22650, spot 22663). Shorts sit outside the 2-day 22554-22811 range and at max-OI boundaries; net delta ~0. Credit ~27 pts \u2248 \u20b988k, worst-case \u20b974k, overall SL \u20b945k, TP \u20b960k, exit 14:55, leg trail_sl 12/7 with SL-to-break-even. Start returned \"waiting\" for the 09:55 entry \u2014 fills/strikes not yet confirmed by Core, so strikes are unverified until the next check. Next review in 6 min to confirm all four legs filled and hedged."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T09:55:19.408179+05:30",
       "summary": "Hold. Open: NIFTY condor 6726 (sell 22,850 CE / 22,550 PE, hedges 30/30 verified) at +\u20b99,165 unrealised; short CE leg already trailed to 101.75, short PE stop 128.5 caps the put side. SENSEX bull call 6725 was closed earlier at \u2212\u20b921,330 (day \u2248 \u2212\u20b912k). No new entry: NIFTY 22,632 and SENSEX 72,995 both sit ~20 points off their morning lows after a choppy fade, RSI 40/37, TimesFM only +0.06%/+0.02% \u2014 buying a bear vertical at the range low is chasing, and one view per index is already held. Triggers: decisive break of 22,611 \u2192 momentum bear put; reclaim of 22,700 \u2192 bull spread. Review in 10 min."
+    },
+    {
+      "time": "2026-10-23T10:04:38.979363+05:30",
+      "summary": "Condor 6726 squared off by its put-leg SL at 10:03: all 4 legs filled, +\u20b96,922.5 realised (day \u2248 \u2212\u20b914.4k). Flat, so new momentum trade created: strategy 6730, NIFTY 4 DTE (27-10) bear put vertical, buy ATM put / sell otm_2 put, 30 lots each, max debit \u2248 \u20b970k, overall SL \u20b940k, TP \u20b970k, leg trail 12/8 with break-even shift, exit 14:50; start accepted, entry 10:10 pending. Thesis: fresh day's low 22,566, price under SMA20/50, futures sell-side heavy. Entry fills not yet confirmed. Next check in 5 min."
+    },
+    {
+      "time": "2026-10-23T10:05:31.770112+05:30",
+      "summary": "Market open, flat after the morning trades (day \u2212\u20b914.4k: NIFTY condor +\u20b96.9k, SENSEX bull call \u2212\u20b921.3k). Strategy 6730 (NIFTY 4DTE 27-10 bear put vertical, ATM/otm_2, 30 lots) is still SCHEDULED with entry 10:10 and no fill yet \u2014 not counted as a position. Kept it: NIFTY at a new session low 22,560, below SMA20/50, futures sell-side heavy; hedged, worst case \u2248 debit \u20b972k, overall SL \u20b940k, TP \u20b970k, exit 14:50. Risk flagged: RSI 15 and TimesFM forecasts a bounce to \u224822,620, so a reclaim of \u224822,610 = momentum break, square off early. No second index view. Review in 5 min to confirm fills."
     }
   ]
 }
