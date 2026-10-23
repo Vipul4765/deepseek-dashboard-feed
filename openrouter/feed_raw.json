@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T13:20:07.148282+05:30",
-      "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized ~+\u20b9455. Overall SL \u20b920k, TP \u20b930k set. Trailing stop not yet configured - will add via live_edit when profit reaches \u20b910k (boss rule: move SL to breakeven). Day P&L -\u20b960.9k but max loss per trade capped at \u20b920k. SENSEX 0 DTE expiry today - no new entries allowed. NIFTY rangebound 22585-22774, slight bullish TimesFM forecast (+0.08%), RSI 42.5. One bullish view on NIFTY satisfied. Monitoring for \u20b910k profit to trail stop to breakeven. Next review in 60s."
-    },
-    {
       "time": "2026-10-22T13:21:15.912443+05:30",
       "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized -\u20b9552. Max loss \u20b91,885 (premium paid) well within \u20b920k overall SL. NIFTY 22,656 (-155 from prev close), 94 pts below 22750 sweet spot with 95 min to 14:55 exit. TimesFM +0.12%, RSI 35.8 oversold. SENSEX 0 DTE expiry - no new entries. One bullish NIFTY view satisfied. Day P&L -\u20b960.9k (limits disabled). Trailing stop will activate at \u20b910k profit. Next review in 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T10:35:23.446926+05:30",
       "summary": "Squared off NIFTY bear put butterfly (6733) \u2014 neutral structure conflicting with bearish view, realized +\u20b9136. SENSEX bear call spread (6732) remains active at -\u20b91,562 (22 lots, short 73,100 CE / long 73,200 CE Oct29). Day P&L -\u20b93,072. Both indices show pullback from morning lows (NIFTY 22,459\u219222,512, SENSEX 72,743\u219272,915) with TimesFM slightly bullish. Watching SENSEX for break above 73,000 to invalidate bearish thesis; NIFTY needs clear pullback failure at 22,550 for fresh bear put spread. Next review in 60s."
+    },
+    {
+      "time": "2026-10-23T10:38:36.610356+05:30",
+      "summary": "HOLD. SENSEX bear call spread (6732) active at +\u20b9506 unrealized; trailing stop on short 73100 CE at 586.3 (ask 577) protecting gains. NIFTY flat \u2014 mixed signals (below SMAs but bounced from lows, TimesFM slightly bullish, RSI ~46) don't meet \"clear direction\" threshold for new directional trade. Historical 2-leg win rates poor on both indices. Day P&L -\u20b92,487. Monitoring existing trail; reassessing NIFTY on fresh data next cycle."
     }
   ]
 }
