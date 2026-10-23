@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T14:15:08.851625+05:30",
-      "summary": "HOLD. No open positions. 42 min until 14:55 forced exit. NIFTY 22,613 (RSI 21.8 oversold, below SMA20/50, range low 22,585) with TimesFM +0.1% to 22,637 \u2014 directional bullish bias but insufficient time for thesis to play out. SENSEX 0 DTE (expiry today) blocks new entries. Day P&L -\u20b961.4k (5 trades). Max loss/trade \u20b920k cap respected. No trade meets quote/hedge/payoff/exit requirements in remaining window. Reassess at 14:18."
-    },
-    {
       "time": "2026-10-22T14:21:21.025616+05:30",
       "summary": "Opened NIFTY Iron Condor (strategy 6723) at 14:20: filled 10 lots each: short 22650 PE 134.30 / long 22600 PE 113.20, short 22750 CE 115.40 / long 22800 CE 95.45. Net credit 41.05 pts, max loss ~\u20b919.5k (within \u20b920k cap), margin \u20b96.27L. Unrealized +\u20b9812. Trailing stop armed: at \u20b910k profit moves to breakeven, then \u20b95k trail. Exit 14:55 (35 min). SENSEX expired today \u2014 no new entries. Day P&L -\u20b961.4k; targeting recovery via this defined-risk neutral trade. Next review in 2 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T11:08:26.657234+05:30",
       "summary": "Holding two active positions: NIFTY bull call butterfly 6736 (10 lots, 22500/22550/22600 Oct27) unrealized -\u20b9455; SENSEX bull put spread 6735 (16 lots, 72900/72800 Oct29) unrealized -\u20b9384. Both within \u20b920k max loss. Day P&L -\u20b91,739. Indices sold off from open (NIFTY -217, SENSEX -577) but RSI oversold (~47) with TimesFM slightly bullish. One-view-per-index satisfied (bullish both). Strategy 6734 (bearish SENSEX) not started due to conflict. Monitoring for oversold bounce or stop proximity. Next review 60s."
+    },
+    {
+      "time": "2026-10-23T11:09:31.806324+05:30",
+      "summary": "Holding two active bullish positions: NIFTY bull call butterfly 6736 (10 lots, 22500/22550/22600 Oct27) unrealized -\u20b9293; SENSEX bull put spread 6735 (16 lots, 72900/72800 Oct29) unrealized +\u20b9704. Both within \u20b920k max loss. Day P&L -\u20b91,740. Indices sold off from open (NIFTY -217, SENSEX -577) but RSI oversold (~42-43) with TimesFM slightly bullish. One-view-per-index satisfied (bullish both). Strategy 6734 (bearish SENSEX) not started due to conflict. Monitoring for oversold bounce or stop proximity. Next review in 60s."
     }
   ]
 }
