@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T12:30:21.577624+05:30",
-      "summary": "HOLD: Active NIFTY put butterfly (6720) +\u20b91,170 unrealized, max loss \u20b93.6k (within \u20b920k limit). Butterfly centered at 22,700, NIFTY 22,635 needs ~65pt bounce for max profit (\u20b980k TP). TimesFM +0.26% to 22,705, recent range 22,585-22,785. SENSEX 0 DTE expiry - no new entries allowed. One view per index satisfied (neutral-bullish butterfly). Day P&L -\u20b962,107. Trail rule: move SL to breakeven at \u20b910k profit (not reached). Monitoring for bounce toward 22,700 or stop. Next review 60s."
-    },
-    {
       "time": "2026-10-22T12:44:22.313214+05:30",
       "summary": "HOLD: NIFTY put butterfly (6720) active, +\u20b9325 unrealized, max loss \u20b920k within limit. Butterfly centered at 22700 (strikes 22750-22700-22650), NIFTY 22631 needs ~69pt bounce for max profit. TimesFM projects gradual rise to 22674 (p50). SENSEX 0 DTE expiry blocks new entries. One view per index satisfied (neutral-bullish butterfly). Day P&L -\u20b962,107. Trail rule: move SL to breakeven at \u20b910k profit (not reached). Monitoring for bounce toward 22700 or stop. Next review 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T09:35:29.684676+05:30",
       "summary": "Opened SENSEX bull call spread 73500-73600 (10 lots) at 09:34, filled: buy 73500 CE @643.7, sell 73600 CE @591.85 (net debit \u20b910,370). Strategy has \u20b920k max loss, \u20b930k target, trailing stop at \u20b910k profit. NIFTY put butterfly 22750-22700-22650 (6727) continues at +\u20b91,007 unrealized, spot 22710 near center 22700. Today's net P&L: -\u20b92,470 (closed) + \u20b91,007 (open) = -\u20b91,463. One view per index maintained: NIFTY neutral/bearish via butterfly, SENSEX bullish via vertical. Next review in 60s to monitor trailing triggers and thesis."
+    },
+    {
+      "time": "2026-10-23T09:38:55.837707+05:30",
+      "summary": "HOLD. Two active defined-risk positions: SENSEX bull call spread 73700-73800 (10 lots, filled 09:34, -\u20b9770 unrealized, \u20b920k SL) and NIFTY put butterfly 22750-22700-22650 (10 lots, filled 09:22, +\u20b91,398 unrealized, \u20b915k SL). Both within max-loss limits. NIFTY profit not yet at \u20b910k trail trigger. Market 09:35 IST, indices below SMAs but TimesFM slightly bullish. One view per index maintained (NIFTY neutral/bearish, SENSEX bullish). No new entry forced; monitoring for trail triggers and thesis validation. Next review in 60s."
     }
   ]
 }
