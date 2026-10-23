@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T13:23:03.367430+05:30",
-      "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized +\u20b9227. Max loss \u20b91,885 (premium paid) well within \u20b920k overall SL. NIFTY 22,647 (-164 from prev close), 103 pts below 22,750 sweet spot with 94 min to 14:55 exit. TimesFM +0.14%, RSI 28 oversold supports bounce but overhead SMA resistance at 22,668/22,685. SENSEX 0 DTE expiry - no new entries per rules. One bullish NIFTY view satisfied via butterfly. Day P&L -\u20b960.9k (limits disabled). Trailing stop will activate at \u20b910k profit via live_edit. No new trade: butterfly needs room to develop, adding correlated bullish exposure risks overconcentration. Next review in 60s."
-    },
-    {
       "time": "2026-10-22T13:37:14.066530+05:30",
       "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized -\u20b9552. Max loss \u20b91,885 (premium paid) well within \u20b920k overall SL. NIFTY 22,620 (-191 from prev close), 80 pts below 22,700 lower wing with 79 min to 14:55 exit. TimesFM +0.08%, RSI 32.7 oversold supports bounce but overhead SMA resistance at 22,668/22,685. SENSEX 0 DTE expiry - no new entries per rules. One bullish NIFTY view satisfied via butterfly. Day P&L -\u20b960.9k (limits disabled). Trailing stop will activate at \u20b910k profit via live_edit. No new trade: butterfly needs room to develop, adding correlated bullish exposure risks overconcentration. Next review in 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T10:42:48.644835+05:30",
       "summary": "HOLD. SENSEX bear call spread (6732) active at +\u20b9506 unrealized; trailing stop on short 73100 CE at 586.3 (ask 577) protecting gains. NIFTY flat \u2014 mixed signals (below SMAs but bounced from lows, TimesFM slightly bullish, RSI ~46) don't meet \"clear direction\" threshold for new directional trade. Historical 2-leg win rates poor on both indices. Day P&L -\u20b92,487. Monitoring existing trail; reassessing NIFTY on fresh data next cycle."
+    },
+    {
+      "time": "2026-10-23T10:56:49.879425+05:30",
+      "summary": "Created and started SENSEX bull put spread (6735): sell 16x 72700 PE / buy 16x 72600 PE, Oct 29 expiry, entry 10:55, exit 14:55. Max loss \u20b920k, target \u20b930k, trail starts at \u20b910k profit to breakeven then trails half. Rationale: SENSEX oversold (RSI 36.5), bounced 225 pts from 10:38 low, TimesFM slightly bullish. No open runs currently; day P&L -\u20b91,739. Will confirm fill at 10:55 and monitor trail."
     }
   ]
 }
