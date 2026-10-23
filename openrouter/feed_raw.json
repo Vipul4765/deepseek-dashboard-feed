@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T13:16:21.818713+05:30",
-      "summary": "NIFTY bull call butterfly 6722 (22700/22750/22800, 10/20/10 lots) filled at 13:15: L1 155.60, L2 130.75, L3 108.80. Unrealized -\u20b9293. Overall SL \u20b920k, TP \u20b930k set. Platform trailing not pre-configured; will manually trail via EDIT_OVERALL_STOP_LOSS when profit hits \u20b910k (move to breakeven), then half of best profit. Day P&L -\u20b960.9k (4 trades). SENSEX 0 DTE \u2014 no new entries. One-view rule satisfied (single bullish NIFTY structure). Next review in 60s to monitor active trade and trailing trigger."
-    },
-    {
       "time": "2026-10-22T13:18:58.615136+05:30",
       "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled at 13:15, unrealized +\u20b932.5. Overall SL \u20b920k, TP \u20b930k set. Trailing not yet triggered (needs \u20b910k profit). Day P&L -\u20b960.9k but rules forbid chasing losses. SENSEX 0 DTE expiry \u2014 no new entries. NIFTY shows mixed signals (RSI 36, slight bullish forecast) but no clear directional edge for new trade. One-view rule satisfied. Monitoring for \u20b910k profit to trail stop to breakeven via live_edit. Next review in 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T10:24:28.090452+05:30",
       "summary": "Market open, both indices trending down from prev close (NIFTY -166, SENSEX -313). SENSEX bear call spread 6732 (SELL 22x 72800 CE / BUY 22x 72900 CE Oct29) scheduled entry at 10:25, max loss \u20b920k, target \u20b930k, trail at \u20b910k profit. Day P&L -\u20b93,072 from 3 failed SENSEX bull spreads. One view per index: SENSEX bearish via 6732, NIFTY flat. Next review in 2 min to confirm 6732 fill and hedge, then assess NIFTY for directional setup if evidence supports."
+    },
+    {
+      "time": "2026-10-23T10:27:17.453092+05:30",
+      "summary": "Created and started NIFTY bear put butterfly 6733 (BUY 6x 22500 PE / SELL 12x 22400 PE / BUY 6x 22300 PE Oct27) as 3-leg directional bearish trade \u2014 NIFTY/2-leg blocked by poor history, 3-leg has 80% win rate. Filled at net \u20b92.50 debit (\u20b9975 max loss, \u20b938k max profit). SENSEX bear call spread 6732 active at +\u20b91,078 unrealized (trail triggers at \u20b910k). Day P&L -\u20b91,994 combined. One bearish view per index now held. Next review in 2 min to verify thesis and trailing."
     }
   ]
 }
