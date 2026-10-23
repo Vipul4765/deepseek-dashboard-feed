@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T14:21:21.025616+05:30",
-      "summary": "Opened NIFTY Iron Condor (strategy 6723) at 14:20: filled 10 lots each: short 22650 PE 134.30 / long 22600 PE 113.20, short 22750 CE 115.40 / long 22800 CE 95.45. Net credit 41.05 pts, max loss ~\u20b919.5k (within \u20b920k cap), margin \u20b96.27L. Unrealized +\u20b9812. Trailing stop armed: at \u20b910k profit moves to breakeven, then \u20b95k trail. Exit 14:55 (35 min). SENSEX expired today \u2014 no new entries. Day P&L -\u20b961.4k; targeting recovery via this defined-risk neutral trade. Next review in 2 min."
-    },
-    {
-      "time": "2026-10-22T14:22:14.050826+05:30",
-      "summary": "HOLD - Monitoring active NIFTY Iron Condor (strategy 6723, 10 lots) filled at 14:20: short 22650 PE/22750 CE, long 22600 PE/22800 CE. Net credit 41.05 pts, max loss ~\u20b919.5k (within \u20b920k cap), current unrealized +\u20b997.5. Exit scheduled 14:55 (34 min). NIFTY 22645, bullish bias (RSI 68.5, above SMA20/50, TimesFM +0.07%), but condor range 22650-22750 contains current price. SENSEX expired today - no new entries. MCX blocked. Day P&L -\u20b961.4k. Will trail condor at \u20b910k profit (move overall SL to breakeven, then ~half-best-profit trail). No new trades with 34 min left in entry window. Next review in 120s."
-    },
-    {
       "time": "2026-10-22T14:52:20.062617+05:30",
       "summary": "HOLD - Active NIFTY iron condor (6723, 10 lots) filled at 14:20: short 22650 PE/22750 CE, long 22600 PE/22800 CE. Net credit 41.05 pts, max loss ~\u20b919.5k (within \u20b920k cap), current unrealized ~\u20b90. Exit scheduled 14:55 (4 min). NIFTY 22646, bullish bias (TimesFM +0.2%), but condor range 22650-22750 contains price. SENSEX expired today - no new entries. MCX blocked. Day P&L -\u20b961.4k. Only 4 min until entry cutoff (14:55); no time for new directional trade. Will monitor condor exit at 14:55. Next review in 60s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T11:09:31.806324+05:30",
       "summary": "Holding two active bullish positions: NIFTY bull call butterfly 6736 (10 lots, 22500/22550/22600 Oct27) unrealized -\u20b9293; SENSEX bull put spread 6735 (16 lots, 72900/72800 Oct29) unrealized +\u20b9704. Both within \u20b920k max loss. Day P&L -\u20b91,740. Indices sold off from open (NIFTY -217, SENSEX -577) but RSI oversold (~42-43) with TimesFM slightly bullish. One-view-per-index satisfied (bullish both). Strategy 6734 (bearish SENSEX) not started due to conflict. Monitoring for oversold bounce or stop proximity. Next review in 60s."
+    },
+    {
+      "time": "2026-10-23T11:24:29.660876+05:30",
+      "summary": "Holding two active bullish positions: NIFTY bull call butterfly 6736 (10 lots, +\u20b932.50) and SENSEX bull put spread 6735 (16 lots, +\u20b9368). Both within \u20b920k max loss, trailing stops not yet active (need \u20b910k profit). Day P&L -\u20b91,740. Markets sold off from open but recovering off lows (NIFTY 22407\u219222489, SENSEX 72487\u219272817) with slightly bullish TimesFM. Strategy 6734 (bearish SENSEX) not started due to one-view conflict. Monitoring for bounce continuation or clear directional setup. Next review in 60s."
+    },
+    {
+      "time": "2026-10-23T11:28:25.616649+05:30",
+      "summary": "Holding two active bullish positions aligned with market recovery: NIFTY bull call butterfly 22500-22550-22600 (10 lots, +\u20b932) and SENSEX bull put spread 72900-72800 (16 lots, -\u20b9416). Both within \u20b920k max loss. Day P&L -\u20b91,740 vs \u20b950k target. Market recovered from lows (NIFTY 22407\u219222488, SENSEX 72487\u219272909) with bullish TimesFM forecasts. Strategy 6734 (SENSEX bear put) correctly not started due to one-view rule. Trailing stops not yet triggered (profit <\u20b910k). No new trades needed - existing positions have room to work. Next review in 60s."
     }
   ]
 }
