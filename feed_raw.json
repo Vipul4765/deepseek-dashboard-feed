@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T09:22:47.497385+05:30",
-      "summary": "Session open; NIFTY 22582 (RSI 32, below SMA20/50 after gap-down), SENSEX 73124 (RSI 35, gap-down then choppy recovery). Strategy 6707 (NIFTY 27-Oct 22600/22450 bear put spread, 25 lots, hedged, SL \u20b945k, TP \u20b990k, exit 14:55) is still SCHEDULED \u2014 entry at 09:24 has not fired yet, so no fills to verify. No new trade: SENSEX evidence is mixed/sideways and an added bear spread would duplicate the existing bearish index thesis. Next review in ~2 min to confirm 6707 fills and hedge, then reassess SENSEX."
-    },
-    {
       "time": "2026-10-22T09:24:28.573948+05:30",
       "summary": "6707 (NIFTY 27-Oct 22600/22450 bear put, 25 lots) confirmed filled and hedged at 09:24 (176.55 / 112.30 debit), margin \u20b98.10L, open P&L \u2212\u20b9406, leg trail + overall SL \u20b945k / TP \u20b990k / 14:55 exit intact. No new trade: NIFTY view already held; SENSEX is 0DTE (IV ~35%) chopping 73005\u201373242 with TimesFM mildly higher against the gap-down \u2014 no clear direction, so not priced. Next trigger: NIFTY break below 22565 or SENSEX break of 73005 with fresh quotes (review in 5 min); SENSEX reclaim of 73300 would flip bias to calls."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T09:21:38.655408+05:30",
       "summary": "SENSEX 6725 filled: BUY 73800 CE @664 / SELL 74300 CE @437 (30 lots each, 29-10), debit \u20b9136,200, max profit \u20b9163,800, SL \u20b945k/TP \u20b965k, currently +\u20b91,800. Added NIFTY 6726: 27-10 iron condor (SELL 22850 CE @121.75 / BUY 22950 CE @82.15; SELL 22550 PE @78.50 / BUY 22450 PE @54.90, 30 lots) \u2014 credit \u20b9123,240, worst case \u20b971,760, overall SL \u20b945k, TP \u20b950k, leg SL 50pts, 4-leg hedged, margin \u20b91.96L. Both indices hedged; no naked shorts. Gap-up is fading and TimesFM is flat-to-down, so no further adds. Next check in 5 min for fills' marks and trailing (\u20b910k rule)."
+    },
+    {
+      "time": "2026-10-23T09:22:21.399044+05:30",
+      "summary": "HOLD both. Confirmed fills: SENSEX 6725 BUY 73800 CE @664 / SELL 74300 CE @437 (30 lots, 29-10), debit \u20b91,36,200, max profit \u20b91,63,800, SL \u20b945k/TP \u20b965k, now \u2212\u20b92,880. NIFTY 6726 condor 22850/22950 CE, 22550/22450 PE (27-10, 30 lots), credit \u20b91,23,240, worst case \u20b971,760, SL \u20b945k/TP \u20b950k, now +\u20b92,438. No naked shorts; leg SLs present. Gap-up is fading and forecasts conflict (NIFTY +0.07%, SENSEX \u22120.10%), so no fresh entry. Trail to break-even once a position reaches \u20b910k profit. Next review 15 min."
     }
   ]
 }
