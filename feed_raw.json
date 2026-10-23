@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-21T13:18:21.671506+05:30",
-      "summary": "Squared off 6705 NIFTY 27-Oct condor after its short-call leg stopped out and the residual (long 23000CE + short 22600/22500 put spread, ~+700 delta) bet against a falling index. Core confirmed exits: L2 78.85, L3 113.85, L4 83.20, run DONE, margin released, flat book. Strategy net \u2248 +\u20b92.24k (realized +\u20b913.55k from leg 1); day now \u2248 +\u20b95.5k realized. No new entry: TimesFM flat-to-down, NIFTY bouncing off 22702, and budget 0.78/0.80 leaves no room to price and verify a hedged spread. Next review 30 min; re-engage on a clean break below 22700 with fresh budget."
-    },
-    {
       "time": "2026-10-22T09:15:28.899033+05:30",
       "summary": "Flat book, day P&L 0, budget 0.00/0.80. Both sessions open but at 09:15:00 there are no completed 1-min candles for today and opening quotes are unsettled: NIFTY 27-Oct chain implies a forward ~22735 vs live index 22672 / futures 22623, and SENSEX 22-Oct puts show null bid/ask. No entry \u2014 a hedged spread cannot be priced or verified on those marks. Assessed NIFTY and SENSEX. Next: re-price in ~5 min; bear put spread if NIFTY holds below 22700 with lower highs, bull call spread if it reclaims 22750."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-22T11:43:52.463630+05:30",
       "summary": "Flat: no open runs, day realized +\u20b953,078 (5 wins/2 losses) already above the \u20b950k aim. No new entry: AI budget is at 0.793/0.80 USD, so a candidate could not be priced, margin-checked or hedge-verified without risking a mid-entry cap-out. Market context also mixed \u2014 both indices pushed lower (NIFTY 22,688 RSI 30.6, SENSEX 73,402 RSI 28.2) while TimesFM path leans mildly higher, so no clean, hedge-verifiable directional edge. Next review in 30 min; if the cap blocks calls, the account stays flat with nothing at risk."
+    },
+    {
+      "time": "2026-10-23T09:15:36.739287+05:30",
+      "summary": "Flat, no open runs, today P&L \u20b90, AI budget fresh (0.0/0.80). NSE/BSE sessions open (09:15\u201315:40). Both indices gapped up: NIFTY ~22,739 vs 22,687 close, SENSEX ~73,535 vs 73,249, futures at a premium (NIFTY fut 22,803, SENSEX fut 73,615) \u2014 mildly bullish, TimesFM flat-to-up. But at 09:15:00 there are zero completed intraday candles, so fresh price-action direction/momentum cannot yet be confirmed; no trade forced. Next review in ~3 min: once opening bars print, if the gap holds with up-momentum, enter a defined-risk NIFTY/SENSEX bull call or bull put spread with stop, trail and 14:55 exit."
     }
   ]
 }
