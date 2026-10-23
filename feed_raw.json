@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T09:55:20.172367+05:30",
-      "summary": "6708 NIFTY 27-Oct iron condor is LIVE and fully filled/hedged: sold calls 75.60 / bought 63.05, sold puts 97.95 / bought 83.15, 50 lots/leg, net credit ~27.35 pts (~\u20b988.9k), SL \u20b945k, TP \u20b960k, exit 14:55. Added directional SENSEX 0DTE (22-Oct) bull call spread 73300/73500, 40 lots, debit ~\u20b973k (worst case = debit), overall SL \u20b940k, TP \u20b970k, leg trail 40/20 with square-off complete, exit 14:55 \u2014 justified by RSI 67.8, price above both SMAs and higher intraday lows. Start returned \"waiting\"; fills unconfirmed. Next check in 3 min."
-    },
-    {
       "time": "2026-10-22T09:56:18.699857+05:30",
       "summary": "Holding both live positions. 6708 NIFTY 27-Oct iron condor (50 lots/leg, fills confirmed: sold 22900CE/22500PE, bought 22950CE/22450PE) +\u20b91,137, SL\u20b945k. 6709 SENSEX 0DTE bull call (fills confirmed 73200CE @314.50 / 73400CE @215.05, 40 lots) +\u20b91,080, leg trail_sl set (trigger 40/shift 20), overall SL\u20b940k, exit 14:55. No new trade: NIFTY already neutral, SENSEX already bullish (one view per index); a NIFTY bull would duplicate correlated upside. Blocker: no distinct fresh thesis. Trail to breakeven once profit hits \u20b910k. Next review 10 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T10:10:45.700639+05:30",
       "summary": "Holding the filled NIFTY 27-10 bear put spread (30 lots: BUY 22600 PE @171.00 / SELL 22500 PE @126.75, debit 44.25, hedged 1:1, max defined loss \u20b986.3k but overall SL \u20b940k, TP \u20b970k, exit 14:50, long-leg trail + break-even active). Mark \u224844.15, so flat on the position; day \u2212\u20b914.4k from the morning SENSEX bull call. NIFTY printed a fresh session low 22,522, so momentum thesis intact. No new entry: SENSEX 4-leg blocked by live record (8 trades, 25% win, \u2212\u20b911.7k) and a second bearish index spread would duplicate correlated risk into RSI 14\u201320 with a TimesFM bounce forecast. Trigger: reclaim of ~22,610 = square off early; review in 15 min."
+    },
+    {
+      "time": "2026-10-23T10:14:54.535150+05:30",
+      "summary": "Holding NIFTY 27-10 bear put 22600/22500 (30 lots, debit 44.25, 1:1 hedged, complete square-off on leg stop, long-leg trail now 175). Open +\u20b97,605; NIFTY 22,499 made fresh lows. Day \u2212\u20b914,408 (SENSEX bull call \u221221.3k, IC +6.9k). No new entry: SENSEX 4-leg refused by live record (8 trades, 25% win); a second bearish index spread duplicates the same correlated thesis at RSI 8/16 with a TimesFM bounce bias. Trail to break-even at \u20b910k. Reassess 15 min or on exit event."
     }
   ]
 }
