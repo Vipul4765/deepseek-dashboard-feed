@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T12:28:24.230350+05:30",
-      "summary": "HOLD: Active NIFTY put butterfly (6720) +\u20b9520 unrealized, max loss \u20b93.6k (within \u20b920k limit). Butterfly centered at 22700, NIFTY 22630 needs ~70pt bounce for max profit (\u20b980k TP). TimesFM +0.07% to 22635, recent range 22585-22785. SENSEX 0 DTE expiry - no new entries allowed. One view per index satisfied (neutral-bullish butterfly). Day P&L -\u20b962,107. Trail rule: move SL to breakeven at \u20b910k profit (not reached). Monitoring for bounce toward 22700 or stop. Next review 60s."
-    },
-    {
       "time": "2026-10-22T12:30:21.577624+05:30",
       "summary": "HOLD: Active NIFTY put butterfly (6720) +\u20b91,170 unrealized, max loss \u20b93.6k (within \u20b920k limit). Butterfly centered at 22,700, NIFTY 22,635 needs ~65pt bounce for max profit (\u20b980k TP). TimesFM +0.26% to 22,705, recent range 22,585-22,785. SENSEX 0 DTE expiry - no new entries allowed. One view per index satisfied (neutral-bullish butterfly). Day P&L -\u20b962,107. Trail rule: move SL to breakeven at \u20b910k profit (not reached). Monitoring for bounce toward 22,700 or stop. Next review 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T09:32:20.128570+05:30",
       "summary": "HOLD. NIFTY put butterfly (6727, 10 lots) active at +\u20b9650 unrealized P&L, spot 22726 near butterfly center 22700 (max-profit zone). SENSEX flat with no position; price above SMA20/50 (73565 vs 73514/73371), RSI 64.7, but pulled back from 73766 high and TimesFM slightly bearish (-0.14%) - mixed signals, no clear directional edge. Today's P&L: -\u20b92,470. One view per index maintained: NIFTY bearish/neutral via butterfly, SENSEX flat. No new entry forced - monitoring butterfly progression and waiting for clearer SENSEX direction. Next review in 60s."
+    },
+    {
+      "time": "2026-10-23T09:35:29.684676+05:30",
+      "summary": "Opened SENSEX bull call spread 73500-73600 (10 lots) at 09:34, filled: buy 73500 CE @643.7, sell 73600 CE @591.85 (net debit \u20b910,370). Strategy has \u20b920k max loss, \u20b930k target, trailing stop at \u20b910k profit. NIFTY put butterfly 22750-22700-22650 (6727) continues at +\u20b91,007 unrealized, spot 22710 near center 22700. Today's net P&L: -\u20b92,470 (closed) + \u20b91,007 (open) = -\u20b91,463. One view per index maintained: NIFTY neutral/bearish via butterfly, SENSEX bullish via vertical. Next review in 60s to monitor trailing triggers and thesis."
     }
   ]
 }
