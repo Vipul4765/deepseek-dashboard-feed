@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T09:58:02.651199+05:30",
-      "summary": "6709 SENSEX 0DTE bull call was stopped out by its leg trail (short 73400CE) \u2014 full run DONE, realized -\u20b98,960, margin released. 6708 NIFTY 27-Oct condor still live at +\u20b9487 (SL \u20b945k; trailing only from \u20b910k). No new entry: NIFTY already holds the neutral view and lacks direction (22,625 below SMA20 22,642, RSI 48.9, TimesFM p50 +0.05% inside a 0.78% band); SENSEX's 15-min lower highs contradict its flat forecast, 0DTE IV 35% makes long premium costly, and its 4-leg shape is refused (8 trades, 25% wins). Day realized -\u20b926,672. Reassess on a break of 22,554/22,676 or 73,018/73,423. Next review 20 min."
-    },
-    {
       "time": "2026-10-22T09:58:55.387360+05:30",
       "summary": "No new entry. Open: 6708 NIFTY 27-Oct condor (short 22500PE@97.95 / 22900CE@75.60, both hedged, 50 lots) live at -\u20b9650, SL \u20b945k, TP \u20b960k \u2014 holding, trailing only after +\u20b910k. Assessed both indices: NIFTY 22,640 (RSI 46.7, at SMA20/50, TimesFM p50 +0.03% inside 0.72% band) and SENSEX 73,312 (RSI 50, TimesFM flat, 0DTE IV 35%) show no directional edge; SENSEX neutral 4-leg shape is still refused by its 8-trade/25%-win record, and 0DTE put-spread credit (R:R ~0.4, short delta 0.32, intraday low 73,026) is not a supported edge. Day realized -\u20b926,672. Next review 25 min; reassess on NIFTY break of 22,554/22,676 or SENSEX 73,018/73,423."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T10:16:47.536629+05:30",
       "summary": "Holding NIFTY 27-10 bear put 22600/22500 (30 lots, debit 44.25, fully hedged, complete square-off on leg stop). Open +\u20b912,285 with NIFTY 22,478-22,505 at fresh lows (RSI 8.6, TimesFM mild bounce bias). Applied boss trail rule: overall SL cut 40,000 \u2192 \u20b92,000 max loss, so the run is now protected above break-even; leg trail already at 187 (~11 spot points of slack). Day \u2212\u20b92.1k net incl. open. No new entry: SENSEX 4-leg still refused by live record, and any bear spread duplicates the correlated NIFTY thesis at deeply oversold lows. Reassess in 5 min or on exit."
+    },
+    {
+      "time": "2026-10-23T10:18:28.689703+05:30",
+      "summary": "HOLD. NIFTY 27-10 bear put 22600/22500 (30 lots, debit 44.25, fully hedged) open +\u20b914.1k as NIFTY sits 22,474 (RSI 7, TimesFM mild-bounce bias). Leg trail already at 187 (~\u20b98-9k locked), overall SL \u20b92k max loss, exit 14:50 \u2014 meets the half-of-peak trail rule, so let it run to spread max. No new entry: NIFTY view already bearish (one view), SENSEX/4-leg blocked by its 25% live record, SENSEX bear spread duplicates correlated downside at fresh lows, SENSEX bull would fade a strong downtrend. Next review 5 min or on trail/exit event."
     }
   ]
 }
