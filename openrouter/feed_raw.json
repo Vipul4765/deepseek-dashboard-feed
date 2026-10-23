@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T11:56:14.713975+05:30",
-      "summary": "Holding NIFTY put butterfly (strategy 6720): BUY 20\u00d722750 PE @146.95, SELL 40\u00d722700 PE @125.15, BUY 20\u00d722650 PE @106.10. Net debit \u20b92.75/lot (\u20b93,575). Unrealized -\u20b9845. Max profit ~\u20b961k at 22,700; max loss \u20b93,575. NIFTY 22,631 (LTP 22,625) below lower breakeven 22,653 \u2014 needs bounce to 22,700. SENSEX 0 DTE expiry today \u2014 no new entries allowed. Day P&L -\u20b962,107 (3 trades). One view per index satisfied (neutral/bullish butterfly on NIFTY). Trailing stop not yet triggered (profit <\u20b910k). No new trades; monitoring existing position. Next review in 60s."
-    },
-    {
-      "time": "2026-10-22T11:57:16.501394+05:30",
-      "summary": "HOLD: Active NIFTY put butterfly (6720) +\u20b9130 unrealized, max loss \u20b93,575. NIFTY 22,647 (RSI 27.6 oversold), TimesFM slightly bullish - needs bounce to 22,700 for max profit. Day P&L -\u20b962,107 (3 trades). SENSEX 0 DTE expiry - no new entries allowed. One view per index satisfied. No new trades today after large loss; protecting capital. Monitoring butterfly for bounce or stop. Next review 60s."
-    },
-    {
       "time": "2026-10-22T11:58:07.588886+05:30",
       "summary": "HOLD: Active NIFTY put butterfly (6720) +\u20b9130 unrealized, max loss \u20b93,575, centered at 22700. NIFTY 22,635 (RSI 29 oversold), TimesFM slightly bullish (+0.016%) - needs 65pt bounce to 22700 for max profit (\u20b980k TP). Day P&L -\u20b962,107 (3 trades). SENSEX 0 DTE expiry - no new entries allowed. One view per index satisfied (butterfly is neutral-bullish). Boss rules: max loss \u20b920k/trade (butterfly well within), trail at \u20b910k profit (not yet), \u20b950k daily target but no gambling to recover losses. No new directional trade added - butterfly aligns with bounce thesis. Monitoring for bounce or stop. Next review 60s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T09:25:16.985426+05:30",
       "summary": "Exited SENSEX bull call spread 73700-73900 (10 lots): thesis invalidated - SENSEX at 73,553 below long strike 73,700, TimesFM forecasts -0.10% downside. Loss contained at ~\u20b92,340 (well within \u20b920K max). NIFTY put butterfly 22750-22700-22650 (10 lots) retained: NIFTY at 22,719 near butterfly center 22,700 (max profit zone), currently +\u20b9455. One view per index maintained (NIFTY bearish/neutral, SENSEX flat). No new entries - managing existing position. Next review in 60s to confirm SENSEX exit fill and monitor NIFTY butterfly progression."
+    },
+    {
+      "time": "2026-10-23T09:26:44.001514+05:30",
+      "summary": "HOLD. NIFTY put butterfly (6727, 10 lots) active at +\u20b9227 P&L, spot 22,731 near butterfly center 22,700 (max-profit zone). SENSEX bull call spread (6724) exited at -\u20b92,470 loss. Today's P&L: -\u20b92,470. SENSEX flat with no position; TimesFM slightly bearish (-0.075%) but price action mixed (RSI 63, pullback from 73,766 high). One view per index maintained: NIFTY bearish/neutral via butterfly, SENSEX flat. No new entry forced - waiting for clearer directional setup on SENSEX or butterfly progression. Next review in 90s."
+    },
+    {
+      "time": "2026-10-23T09:27:38.555401+05:30",
+      "summary": "HOLD. NIFTY put butterfly (6727, 10 lots) active at +\u20b9585 P&L, spot 22753 near butterfly center 22700 (max-profit zone). SENSEX flat with no position; TimesFM slightly bearish (-0.09%) but price above SMA20/50, RSI 66 - mixed signals, no clear directional setup. Today's P&L: -\u20b92,470. One view per index maintained: NIFTY bearish/neutral via butterfly, SENSEX flat. No new entry forced - waiting for clearer SENSEX direction or butterfly progression. Next review in 120s."
     }
   ]
 }
