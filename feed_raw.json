@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:25:48.178430+05:30",
-      "summary": "Both indices in strong up-momentum (NIFTY 22,738 RSI 79, SENSEX 73,551 RSI 82, above SMA20/50), so I kept a bullish-only book. Created and started 6712: SENSEX 0DTE bull put spread, buy 73200PE / sell 73400PE 22-10, 25 lots each, hedge placed first; credit \u224865 pts \u2192 ~\u20b932k max profit, worst case \u2248\u20b967.6k (overall SL 40k, TP 32k, short-leg SL 75 pts + 25/15 trail, exit 14:55). 6711 NIFTY 5DTE 22600/22500 bull put (30 lots, SL 40k/TP 50k) is waiting at 10:26 and has not fired yet. Day realised +\u20b938,440. Next: 2-min check of both fills and hedge coverage; square off if a hedge is missing."
-    },
-    {
       "time": "2026-10-22T10:26:41.031479+05:30",
       "summary": "Verified Core fills for 6711 (NIFTY 5DTE bull put: sell 22650PE @127.20, buy 22600PE @108.35, 1950 each = fully hedged; margin 992k; unrealised -195). 6712 SENSEX 0DTE bull put 73400/73200 (25 lots, hedge-first, SL 75 pts + 25/15 trail, overall SL 40k/TP 32k, exit 14:55) is scheduled for 10:28 and not yet fired. Both open views are bullish and consistent (one view per index), so no new trade \u2014 a third bullish spread would duplicate correlated risk. Day realised +38,440 on 4 trades. Next check in 150s to confirm 6712's fill and hedge."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T11:22:34.387957+05:30",
       "summary": "Booked 6731 trail-exit at +\u20b92,145. Opened new defined-risk NIFTY 27-10 iron condor 6737 (30 lots, fully hedged): short 22,400PE/22,850CE vs long 22,300PE/22,950CE, net credit \u20b946.15/unit, max loss \u20b953.85/unit (~\u20b91.05L), profitable 22,354\u201322,896, exit 14:55, trail on shorts. Thesis: flat TimesFM and post-drop consolidation with both shorts near today's range edges. Currently ~flat (+\u20b9195). Main risk: fresh break below the 22,407 low undercutting the put short. Reassessing in ~20 min or on any break under 22,450."
+    },
+    {
+      "time": "2026-10-23T11:24:53.407468+05:30",
+      "summary": "Held existing NIFTY condor 6737 (all 4 legs filled, marks roughly flat, ~\u20b9-490 unrealised). Added a directional trade on fresh up-momentum: NIFTY 27-10 bull call spread 22500/22650, 20 lots, created and started (entry 11:29, exit 14:55), debit \u224869.8/unit \u2192 worst case \u20b990.7k, max profit \u20b9104.3k, overall SL \u20b945k / TP \u20b985k, leg SL 70pt with 40/25 trail to break-even. SENSEX skipped (already one neutral index view; NIFTY spreads more delta-efficient). Next: confirm fill/strikes in ~5 min."
     }
   ]
 }
