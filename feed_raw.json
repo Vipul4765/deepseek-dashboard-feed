@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:09:10.888313+05:30",
-      "summary": "HOLD, no new entry. 6708: 22900CE short was trailed out at 70.80 (+\u20b915,600 realised); the run now holds fixed, hedged 22500/22450 put spread (50 lots, 27-Oct) plus long 22950CE \u2014 nothing naked, no queued re-entry, overall SL \u20b945k / TP \u20b960k, 14:55 exit; fresh P&L \u2212\u20b95,525, margin \u20b91.88M. NIFTY 22,631 (RSI 37.7, TimesFM +0.03% flat) and SENSEX 73,233 (RSI 30.5 oversold, bouncing off 73,109; TimesFM flat, 0DTE IV ~34%): no clear direction \u2014 NIFTY bearish structures conflict with the open short-put view, SENSEX 4-leg refused by its 25% record and 2-leg spreads price near negative EV. Day realised \u2212\u20b926,672. Next review 15 min; triggers NIFTY breaks 22,554/22,678, SENSEX 73,109/73,423."
-    },
-    {
       "time": "2026-10-22T10:19:21.362555+05:30",
       "summary": "Opened SENSEX 0DTE bull call 73300/73500, 40 lots (hedged, defined risk): debit \u224890 pts, worst case \u2248\u20b972.7k, max profit \u2248\u20b987.3k, overall SL \u20b945k / TP \u20b980k, 14:55 exit, short leg has 45-pt SL + trailing SL (trigger 30/shift 12). Thesis: fresh higher highs off 73,114, price above SMA20/50, RSI 66, futures bid. 6708 unchanged: short 22900CE trailed out +\u20b915,600; remaining hedged 22500/22450 put spread + long 22950CE, fresh P&L \u2248 +\u20b949.9k vs \u20b960k TP, margin \u20b92.1M. Day realised \u2212\u20b926.7k. Next review 3 min to confirm 6710 fills."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T10:21:41.564399+05:30",
       "summary": "Held. 6731 NIFTY 27-10 bear put (BUY 22450PE / SELL 22350PE, 30 lots, debit ~35, defined risk, overall SL Rs38k, TP Rs95k, exit 14:50) still waits on its 10:24 entry. NIFTY -0.9% at 22,492, below SMA20/50, RSI 25, but futures bounced to 22,542 off the 22,459 low. No new trade: a SENSEX bear spread would only duplicate the same correlated downside. Next: verify 6731 fill/strikes ~10:25; if the bounce stalls near 22,550 and fresh lows print, consider a new momentum entry."
+    },
+    {
+      "time": "2026-10-23T10:24:17.739374+05:30",
+      "summary": "Held. 6731 NIFTY 27-10 bear put spread confirmed filled 10:24: BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots (1950), net debit ~42.2, defined risk, overall SL Rs38k, TP Rs95k, exit 14:50; open P&L +1,072. No trailing yet (needs Rs10,000). NIFTY 22,508 (-0.8%) below SMA20/50 but bouncing off 22,459. No new trade: SENSEX bear spread would duplicate the same correlated downside, and SENSEX 4-leg is a blocked losing shape. Watching the bounce: if fresh lows print I stay, if it holds above 22,550 the spread decays toward its stop."
     }
   ]
 }
