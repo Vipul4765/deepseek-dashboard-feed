@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T10:24:37.200869+05:30",
-      "summary": "Banked SENSEX 6710: short 73600CE stopped at 208.90 (-36,160) but I squared the residual long 73400CE at 356.00 (+91,360 as SENSEX spiked to 73,519) \u2014 campaign net \u2248 +55,200; day realised \u2248 +38.4k, no naked short left. NIFTY 6711 (sell 22600PE/buy 22500PE 27-10, 30 lots, SL 25pts, overall SL 40k/TP 50k) is still scheduled and should fire at 10:26; no run yet. No new trade: only the 0-DTE SENSEX expiry is eligible and a second bullish 0DTE spread would duplicate the NIFTY view at resistance (73,709 / 22,811). Next: 10:30 verify 6711 fills and hedge, then trail."
-    },
-    {
       "time": "2026-10-22T10:25:48.178430+05:30",
       "summary": "Both indices in strong up-momentum (NIFTY 22,738 RSI 79, SENSEX 73,551 RSI 82, above SMA20/50), so I kept a bullish-only book. Created and started 6712: SENSEX 0DTE bull put spread, buy 73200PE / sell 73400PE 22-10, 25 lots each, hedge placed first; credit \u224865 pts \u2192 ~\u20b932k max profit, worst case \u2248\u20b967.6k (overall SL 40k, TP 32k, short-leg SL 75 pts + 25/15 trail, exit 14:55). 6711 NIFTY 5DTE 22600/22500 bull put (30 lots, SL 40k/TP 50k) is waiting at 10:26 and has not fired yet. Day realised +\u20b938,440. Next: 2-min check of both fills and hedge coverage; square off if a hedge is missing."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T11:06:59.268817+05:30",
       "summary": "HOLD, no new entry. 6731 (NIFTY 27-10 bear put, BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots, fully hedged same expiry/type) is live at +\u20b912,870 unrealized (fresh, 1.3s); Core's leg trail already lifted L1 SL 109.70\u2192157.95 and will keep rising on new highs, so the winner can't round-trip. Verified priced but declined: SENSEX 29-10 72700/72500 bear put (88.55 debit, 200 wide, max +111.45, \u20b935,420 risk/20 lots) \u2014 duplicate of the same bearish index thesis with TimesFM flat (+0.03%, p50 72655 vs 72634). Next: trail/stop-hit event, or a decisive NIFTY break under 22,407 to consider adding."
+    },
+    {
+      "time": "2026-10-23T11:22:34.387957+05:30",
+      "summary": "Booked 6731 trail-exit at +\u20b92,145. Opened new defined-risk NIFTY 27-10 iron condor 6737 (30 lots, fully hedged): short 22,400PE/22,850CE vs long 22,300PE/22,950CE, net credit \u20b946.15/unit, max loss \u20b953.85/unit (~\u20b91.05L), profitable 22,354\u201322,896, exit 14:55, trail on shorts. Thesis: flat TimesFM and post-drop consolidation with both shorts near today's range edges. Currently ~flat (+\u20b9195). Main risk: fresh break below the 22,407 low undercutting the put short. Reassessing in ~20 min or on any break under 22,450."
     }
   ]
 }
