@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T10:35:23.446926+05:30",
-      "summary": "Squared off NIFTY bear put butterfly (6733) \u2014 neutral structure conflicting with bearish view, realized +\u20b9136. SENSEX bear call spread (6732) remains active at -\u20b91,562 (22 lots, short 73,100 CE / long 73,200 CE Oct29). Day P&L -\u20b93,072. Both indices show pullback from morning lows (NIFTY 22,459\u219222,512, SENSEX 72,743\u219272,915) with TimesFM slightly bullish. Watching SENSEX for break above 73,000 to invalidate bearish thesis; NIFTY needs clear pullback failure at 22,550 for fresh bear put spread. Next review in 60s."
-    },
-    {
-      "time": "2026-10-23T10:38:36.610356+05:30",
-      "summary": "HOLD. SENSEX bear call spread (6732) active at +\u20b9506 unrealized; trailing stop on short 73100 CE at 586.3 (ask 577) protecting gains. NIFTY flat \u2014 mixed signals (below SMAs but bounced from lows, TimesFM slightly bullish, RSI ~46) don't meet \"clear direction\" threshold for new directional trade. Historical 2-leg win rates poor on both indices. Day P&L -\u20b92,487. Monitoring existing trail; reassessing NIFTY on fresh data next cycle."
-    },
-    {
       "time": "2026-10-23T10:42:48.644835+05:30",
       "summary": "HOLD. SENSEX bear call spread (6732) active at +\u20b9506 unrealized; trailing stop on short 73100 CE at 586.3 (ask 577) protecting gains. NIFTY flat \u2014 mixed signals (below SMAs but bounced from lows, TimesFM slightly bullish, RSI ~46) don't meet \"clear direction\" threshold for new directional trade. Historical 2-leg win rates poor on both indices. Day P&L -\u20b92,487. Monitoring existing trail; reassessing NIFTY on fresh data next cycle."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T12:59:06.155263+05:30",
       "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) -\u20b9263 unrealized at critical level (spot 22,400 at short strike 22,400). SENSEX 72900/72800 put spread (20L) +\u20b91,320 unrealized deep ITM. Both within \u20b920k max loss, exits at 14:55. Indices at recent lows with oversold RSI (46/44) and mixed TimesFM (NIFTY -0.5%, SENSEX +0.02%). One bearish view per index satisfied. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b92,729 vs \u20b950k target. Monitoring NIFTY butterfly closely for bounce invalidation or downtrend continuation. No new entries until clearer directional evidence or existing positions resolve. Next review 60s."
+    },
+    {
+      "time": "2026-10-23T13:13:41.740485+05:30",
+      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) -\u20b91,141 unrealized at critical level (spot 22,408 at short strike 22,400). SENSEX 72900/72800 put spread (20L) +\u20b91,500 unrealized deep ITM. Both within \u20b920k max loss, exits at 14:55. Indices at recent lows with mixed TimesFM (NIFTY +0.008%, SENSEX -0.011%). One bearish view per index satisfied. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b93,427 vs \u20b950k target. Monitoring NIFTY butterfly closely for bounce invalidation or downtrend continuation. No new entries until clearer directional evidence or existing positions resolve. Next review 60s."
+    },
+    {
+      "time": "2026-10-23T13:14:42.085362+05:30",
+      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) +\u20b9878 unrealized at critical level (spot 22,413 vs short strike 22,400). SENSEX 72900/72800 put spread (20L) +\u20b91,220 unrealized deep ITM. Both within \u20b920k max loss, exits at 14:55. Indices at recent lows with mixed TimesFM (NIFTY +0.004%, SENSEX -0.007%). One bearish view per index satisfied. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b91,688 vs \u20b950k target. Monitoring NIFTY butterfly closely for bounce invalidation or downtrend continuation. No new entries until clearer directional evidence or existing positions resolve. Next review 60s."
     }
   ]
 }
