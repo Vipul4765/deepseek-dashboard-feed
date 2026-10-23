@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T13:52:55.063888+05:30",
-      "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized -\u20b9357. Max risk \u20b91,885 (net premium) well within \u20b920k overall SL. NIFTY 22,636 (-64 from 22,700 lower wing) with 63 min to 14:55 exit. TimesFM -0.02%, RSI 69.6. SENSEX 0 DTE expiry - no new entries per rules. One bullish NIFTY view satisfied via butterfly. Day P&L -\u20b960.9k (limits disabled). Trailing stop activates at \u20b910k profit. No new trade: butterfly needs room to develop, adding correlated exposure risks overconcentration; bearish trade would conflict. Next review at 14:08 for position management."
-    },
-    {
-      "time": "2026-10-22T13:54:51.446263+05:30",
-      "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized +\u20b997.5. Max risk ~\u20b91,885 (net premium) well within \u20b920k overall SL. NIFTY 22,626 (-74 from 22,700 lower wing) with 61 min to 14:55 exit. TimesFM +0.01% (30-min), RSI 58.3. SENSEX 0 DTE expiry \u2014 no new entries per rules. One bullish NIFTY view satisfied via butterfly. Day P&L -\u20b960.9k (limits disabled). Trailing stop activates at \u20b910k profit (not reached). No new trade: butterfly needs room to develop; adding correlated exposure risks overconcentration; bearish trade would conflict; SENSEX expired; only 61 min left for any new directional setup. Next review at 14:08 for position management."
-    },
-    {
       "time": "2026-10-22T14:09:47.230050+05:30",
       "summary": "HOLD. Active NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) filled 13:15, unrealized -\u20b9390. NIFTY 22,626 below lower wing 22,700 challenges bullish thesis; 46 min to 14:55 forced exit. SENSEX 0 DTE expiry \u2014 no new entries. Day P&L -\u20b960.9k. No new trade: insufficient time for directional setup, butterfly needs room but time expiring, adding exposure risks overconcentration. Next review at ~14:50 to manage butterfly exit."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T11:02:31.529717+05:30",
       "summary": "Created and deployed NIFTY bull call butterfly (6736): buy 10x 22450 CE, sell 20x 22500 CE, buy 10x 22550 CE, Oct 27 expiry, 10 lots. Entry at 11:00, exit 14:55, overall SL \u20b920k, TP \u20b925k, trail activates at +\u20b910k profit. SENSEX bull put spread (6735) remains active at -\u20b92,032 unrealized (within \u20b920k SL). NIFTY 2-leg blocked by poor historical performance (20% win rate); 3-leg butterfly chosen (82% win rate). One-view-per-index satisfied: bullish SENSEX via 6735, bullish NIFTY via 6736. Day P&L -\u20b91,739. Next review in 60s to confirm 6736 fills."
+    },
+    {
+      "time": "2026-10-23T11:03:49.251415+05:30",
+      "summary": "Cycle 11:03 \u2014 Two active positions filled and being monitored. NIFTY bull call butterfly (6736): 10-lot 22450/22500/22550 Oct 27, filled at 164.2/139.6/117.95, unrealized -\u20b9130. SENSEX bull put spread (6735): 16-lot 72700/72600 Oct 29, filled at 646.35/600.05, unrealized -\u20b92,032 (within \u20b920k SL). Both indices sold off from open (NIFTY -207, SENSEX -591), RSI oversold (39/36), TimesFM slightly bullish but magnitude tiny. Day P&L -\u20b91,739. One-view-per-index satisfied: bullish NIFTY via butterfly, bullish SENSEX via put spread. No new entries; managing existing risk. Next review in 60s to track thesis and stops."
+    },
+    {
+      "time": "2026-10-23T11:04:45.224432+05:30",
+      "summary": "Cycle 11:04 \u2014 Two active positions monitored. NIFTY bull call butterfly (6736, 10-lot 22450/22500/22550 Oct27) filled, unrealized -\u20b9780 (within \u20b920k SL). SENSEX bull put spread (6735, 16-lot 72700/72600 Oct29) filled, unrealized +\u20b964 (within \u20b920k SL). Both indices sold off from open (NIFTY -217, SENSEX -577) but RSI oversold (~36-37) with TimesFM slightly bullish. Day P&L -\u20b91,739. One-view-per-index satisfied: bullish NIFTY via butterfly, bullish SENSEX via put spread. Strategy 6734 (bearish SENSEX) created but not started \u2014 conflicts with 6735, will not deploy. No new entries; managing existing risk. Trailing not yet triggered (profit <\u20b910k). Next review in 120s."
     }
   ]
 }
