@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T09:24:10.059623+05:30",
-      "summary": "Two active positions: NIFTY put butterfly 22750-22700-22650 (10 lots) +\u20b91,495, SENSEX bull call spread 73700-73900 (10 lots) -\u20b92,770. Net -\u20b91,275. NIFTY pulled back to 22,727 (near butterfly max profit at 22,700), SENSEX at 73,581 below long strike 73,700. Both filled at 09:22. One view per index maintained (NIFTY bearish, SENSEX bullish). Neither at \u20b910K profit for mandatory trailing. Next review in 120s to assess thesis continuity and trailing triggers."
-    },
-    {
-      "time": "2026-10-23T09:25:16.985426+05:30",
-      "summary": "Exited SENSEX bull call spread 73700-73900 (10 lots): thesis invalidated - SENSEX at 73,553 below long strike 73,700, TimesFM forecasts -0.10% downside. Loss contained at ~\u20b92,340 (well within \u20b920K max). NIFTY put butterfly 22750-22700-22650 (10 lots) retained: NIFTY at 22,719 near butterfly center 22,700 (max profit zone), currently +\u20b9455. One view per index maintained (NIFTY bearish/neutral, SENSEX flat). No new entries - managing existing position. Next review in 60s to confirm SENSEX exit fill and monitor NIFTY butterfly progression."
-    },
-    {
       "time": "2026-10-23T09:26:44.001514+05:30",
       "summary": "HOLD. NIFTY put butterfly (6727, 10 lots) active at +\u20b9227 P&L, spot 22,731 near butterfly center 22,700 (max-profit zone). SENSEX bull call spread (6724) exited at -\u20b92,470 loss. Today's P&L: -\u20b92,470. SENSEX flat with no position; TimesFM slightly bearish (-0.075%) but price action mixed (RSI 63, pullback from 73,766 high). One view per index maintained: NIFTY bearish/neutral via butterfly, SENSEX flat. No new entry forced - waiting for clearer directional setup on SENSEX or butterfly progression. Next review in 90s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-23T12:04:00.239977+05:30",
       "summary": "Two active bearish positions running: NIFTY butterfly (6741) +\u20b9526 unrealized, SENSEX bear put spread (6739) +\u20b91,440 unrealized. Both filled and hedged. Indices in clear downtrend (NIFTY -200pts, SENSEX -550pts from open) but RSI oversold ~33. TimesFM forecasts slight bounce. Daily realized P&L -\u20b93,786. Trailing stops will activate at \u20b910k profit per boss rule (move overall SL to break-even). One view per index maintained (bearish both). No new entries - managing existing risk. Next review in 60s for P&L check and trail trigger."
+    },
+    {
+      "time": "2026-10-23T12:05:08.133776+05:30",
+      "summary": "Two active bearish positions: SENSEX bear put spread 72900-72800 (20 lots) +\u20b91,460 unrealized; NIFTY butterfly 22450-22400-22350 (27 lots) -\u20b9175 unrealized. Both hedged, within \u20b920k max loss. Daily realized P&L -\u20b93,786. Indices oversold (RSI ~44) but in clear downtrend; TimesFM forecasts slight bounce. One view per index maintained (bearish). No new entries - monitoring for \u20b910k trail trigger on SENSEX spread. Next review in 60s."
+    },
+    {
+      "time": "2026-10-23T12:06:16.824586+05:30",
+      "summary": "Two active bearish positions held: SENSEX 72900-72800 bear put spread (20 lots) +\u20b91,700 unrealized; NIFTY 22450-22400-22350 put butterfly (27 lots) -\u20b9263 unrealized. Both fully hedged, max loss \u20b920k each. Daily realized P&L -\u20b93,786. Indices oversold (RSI ~44) in clear downtrend; TimesFM forecasts slight bounce. One view per index maintained (bearish). SENSEX trail trigger at \u20b910k not yet reached. No new entries - monitoring for trail or thesis change. Next review in 60s."
     }
   ]
 }
