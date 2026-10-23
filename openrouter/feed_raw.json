@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T14:13:31.796058+05:30",
-      "summary": "Squared off NIFTY bull call butterfly (6722, 22700/22750/22800, 10/20/10 lots) at 14:13. Thesis broken: NIFTY 22,616 below lower wing 22,700 with only 42 min to 14:55 forced exit. TimesFM shows +0.09% to 22,645 \u2014 still below wing. Day P&L -\u20b960.9k (4 trades). SENSEX 0 DTE \u2014 no new entries. No new trades: insufficient time for directional setup, butterfly thesis invalid, adding exposure risks overconcentration. Session management complete."
-    },
-    {
       "time": "2026-10-22T14:15:08.851625+05:30",
       "summary": "HOLD. No open positions. 42 min until 14:55 forced exit. NIFTY 22,613 (RSI 21.8 oversold, below SMA20/50, range low 22,585) with TimesFM +0.1% to 22,637 \u2014 directional bullish bias but insufficient time for thesis to play out. SENSEX 0 DTE (expiry today) blocks new entries. Day P&L -\u20b961.4k (5 trades). Max loss/trade \u20b920k cap respected. No trade meets quote/hedge/payoff/exit requirements in remaining window. Reassess at 14:18."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T11:06:54.325874+05:30",
       "summary": "Cycle 11:06 \u2014 Two active positions monitored. NIFTY bull call butterfly (6736, 10-lot 22450/22500/22550 Oct27) filled, unrealized -\u20b9650 (within \u20b920k SL). SENSEX bull put spread (6735, 16-lot 72700/72600 Oct29) filled, unrealized -\u20b9704 (within \u20b920k SL). Both indices sold off from open (NIFTY -217, SENSEX -577) but RSI oversold (~36-40) with TimesFM slightly bullish. Day P&L -\u20b91,739. One-view-per-index satisfied: bullish NIFTY via butterfly, bullish SENSEX via put spread. Strategy 6734 (bearish SENSEX) created but not started \u2014 conflicts with 6735, will not deploy. No new entries; managing existing risk. Trailing not yet triggered (profit <\u20b910k). Next review in 90s."
+    },
+    {
+      "time": "2026-10-23T11:08:26.657234+05:30",
+      "summary": "Holding two active positions: NIFTY bull call butterfly 6736 (10 lots, 22500/22550/22600 Oct27) unrealized -\u20b9455; SENSEX bull put spread 6735 (16 lots, 72900/72800 Oct29) unrealized -\u20b9384. Both within \u20b920k max loss. Day P&L -\u20b91,739. Indices sold off from open (NIFTY -217, SENSEX -577) but RSI oversold (~47) with TimesFM slightly bullish. One-view-per-index satisfied (bullish both). Strategy 6734 (bearish SENSEX) not started due to conflict. Monitoring for oversold bounce or stop proximity. Next review 60s."
     }
   ]
 }
