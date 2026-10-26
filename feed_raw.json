@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T09:21:38.655408+05:30",
-      "summary": "SENSEX 6725 filled: BUY 73800 CE @664 / SELL 74300 CE @437 (30 lots each, 29-10), debit \u20b9136,200, max profit \u20b9163,800, SL \u20b945k/TP \u20b965k, currently +\u20b91,800. Added NIFTY 6726: 27-10 iron condor (SELL 22850 CE @121.75 / BUY 22950 CE @82.15; SELL 22550 PE @78.50 / BUY 22450 PE @54.90, 30 lots) \u2014 credit \u20b9123,240, worst case \u20b971,760, overall SL \u20b945k, TP \u20b950k, leg SL 50pts, 4-leg hedged, margin \u20b91.96L. Both indices hedged; no naked shorts. Gap-up is fading and TimesFM is flat-to-down, so no further adds. Next check in 5 min for fills' marks and trailing (\u20b910k rule)."
-    },
-    {
-      "time": "2026-10-23T09:22:21.399044+05:30",
-      "summary": "HOLD both. Confirmed fills: SENSEX 6725 BUY 73800 CE @664 / SELL 74300 CE @437 (30 lots, 29-10), debit \u20b91,36,200, max profit \u20b91,63,800, SL \u20b945k/TP \u20b965k, now \u2212\u20b92,880. NIFTY 6726 condor 22850/22950 CE, 22550/22450 PE (27-10, 30 lots), credit \u20b91,23,240, worst case \u20b971,760, SL \u20b945k/TP \u20b950k, now +\u20b92,438. No naked shorts; leg SLs present. Gap-up is fading and forecasts conflict (NIFTY +0.07%, SENSEX \u22120.10%), so no fresh entry. Trail to break-even once a position reaches \u20b910k profit. Next review 15 min."
-    },
-    {
       "time": "2026-10-23T09:37:19.581095+05:30",
       "summary": "HOLD both, no new entry. SENSEX 6725 bull call 73800/74300 (29-10, 30 lots) is -8,220 as the gap-up faded; net debit spread still intact, leg SL 484 (~85pts cushion), overall SL 45k/TP 65k \u2014 well short of stop. NIFTY 6726 condor 22850/22950 CE, 22550/22450 PE (27-10, 30 lots) is +3,900; short strikes ~130pts away. No naked shorts; hedges 30/30 each side verified. Intraday fade (RSI 37/39, forecasts only mildly positive) gives no clear directional edge, so no fresh trade. Trail to break-even if SENSEX reaches +10k. Next review 15 min."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-26T09:40:28.035514+05:30",
       "summary": "NIFTY 6749 (sell 35x 22750 CE / buy 35x 22850 CE, 27-10) hedge intact, open profit ~\u20b910,920; per the \u20b910k rule I moved its overall stop-loss from \u20b970,000 to \u20b92,000 (near break-even; zero not accepted) with TP \u20b945,000 and the short-leg trail at 41.95 kept. SENSEX 6750 bear call 73200/73300 (50 lots, 29-10) still waiting on its 09:42 entry \u2014 no run yet. No new trade: both indices gapped down then bounced and sit at/just below their short SMAs with flat TimesFM, so no distinct new thesis, and one view per index already stands (bearish on both). Review in 7 min for 6750 fills."
+    },
+    {
+      "time": "2026-10-26T09:41:18.767363+05:30",
+      "summary": "NIFTY 6749 bear call 22750/22850 (35x, 27-10) open profit ~\u20b911,033, hedge intact; per the trail-half rule I raised its overall stop-loss \u20b92,000\u2192\u20b95,500 (locks ~half the peak, TP \u20b945,000, short-leg trail 41.95 kept). SENSEX 6750 bear call 73200/73300 (50x, 29-10) still waiting, enters 09:42 \u2014 no run yet. No new trade: both indices gapped down then bounced, sit near/below short SMAs with flat TimesFM, and one bearish view per index already stands, so no distinct new thesis. Next review in 6 min to confirm 6750 fills and hedge."
+    },
+    {
+      "time": "2026-10-26T09:42:36.294527+05:30",
+      "summary": "626. No new entry: NIFTY and SENSEX each already carry one bearish view (6749, 6750), so any new same-direction trade would duplicate correlated exposure and a put-side/bull structure would conflict with the one-view rule; both indices are choppy (RSI ~51-54, price near/below short SMAs, flat TimesFM), no distinct fresh thesis. 6749 NIFTY bear call 22750/22850 35x hedged, +\u20b912,740, short-leg trail locking gain. 6750 SENSEX bear call 73200/73300 50x filled 09:42 (531.0/485.95, credit \u20b945,050, worst case \u20b954,950, SL \u20b945,000, trail active). Next review 5 min."
     }
   ]
 }
