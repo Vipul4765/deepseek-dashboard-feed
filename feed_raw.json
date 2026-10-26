@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T10:49:44.165172+05:30",
-      "summary": "HOLD, no edits. 6731 NIFTY 27-10 bear put (BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots) is live and hedged; fresh paper P&L +1,267 (unrealized), below the \u20b910k trail trigger \u2014 no stop change. Leg-wise settings use square_off=complete, so no naked-short risk from the long-leg SL/trail; overall SL 38k, TP 95k, exit 14:50. NIFTY 22,502 chopping after the 22,787\u219222,407 drop, forecast mildly up. No new trade: NIFTY view already held; SENSEX (72,843, RSI 48, near SMA20, flat forecast) lacks clear direction and 4-leg SENSEX shape is a blocked loser. Reassess ~19 min; exit thesis if NIFTY breaks 22,450 downside resumes, trail at 10k profit."
-    },
-    {
-      "time": "2026-10-23T11:05:46.881365+05:30",
-      "summary": "HOLD on new entries; protected the winner. 6731 NIFTY 27-10 bear put spread (BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots, hedged) is live at +\u20b913,552 unrealized; square_off=complete so any leg exit closes both legs. Started its long-leg trailing stop (L1 trigger 12%/shift 10%) so the gain can't round-trip; overall SL left at \u20b938k (Core rejects break-even/0). No new trade: NIFTY view already bearish, SENSEX would duplicate the same correlated thesis and its 4-leg neutral is a blocked loser shape. Next: trail-exit or decisive break under 22,450."
-    },
-    {
       "time": "2026-10-23T11:06:59.268817+05:30",
       "summary": "HOLD, no new entry. 6731 (NIFTY 27-10 bear put, BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots, fully hedged same expiry/type) is live at +\u20b912,870 unrealized (fresh, 1.3s); Core's leg trail already lifted L1 SL 109.70\u2192157.95 and will keep rising on new highs, so the winner can't round-trip. Verified priced but declined: SENSEX 29-10 72700/72500 bear put (88.55 debit, 200 wide, max +111.45, \u20b935,420 risk/20 lots) \u2014 duplicate of the same bearish index thesis with TimesFM flat (+0.03%, p50 72655 vs 72634). Next: trail/stop-hit event, or a decisive NIFTY break under 22,407 to consider adding."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-26T10:36:11.974554+05:30",
       "summary": "Flat at open; day \u2212\u20b97,807.5. Placed a defined-risk NIFTY 1DTE iron condor (strategy 6753, 30 lots): sell 22,950 CE / buy 23,050 CE, sell 22,500 PE / buy 22,400 PE, expiry 27-10. Live-chain credit \u2248\u20b967,373 (46.2/unit), max loss \u20b91,27,628, R:R 0.53 (\u22650.30 min), breakevens 22,465/22,985; SPAN \u2248\u20b921L. Overall SL \u20b965k, TP \u20b945k, leg SL 60 pts, platform trail, square-off complete, exit 15:20 (session closes 15:40). Start accepted, still waiting on 10:42 entry \u2014 fills unverified. Skip SENSEX 4-leg (blocked shape). Next check 2 min to confirm hedged fills."
+    },
+    {
+      "time": "2026-10-26T10:38:21.791266+05:30",
+      "summary": "Day P&L -7,807.5. Mild bearish drift (NIFTY 22,652 below SMA20, RSI 42.8; SENSEX 73,315, TimesFM down ~0.15-0.19%). Added directional NIFTY 1DTE bear put spread (strategy 6754, 25 lots, expiry 27-10): buy ATM put / sell ~OTM4 put, debit ~55 pts, max loss \u2248\u20b988k, overall SL \u20b945k, TP \u20b990k, long-leg SL 40 pts + trail (BE at \u20b910k), complete square-off, exit 14:55. Existing 6753 IC still waiting for 10:42 entry. Both runs unverified as yet \u2014 next check in 2 min to confirm hedged fills."
+    },
+    {
+      "time": "2026-10-26T10:39:18.628807+05:30",
+      "summary": "HOLD this cycle, no new trade. Day P&L \u22127,807.5. Market is trending down: NIFTY 22,637\u2192LTP 22,600 (RSI 35.5, below SMA20, TimesFM \u22120.16%), SENSEX 73,258\u219273,174 (RSI 32.5, TimesFM \u22120.22%). My NIFTY bear put spread 6754 (25 lots, entry 10:41) and NIFTY iron condor 6753 (entry 10:42) are still only scheduled \u2014 no run/fill yet, so strikes and hedge coverage stay unverified. Adding another NIFTY leg would break one-view-per-index; a SENSEX 3-DTE vertical is too low-delta to be worth it. Next review in ~4.5 min, right after both entries, to confirm fills and hedges."
     }
   ]
 }
