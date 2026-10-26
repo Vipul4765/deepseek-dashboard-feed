@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T09:19:07.891015+05:30",
-      "summary": "Gap-up momentum held on the first candles (SENSEX ~73,748, +0.68% vs 73,249 close; NIFTY ~22,785, +0.43%), so I took a defined-risk directional trade: created and started strategy 6725, SENSEX 29-10-2026 bull call spread, BUY 30x ATM call / SELL 30x OTM_5 (73700/74200) call, 30 lots each. Worst-case loss capped at \u20b945,000 overall SL (\u20b91.6L premium debit), TP \u20b965,000, leg SL 180 pts with 30/60 pt trail to break-even, complete square-off, 14:55 exit. Start is \"waiting\" at 09:20 entry; no fill yet. Next review 120s to confirm the fill and executed strikes from Core."
-    },
-    {
       "time": "2026-10-23T09:21:38.655408+05:30",
       "summary": "SENSEX 6725 filled: BUY 73800 CE @664 / SELL 74300 CE @437 (30 lots each, 29-10), debit \u20b9136,200, max profit \u20b9163,800, SL \u20b945k/TP \u20b965k, currently +\u20b91,800. Added NIFTY 6726: 27-10 iron condor (SELL 22850 CE @121.75 / BUY 22950 CE @82.15; SELL 22550 PE @78.50 / BUY 22450 PE @54.90, 30 lots) \u2014 credit \u20b9123,240, worst case \u20b971,760, overall SL \u20b945k, TP \u20b950k, leg SL 50pts, 4-leg hedged, margin \u20b91.96L. Both indices hedged; no naked shorts. Gap-up is fading and TimesFM is flat-to-down, so no further adds. Next check in 5 min for fills' marks and trailing (\u20b910k rule)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T09:31:17.767444+05:30",
       "summary": "Verified NIFTY 6749 fills: sell 35x 22750 CE @48.65, buy 35x 22850 CE @28.85 (27-10) \u2014 hedge intact, ~flat P&L. Both indices gapped down, below all SMAs, RSI ~25-26, VIX +6%; bounce off lows still under 120-bar highs. Added SENSEX bear call spread 6750: sell 50x 73200 CE / buy 50x 73300 CE (29-10, above recent high 73140 and TimesFM p90 72998), entry 09:42, credit ~\u20b942k, max loss \u20b958k, overall SL \u20b945k, TP \u20b925k, trail SL + break-even. Worst case combined \u20b9125k. Review in 12 min for fill and hedge."
+    },
+    {
+      "time": "2026-10-26T09:40:28.035514+05:30",
+      "summary": "NIFTY 6749 (sell 35x 22750 CE / buy 35x 22850 CE, 27-10) hedge intact, open profit ~\u20b910,920; per the \u20b910k rule I moved its overall stop-loss from \u20b970,000 to \u20b92,000 (near break-even; zero not accepted) with TP \u20b945,000 and the short-leg trail at 41.95 kept. SENSEX 6750 bear call 73200/73300 (50 lots, 29-10) still waiting on its 09:42 entry \u2014 no run yet. No new trade: both indices gapped down then bounced and sit at/just below their short SMAs with flat TimesFM, so no distinct new thesis, and one view per index already stands (bearish on both). Review in 7 min for 6750 fills."
     }
   ]
 }
