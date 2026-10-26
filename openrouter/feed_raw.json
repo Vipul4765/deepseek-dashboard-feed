@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T14:03:08.699583+05:30",
-      "summary": "Created and started SENSEX bear put spread (73000/72900, 29-Oct, 24 lots) with \u20b920k max loss, \u20b930k target, and trailing stop (trigger \u20b910k \u2192 breakeven, then \u20b95k trail). Entry at 14:00 (in ~1 min). NIFTY 2-leg paused by performance gate; SENSEX 2-leg allowed (44% win rate >30%). Both indices show bearish bias (below SMA20, RSI 35-38, TimesFM -0.06%). Today's P&L -\u20b911.2k; 7-day -\u20b935.2k. No open positions remain after squaring off bullish trades. Next review at entry to confirm fills and monitor thesis."
-    },
-    {
       "time": "2026-10-23T14:06:08.305183+05:30",
       "summary": "HOLD. Active SENSEX bear put spread (6746) filled at 14:02: 24 lots, 73200/73100 PE, net debit \u20b945.15, unrealized -\u20b979. Thesis: SENSEX below 73100; current 73025 supports but TimesFM slightly bullish (+0.06%). Max loss \u20b920k, target \u20b930k, trail at \u20b910k\u2192BE. NIFTY 2-leg blocked (20% win rate, 10 trades); NIFTY 3/4-leg allowed but directional edge unclear (RSI 44, TimesFM -0.001%). Today -\u20b911.2k, 7-day -\u20b935.2k. Next review in 60s to confirm SENSEX thesis or spot clear NIFTY directional move."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T11:26:51.861420+05:30",
       "summary": "HOLD. Two active bearish positions intact: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) +\u20b9845 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) +\u20b9704 unrealized. Daily realized +\u20b9208, total ~+\u20b91,757. Both indices trending down (NIFTY 22577, SENSEX 73083; TimesFM -0.11%/-0.15%), thesis holds. One view per index satisfied. Max loss \u20b920k respected. Trailing stops not yet triggered (profit <\u20b910k). No new entries - indices covered directionally. Next review 90s."
+    },
+    {
+      "time": "2026-10-26T11:28:21.763133+05:30",
+      "summary": "HOLD. Two active bearish positions intact: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) -\u20b9618 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) +\u20b9143 unrealized. Daily realized +\u20b9208, total ~-\u20b9266. Both indices trending down (NIFTY 22583, SENSEX 73088; TimesFM -0.13%/-0.16%), thesis holds. One view per index satisfied. Max loss \u20b920k respected. Trailing stops not yet triggered (profit <\u20b910k). No new entries - indices covered directionally. Next review 90s."
     }
   ]
 }
