@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T13:39:41.739178+05:30",
-      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) +\u20b9614 unrealized (spot 22,450 vs short 22,400). SENSEX 72900/72800 put spread (20L) -\u20b9800 unrealized (spot 72,688, both strikes ITM). Both within \u20b920k max loss, exits at 14:55. Indices consolidating (RSI 72/74) with slightly bearish TimesFM. One bearish view per index satisfied - no conflicting positions. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b93,972 vs \u20b950k target. Monitoring for trail activation or thesis invalidation. No new entries per one-view rule. Next review in 5 min."
-    },
-    {
-      "time": "2026-10-23T13:44:16.622034+05:30",
-      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) -\u20b92,194 unrealized (spot 22,579 vs short 22,400). SENSEX 72900/72800 put spread (20L) -\u20b96,580 unrealized (spot 73,116, both strikes OTM). Both within \u20b920k max loss, exits at 14:55. Indices rallied strongly last hour against positions; RSI overbought (87+) suggests pullback possible. TimesFM mixed: NIFTY slightly bullish, SENSEX slightly bearish. One bearish view per index satisfied - no conflicting positions. Daily realized -\u20b93,786, net -\u20b912,560 vs \u20b950k target. Neither hit \u20b910k trail trigger. Monitoring for pullback or thesis invalidation. No new entries per one-view rule. Next review in 5 min."
-    },
-    {
       "time": "2026-10-23T13:51:44.314501+05:30",
       "summary": "Closed two losing bearish positions (NIFTY put butterfly -\u20b91,842, SENSEX put spread -\u20b94,640) as strong rally above short strikes invalidated thesis. Created and started two fresh bullish strategies: SENSEX bull call spread 73100/73200 (10 lots, 2-leg) and NIFTY bull call butterfly 22550/22600/22650 (20 lots, 3-leg - 2-leg blocked by poor history). Both have \u20b920k max loss, \u20b925k target, trailing stop from \u20b910k profit. Entry 13:50, exit 14:55. One bullish view per index now. Daily realized -\u20b93,786, targeting \u20b950k. Next review after entry fills at 13:50."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-26T10:50:26.753289+05:30",
       "summary": "Session active at 10:50 IST. Daily P&L +\u20b9208 (target \u20b950k). Two bearish positions live: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22550) filled at 10:50, -\u20b91,040 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) live since 09:16, -\u20b9792 unrealized. Both indices trending down (NIFTY -0.09% TimesFM, SENSEX -0.14%), RSI 36.5/34.2, thesis intact. One view per index satisfied (both bearish). No trailing stops triggered (profit <\u20b910k). Max loss \u20b920k per trade enforced. Monitoring for profit trail or stop hits. Next review in 60s."
+    },
+    {
+      "time": "2026-10-26T10:51:22.545101+05:30",
+      "summary": "Session active at 10:51 IST. Daily P&L +\u20b9208 (target \u20b950k). Two bearish positions live: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) -\u20b965 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) -\u20b91,353 unrealized. Both indices trending down (NIFTY -0.13%, SENSEX -0.17% per TimesFM), RSI ~44/43, thesis intact. One view per index satisfied (both bearish). Max loss \u20b920k per trade enforced. No trailing stops triggered (profit <\u20b910k). Monitoring for profit trail or stop hits. Next review in 60s."
+    },
+    {
+      "time": "2026-10-26T10:52:30.901430+05:30",
+      "summary": "HOLD. Two bearish positions active: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) -\u20b9845 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) -\u20b9792 unrealized. Daily P&L +\u20b9208. Both indices trending down (TimesFM -0.12%/-0.16%), thesis intact. One view per index satisfied. Max loss \u20b920k respected. No trailing stops (profit <\u20b910k). No new entries - both indices covered directionally. Next review 60s."
     }
   ]
 }
