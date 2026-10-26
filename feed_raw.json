@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T10:04:38.979363+05:30",
-      "summary": "Condor 6726 squared off by its put-leg SL at 10:03: all 4 legs filled, +\u20b96,922.5 realised (day \u2248 \u2212\u20b914.4k). Flat, so new momentum trade created: strategy 6730, NIFTY 4 DTE (27-10) bear put vertical, buy ATM put / sell otm_2 put, 30 lots each, max debit \u2248 \u20b970k, overall SL \u20b940k, TP \u20b970k, leg trail 12/8 with break-even shift, exit 14:50; start accepted, entry 10:10 pending. Thesis: fresh day's low 22,566, price under SMA20/50, futures sell-side heavy. Entry fills not yet confirmed. Next check in 5 min."
-    },
-    {
       "time": "2026-10-23T10:05:31.770112+05:30",
       "summary": "Market open, flat after the morning trades (day \u2212\u20b914.4k: NIFTY condor +\u20b96.9k, SENSEX bull call \u2212\u20b921.3k). Strategy 6730 (NIFTY 4DTE 27-10 bear put vertical, ATM/otm_2, 30 lots) is still SCHEDULED with entry 10:10 and no fill yet \u2014 not counted as a position. Kept it: NIFTY at a new session low 22,560, below SMA20/50, futures sell-side heavy; hedged, worst case \u2248 debit \u20b972k, overall SL \u20b940k, TP \u20b970k, exit 14:50. Risk flagged: RSI 15 and TimesFM forecasts a bounce to \u224822,620, so a reclaim of \u224822,610 = momentum break, square off early. No second index view. Review in 5 min to confirm fills."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T09:46:30.098188+05:30",
       "summary": "Cut the weak SENSEX bear call 6750 (short 73000 CE ~delta 0.50, basis/premium pushed it effectively ATM while the morning drop reversed): both legs squared, hedge intact, realized -\u20b93,550. Today net realized +\u20b91,682. NIFTY 1-DTE iron condor 6751 (40x 22350/22250 PE + 22800/22900 CE) stays open at +\u20b9650 with trailing leg stops, overall SL \u20b980k, TP \u20b985k, exit 14:55. No new directional edge: NIFTY 22,472 flat vs SMAs (RSI 48, TimesFM p50 22,467), SENSEX 72,755 choppy below SMA50 \u2014 no forced entry. Next review 15 min or on range break."
+    },
+    {
+      "time": "2026-10-26T09:47:27.983788+05:30",
+      "summary": "No new entry: HOLD. Open NIFTY 1-DTE iron condor 6751 (40x short 22350 PE/22800 CE, hedged by 22250 PE/22900 CE) is live, +\u20b94,680 unrealized, leg trails working, overall SL \u20b980k, TP \u20b985k, exit 14:55; today realized +\u20b91,682. SENSEX flat since the bear-call cut. Both indices are V-shaped and net flat on the day with TimesFM p50 slightly below spot, so no directional case: SENSEX bull call 72800/73100 costs 164 for 136 (no edge), bull put 72500/72300 credit is only 32% of width with short delta 0.36. Next review 20 min or on NIFTY breaking 22,350/22,800."
     }
   ]
 }
