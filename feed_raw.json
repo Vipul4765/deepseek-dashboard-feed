@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T11:06:59.268817+05:30",
-      "summary": "HOLD, no new entry. 6731 (NIFTY 27-10 bear put, BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots, fully hedged same expiry/type) is live at +\u20b912,870 unrealized (fresh, 1.3s); Core's leg trail already lifted L1 SL 109.70\u2192157.95 and will keep rising on new highs, so the winner can't round-trip. Verified priced but declined: SENSEX 29-10 72700/72500 bear put (88.55 debit, 200 wide, max +111.45, \u20b935,420 risk/20 lots) \u2014 duplicate of the same bearish index thesis with TimesFM flat (+0.03%, p50 72655 vs 72634). Next: trail/stop-hit event, or a decisive NIFTY break under 22,407 to consider adding."
-    },
-    {
-      "time": "2026-10-23T11:22:34.387957+05:30",
-      "summary": "Booked 6731 trail-exit at +\u20b92,145. Opened new defined-risk NIFTY 27-10 iron condor 6737 (30 lots, fully hedged): short 22,400PE/22,850CE vs long 22,300PE/22,950CE, net credit \u20b946.15/unit, max loss \u20b953.85/unit (~\u20b91.05L), profitable 22,354\u201322,896, exit 14:55, trail on shorts. Thesis: flat TimesFM and post-drop consolidation with both shorts near today's range edges. Currently ~flat (+\u20b9195). Main risk: fresh break below the 22,407 low undercutting the put short. Reassessing in ~20 min or on any break under 22,450."
-    },
-    {
       "time": "2026-10-23T11:24:53.407468+05:30",
       "summary": "Held existing NIFTY condor 6737 (all 4 legs filled, marks roughly flat, ~\u20b9-490 unrealised). Added a directional trade on fresh up-momentum: NIFTY 27-10 bull call spread 22500/22650, 20 lots, created and started (entry 11:29, exit 14:55), debit \u224869.8/unit \u2192 worst case \u20b990.7k, max profit \u20b9104.3k, overall SL \u20b945k / TP \u20b985k, leg SL 70pt with 40/25 trail to break-even. SENSEX skipped (already one neutral index view; NIFTY spreads more delta-efficient). Next: confirm fill/strikes in ~5 min."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-26T10:39:18.628807+05:30",
       "summary": "HOLD this cycle, no new trade. Day P&L \u22127,807.5. Market is trending down: NIFTY 22,637\u2192LTP 22,600 (RSI 35.5, below SMA20, TimesFM \u22120.16%), SENSEX 73,258\u219273,174 (RSI 32.5, TimesFM \u22120.22%). My NIFTY bear put spread 6754 (25 lots, entry 10:41) and NIFTY iron condor 6753 (entry 10:42) are still only scheduled \u2014 no run/fill yet, so strikes and hedge coverage stay unverified. Adding another NIFTY leg would break one-view-per-index; a SENSEX 3-DTE vertical is too low-delta to be worth it. Next review in ~4.5 min, right after both entries, to confirm fills and hedges."
+    },
+    {
+      "time": "2026-10-26T10:43:39.396534+05:30",
+      "summary": "Held both NIFTY positions. 6754 bear put 22700/22500 (25 lots, hedged, +\u20b92,031) is on my bearish momentum view. 6753 iron condor 23000/23100 \u00b7 22550/22450 (30 lots, all legs hedged, \u2212\u20b9683) \u2014 my stop was refused since it had already filled; it's defined-risk (SL \u2212\u20b965k/TP +\u20b945k) and its legs partly offset 6754. No new trade: both indices just bounced off their lows, so a fresh bear spread is badly timed and a SENSEX short would duplicate correlated exposure. Day \u2212\u20b97.8k. Next review ~15 min: book 6754 profit at \u20b910k, and enter a SENSEX bear spread only if the bounce fails."
+    },
+    {
+      "time": "2026-10-26T10:44:30.748516+05:30",
+      "summary": "Held both open NIFTY runs; neither needs an edit. 6754 bear put 22700/22500 (25 lots, hedged) +\u20b91,625 \u2014 bearish momentum thesis intact (price under SMA20/50, RSI 45, TimesFM toward 22,600). 6753 iron condor 23000/23100 \u00b7 22550/22450 (30 lots, all legs hedged) +\u20b91,170; its short put sits ~75 pts below spot after the drop, stop closes the short rather than stranding it. No new trade: NIFTY already carries my bearish view and a SENSEX short would duplicate correlated exposure while price bounces off the low. Day \u2212\u20b97,808 realized. Next review ~25 min; exit 6754 if NIFTY reclaims ~22,700."
     }
   ]
 }
