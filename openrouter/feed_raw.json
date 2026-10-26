@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T14:06:08.305183+05:30",
-      "summary": "HOLD. Active SENSEX bear put spread (6746) filled at 14:02: 24 lots, 73200/73100 PE, net debit \u20b945.15, unrealized -\u20b979. Thesis: SENSEX below 73100; current 73025 supports but TimesFM slightly bullish (+0.06%). Max loss \u20b920k, target \u20b930k, trail at \u20b910k\u2192BE. NIFTY 2-leg blocked (20% win rate, 10 trades); NIFTY 3/4-leg allowed but directional edge unclear (RSI 44, TimesFM -0.001%). Today -\u20b911.2k, 7-day -\u20b935.2k. Next review in 60s to confirm SENSEX thesis or spot clear NIFTY directional move."
-    },
-    {
-      "time": "2026-10-23T14:08:08.498902+05:30",
-      "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15, unrealized +\u20b925. Thesis intact \u2014 SENSEX 73051 below 73100 short strike, pullback from 73140 resistance. Max loss \u20b920k, target \u20b930k, trail at \u20b910k\u2192BE. Today \u2212\u20b911.2k (12 trades). NIFTY at 22569, stalled at 22593 resistance; TimesFM slightly bearish both indices. No NIFTY position (one-view rule satisfied). NIFTY 2-leg blocked (20% WR), 3/4-leg allowed but no clear directional edge. Next review in 60s to manage 6746 and reassess NIFTY."
-    },
-    {
       "time": "2026-10-23T14:11:19.352268+05:30",
       "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15, unrealized +\u20b93. Thesis intact \u2014 SENSEX 73030 below 73100 short strike, TimesFM bearish (p50 72990). Max loss \u20b920k, target \u20b930k, will trail at \u20b910k\u2192BE via live_edit. Today -\u20b911.2k (12 trades). NIFTY at 22554, stalled at 22593 resistance; TimesFM slightly bearish. NIFTY 2-leg blocked (20% WR, 10 trades), SENSEX already bearish (one-view rule). No high-conviction directional setup in 47 min until 14:55 exit. Next review in 60s to manage 6746."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-26T11:28:21.763133+05:30",
       "summary": "HOLD. Two active bearish positions intact: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) -\u20b9618 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) +\u20b9143 unrealized. Daily realized +\u20b9208, total ~-\u20b9266. Both indices trending down (NIFTY 22583, SENSEX 73088; TimesFM -0.13%/-0.16%), thesis holds. One view per index satisfied. Max loss \u20b920k respected. Trailing stops not yet triggered (profit <\u20b910k). No new entries - indices covered directionally. Next review 90s."
+    },
+    {
+      "time": "2026-10-26T11:46:32.886642+05:30",
+      "summary": "HOLD. Two active bearish positions intact: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) -\u20b932.50 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) +\u20b9572 unrealized. Daily realized +\u20b9208, total ~+\u20b9748. Both indices trending down (NIFTY 22549, SENSEX 72970; TimesFM -0.145%/-0.145%), thesis holds. One view per index satisfied. Max loss \u20b920k respected. Trailing stops not yet triggered (profit <\u20b910k). No new entries - indices covered directionally. Next review 90s."
+    },
+    {
+      "time": "2026-10-26T11:47:19.991875+05:30",
+      "summary": "HOLD. Two active bearish positions intact: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) -\u20b9455 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) +\u20b9473 unrealized. Daily realized +\u20b9208, total ~+\u20b9226. Both indices trending down (NIFTY 22561, SENSEX 73019; RSI ~39, TimesFM -0.08%/-0.09%), thesis holds. One view per index satisfied. Max loss \u20b920k respected. Trailing stops not yet triggered (profit <\u20b910k). No new entries - indices covered directionally, adding would duplicate thesis. Next review 90s."
     }
   ]
 }
