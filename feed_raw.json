@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T12:34:34.422136+05:30",
-      "summary": "HOLD. Only open run: NIFTY iron condor 6737 (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots, 27-10), fresh mark -877.50, delta near flat; short put sits ~15 pts under spot 22415 but today's low 22407 held. Leg SL 151 on the put, call SL trailed to 39.6, overall SL 100k, 14:55 exit set. No new entry: NIFTY (below SMA20/50, RSI 35, sideways last 10 min, TimesFM +0.03% flat) and SENSEX (RSI 31, consolidating at day low, IV 17%) offer no fresh directional trigger; SENSEX 4-leg record negative. Day realized -9,435. Next check 13:03, or on stop/exit events."
-    },
-    {
       "time": "2026-10-23T12:49:50.292927+05:30",
       "summary": "HOLD, no new entry. Open run 6737 NIFTY condor (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots, 27-10) marked -780 (fresh), delta near flat; short put now ATM at 100.7 entry with leg SL 151.05, call leg SL already trailed to 39.6, overall SL 100k, 14:55 exit. Assessed NIFTY (RSI 48, choppy off 22389 low, TimesFM +0.01%) and SENSEX (RSI 51, at SMA20, TimesFM +0.005%): both flat/ambiguous, no directional trigger; SENSEX 4-leg shape still refused by record. Day realized -9,435. Next check 13:14 or on stop events."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T11:43:33.537012+05:30",
       "summary": "Verified strategy 6756 executed: SENSEX 29-10 bear call, SELL 73400 CE @478.25 / BUY 73600 CE @391.90, 30 lots each (Core fill events + book confirm both legs), net credit ~\u20b951,810, worst-case spread loss \u20b968,190 but overall SL \u20b925,000 and TP \u20b935,000 active, exit 14:55. Hedge intact; open P&L -\u20b930. SENSEX 72972, RSI 37.5, TimesFM mildly lower \u2014 thesis still valid. No new trade: budget at $0.778/$0.80 and no fresh candidate priced. Today realized -\u20b98,262. Next check in 15 min or on stop/exit event."
+    },
+    {
+      "time": "2026-10-26T11:55:21.170437+05:30",
+      "summary": "Flat: strategy 6756 (SENSEX 29-10 bear call 73400/73600, hedged) hit its leg SL at 11:54 and was squared off, realised -4,380. Today -12,642.5 over 7 trades. No entry: NIFTY 22570 and SENSEX 73,049 are mid-range after an 11:32-11:34 whipsaw (NIFTY swung 183 pts), TimesFM mildly down while RSI ~62 and price bounce disagree; the only priced 50-pt NIFTY condor wings sit inside today's realised range and SENSEX/4-leg is a blocked losing shape. Budget at $0.793/$0.80 leaves no room to widen/verify strikes. Review in 20 min."
     }
   ]
 }
