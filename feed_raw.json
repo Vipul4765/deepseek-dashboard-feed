@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T10:24:17.739374+05:30",
-      "summary": "Held. 6731 NIFTY 27-10 bear put spread confirmed filled 10:24: BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots (1950), net debit ~42.2, defined risk, overall SL Rs38k, TP Rs95k, exit 14:50; open P&L +1,072. No trailing yet (needs Rs10,000). NIFTY 22,508 (-0.8%) below SMA20/50 but bouncing off 22,459. No new trade: SENSEX bear spread would duplicate the same correlated downside, and SENSEX 4-leg is a blocked losing shape. Watching the bounce: if fresh lows print I stay, if it holds above 22,550 the spread decays toward its stop."
-    },
-    {
       "time": "2026-10-23T10:34:27.001357+05:30",
       "summary": "HOLD. 6731 NIFTY 27-10 bear put spread (BUY 22550PE @156.70 / SELL 22450PE @114.50, 30 lots) still open, P&L +4,680 fresh, hedged, overall SL 38k / TP 95k / exit 14:50 \u2014 below the Rs10,000 trail trigger, so no edit. No new trade: NIFTY direction already held; SENSEX bear spread would duplicate the same correlated downside into an extended 0.8% drop with IV up (VIX 16.85 vs 15.76), and SENSEX 4-leg is a blocked losing shape (25% win, -11,706). NIFTY 22,489 chopping above 22,459 low. Reassess 20 min; exit thesis if fresh lows break 22,450, tighten stop if profit passes 10k."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T10:10:06.645085+05:30",
       "summary": "Flat; day \u2212\u20b97,807.5 (4 trades, 2W/2L). NIFTY 22,686 / SENSEX 73,438 at fresh 120-bar highs after a +262/+313 vertical impulse, RSI ~85\u201387, TimesFM p50 slightly down. Priced live chains: every bull call spread (22,700/22,900, 22,700/22,950) has breakeven ~22,800 (~38% PoP) at R:R ~1.0; bull-put credit too thin \u2014 all negative-EV, and SENSEX/4-leg is a blocked shape. No entry: chasing an over-extended top at rich 1DTE IV is the blocker. Triggers: pullback holding above ~22,600, or 5-min close above ~22,720 \u2192 modest bull call spread, stop below the low, 14:55 exit. Next review ~11 min."
+    },
+    {
+      "time": "2026-10-26T10:18:47.553667+05:30",
+      "summary": "Flat; day \u2212\u20b97,807.5 (4 trades, 2W/2L), all runs DONE, no open legs. Assessed NIFTY (22,686, RSI 65, 120-bar high 22,706) and SENSEX (73,384) on live 27-10 / 29-10 chains. Every candidate prices below minimum economics: 1DTE NIFTY bull call spreads (22,650/22,750, 22,700/22,800) debit ~56\u201362 for 100 width; bull-put credits only 22\u201331 vs 69\u201378 risk; SENSEX/4-leg is a blocked shape. TimesFM p50 slightly down (\u22120.16%). No entry \u2014 no positive-EV, hedged, priced setup at these extended levels. Next trigger: 5-min close reclaim above ~22,720 or pullback holding 22,600; else re-price strikes. Review 25 min."
     }
   ]
 }
