@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T10:10:45.700639+05:30",
-      "summary": "Holding the filled NIFTY 27-10 bear put spread (30 lots: BUY 22600 PE @171.00 / SELL 22500 PE @126.75, debit 44.25, hedged 1:1, max defined loss \u20b986.3k but overall SL \u20b940k, TP \u20b970k, exit 14:50, long-leg trail + break-even active). Mark \u224844.15, so flat on the position; day \u2212\u20b914.4k from the morning SENSEX bull call. NIFTY printed a fresh session low 22,522, so momentum thesis intact. No new entry: SENSEX 4-leg blocked by live record (8 trades, 25% win, \u2212\u20b911.7k) and a second bearish index spread would duplicate correlated risk into RSI 14\u201320 with a TimesFM bounce forecast. Trigger: reclaim of ~22,610 = square off early; review in 15 min."
-    },
-    {
-      "time": "2026-10-23T10:14:54.535150+05:30",
-      "summary": "Holding NIFTY 27-10 bear put 22600/22500 (30 lots, debit 44.25, 1:1 hedged, complete square-off on leg stop, long-leg trail now 175). Open +\u20b97,605; NIFTY 22,499 made fresh lows. Day \u2212\u20b914,408 (SENSEX bull call \u221221.3k, IC +6.9k). No new entry: SENSEX 4-leg refused by live record (8 trades, 25% win); a second bearish index spread duplicates the same correlated thesis at RSI 8/16 with a TimesFM bounce bias. Trail to break-even at \u20b910k. Reassess 15 min or on exit event."
-    },
-    {
       "time": "2026-10-23T10:16:47.536629+05:30",
       "summary": "Holding NIFTY 27-10 bear put 22600/22500 (30 lots, debit 44.25, fully hedged, complete square-off on leg stop). Open +\u20b912,285 with NIFTY 22,478-22,505 at fresh lows (RSI 8.6, TimesFM mild bounce bias). Applied boss trail rule: overall SL cut 40,000 \u2192 \u20b92,000 max loss, so the run is now protected above break-even; leg trail already at 187 (~11 spot points of slack). Day \u2212\u20b92.1k net incl. open. No new entry: SENSEX 4-leg still refused by live record, and any bear spread duplicates the correlated NIFTY thesis at deeply oversold lows. Reassess in 5 min or on exit."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-26T09:50:41.230266+05:30",
       "summary": "Closed NIFTY condor 6751 in full (+\u20b915,210 net): its short 22350 PE had already stopped out for +\u20b916,770, leaving a decaying orphan long put and a now net-short-delta book into up-momentum. Day realized so far \u2248 +\u20b916,890 (6750 -3,550, 6749 +5,232, 6751 +15,210). Opened strategy 6752: NIFTY 1-DTE (27-10) protected iron condor, 40 lots, short 22650 CE / 22300 PE hedged by 22750 CE / 22200 PE \u2014 both shorts outside today's 22,387\u201322,511 range, credit ~45 pts on 100-wide wings (R:R ~0.82), est. max loss \u20b91.43L, overall SL \u20b955k, TP \u20b985k, leg 75% stops plus 7/4-point trails, exit 14:55. Entry fires 09:52; next review in 5 min to confirm fills and hedge integrity."
+    },
+    {
+      "time": "2026-10-26T09:51:24.717528+05:30",
+      "summary": "Day realized +\u20b916,892.5 (6751 +15,210, 6749 +5,232.5, 6750 -3,550). Strategy 6752 (NIFTY 1-DTE condor, 40 lots, short 22650 CE/22300 PE hedged by 22750 CE/22200 PE) is scheduled with entry 09:52; no run yet. Verified hedge quotes: 22750 CE 43.7/43.8, 22200 PE 30.25/30.4 (both liquid) \u2014 live credit \u224846 pts, max loss \u2248\u20b91.40L, R:R \u22480.85. NIFTY 22,476 is choppy (range 22,387\u201322,511, flat TimesFM); SENSEX neutral too, and SENSEX/4-leg is on the blocked losing pattern \u2014 no new directional entry. Next review 120s to confirm 6752 fills."
+    },
+    {
+      "time": "2026-10-26T09:52:58.108643+05:30",
+      "summary": "6752 (NIFTY 1-DTE condor, 40 lots) confirmed filled at 09:52 from Core events: BUY 22,800 CE 37.10 / SELL 22,700 CE 62.10 / BUY 22,250 PE 35.10 / SELL 22,350 PE 54.55, expiry 27-10, hedges lot-matched \u2014 net credit 44.45 pts (\u20b91.16L), worst case \u2248\u20b91.44L, open P&L +\u20b91,560. Day realized +\u20b916,892.5. No new entry: NIFTY up-momentum but TimesFM flat/down-skewed, SENSEX cash/forward diverge ~230 pts (quote reliability), SENSEX/4-leg is the blocked losing shape, and no distinct directional edge \u2014 VIX slipping favours range. Manage 6752: overall SL \u20b955k, TP \u20b985k, exit 14:55; trail to break-even once open profit \u2265\u20b910k. Next review 8 min."
     }
   ]
 }
