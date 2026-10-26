@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T12:12:16.954284+05:30",
-      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) -\u20b9351 unrealized; SENSEX 72900/72800 put spread (20L) +\u20b9700 unrealized. Both max loss \u20b920k. Indices in clear downtrend (NIFTY -1.2%, SENSEX -0.7% since 10:06) but RSI oversold (39/41) with TimesFM minor bounce forecast. One bearish view per index satisfied. Daily realized -\u20b93,786 vs \u20b950k target. Neither position hit \u20b910k trail trigger. Monitoring for bounce invalidation or downtrend continuation. Next review 90s."
-    },
-    {
       "time": "2026-10-23T12:13:33.777619+05:30",
       "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) +\u20b91,141 unrealized; SENSEX 72900/72800 put spread (20L) -\u20b920 unrealized. Both within \u20b920k max loss. Daily realized -\u20b93,786, total -\u20b92,665 vs \u20b950k target. Indices in clear downtrend (NIFTY -1.2%, SENSEX -0.7% since 10:06) but RSI neutral (58) with TimesFM minor bounce forecast. One bearish view per index satisfied. Neither position hit \u20b910k trail trigger. Monitoring for bounce invalidation or downtrend continuation. Next review 90s."
     },
@@ -158,6 +154,10 @@
     },
     {
       "time": "2026-10-23T15:27:10.263468+05:30",
+      "summary": "Day effectively over: entry window closed at 14:55 (now 15:26), market closes 15:40. All 13 positions closed today: 4 wins, 9 losses, net -\u20b911,094. No open runs. NIFTY (22,516) and SENSEX (72,895) both trending lower; TimesFM forecasts slight downside. Historical edge: NIFTY 4-leg condors 68% win rate, SENSEX 2-leg spreads 44%. Account limits disabled, virtual capital \u20b9100Cr. Today's loss stems from conflicting directional bets on same index (violating one-view rule) and poor stop discipline. Next review tomorrow 09:15 for fresh session."
+    },
+    {
+      "time": "2026-10-26T09:17:12.466084+05:30",
       "summary": "Day effectively over: entry window closed at 14:55 (now 15:26), market closes 15:40. All 13 positions closed today: 4 wins, 9 losses, net -\u20b911,094. No open runs. NIFTY (22,516) and SENSEX (72,895) both trending lower; TimesFM forecasts slight downside. Historical edge: NIFTY 4-leg condors 68% win rate, SENSEX 2-leg spreads 44%. Account limits disabled, virtual capital \u20b9100Cr. Today's loss stems from conflicting directional bets on same index (violating one-view rule) and poor stop discipline. Next review tomorrow 09:15 for fresh session."
     }
   ]
