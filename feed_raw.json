@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T11:28:51.671674+05:30",
-      "summary": "Flat: no open runs, day realized +\u20b953,078 (5 wins/2 losses) already above the \u20b950k aim. No new entry: AI budget is 0.785/0.80 USD, so a fresh candidate could not be priced, margin-checked or hedge-verified; also both indices just turned down from the highs (NIFTY 22,750 RSI 37.9, SENSEX 73,610 RSI 36.3, TimesFM mildly negative), so there is no clean directional edge to act on. Next review in 30 min (or next cycle if budget frees)."
-    },
-    {
       "time": "2026-10-22T11:43:52.463630+05:30",
       "summary": "Flat: no open runs, day realized +\u20b953,078 (5 wins/2 losses) already above the \u20b950k aim. No new entry: AI budget is at 0.793/0.80 USD, so a candidate could not be priced, margin-checked or hedge-verified without risking a mid-entry cap-out. Market context also mixed \u2014 both indices pushed lower (NIFTY 22,688 RSI 30.6, SENSEX 73,402 RSI 28.2) while TimesFM path leans mildly higher, so no clean, hedge-verifiable directional edge. Next review in 30 min; if the cap blocks calls, the account stays flat with nothing at risk."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T09:15:17.623425+05:30",
       "summary": "Session open (NSE/BSE), flat account, no open runs, 0 P&L today. Both indices gapped down from Friday's close: NIFTY 22,500 (-100, prev 22,600), SENSEX 72,887 (-237, prev 73,124); TimesFM near-flat to slightly down. No entry this cycle: only two seconds of ticks exist and today's first 1-min candle has not closed (candles still Friday's), so no fresh price action/momentum to justify direction, and option quotes at the opening auction are not yet reliable. Next review in 4 min to reassess once ~4 candles form; candidates are a NIFTY 27-10 structure or SENSEX 29-10 structure."
+    },
+    {
+      "time": "2026-10-26T09:20:07.283807+05:30",
+      "summary": "Flat, no open runs, \u20b90 today. Session open; NIFTY 22,447 and SENSEX 72,678 both down ~0.7% at the bottom of Friday's range (NIFTY 22,419\u201322,600), VIX +5% to 17.65, but TimesFM mildly up \u2014 mixed, whipsawing first 4 minutes. No entry: opening range undefined and direction conflicting, so both a 1-DTE short-premium condor (put side at risk) and a bear/bull debit spread lack edge. Review in ~9 min (~09:28); trigger: decisive NIFTY break of 22,419 \u2192 bear put spread; reclaim of 22,520 \u2192 bull spread; else condor with strikes outside range."
     }
   ]
 }
