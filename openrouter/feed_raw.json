@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T14:28:33.818905+05:30",
-      "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15, unrealized +\u20b934. Thesis intact \u2014 SENSEX 72904 below 73100 short strike, TimesFM bearish (p50 72899). Max loss \u20b920k, target \u20b930k, trail trigger \u20b910k not reached. Today -\u20b911.2k (12 trades). NIFTY 22524, stalled; NIFTY 2-leg verticals blocked by performance (20% WR, 10 trades, net negative). SENSEX already bearish (one-view rule). Only 29 min until 14:55 index exit \u2014 insufficient time for new directional setup. Managing 6746 only. Next review in 60s."
-    },
-    {
-      "time": "2026-10-23T14:29:23.021611+05:30",
-      "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15, unrealized +\u20b972. Thesis intact \u2014 SENSEX 72955 below 73100 short strike, TimesFM bearish (p50 72901). Max loss \u20b920k, target \u20b930k, trail trigger \u20b910k not reached. Today -\u20b911.2k (12 trades). NIFTY 22524, stalled; NIFTY 2-leg verticals blocked by performance (20% WR, 10 trades, net negative). SENSEX already bearish (one-view rule). Only 26 min until 14:55 index exit \u2014 insufficient time for new directional setup. Managing 6746 only. Next review in 60s."
-    },
-    {
       "time": "2026-10-23T14:31:01.952951+05:30",
       "summary": "HOLD. Active SENSEX bear put spread (6746): 24 lots 73200/73100 PE, filled 14:02, net debit \u20b945.15/lot, unrealized +\u20b99. Thesis intact \u2014 SENSEX 72,969 below 73,100 short strike, TimesFM bearish (p50 72,911). Overall SL \u20b920k, TP \u20b930k, no trail configured; profit \u20b99 far from \u20b910k trail trigger. Today -\u20b911.2k (12 trades). NIFTY 22,534, stalled; NIFTY 2-leg verticals blocked by performance (20% WR, 10 trades, net negative). SENSEX already bearish (one-view rule). Only 25 min until 14:55 index exit \u2014 insufficient time for new directional setup. Managing 6746 only; exit at 14:55 or on SL/TP. Next review in 60s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-26T11:50:19.175445+05:30",
       "summary": "HOLD. Two active bearish positions: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) +\u20b9487.50 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) +\u20b91,023 unrealized. Daily realized +\u20b9208, total ~+\u20b91,718. Both indices trending down (NIFTY 22545, SENSEX 72965; RSI ~57/60, TimesFM -0.10%/-0.11%), thesis holds. One view per index satisfied. Max loss \u20b920k respected. Trailing stops not yet triggered (profit <\u20b910k). No new entries - indices covered directionally. Will apply trailing stops via live_edit when profit reaches \u20b910k. Next review in 90s."
+    },
+    {
+      "time": "2026-10-26T12:05:31.003055+05:30",
+      "summary": "HOLD. Two active bearish positions aligned with downtrend thesis: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) +\u20b9552.50 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) -\u20b9770 unrealized. Daily realized +\u20b9208, net ~-\u20b99.50. Both indices trending down from morning highs (NIFTY 22706\u219222610, SENSEX 73492\u219273181), RSI elevated but falling, TimesFM slightly negative. One view per index satisfied, max loss \u20b920k respected, trailing stops not yet triggered (profits <\u20b910k). No new entries - both indices covered directionally. Monitoring live P&L for trailing stop activation and 14:55 exit."
+    },
+    {
+      "time": "2026-10-26T12:06:20.115508+05:30",
+      "summary": "HOLD. Two active bearish positions aligned with downtrend thesis: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) +\u20b997.50 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) -\u20b9220 unrealized. Daily realized +\u20b9208, net ~+\u20b985.50. Both indices trending down from morning highs (NIFTY 22706\u219222610, SENSEX 73492\u219273181), RSI elevated but falling, TimesFM slightly negative. One view per index satisfied, max loss \u20b920k respected, trailing stops not yet triggered (profits <\u20b910k). No new entries - both indices covered directionally. Monitoring live P&L for trailing stop activation and 14:55 exit."
     }
   ]
 }
