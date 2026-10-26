@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T12:54:49.507167+05:30",
-      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) +\u20b91,053 unrealized at critical level (spot 22,394 at short strike 22,400). SENSEX 72,900/72,800 put spread (20L) +\u20b91,960 unrealized deep ITM near max profit. Both within \u20b920k max loss, exits at 14:55. Indices at recent lows with oversold RSI (33/32) and minor TimesFM bounce forecast. One bearish view per index satisfied. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b9773 vs \u20b950k target. Monitoring NIFTY butterfly closely for bounce invalidation or downtrend continuation. No new entries until clearer directional evidence. Next review 60s."
-    },
-    {
       "time": "2026-10-23T12:56:31.542724+05:30",
       "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) +\u20b9614 unrealized at critical level (spot 22,394 at short strike 22,400). SENSEX 72,900/72,800 put spread (20L) +\u20b92,560 unrealized deep ITM near max profit. Both within \u20b920k max loss, exits at 14:55. Indices at recent lows with oversold RSI (39/40) and mixed TimesFM (NIFTY -0.28%, SENSEX +1.76%). One bearish view per index satisfied. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b9612 vs \u20b950k target. Monitoring NIFTY butterfly closely for bounce invalidation or downtrend continuation. No new entries until clearer directional evidence or existing positions resolve. Next review 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T09:48:05.250001+05:30",
       "summary": "HOLD - Two active paper positions, both within risk limits. NIFTY Iron Condor (6748, 4 lots): short 22500P/22600C, long 22450P/22650C, 1 DTE, spot 22464 challenging short put slightly ITM, unrealized +\u20b9559. SENSEX Bear Put Spread (6747, 11 lots): long 73000P/short 72900P, both ITM at spot 72723, unrealized +\u20b91,661. Combined +\u20b92,220 vs \u20b950k daily target. Both have \u20b920k overall SL, \u20b930k target. Trailing not yet triggered (\u20b910k threshold). One view per index satisfied (NIFTY neutral, SENSEX bearish). Markets down from open, TimesFM slightly bearish. Thesis holds for both. Next review in 180s to monitor trailing activation and thesis validity."
+    },
+    {
+      "time": "2026-10-26T09:51:13.836377+05:30",
+      "summary": "HOLD - Two active paper positions within risk limits. NIFTY Iron Condor (6748, 4 lots): short 22500P/22600C, long 22450P/22650C, 1 DTE, unrealized +\u20b9728. SENSEX Bear Put Spread (6747, 11 lots): long 73000P/short 72900P, unrealized +\u20b93,069. Combined +\u20b93,797 vs \u20b950k daily target. Both have \u20b920k overall SL, \u20b930k target. Trailing not yet triggered (\u20b910k threshold). One view per index satisfied (NIFTY neutral, SENSEX bearish). Markets down from open (NIFTY 22469, SENSEX 72710), TimesFM slightly bearish - thesis holds. Next review in 120s to monitor trailing activation and thesis validity."
     }
   ]
 }
