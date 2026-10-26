@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T10:16:47.536629+05:30",
-      "summary": "Holding NIFTY 27-10 bear put 22600/22500 (30 lots, debit 44.25, fully hedged, complete square-off on leg stop). Open +\u20b912,285 with NIFTY 22,478-22,505 at fresh lows (RSI 8.6, TimesFM mild bounce bias). Applied boss trail rule: overall SL cut 40,000 \u2192 \u20b92,000 max loss, so the run is now protected above break-even; leg trail already at 187 (~11 spot points of slack). Day \u2212\u20b92.1k net incl. open. No new entry: SENSEX 4-leg still refused by live record, and any bear spread duplicates the correlated NIFTY thesis at deeply oversold lows. Reassess in 5 min or on exit."
-    },
-    {
       "time": "2026-10-23T10:18:28.689703+05:30",
       "summary": "HOLD. NIFTY 27-10 bear put 22600/22500 (30 lots, debit 44.25, fully hedged) open +\u20b914.1k as NIFTY sits 22,474 (RSI 7, TimesFM mild-bounce bias). Leg trail already at 187 (~\u20b98-9k locked), overall SL \u20b92k max loss, exit 14:50 \u2014 meets the half-of-peak trail rule, so let it run to spread max. No new entry: NIFTY view already bearish (one view), SENSEX/4-leg blocked by its 25% live record, SENSEX bear spread duplicates correlated downside at fresh lows, SENSEX bull would fade a strong downtrend. Next review 5 min or on trail/exit event."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T09:52:58.108643+05:30",
       "summary": "6752 (NIFTY 1-DTE condor, 40 lots) confirmed filled at 09:52 from Core events: BUY 22,800 CE 37.10 / SELL 22,700 CE 62.10 / BUY 22,250 PE 35.10 / SELL 22,350 PE 54.55, expiry 27-10, hedges lot-matched \u2014 net credit 44.45 pts (\u20b91.16L), worst case \u2248\u20b91.44L, open P&L +\u20b91,560. Day realized +\u20b916,892.5. No new entry: NIFTY up-momentum but TimesFM flat/down-skewed, SENSEX cash/forward diverge ~230 pts (quote reliability), SENSEX/4-leg is the blocked losing shape, and no distinct directional edge \u2014 VIX slipping favours range. Manage 6752: overall SL \u20b955k, TP \u20b985k, exit 14:55; trail to break-even once open profit \u2265\u20b910k. Next review 8 min."
+    },
+    {
+      "time": "2026-10-26T09:54:02.968318+05:30",
+      "summary": "Held the open position; no new entry. 6752 (NIFTY 1-DTE condor, 40 lots, short 22700CE/22350PE, hedges lot-matched) is filled and marked -\u20b95,330 unrealized from the fresh paper P&L stream \u2014 inside its \u20b955k SL, below the \u20b910k trail trigger; stance unchanged (SL 55k, TP 85k, exit 14:55). Day realized +\u20b916,892.5. NIFTY 22,525 and SENSEX 72,897 are both in intraday up-momentum (RSI 63\u201367, above SMA20/50), but TimesFM p50s (22,491 / 72,773) sit below spot and VIX slipped to 17.7, so no directional spread clears its breakeven; SENSEX/4-leg remains the blocked losing shape. Next review 10 min; act if NIFTY closes above 22,650 or open profit \u2265\u20b910k (move SL to break-even)."
     }
   ]
 }
