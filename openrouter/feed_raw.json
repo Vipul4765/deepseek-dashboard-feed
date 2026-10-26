@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-26T09:55:39.089026+05:30",
-      "summary": "HOLD - Two active positions within risk limits: NIFTY Iron Condor (6748, 4 lots, 1 DTE) +\u20b9793; SENSEX Bear Put Spread (6747, 11 lots, 3 DTE) +\u20b9671. Combined unrealized +\u20b91,464 vs \u20b950k daily target. Both have \u20b920k overall SL, \u20b930k TP. Trailing stops not yet triggered (\u20b910k threshold). One view per index satisfied (NIFTY neutral, SENSEX bearish). Markets slightly down from open, RSI overbought (NIFTY 76, SENSEX 75), TimesFM bearish - thesis holds. NIFTY 2-leg directional win rate only 20% historically; SENSEX 2-leg 44%. No clear high-probability directional setup yet. Monitoring for trailing activation and thesis validity. Next review in 60s."
-    },
-    {
       "time": "2026-10-26T10:11:08.587992+05:30",
       "summary": "HOLD - Two active positions managed within risk limits. NIFTY Iron Condor (6748, 4 lots, 1 DTE): +\u20b952 unrealized, short call 22600 now ITM (NIFTY 22698), call spread at max loss if NIFTY\u226522650 but capped at -\u20b92,158 total; put side safe. SENSEX Bear Put Spread (6747, 11 lots, 3 DTE): -\u20b91,595 unrealized, both puts OTM (SENSEX 73479 vs short 72900), thesis holds with RSI overbought and TimesFM bearish. Both have \u20b920k SL/\u20b930k TP. Neither hit \u20b910k trailing threshold. One view per index satisfied (NIFTY neutral, SENSEX bearish). Daily target \u20b950k vs current -\u20b91,543 unrealized. Monitoring NIFTY 22650 breach for condor exit, SENSEX 73000 break for bearish confirmation. No new entry yet - awaiting clearer directional setup or condor resolution. Next review in 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T13:35:13.851041+05:30",
       "summary": "HOLD. Two active bearish positions maintained per one-view rule: NIFTY bear put butterfly 22700/22650/22600 (6755, 10 lots, expiry tomorrow) +\u20b9325 unrealized; SENSEX bear put spread 73000/72900 (6747, 11 lots, expiry 29-Oct) -\u20b9759 unrealized. Daily realized +\u20b9208, net -\u20b9226 vs \u20b950k target. Both indices down from morning highs (NIFTY 22706\u219222652, SENSEX 73492\u219273319), RSI neutral (50/47). TimesFM slightly bearish both (-0.14%, -0.11%). Max loss \u20b920k respected. Trailing stops not triggered (profits <\u20b910k threshold). No new entries - both indices covered directionally per boss directive. Monitoring live P&L for trailing activation and 14:55 exit. Next review in 3 min."
+    },
+    {
+      "time": "2026-10-26T13:50:11.368881+05:30",
+      "summary": "HOLD. Two active bearish positions maintained per one-view rule: NIFTY bear put butterfly 22700/22650/22600 (6755, 10 lots, expiry tomorrow) +\u20b9487 unrealized; SENSEX bear put spread 73000/72900 (6747, 11 lots, expiry 29-Oct) -\u20b91,551 unrealized. Daily realized +\u20b9208, net -\u20b9855 vs \u20b950k target. Both indices down from morning highs (NIFTY 22706\u219222652, SENSEX 73492\u219273319), RSI neutral (~52). TimesFM slightly bearish both (-0.14%, -0.12%). Max loss \u20b920k respected. Trailing stops not triggered (profits <\u20b910k threshold). No new entries - both indices covered directionally per boss directive. Monitoring live P&L for trailing activation and 14:55 exit. Next review in 3 min."
     }
   ]
 }
