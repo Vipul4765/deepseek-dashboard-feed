@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T11:54:52.257612+05:30",
-      "summary": "Squared off NIFTY bull call 6738 (20 lots, debit 66.7) \u2014 thesis broke as index fell ~1% to 22441, well below SMA20/50; carried \u2212\u20b94,030 unrealized. Core close requested (fills pending settlement, confirmed next review). Kept iron condor 6737 (short 22400PE/22850CE, \u2248flat, 50% leg SL on put) with overall stops. No new entry: down momentum but TimesFM flat-up and RSI off lows = no clean confirmed direction, bounce risk near lows; budget tight. Today realised \u2212\u20b94,170. Trigger: NIFTY 22400 break threatens condor short put; review 15 min."
-    },
-    {
       "time": "2026-10-23T11:56:00.787431+05:30",
       "summary": "Held only position: NIFTY iron condor 6737 (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots, 27-10) \u2014 marks from the chain put it roughly flat; short put is ~39 pts OTM at 22439, protected by leg SL 151.05, overall SL 100k and 14:55 exit. 6738 bull call already closed (-5,265). No new entry: NIFTY (RSI 31.7) and SENSEX (37.6) both stalled at day's lows with TimesFM mildly higher \u2014 no fresh direction, and extra NIFTY risk would duplicate a threatened short put. Budget 0.60/0.80 used. Trigger: 22400 break or fresh momentum impulse."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T11:24:02.726740+05:30",
       "summary": "Only open position 6753 (NIFTY 27-10 iron condor, short 23000CE/22550PE, long 23100CE/22450PE, 30 lots, hedge intact) is now -\u20b91,755 unrealized; leg SLs (84.30/134.05) and overall SL 65k with 15:20 exit remain in force. No new entry: NIFTY 22,601 / SENSEX 73,149 are choppy with only mild bearish drift (RSI 45/43, TimesFM -0.15%/-0.18%), and a bear add would duplicate the open short-put leg. AI budget is ~88% of $0.80, so cycles are being conserved. Watch 22550PE premium against 134.05."
+    },
+    {
+      "time": "2026-10-26T11:39:27.905340+05:30",
+      "summary": "Exited NIFTY condor 6753 (short 23000CE/22550PE, long 23100CE/22450PE, 30 lots) at 11:39 after NIFTY broke below its short put strike to 22,543 (RSI 25.6, below SMA20/50, TimesFM p50 22,514): fills 14.15 / 8.35 / 101.15 / 66.35, net -\u20b99,555 realized; all hedges closed, no naked leg. Today realized -\u20b98,262. No new entry: downside is extended ~160 pts off 22,706 with ~11% of AI budget left, so I can't manage a fresh 1-DTE trade. Next: reassess a bear call spread (22,600/22,700) if a bounce stalls; flat otherwise."
     }
   ]
 }
