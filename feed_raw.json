@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T12:10:50.367657+05:30",
-      "summary": "Held the only open position, NIFTY iron condor 6737 (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots, 27-10): mark +585, delta-neutral, short put ~20 pts from spot with leg SL 151.05, overall SL 100k and 14:55 exit. No new entry: NIFTY (RSI 39, below SMA20/50 after a 100-pt slide) and SENSEX (RSI 46) both stalled at range lows while TimesFM points mildly higher \u2014 no clear direction, and a second NIFTY structure would duplicate the threatened short put. Day -9,435. Trigger: 22400 break or fresh impulse."
-    },
-    {
-      "time": "2026-10-23T12:26:33.182468+05:30",
-      "summary": "HOLD. Only position: NIFTY iron condor 6737 (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots, 27-10) at mark -390, delta near flat; short put 22400 sits ~22 pts under spot 22422 near the day low, but leg SL 151, overall SL 100k and 14:55 exit cap the damage (put spread cushioned by the long 22300PE and the now-profitable call side). No new entry: NIFTY (below SMA20/50, RSI 48, flat TimesFM) and SENSEX (RSI 53, choppy) show no clear direction; a SENSEX short-put spread would duplicate 6737's put exposure and SENSEX 4-legs have a losing record. Day -9,435. Trigger: 22400 break or 22460 reclaim; review in 20 min."
-    },
-    {
       "time": "2026-10-23T12:34:34.422136+05:30",
       "summary": "HOLD. Only open run: NIFTY iron condor 6737 (short 22400PE/22850CE, long 22300PE/22950CE, 30 lots, 27-10), fresh mark -877.50, delta near flat; short put sits ~15 pts under spot 22415 but today's low 22407 held. Leg SL 151 on the put, call SL trailed to 39.6, overall SL 100k, 14:55 exit set. No new entry: NIFTY (below SMA20/50, RSI 35, sideways last 10 min, TimesFM +0.03% flat) and SENSEX (RSI 31, consolidating at day low, IV 17%) offer no fresh directional trigger; SENSEX 4-leg record negative. Day realized -9,435. Next check 13:03, or on stop/exit events."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-26T11:41:25.970542+05:30",
       "summary": "Flat after morning churn (today realized -\u20b98,262). SENSEX/NIFTY both oversold (RSI ~26) after sharp falls; TimesFM p50 slightly lower. Created and started 6756: SENSEX 29-10-2026 bear call spread, SELL 30x 73200 CE / BUY 30x 73400 CE (lot 20) \u2014 expected credit ~95.75 pts \u2248 \u20b957,450, defined worst case \u20b962,550, overall SL \u20b925,000, TP \u20b935,000, short-leg 45-pt SL with trail to break-even, exit 14:55. Start was still \"waiting\" at 11:41, so strikes/fills are unverified \u2014 reviewing in 3 min to confirm hedge. No other positions."
+    },
+    {
+      "time": "2026-10-26T11:43:00.075929+05:30",
+      "summary": "No new trade; budget nearly exhausted ($0.763/$0.80). Market open, NIFTY 22550 (RSI 39) and SENSEX 72985 (RSI 37.5) both soft, TimesFM p50 slightly lower \u2014 no fresh favorable directional entry worth adding. Only open item: strategy 6756 (SENSEX 29-10 bear call 73200/73400, 30 lots) is scheduled and has no run yet at 11:42:47; its 11:43 entry has not fired, so strikes/fills remain unverified. Today realized -\u20b98,262. Next check in ~200s to confirm 6756's entry and hedge; square off completely if the long call hedge is missing."
+    },
+    {
+      "time": "2026-10-26T11:43:33.537012+05:30",
+      "summary": "Verified strategy 6756 executed: SENSEX 29-10 bear call, SELL 73400 CE @478.25 / BUY 73600 CE @391.90, 30 lots each (Core fill events + book confirm both legs), net credit ~\u20b951,810, worst-case spread loss \u20b968,190 but overall SL \u20b925,000 and TP \u20b935,000 active, exit 14:55. Hedge intact; open P&L -\u20b930. SENSEX 72972, RSI 37.5, TimesFM mildly lower \u2014 thesis still valid. No new trade: budget at $0.778/$0.80 and no fresh candidate priced. Today realized -\u20b98,262. Next check in 15 min or on stop/exit event."
     }
   ]
 }
