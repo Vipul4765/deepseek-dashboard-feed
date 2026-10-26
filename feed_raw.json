@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T10:20:33.346378+05:30",
-      "summary": "HOLD\u2192entered. Flat after 6730 trailed out +\u20b98,092 (day now -\u20b96,315). NIFTY in a clear intraday downtrend (22,462, below SMA20/50, fresh lows, RSI 12); entered 6731 NIFTY 27-10 bear put spread: BUY 30x 22450 PE / SELL 30x 22350 PE (defined risk, hedge covered), debit ~36.5 (R:R ~1.7), overall SL \u20b938k, TP \u20b995k, leg trail + break-even, exit 14:50. Start shows waiting for 10:24 entry. No SENSEX trade (bear duplicates correlated downside; SENSEX/4-leg record poor). Next: confirm fill/strikes in 2 min."
-    },
-    {
       "time": "2026-10-23T10:21:41.564399+05:30",
       "summary": "Held. 6731 NIFTY 27-10 bear put (BUY 22450PE / SELL 22350PE, 30 lots, debit ~35, defined risk, overall SL Rs38k, TP Rs95k, exit 14:50) still waits on its 10:24 entry. NIFTY -0.9% at 22,492, below SMA20/50, RSI 25, but futures bounced to 22,542 off the 22,459 low. No new trade: a SENSEX bear spread would only duplicate the same correlated downside. Next: verify 6731 fill/strikes ~10:25; if the bounce stalls near 22,550 and fresh lows print, consider a new momentum entry."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T09:57:01.102799+05:30",
       "summary": "Held 6752 (NIFTY 1-DTE condor, verified fills: sell 22700CE 62.1 / buy 22800CE 37.1, sell 22350PE 54.55 / buy 22250PE 35.1, 40 lots, hedges lot-matched), marked -\u20b98,060, inside \u20b955k SL and below the \u20b910k trail trigger; TP \u20b985k, exit 14:55. No new entry: NIFTY 22,551 leads only 149 pts below the short call and both TimesFM p50s sit below spot, so bull call spreads price above break-even (NIFTY 22600/22750 debit 65.15 \u2192 BE 22,665; SENSEX 73000/73500 debit 258.65 \u2192 BE 73,259, resistance 73,123) and bull puts pay under 0.65 R:R. SENSEX/4-leg blocked shape. Day realized +\u20b916,892.5. Next review 10 min; act if NIFTY closes above 22,600 or open profit \u2265 \u20b910k."
+    },
+    {
+      "time": "2026-10-26T10:00:33.861998+05:30",
+      "summary": "Flat: NIFTY condor 6752 stopped -\u20b924,700; day realized -\u20b97,807.5 (4 trades, 2 win/2 loss), no open positions. No entry. Both indices running hard (NIFTY 22,621, SENSEX 73,128, RSI ~82 at 120-bar highs) on a vertical +200/+600 impulse; TimesFM p50 flat-to-down. Bull call spreads price negative EV (need >0.5\u03c3 follow-through) and an iron condor would fade this exact rally that stopped 6752. Blockers: extended entry + no +EV structure at quoted prices; SENSEX/4-leg is a blocked losing shape. Reassess 10 min: buy a pullback bull call if NIFTY holds a higher low above ~22,540, or a momentum bull call on a close above 22,700; sell a ~1-sigma condor only once a range forms."
     }
   ]
 }
