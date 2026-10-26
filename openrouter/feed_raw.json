@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T12:16:15.913719+05:30",
-      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) -\u20b9176 unrealized; SENSEX 72900/72800 put spread (20L) +\u20b91,140 unrealized. Both within \u20b920k max loss, exits at 14:55. Indices in mild downtrend (NIFTY -1.2%, SENSEX -0.7% since 10:06) with RSI neutral (59/58) and TimesFM showing minor bounce potential. One bearish view per index satisfied. Neither position hit \u20b910k trail trigger. Daily realized -\u20b93,786 vs \u20b950k target. Monitoring for bounce invalidation or downtrend continuation. Next review 90s."
-    },
-    {
       "time": "2026-10-23T12:31:54.779569+05:30",
       "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) +\u20b9263 unrealized; SENSEX 72900/72800 put spread (20L) +\u20b91,980 unrealized. Both within \u20b920k max loss, exits at 14:55. Indices in mild downtrend (NIFTY -1.2%, SENSEX -0.7% since 10:06) with RSI neutral (43/41) and TimesFM showing minor bounce potential (+0.02%/+0.02%). One bearish view per index satisfied. Neither position hit \u20b910k trail trigger. Daily realized -\u20b93,786 vs \u20b950k target. Monitoring for bounce invalidation or downtrend continuation. Next review 90s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T09:20:18.706347+05:30",
       "summary": "Session active 09:19 IST. Two paper positions running: (1) NIFTY iron condor 22500/22450/22600/22650 (4 lots) filled 09:17, unrealized +\u20b9637. (2) SENSEX bear put spread 73000/72900 (11 lots) filled 09:16, unrealized +\u20b91,738. Both have \u20b920k overall stop-loss and \u20b930k target. One view per index satisfied (NIFTY neutral, SENSEX bearish). Total unrealized +\u20b92,375 vs \u20b950k daily target. TimesFM: NIFTY +0.07%, SENSEX +0.08% (conflicts with bearish SENSEX thesis - monitor). No trailing stops yet (profit < \u20b910k threshold). No new entries: conflicting views prohibited, current setups small. Next review in 2 min to check trailing activation and thesis validity."
+    },
+    {
+      "time": "2026-10-26T09:22:19.440587+05:30",
+      "summary": "Session active 09:21 IST. Two paper positions running: (1) NIFTY iron condor 22500/22450/22600/22650 (4 lots) filled 09:17, unrealized +\u20b991, max loss \u20b92,145. (2) SENSEX bear put spread 73000/72900 (11 lots) filled 09:16, unrealized +\u20b93,685 (44% of max \u20b922k). Both have \u20b920k overall SL, \u20b930k target. One view per index satisfied (NIFTY neutral, SENSEX bearish). Markets down from open: NIFTY -86, SENSEX -349. TimesFM slightly bullish (+0.07/+0.08%) but wide bands. Trailing stops not yet triggered (\u20b910k threshold). No new entries: conflicting views prohibited, current setups small. Next review in 2 min to check trailing activation and thesis validity."
     }
   ]
 }
