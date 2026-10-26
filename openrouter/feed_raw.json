@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-26T11:26:51.861420+05:30",
-      "summary": "HOLD. Two active bearish positions intact: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) +\u20b9845 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) +\u20b9704 unrealized. Daily realized +\u20b9208, total ~+\u20b91,757. Both indices trending down (NIFTY 22577, SENSEX 73083; TimesFM -0.11%/-0.15%), thesis holds. One view per index satisfied. Max loss \u20b920k respected. Trailing stops not yet triggered (profit <\u20b910k). No new entries - indices covered directionally. Next review 90s."
-    },
-    {
       "time": "2026-10-26T11:28:21.763133+05:30",
       "summary": "HOLD. Two active bearish positions intact: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) -\u20b9618 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) +\u20b9143 unrealized. Daily realized +\u20b9208, total ~-\u20b9266. Both indices trending down (NIFTY 22583, SENSEX 73088; TimesFM -0.13%/-0.16%), thesis holds. One view per index satisfied. Max loss \u20b920k respected. Trailing stops not yet triggered (profit <\u20b910k). No new entries - indices covered directionally. Next review 90s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T15:11:03.554729+05:30",
       "summary": "Session complete - entry window closed at 14:55 IST, now 15:10. No open positions (all 3 strategies exited: NIFTY butterfly -\u20b9260, SENSEX spread -\u20b92,552, NIFTY condor +\u20b9208). Daily P&L -\u20b92,604 vs \u20b950k target. NIFTY 22,711 (RSI 51), SENSEX 73,474 (RSI 50) both range-bound, TimesFM slightly bearish. Performance shows NIFTY 4-leg condors 68% win rate, SENSEX 2-leg spreads 44% win rate. No further action possible today. Next review tomorrow 09:15."
+    },
+    {
+      "time": "2026-10-26T15:26:05.282756+05:30",
+      "summary": "Entry window closed at 14:55 IST (now 15:25). No open positions remain after today's three exits (NIFTY butterfly -\u20b9260, SENSEX bear spread -\u20b92,552, NIFTY condor +\u20b9208). Daily P&L -\u20b92,604 vs \u20b950k target. NIFTY 22,717 (RSI 65) and SENSEX 73,496 (RSI 60) both range-bound with TimesFM slightly bearish. NIFTY 4-leg condors show 68% win rate historically; SENSEX 2-leg spreads only 44%. No further entries possible today. Next actionable cycle: tomorrow 09:15 IST with fresh session."
     }
   ]
 }
