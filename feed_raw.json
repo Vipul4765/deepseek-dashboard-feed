@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T10:18:28.689703+05:30",
-      "summary": "HOLD. NIFTY 27-10 bear put 22600/22500 (30 lots, debit 44.25, fully hedged) open +\u20b914.1k as NIFTY sits 22,474 (RSI 7, TimesFM mild-bounce bias). Leg trail already at 187 (~\u20b98-9k locked), overall SL \u20b92k max loss, exit 14:50 \u2014 meets the half-of-peak trail rule, so let it run to spread max. No new entry: NIFTY view already bearish (one view), SENSEX/4-leg blocked by its 25% live record, SENSEX bear spread duplicates correlated downside at fresh lows, SENSEX bull would fade a strong downtrend. Next review 5 min or on trail/exit event."
-    },
-    {
       "time": "2026-10-23T10:20:33.346378+05:30",
       "summary": "HOLD\u2192entered. Flat after 6730 trailed out +\u20b98,092 (day now -\u20b96,315). NIFTY in a clear intraday downtrend (22,462, below SMA20/50, fresh lows, RSI 12); entered 6731 NIFTY 27-10 bear put spread: BUY 30x 22450 PE / SELL 30x 22350 PE (defined risk, hedge covered), debit ~36.5 (R:R ~1.7), overall SL \u20b938k, TP \u20b995k, leg trail + break-even, exit 14:50. Start shows waiting for 10:24 entry. No SENSEX trade (bear duplicates correlated downside; SENSEX/4-leg record poor). Next: confirm fill/strikes in 2 min."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T09:54:02.968318+05:30",
       "summary": "Held the open position; no new entry. 6752 (NIFTY 1-DTE condor, 40 lots, short 22700CE/22350PE, hedges lot-matched) is filled and marked -\u20b95,330 unrealized from the fresh paper P&L stream \u2014 inside its \u20b955k SL, below the \u20b910k trail trigger; stance unchanged (SL 55k, TP 85k, exit 14:55). Day realized +\u20b916,892.5. NIFTY 22,525 and SENSEX 72,897 are both in intraday up-momentum (RSI 63\u201367, above SMA20/50), but TimesFM p50s (22,491 / 72,773) sit below spot and VIX slipped to 17.7, so no directional spread clears its breakeven; SENSEX/4-leg remains the blocked losing shape. Next review 10 min; act if NIFTY closes above 22,650 or open profit \u2265\u20b910k (move SL to break-even)."
+    },
+    {
+      "time": "2026-10-26T09:57:01.102799+05:30",
+      "summary": "Held 6752 (NIFTY 1-DTE condor, verified fills: sell 22700CE 62.1 / buy 22800CE 37.1, sell 22350PE 54.55 / buy 22250PE 35.1, 40 lots, hedges lot-matched), marked -\u20b98,060, inside \u20b955k SL and below the \u20b910k trail trigger; TP \u20b985k, exit 14:55. No new entry: NIFTY 22,551 leads only 149 pts below the short call and both TimesFM p50s sit below spot, so bull call spreads price above break-even (NIFTY 22600/22750 debit 65.15 \u2192 BE 22,665; SENSEX 73000/73500 debit 258.65 \u2192 BE 73,259, resistance 73,123) and bull puts pay under 0.65 R:R. SENSEX/4-leg blocked shape. Day realized +\u20b916,892.5. Next review 10 min; act if NIFTY closes above 22,600 or open profit \u2265 \u20b910k."
     }
   ]
 }
