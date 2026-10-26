@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-23T12:59:06.155263+05:30",
-      "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) -\u20b9263 unrealized at critical level (spot 22,400 at short strike 22,400). SENSEX 72900/72800 put spread (20L) +\u20b91,320 unrealized deep ITM. Both within \u20b920k max loss, exits at 14:55. Indices at recent lows with oversold RSI (46/44) and mixed TimesFM (NIFTY -0.5%, SENSEX +0.02%). One bearish view per index satisfied. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b92,729 vs \u20b950k target. Monitoring NIFTY butterfly closely for bounce invalidation or downtrend continuation. No new entries until clearer directional evidence or existing positions resolve. Next review 60s."
-    },
-    {
       "time": "2026-10-23T13:13:41.740485+05:30",
       "summary": "HOLD: Two active hedged bearish positions maintained. NIFTY 22450/22400/22350 put butterfly (27L) -\u20b91,141 unrealized at critical level (spot 22,408 at short strike 22,400). SENSEX 72900/72800 put spread (20L) +\u20b91,500 unrealized deep ITM. Both within \u20b920k max loss, exits at 14:55. Indices at recent lows with mixed TimesFM (NIFTY +0.008%, SENSEX -0.011%). One bearish view per index satisfied. Neither hit \u20b910k trail trigger. Daily realized -\u20b93,786, net -\u20b93,427 vs \u20b950k target. Monitoring NIFTY butterfly closely for bounce invalidation or downtrend continuation. No new entries until clearer directional evidence or existing positions resolve. Next review 60s."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T09:55:39.089026+05:30",
       "summary": "HOLD - Two active positions within risk limits: NIFTY Iron Condor (6748, 4 lots, 1 DTE) +\u20b9793; SENSEX Bear Put Spread (6747, 11 lots, 3 DTE) +\u20b9671. Combined unrealized +\u20b91,464 vs \u20b950k daily target. Both have \u20b920k overall SL, \u20b930k TP. Trailing stops not yet triggered (\u20b910k threshold). One view per index satisfied (NIFTY neutral, SENSEX bearish). Markets slightly down from open, RSI overbought (NIFTY 76, SENSEX 75), TimesFM bearish - thesis holds. NIFTY 2-leg directional win rate only 20% historically; SENSEX 2-leg 44%. No clear high-probability directional setup yet. Monitoring for trailing activation and thesis validity. Next review in 60s."
+    },
+    {
+      "time": "2026-10-26T10:11:08.587992+05:30",
+      "summary": "HOLD - Two active positions managed within risk limits. NIFTY Iron Condor (6748, 4 lots, 1 DTE): +\u20b952 unrealized, short call 22600 now ITM (NIFTY 22698), call spread at max loss if NIFTY\u226522650 but capped at -\u20b92,158 total; put side safe. SENSEX Bear Put Spread (6747, 11 lots, 3 DTE): -\u20b91,595 unrealized, both puts OTM (SENSEX 73479 vs short 72900), thesis holds with RSI overbought and TimesFM bearish. Both have \u20b920k SL/\u20b930k TP. Neither hit \u20b910k trailing threshold. One view per index satisfied (NIFTY neutral, SENSEX bearish). Daily target \u20b950k vs current -\u20b91,543 unrealized. Monitoring NIFTY 22650 breach for condor exit, SENSEX 73000 break for bearish confirmation. No new entry yet - awaiting clearer directional setup or condor resolution. Next review in 60s."
     }
   ]
 }
