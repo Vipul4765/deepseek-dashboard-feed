@@ -1,14 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-26T10:51:22.545101+05:30",
-      "summary": "Session active at 10:51 IST. Daily P&L +\u20b9208 (target \u20b950k). Two bearish positions live: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) -\u20b965 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) -\u20b91,353 unrealized. Both indices trending down (NIFTY -0.13%, SENSEX -0.17% per TimesFM), RSI ~44/43, thesis intact. One view per index satisfied (both bearish). Max loss \u20b920k per trade enforced. No trailing stops triggered (profit <\u20b910k). Monitoring for profit trail or stop hits. Next review in 60s."
-    },
-    {
-      "time": "2026-10-26T10:52:30.901430+05:30",
-      "summary": "HOLD. Two bearish positions active: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) -\u20b9845 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) -\u20b9792 unrealized. Daily P&L +\u20b9208. Both indices trending down (TimesFM -0.12%/-0.16%), thesis intact. One view per index satisfied. Max loss \u20b920k respected. No trailing stops (profit <\u20b910k). No new entries - both indices covered directionally. Next review 60s."
-    },
-    {
       "time": "2026-10-26T11:07:31.815156+05:30",
       "summary": "HOLD. Two bearish positions active: NIFTY bear put butterfly 6755 (10 lots, 22700/22650/22600) -\u20b9260 unrealized; SENSEX bear put spread 6747 (11 lots, 73000/72900) -\u20b9242 unrealized. Daily P&L +\u20b9208. Both indices trending down (TimesFM -0.17%/-0.16%, RSI oversold), thesis intact. One view per index satisfied. Max loss \u20b920k respected (current drawdown <2%). No trailing stops (profit <\u20b910k). No new entries - both indices covered directionally. Next review 60s."
     },
@@ -159,6 +151,14 @@
     {
       "time": "2026-10-26T14:23:34.778669+05:30",
       "summary": "HOLD. Two active bearish positions maintained per one-view rule: NIFTY bear put butterfly 22700/22650/22600 (6755, 10 lots, expiry tomorrow) +\u20b9130 unrealized; SENSEX bear put spread 73000/72900 (6747, 11 lots, expiry 29-Oct) -\u20b92,244 unrealized. Daily realized +\u20b9208, net -\u20b91,906 vs \u20b950k target. Both indices off morning highs (NIFTY 22718\u219222674, SENSEX 73499\u219273351), RSI ~52 neutral. TimesFM slightly bearish both (-0.07/-0.08%). Max loss \u20b920k respected (NIFTY 0%, SENSEX 11% of stop). Trailing stops not triggered (profits <\u20b910k). No new entries - both indices covered directionally, 32 min to 14:55 forced exit. Monitoring live P&L for trailing activation and exit."
+    },
+    {
+      "time": "2026-10-26T14:24:29.172016+05:30",
+      "summary": "HOLD. Two active bearish positions maintained per one-view rule: NIFTY bear put butterfly 22700/22650/22600 (6755, 10 lots, expiry tomorrow) +\u20b965 unrealized; SENSEX bear put spread 73000/72900 (6747, 11 lots, expiry 29-Oct) -\u20b92,310 unrealized. Daily realized +\u20b9208, net -\u20b91,906 vs \u20b950k target. Both indices off morning highs (NIFTY 22718\u219222674, SENSEX 73499\u219273351), RSI ~39-41 neutral/bearish. TimesFM slightly bearish both (-0.06%). Max loss \u20b920k respected (NIFTY 0%, SENSEX 11.5% of stop). Trailing stops not triggered (profits <\u20b910k). No new entries - both indices covered directionally, 32 min to 14:55 forced exit. Monitoring live P&L for trailing activation and exit."
+    },
+    {
+      "time": "2026-10-26T14:25:50.848232+05:30",
+      "summary": "HOLD. Two active bearish positions maintained per one-view rule: NIFTY bear put butterfly 22700/22650/22600 (6755, 10 lots, expiry tomorrow) P&L ~\u20b90; SENSEX bear put spread 73000/72900 (6747, 11 lots, expiry 29-Oct) -\u20b92,002 unrealized. Daily realized +\u20b9208, net -\u20b91,794 vs \u20b950k target. Both indices off morning highs (NIFTY 22718\u219222674, SENSEX 73499\u219273351), RSI 32-35 neutral/bearish. TimesFM slightly bearish both (-0.06% to -0.08%). Max loss \u20b920k respected (NIFTY 0%, SENSEX 10% of stop). Trailing stops not triggered (profits <\u20b910k). No new entries - both indices covered directionally, 30 min to 14:55 forced exit. Monitoring live P&L for trailing activation and exit."
     }
   ]
 }
