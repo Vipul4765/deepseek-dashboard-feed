@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T11:43:52.463630+05:30",
-      "summary": "Flat: no open runs, day realized +\u20b953,078 (5 wins/2 losses) already above the \u20b950k aim. No new entry: AI budget is at 0.793/0.80 USD, so a candidate could not be priced, margin-checked or hedge-verified without risking a mid-entry cap-out. Market context also mixed \u2014 both indices pushed lower (NIFTY 22,688 RSI 30.6, SENSEX 73,402 RSI 28.2) while TimesFM path leans mildly higher, so no clean, hedge-verifiable directional edge. Next review in 30 min; if the cap blocks calls, the account stays flat with nothing at risk."
-    },
-    {
       "time": "2026-10-23T09:15:36.739287+05:30",
       "summary": "Flat, no open runs, today P&L \u20b90, AI budget fresh (0.0/0.80). NSE/BSE sessions open (09:15\u201315:40). Both indices gapped up: NIFTY ~22,739 vs 22,687 close, SENSEX ~73,535 vs 73,249, futures at a premium (NIFTY fut 22,803, SENSEX fut 73,615) \u2014 mildly bullish, TimesFM flat-to-up. But at 09:15:00 there are zero completed intraday candles, so fresh price-action direction/momentum cannot yet be confirmed; no trade forced. Next review in ~3 min: once opening bars print, if the gap holds with up-momentum, enter a defined-risk NIFTY/SENSEX bull call or bull put spread with stop, trail and 14:55 exit."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-26T09:20:07.283807+05:30",
       "summary": "Flat, no open runs, \u20b90 today. Session open; NIFTY 22,447 and SENSEX 72,678 both down ~0.7% at the bottom of Friday's range (NIFTY 22,419\u201322,600), VIX +5% to 17.65, but TimesFM mildly up \u2014 mixed, whipsawing first 4 minutes. No entry: opening range undefined and direction conflicting, so both a 1-DTE short-premium condor (put side at risk) and a bear/bull debit spread lack edge. Review in ~9 min (~09:28); trigger: decisive NIFTY break of 22,419 \u2192 bear put spread; reclaim of 22,520 \u2192 bull spread; else condor with strikes outside range."
+    },
+    {
+      "time": "2026-10-26T09:29:29.265747+05:30",
+      "summary": "Added a directional bearish trade to the mix: NIFTY 1-DTE bear call spread 22,600/22,700 (Sell 35x CE otm_4 / Buy 35x CE otm_6, 27-10), strategy 6749, entry 09:30, exit 14:55. Thesis: ~0.8% gap-down, lower lows below all SMAs, RSI 37, VIX +6% \u2192 wins on continued weakness or flat, loses only on a strong rally. Defined risk: max loss ~\u20b9162.9k at full width; overall SL \u20b970k caps it, target \u20b945k, trailing SL on short leg. Margin ~\u20b91.55M upfront (capital ample). No open positions before; 0 P&L today. Next check in ~2 min to confirm fill + hedge."
     }
   ]
 }
