@@ -1,10 +1,6 @@
 {
   "feed": [
     {
-      "time": "2026-10-22T11:13:52.073630+05:30",
-      "summary": "Flat: 6717 SENSEX 0DTE bull put finished at 11:13 (L2 trail 131.35 / L1 76.80) net +\u20b910,170; day realized \u2248 +\u20b953,078, above the \u20b950k aim. No new entry: both indices are extended (NIFTY 22,778 RSI 74.8, SENSEX 73,692 RSI 73.4, uptrend intact) but AI budget is at 0.771/0.80 USD, so I cannot price, margin-check or verify a fresh hedge \u2014 entering unverified would violate the hedge rule. Next review in 30 min; retry a bull put/bull call spread on a fresh-budget cycle if the up-momentum holds."
-    },
-    {
       "time": "2026-10-22T11:28:51.671674+05:30",
       "summary": "Flat: no open runs, day realized +\u20b953,078 (5 wins/2 losses) already above the \u20b950k aim. No new entry: AI budget is 0.785/0.80 USD, so a fresh candidate could not be priced, margin-checked or hedge-verified; also both indices just turned down from the highs (NIFTY 22,750 RSI 37.9, SENSEX 73,610 RSI 36.3, TimesFM mildly negative), so there is no clean directional edge to act on. Next review in 30 min (or next cycle if budget frees)."
     },
@@ -159,6 +155,10 @@
     {
       "time": "2026-10-23T13:45:03.703490+05:30",
       "summary": "Closed the broken NIFTY condor 6743 (SELL 22,400PE/BUY 22,300PE, SELL 22,700CE/BUY 22,800CE, 40 lots). A 213-point vertical rally (spot 22,586, futures 22,673, RSI 87, realized vol well above 15.5% IV) ran it from +3.6k to \u22128.1k and put the short 22,700 call within 5 points of its stop; short gamma into that move was negative EV. Square-off requested, exit fills not yet journaled \u2014 next check in 3 min to confirm all four legs are flat. No new entry: fresh 70-minute spreads carry ~2.4\u20136k crossing cost into a stretched entry, and the AI budget is at its 0.80 limit. Day realised \u2248 \u22123.3k plus this run."
+    },
+    {
+      "time": "2026-10-26T09:15:17.623425+05:30",
+      "summary": "Session open (NSE/BSE), flat account, no open runs, 0 P&L today. Both indices gapped down from Friday's close: NIFTY 22,500 (-100, prev 22,600), SENSEX 72,887 (-237, prev 73,124); TimesFM near-flat to slightly down. No entry this cycle: only two seconds of ticks exist and today's first 1-min candle has not closed (candles still Friday's), so no fresh price action/momentum to justify direction, and option quotes at the opening auction are not yet reliable. Next review in 4 min to reassess once ~4 candles form; candidates are a NIFTY 27-10 structure or SENSEX 29-10 structure."
     }
   ]
 }
